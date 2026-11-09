@@ -1,0 +1,220 @@
+{
+  "base": "/",
+  "locales": [
+    "en",
+    "zh",
+    "es"
+  ],
+  "routes": [
+    {
+      "lang": "en",
+      "route": "",
+      "url": "/"
+    },
+    {
+      "lang": "en",
+      "route": "products",
+      "url": "/products/"
+    },
+    {
+      "lang": "en",
+      "route": "notes",
+      "url": "/notes/"
+    },
+    {
+      "lang": "en",
+      "route": "about",
+      "url": "/about/"
+    },
+    {
+      "lang": "en",
+      "route": "privacy",
+      "url": "/privacy/"
+    },
+    {
+      "lang": "en",
+      "route": "products/grammarly",
+      "url": "/products/grammarly/"
+    },
+    {
+      "lang": "en",
+      "route": "products/todoist",
+      "url": "/products/todoist/"
+    },
+    {
+      "lang": "en",
+      "route": "products/jotform",
+      "url": "/products/jotform/"
+    },
+    {
+      "lang": "en",
+      "route": "products/veed",
+      "url": "/products/veed/"
+    },
+    {
+      "lang": "en",
+      "route": "products/quillbot",
+      "url": "/products/quillbot/"
+    },
+    {
+      "lang": "en",
+      "route": "products/carrd",
+      "url": "/products/carrd/"
+    },
+    {
+      "lang": "en",
+      "route": "notes/writing-workflow",
+      "url": "/notes/writing-workflow/"
+    },
+    {
+      "lang": "en",
+      "route": "notes/multilingual-feedback",
+      "url": "/notes/multilingual-feedback/"
+    },
+    {
+      "lang": "en",
+      "route": "notes/free-video-export",
+      "url": "/notes/free-video-export/"
+    },
+    {
+      "lang": "zh",
+      "route": "",
+      "url": "/zh/"
+    },
+    {
+      "lang": "zh",
+      "route": "products",
+      "url": "/zh/products/"
+    },
+    {
+      "lang": "zh",
+      "route": "notes",
+      "url": "/zh/notes/"
+    },
+    {
+      "lang": "zh",
+      "route": "about",
+      "url": "/zh/about/"
+    },
+    {
+      "lang": "zh",
+      "route": "privacy",
+      "url": "/zh/privacy/"
+    },
+    {
+      "lang": "zh",
+      "route": "products/grammarly",
+      "url": "/zh/products/grammarly/"
+    },
+    {
+      "lang": "zh",
+      "route": "products/todoist",
+      "url": "/zh/products/todoist/"
+    },
+    {
+      "lang": "zh",
+      "route": "products/jotform",
+      "url": "/zh/products/jotform/"
+    },
+    {
+      "lang": "zh",
+      "route": "products/veed",
+      "url": "/zh/products/veed/"
+    },
+    {
+      "lang": "zh",
+      "route": "products/quillbot",
+      "url": "/zh/products/quillbot/"
+    },
+    {
+      "lang": "zh",
+      "route": "products/carrd",
+      "url": "/zh/products/carrd/"
+    },
+    {
+      "lang": "zh",
+      "route": "notes/writing-workflow",
+      "url": "/zh/notes/writing-workflow/"
+    },
+    {
+      "lang": "zh",
+      "route": "notes/multilingual-feedback",
+      "url": "/zh/notes/multilingual-feedback/"
+    },
+    {
+      "lang": "zh",
+      "route": "notes/free-video-export",
+      "url": "/zh/notes/free-video-export/"
+    },
+    {
+      "lang": "es",
+      "route": "",
+      "url": "/es/"
+    },
+    {
+      "lang": "es",
+      "route": "products",
+      "url": "/es/products/"
+    },
+    {
+      "lang": "es",
+      "route": "notes",
+      "url": "/es/notes/"
+    },
+    {
+      "lang": "es",
+      "route": "about",
+      "url": "/es/about/"
+    },
+    {
+      "lang": "es",
+      "route": "privacy",
+      "url": "/es/privacy/"
+    },
+    {
+      "lang": "es",
+      "route": "products/grammarly",
+      "url": "/es/products/grammarly/"
+    },
+    {
+      "lang": "es",
+      "route": "products/todoist",
+      "url": "/es/products/todoist/"
+    },
+    {
+      "lang": "es",
+      "route": "products/jotform",
+      "url": "/es/products/jotform/"
+    },
+    {
+      "lang": "es",
+      "route": "products/veed",
+      "url": "/es/products/veed/"
+    },
+    {
+      "lang": "es",
+      "route": "products/quillbot",
+      "url": "/es/products/quillbot/"
+    },
+    {
+      "lang": "es",
+      "route": "products/carrd",
+      "url": "/es/products/carrd/"
+    },
+    {
+      "lang": "es",
+      "route": "notes/writing-workflow",
+      "url": "/es/notes/writing-workflow/"
+    },
+    {
+      "lang": "es",
+      "route": "notes/multilingual-feedback",
+      "url": "/es/notes/multilingual-feedback/"
+    },
+    {
+      "lang": "es",
+      "route": "notes/free-video-export",
+      "url": "/es/notes/free-video-export/"
+    }
+  ]
+}
