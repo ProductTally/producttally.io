@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Field notes — ProductTally</title>
-  <meta name="description" content="Go beyond the feature list. See the steps, the output, and the trade-offs.">
+  <title>Guide Library — ProductTally</title>
+  <meta name="description" content="Practical articles on choosing and using digital products. Browse by topic or search for a task.">
   <meta name="theme-color" content="#FBF8F3">
   <link rel="canonical" href="https://producttally.com/notes/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/notes/">
@@ -12,18 +12,18 @@
   <link rel="alternate" hreflang="es" href="https://producttally.com/es/notes/">
   <link rel="alternate" hreflang="x-default" href="https://producttally.com/notes/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Field notes — ProductTally">
-  <meta property="og:description" content="Go beyond the feature list. See the steps, the output, and the trade-offs.">
+  <meta property="og:title" content="Guide Library — ProductTally">
+  <meta property="og:description" content="Practical articles on choosing and using digital products. Browse by topic or search for a task.">
   <meta property="og:url" content="https://producttally.com/notes/">
   <meta property="og:image" content="https://producttally.com/assets/producttally-icon.png">
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
   <meta property="og:locale:alternate" content="es_ES">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Field notes — ProductTally">
-  <meta name="twitter:description" content="Go beyond the feature list. See the steps, the output, and the trade-offs.">
+  <meta name="twitter:title" content="Guide Library — ProductTally">
+  <meta name="twitter:description" content="Practical articles on choosing and using digital products. Browse by topic or search for a task.">
   <meta name="twitter:image" content="https://producttally.com/assets/producttally-icon.png">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Field notes","description":"Go beyond the feature list. See the steps, the output, and the trade-offs.","url":"https://producttally.com/notes/","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"ProductTally","url":"https://producttally.com/","inLanguage":"en","publisher":{"@type":"Organization","name":"ProductTally","url":"https://producttally.com/"}}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Guide Library","description":"Practical articles on choosing and using digital products. Browse by topic or search for a task.","url":"https://producttally.com/notes/","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"ProductTally","url":"https://producttally.com/","inLanguage":"en","publisher":{"@type":"Organization","name":"ProductTally","url":"https://producttally.com/"}}}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style.css">
@@ -37,24 +37,54 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
-        <nav class="primary-nav" aria-label="Primary navigation"><a href="/products/">Discover products</a><a href="/notes/" aria-current="page">Field notes</a><a href="/about/">Our approach</a></nav>
+        <nav class="primary-nav" aria-label="Primary navigation"><a href="/products/">Products</a><a href="/notes/" aria-current="page">Guides</a><a href="/about/">Our approach</a><a href="/pricing/">Review service</a></nav>
         <div class="language-control">
-          <wa-select data-locale size="small" hoist with-start value="/notes/">
-            <span slot="label" class="visually-hidden">Language</span>
-            <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg></span>
-            <wa-option value="/notes/" lang="en" translate="no" selected>English</wa-option><wa-option value="/zh/notes/" lang="zh-CN" translate="no">简体中文</wa-option><wa-option value="/es/notes/" lang="es" translate="no">Español</wa-option>
-          </wa-select>
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Language </span><span translate="no">English</span>
+            </wa-button>
+            <wa-dropdown-item href="/notes/" lang="en" translate="no" aria-current="page">
+      English
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/notes/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item><wa-dropdown-item href="/es/notes/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item>
+          </wa-dropdown>
           <nav class="language-fallback" aria-label="Language"><a href="/notes/" lang="en" hreflang="en" translate="no">English</a><a href="/zh/notes/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a><a href="/es/notes/" lang="es" hreflang="es" translate="no">Español</a></nav>
         </div>
       </div>
     </header>
-  <main id="main" tabindex="-1"><section class="wrap section page-index">
-    <header class="section-heading">
-      <p class="eyebrow">FROM THE WORKBENCH</p>
-      <h1>Small experiments. Useful takeaways.</h1>
-      <p class="lead">Go beyond the feature list. See the steps, the output, and the trade-offs.</p>
+  <main id="main" tabindex="-1"><section class="wrap product-square" aria-labelledby="guides-title">
+    <header class="square-heading">
+      <p class="eyebrow"><span translate="no">ProductTally</span> / Learn</p>
+      <h1 id="guides-title">Guide Library</h1>
+      <p class="lead">Practical articles on choosing and using digital products. Browse by topic or search for a task.</p>
     </header>
-    <div class="note-grid"><article class="note-card">
+    <div class="catalog" data-catalog data-result-plural="guides"
+    data-result-single="guide" data-locale-format="en-US">
+    <div class="catalog-controls">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="Search guides or topics…" autocomplete="off">
+        <span slot="label" class="visually-hidden">Search guides</span>
+        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+      </wa-input>
+      <div class="filters" role="group" aria-label="Filter guides"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    All guides
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Writing
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Video
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Web &amp; forms
+  </wa-button></div>
+    </div>
+    <div class="catalog-meta" role="status"><span data-result-count>3</span> <span data-result-word>guides</span></div>
+    <div class="note-grid"><article class="note-card" data-catalog-item="writing-workflow" data-category="writing" data-search="One paragraph. Two ways to check it. What a small English proofreading test showed us about Grammarly and QuillBot. Writing Start with a controlled sample The correction is only part of the job Check how your text leaves the product Choose around your actual workflow">
       <div class="note-art art-writing" aria-hidden="true">
     <div class="art-grid"></div>
     <div class="art-sheet sheet-under"></div>
@@ -65,7 +95,7 @@
         <h2><a href="/notes/writing-workflow/">One paragraph. Two ways to check it.</a></h2>
         <p>What a small English proofreading test showed us about Grammarly and QuillBot.</p>
       </div>
-    </article><article class="note-card">
+    </article><article class="note-card" data-catalog-item="multilingual-feedback" data-category="web" data-search="A feedback form that speaks more than one language. From bilingual fields to a CSV you can actually use. Web &amp; forms Keep the first form small Test the round trip Look at the narrow version Keep the next questions visible">
       <div class="note-art art-forms" aria-hidden="true">
     <div class="art-grid"></div>
     <div class="art-sheet sheet-under"></div>
@@ -76,7 +106,7 @@
         <h2><a href="/notes/multilingual-feedback/">A feedback form that speaks more than one language.</a></h2>
         <p>From bilingual fields to a CSV you can actually use.</p>
       </div>
-    </article><article class="note-card">
+    </article><article class="note-card" data-catalog-item="free-video-export" data-category="video" data-search="What is actually inside a free video export? A five-second VEED experiment, checked beyond the success screen. Video A deliberately simple clip Check contrast before rendering Open the output, not just the result page Stay within the evidence">
       <div class="note-art art-video" aria-hidden="true">
     <div class="art-grid"></div>
     <div class="art-sheet sheet-under"></div>
@@ -88,6 +118,12 @@
         <p>A five-second VEED experiment, checked beyond the success screen.</p>
       </div>
     </article></div>
+    <div class="empty-state" hidden>
+      <p class="empty-title">No matching guides</p>
+      <p>Try another topic or clear the filters.</p>
+      <wa-button class="text-button" data-reset appearance="plain">Clear filters <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
+    </div>
+  </div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">
@@ -96,9 +132,10 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>A quieter corner of the internet for better products.</p></div>
       <nav aria-label="Footer navigation">
-        <a href="/products/">Discover products</a>
-        <a href="/notes/">Field notes</a>
+        <a href="/products/">Products</a>
+        <a href="/notes/">Guides</a>
         <a href="/about/">About the project</a>
+        <a href="/pricing/">Review service</a>
         <a href="/privacy/">Privacy</a>
       </nav>
     </div>

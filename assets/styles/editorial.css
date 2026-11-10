@@ -1,43 +1,10 @@
-.hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.38fr) minmax(0, 1fr);
-  gap: clamp(1.8rem, 6vw, 6rem);
-  align-items: center;
-  padding-block: var(--section-space);
-}
-.hero-copy { display: grid; gap: clamp(.9rem, 2vw, 1.4rem); }
-.hero-kicker { display: flex; align-items: center; gap: .55rem; }
-.hero-kicker span { inline-size: .55rem; block-size: .55rem; flex: none; background: var(--accent); border-radius: 50%; }
-.hero h1 { font-size: clamp(2.85rem, 6.3vw, 6.2rem); letter-spacing: -.06em; line-height: .99; }
-.hero h1 em { display: block; color: var(--accent); font-weight: inherit; }
-html[lang="zh-CN"] .hero h1 { letter-spacing: -.03em; line-height: 1.16; }
-html[lang="zh-CN"] .hero h1 em { font-style: normal; }
-.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem 1.3rem; margin-block-start: .25rem; }
-.featured-note {
-  background: var(--night);
-  color: var(--night-ink);
-  padding: clamp(1rem, 3vw, 1.65rem);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-}
-.featured-note .eyebrow { display: flex; justify-content: space-between; gap: .75rem; color: var(--night-muted); }
-.featured-note .note-art { margin-block: 1rem; }
-.featured-note h2 { font-size: clamp(1.45rem, 2.65vw, 2.25rem); margin-block-end: .6rem; }
-.featured-note a { text-decoration: none; }
-.featured-note a:hover { text-decoration: underline; color: inherit; }
-.featured-note a:focus-visible { outline-color: var(--night-ink); }
-.featured-note p:last-child { color: var(--night-muted); font-size: .95rem; }
-.featured-note .icon { inline-size: 1rem; block-size: 1rem; }
-.principles { background: var(--wash); border-block: 1px solid var(--line); }
-.principles ul { padding: .95rem 0; margin-block: 0; list-style: none; display: flex; justify-content: space-between; flex-wrap: wrap; gap: .55rem 1.25rem; }
-.principles li { display: flex; align-items: center; gap: .45rem; font-size: .88rem; }
-.principles .icon { color: var(--accent); }
-.notes-band { border-block: 1px solid var(--line); background: var(--wash); }
 .note-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
-.note-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: clip; }
+.note-card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: clip; }
+.note-card:hover, .note-card:focus-within { border-color: var(--accent); }
 .note-copy { padding: 1.2rem; display: grid; gap: .55rem; }
 .note-copy h2 { font-size: clamp(1.25rem, 2.4vw, 1.8rem); }
 .note-copy h2 a, .note-copy h3 a { text-decoration: none; }
+.note-copy h2 a::after, .note-copy h3 a::after { position: absolute; inset: 0; content: ""; }
 .note-copy h2 a:hover, .note-copy h3 a:hover { text-decoration: underline; }
 .note-copy p:last-child { color: var(--muted); font-size: .95rem; }
 .note-art {
@@ -52,7 +19,6 @@ html[lang="zh-CN"] .hero h1 em { font-style: normal; }
   background: var(--art-base);
   color: var(--night);
 }
-.featured-note .note-art { border-radius: calc(var(--radius) / 2); }
 .art-forms { --art-base: #acb9a0; --art-paper: #e8eddb; }
 .art-video { --art-base: #bf966f; --art-paper: #f1dbc3; }
 .art-grid {
@@ -89,7 +55,6 @@ html[lang="zh-CN"] .hero h1 em { font-style: normal; }
 .method-steps li > span { color: var(--accent); font-family: var(--mono); }
 .method-steps h3 { margin-block-end: .35rem; }
 @media (max-width: 48rem) {
-  .hero, .method { grid-template-columns: minmax(0, 1fr); }
-  .hero h1 { font-size: clamp(2.65rem, 10vw, 4.8rem); }
+  .method { grid-template-columns: minmax(0, 1fr); }
   .note-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
 }

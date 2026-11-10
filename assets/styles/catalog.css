@@ -1,6 +1,6 @@
 .catalog-controls {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: .9rem 1.25rem;
@@ -13,7 +13,7 @@
 .product-card {
   position: relative;
   display: grid;
-  grid-template-rows: auto auto auto 1fr auto;
+  grid-template-rows: auto auto 1fr auto;
   gap: .5rem;
   background: var(--surface);
   border: 1px solid var(--line);
@@ -21,11 +21,12 @@
   padding: 1.2rem;
 }
 .product-card:hover, .product-card:focus-within { border-color: var(--accent); }
-.card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-block-end: .45rem; }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: .5rem; margin-block-end: .45rem; }
 .product-mark {
   display: grid;
   place-items: center;
   inline-size: 3.05rem;
+  flex: none;
   aspect-ratio: 1;
   border-radius: var(--radius);
   background: var(--tint);
@@ -54,3 +55,22 @@
 @media (max-width: 58rem) { .catalog-controls .search { flex: 1 1 100%; max-inline-size: 34rem; } }
 @media (max-width: 53rem) { .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 33rem) { .product-grid { grid-template-columns: minmax(0, 1fr); } }
+
+.product-square { padding-block: clamp(2rem, 5vw, 4.5rem) var(--section-space); }
+.square-heading {
+  display: grid;
+  justify-items: start;
+  gap: .7rem;
+  margin-block-end: clamp(1.3rem, 3.5vw, 2.35rem);
+}
+.square-heading h1 { font-size: clamp(2.35rem, 6vw, 4.65rem); letter-spacing: -.035em; }
+.square-heading .lead { max-inline-size: 64ch; }
+.card-actions { display: flex; flex-wrap: wrap; justify-content: end; align-items: center; gap: .25rem; }
+.product-tag {
+  padding: .2rem .55rem;
+  border-radius: var(--radius-pill);
+  background: var(--wash);
+  color: var(--muted);
+  font-size: .77rem;
+  font-weight: 650;
+}

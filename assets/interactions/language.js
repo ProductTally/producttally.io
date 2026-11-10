@@ -1,14 +1,14 @@
 export function initLanguageSwitcher() {
-  const select = document.querySelector('[data-locale]');
-  if (!select) return;
+  const menu = document.querySelector('[data-locale]');
+  if (!menu) return;
 
-  select.addEventListener('change', () => {
-    if (!select.value) return;
-    const target = new URL(select.value, window.location.href);
-    target.search = window.location.search;
-    target.hash = window.location.hash;
-    window.location.assign(target);
+  menu.addEventListener('wa-show', () => {
+    const { search, hash } = window.location;
+    for (const item of menu.querySelectorAll('wa-dropdown-item[href]')) {
+      const target = new URL(item.href, window.location.href);
+      item.href = `${target.pathname}${search}${hash}`;
+    }
   });
 
-  select.parentElement.dataset.ready = 'true';
+  menu.parentElement.dataset.ready = 'true';
 }

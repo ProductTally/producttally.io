@@ -10,9 +10,9 @@ export function initCatalog(catalog, saved) {
   const buttons = [...catalog.querySelectorAll('[data-filter]')];
   const locale = catalog.dataset.localeFormat;
   const number = new Intl.NumberFormat(locale);
-  const cards = [...catalog.querySelectorAll('[data-tool]')].map(element => ({
+  const cards = [...catalog.querySelectorAll('[data-catalog-item]')].map(element => ({
     element,
-    id: element.dataset.tool,
+    id: element.dataset.catalogItem,
     category: element.dataset.category,
     search: normalizeSearch(element.dataset.search, locale)
   }));
@@ -41,7 +41,7 @@ export function initCatalog(catalog, saved) {
     let visible = 0;
     for (const card of cards) {
       const matchesCategory = activeCategory === 'all' || card.category === activeCategory ||
-        (activeCategory === 'saved' && saved.has(card.id));
+        (activeCategory === 'saved' && saved?.has(card.id));
       const matches = matchesCategory && terms.every(term => card.search.includes(term));
       card.element.hidden = !matches;
       if (matches) visible += 1;
@@ -74,7 +74,7 @@ export function initCatalog(catalog, saved) {
     readUrl();
     render();
   });
-  saved.onChange(render);
+  saved?.onChange(render);
   readUrl();
   render();
 }

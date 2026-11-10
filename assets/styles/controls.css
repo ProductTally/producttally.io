@@ -27,36 +27,67 @@ html.wa-theme-default {
 .text-link:hover { color: var(--accent-dark); }
 .detail-aside .action { inline-size: 100%; text-align: center; }
 
-wa-button, wa-input, wa-select, wa-toast { font-family: var(--body); }
+wa-button, wa-input, wa-dropdown, wa-toast { font-family: var(--body); }
 wa-button:not(:defined), wa-input:not(:defined), wa-toast:not(:defined) { display: none; }
 wa-button::part(button) { font-family: var(--body); font-weight: 650; }
 wa-button::part(button):focus-visible,
-wa-input:focus-within::part(input-wrapper),
-wa-select:focus-within::part(combobox) {
+wa-input:focus-within::part(input-wrapper) {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
-.language-control wa-select { display: block; inline-size: clamp(8rem, 25vw, 11rem); }
-.language-control wa-select::part(combobox) {
-  min-block-size: 2.6rem;
-  background: var(--surface);
+.language-trigger::part(button) {
+  min-block-size: 2.65rem;
+  padding-inline: .7rem;
+  border-radius: var(--radius-pill);
   color: var(--ink);
-  border-color: var(--line);
-  border-radius: var(--radius);
-  box-shadow: none;
-  padding-inline: .55rem;
-  --wa-form-control-padding-inline: .35rem;
+  font-size: .88rem;
+  white-space: nowrap;
 }
-.language-control wa-select::part(display-input) { font: 650 .88rem/1.25 var(--body); }
-.language-control wa-select::part(listbox) { color: var(--ink); border-radius: var(--radius); box-shadow: var(--shadow); }
-.language-control wa-option { --current-text-color: var(--surface); }
-.language-control wa-option::part(label) { white-space: nowrap; }
-.language-control .icon { inline-size: 1rem; block-size: 1rem; }
+.language-trigger:hover::part(button),
+.language-control wa-dropdown[open] .language-trigger::part(button) {
+  background: var(--wash);
+  color: var(--accent);
+}
+.language-control .icon {
+  inline-size: 1rem;
+  block-size: 1rem;
+  margin-inline-end: .25rem;
+}
+.language-control wa-dropdown::part(menu) {
+  inline-size: min(13.5rem, calc(100vw - 2rem));
+  max-block-size: min(22rem, 60vh);
+  overscroll-behavior: contain;
+  padding: .35rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: .85rem;
+  box-shadow: var(--shadow);
+}
+.language-control wa-dropdown-item {
+  min-block-size: 2.55rem;
+  color: var(--ink);
+  border-radius: var(--radius);
+  font-size: .92rem;
+}
+.language-control wa-dropdown-item[aria-current="page"] {
+  color: var(--accent);
+  background: var(--accent-wash);
+  font-weight: 700;
+}
+.language-control wa-dropdown-item:state(active) {
+  color: var(--ink);
+  background: var(--wash);
+}
+.language-control wa-dropdown-item:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: -2px;
+}
+.language-control wa-dropdown-item::part(details) { color: var(--accent); }
 .search { inline-size: min(100%, 18rem); }
 .search::part(input-wrapper) { min-block-size: 2.75rem; border-color: var(--line); background: var(--surface); color: var(--ink); border-radius: var(--radius); }
 .search::part(input) { font: inherit; }
 .filter::part(button) {
-  min-block-size: 2.75rem;
+  min-block-size: 2.6rem;
   padding-inline: .75rem;
   color: var(--ink);
   background: var(--surface);
@@ -65,7 +96,7 @@ wa-select:focus-within::part(combobox) {
   white-space: normal;
 }
 .filter:hover::part(button) { border-color: var(--accent); }
-.filter[aria-pressed="true"]::part(button) { background: var(--night); border-color: var(--night); color: var(--night-ink); }
+.filter[aria-pressed="true"]::part(button) { background: var(--accent-wash); border-color: var(--accent); color: var(--accent-dark); }
 [data-saved-count] { font-variant-numeric: tabular-nums; }
 .save-button { position: relative; z-index: 1; }
 .save-button::part(button), .save-wide::part(button), .text-button::part(button) {

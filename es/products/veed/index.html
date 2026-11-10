@@ -37,13 +37,21 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
-        <nav class="primary-nav" aria-label="Navegación principal"><a href="/es/products/" aria-current="location">Descubrir productos</a><a href="/es/notes/">Notas de uso</a><a href="/es/about/">Nuestro criterio</a></nav>
+        <nav class="primary-nav" aria-label="Navegación principal"><a href="/es/products/" aria-current="location">Productos</a><a href="/es/notes/">Guías</a><a href="/es/about/">Nuestro criterio</a><a href="/es/pricing/">Reseñas por encargo</a></nav>
         <div class="language-control">
-          <wa-select data-locale size="small" hoist with-start value="/es/products/veed/">
-            <span slot="label" class="visually-hidden">Idioma</span>
-            <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg></span>
-            <wa-option value="/products/veed/" lang="en" translate="no">English</wa-option><wa-option value="/zh/products/veed/" lang="zh-CN" translate="no">简体中文</wa-option><wa-option value="/es/products/veed/" lang="es" translate="no" selected>Español</wa-option>
-          </wa-select>
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Idioma </span><span translate="no">Español</span>
+            </wa-button>
+            <wa-dropdown-item href="/products/veed/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/zh/products/veed/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item><wa-dropdown-item href="/es/products/veed/" lang="es" translate="no" aria-current="page">
+      Español
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
           <nav class="language-fallback" aria-label="Idioma"><a href="/products/veed/" lang="en" hreflang="en" translate="no">English</a><a href="/zh/products/veed/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a><a href="/es/products/veed/" lang="es" hreflang="es" translate="no">Español</a></nav>
         </div>
       </div>
@@ -89,9 +97,10 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>Un rincón tranquilo de internet para encontrar mejores productos.</p></div>
       <nav aria-label="Navegación del pie de página">
-        <a href="/es/products/">Descubrir productos</a>
-        <a href="/es/notes/">Notas de uso</a>
+        <a href="/es/products/">Productos</a>
+        <a href="/es/notes/">Guías</a>
         <a href="/es/about/">Sobre el proyecto</a>
+        <a href="/es/pricing/">Reseñas por encargo</a>
         <a href="/es/privacy/">Privacidad</a>
       </nav>
     </div>

@@ -6,20 +6,20 @@ ProductTally publishes practical product observations, comparisons, and guides. 
 
 ## English
 - [Back to home](https://producttally.com/)
-- [Discover products](https://producttally.com/products/)
-- [Field notes](https://producttally.com/notes/)
+- [Products](https://producttally.com/products/)
+- [Guides](https://producttally.com/notes/)
 - [About the project](https://producttally.com/about/)
 
 ## 简体中文
 - [回到首页](https://producttally.com/zh/)
-- [发现产品](https://producttally.com/zh/products/)
-- [使用手记](https://producttally.com/zh/notes/)
+- [产品广场](https://producttally.com/zh/products/)
+- [指南文章](https://producttally.com/zh/notes/)
 - [关于这个项目](https://producttally.com/zh/about/)
 
 ## Español
 - [Volver al inicio](https://producttally.com/es/)
-- [Descubrir productos](https://producttally.com/es/products/)
-- [Notas de uso](https://producttally.com/es/notes/)
+- [Productos](https://producttally.com/es/products/)
+- [Guías](https://producttally.com/es/notes/)
 - [Sobre el proyecto](https://producttally.com/es/about/)
 
 ## Editorial principles

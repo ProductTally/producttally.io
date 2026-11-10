@@ -23,6 +23,11 @@
     },
     {
       "lang": "en",
+      "route": "pricing",
+      "url": "/pricing/"
+    },
+    {
+      "lang": "en",
       "route": "about",
       "url": "/about/"
     },
@@ -93,6 +98,11 @@
     },
     {
       "lang": "zh",
+      "route": "pricing",
+      "url": "/zh/pricing/"
+    },
+    {
+      "lang": "zh",
       "route": "about",
       "url": "/zh/about/"
     },
@@ -160,6 +170,11 @@
       "lang": "es",
       "route": "notes",
       "url": "/es/notes/"
+    },
+    {
+      "lang": "es",
+      "route": "pricing",
+      "url": "/es/pricing/"
     },
     {
       "lang": "es",

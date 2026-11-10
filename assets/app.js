@@ -7,17 +7,19 @@ async function register(...names) {
 }
 
 async function setupLanguage() {
-  await register('select');
+  await register('dropdown', 'button');
   initLanguageSwitcher();
 }
 
-async function setupProducts() {
+async function setupCatalog() {
   const catalog = document.querySelector('[data-catalog]');
-  if (!catalog && !document.querySelector('[data-save]')) return;
+  const hasSaveControls = Boolean(document.querySelector('[data-save]'));
+  if (!catalog && !hasSaveControls) return;
 
   await register('button', ...(catalog ? ['input'] : []));
-  const { initSavedProducts } = await import('./interactions/saved.js');
-  const saved = initSavedProducts();
+  const saved = hasSaveControls
+    ? (await import('./interactions/saved.js')).initSavedProducts()
+    : undefined;
 
   if (catalog) {
     const { initCatalog } = await import('./interactions/catalog.js');
@@ -25,4 +27,4 @@ async function setupProducts() {
   }
 }
 
-await Promise.allSettled([setupLanguage(), setupProducts()]);
+await Promise.allSettled([setupLanguage(), setupCatalog()]);

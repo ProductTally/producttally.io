@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>发现产品 — ProductTally</title>
+  <title>产品广场 — ProductTally</title>
   <meta name="description" content="从真实使用场景出发，先了解细节，再决定是否加入你的工作流。">
   <meta name="theme-color" content="#FBF8F3">
   <link rel="canonical" href="https://producttally.com/zh/products/">
@@ -12,7 +12,7 @@
   <link rel="alternate" hreflang="es" href="https://producttally.com/es/products/">
   <link rel="alternate" hreflang="x-default" href="https://producttally.com/products/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="发现产品 — ProductTally">
+  <meta property="og:title" content="产品广场 — ProductTally">
   <meta property="og:description" content="从真实使用场景出发，先了解细节，再决定是否加入你的工作流。">
   <meta property="og:url" content="https://producttally.com/zh/products/">
   <meta property="og:image" content="https://producttally.com/assets/producttally-icon.png">
@@ -20,10 +20,10 @@
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="es_ES">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="发现产品 — ProductTally">
+  <meta name="twitter:title" content="产品广场 — ProductTally">
   <meta name="twitter:description" content="从真实使用场景出发，先了解细节，再决定是否加入你的工作流。">
   <meta name="twitter:image" content="https://producttally.com/assets/producttally-icon.png">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"发现产品","description":"从真实使用场景出发，先了解细节，再决定是否加入你的工作流。","url":"https://producttally.com/zh/products/","inLanguage":"zh-CN","isPartOf":{"@type":"WebSite","name":"ProductTally","url":"https://producttally.com/zh/","inLanguage":"zh-CN","publisher":{"@type":"Organization","name":"ProductTally","url":"https://producttally.com/"}}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"产品广场","description":"从真实使用场景出发，先了解细节，再决定是否加入你的工作流。","url":"https://producttally.com/zh/products/","inLanguage":"zh-CN","isPartOf":{"@type":"WebSite","name":"ProductTally","url":"https://producttally.com/zh/","inLanguage":"zh-CN","publisher":{"@type":"Organization","name":"ProductTally","url":"https://producttally.com/"}}}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style.css">
@@ -37,13 +37,21 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
-        <nav class="primary-nav" aria-label="主导航"><a href="/zh/products/" aria-current="page">发现产品</a><a href="/zh/notes/">使用手记</a><a href="/zh/about/">筛选方法</a></nav>
+        <nav class="primary-nav" aria-label="主导航"><a href="/zh/products/" aria-current="page">产品广场</a><a href="/zh/notes/">指南文章</a><a href="/zh/about/">筛选方法</a><a href="/zh/pricing/">评测合作</a></nav>
         <div class="language-control">
-          <wa-select data-locale size="small" hoist with-start value="/zh/products/">
-            <span slot="label" class="visually-hidden">语言</span>
-            <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg></span>
-            <wa-option value="/products/" lang="en" translate="no">English</wa-option><wa-option value="/zh/products/" lang="zh-CN" translate="no" selected>简体中文</wa-option><wa-option value="/es/products/" lang="es" translate="no">Español</wa-option>
-          </wa-select>
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 </span><span translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/products/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/zh/products/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/es/products/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item>
+          </wa-dropdown>
           <nav class="language-fallback" aria-label="语言"><a href="/products/" lang="en" hreflang="en" translate="no">English</a><a href="/zh/products/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a><a href="/es/products/" lang="es" hreflang="es" translate="no">Español</a></nav>
         </div>
       </div>
@@ -57,88 +65,100 @@
     <div class="catalog" data-catalog data-result-plural="个产品可探索"
     data-result-single="个产品可探索" data-locale-format="zh-CN">
     <div class="catalog-controls">
-      <div class="filters" role="group" aria-label="筛选产品"><wa-button data-filter="all"
-    aria-pressed="true" class="filter" appearance="outlined" size="small">
-    全部产品
-  </wa-button><wa-button data-filter="writing"
-    aria-pressed="false" class="filter" appearance="outlined" size="small">
-    写作
-  </wa-button><wa-button data-filter="video"
-    aria-pressed="false" class="filter" appearance="outlined" size="small">
-    视频
-  </wa-button><wa-button data-filter="productivity"
-    aria-pressed="false" class="filter" appearance="outlined" size="small">
-    效率与协作
-  </wa-button><wa-button data-filter="web"
-    aria-pressed="false" class="filter" appearance="outlined" size="small">
-    建站与表单
-  </wa-button><wa-button data-filter="saved"
-    aria-pressed="false" class="filter" appearance="outlined" size="small">
-    已收藏 <span data-saved-count>0</span>
-  </wa-button></div>
-      <wa-input class="search" type="search" name="q" with-start data-search placeholder="搜索产品或你想完成的事…" autocomplete="off">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="搜索产品或你想完成的事…" autocomplete="off">
         <span slot="label" class="visually-hidden">搜索产品</span>
         <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
       </wa-input>
+      <div class="filters" role="group" aria-label="筛选产品"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    全部产品
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    写作
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    视频
+  </wa-button><wa-button data-filter="productivity"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    效率与协作
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    建站与表单
+  </wa-button><wa-button data-filter="saved"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    已收藏 <span data-saved-count>0</span>
+  </wa-button></div>
     </div>
     <div class="catalog-meta" role="status"><span data-result-count>6</span> <span data-result-word>个产品可探索</span></div>
-    <div class="product-grid"><article class="product-card" data-tool="grammarly" data-category="writing" data-search="Grammarly 写作 通过纠错和写作辅助，打磨英文初稿。 把每一句话，写得更清楚。 希望逐条检查英文修改建议，并把纯文本带回 Word 的写作者。">
-    <div class="card-top"><span class="product-mark" aria-hidden="true" style="--mark:#166B51;--tint:#E8F1EB">G</span><wa-button class="save-button" appearance="plain"
+    <div class="product-grid"><article class="product-card" data-catalog-item="grammarly" data-category="writing" data-search="Grammarly 写作 通过纠错和写作辅助，打磨英文初稿。 把每一句话，写得更清楚。 希望逐条检查英文修改建议，并把纯文本带回 Word 的写作者。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#166B51;--tint:#E8F1EB">G</span>
+      <div class="card-actions"><span class="product-tag">写作</span><wa-button class="save-button" appearance="plain"
     data-save="grammarly"
     aria-pressed="false">
     <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Grammarly</span></span>
   </wa-button></div>
-    <p class="eyebrow">写作</p>
+    </div>
     <h2><a href="/zh/products/grammarly/" translate="no">Grammarly</a></h2>
     <p class="card-description">通过纠错和写作辅助，打磨英文初稿。</p>
     <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已完成基础测试</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-tool="todoist" data-category="productivity" data-search="Todoist 效率与协作 把零散的想法，变成可以开始做的任务。 清空脑内待办，留出思考空间。 想快速记录待办，并愿意在保存前确认日期解析是否正确的个人用户。">
-    <div class="card-top"><span class="product-mark" aria-hidden="true" style="--mark:#B34E3C;--tint:#F8EDE8">✓</span><wa-button class="save-button" appearance="plain"
+  </article><article class="product-card" data-catalog-item="todoist" data-category="productivity" data-search="Todoist 效率与协作 把零散的想法，变成可以开始做的任务。 清空脑内待办，留出思考空间。 想快速记录待办，并愿意在保存前确认日期解析是否正确的个人用户。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#B34E3C;--tint:#F8EDE8">✓</span>
+      <div class="card-actions"><span class="product-tag">效率与协作</span><wa-button class="save-button" appearance="plain"
     data-save="todoist"
     aria-pressed="false">
     <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Todoist</span></span>
   </wa-button></div>
-    <p class="eyebrow">效率与协作</p>
+    </div>
     <h2><a href="/zh/products/todoist/" translate="no">Todoist</a></h2>
     <p class="card-description">把零散的想法，变成可以开始做的任务。</p>
     <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已完成基础测试</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-tool="jotform" data-category="web" data-search="Jotform 建站与表单 制作表单，让反馈变成可以整理的信息。 问对问题，收集有用的回答。 收集简单多语言反馈，并希望保留可导出数据副本的创作者。">
-    <div class="card-top"><span class="product-mark" aria-hidden="true" style="--mark:#B37A21;--tint:#F6F0E1">J</span><wa-button class="save-button" appearance="plain"
+  </article><article class="product-card" data-catalog-item="jotform" data-category="web" data-search="Jotform 建站与表单 制作表单，让反馈变成可以整理的信息。 问对问题，收集有用的回答。 收集简单多语言反馈，并希望保留可导出数据副本的创作者。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#B37A21;--tint:#F6F0E1">J</span>
+      <div class="card-actions"><span class="product-tag">建站与表单</span><wa-button class="save-button" appearance="plain"
     data-save="jotform"
     aria-pressed="false">
     <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Jotform</span></span>
   </wa-button></div>
-    <p class="eyebrow">建站与表单</p>
+    </div>
     <h2><a href="/zh/products/jotform/" translate="no">Jotform</a></h2>
     <p class="card-description">制作表单，让反馈变成可以整理的信息。</p>
     <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已完成基础测试</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-tool="veed" data-category="video" data-search="VEED 视频 从时间线编辑，到得到一个真正的视频文件。 把浏览器，变成小小工作室。 想先尝试短文字视频，并能接受免费导出限制的创作者。">
-    <div class="card-top"><span class="product-mark" aria-hidden="true" style="--mark:#313543;--tint:#EBECF3">V</span><wa-button class="save-button" appearance="plain"
+  </article><article class="product-card" data-catalog-item="veed" data-category="video" data-search="VEED 视频 从时间线编辑，到得到一个真正的视频文件。 把浏览器，变成小小工作室。 想先尝试短文字视频，并能接受免费导出限制的创作者。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#313543;--tint:#EBECF3">V</span>
+      <div class="card-actions"><span class="product-tag">视频</span><wa-button class="save-button" appearance="plain"
     data-save="veed"
     aria-pressed="false">
     <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> VEED</span></span>
   </wa-button></div>
-    <p class="eyebrow">视频</p>
+    </div>
     <h2><a href="/zh/products/veed/" translate="no">VEED</a></h2>
     <p class="card-description">从时间线编辑，到得到一个真正的视频文件。</p>
     <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已完成基础测试</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-tool="quillbot" data-category="writing" data-search="QuillBot 写作 检查一小段文字，再认真看看每一处修改。 让文字，多一双检查的眼睛。 希望逐条检查短篇英文或西班牙语修改，而非盲目接受所有建议的写作者。">
-    <div class="card-top"><span class="product-mark" aria-hidden="true" style="--mark:#527341;--tint:#EEF2E6">Q</span><wa-button class="save-button" appearance="plain"
+  </article><article class="product-card" data-catalog-item="quillbot" data-category="writing" data-search="QuillBot 写作 检查一小段文字，再认真看看每一处修改。 让文字，多一双检查的眼睛。 希望逐条检查短篇英文或西班牙语修改，而非盲目接受所有建议的写作者。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#527341;--tint:#EEF2E6">Q</span>
+      <div class="card-actions"><span class="product-tag">写作</span><wa-button class="save-button" appearance="plain"
     data-save="quillbot"
     aria-pressed="false">
     <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> QuillBot</span></span>
   </wa-button></div>
-    <p class="eyebrow">写作</p>
+    </div>
     <h2><a href="/zh/products/quillbot/" translate="no">QuillBot</a></h2>
     <p class="card-description">检查一小段文字，再认真看看每一处修改。</p>
     <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已完成基础测试</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-tool="carrd" data-category="web" data-search="Carrd 建站与表单 为作品集和简洁落地页，提供一个专注的起点。 一页就好，把第一印象说清楚。 需要专注的作品集或落地页，而非大型多语言内容站的创作者。">
-    <div class="card-top"><span class="product-mark" aria-hidden="true" style="--mark:#68604C;--tint:#F1EEE6">C</span><wa-button class="save-button" appearance="plain"
+  </article><article class="product-card" data-catalog-item="carrd" data-category="web" data-search="Carrd 建站与表单 为作品集和简洁落地页，提供一个专注的起点。 一页就好，把第一印象说清楚。 需要专注的作品集或落地页，而非大型多语言内容站的创作者。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#68604C;--tint:#F1EEE6">C</span>
+      <div class="card-actions"><span class="product-tag">建站与表单</span><wa-button class="save-button" appearance="plain"
     data-save="carrd"
     aria-pressed="false">
     <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Carrd</span></span>
   </wa-button></div>
-    <p class="eyebrow">建站与表单</p>
+    </div>
     <h2><a href="/zh/products/carrd/" translate="no">Carrd</a></h2>
     <p class="card-description">为作品集和简洁落地页，提供一个专注的起点。</p>
     <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已完成基础测试</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
@@ -148,8 +168,7 @@
       <p>换个关键词，或者清除筛选再看看。</p>
       <wa-button class="text-button" data-reset appearance="plain">清除筛选 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
     </div>
-    <p class="scope-caption"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg> 基础测试只覆盖手记中明确描述的任务，不代表产品的全部功能都已验证。</p>
-  </div>
+  </div><p class="scope-caption"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg> 基础测试只覆盖手记中明确描述的任务，不代表产品的全部功能都已验证。</p>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">
@@ -158,9 +177,10 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p></div>
       <nav aria-label="页脚导航">
-        <a href="/zh/products/">发现产品</a>
-        <a href="/zh/notes/">使用手记</a>
+        <a href="/zh/products/">产品广场</a>
+        <a href="/zh/notes/">指南文章</a>
         <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
         <a href="/zh/privacy/">隐私说明</a>
       </nav>
     </div>
