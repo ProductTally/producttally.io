@@ -1,0 +1,56 @@
+.catalog-controls {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: .9rem 1.25rem;
+  padding-block-end: 1rem;
+  border-block-end: 1px solid var(--line);
+}
+.filters { display: flex; flex-wrap: wrap; gap: .45rem; }
+.catalog-meta { margin-block: .7rem 1rem; color: var(--muted); font-size: .88rem; }
+.product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.product-card {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr auto;
+  gap: .5rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+}
+.product-card:hover, .product-card:focus-within { border-color: var(--accent); }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-block-end: .45rem; }
+.product-mark {
+  display: grid;
+  place-items: center;
+  inline-size: 3.05rem;
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  background: var(--tint);
+  color: var(--mark);
+  font: 800 1.45rem/1 var(--body);
+}
+.product-card h2, .product-card h3 { font: 750 clamp(1.18rem, 2vw, 1.5rem)/1.2 var(--body); }
+.product-card h2 a, .product-card h3 a { text-decoration: none; }
+.product-card h2 a::after, .product-card h3 a::after { content: ''; position: absolute; inset: 0; }
+.card-description { color: var(--muted); }
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .75rem;
+  border-block-start: 1px solid var(--line);
+  padding-block-start: .75rem;
+  margin-block-start: .5rem;
+}
+.tested, .scope-caption { display: flex; align-items: flex-start; gap: .4rem; color: var(--forest); font-size: .83rem; }
+.tested .icon, .scope-caption .icon { inline-size: .95rem; block-size: .95rem; margin-block-start: .15rem; }
+.scope-caption { margin-block-start: 1rem; max-inline-size: 65ch; }
+.empty-state { border: 1px dashed var(--line); border-radius: var(--radius); background: var(--surface); padding: 2rem 1rem; text-align: center; color: var(--muted); }
+.empty-title { font: 500 1.55rem/1.2 var(--display); color: var(--ink); margin-block-end: .4rem; }
+
+@media (max-width: 58rem) { .catalog-controls .search { flex: 1 1 100%; max-inline-size: 34rem; } }
+@media (max-width: 53rem) { .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 33rem) { .product-grid { grid-template-columns: minmax(0, 1fr); } }

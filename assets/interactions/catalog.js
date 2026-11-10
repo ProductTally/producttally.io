@@ -1,131 +1,80 @@
-const savedKey = 'producttally:v1:saved';
-const legacySavedKey = 'producttally-saved';
-
-function readSavedProducts() {
-  try {
-    const current = localStorage.getItem(savedKey);
-    const legacy = current === null ? localStorage.getItem(legacySavedKey) : null;
-    const value = JSON.parse(current ?? legacy ?? '[]');
-    const saved = Array.isArray(value) ? value.filter(item => typeof item === 'string') : [];
-    if (current === null && legacy !== null) localStorage.setItem(savedKey, JSON.stringify(saved));
-    return saved;
-  } catch {
-    return [];
-  }
+function normalizeSearch(value, locale) {
+  return value.toLocaleLowerCase(locale).normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
 
-function normalizeSearch(value) {
-  return String(value).toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-}
-
-function updateUrlState(catalog, query, category) {
-  const url = new URL(window.location.href);
-  query ? url.searchParams.set('q', query) : url.searchParams.delete('q');
-  category && category !== 'all' ? url.searchParams.set('category', category) : url.searchParams.delete('category');
-  window.history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
-  catalog.dataset.activeCategory = category;
-}
-
-export function initCatalog() {
-  const body = document.body;
-  const catalog = document.querySelector('[data-catalog]');
-  const saved = new Set(readSavedProducts());
-  if (!catalog) return;
-
+export function initCatalog(catalog, saved) {
   const input = catalog.querySelector('[data-search]');
   const count = catalog.querySelector('[data-result-count]');
   const resultWord = catalog.querySelector('[data-result-word]');
   const emptyState = catalog.querySelector('.empty-state');
-  const toast = document.querySelector('[data-action-toast]');
-  const params = new URLSearchParams(window.location.search);
-  const requestedCategory = params.get('category');
-  let activeCategory = requestedCategory && [...catalog.querySelectorAll('[data-filter]')].some(button => button.dataset.filter === requestedCategory)
-    ? requestedCategory
-    : 'all';
+  const buttons = [...catalog.querySelectorAll('[data-filter]')];
+  const locale = catalog.dataset.localeFormat;
+  const number = new Intl.NumberFormat(locale);
+  const cards = [...catalog.querySelectorAll('[data-tool]')].map(element => ({
+    element,
+    id: element.dataset.tool,
+    category: element.dataset.category,
+    search: normalizeSearch(element.dataset.search, locale)
+  }));
+  const categories = new Set(buttons.map(button => button.dataset.filter));
+  let activeCategory = 'all';
 
-  if (input && params.has('q')) input.value = params.get('q');
-
-  function render({ updateUrl = true } = {}) {
-    const query = normalizeSearch(input?.value?.trim() ?? '');
-    let visibleCount = 0;
-    for (const card of catalog.querySelectorAll('[data-tool]')) {
-      const matchesCategory = activeCategory === 'all'
-        || (activeCategory === 'saved' ? saved.has(card.dataset.tool) : card.dataset.category === activeCategory);
-      const matchesQuery = normalizeSearch(card.dataset.search).includes(query);
-      card.hidden = !(matchesCategory && matchesQuery);
-      if (!card.hidden) visibleCount += 1;
-    }
-
-    count.textContent = String(visibleCount);
-    resultWord.textContent = visibleCount === 1 ? catalog.dataset.resultSingle : catalog.dataset.resultPlural;
-    emptyState.hidden = visibleCount > 0;
-    for (const button of catalog.querySelectorAll('[data-filter]')) {
-      const selected = button.dataset.filter === activeCategory;
-      button.classList.toggle('active', selected);
-      button.setAttribute('aria-pressed', String(selected));
-    }
-
-    if (updateUrl) updateUrlState(catalog, input?.value?.trim() ?? '', activeCategory);
+  function readUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get('category');
+    activeCategory = categories.has(category) ? category : 'all';
+    input.value = params.get('q') ?? '';
   }
 
-  function syncSavedControls() {
-    for (const control of document.querySelectorAll('[data-save]')) {
-      const productId = control.dataset.save;
-      const isSaved = saved.has(productId);
-      const label = isSaved ? body.dataset.unsaveLabel : body.dataset.saveLabel;
-      control.setAttribute('aria-pressed', String(isSaved));
-      control.setAttribute('aria-label', `${label} ${control.dataset.saveName ?? productId}`);
-      control.classList.toggle('is-saved', isSaved);
-      const text = control.querySelector('[data-save-text]');
-      if (text) text.textContent = label;
+  function writeUrl() {
+    const url = new URL(window.location.href);
+    const query = input.value.trim();
+    if (query) url.searchParams.set('q', query);
+    else url.searchParams.delete('q');
+    if (activeCategory === 'all') url.searchParams.delete('category');
+    else url.searchParams.set('category', activeCategory);
+    window.history.replaceState(window.history.state, '', url);
+  }
+
+  function render() {
+    const terms = normalizeSearch(input.value.trim(), locale).split(/\s+/).filter(Boolean);
+    let visible = 0;
+    for (const card of cards) {
+      const matchesCategory = activeCategory === 'all' || card.category === activeCategory ||
+        (activeCategory === 'saved' && saved.has(card.id));
+      const matches = matchesCategory && terms.every(term => card.search.includes(term));
+      card.element.hidden = !matches;
+      if (matches) visible += 1;
     }
-    for (const badge of document.querySelectorAll('[data-saved-count]')) badge.textContent = String(saved.size);
+    count.textContent = number.format(visible);
+    resultWord.textContent = visible === 1 ? catalog.dataset.resultSingle : catalog.dataset.resultPlural;
+    emptyState.hidden = visible > 0;
+    for (const button of buttons) button.setAttribute('aria-pressed', String(button.dataset.filter === activeCategory));
+  }
+
+  function apply() {
     render();
+    writeUrl();
   }
 
-  async function announceSave(productId, isSaved) {
-    if (!toast) return;
-    await customElements.whenDefined('wa-toast');
-    const message = body.dataset[isSaved ? 'saveToast' : 'unsaveToast']
-      ?? `${isSaved ? body.dataset.saveLabel : body.dataset.unsaveLabel}: ${productId}`;
-    toast.create(message, { variant: isSaved ? 'success' : 'neutral', duration: 5000 });
+  for (const button of buttons) {
+    button.addEventListener('click', () => {
+      activeCategory = button.dataset.filter;
+      apply();
+    });
   }
-
-  catalog.addEventListener('click', event => {
-    const filterButton = event.target.closest('[data-filter]');
-    if (filterButton) {
-      activeCategory = filterButton.dataset.filter;
-      render();
-      return;
-    }
-    if (event.target.closest('[data-reset]')) {
-      activeCategory = 'all';
-      if (input) input.value = '';
-      render();
-      input?.focus();
-    }
+  catalog.querySelector('[data-reset]').addEventListener('click', () => {
+    activeCategory = 'all';
+    input.value = '';
+    input.focus();
+    apply();
   });
-
-  document.addEventListener('click', event => {
-    const saveButton = event.target.closest('[data-save]');
-    if (!saveButton) return;
-    const productId = saveButton.dataset.save;
-    if (saved.has(productId)) saved.delete(productId);
-    else saved.add(productId);
-    try { localStorage.setItem(savedKey, JSON.stringify([...saved])); } catch {}
-    syncSavedControls();
-    announceSave(productId, saved.has(productId));
+  input.addEventListener('input', apply);
+  window.addEventListener('popstate', () => {
+    readUrl();
+    render();
   });
-
-  input?.addEventListener('input', () => render());
-  input?.addEventListener('wa-input', () => render());
-  window.addEventListener('storage', event => {
-    if (event.key !== savedKey && event.key !== legacySavedKey) return;
-    saved.clear();
-    readSavedProducts().forEach(productId => saved.add(productId));
-    syncSavedControls();
-  });
-
-  syncSavedControls();
-  render({ updateUrl: false });
+  saved.onChange(render);
+  readUrl();
+  render();
 }
