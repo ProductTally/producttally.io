@@ -103,12 +103,67 @@
         <p class="eyebrow">Impara</p>
         <h1 id="guides-title">Raccolta di guide</h1>
         <p class="lead">Articoli pratici sulla scelta e l&#39;utilizzo dei prodotti digitali.</p>
+        <a class="text-link" href="#browse-products">Sfoglia per prodotto <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a>
       </div>
       <span class="directory-glyph" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19h14M7 15l1-5L17 1l5 5-9 9-6 1M14 4l5 5"/></svg></span>
     </header>
-    <div class="empty-state">
-      <p class="empty-title">Non ci sono ancora guide pubblicate</p>
+    <div class="guide-library"><div class="catalog" data-catalog data-result-plural="guide"
+    data-result-single="guida" data-locale-format="it-IT">
+    <div class="catalog-controls">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="Cerca guide o argomenti..." autocomplete="off">
+        <span slot="label" class="visually-hidden">Cerca guide</span>
+        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+      </wa-input>
+      <div class="filters" role="group" aria-label="Filtra le guide"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    Tutte le guide
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Video
+  </wa-button><wa-button data-filter="productivity"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Produttività
+  </wa-button></div>
     </div>
+    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>guide</span></div>
+    <div class="note-grid"><article class="note-card" data-catalog-item="plan-a-publishing-week" data-category="productivity" data-search="Pianificare una settimana di pubblicazioni con My Day gratis Organizza le pubblicazioni con Any.do gratis. Abbiamo provato attività, promemoria e date in tre lingue e verificato le opzioni di condivisione. Produttività Trasforma un contenuto in attività per la giornata Controlla le date nella lingua che usi Prova una bacheca quando serve passare il lavoro Decidi dopo un ciclo di pubblicazione">
+      <div class="note-art art-writing" aria-hidden="true">
+    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19h14M7 15l1-5L17 1l5 5-9 9-6 1M14 4l5 5"/></svg></span>
+  </div>
+      <div class="note-copy">
+        <p class="eyebrow">Produttività · 2 minimo letto</p>
+        <h2><a href="/it/guides/anydo/plan-a-publishing-week/">Pianificare una settimana di pubblicazioni con My Day gratis</a></h2>
+        <p>Organizza le pubblicazioni con Any.do gratis. Abbiamo provato attività, promemoria e date in tre lingue e verificato le opzioni di condivisione.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="short-video-captions" data-category="video" data-search="Sottotitoli in prova, download SRT ed esportazione video Con un clip in inglese abbiamo verificato cosa consente Submagic in prova, dalla correzione dei sottotitoli alla richiesta di un piano per esportare il video. Video Scegli un clip facile da verificare Verifica il percorso fino al file finale Calcola i crediti in base alle modifiche reali Decidi guardando il file esportato">
+      <div class="note-art art-video" aria-hidden="true">
+    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4z"/></svg></span>
+  </div>
+      <div class="note-copy">
+        <p class="eyebrow">Video · 2 minimo letto</p>
+        <h2><a href="/it/guides/submagic/short-video-captions/">Sottotitoli in prova, download SRT ed esportazione video</a></h2>
+        <p>Con un clip in inglese abbiamo verificato cosa consente Submagic in prova, dalla correzione dei sottotitoli alla richiesta di un piano per esportare il video.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article></div>
+    <div class="empty-state" hidden>
+      <p class="empty-title">Nessuna guida corrispondente</p>
+      <p>Prova un altro argomento o cancella i filtri.</p>
+      <wa-button class="text-button" data-reset appearance="plain">Cancella filtri <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
+    </div>
+  </div><nav class="guide-products" id="browse-products" aria-label="Sfoglia per prodotto">
+      <p class="eyebrow">Sfoglia per prodotto</p>
+      <ul><li><a href="/it/guides/anydo/">
+          <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+          <span translate="no">Any.do</span>
+          <span class="guide-count">1 guida</span>
+        </a></li><li><a href="/it/guides/submagic/">
+          <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+          <span translate="no">Submagic</span>
+          <span class="guide-count">1 guida</span>
+        </a></li></ul>
+    </nav></div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">

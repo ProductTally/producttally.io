@@ -103,12 +103,67 @@
         <p class="eyebrow">学ぶ</p>
         <h1 id="guides-title">ガイド一覧</h1>
         <p class="lead">デジタル製品の選び方と使い方を紹介する実践ガイド。</p>
+        <a class="text-link" href="#browse-products">製品別に見る <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a>
       </div>
       <span class="directory-glyph" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19h14M7 15l1-5L17 1l5 5-9 9-6 1M14 4l5 5"/></svg></span>
     </header>
-    <div class="empty-state">
-      <p class="empty-title">公開済みのガイドはまだありません</p>
+    <div class="guide-library"><div class="catalog" data-catalog data-result-plural="件のガイド"
+    data-result-single="件のガイド" data-locale-format="ja-JP">
+    <div class="catalog-controls">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="ガイドやトピックを検索…" autocomplete="off">
+        <span slot="label" class="visually-hidden">ガイドを検索</span>
+        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+      </wa-input>
+      <div class="filters" role="group" aria-label="ガイドを絞り込む"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    すべてのガイド
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    ビデオ
+  </wa-button><wa-button data-filter="productivity"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    生産性
+  </wa-button></div>
     </div>
+    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>件のガイド</span></div>
+    <div class="note-grid"><article class="note-card" data-catalog-item="plan-a-publishing-week" data-category="productivity" data-search="無料版の My Day で1週間の公開予定を組む Any.do 無料版で試したタスクやリマインダー、3言語での日付入力、共有に必要なプランを紹介します。 生産性 企画を今日できる作業に分ける 普段使う言語で日付を確かめる 共有が必要になったらボードを試す 公開まで1周して判断する">
+      <div class="note-art art-writing" aria-hidden="true">
+    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19h14M7 15l1-5L17 1l5 5-9 9-6 1M14 4l5 5"/></svg></span>
+  </div>
+      <div class="note-copy">
+        <p class="eyebrow">生産性 · 2 最小読み取り</p>
+        <h2><a href="/ja/guides/anydo/plan-a-publishing-week/">無料版の My Day で1週間の公開予定を組む</a></h2>
+        <p>Any.do 無料版で試したタスクやリマインダー、3言語での日付入力、共有に必要なプランを紹介します。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="short-video-captions" data-category="video" data-search="試用版で字幕を編集し、SRT と動画を書き出す 英語のサンプルで Submagic を試し、字幕の修正と SRT の取得、動画書き出しに必要な条件を確認しました。 ビデオ 聞き取って確認できる素材を用意する 書き出しまでできるかを確認する 使う機能ごとにクレジットを見積もる 完成したファイルで契約を判断する">
+      <div class="note-art art-video" aria-hidden="true">
+    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4z"/></svg></span>
+  </div>
+      <div class="note-copy">
+        <p class="eyebrow">ビデオ · 2 最小読み取り</p>
+        <h2><a href="/ja/guides/submagic/short-video-captions/">試用版で字幕を編集し、SRT と動画を書き出す</a></h2>
+        <p>英語のサンプルで Submagic を試し、字幕の修正と SRT の取得、動画書き出しに必要な条件を確認しました。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article></div>
+    <div class="empty-state" hidden>
+      <p class="empty-title">一致するガイドがありません</p>
+      <p>別のトピックを試すか、フィルターをクリアしてください。</p>
+      <wa-button class="text-button" data-reset appearance="plain">フィルターをクリアする <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
+    </div>
+  </div><nav class="guide-products" id="browse-products" aria-label="製品別に見る">
+      <p class="eyebrow">製品別に見る</p>
+      <ul><li><a href="/ja/guides/anydo/">
+          <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+          <span translate="no">Any.do</span>
+          <span class="guide-count">1 件のガイド</span>
+        </a></li><li><a href="/ja/guides/submagic/">
+          <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+          <span translate="no">Submagic</span>
+          <span class="guide-count">1 件のガイド</span>
+        </a></li></ul>
+    </nav></div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">

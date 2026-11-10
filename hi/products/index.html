@@ -101,7 +101,71 @@
       <h1>करीब से देखने लायक.</h1>
       <p class="lead">आपके अगले वर्कफ़्लो के लिए एक प्रारंभिक बिंदु। निर्णय लेने से पहले विवरण का अन्वेषण करें।</p>
     </header>
-    <div class="empty-state"><p class="empty-title">अभी कोई उत्पाद प्रकाशित नहीं हुआ है</p></div>
+    <div class="catalog" data-catalog data-result-plural="उत्पाद"
+    data-result-single="उत्पाद" data-locale-format="hi-IN">
+    <div class="catalog-controls">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="उत्पाद या कार्य खोजें…" autocomplete="off">
+        <span slot="label" class="visually-hidden">उत्पाद खोजें</span>
+        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+      </wa-input>
+      <div class="filters" role="group" aria-label="उत्पादों को फ़िल्टर करें"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    सभी उत्पाद
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    लेखन
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    वीडियो
+  </wa-button><wa-button data-filter="productivity"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    उत्पादकता
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    वेब और प्रपत्र
+  </wa-button><wa-button data-filter="saved"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    सहेजा गया <span data-saved-count>0</span>
+  </wa-button></div>
+    </div>
+    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>उत्पाद</span></div>
+    <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do उत्पादकता टास्क और कैलेंडर को साथ रखने वाला प्लानर, जिससे लंबित कंटेंट को रोज़ के काम में बाँट सकते हैं। मुफ़्त वेब संस्करण की जाँच अपने प्रकाशन की योजना बनाने वाले स्वतंत्र क्रिएटर और साझा संपादकीय बोर्ड पर विचार कर रही छोटी टीमें।">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+      <div class="card-identity">
+        <h2><a href="/hi/products/anydo/" translate="no">Any.do</a></h2>
+        <span class="product-tag">उत्पादकता</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="anydo"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">उत्पाद सहेजें<span class="visually-hidden"> Any.do</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">टास्क और कैलेंडर को साथ रखने वाला प्लानर, जिससे लंबित कंटेंट को रोज़ के काम में बाँट सकते हैं।</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>मुफ़्त वेब संस्करण की जाँच</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article><article class="product-card" data-catalog-item="submagic" data-category="video" data-search="Submagic वीडियो वर्टिकल बोलने वाले वीडियो में कैप्शन जोड़ने की प्रक्रिया जाँचने के लिए एक ब्राउज़र एडिटर। कैप्शन एडिटिंग और SRT की जाँच सब्सक्रिप्शन से पहले दोहराने योग्य शॉर्ट वीडियो प्रक्रिया आज़माना चाहने वाले क्रिएटर और छोटी वीडियो टीमें।">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+      <div class="card-identity">
+        <h2><a href="/hi/products/submagic/" translate="no">Submagic</a></h2>
+        <span class="product-tag">वीडियो</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="submagic"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">उत्पाद सहेजें<span class="visually-hidden"> Submagic</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">वर्टिकल बोलने वाले वीडियो में कैप्शन जोड़ने की प्रक्रिया जाँचने के लिए एक ब्राउज़र एडिटर।</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>कैप्शन एडिटिंग और SRT की जाँच</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article></div>
+    <div class="empty-state" hidden>
+      <p class="empty-title">इस कोने में अभी तक कुछ भी नहीं है.</p>
+      <p>कोई भिन्न शब्द आज़माएँ या अपने फ़िल्टर साफ़ करें।</p>
+      <wa-button class="text-button" data-reset appearance="plain">फ़िल्टर साफ़ करें <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
+    </div>
+  </div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">

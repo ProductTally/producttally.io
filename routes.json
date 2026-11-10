@@ -43,8 +43,40 @@
     },
     {
       "lang": "en",
+      "route": "products/anydo",
+      "url": "/products/anydo/"
+    },
+    {
+      "lang": "en",
+      "route": "products/submagic",
+      "url": "/products/submagic/"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/anydo",
+      "url": "/guides/anydo/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/submagic",
+      "url": "/guides/submagic/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
@@ -74,8 +106,40 @@
     },
     {
       "lang": "zh",
+      "route": "products/anydo",
+      "url": "/zh/products/anydo/"
+    },
+    {
+      "lang": "zh",
+      "route": "products/submagic",
+      "url": "/zh/products/submagic/"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/anydo",
+      "url": "/zh/guides/anydo/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/zh/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/submagic",
+      "url": "/zh/guides/submagic/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/zh/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
@@ -105,8 +169,40 @@
     },
     {
       "lang": "es",
+      "route": "products/anydo",
+      "url": "/es/products/anydo/"
+    },
+    {
+      "lang": "es",
+      "route": "products/submagic",
+      "url": "/es/products/submagic/"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/anydo",
+      "url": "/es/guides/anydo/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/es/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/submagic",
+      "url": "/es/guides/submagic/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/es/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
@@ -136,8 +232,40 @@
     },
     {
       "lang": "ja",
+      "route": "products/anydo",
+      "url": "/ja/products/anydo/"
+    },
+    {
+      "lang": "ja",
+      "route": "products/submagic",
+      "url": "/ja/products/submagic/"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/anydo",
+      "url": "/ja/guides/anydo/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/ja/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/submagic",
+      "url": "/ja/guides/submagic/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/ja/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
@@ -167,8 +295,40 @@
     },
     {
       "lang": "ko",
+      "route": "products/anydo",
+      "url": "/ko/products/anydo/"
+    },
+    {
+      "lang": "ko",
+      "route": "products/submagic",
+      "url": "/ko/products/submagic/"
+    },
+    {
+      "lang": "ko",
       "route": "guides",
       "url": "/ko/guides/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/anydo",
+      "url": "/ko/guides/anydo/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/ko/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/submagic",
+      "url": "/ko/guides/submagic/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/ko/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
@@ -198,8 +358,40 @@
     },
     {
       "lang": "fr",
+      "route": "products/anydo",
+      "url": "/fr/products/anydo/"
+    },
+    {
+      "lang": "fr",
+      "route": "products/submagic",
+      "url": "/fr/products/submagic/"
+    },
+    {
+      "lang": "fr",
       "route": "guides",
       "url": "/fr/guides/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/anydo",
+      "url": "/fr/guides/anydo/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/fr/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/submagic",
+      "url": "/fr/guides/submagic/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/fr/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
@@ -229,8 +421,40 @@
     },
     {
       "lang": "de",
+      "route": "products/anydo",
+      "url": "/de/products/anydo/"
+    },
+    {
+      "lang": "de",
+      "route": "products/submagic",
+      "url": "/de/products/submagic/"
+    },
+    {
+      "lang": "de",
       "route": "guides",
       "url": "/de/guides/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/anydo",
+      "url": "/de/guides/anydo/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/de/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/submagic",
+      "url": "/de/guides/submagic/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/de/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
@@ -260,8 +484,40 @@
     },
     {
       "lang": "it",
+      "route": "products/anydo",
+      "url": "/it/products/anydo/"
+    },
+    {
+      "lang": "it",
+      "route": "products/submagic",
+      "url": "/it/products/submagic/"
+    },
+    {
+      "lang": "it",
       "route": "guides",
       "url": "/it/guides/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/anydo",
+      "url": "/it/guides/anydo/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/it/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/submagic",
+      "url": "/it/guides/submagic/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/it/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
@@ -291,8 +547,40 @@
     },
     {
       "lang": "hi",
+      "route": "products/anydo",
+      "url": "/hi/products/anydo/"
+    },
+    {
+      "lang": "hi",
+      "route": "products/submagic",
+      "url": "/hi/products/submagic/"
+    },
+    {
+      "lang": "hi",
       "route": "guides",
       "url": "/hi/guides/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/anydo",
+      "url": "/hi/guides/anydo/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/hi/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/submagic",
+      "url": "/hi/guides/submagic/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/hi/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
@@ -322,8 +610,40 @@
     },
     {
       "lang": "th",
+      "route": "products/anydo",
+      "url": "/th/products/anydo/"
+    },
+    {
+      "lang": "th",
+      "route": "products/submagic",
+      "url": "/th/products/submagic/"
+    },
+    {
+      "lang": "th",
       "route": "guides",
       "url": "/th/guides/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/anydo",
+      "url": "/th/guides/anydo/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/th/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/submagic",
+      "url": "/th/guides/submagic/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/th/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
@@ -353,8 +673,40 @@
     },
     {
       "lang": "pt-BR",
+      "route": "products/anydo",
+      "url": "/pt-br/products/anydo/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "products/submagic",
+      "url": "/pt-br/products/submagic/"
+    },
+    {
+      "lang": "pt-BR",
       "route": "guides",
       "url": "/pt-br/guides/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/anydo",
+      "url": "/pt-br/guides/anydo/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/anydo/plan-a-publishing-week",
+      "url": "/pt-br/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/submagic",
+      "url": "/pt-br/guides/submagic/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/submagic/short-video-captions",
+      "url": "/pt-br/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     }
   ],
   "redirects": [
@@ -363,44 +715,132 @@
       "target": "/guides/"
     },
     {
+      "url": "/notes/plan-a-publishing-week/",
+      "target": "/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/notes/short-video-captions/",
+      "target": "/guides/submagic/short-video-captions/"
+    },
+    {
       "url": "/zh/notes/",
       "target": "/zh/guides/"
+    },
+    {
+      "url": "/zh/notes/plan-a-publishing-week/",
+      "target": "/zh/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/zh/notes/short-video-captions/",
+      "target": "/zh/guides/submagic/short-video-captions/"
     },
     {
       "url": "/es/notes/",
       "target": "/es/guides/"
     },
     {
+      "url": "/es/notes/plan-a-publishing-week/",
+      "target": "/es/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/es/notes/short-video-captions/",
+      "target": "/es/guides/submagic/short-video-captions/"
+    },
+    {
       "url": "/ja/notes/",
       "target": "/ja/guides/"
+    },
+    {
+      "url": "/ja/notes/plan-a-publishing-week/",
+      "target": "/ja/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/ja/notes/short-video-captions/",
+      "target": "/ja/guides/submagic/short-video-captions/"
     },
     {
       "url": "/ko/notes/",
       "target": "/ko/guides/"
     },
     {
+      "url": "/ko/notes/plan-a-publishing-week/",
+      "target": "/ko/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/ko/notes/short-video-captions/",
+      "target": "/ko/guides/submagic/short-video-captions/"
+    },
+    {
       "url": "/fr/notes/",
       "target": "/fr/guides/"
+    },
+    {
+      "url": "/fr/notes/plan-a-publishing-week/",
+      "target": "/fr/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/fr/notes/short-video-captions/",
+      "target": "/fr/guides/submagic/short-video-captions/"
     },
     {
       "url": "/de/notes/",
       "target": "/de/guides/"
     },
     {
+      "url": "/de/notes/plan-a-publishing-week/",
+      "target": "/de/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/de/notes/short-video-captions/",
+      "target": "/de/guides/submagic/short-video-captions/"
+    },
+    {
       "url": "/it/notes/",
       "target": "/it/guides/"
+    },
+    {
+      "url": "/it/notes/plan-a-publishing-week/",
+      "target": "/it/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/it/notes/short-video-captions/",
+      "target": "/it/guides/submagic/short-video-captions/"
     },
     {
       "url": "/hi/notes/",
       "target": "/hi/guides/"
     },
     {
+      "url": "/hi/notes/plan-a-publishing-week/",
+      "target": "/hi/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/hi/notes/short-video-captions/",
+      "target": "/hi/guides/submagic/short-video-captions/"
+    },
+    {
       "url": "/th/notes/",
       "target": "/th/guides/"
     },
     {
+      "url": "/th/notes/plan-a-publishing-week/",
+      "target": "/th/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/th/notes/short-video-captions/",
+      "target": "/th/guides/submagic/short-video-captions/"
+    },
+    {
       "url": "/pt-br/notes/",
       "target": "/pt-br/guides/"
+    },
+    {
+      "url": "/pt-br/notes/plan-a-publishing-week/",
+      "target": "/pt-br/guides/anydo/plan-a-publishing-week/"
+    },
+    {
+      "url": "/pt-br/notes/short-video-captions/",
+      "target": "/pt-br/guides/submagic/short-video-captions/"
     }
   ]
 }

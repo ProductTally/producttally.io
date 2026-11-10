@@ -101,7 +101,71 @@
       <h1>Einen genaueren Blick wert.</h1>
       <p class="lead">Ein Ausgangspunkt für Ihren nächsten Workflow. Informieren Sie sich über die Details, bevor Sie sich entscheiden.</p>
     </header>
-    <div class="empty-state"><p class="empty-title">Noch keine Produkte veröffentlicht</p></div>
+    <div class="catalog" data-catalog data-result-plural="Produkte zum Entdecken"
+    data-result-single="Produkt zum Erkunden" data-locale-format="de-DE">
+    <div class="catalog-controls">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="Produkte oder Aufgaben suchen…" autocomplete="off">
+        <span slot="label" class="visually-hidden">Produkte suchen</span>
+        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+      </wa-input>
+      <div class="filters" role="group" aria-label="Produkte filtern"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    Alle Produkte
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Schreiben
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Video
+  </wa-button><wa-button data-filter="productivity"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Produktivität
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Web &amp; Formulare
+  </wa-button><wa-button data-filter="saved"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Gespeichert <span data-saved-count>0</span>
+  </wa-button></div>
+    </div>
+    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>Produkte zum Entdecken</span></div>
+    <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do Produktivität Ein Aufgaben- und Kalenderplaner, der aus offenen Content-Ideen einen realistischen Tagesplan macht. Kostenlose Webversion getestet Selbstständige Kreative, die ihre Veröffentlichungen planen, und kleine Teams, die ein gemeinsames Redaktionsboard prüfen.">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+      <div class="card-identity">
+        <h2><a href="/de/products/anydo/" translate="no">Any.do</a></h2>
+        <span class="product-tag">Produktivität</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="anydo"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Produkt speichern<span class="visually-hidden"> Any.do</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">Ein Aufgaben- und Kalenderplaner, der aus offenen Content-Ideen einen realistischen Tagesplan macht.</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Kostenlose Webversion getestet</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article><article class="product-card" data-catalog-item="submagic" data-category="video" data-search="Submagic Video Ein Browsereditor, mit dem sich Untertitel für vertikale Sprechvideos erproben lassen. Untertitelbearbeitung und SRT getestet Kreative und kleine Videoteams, die vor dem Abo einen wiederholbaren Ablauf testen möchten.">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+      <div class="card-identity">
+        <h2><a href="/de/products/submagic/" translate="no">Submagic</a></h2>
+        <span class="product-tag">Video</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="submagic"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Produkt speichern<span class="visually-hidden"> Submagic</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">Ein Browsereditor, mit dem sich Untertitel für vertikale Sprechvideos erproben lassen.</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Untertitelbearbeitung und SRT getestet</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article></div>
+    <div class="empty-state" hidden>
+      <p class="empty-title">In dieser Ecke ist noch nichts.</p>
+      <p>Versuchen Sie es mit einem anderen Wort oder löschen Sie Ihre Filter.</p>
+      <wa-button class="text-button" data-reset appearance="plain">Filter löschen <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
+    </div>
+  </div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">

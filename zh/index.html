@@ -104,7 +104,71 @@
       </div>
       <span class="directory-glyph" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="m8 9 2 2 5-5M8 16h8"/></svg></span>
     </header>
-    <div class="empty-state"><p class="empty-title">暂无已发布的产品</p></div>
+    <div class="catalog" data-catalog data-result-plural="个产品可探索"
+    data-result-single="个产品可探索" data-locale-format="zh-CN">
+    <div class="catalog-controls">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="搜索产品或你想完成的事…" autocomplete="off">
+        <span slot="label" class="visually-hidden">搜索产品</span>
+        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+      </wa-input>
+      <div class="filters" role="group" aria-label="筛选产品"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    全部产品
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    写作
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    视频
+  </wa-button><wa-button data-filter="productivity"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    效率与协作
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    建站与表单
+  </wa-button><wa-button data-filter="saved"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    已收藏 <span data-saved-count>0</span>
+  </wa-button></div>
+    </div>
+    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>个产品可探索</span></div>
+    <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do 效率与协作 把待办和日历放在一起，适合想把内容积压转成每日行动的创作者。 已实测免费版网页流程 适合独立创作者安排写作与发布，也适合准备试用共享编辑看板的小团队。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+      <div class="card-identity">
+        <h2><a href="/zh/products/anydo/" translate="no">Any.do</a></h2>
+        <span class="product-tag">效率与协作</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="anydo"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Any.do</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">把待办和日历放在一起，适合想把内容积压转成每日行动的创作者。</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已实测免费版网页流程</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article><article class="product-card" data-catalog-item="submagic" data-category="video" data-search="Submagic 视频 一款浏览器短视频编辑器，适合评估口播片段加字幕的流程。 已实测字幕编辑和 SRT 适合想先验证字幕和成片流程、再决定是否订阅的个人创作者和小型视频团队。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+      <div class="card-identity">
+        <h2><a href="/zh/products/submagic/" translate="no">Submagic</a></h2>
+        <span class="product-tag">视频</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="submagic"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Submagic</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">一款浏览器短视频编辑器，适合评估口播片段加字幕的流程。</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已实测字幕编辑和 SRT</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article></div>
+    <div class="empty-state" hidden>
+      <p class="empty-title">这个角落暂时还没有内容。</p>
+      <p>换个关键词，或者清除筛选再看看。</p>
+      <wa-button class="text-button" data-reset appearance="plain">清除筛选 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
+    </div>
+  </div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">

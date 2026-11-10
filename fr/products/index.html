@@ -101,7 +101,71 @@
       <h1>Ça vaut le coup d’y regarder de plus près.</h1>
       <p class="lead">Un point de départ pour votre prochain flux de travail. Explorez les détails avant de vous décider.</p>
     </header>
-    <div class="empty-state"><p class="empty-title">Aucun produit publié pour le moment</p></div>
+    <div class="catalog" data-catalog data-result-plural="produits à découvrir"
+    data-result-single="produit à découvrir" data-locale-format="fr-FR">
+    <div class="catalog-controls">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="Rechercher des produits ou des tâches…" autocomplete="off">
+        <span slot="label" class="visually-hidden">Rechercher des produits</span>
+        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+      </wa-input>
+      <div class="filters" role="group" aria-label="Filtrer les produits"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    Tous les produits
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Écriture
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Vidéo
+  </wa-button><wa-button data-filter="productivity"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Productivité
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Web et formulaires
+  </wa-button><wa-button data-filter="saved"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    Enregistré <span data-saved-count>0</span>
+  </wa-button></div>
+    </div>
+    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>produits à découvrir</span></div>
+    <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do Productivité Un outil qui réunit tâches et calendrier pour organiser un programme éditorial réaliste au jour le jour. Version web gratuite testée Créateurs indépendants qui planifient leurs publications et petites équipes qui envisagent un tableau éditorial partagé.">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+      <div class="card-identity">
+        <h2><a href="/fr/products/anydo/" translate="no">Any.do</a></h2>
+        <span class="product-tag">Productivité</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="anydo"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Enregistrer le produit<span class="visually-hidden"> Any.do</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">Un outil qui réunit tâches et calendrier pour organiser un programme éditorial réaliste au jour le jour.</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Version web gratuite testée</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article><article class="product-card" data-catalog-item="submagic" data-category="video" data-search="Submagic Vidéo Un éditeur web pour évaluer l’ajout de sous-titres à des vidéos verticales face caméra. Édition des sous-titres et SRT testés Créateurs et petites équipes vidéo qui veulent vérifier un processus reproductible avant de s’abonner.">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+      <div class="card-identity">
+        <h2><a href="/fr/products/submagic/" translate="no">Submagic</a></h2>
+        <span class="product-tag">Vidéo</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="submagic"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Enregistrer le produit<span class="visually-hidden"> Submagic</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">Un éditeur web pour évaluer l’ajout de sous-titres à des vidéos verticales face caméra.</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Édition des sous-titres et SRT testés</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article></div>
+    <div class="empty-state" hidden>
+      <p class="empty-title">Rien dans ce coin pour l&#39;instant.</p>
+      <p>Essayez un autre mot ou effacez vos filtres.</p>
+      <wa-button class="text-button" data-reset appearance="plain">Effacer les filtres <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
+    </div>
+  </div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">

@@ -104,7 +104,71 @@
       </div>
       <span class="directory-glyph" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="m8 9 2 2 5-5M8 16h8"/></svg></span>
     </header>
-    <div class="empty-state"><p class="empty-title">公開済みの製品はまだありません</p></div>
+    <div class="catalog" data-catalog data-result-plural="件の製品"
+    data-result-single="件の製品" data-locale-format="ja-JP">
+    <div class="catalog-controls">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="製品またはタスクを検索…" autocomplete="off">
+        <span slot="label" class="visually-hidden">製品を探す</span>
+        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+      </wa-input>
+      <div class="filters" role="group" aria-label="フィルター製品"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    すべての製品
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    執筆
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    ビデオ
+  </wa-button><wa-button data-filter="productivity"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    生産性
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    ウェブとフォーム
+  </wa-button><wa-button data-filter="saved"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    保存されました <span data-saved-count>0</span>
+  </wa-button></div>
+    </div>
+    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>件の製品</span></div>
+    <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do 生産性 企画のストックを無理のない日々の作業に落とし込む、タスクとカレンダーのプランナー。 無料ウェブ版を検証 個人で執筆や公開を管理するクリエイターや、編集用の共有ボードを検討する小規模チーム向け。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+      <div class="card-identity">
+        <h2><a href="/ja/products/anydo/" translate="no">Any.do</a></h2>
+        <span class="product-tag">生産性</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="anydo"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">製品の保存<span class="visually-hidden"> Any.do</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">企画のストックを無理のない日々の作業に落とし込む、タスクとカレンダーのプランナー。</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>無料ウェブ版を検証</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article><article class="product-card" data-catalog-item="submagic" data-category="video" data-search="Submagic ビデオ 縦型のトーク動画に字幕を付ける流れを試せる、ブラウザー向けの短尺動画エディター。 字幕編集と SRT を検証 契約前に繰り返し使える字幕制作の流れを確かめたい個人クリエイターや小規模動画チーム向け。">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+      <div class="card-identity">
+        <h2><a href="/ja/products/submagic/" translate="no">Submagic</a></h2>
+        <span class="product-tag">ビデオ</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="submagic"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">製品の保存<span class="visually-hidden"> Submagic</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">縦型のトーク動画に字幕を付ける流れを試せる、ブラウザー向けの短尺動画エディター。</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>字幕編集と SRT を検証</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article></div>
+    <div class="empty-state" hidden>
+      <p class="empty-title">この隅にはまだ何もありません。</p>
+      <p>別の単語を試すか、フィルターをクリアしてください。</p>
+      <wa-button class="text-button" data-reset appearance="plain">フィルターをクリアする <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
+    </div>
+  </div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">

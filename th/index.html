@@ -104,7 +104,71 @@
       </div>
       <span class="directory-glyph" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="m8 9 2 2 5-5M8 16h8"/></svg></span>
     </header>
-    <div class="empty-state"><p class="empty-title">ยังไม่มีผลิตภัณฑ์ที่เผยแพร่</p></div>
+    <div class="catalog" data-catalog data-result-plural="ผลิตภัณฑ์"
+    data-result-single="ผลิตภัณฑ์" data-locale-format="th-TH">
+    <div class="catalog-controls">
+      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="ค้นหาผลิตภัณฑ์หรืองาน..." autocomplete="off">
+        <span slot="label" class="visually-hidden">ค้นหาผลิตภัณฑ์</span>
+        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+      </wa-input>
+      <div class="filters" role="group" aria-label="กรองผลิตภัณฑ์"><wa-button data-filter="all"
+    aria-pressed="true" class="filter" appearance="plain" size="s">
+    สินค้าทั้งหมด
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    การเขียน
+  </wa-button><wa-button data-filter="video"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    วีดีโอ
+  </wa-button><wa-button data-filter="productivity"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    ผลผลิต
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    เว็บและแบบฟอร์ม
+  </wa-button><wa-button data-filter="saved"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    บันทึกแล้ว <span data-saved-count>0</span>
+  </wa-button></div>
+    </div>
+    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>ผลิตภัณฑ์</span></div>
+    <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do ผลผลิต เครื่องมือจัดการงานและปฏิทินสำหรับเปลี่ยนรายการคอนเทนต์ที่ค้างอยู่ให้เป็นแผนรายวันที่ทำได้จริง ทดสอบบนเว็บรุ่นฟรีแล้ว ครีเอเตอร์อิสระที่วางแผนเผยแพร่เอง และทีมเล็กที่กำลังพิจารณาบอร์ดงานบรรณาธิการร่วมกัน">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+      <div class="card-identity">
+        <h2><a href="/th/products/anydo/" translate="no">Any.do</a></h2>
+        <span class="product-tag">ผลผลิต</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="anydo"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">บันทึกผลิตภัณฑ์<span class="visually-hidden"> Any.do</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">เครื่องมือจัดการงานและปฏิทินสำหรับเปลี่ยนรายการคอนเทนต์ที่ค้างอยู่ให้เป็นแผนรายวันที่ทำได้จริง</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>ทดสอบบนเว็บรุ่นฟรีแล้ว</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article><article class="product-card" data-catalog-item="submagic" data-category="video" data-search="Submagic วีดีโอ เครื่องมือตัดต่อบนเบราว์เซอร์สำหรับทดลองทำคำบรรยายให้คลิปพูดแนวตั้ง ทดสอบการแก้ซับและ SRT แล้ว ครีเอเตอร์และทีมวิดีโอขนาดเล็กที่ต้องการทดสอบขั้นตอนทำคลิปซ้ำได้ก่อนสมัครสมาชิก">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+      <div class="card-identity">
+        <h2><a href="/th/products/submagic/" translate="no">Submagic</a></h2>
+        <span class="product-tag">วีดีโอ</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="submagic"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">บันทึกผลิตภัณฑ์<span class="visually-hidden"> Submagic</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">เครื่องมือตัดต่อบนเบราว์เซอร์สำหรับทดลองทำคำบรรยายให้คลิปพูดแนวตั้ง</p>
+    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>ทดสอบการแก้ซับและ SRT แล้ว</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+  </article></div>
+    <div class="empty-state" hidden>
+      <p class="empty-title">มุมนี้ยังไม่มีอะไรเลย</p>
+      <p>ลองใช้คำอื่นหรือล้างตัวกรองของคุณ</p>
+      <wa-button class="text-button" data-reset appearance="plain">ล้างตัวกรอง <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
+    </div>
+  </div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">
