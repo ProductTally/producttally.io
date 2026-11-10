@@ -139,3 +139,20 @@
 @media (max-width: 44rem) {
   .detail-grid, .article-grid { grid-template-columns: minmax(0, 1fr); }
 }
+
+.breadcrumbs { padding-block-start: 1.15rem; font-size: .82rem; color: var(--muted); }
+.breadcrumbs ol { display: flex; flex-wrap: wrap; gap: .25rem .55rem; margin: 0; padding: 0; list-style: none; }
+.breadcrumbs li + li::before { content: "/"; margin-inline-end: .55rem; color: var(--muted); }
+.breadcrumbs [aria-current] { color: var(--ink); }
+.breadcrumbs + .detail, .breadcrumbs + .product-square { padding-block-start: 1.35rem; }
+.byline a { color: inherit; }
+.comparison-overview {
+  padding: clamp(.9rem, 3vw, 1.5rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.comparison-overview dl { margin: .75rem 0 0; }
+.comparison-overview dt { font-weight: 750; color: var(--ink); }
+.comparison-overview dd { margin-inline-start: 0; }
+.comparison-overview dd + dt { margin-block-start: .75rem; }

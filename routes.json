@@ -1,4 +1,5 @@
 {
+  "origin": "https://producttally.com",
   "base": "/",
   "locales": [
     "en",
@@ -22,7 +23,8 @@
     {
       "lang": "en",
       "route": "products",
-      "url": "/products/"
+      "url": "/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "en",
@@ -135,7 +137,8 @@
     {
       "lang": "zh",
       "route": "products",
-      "url": "/zh/products/"
+      "url": "/zh/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "zh",
@@ -248,7 +251,8 @@
     {
       "lang": "es",
       "route": "products",
-      "url": "/es/products/"
+      "url": "/es/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "es",
@@ -361,7 +365,8 @@
     {
       "lang": "ja",
       "route": "products",
-      "url": "/ja/products/"
+      "url": "/ja/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "ja",
@@ -474,7 +479,8 @@
     {
       "lang": "ko",
       "route": "products",
-      "url": "/ko/products/"
+      "url": "/ko/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "ko",
@@ -587,7 +593,8 @@
     {
       "lang": "fr",
       "route": "products",
-      "url": "/fr/products/"
+      "url": "/fr/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "fr",
@@ -700,7 +707,8 @@
     {
       "lang": "de",
       "route": "products",
-      "url": "/de/products/"
+      "url": "/de/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "de",
@@ -813,7 +821,8 @@
     {
       "lang": "it",
       "route": "products",
-      "url": "/it/products/"
+      "url": "/it/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "it",
@@ -926,7 +935,8 @@
     {
       "lang": "hi",
       "route": "products",
-      "url": "/hi/products/"
+      "url": "/hi/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "hi",
@@ -1039,7 +1049,8 @@
     {
       "lang": "th",
       "route": "products",
-      "url": "/th/products/"
+      "url": "/th/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "th",
@@ -1152,7 +1163,8 @@
     {
       "lang": "pt-BR",
       "route": "products",
-      "url": "/pt-br/products/"
+      "url": "/pt-br/products/",
+      "canonicalRoute": ""
     },
     {
       "lang": "pt-BR",
