@@ -65,4 +65,6 @@
   align-items: baseline;
 }
 .pricing-card li .icon { color: var(--forest); align-self: center; }
-.pricing-policy { margin-block-start: 1.25rem; max-inline-size: 76ch; font-size: .9rem; }
+.pricing-contact { margin-block-start: 1.25rem; }
+.pricing-contact a { color: var(--accent-dark); }
+.pricing-policy { margin-block-start: .75rem; max-inline-size: 76ch; font-size: .9rem; }

@@ -7,20 +7,68 @@ ProductTally publishes practical product observations, comparisons, and guides. 
 ## English
 - [Back to home](https://producttally.com/)
 - [Products](https://producttally.com/products/)
-- [Guides](https://producttally.com/notes/)
+- [Guides](https://producttally.com/guides/)
 - [About the project](https://producttally.com/about/)
 
 ## 简体中文
 - [回到首页](https://producttally.com/zh/)
 - [产品广场](https://producttally.com/zh/products/)
-- [指南文章](https://producttally.com/zh/notes/)
+- [指南文章](https://producttally.com/zh/guides/)
 - [关于这个项目](https://producttally.com/zh/about/)
 
 ## Español
 - [Volver al inicio](https://producttally.com/es/)
 - [Productos](https://producttally.com/es/products/)
-- [Guías](https://producttally.com/es/notes/)
+- [Guías](https://producttally.com/es/guides/)
 - [Sobre el proyecto](https://producttally.com/es/about/)
+
+## 日本語
+- [家に戻る](https://producttally.com/ja/)
+- [製品](https://producttally.com/ja/products/)
+- [ガイド](https://producttally.com/ja/guides/)
+- [プロジェクトについて](https://producttally.com/ja/about/)
+
+## 한국어
+- [집으로 돌아가기](https://producttally.com/ko/)
+- [제품](https://producttally.com/ko/products/)
+- [가이드](https://producttally.com/ko/guides/)
+- [프로젝트 소개](https://producttally.com/ko/about/)
+
+## Français
+- [Retour à la maison](https://producttally.com/fr/)
+- [Produits](https://producttally.com/fr/products/)
+- [Guides](https://producttally.com/fr/guides/)
+- [À propos du projet](https://producttally.com/fr/about/)
+
+## Deutsch
+- [Zurück nach Hause](https://producttally.com/de/)
+- [Produkte](https://producttally.com/de/products/)
+- [Anleitungen](https://producttally.com/de/guides/)
+- [Über das Projekt](https://producttally.com/de/about/)
+
+## Italiano
+- [Ritorno a casa](https://producttally.com/it/)
+- [Prodotti](https://producttally.com/it/products/)
+- [Guide](https://producttally.com/it/guides/)
+- [Informazioni sul progetto](https://producttally.com/it/about/)
+
+## हिन्दी
+- [घर वापस](https://producttally.com/hi/)
+- [उत्पाद](https://producttally.com/hi/products/)
+- [गाइड](https://producttally.com/hi/guides/)
+- [प्रोजेक्ट के बारे में](https://producttally.com/hi/about/)
+
+## ไทย
+- [กลับบ้าน](https://producttally.com/th/)
+- [ผลิตภัณฑ์](https://producttally.com/th/products/)
+- [คู่มือ](https://producttally.com/th/guides/)
+- [เกี่ยวกับโครงการ](https://producttally.com/th/about/)
+
+## Português (Brasil)
+- [De volta para casa](https://producttally.com/pt-br/)
+- [Produtos](https://producttally.com/pt-br/products/)
+- [Guias](https://producttally.com/pt-br/guides/)
+- [Sobre o projeto](https://producttally.com/pt-br/about/)
 
 ## Editorial principles
 - Separate observed results from features not tested.

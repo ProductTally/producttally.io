@@ -36,8 +36,9 @@ wa-input:focus-within::part(input-wrapper) {
   outline-offset: 2px;
 }
 .language-trigger::part(button) {
-  min-block-size: 2.65rem;
-  padding-inline: .7rem;
+  min-block-size: 2.55rem;
+  padding-inline: .68rem;
+  background: var(--wash);
   border-radius: var(--radius-pill);
   color: var(--ink);
   font-size: .88rem;
@@ -45,8 +46,15 @@ wa-input:focus-within::part(input-wrapper) {
 }
 .language-trigger:hover::part(button),
 .language-control wa-dropdown[open] .language-trigger::part(button) {
-  background: var(--wash);
-  color: var(--accent);
+  background: var(--accent-wash);
+  color: var(--accent-dark);
+}
+.language-trigger span[translate="no"] {
+  display: inline-block;
+  max-inline-size: min(9rem, 27vw);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
 }
 .language-control .icon {
   inline-size: 1rem;
@@ -56,6 +64,7 @@ wa-input:focus-within::part(input-wrapper) {
 .language-control wa-dropdown::part(menu) {
   inline-size: min(13.5rem, calc(100vw - 2rem));
   max-block-size: min(22rem, 60vh);
+  overflow-y: auto;
   overscroll-behavior: contain;
   padding: .35rem;
   background: var(--surface);

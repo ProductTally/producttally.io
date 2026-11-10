@@ -58,3 +58,29 @@
   .method { grid-template-columns: minmax(0, 1fr); }
   .note-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
 }
+
+.guide-products { margin-block-end: 1.5rem; }
+.guide-products ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  padding: 0;
+  margin-block: .65rem 0;
+  list-style: none;
+}
+.guide-products a {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .35rem .5rem;
+  padding: .35rem .6rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: .88rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+.guide-products a:hover { border-color: var(--accent); }
+.guide-products .product-mark { inline-size: 1.65rem; font-size: .85rem; }
+.guide-count { color: var(--muted); font-size: .76rem; font-weight: 500; }
