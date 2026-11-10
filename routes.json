@@ -43,91 +43,8 @@
     },
     {
       "lang": "en",
-      "route": "products/grammarly",
-      "url": "/products/grammarly/"
-    },
-    {
-      "lang": "en",
-      "route": "products/todoist",
-      "url": "/products/todoist/"
-    },
-    {
-      "lang": "en",
-      "route": "products/jotform",
-      "url": "/products/jotform/"
-    },
-    {
-      "lang": "en",
-      "route": "products/veed",
-      "url": "/products/veed/"
-    },
-    {
-      "lang": "en",
-      "route": "products/quillbot",
-      "url": "/products/quillbot/"
-    },
-    {
-      "lang": "en",
-      "route": "products/carrd",
-      "url": "/products/carrd/"
-    },
-    {
-      "lang": "en",
       "route": "guides",
       "url": "/guides/"
-    },
-    {
-      "lang": "en",
-      "route": "guides/grammarly",
-      "url": "/guides/grammarly/"
-    },
-    {
-      "lang": "en",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "en",
-      "route": "guides/todoist",
-      "url": "/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "en",
-      "route": "guides/jotform",
-      "url": "/guides/jotform/"
-    },
-    {
-      "lang": "en",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "en",
-      "route": "guides/veed",
-      "url": "/guides/veed/"
-    },
-    {
-      "lang": "en",
-      "route": "guides/veed/free-video-export",
-      "url": "/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "en",
-      "route": "guides/quillbot",
-      "url": "/guides/quillbot/"
-    },
-    {
-      "lang": "en",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "en",
-      "route": "guides/carrd",
-      "url": "/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "zh",
@@ -157,91 +74,8 @@
     },
     {
       "lang": "zh",
-      "route": "products/grammarly",
-      "url": "/zh/products/grammarly/"
-    },
-    {
-      "lang": "zh",
-      "route": "products/todoist",
-      "url": "/zh/products/todoist/"
-    },
-    {
-      "lang": "zh",
-      "route": "products/jotform",
-      "url": "/zh/products/jotform/"
-    },
-    {
-      "lang": "zh",
-      "route": "products/veed",
-      "url": "/zh/products/veed/"
-    },
-    {
-      "lang": "zh",
-      "route": "products/quillbot",
-      "url": "/zh/products/quillbot/"
-    },
-    {
-      "lang": "zh",
-      "route": "products/carrd",
-      "url": "/zh/products/carrd/"
-    },
-    {
-      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/grammarly",
-      "url": "/zh/guides/grammarly/"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/zh/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/todoist",
-      "url": "/zh/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "zh",
-      "route": "guides/jotform",
-      "url": "/zh/guides/jotform/"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/zh/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/veed",
-      "url": "/zh/guides/veed/"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/veed/free-video-export",
-      "url": "/zh/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/quillbot",
-      "url": "/zh/guides/quillbot/"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/zh/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/carrd",
-      "url": "/zh/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "es",
@@ -271,91 +105,8 @@
     },
     {
       "lang": "es",
-      "route": "products/grammarly",
-      "url": "/es/products/grammarly/"
-    },
-    {
-      "lang": "es",
-      "route": "products/todoist",
-      "url": "/es/products/todoist/"
-    },
-    {
-      "lang": "es",
-      "route": "products/jotform",
-      "url": "/es/products/jotform/"
-    },
-    {
-      "lang": "es",
-      "route": "products/veed",
-      "url": "/es/products/veed/"
-    },
-    {
-      "lang": "es",
-      "route": "products/quillbot",
-      "url": "/es/products/quillbot/"
-    },
-    {
-      "lang": "es",
-      "route": "products/carrd",
-      "url": "/es/products/carrd/"
-    },
-    {
-      "lang": "es",
       "route": "guides",
       "url": "/es/guides/"
-    },
-    {
-      "lang": "es",
-      "route": "guides/grammarly",
-      "url": "/es/guides/grammarly/"
-    },
-    {
-      "lang": "es",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/es/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "es",
-      "route": "guides/todoist",
-      "url": "/es/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "es",
-      "route": "guides/jotform",
-      "url": "/es/guides/jotform/"
-    },
-    {
-      "lang": "es",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/es/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "es",
-      "route": "guides/veed",
-      "url": "/es/guides/veed/"
-    },
-    {
-      "lang": "es",
-      "route": "guides/veed/free-video-export",
-      "url": "/es/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "es",
-      "route": "guides/quillbot",
-      "url": "/es/guides/quillbot/"
-    },
-    {
-      "lang": "es",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/es/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "es",
-      "route": "guides/carrd",
-      "url": "/es/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "ja",
@@ -385,91 +136,8 @@
     },
     {
       "lang": "ja",
-      "route": "products/grammarly",
-      "url": "/ja/products/grammarly/"
-    },
-    {
-      "lang": "ja",
-      "route": "products/todoist",
-      "url": "/ja/products/todoist/"
-    },
-    {
-      "lang": "ja",
-      "route": "products/jotform",
-      "url": "/ja/products/jotform/"
-    },
-    {
-      "lang": "ja",
-      "route": "products/veed",
-      "url": "/ja/products/veed/"
-    },
-    {
-      "lang": "ja",
-      "route": "products/quillbot",
-      "url": "/ja/products/quillbot/"
-    },
-    {
-      "lang": "ja",
-      "route": "products/carrd",
-      "url": "/ja/products/carrd/"
-    },
-    {
-      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/grammarly",
-      "url": "/ja/guides/grammarly/"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/ja/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/todoist",
-      "url": "/ja/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "ja",
-      "route": "guides/jotform",
-      "url": "/ja/guides/jotform/"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/ja/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/veed",
-      "url": "/ja/guides/veed/"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/veed/free-video-export",
-      "url": "/ja/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/quillbot",
-      "url": "/ja/guides/quillbot/"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/ja/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/carrd",
-      "url": "/ja/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "ko",
@@ -499,91 +167,8 @@
     },
     {
       "lang": "ko",
-      "route": "products/grammarly",
-      "url": "/ko/products/grammarly/"
-    },
-    {
-      "lang": "ko",
-      "route": "products/todoist",
-      "url": "/ko/products/todoist/"
-    },
-    {
-      "lang": "ko",
-      "route": "products/jotform",
-      "url": "/ko/products/jotform/"
-    },
-    {
-      "lang": "ko",
-      "route": "products/veed",
-      "url": "/ko/products/veed/"
-    },
-    {
-      "lang": "ko",
-      "route": "products/quillbot",
-      "url": "/ko/products/quillbot/"
-    },
-    {
-      "lang": "ko",
-      "route": "products/carrd",
-      "url": "/ko/products/carrd/"
-    },
-    {
-      "lang": "ko",
       "route": "guides",
       "url": "/ko/guides/"
-    },
-    {
-      "lang": "ko",
-      "route": "guides/grammarly",
-      "url": "/ko/guides/grammarly/"
-    },
-    {
-      "lang": "ko",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/ko/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "ko",
-      "route": "guides/todoist",
-      "url": "/ko/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "ko",
-      "route": "guides/jotform",
-      "url": "/ko/guides/jotform/"
-    },
-    {
-      "lang": "ko",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/ko/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "ko",
-      "route": "guides/veed",
-      "url": "/ko/guides/veed/"
-    },
-    {
-      "lang": "ko",
-      "route": "guides/veed/free-video-export",
-      "url": "/ko/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "ko",
-      "route": "guides/quillbot",
-      "url": "/ko/guides/quillbot/"
-    },
-    {
-      "lang": "ko",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/ko/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "ko",
-      "route": "guides/carrd",
-      "url": "/ko/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "fr",
@@ -613,91 +198,8 @@
     },
     {
       "lang": "fr",
-      "route": "products/grammarly",
-      "url": "/fr/products/grammarly/"
-    },
-    {
-      "lang": "fr",
-      "route": "products/todoist",
-      "url": "/fr/products/todoist/"
-    },
-    {
-      "lang": "fr",
-      "route": "products/jotform",
-      "url": "/fr/products/jotform/"
-    },
-    {
-      "lang": "fr",
-      "route": "products/veed",
-      "url": "/fr/products/veed/"
-    },
-    {
-      "lang": "fr",
-      "route": "products/quillbot",
-      "url": "/fr/products/quillbot/"
-    },
-    {
-      "lang": "fr",
-      "route": "products/carrd",
-      "url": "/fr/products/carrd/"
-    },
-    {
-      "lang": "fr",
       "route": "guides",
       "url": "/fr/guides/"
-    },
-    {
-      "lang": "fr",
-      "route": "guides/grammarly",
-      "url": "/fr/guides/grammarly/"
-    },
-    {
-      "lang": "fr",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/fr/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "fr",
-      "route": "guides/todoist",
-      "url": "/fr/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "fr",
-      "route": "guides/jotform",
-      "url": "/fr/guides/jotform/"
-    },
-    {
-      "lang": "fr",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/fr/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "fr",
-      "route": "guides/veed",
-      "url": "/fr/guides/veed/"
-    },
-    {
-      "lang": "fr",
-      "route": "guides/veed/free-video-export",
-      "url": "/fr/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "fr",
-      "route": "guides/quillbot",
-      "url": "/fr/guides/quillbot/"
-    },
-    {
-      "lang": "fr",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/fr/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "fr",
-      "route": "guides/carrd",
-      "url": "/fr/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "de",
@@ -727,91 +229,8 @@
     },
     {
       "lang": "de",
-      "route": "products/grammarly",
-      "url": "/de/products/grammarly/"
-    },
-    {
-      "lang": "de",
-      "route": "products/todoist",
-      "url": "/de/products/todoist/"
-    },
-    {
-      "lang": "de",
-      "route": "products/jotform",
-      "url": "/de/products/jotform/"
-    },
-    {
-      "lang": "de",
-      "route": "products/veed",
-      "url": "/de/products/veed/"
-    },
-    {
-      "lang": "de",
-      "route": "products/quillbot",
-      "url": "/de/products/quillbot/"
-    },
-    {
-      "lang": "de",
-      "route": "products/carrd",
-      "url": "/de/products/carrd/"
-    },
-    {
-      "lang": "de",
       "route": "guides",
       "url": "/de/guides/"
-    },
-    {
-      "lang": "de",
-      "route": "guides/grammarly",
-      "url": "/de/guides/grammarly/"
-    },
-    {
-      "lang": "de",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/de/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "de",
-      "route": "guides/todoist",
-      "url": "/de/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "de",
-      "route": "guides/jotform",
-      "url": "/de/guides/jotform/"
-    },
-    {
-      "lang": "de",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/de/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "de",
-      "route": "guides/veed",
-      "url": "/de/guides/veed/"
-    },
-    {
-      "lang": "de",
-      "route": "guides/veed/free-video-export",
-      "url": "/de/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "de",
-      "route": "guides/quillbot",
-      "url": "/de/guides/quillbot/"
-    },
-    {
-      "lang": "de",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/de/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "de",
-      "route": "guides/carrd",
-      "url": "/de/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "it",
@@ -841,91 +260,8 @@
     },
     {
       "lang": "it",
-      "route": "products/grammarly",
-      "url": "/it/products/grammarly/"
-    },
-    {
-      "lang": "it",
-      "route": "products/todoist",
-      "url": "/it/products/todoist/"
-    },
-    {
-      "lang": "it",
-      "route": "products/jotform",
-      "url": "/it/products/jotform/"
-    },
-    {
-      "lang": "it",
-      "route": "products/veed",
-      "url": "/it/products/veed/"
-    },
-    {
-      "lang": "it",
-      "route": "products/quillbot",
-      "url": "/it/products/quillbot/"
-    },
-    {
-      "lang": "it",
-      "route": "products/carrd",
-      "url": "/it/products/carrd/"
-    },
-    {
-      "lang": "it",
       "route": "guides",
       "url": "/it/guides/"
-    },
-    {
-      "lang": "it",
-      "route": "guides/grammarly",
-      "url": "/it/guides/grammarly/"
-    },
-    {
-      "lang": "it",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/it/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "it",
-      "route": "guides/todoist",
-      "url": "/it/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "it",
-      "route": "guides/jotform",
-      "url": "/it/guides/jotform/"
-    },
-    {
-      "lang": "it",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/it/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "it",
-      "route": "guides/veed",
-      "url": "/it/guides/veed/"
-    },
-    {
-      "lang": "it",
-      "route": "guides/veed/free-video-export",
-      "url": "/it/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "it",
-      "route": "guides/quillbot",
-      "url": "/it/guides/quillbot/"
-    },
-    {
-      "lang": "it",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/it/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "it",
-      "route": "guides/carrd",
-      "url": "/it/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "hi",
@@ -955,91 +291,8 @@
     },
     {
       "lang": "hi",
-      "route": "products/grammarly",
-      "url": "/hi/products/grammarly/"
-    },
-    {
-      "lang": "hi",
-      "route": "products/todoist",
-      "url": "/hi/products/todoist/"
-    },
-    {
-      "lang": "hi",
-      "route": "products/jotform",
-      "url": "/hi/products/jotform/"
-    },
-    {
-      "lang": "hi",
-      "route": "products/veed",
-      "url": "/hi/products/veed/"
-    },
-    {
-      "lang": "hi",
-      "route": "products/quillbot",
-      "url": "/hi/products/quillbot/"
-    },
-    {
-      "lang": "hi",
-      "route": "products/carrd",
-      "url": "/hi/products/carrd/"
-    },
-    {
-      "lang": "hi",
       "route": "guides",
       "url": "/hi/guides/"
-    },
-    {
-      "lang": "hi",
-      "route": "guides/grammarly",
-      "url": "/hi/guides/grammarly/"
-    },
-    {
-      "lang": "hi",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/hi/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "hi",
-      "route": "guides/todoist",
-      "url": "/hi/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "hi",
-      "route": "guides/jotform",
-      "url": "/hi/guides/jotform/"
-    },
-    {
-      "lang": "hi",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/hi/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "hi",
-      "route": "guides/veed",
-      "url": "/hi/guides/veed/"
-    },
-    {
-      "lang": "hi",
-      "route": "guides/veed/free-video-export",
-      "url": "/hi/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "hi",
-      "route": "guides/quillbot",
-      "url": "/hi/guides/quillbot/"
-    },
-    {
-      "lang": "hi",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/hi/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "hi",
-      "route": "guides/carrd",
-      "url": "/hi/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "th",
@@ -1069,91 +322,8 @@
     },
     {
       "lang": "th",
-      "route": "products/grammarly",
-      "url": "/th/products/grammarly/"
-    },
-    {
-      "lang": "th",
-      "route": "products/todoist",
-      "url": "/th/products/todoist/"
-    },
-    {
-      "lang": "th",
-      "route": "products/jotform",
-      "url": "/th/products/jotform/"
-    },
-    {
-      "lang": "th",
-      "route": "products/veed",
-      "url": "/th/products/veed/"
-    },
-    {
-      "lang": "th",
-      "route": "products/quillbot",
-      "url": "/th/products/quillbot/"
-    },
-    {
-      "lang": "th",
-      "route": "products/carrd",
-      "url": "/th/products/carrd/"
-    },
-    {
-      "lang": "th",
       "route": "guides",
       "url": "/th/guides/"
-    },
-    {
-      "lang": "th",
-      "route": "guides/grammarly",
-      "url": "/th/guides/grammarly/"
-    },
-    {
-      "lang": "th",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/th/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "th",
-      "route": "guides/todoist",
-      "url": "/th/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "th",
-      "route": "guides/jotform",
-      "url": "/th/guides/jotform/"
-    },
-    {
-      "lang": "th",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/th/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "th",
-      "route": "guides/veed",
-      "url": "/th/guides/veed/"
-    },
-    {
-      "lang": "th",
-      "route": "guides/veed/free-video-export",
-      "url": "/th/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "th",
-      "route": "guides/quillbot",
-      "url": "/th/guides/quillbot/"
-    },
-    {
-      "lang": "th",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/th/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "th",
-      "route": "guides/carrd",
-      "url": "/th/guides/carrd/",
-      "indexable": false
     },
     {
       "lang": "pt-BR",
@@ -1183,91 +353,8 @@
     },
     {
       "lang": "pt-BR",
-      "route": "products/grammarly",
-      "url": "/pt-br/products/grammarly/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "products/todoist",
-      "url": "/pt-br/products/todoist/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "products/jotform",
-      "url": "/pt-br/products/jotform/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "products/veed",
-      "url": "/pt-br/products/veed/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "products/quillbot",
-      "url": "/pt-br/products/quillbot/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "products/carrd",
-      "url": "/pt-br/products/carrd/"
-    },
-    {
-      "lang": "pt-BR",
       "route": "guides",
       "url": "/pt-br/guides/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/grammarly",
-      "url": "/pt-br/guides/grammarly/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/grammarly/writing-workflow",
-      "url": "/pt-br/guides/grammarly/writing-workflow/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/todoist",
-      "url": "/pt-br/guides/todoist/",
-      "indexable": false
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/jotform",
-      "url": "/pt-br/guides/jotform/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/jotform/multilingual-feedback",
-      "url": "/pt-br/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/veed",
-      "url": "/pt-br/guides/veed/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/veed/free-video-export",
-      "url": "/pt-br/guides/veed/free-video-export/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/quillbot",
-      "url": "/pt-br/guides/quillbot/"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/quillbot/writing-workflow",
-      "url": "/pt-br/guides/quillbot/writing-workflow/",
-      "canonicalRoute": "guides/grammarly/writing-workflow"
-    },
-    {
-      "lang": "pt-BR",
-      "route": "guides/carrd",
-      "url": "/pt-br/guides/carrd/",
-      "indexable": false
     }
   ],
   "redirects": [
@@ -1276,176 +363,44 @@
       "target": "/guides/"
     },
     {
-      "url": "/notes/writing-workflow/",
-      "target": "/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/notes/multilingual-feedback/",
-      "target": "/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/notes/free-video-export/",
-      "target": "/guides/veed/free-video-export/"
-    },
-    {
       "url": "/zh/notes/",
       "target": "/zh/guides/"
-    },
-    {
-      "url": "/zh/notes/writing-workflow/",
-      "target": "/zh/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/zh/notes/multilingual-feedback/",
-      "target": "/zh/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/zh/notes/free-video-export/",
-      "target": "/zh/guides/veed/free-video-export/"
     },
     {
       "url": "/es/notes/",
       "target": "/es/guides/"
     },
     {
-      "url": "/es/notes/writing-workflow/",
-      "target": "/es/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/es/notes/multilingual-feedback/",
-      "target": "/es/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/es/notes/free-video-export/",
-      "target": "/es/guides/veed/free-video-export/"
-    },
-    {
       "url": "/ja/notes/",
       "target": "/ja/guides/"
-    },
-    {
-      "url": "/ja/notes/writing-workflow/",
-      "target": "/ja/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/ja/notes/multilingual-feedback/",
-      "target": "/ja/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/ja/notes/free-video-export/",
-      "target": "/ja/guides/veed/free-video-export/"
     },
     {
       "url": "/ko/notes/",
       "target": "/ko/guides/"
     },
     {
-      "url": "/ko/notes/writing-workflow/",
-      "target": "/ko/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/ko/notes/multilingual-feedback/",
-      "target": "/ko/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/ko/notes/free-video-export/",
-      "target": "/ko/guides/veed/free-video-export/"
-    },
-    {
       "url": "/fr/notes/",
       "target": "/fr/guides/"
-    },
-    {
-      "url": "/fr/notes/writing-workflow/",
-      "target": "/fr/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/fr/notes/multilingual-feedback/",
-      "target": "/fr/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/fr/notes/free-video-export/",
-      "target": "/fr/guides/veed/free-video-export/"
     },
     {
       "url": "/de/notes/",
       "target": "/de/guides/"
     },
     {
-      "url": "/de/notes/writing-workflow/",
-      "target": "/de/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/de/notes/multilingual-feedback/",
-      "target": "/de/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/de/notes/free-video-export/",
-      "target": "/de/guides/veed/free-video-export/"
-    },
-    {
       "url": "/it/notes/",
       "target": "/it/guides/"
-    },
-    {
-      "url": "/it/notes/writing-workflow/",
-      "target": "/it/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/it/notes/multilingual-feedback/",
-      "target": "/it/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/it/notes/free-video-export/",
-      "target": "/it/guides/veed/free-video-export/"
     },
     {
       "url": "/hi/notes/",
       "target": "/hi/guides/"
     },
     {
-      "url": "/hi/notes/writing-workflow/",
-      "target": "/hi/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/hi/notes/multilingual-feedback/",
-      "target": "/hi/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/hi/notes/free-video-export/",
-      "target": "/hi/guides/veed/free-video-export/"
-    },
-    {
       "url": "/th/notes/",
       "target": "/th/guides/"
     },
     {
-      "url": "/th/notes/writing-workflow/",
-      "target": "/th/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/th/notes/multilingual-feedback/",
-      "target": "/th/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/th/notes/free-video-export/",
-      "target": "/th/guides/veed/free-video-export/"
-    },
-    {
       "url": "/pt-br/notes/",
       "target": "/pt-br/guides/"
-    },
-    {
-      "url": "/pt-br/notes/writing-workflow/",
-      "target": "/pt-br/guides/grammarly/writing-workflow/"
-    },
-    {
-      "url": "/pt-br/notes/multilingual-feedback/",
-      "target": "/pt-br/guides/jotform/multilingual-feedback/"
-    },
-    {
-      "url": "/pt-br/notes/free-video-export/",
-      "target": "/pt-br/guides/veed/free-video-export/"
     }
   ]
 }

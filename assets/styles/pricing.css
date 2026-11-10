@@ -1,18 +1,7 @@
 .pricing-notice {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: .3rem .75rem;
   margin-block-end: 1.25rem;
   color: var(--muted);
   font-size: .9rem;
-}
-.pricing-notice span {
-  padding: .2rem .55rem;
-  border-radius: var(--radius-pill);
-  background: var(--accent-wash);
-  color: var(--accent-dark);
-  font-weight: 700;
 }
 .pricing-card {
   display: grid;
@@ -40,17 +29,6 @@
   color: var(--accent);
 }
 .pricing-card > p, .pricing-policy { color: var(--muted); }
-.plan-price {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: .25rem .55rem;
-}
-.plan-price strong {
-  color: var(--ink);
-  font: 500 clamp(1.85rem, 4vw, 3rem)/1.1 var(--display);
-}
-.plan-price span { font-size: .9rem; }
 .pricing-card ul {
   display: grid;
   gap: .45rem;

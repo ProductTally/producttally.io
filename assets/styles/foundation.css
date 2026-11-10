@@ -24,6 +24,12 @@
   --mono: ui-monospace, 'SFMono-Regular', Consolas, monospace;
 }
 
+:lang(zh) { --body: 'Avenir Next', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif; --display: 'Iowan Old Style', 'Songti SC', 'Noto Serif CJK SC', serif; }
+:lang(ja) { --body: 'Avenir Next', 'Hiragino Sans', 'Yu Gothic', 'Noto Sans CJK JP', sans-serif; --display: 'Iowan Old Style', 'Hiragino Mincho ProN', 'Yu Mincho', 'Noto Serif CJK JP', serif; }
+:lang(ko) { --body: 'Avenir Next', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; --display: 'Iowan Old Style', 'AppleMyungjo', 'Batang', 'Noto Serif CJK KR', serif; }
+:lang(hi) { --body: 'Avenir Next', 'Kohinoor Devanagari', 'Nirmala UI', 'Noto Sans Devanagari', sans-serif; --display: 'Iowan Old Style', 'Kohinoor Devanagari', 'Noto Serif Devanagari', serif; }
+:lang(th) { --body: 'Avenir Next', 'Thonburi', 'Leelawadee UI', 'Noto Sans Thai', sans-serif; --display: 'Iowan Old Style', 'Thonburi', 'Noto Serif Thai', serif; }
+
 *, *::before, *::after { box-sizing: border-box; }
 body {
   margin: 0;

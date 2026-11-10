@@ -3,9 +3,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: .9rem 1.25rem;
-  padding-block-end: 1rem;
-  border-block-end: 1px solid var(--line);
+  gap: .75rem;
+  padding: .8rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: .75rem;
 }
 .filters { display: flex; flex-wrap: wrap; gap: .45rem; }
 .catalog-meta { margin-block: .7rem 1rem; color: var(--muted); font-size: .88rem; }
@@ -13,15 +15,23 @@
 .product-card {
   position: relative;
   display: grid;
-  grid-template-rows: auto auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
   gap: .5rem;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 1.2rem;
+  border-radius: .8rem;
+  padding: clamp(.95rem, 2vw, 1.3rem);
 }
 .product-card:hover, .product-card:focus-within { border-color: var(--accent); }
-.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: .5rem; margin-block-end: .45rem; }
+.card-top {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .65rem;
+  margin-block-end: .35rem;
+}
+.card-identity { display: grid; gap: .3rem; justify-items: start; }
+.card-top .save-button { align-self: start; }
 .product-mark {
   display: grid;
   place-items: center;
@@ -36,7 +46,7 @@
 .product-card h2, .product-card h3 { font: 750 clamp(1.18rem, 2vw, 1.5rem)/1.2 var(--body); }
 .product-card h2 a, .product-card h3 a { text-decoration: none; }
 .product-card h2 a::after, .product-card h3 a::after { content: ''; position: absolute; inset: 0; }
-.card-description { color: var(--muted); }
+.card-description { color: var(--muted); font-size: .94rem; }
 .card-bottom {
   display: flex;
   justify-content: space-between;
@@ -65,7 +75,6 @@
 }
 .square-heading h1 { font-size: clamp(2.35rem, 6vw, 4.65rem); letter-spacing: -.035em; }
 .square-heading .lead { max-inline-size: 64ch; }
-.card-actions { display: flex; flex-wrap: wrap; justify-content: end; align-items: center; gap: .25rem; }
 .product-tag {
   padding: .2rem .55rem;
   border-radius: var(--radius-pill);
@@ -73,4 +82,39 @@
   color: var(--muted);
   font-size: .77rem;
   font-weight: 650;
+}
+
+.directory-heading {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(1rem, 4vw, 4rem);
+  padding: clamp(1.05rem, 3.5vw, 2.75rem);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: linear-gradient(115deg, var(--surface) 35%, var(--accent-wash));
+}
+.directory-heading > div { display: grid; gap: .6rem; }
+.directory-heading h1 { font-size: clamp(2.15rem, 5.5vw, 4.25rem); }
+.directory-heading .text-link { font-size: .88rem; min-block-size: 2rem; }
+.directory-glyph {
+  display: grid;
+  place-items: center;
+  inline-size: clamp(4rem, 11vw, 8rem);
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--surface);
+  color: var(--accent-dark);
+  transform: rotate(6deg);
+}
+.directory-glyph .icon { inline-size: 50%; block-size: auto; }
+.guide-heading { background: linear-gradient(115deg, var(--surface) 40%, var(--forest-light)); }
+.guide-heading .directory-glyph { color: var(--forest); }
+
+@media (max-width: 34rem) {
+  .directory-heading { grid-template-columns: minmax(0, 1fr); }
+  .directory-glyph { display: none; }
+  .catalog-controls .search { max-inline-size: none; }
 }

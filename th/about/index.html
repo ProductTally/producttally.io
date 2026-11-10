@@ -44,7 +44,9 @@
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
 </head>
 <body data-lang="th" data-save-label="บันทึกผลิตภัณฑ์" data-unsave-label="ยกเลิกการบันทึกผลิตภัณฑ์" data-save-toast="บันทึกลงในรายการโปรดของคุณแล้ว" data-unsave-toast="ลบออกจากรายการโปรดของคุณแล้ว" data-storage-error="เบราว์เซอร์ของคุณไม่สามารถบันทึกการเปลี่ยนแปลงนี้ได้">
   <a class="skip-link" href="#main">ข้ามไปที่เนื้อหา</a>
@@ -61,12 +63,11 @@
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
             <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
-              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">ภาษา </span><span translate="no">ไทย</span>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">ภาษา <span translate="no">ไทย</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">ไทย</span>
             </wa-button>
             <wa-dropdown-item href="/about/" lang="en" translate="no">
       English
-    </wa-dropdown-item><wa-dropdown-item href="/zh/about/" lang="zh-CN" translate="no">
-      简体中文
     </wa-dropdown-item><wa-dropdown-item href="/es/about/" lang="es" translate="no">
       Español
     </wa-dropdown-item><wa-dropdown-item href="/ja/about/" lang="ja" translate="no">
@@ -86,9 +87,11 @@
       <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
     </wa-dropdown-item><wa-dropdown-item href="/pt-br/about/" lang="pt-BR" translate="no">
       Português (Brasil)
+    </wa-dropdown-item><wa-dropdown-item href="/zh/about/" lang="zh-CN" translate="no">
+      简体中文
     </wa-dropdown-item>
           </wa-dropdown>
-          <nav class="language-fallback" aria-label="ภาษา"><a href="/about/" lang="en" hreflang="en" translate="no">English</a><a href="/zh/about/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a><a href="/es/about/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/about/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/about/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/about/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/about/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/about/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/about/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/about/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/about/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a></nav>
+          <nav class="language-fallback" aria-label="ภาษา"><a href="/about/" lang="en" hreflang="en" translate="no">English</a><a href="/es/about/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/about/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/about/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/about/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/about/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/about/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/about/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/about/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/about/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a><a href="/zh/about/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
         </div>
       </div>
     </header>

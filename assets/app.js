@@ -7,8 +7,12 @@ async function register(...names) {
 }
 
 async function setupLanguage() {
-  await register('dropdown', 'button');
-  initLanguageSwitcher();
+  try {
+    await register('dropdown', 'button');
+    initLanguageSwitcher();
+  } catch {
+    document.querySelector('.language-control')?.setAttribute('data-failed', 'true');
+  }
 }
 
 async function setupCatalog() {

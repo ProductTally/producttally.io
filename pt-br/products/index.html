@@ -44,7 +44,9 @@
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
 </head>
 <body data-lang="pt-BR" data-save-label="Salvar produto" data-unsave-label="Cancelar salvamento do produto" data-save-toast="Salvo na sua lista" data-unsave-toast="Removido da sua lista" data-storage-error="Seu navegador não conseguiu salvar esta alteração.">
   <a class="skip-link" href="#main">Pular para o conteúdo</a>
@@ -61,12 +63,11 @@
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
             <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
-              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Idioma </span><span translate="no">Português (Brasil)</span>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Idioma <span translate="no">Português (Brasil)</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">Português (Brasil)</span><span class="language-label-short" aria-hidden="true" translate="no">Português</span>
             </wa-button>
             <wa-dropdown-item href="/products/" lang="en" translate="no">
       English
-    </wa-dropdown-item><wa-dropdown-item href="/zh/products/" lang="zh-CN" translate="no">
-      简体中文
     </wa-dropdown-item><wa-dropdown-item href="/es/products/" lang="es" translate="no">
       Español
     </wa-dropdown-item><wa-dropdown-item href="/ja/products/" lang="ja" translate="no">
@@ -86,9 +87,11 @@
     </wa-dropdown-item><wa-dropdown-item href="/pt-br/products/" lang="pt-BR" translate="no" aria-current="page">
       Português (Brasil)
       <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/products/" lang="zh-CN" translate="no">
+      简体中文
     </wa-dropdown-item>
           </wa-dropdown>
-          <nav class="language-fallback" aria-label="Idioma"><a href="/products/" lang="en" hreflang="en" translate="no">English</a><a href="/zh/products/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a><a href="/es/products/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/products/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/products/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/products/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/products/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/products/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/products/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/products/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/products/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a></nav>
+          <nav class="language-fallback" aria-label="Idioma"><a href="/products/" lang="en" hreflang="en" translate="no">English</a><a href="/es/products/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/products/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/products/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/products/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/products/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/products/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/products/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/products/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/products/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a><a href="/zh/products/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
         </div>
       </div>
     </header>
@@ -98,113 +101,7 @@
       <h1>Vale a pena olhar mais de perto.</h1>
       <p class="lead">Um ponto de partida para seu próximo fluxo de trabalho. Explore os detalhes antes de decidir.</p>
     </header>
-    <div class="catalog" data-catalog data-result-plural="produtos para explorar"
-    data-result-single="produto para explorar" data-locale-format="pt-BR">
-    <div class="catalog-controls">
-      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="Pesquise produtos ou tarefas…" autocomplete="off">
-        <span slot="label" class="visually-hidden">Pesquisar produtos</span>
-        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
-      </wa-input>
-      <div class="filters" role="group" aria-label="Filtrar produtos"><wa-button data-filter="all"
-    aria-pressed="true" class="filter" appearance="plain" size="s">
-    Todos os produtos
-  </wa-button><wa-button data-filter="writing"
-    aria-pressed="false" class="filter" appearance="plain" size="s">
-    Escrita
-  </wa-button><wa-button data-filter="video"
-    aria-pressed="false" class="filter" appearance="plain" size="s">
-    Vídeo
-  </wa-button><wa-button data-filter="productivity"
-    aria-pressed="false" class="filter" appearance="plain" size="s">
-    Produtividade
-  </wa-button><wa-button data-filter="web"
-    aria-pressed="false" class="filter" appearance="plain" size="s">
-    Web e formulários
-  </wa-button><wa-button data-filter="saved"
-    aria-pressed="false" class="filter" appearance="plain" size="s">
-    Salvo <span data-saved-count>0</span>
-  </wa-button></div>
-    </div>
-    <div class="catalog-meta" role="status"><span data-result-count>6</span> <span data-result-word>produtos para explorar</span></div>
-    <div class="product-grid"><article class="product-card" data-catalog-item="grammarly" data-category="writing" data-search="Grammarly Escrita Assistência de revisão e redação para um primeiro rascunho mais claro. Um pouco de clareza ajuda muito. Escritores que desejam revisar correções específicas em inglês e mover o texto simples de volta para o Word.">
-    <div class="card-top">
-      <span class="product-mark" aria-hidden="true" style="--mark:#166B51;--tint:#E8F1EB">G</span>
-      <div class="card-actions"><span class="product-tag">Escrita</span><wa-button class="save-button" appearance="plain"
-    data-save="grammarly"
-    aria-pressed="false">
-    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salvar produto<span class="visually-hidden"> Grammarly</span></span>
-  </wa-button></div>
-    </div>
-    <h2><a href="/pt-br/products/grammarly/" translate="no">Grammarly</a></h2>
-    <p class="card-description">Assistência de revisão e redação para um primeiro rascunho mais claro.</p>
-    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Teste básico concluído</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-catalog-item="todoist" data-category="productivity" data-search="Todoist Produtividade Transforme intenções vagas em tarefas nas quais você possa realmente agir. Uma cabeça mais clara. Uma lista mais curta. Indivíduos que desejam uma captura rápida de tarefas e desejam verificar a data analisada antes de salvar.">
-    <div class="card-top">
-      <span class="product-mark" aria-hidden="true" style="--mark:#B34E3C;--tint:#F8EDE8">✓</span>
-      <div class="card-actions"><span class="product-tag">Produtividade</span><wa-button class="save-button" appearance="plain"
-    data-save="todoist"
-    aria-pressed="false">
-    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salvar produto<span class="visually-hidden"> Todoist</span></span>
-  </wa-button></div>
-    </div>
-    <h2><a href="/pt-br/products/todoist/" translate="no">Todoist</a></h2>
-    <p class="card-description">Transforme intenções vagas em tarefas nas quais você possa realmente agir.</p>
-    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Teste básico concluído</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-catalog-item="jotform" data-category="web" data-search="Jotform Web e formulários Crie formulários para transformar o feedback em algo com o qual você possa trabalhar. Boas perguntas. Respostas úteis. Criadores que coletam feedback multilíngue simples e precisam manter uma cópia portátil das respostas.">
-    <div class="card-top">
-      <span class="product-mark" aria-hidden="true" style="--mark:#B37A21;--tint:#F6F0E1">J</span>
-      <div class="card-actions"><span class="product-tag">Web e formulários</span><wa-button class="save-button" appearance="plain"
-    data-save="jotform"
-    aria-pressed="false">
-    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salvar produto<span class="visually-hidden"> Jotform</span></span>
-  </wa-button></div>
-    </div>
-    <h2><a href="/pt-br/products/jotform/" translate="no">Jotform</a></h2>
-    <p class="card-description">Crie formulários para transformar o feedback em algo com o qual você possa trabalhar.</p>
-    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Teste básico concluído</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-catalog-item="veed" data-category="video" data-search="VEED Vídeo Edição de vídeo baseada em navegador, desde a linha do tempo até um arquivo real. Um pequeno estúdio no seu navegador. Criadores que tentam edições de vídeo curtas baseadas em texto e que podem trabalhar dentro das limitações de exportação gratuita.">
-    <div class="card-top">
-      <span class="product-mark" aria-hidden="true" style="--mark:#313543;--tint:#EBECF3">V</span>
-      <div class="card-actions"><span class="product-tag">Vídeo</span><wa-button class="save-button" appearance="plain"
-    data-save="veed"
-    aria-pressed="false">
-    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salvar produto<span class="visually-hidden"> VEED</span></span>
-  </wa-button></div>
-    </div>
-    <h2><a href="/pt-br/products/veed/" translate="no">VEED</a></h2>
-    <p class="card-description">Edição de vídeo baseada em navegador, desde a linha do tempo até um arquivo real.</p>
-    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Teste básico concluído</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-catalog-item="quillbot" data-category="writing" data-search="QuillBot Escrita Verifique um pequeno parágrafo e observe atentamente as alterações sugeridas. Um segundo par de olhos para sua escrita. Escritores que desejam inspecionar pequenas correções em inglês ou espanhol, em vez de aceitar cegamente todas as sugestões.">
-    <div class="card-top">
-      <span class="product-mark" aria-hidden="true" style="--mark:#527341;--tint:#EEF2E6">Q</span>
-      <div class="card-actions"><span class="product-tag">Escrita</span><wa-button class="save-button" appearance="plain"
-    data-save="quillbot"
-    aria-pressed="false">
-    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salvar produto<span class="visually-hidden"> QuillBot</span></span>
-  </wa-button></div>
-    </div>
-    <h2><a href="/pt-br/products/quillbot/" translate="no">QuillBot</a></h2>
-    <p class="card-description">Verifique um pequeno parágrafo e observe atentamente as alterações sugeridas.</p>
-    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Teste básico concluído</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-catalog-item="carrd" data-category="web" data-search="Carrd Web e formulários Um ponto de partida focado para portfólios e landing pages simples. Uma página. Uma primeira impressão clara. Criadores criando um portfólio ou landing page focado, em vez de uma grande publicação multilíngue.">
-    <div class="card-top">
-      <span class="product-mark" aria-hidden="true" style="--mark:#68604C;--tint:#F1EEE6">C</span>
-      <div class="card-actions"><span class="product-tag">Web e formulários</span><wa-button class="save-button" appearance="plain"
-    data-save="carrd"
-    aria-pressed="false">
-    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salvar produto<span class="visually-hidden"> Carrd</span></span>
-  </wa-button></div>
-    </div>
-    <h2><a href="/pt-br/products/carrd/" translate="no">Carrd</a></h2>
-    <p class="card-description">Um ponto de partida focado para portfólios e landing pages simples.</p>
-    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Teste básico concluído</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article></div>
-    <div class="empty-state" hidden>
-      <p class="empty-title">Nada neste canto ainda.</p>
-      <p>Experimente uma palavra diferente ou limpe seus filtros.</p>
-      <wa-button class="text-button" data-reset appearance="plain">Limpar filtros <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
-    </div>
-  </div><p class="scope-caption"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg> Um teste básico concluído cobre as tarefas específicas descritas em cada nota, e não todos os recursos de um produto.</p>
+    <div class="empty-state"><p class="empty-title">Nenhum produto publicado ainda</p></div>
   </section></main>
   <footer class="site-footer">
     <div class="wrap footer-inner">

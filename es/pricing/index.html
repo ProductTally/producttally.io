@@ -44,7 +44,9 @@
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
 </head>
 <body data-lang="es" data-save-label="Guardar producto" data-unsave-label="Quitar de guardados" data-save-toast="Añadido a la selección" data-unsave-toast="Eliminado de la selección" data-storage-error="Tu navegador no pudo guardar el cambio.">
   <a class="skip-link" href="#main">Saltar al contenido</a>
@@ -61,12 +63,11 @@
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
             <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
-              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Idioma </span><span translate="no">Español</span>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Idioma <span translate="no">Español</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">Español</span>
             </wa-button>
             <wa-dropdown-item href="/pricing/" lang="en" translate="no">
       English
-    </wa-dropdown-item><wa-dropdown-item href="/zh/pricing/" lang="zh-CN" translate="no">
-      简体中文
     </wa-dropdown-item><wa-dropdown-item href="/es/pricing/" lang="es" translate="no" aria-current="page">
       Español
       <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
@@ -86,9 +87,11 @@
       ไทย
     </wa-dropdown-item><wa-dropdown-item href="/pt-br/pricing/" lang="pt-BR" translate="no">
       Português (Brasil)
+    </wa-dropdown-item><wa-dropdown-item href="/zh/pricing/" lang="zh-CN" translate="no">
+      简体中文
     </wa-dropdown-item>
           </wa-dropdown>
-          <nav class="language-fallback" aria-label="Idioma"><a href="/pricing/" lang="en" hreflang="en" translate="no">English</a><a href="/zh/pricing/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a><a href="/es/pricing/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/pricing/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/pricing/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/pricing/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/pricing/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/pricing/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/pricing/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/pricing/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/pricing/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a></nav>
+          <nav class="language-fallback" aria-label="Idioma"><a href="/pricing/" lang="en" hreflang="en" translate="no">English</a><a href="/es/pricing/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/pricing/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/pricing/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/pricing/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/pricing/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/pricing/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/pricing/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/pricing/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/pricing/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a><a href="/zh/pricing/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
         </div>
       </div>
     </header>
@@ -98,14 +101,13 @@
       <h1 id="pricing-title">Encarga una reseña de producto</h1>
       <p class="lead">Encarga a ProductTally que investigue y evalúe tu producto y publique la reseña en el sitio.</p>
     </header>
-    <p class="pricing-notice"><span>Precio provisional</span> Todavía no se aceptan solicitudes.</p>
+    <p class="pricing-notice">Todavía no se aceptan solicitudes.</p>
     <article class="pricing-card">
       <div class="pricing-card-heading">
         <span class="pricing-icon" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19h14M7 15l1-5L17 1l5 5-9 9-6 1M14 4l5 5"/></svg></span>
         <h2>Investigación y reseña de producto</h2>
       </div>
       <p>Un solo pago cubre la investigación, la redacción y la publicación de una reseña.</p>
-      <p class="plan-price"><strong>149 USD</strong><span>pago único</span></p>
       <ul><li><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Investigar el producto y su documentación pública</li><li><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Evaluar funciones, usos, puntos fuertes y limitaciones</li><li><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Publicar la reseña en ProductTally</li></ul>
     </article>
     <p class="pricing-contact">Si tienes dudas sobre una reseña, escribe a Evan a <a href="mailto:fishcshhhw@gmail.com" translate="no">fishcshhhw@gmail.com</a></p>

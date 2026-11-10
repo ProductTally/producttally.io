@@ -49,13 +49,12 @@ wa-input:focus-within::part(input-wrapper) {
   background: var(--accent-wash);
   color: var(--accent-dark);
 }
-.language-trigger span[translate="no"] {
+.language-trigger .language-label,
+.language-trigger .language-label-short {
   display: inline-block;
-  max-inline-size: min(9rem, 27vw);
-  overflow: hidden;
-  text-overflow: ellipsis;
   vertical-align: middle;
 }
+.language-trigger .language-label-short { display: none; }
 .language-control .icon {
   inline-size: 1rem;
   block-size: 1rem;
@@ -77,13 +76,15 @@ wa-input:focus-within::part(input-wrapper) {
   color: var(--ink);
   border-radius: var(--radius);
   font-size: .92rem;
+  font-family: var(--body);
 }
 .language-control wa-dropdown-item[aria-current="page"] {
   color: var(--accent);
   background: var(--accent-wash);
   font-weight: 700;
 }
-.language-control wa-dropdown-item:state(active) {
+.language-control wa-dropdown-item:state(active):not([aria-current="page"]),
+.language-control wa-dropdown-item:hover:not([aria-current="page"]) {
   color: var(--ink);
   background: var(--wash);
 }
@@ -92,6 +93,14 @@ wa-input:focus-within::part(input-wrapper) {
   outline-offset: -2px;
 }
 .language-control wa-dropdown-item::part(details) { color: var(--accent); }
+@media (max-width: 31rem) {
+  .language-trigger::part(button) { padding-inline: .48rem; font-size: .83rem; }
+  .language-control .icon { margin-inline-end: 0; }
+}
+@media (max-width: 22rem) {
+  .language-trigger .language-label:has(+ .language-label-short) { display: none; }
+  .language-trigger .language-label-short { display: inline-block; }
+}
 .search { inline-size: min(100%, 18rem); }
 .search::part(input-wrapper) { min-block-size: 2.75rem; border-color: var(--line); background: var(--surface); color: var(--ink); border-radius: var(--radius); }
 .search::part(input) { font: inherit; }

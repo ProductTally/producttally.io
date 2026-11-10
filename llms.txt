@@ -62,7 +62,7 @@ ProductTally publishes practical product observations, comparisons, and guides. 
 ## Editorial principles
 - Separate observed results from features not tested.
 - Prefer official product documentation as a source.
-- Product links point to official websites.
+- Product links lead to official vendor destinations.
 
 ## Site maps
 - [XML sitemap](https://producttally.com/sitemap.xml)
