@@ -98,6 +98,12 @@
     },
     {
       "lang": "en",
+      "route": "products/gemini-notebook",
+      "url": "/products/gemini-notebook/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -160,6 +166,12 @@
       "lang": "en",
       "route": "guides/capcut",
       "url": "/guides/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/gemini-notebook",
+      "url": "/guides/gemini-notebook/",
       "lastmod": "2026-11-11"
     },
     {
@@ -362,6 +374,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/gemini-notebook/notebooklm-source-citations",
+      "url": "/guides/gemini-notebook/notebooklm-source-citations/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -462,6 +480,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/gemini-notebook",
+      "url": "/zh/products/gemini-notebook/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -524,6 +548,12 @@
       "lang": "zh",
       "route": "guides/capcut",
       "url": "/zh/guides/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/gemini-notebook",
+      "url": "/zh/guides/gemini-notebook/",
       "lastmod": "2026-11-11"
     },
     {
@@ -726,6 +756,12 @@
     },
     {
       "lang": "zh",
+      "route": "guides/gemini-notebook/notebooklm-source-citations",
+      "url": "/zh/guides/gemini-notebook/notebooklm-source-citations/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -826,6 +862,12 @@
     },
     {
       "lang": "es",
+      "route": "products/gemini-notebook",
+      "url": "/es/products/gemini-notebook/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -888,6 +930,12 @@
       "lang": "es",
       "route": "guides/capcut",
       "url": "/es/guides/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/gemini-notebook",
+      "url": "/es/guides/gemini-notebook/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1090,6 +1138,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/gemini-notebook/notebooklm-source-citations",
+      "url": "/es/guides/gemini-notebook/notebooklm-source-citations/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1190,6 +1244,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/gemini-notebook",
+      "url": "/ja/products/gemini-notebook/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -1252,6 +1312,12 @@
       "lang": "ja",
       "route": "guides/capcut",
       "url": "/ja/guides/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/gemini-notebook",
+      "url": "/ja/guides/gemini-notebook/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1450,6 +1516,12 @@
       "lang": "ja",
       "route": "guides/capcut/auto-captions-export",
       "url": "/ja/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/gemini-notebook/notebooklm-source-citations",
+      "url": "/ja/guides/gemini-notebook/notebooklm-source-citations/",
       "lastmod": "2026-11-11"
     },
     {
