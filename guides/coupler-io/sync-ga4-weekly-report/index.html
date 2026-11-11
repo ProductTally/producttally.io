@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to sync a weekly GA4 report to Google Sheets with Coupler.io — ProductTally</title>
+  <meta name="description" content="Set a seven-day range, choose a write mode and check the first import before using it in your weekly report.">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/coupler-io/sync-ga4-weekly-report/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/coupler-io/sync-ga4-weekly-report/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/coupler-io/sync-ga4-weekly-report/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="How to sync a weekly GA4 report to Google Sheets with Coupler.io — ProductTally">
+  <meta property="og:description" content="Set a seven-day range, choose a write mode and check the first import before using it in your weekly report.">
+  <meta property="og:url" content="https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/sync-ga4-weekly-report/cover.webp">
+  <meta property="og:image:alt" content="Coupler.io’s Google Analytics 4 connector">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to sync a weekly GA4 report to Google Sheets with Coupler.io — ProductTally">
+  <meta name="twitter:description" content="Set a seven-day range, choose a write mode and check the first import before using it in your weekly report.">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/sync-ga4-weekly-report/cover.webp">
+  <meta name="twitter:image:alt" content="Coupler.io’s Google Analytics 4 connector">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/#webpage","name":"How to sync a weekly GA4 report to Google Sheets with Coupler.io","description":"Set a seven-day range, choose a write mode and check the first import before using it in your weekly report.","url":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/","inLanguage":"en","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/#article-image"},"breadcrumb":{"@id":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/#article","headline":"How to sync a weekly GA4 report to Google Sheets with Coupler.io","description":"Set a seven-day range, choose a write mode and check the first import before using it in your weekly report.","url":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/","inLanguage":"en","mainEntityOfPage":{"@id":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/#article-image","url":"https://producttally.com/assets/articles/sync-ga4-weekly-report/cover.webp","contentUrl":"https://producttally.com/assets/articles/sync-ga4-weekly-report/cover.webp","width":1200,"height":630,"caption":"Coupler.io’s Google Analytics 4 connector"},"about":[{"@id":"https://producttally.com/products/coupler-io/#software"}],"dateModified":"2026-11-11","citation":["https://www.coupler.io/","https://docs.coupler.io/destinations/categories/spreadsheets/google_sheets","https://www.coupler.io/pricing","https://www.coupler.io/sources/google-analytics-connector"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/coupler-io/#software","name":"Coupler.io","url":"https://www.coupler.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://producttally.com/"},{"@type":"ListItem","position":2,"name":"Guide Library","item":"https://producttally.com/guides/"},{"@type":"ListItem","position":3,"name":"Coupler.io","item":"https://producttally.com/guides/coupler-io/"},{"@type":"ListItem","position":4,"name":"How to sync a weekly GA4 report to Google Sheets with Coupler.io","item":"https://producttally.com/guides/coupler-io/sync-ga4-weekly-report/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="en" data-save-label="Save product" data-unsave-label="Unsave product" data-save-toast="Saved to your shortlist" data-unsave-toast="Removed from your shortlist" data-storage-error="Your browser could not save this change.">
+  <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <div class="primary-links"><a href="/">Products</a><a href="/guides/" aria-current="location">Guide directory</a><a href="/pricing/">Review service</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Language <span translate="no">English</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">English</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/coupler-io/sync-ga4-weekly-report/" lang="en" translate="no" aria-current="page">
+      English
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/coupler-io/sync-ga4-weekly-report/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/coupler-io/sync-ga4-weekly-report/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/coupler-io/sync-ga4-weekly-report/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="Language"><a href="/guides/coupler-io/sync-ga4-weekly-report/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/coupler-io/sync-ga4-weekly-report/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/coupler-io/sync-ga4-weekly-report/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/guides/coupler-io/sync-ga4-weekly-report/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="Breadcrumbs">
+    <ol><li><a href="/">Home</a></li><li><a href="/guides/">Guide Library</a></li><li><a href="/guides/coupler-io/">Coupler.io</a></li><li><span aria-current="page">How to sync a weekly GA4 report to Google Sheets with Coupler.io</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">Productivity · 3 min read</p>
+        <h1>How to sync a weekly GA4 report to Google Sheets with Coupler.io</h1>
+        <p class="lead">Set a seven-day range, choose a write mode and check the first import before using it in your weekly report.</p>
+        <p class="byline">By <a href="/about/">Evan</a>
+          · Updated <time datetime="2026-11-11">Nov 11, 2026</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/sync-ga4-weekly-report/cover.webp"
+    srcset="/assets/articles/sync-ga4-weekly-report/cover-small.webp 640w, /assets/articles/sync-ga4-weekly-report/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="630" alt="Coupler.io’s Google Analytics 4 connector"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="On this page">
+        <p class="eyebrow">On this page</p>
+        <ol><li><a href="#quick-answer">Quick answer</a></li><li><a href="#section-0">Start with one property and seven complete days</a></li><li><a href="#section-1">Write to a dedicated raw-data tab</a></li><li><a href="#section-2">Check the row count before scheduling</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>Quick answer</h2><p>Connect one GA4 property to an existing Google Sheet. Preview seven days of data, run a manual import and compare a sample date with GA4. Coupler.io’s Free plan allows up to 100 source rows per run before transformations.</p>
+          <a class="text-link" href="/products/coupler-io/">Coupler.io Review</a>
+        </section>
+        <section id="section-0">
+          <h2>Start with one property and seven complete days</h2><p>Choose GA4 as the source and select one property. Set the previous seven complete days explicitly. Start with Date and Active users. Compare the same period and filters in GA4. Adding up seven daily active-user figures can count the same person more than once.</p>
+        </section><figure class="article-figure"><img src="/assets/articles/sync-ga4-weekly-report/workflow.webp" width="1024" height="666"
+          alt="Coupler.io’s example of configuring a GA4 source for Google Sheets" loading="lazy" decoding="async"><figcaption>Coupler.io’s example of configuring a GA4 source for Google Sheets</figcaption></figure><section id="section-1">
+          <h2>Write to a dedicated raw-data tab</h2><p>Connect a Google account with edit access to an existing spreadsheet. Choose a raw-data tab and use Replace for a rolling weekly view. Put formulas on a separate tab. Use Append for a historical record only after defining how to avoid duplicates when date windows overlap.</p>
+        </section><section id="section-2">
+          <h2>Check the row count before scheduling</h2><p>Preview the source and compare a sample date after running the import. Seven days across 15 channels can yield 105 rows, above the Free limit of 100. The cap applies before transformations. Narrow the source query or choose a plan that supports the required volume and refresh schedule.</p>
+        </section>
+        <section><h2>Visit official website</h2>
+          <ul><li><p class="affiliate-disclosure">ProductTally may earn a commission if you buy through these links.</p><a class="text-link" href="https://www.coupler.io/?ref=evan-32a109" data-affiliate-product="coupler-io">
+    <span><span translate="no">Coupler.io</span> · Visit official website</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a></li></ul>
+        </section>
+        
+        <section><h2>Official references</h2>
+          <p class="affiliate-disclosure">ProductTally may earn a commission if you buy through these links.</p><ul><li><cite><a data-source-citation="true" href="https://www.coupler.io/?ref=evan-32a109">Coupler.io overview</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.coupler.io/destinations/categories/spreadsheets/google_sheets?ref=evan-32a109">Google Sheets destination and write modes</a></cite></li><li><cite><a data-source-citation="true" href="https://www.coupler.io/pricing?ref=evan-32a109">Business plans and limits</a></cite></li><li><cite><a data-source-citation="true" href="https://www.coupler.io/sources/google-analytics-connector?ref=evan-32a109">GA4 connector fields and date settings</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>A quieter corner of the internet for better products.</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="/">Products</a>
+        <a href="/guides/">Guide directory</a>
+        <a href="/about/">About the project</a>
+        <a href="/pricing/">Review service</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>An independent notebook by Evan.</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

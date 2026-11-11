@@ -176,6 +176,18 @@
     },
     {
       "lang": "en",
+      "route": "products/coupler-io",
+      "url": "/products/coupler-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/videogen",
+      "url": "/products/videogen/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -316,6 +328,18 @@
       "lang": "en",
       "route": "guides/sked-social",
       "url": "/guides/sked-social/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/coupler-io",
+      "url": "/guides/coupler-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/videogen",
+      "url": "/guides/videogen/",
       "lastmod": "2026-11-11"
     },
     {
@@ -590,6 +614,18 @@
     },
     {
       "lang": "en",
+      "route": "guides/coupler-io/sync-ga4-weekly-report",
+      "url": "/guides/coupler-io/sync-ga4-weekly-report/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/videogen/script-to-narrated-short",
+      "url": "/guides/videogen/script-to-narrated-short/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -768,6 +804,18 @@
     },
     {
       "lang": "zh",
+      "route": "products/coupler-io",
+      "url": "/zh/products/coupler-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/videogen",
+      "url": "/zh/products/videogen/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -908,6 +956,18 @@
       "lang": "zh",
       "route": "guides/sked-social",
       "url": "/zh/guides/sked-social/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/coupler-io",
+      "url": "/zh/guides/coupler-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/videogen",
+      "url": "/zh/guides/videogen/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1182,6 +1242,18 @@
     },
     {
       "lang": "zh",
+      "route": "guides/coupler-io/sync-ga4-weekly-report",
+      "url": "/zh/guides/coupler-io/sync-ga4-weekly-report/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/videogen/script-to-narrated-short",
+      "url": "/zh/guides/videogen/script-to-narrated-short/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1360,6 +1432,18 @@
     },
     {
       "lang": "es",
+      "route": "products/coupler-io",
+      "url": "/es/products/coupler-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/videogen",
+      "url": "/es/products/videogen/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -1500,6 +1584,18 @@
       "lang": "es",
       "route": "guides/sked-social",
       "url": "/es/guides/sked-social/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/coupler-io",
+      "url": "/es/guides/coupler-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/videogen",
+      "url": "/es/guides/videogen/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1774,6 +1870,18 @@
     },
     {
       "lang": "es",
+      "route": "guides/coupler-io/sync-ga4-weekly-report",
+      "url": "/es/guides/coupler-io/sync-ga4-weekly-report/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/videogen/script-to-narrated-short",
+      "url": "/es/guides/videogen/script-to-narrated-short/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1952,6 +2060,18 @@
     },
     {
       "lang": "ja",
+      "route": "products/coupler-io",
+      "url": "/ja/products/coupler-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/videogen",
+      "url": "/ja/products/videogen/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -2092,6 +2212,18 @@
       "lang": "ja",
       "route": "guides/sked-social",
       "url": "/ja/guides/sked-social/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/coupler-io",
+      "url": "/ja/guides/coupler-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/videogen",
+      "url": "/ja/guides/videogen/",
       "lastmod": "2026-11-11"
     },
     {
@@ -2362,6 +2494,18 @@
       "lang": "ja",
       "route": "guides/sked-social/plan-a-client-approval",
       "url": "/ja/guides/sked-social/plan-a-client-approval/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/coupler-io/sync-ga4-weekly-report",
+      "url": "/ja/guides/coupler-io/sync-ga4-weekly-report/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/videogen/script-to-narrated-short",
+      "url": "/ja/guides/videogen/script-to-narrated-short/",
       "lastmod": "2026-11-11"
     },
     {
