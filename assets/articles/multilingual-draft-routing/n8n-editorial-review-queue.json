@@ -1,0 +1,70 @@
+{
+  "name": "ProductTally sample · multilingual review queue",
+  "active": false,
+  "nodes": [
+    {
+      "name": "Manual trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {},
+      "id": "f8a68a64-983d-48ea-bf1b-d76eb7a7840c"
+    },
+    {
+      "name": "Synthetic article queue",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        260,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const rows = [{lang: 'en',title: 'Video export',status: 'ready'}, {lang: 'zh-CN',title: '视频导出',status: 'ready'}, {lang: 'es',title: 'Exportar vídeo',status: 'draft'}];\nreturn rows.map(json => ({ json }));"
+      },
+      "id": "129c991b-b189-4ed4-ac4b-773f1fa34d75"
+    },
+    {
+      "name": "Filter and route ready articles",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        520,
+        0
+      ],
+      "parameters": {
+        "jsCode": "return $input.all().filter(item => item.json.status === 'ready').map(item => ({json: {lang: item.json.lang, title: item.json.title, path: '/' + item.json.lang + '/guides/'}}));"
+      },
+      "id": "5f4d2fa6-d194-4b52-8119-7187b0baab77"
+    }
+  ],
+  "connections": {
+    "Manual trigger": {
+      "main": [
+        [
+          {
+            "node": "Synthetic article queue",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Synthetic article queue": {
+      "main": [
+        [
+          {
+            "node": "Filter and route ready articles",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

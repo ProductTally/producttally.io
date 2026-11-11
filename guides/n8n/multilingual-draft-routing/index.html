@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to filter and route multilingual drafts in n8n — ProductTally</title>
+  <meta name="description" content="Run a three-record editorial queue in n8n and see which articles pass the ready check.">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/guides/n8n/multilingual-draft-routing/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/n8n/multilingual-draft-routing/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/n8n/multilingual-draft-routing/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/n8n/multilingual-draft-routing/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/n8n/multilingual-draft-routing/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/n8n/multilingual-draft-routing/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="How to filter and route multilingual drafts in n8n — ProductTally">
+  <meta property="og:description" content="Run a three-record editorial queue in n8n and see which articles pass the ready check.">
+  <meta property="og:url" content="https://producttally.com/guides/n8n/multilingual-draft-routing/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/multilingual-draft-routing/cover.webp">
+  <meta property="og:image:alt" content="Official n8n product artwork.">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to filter and route multilingual drafts in n8n — ProductTally">
+  <meta name="twitter:description" content="Run a three-record editorial queue in n8n and see which articles pass the ready check.">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/multilingual-draft-routing/cover.webp">
+  <meta name="twitter:image:alt" content="Official n8n product artwork.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/guides/n8n/multilingual-draft-routing/#webpage","name":"How to filter and route multilingual drafts in n8n","description":"Run a three-record editorial queue in n8n and see which articles pass the ready check.","url":"https://producttally.com/guides/n8n/multilingual-draft-routing/","inLanguage":"en","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/guides/n8n/multilingual-draft-routing/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/guides/n8n/multilingual-draft-routing/#article-image"},"breadcrumb":{"@id":"https://producttally.com/guides/n8n/multilingual-draft-routing/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/guides/n8n/multilingual-draft-routing/#article","headline":"How to filter and route multilingual drafts in n8n","description":"Run a three-record editorial queue in n8n and see which articles pass the ready check.","url":"https://producttally.com/guides/n8n/multilingual-draft-routing/","inLanguage":"en","mainEntityOfPage":{"@id":"https://producttally.com/guides/n8n/multilingual-draft-routing/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/guides/n8n/multilingual-draft-routing/#article-image","url":"https://producttally.com/assets/articles/multilingual-draft-routing/cover.webp","contentUrl":"https://producttally.com/assets/articles/multilingual-draft-routing/cover.webp","width":1200,"height":630,"caption":"Official n8n product artwork."},"about":[{"@id":"https://producttally.com/products/n8n/#software"}],"dateModified":"2026-11-11","citation":["https://n8n.io/","https://docs.n8n.io/build/manage-workflows/export-and-import/","https://docs.n8n.io/code/code-node/","https://n8n.io/pricing/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/n8n/#software","name":"n8n","url":"https://n8n.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/guides/n8n/multilingual-draft-routing/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://producttally.com/"},{"@type":"ListItem","position":2,"name":"Guide Library","item":"https://producttally.com/guides/"},{"@type":"ListItem","position":3,"name":"n8n","item":"https://producttally.com/guides/n8n/"},{"@type":"ListItem","position":4,"name":"How to filter and route multilingual drafts in n8n","item":"https://producttally.com/guides/n8n/multilingual-draft-routing/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="en" data-save-label="Save product" data-unsave-label="Unsave product" data-save-toast="Saved to your shortlist" data-unsave-toast="Removed from your shortlist" data-storage-error="Your browser could not save this change.">
+  <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <div class="primary-links"><a href="/">Products</a><a href="/guides/" aria-current="location">Guide directory</a><a href="/pricing/">Review service</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Language <span translate="no">English</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">English</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/n8n/multilingual-draft-routing/" lang="en" translate="no" aria-current="page">
+      English
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/n8n/multilingual-draft-routing/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/n8n/multilingual-draft-routing/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/n8n/multilingual-draft-routing/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="Language"><a href="/guides/n8n/multilingual-draft-routing/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/n8n/multilingual-draft-routing/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/n8n/multilingual-draft-routing/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/guides/n8n/multilingual-draft-routing/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="Breadcrumbs">
+    <ol><li><a href="/">Home</a></li><li><a href="/guides/">Guide Library</a></li><li><a href="/guides/n8n/">n8n</a></li><li><span aria-current="page">How to filter and route multilingual drafts in n8n</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">Web &amp; forms · 4 min read</p>
+        <h1>How to filter and route multilingual drafts in n8n</h1>
+        <p class="lead">Run a three-record editorial queue in n8n and see which articles pass the ready check.</p>
+        <p class="byline">By <a href="/about/">Evan</a>
+          · Updated <time datetime="2026-11-11">Nov 11, 2026</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/multilingual-draft-routing/cover.webp"
+    srcset="/assets/articles/multilingual-draft-routing/cover-small.webp 640w, /assets/articles/multilingual-draft-routing/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="630" alt="Official n8n product artwork."
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="On this page">
+        <p class="eyebrow">On this page</p>
+        <ol><li><a href="#quick-answer">Quick answer</a></li><li><a href="#section-0">Import the sample and run it manually</a></li><li><a href="#section-1">Check the status rule and the output</a></li><li><a href="#section-2">Retest before connecting your own queue</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>Quick answer</h2><p>In our local n8n 2.46.7 run on November 11, 2026, the workflow received three sample records. The English and Simplified Chinese records were ready and passed. The Spanish draft was excluded.</p>
+          <p><a class="text-link" href="/assets/articles/multilingual-draft-routing/n8n-editorial-review-queue.json" download>Download the sample n8n workflow (JSON)</a></p>
+          <a class="text-link" href="/products/n8n/">n8n Review</a>
+        </section>
+        <section id="section-0">
+          <h2>Import the sample and run it manually</h2><p>Download the JSON and choose Import from File in the n8n workflow menu. Open the imported workflow and run it manually. The sample uses a Manual Trigger and two Code nodes with fictional records. It requires no connected accounts.</p>
+        </section><figure class="article-figure"><img src="/assets/articles/multilingual-draft-routing/editor.webp" width="1372" height="1098"
+          alt="Official n8n image showing the visual workflow editor." loading="lazy" decoding="async"><figcaption>Official n8n image showing the visual workflow editor.</figcaption></figure><section id="section-1">
+          <h2>Check the status rule and the output</h2><p>The first Code node creates three records with lang, title and status. The second keeps records with status exactly equal to ready, then uses lang to produce a sample path. Inspect its output. You should see en and zh-CN and no Spanish draft.</p>
+        </section><section id="section-2">
+          <h2>Retest before connecting your own queue</h2><p>Change the Spanish record from draft to ready and run again. Expect three outputs. The generated paths are sample strings. Set an explicit language-to-path map for your own site and keep the output as a review queue until you have verified it.</p>
+        </section>
+        <section><h2>Visit official website</h2>
+          <ul><li><a class="text-link" href="https://n8n.io/" data-editorial-product="n8n">
+    <span><span translate="no">n8n</span> · Visit official website</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a></li></ul>
+        </section>
+        
+        <section><h2>Official references</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://n8n.io/">n8n workflow automation</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.n8n.io/build/manage-workflows/export-and-import/">n8n Docs · Import and export</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.n8n.io/code/code-node/">n8n Docs · Code node</a></cite></li><li><cite><a data-source-citation="true" href="https://n8n.io/pricing/">n8n plans and pricing</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>A quieter corner of the internet for better products.</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="/">Products</a>
+        <a href="/guides/">Guide directory</a>
+        <a href="/about/">About the project</a>
+        <a href="/pricing/">Review service</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>An independent notebook by Evan.</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

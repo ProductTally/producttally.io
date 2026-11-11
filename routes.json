@@ -110,6 +110,12 @@
     },
     {
       "lang": "en",
+      "route": "products/n8n",
+      "url": "/products/n8n/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -184,6 +190,12 @@
       "lang": "en",
       "route": "guides/deepl",
       "url": "/guides/deepl/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/n8n",
+      "url": "/guides/n8n/",
       "lastmod": "2026-11-11"
     },
     {
@@ -404,6 +416,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/n8n/multilingual-draft-routing",
+      "url": "/guides/n8n/multilingual-draft-routing/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -516,6 +534,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/n8n",
+      "url": "/zh/products/n8n/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -590,6 +614,12 @@
       "lang": "zh",
       "route": "guides/deepl",
       "url": "/zh/guides/deepl/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/n8n",
+      "url": "/zh/guides/n8n/",
       "lastmod": "2026-11-11"
     },
     {
@@ -810,6 +840,12 @@
     },
     {
       "lang": "zh",
+      "route": "guides/n8n/multilingual-draft-routing",
+      "url": "/zh/guides/n8n/multilingual-draft-routing/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -922,6 +958,12 @@
     },
     {
       "lang": "es",
+      "route": "products/n8n",
+      "url": "/es/products/n8n/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -996,6 +1038,12 @@
       "lang": "es",
       "route": "guides/deepl",
       "url": "/es/guides/deepl/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/n8n",
+      "url": "/es/guides/n8n/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1216,6 +1264,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/n8n/multilingual-draft-routing",
+      "url": "/es/guides/n8n/multilingual-draft-routing/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1328,6 +1382,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/n8n",
+      "url": "/ja/products/n8n/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -1402,6 +1462,12 @@
       "lang": "ja",
       "route": "guides/deepl",
       "url": "/ja/guides/deepl/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/n8n",
+      "url": "/ja/guides/n8n/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1618,6 +1684,12 @@
       "lang": "ja",
       "route": "guides/ai-workflow-automation/n8n-nod-first-task",
       "url": "/ja/guides/ai-workflow-automation/n8n-nod-first-task/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/n8n/multilingual-draft-routing",
+      "url": "/ja/guides/n8n/multilingual-draft-routing/",
       "lastmod": "2026-11-11"
     },
     {
