@@ -114,7 +114,7 @@
     </wa-button>
     <wa-dropdown-item value="all" type="checkbox" checked>Todos</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">Monitorización web</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">Pódcast</wa-dropdown-item><wa-dropdown-item value="writing" type="checkbox">Escritura</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">Vídeo</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">Productividad</wa-dropdown-item><wa-dropdown-item value="web" type="checkbox">Web y formularios</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">Guardados</wa-dropdown-item>
   </wa-dropdown></div>
-    <div class="catalog-meta" role="status"><span data-result-count>25</span> <span data-result-word>productos para explorar</span></div>
+    <div class="catalog-meta" role="status" tabindex="-1"><span data-result-count>25</span> <span data-result-word>productos para explorar</span></div>
     <div class="product-grid"><article class="product-card" data-catalog-item="oh-dear" data-category="monitoring" data-search="Oh Dear Monitorización web Monitorización web Vigila tu web antes de que los visitantes avisen. Oh Dear reúne disponibilidad, SSL, DNS y enlaces rotos en un panel. Supervisa sitios autorizados y consulta disponibilidad, certificados, cambios DNS y enlaces rotos según cada calendario de comprobación. Relaciona las señales del sitio y revisa la URL completa y la respuesta HTTP para diagnosticar.">
     <div class="card-top">
       <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48">
@@ -516,7 +516,12 @@
     <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/plan-a-client-approval/cover.webp" alt="Sked Social · Imagen oficial del producto"
     width="1200" height="630" loading="lazy" decoding="async"></div>
   </article></div>
-    <div class="empty-state" hidden>
+    <nav class="catalog-pagination" data-pagination="24"
+    aria-label="Paginación" hidden>
+    <wa-button data-page-step="-1" appearance="outlined" size="s">Anterior</wa-button>
+    <span class="catalog-page-status" data-page-status="Página {page} de {total}" role="status"></span>
+    <wa-button data-page-step="1" appearance="outlined" size="s">Siguiente</wa-button>
+  </nav><div class="empty-state" hidden>
       <p class="empty-title">Todavía no hay nada por aquí.</p>
       <p>Prueba otra palabra o elimina los filtros.</p>
       <wa-button class="text-button" data-reset appearance="plain">Limpiar filtros <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>

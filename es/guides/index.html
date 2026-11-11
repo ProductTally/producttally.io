@@ -113,7 +113,7 @@
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>Web y formularios</span>
   </wa-button></div></div>
-    <div class="catalog-meta" role="status"><span data-result-count>44</span> <span data-result-word>guías</span></div>
+    <div class="catalog-meta" role="status" tabindex="-1"><span data-result-count>44</span> <span data-result-word>guías</span></div>
     <div class="note-grid"><article class="note-card" data-catalog-item="anydo-daily-planner" data-category="productivity" data-search="¿Para qué sirve Any.do? Planificación personal y colaboración ligera Descubre cómo conecta tareas, planificación diaria y calendario, y cuándo conviene compartir un tablero. Productividad Pon cada pendiente en su lista y limita lo de hoy Comparte un tablero cuando cambie la persona responsable Decide según tu forma de organizarte">
       <a class="note-card-link" href="/es/guides/anydo/anydo-daily-planner/" aria-labelledby="guide-card-anydo--anydo-daily-planner-title" aria-describedby="guide-card-anydo--anydo-daily-planner-summary">
         <div class="note-cover"><img class="article-image"
@@ -863,7 +863,12 @@
       <wa-tooltip for="guide-card-ai-image-creation--firefly-creative-agent-graph-workflow-title" class="guide-card-tooltip" trigger="hover" hide-delay="160">Adobe Firefly Creative Agent y Firefly Graph: un flujo para equipos pequeños</wa-tooltip>
       <wa-tooltip for="guide-card-ai-image-creation--firefly-creative-agent-graph-workflow-summary" class="guide-card-tooltip" trigger="hover" hide-delay="160">Parte de una foto de producto para elegir entre Quick Actions, Plan Mode y Graph, con un ejercicio y la disponibilidad anunciada en Adobe MAX 2026.</wa-tooltip>
     </article></div>
-    <div class="empty-state" hidden>
+    <nav class="catalog-pagination" data-pagination="24"
+    aria-label="Paginación" hidden>
+    <wa-button data-page-step="-1" appearance="outlined" size="s">Anterior</wa-button>
+    <span class="catalog-page-status" data-page-status="Página {page} de {total}" role="status"></span>
+    <wa-button data-page-step="1" appearance="outlined" size="s">Siguiente</wa-button>
+  </nav><div class="empty-state" hidden>
       <p class="empty-title">No hay guías que coincidan</p>
       <p>Prueba otro término o borra los filtros.</p>
       <wa-button class="text-button" data-reset appearance="plain">Limpiar filtros <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>

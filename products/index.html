@@ -114,7 +114,7 @@
     </wa-button>
     <wa-dropdown-item value="all" type="checkbox" checked>All products</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">Website monitoring</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">Podcasting</wa-dropdown-item><wa-dropdown-item value="writing" type="checkbox">Writing</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">Video</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">Productivity</wa-dropdown-item><wa-dropdown-item value="web" type="checkbox">Web &amp; forms</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">Saved</wa-dropdown-item>
   </wa-dropdown></div>
-    <div class="catalog-meta" role="status"><span data-result-count>25</span> <span data-result-word>products to explore</span></div>
+    <div class="catalog-meta" role="status" tabindex="-1"><span data-result-count>25</span> <span data-result-word>products to explore</span></div>
     <div class="product-grid"><article class="product-card" data-catalog-item="oh-dear" data-category="monitoring" data-search="Oh Dear Website monitoring Website monitoring Keep an eye on your website before visitors report a problem. Oh Dear brings uptime, SSL, DNS and broken-link monitoring into one dashboard. Monitor authorized websites for availability, certificate issues, DNS changes and broken links. Results follow each check’s schedule. Bring availability and site-integrity signals together, then use the full URL and HTTP response to diagnose the affected page.">
     <div class="card-top">
       <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48">
@@ -516,7 +516,12 @@
     <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/plan-a-client-approval/cover.webp" alt="Sked Social · Official product image"
     width="1200" height="630" loading="lazy" decoding="async"></div>
   </article></div>
-    <div class="empty-state" hidden>
+    <nav class="catalog-pagination" data-pagination="24"
+    aria-label="Pagination" hidden>
+    <wa-button data-page-step="-1" appearance="outlined" size="s">Previous</wa-button>
+    <span class="catalog-page-status" data-page-status="Page {page} of {total}" role="status"></span>
+    <wa-button data-page-step="1" appearance="outlined" size="s">Next</wa-button>
+  </nav><div class="empty-state" hidden>
       <p class="empty-title">Nothing in this corner yet.</p>
       <p>Try a different word or clear your filters.</p>
       <wa-button class="text-button" data-reset appearance="plain">Clear filters <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>

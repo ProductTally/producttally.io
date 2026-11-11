@@ -114,7 +114,7 @@
     </wa-button>
     <wa-dropdown-item value="all" type="checkbox" checked>すべての製品</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">サイト監視</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">ポッドキャスト</wa-dropdown-item><wa-dropdown-item value="writing" type="checkbox">執筆</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">ビデオ</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">生産性</wa-dropdown-item><wa-dropdown-item value="web" type="checkbox">ウェブとフォーム</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">保存されました</wa-dropdown-item>
   </wa-dropdown></div>
-    <div class="catalog-meta" role="status"><span data-result-count>25</span> <span data-result-word>件の製品</span></div>
+    <div class="catalog-meta" role="status" tabindex="-1"><span data-result-count>25</span> <span data-result-word>件の製品</span></div>
     <div class="product-grid"><article class="product-card" data-catalog-item="oh-dear" data-category="monitoring" data-search="Oh Dear サイト監視 ウェブサイト監視 利用者から連絡が来る前にサイトの変化を把握。Oh Dearは稼働状況、SSL、DNS、リンク切れをまとめて監視します。 許可されたサイトの稼働、証明書、DNS変更、リンク切れを確認します。各結果はそれぞれの検査周期で更新されます。 監視情報をまとめ、完全なURLとHTTP応答から対象ページを診断できます。">
     <div class="card-top">
       <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48">
@@ -516,7 +516,12 @@
     <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/plan-a-client-approval/cover.webp" alt="Sked Social · 公式の製品画像"
     width="1200" height="630" loading="lazy" decoding="async"></div>
   </article></div>
-    <div class="empty-state" hidden>
+    <nav class="catalog-pagination" data-pagination="24"
+    aria-label="ページ切り替え" hidden>
+    <wa-button data-page-step="-1" appearance="outlined" size="s">前へ</wa-button>
+    <span class="catalog-page-status" data-page-status="{total} ページ中 {page} ページ目" role="status"></span>
+    <wa-button data-page-step="1" appearance="outlined" size="s">次へ</wa-button>
+  </nav><div class="empty-state" hidden>
       <p class="empty-title">この隅にはまだ何もありません。</p>
       <p>別の単語を試すか、フィルターをクリアしてください。</p>
       <wa-button class="text-button" data-reset appearance="plain">フィルターをクリアする <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
