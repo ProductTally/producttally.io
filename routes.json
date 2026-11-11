@@ -194,8 +194,20 @@
     },
     {
       "lang": "en",
+      "route": "guides/anydo/anydo-daily-planner",
+      "url": "/guides/anydo/anydo-daily-planner/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/submagic/submagic-short-form-editor",
+      "url": "/guides/submagic/submagic-short-form-editor/",
       "lastmod": "2026-11-11"
     },
     {
@@ -254,8 +266,20 @@
     },
     {
       "lang": "en",
+      "route": "guides/nifty/nifty-project-management",
+      "url": "/guides/nifty/nifty-project-management/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/nifty/content-launch-project",
       "url": "/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/oh-dear/oh-dear-website-monitoring",
+      "url": "/guides/oh-dear/oh-dear-website-monitoring/",
       "lastmod": "2026-11-11"
     },
     {
@@ -266,8 +290,20 @@
     },
     {
       "lang": "en",
+      "route": "guides/castos/castos-podcast-hosting",
+      "url": "/guides/castos/castos-podcast-hosting/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/castos/podcast-hosting-wordpress",
       "url": "/guides/castos/podcast-hosting-wordpress/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/frase/frase-content-research",
+      "url": "/guides/frase/frase-content-research/",
       "lastmod": "2026-11-11"
     },
     {
@@ -278,8 +314,20 @@
     },
     {
       "lang": "en",
+      "route": "guides/publer/publer-social-scheduling",
+      "url": "/guides/publer/publer-social-scheduling/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/publer/private-social-drafts",
       "url": "/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/mangools/mangools-keyword-research",
+      "url": "/guides/mangools/mangools-keyword-research/",
       "lastmod": "2026-11-11"
     },
     {
@@ -290,8 +338,20 @@
     },
     {
       "lang": "en",
+      "route": "guides/systeme-io/systeme-io-sales-funnels",
+      "url": "/guides/systeme-io/systeme-io-sales-funnels/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/systeme-io/preview-a-funnel-page",
       "url": "/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/capcut/capcut-video-editor",
+      "url": "/guides/capcut/capcut-video-editor/",
       "lastmod": "2026-11-11"
     },
     {
@@ -498,8 +558,20 @@
     },
     {
       "lang": "zh",
+      "route": "guides/anydo/anydo-daily-planner",
+      "url": "/zh/guides/anydo/anydo-daily-planner/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/zh/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/submagic/submagic-short-form-editor",
+      "url": "/zh/guides/submagic/submagic-short-form-editor/",
       "lastmod": "2026-11-11"
     },
     {
@@ -558,8 +630,20 @@
     },
     {
       "lang": "zh",
+      "route": "guides/nifty/nifty-project-management",
+      "url": "/zh/guides/nifty/nifty-project-management/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/nifty/content-launch-project",
       "url": "/zh/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/oh-dear/oh-dear-website-monitoring",
+      "url": "/zh/guides/oh-dear/oh-dear-website-monitoring/",
       "lastmod": "2026-11-11"
     },
     {
@@ -570,8 +654,20 @@
     },
     {
       "lang": "zh",
+      "route": "guides/castos/castos-podcast-hosting",
+      "url": "/zh/guides/castos/castos-podcast-hosting/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/castos/podcast-hosting-wordpress",
       "url": "/zh/guides/castos/podcast-hosting-wordpress/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/frase/frase-content-research",
+      "url": "/zh/guides/frase/frase-content-research/",
       "lastmod": "2026-11-11"
     },
     {
@@ -582,8 +678,20 @@
     },
     {
       "lang": "zh",
+      "route": "guides/publer/publer-social-scheduling",
+      "url": "/zh/guides/publer/publer-social-scheduling/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/publer/private-social-drafts",
       "url": "/zh/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/mangools/mangools-keyword-research",
+      "url": "/zh/guides/mangools/mangools-keyword-research/",
       "lastmod": "2026-11-11"
     },
     {
@@ -594,8 +702,20 @@
     },
     {
       "lang": "zh",
+      "route": "guides/systeme-io/systeme-io-sales-funnels",
+      "url": "/zh/guides/systeme-io/systeme-io-sales-funnels/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/systeme-io/preview-a-funnel-page",
       "url": "/zh/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/capcut/capcut-video-editor",
+      "url": "/zh/guides/capcut/capcut-video-editor/",
       "lastmod": "2026-11-11"
     },
     {
@@ -802,8 +922,20 @@
     },
     {
       "lang": "es",
+      "route": "guides/anydo/anydo-daily-planner",
+      "url": "/es/guides/anydo/anydo-daily-planner/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/es/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/submagic/submagic-short-form-editor",
+      "url": "/es/guides/submagic/submagic-short-form-editor/",
       "lastmod": "2026-11-11"
     },
     {
@@ -862,8 +994,20 @@
     },
     {
       "lang": "es",
+      "route": "guides/nifty/nifty-project-management",
+      "url": "/es/guides/nifty/nifty-project-management/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/nifty/content-launch-project",
       "url": "/es/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/oh-dear/oh-dear-website-monitoring",
+      "url": "/es/guides/oh-dear/oh-dear-website-monitoring/",
       "lastmod": "2026-11-11"
     },
     {
@@ -874,8 +1018,20 @@
     },
     {
       "lang": "es",
+      "route": "guides/castos/castos-podcast-hosting",
+      "url": "/es/guides/castos/castos-podcast-hosting/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/castos/podcast-hosting-wordpress",
       "url": "/es/guides/castos/podcast-hosting-wordpress/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/frase/frase-content-research",
+      "url": "/es/guides/frase/frase-content-research/",
       "lastmod": "2026-11-11"
     },
     {
@@ -886,8 +1042,20 @@
     },
     {
       "lang": "es",
+      "route": "guides/publer/publer-social-scheduling",
+      "url": "/es/guides/publer/publer-social-scheduling/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/publer/private-social-drafts",
       "url": "/es/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/mangools/mangools-keyword-research",
+      "url": "/es/guides/mangools/mangools-keyword-research/",
       "lastmod": "2026-11-11"
     },
     {
@@ -898,8 +1066,20 @@
     },
     {
       "lang": "es",
+      "route": "guides/systeme-io/systeme-io-sales-funnels",
+      "url": "/es/guides/systeme-io/systeme-io-sales-funnels/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/systeme-io/preview-a-funnel-page",
       "url": "/es/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/capcut/capcut-video-editor",
+      "url": "/es/guides/capcut/capcut-video-editor/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1106,8 +1286,20 @@
     },
     {
       "lang": "ja",
+      "route": "guides/anydo/anydo-daily-planner",
+      "url": "/ja/guides/anydo/anydo-daily-planner/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/ja/guides/anydo/plan-a-publishing-week/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/submagic/submagic-short-form-editor",
+      "url": "/ja/guides/submagic/submagic-short-form-editor/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1166,8 +1358,20 @@
     },
     {
       "lang": "ja",
+      "route": "guides/nifty/nifty-project-management",
+      "url": "/ja/guides/nifty/nifty-project-management/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides/nifty/content-launch-project",
       "url": "/ja/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/oh-dear/oh-dear-website-monitoring",
+      "url": "/ja/guides/oh-dear/oh-dear-website-monitoring/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1178,8 +1382,20 @@
     },
     {
       "lang": "ja",
+      "route": "guides/castos/castos-podcast-hosting",
+      "url": "/ja/guides/castos/castos-podcast-hosting/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides/castos/podcast-hosting-wordpress",
       "url": "/ja/guides/castos/podcast-hosting-wordpress/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/frase/frase-content-research",
+      "url": "/ja/guides/frase/frase-content-research/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1190,8 +1406,20 @@
     },
     {
       "lang": "ja",
+      "route": "guides/publer/publer-social-scheduling",
+      "url": "/ja/guides/publer/publer-social-scheduling/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides/publer/private-social-drafts",
       "url": "/ja/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/mangools/mangools-keyword-research",
+      "url": "/ja/guides/mangools/mangools-keyword-research/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1202,8 +1430,20 @@
     },
     {
       "lang": "ja",
+      "route": "guides/systeme-io/systeme-io-sales-funnels",
+      "url": "/ja/guides/systeme-io/systeme-io-sales-funnels/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides/systeme-io/preview-a-funnel-page",
       "url": "/ja/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/capcut/capcut-video-editor",
+      "url": "/ja/guides/capcut/capcut-video-editor/",
       "lastmod": "2026-11-11"
     },
     {
