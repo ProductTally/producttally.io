@@ -18,12 +18,14 @@
     {
       "lang": "en",
       "route": "",
-      "url": "/"
+      "url": "/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "products",
       "url": "/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -44,82 +46,98 @@
     {
       "lang": "en",
       "route": "products/anydo",
-      "url": "/products/anydo/"
+      "url": "/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "products/submagic",
-      "url": "/products/submagic/"
+      "url": "/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "products/nifty",
-      "url": "/products/nifty/"
+      "url": "/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "products/oh-dear",
-      "url": "/products/oh-dear/"
+      "url": "/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "products/castos",
-      "url": "/products/castos/"
+      "url": "/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "guides",
-      "url": "/guides/"
+      "url": "/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "guides/anydo",
-      "url": "/guides/anydo/"
+      "url": "/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
       "route": "guides/submagic",
-      "url": "/guides/submagic/"
+      "url": "/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
       "route": "guides/nifty",
-      "url": "/guides/nifty/"
+      "url": "/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
       "route": "guides/oh-dear",
-      "url": "/guides/oh-dear/"
+      "url": "/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
       "route": "guides/castos",
-      "url": "/guides/castos/"
+      "url": "/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
       "route": "guides/ai-video-production",
-      "url": "/guides/ai-video-production/"
+      "url": "/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
       "route": "guides/ai-workflow-automation",
-      "url": "/guides/ai-workflow-automation/"
+      "url": "/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
       "route": "guides/ai-search-visibility",
-      "url": "/guides/ai-search-visibility/"
+      "url": "/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
       "route": "guides/ai-image-creation",
-      "url": "/guides/ai-image-creation/"
+      "url": "/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
       "route": "guides/youtube-search-discovery",
-      "url": "/guides/youtube-search-discovery/"
+      "url": "/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
@@ -202,12 +220,14 @@
     {
       "lang": "zh",
       "route": "",
-      "url": "/zh/"
+      "url": "/zh/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -228,82 +248,98 @@
     {
       "lang": "zh",
       "route": "products/anydo",
-      "url": "/zh/products/anydo/"
+      "url": "/zh/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "products/submagic",
-      "url": "/zh/products/submagic/"
+      "url": "/zh/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "products/nifty",
-      "url": "/zh/products/nifty/"
+      "url": "/zh/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "products/oh-dear",
-      "url": "/zh/products/oh-dear/"
+      "url": "/zh/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "products/castos",
-      "url": "/zh/products/castos/"
+      "url": "/zh/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "guides",
-      "url": "/zh/guides/"
+      "url": "/zh/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "guides/anydo",
-      "url": "/zh/guides/anydo/"
+      "url": "/zh/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
       "route": "guides/submagic",
-      "url": "/zh/guides/submagic/"
+      "url": "/zh/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
       "route": "guides/nifty",
-      "url": "/zh/guides/nifty/"
+      "url": "/zh/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
       "route": "guides/oh-dear",
-      "url": "/zh/guides/oh-dear/"
+      "url": "/zh/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
       "route": "guides/castos",
-      "url": "/zh/guides/castos/"
+      "url": "/zh/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
       "route": "guides/ai-video-production",
-      "url": "/zh/guides/ai-video-production/"
+      "url": "/zh/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
       "route": "guides/ai-workflow-automation",
-      "url": "/zh/guides/ai-workflow-automation/"
+      "url": "/zh/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
       "route": "guides/ai-search-visibility",
-      "url": "/zh/guides/ai-search-visibility/"
+      "url": "/zh/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
       "route": "guides/ai-image-creation",
-      "url": "/zh/guides/ai-image-creation/"
+      "url": "/zh/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
       "route": "guides/youtube-search-discovery",
-      "url": "/zh/guides/youtube-search-discovery/"
+      "url": "/zh/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
@@ -386,12 +422,14 @@
     {
       "lang": "es",
       "route": "",
-      "url": "/es/"
+      "url": "/es/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -412,82 +450,98 @@
     {
       "lang": "es",
       "route": "products/anydo",
-      "url": "/es/products/anydo/"
+      "url": "/es/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "products/submagic",
-      "url": "/es/products/submagic/"
+      "url": "/es/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "products/nifty",
-      "url": "/es/products/nifty/"
+      "url": "/es/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "products/oh-dear",
-      "url": "/es/products/oh-dear/"
+      "url": "/es/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "products/castos",
-      "url": "/es/products/castos/"
+      "url": "/es/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "guides",
-      "url": "/es/guides/"
+      "url": "/es/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "guides/anydo",
-      "url": "/es/guides/anydo/"
+      "url": "/es/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
       "route": "guides/submagic",
-      "url": "/es/guides/submagic/"
+      "url": "/es/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
       "route": "guides/nifty",
-      "url": "/es/guides/nifty/"
+      "url": "/es/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
       "route": "guides/oh-dear",
-      "url": "/es/guides/oh-dear/"
+      "url": "/es/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
       "route": "guides/castos",
-      "url": "/es/guides/castos/"
+      "url": "/es/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
       "route": "guides/ai-video-production",
-      "url": "/es/guides/ai-video-production/"
+      "url": "/es/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
       "route": "guides/ai-workflow-automation",
-      "url": "/es/guides/ai-workflow-automation/"
+      "url": "/es/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
       "route": "guides/ai-search-visibility",
-      "url": "/es/guides/ai-search-visibility/"
+      "url": "/es/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
       "route": "guides/ai-image-creation",
-      "url": "/es/guides/ai-image-creation/"
+      "url": "/es/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
       "route": "guides/youtube-search-discovery",
-      "url": "/es/guides/youtube-search-discovery/"
+      "url": "/es/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
@@ -570,12 +624,14 @@
     {
       "lang": "ja",
       "route": "",
-      "url": "/ja/"
+      "url": "/ja/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -596,82 +652,98 @@
     {
       "lang": "ja",
       "route": "products/anydo",
-      "url": "/ja/products/anydo/"
+      "url": "/ja/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "products/submagic",
-      "url": "/ja/products/submagic/"
+      "url": "/ja/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "products/nifty",
-      "url": "/ja/products/nifty/"
+      "url": "/ja/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "products/oh-dear",
-      "url": "/ja/products/oh-dear/"
+      "url": "/ja/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "products/castos",
-      "url": "/ja/products/castos/"
+      "url": "/ja/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "guides",
-      "url": "/ja/guides/"
+      "url": "/ja/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "guides/anydo",
-      "url": "/ja/guides/anydo/"
+      "url": "/ja/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
       "route": "guides/submagic",
-      "url": "/ja/guides/submagic/"
+      "url": "/ja/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
       "route": "guides/nifty",
-      "url": "/ja/guides/nifty/"
+      "url": "/ja/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
       "route": "guides/oh-dear",
-      "url": "/ja/guides/oh-dear/"
+      "url": "/ja/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
       "route": "guides/castos",
-      "url": "/ja/guides/castos/"
+      "url": "/ja/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
       "route": "guides/ai-video-production",
-      "url": "/ja/guides/ai-video-production/"
+      "url": "/ja/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
       "route": "guides/ai-workflow-automation",
-      "url": "/ja/guides/ai-workflow-automation/"
+      "url": "/ja/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
       "route": "guides/ai-search-visibility",
-      "url": "/ja/guides/ai-search-visibility/"
+      "url": "/ja/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
       "route": "guides/ai-image-creation",
-      "url": "/ja/guides/ai-image-creation/"
+      "url": "/ja/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
       "route": "guides/youtube-search-discovery",
-      "url": "/ja/guides/youtube-search-discovery/"
+      "url": "/ja/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
@@ -754,12 +826,14 @@
     {
       "lang": "ko",
       "route": "",
-      "url": "/ko/"
+      "url": "/ko/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ko",
       "route": "products",
       "url": "/ko/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -780,82 +854,98 @@
     {
       "lang": "ko",
       "route": "products/anydo",
-      "url": "/ko/products/anydo/"
+      "url": "/ko/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ko",
       "route": "products/submagic",
-      "url": "/ko/products/submagic/"
+      "url": "/ko/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ko",
       "route": "products/nifty",
-      "url": "/ko/products/nifty/"
+      "url": "/ko/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ko",
       "route": "products/oh-dear",
-      "url": "/ko/products/oh-dear/"
+      "url": "/ko/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ko",
       "route": "products/castos",
-      "url": "/ko/products/castos/"
+      "url": "/ko/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ko",
       "route": "guides",
-      "url": "/ko/guides/"
+      "url": "/ko/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ko",
       "route": "guides/anydo",
-      "url": "/ko/guides/anydo/"
+      "url": "/ko/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
       "route": "guides/submagic",
-      "url": "/ko/guides/submagic/"
+      "url": "/ko/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
       "route": "guides/nifty",
-      "url": "/ko/guides/nifty/"
+      "url": "/ko/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
       "route": "guides/oh-dear",
-      "url": "/ko/guides/oh-dear/"
+      "url": "/ko/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
       "route": "guides/castos",
-      "url": "/ko/guides/castos/"
+      "url": "/ko/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
       "route": "guides/ai-video-production",
-      "url": "/ko/guides/ai-video-production/"
+      "url": "/ko/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
       "route": "guides/ai-workflow-automation",
-      "url": "/ko/guides/ai-workflow-automation/"
+      "url": "/ko/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
       "route": "guides/ai-search-visibility",
-      "url": "/ko/guides/ai-search-visibility/"
+      "url": "/ko/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
       "route": "guides/ai-image-creation",
-      "url": "/ko/guides/ai-image-creation/"
+      "url": "/ko/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
       "route": "guides/youtube-search-discovery",
-      "url": "/ko/guides/youtube-search-discovery/"
+      "url": "/ko/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
@@ -938,12 +1028,14 @@
     {
       "lang": "fr",
       "route": "",
-      "url": "/fr/"
+      "url": "/fr/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "fr",
       "route": "products",
       "url": "/fr/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -964,82 +1056,98 @@
     {
       "lang": "fr",
       "route": "products/anydo",
-      "url": "/fr/products/anydo/"
+      "url": "/fr/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "fr",
       "route": "products/submagic",
-      "url": "/fr/products/submagic/"
+      "url": "/fr/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "fr",
       "route": "products/nifty",
-      "url": "/fr/products/nifty/"
+      "url": "/fr/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "fr",
       "route": "products/oh-dear",
-      "url": "/fr/products/oh-dear/"
+      "url": "/fr/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "fr",
       "route": "products/castos",
-      "url": "/fr/products/castos/"
+      "url": "/fr/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "fr",
       "route": "guides",
-      "url": "/fr/guides/"
+      "url": "/fr/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "fr",
       "route": "guides/anydo",
-      "url": "/fr/guides/anydo/"
+      "url": "/fr/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
       "route": "guides/submagic",
-      "url": "/fr/guides/submagic/"
+      "url": "/fr/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
       "route": "guides/nifty",
-      "url": "/fr/guides/nifty/"
+      "url": "/fr/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
       "route": "guides/oh-dear",
-      "url": "/fr/guides/oh-dear/"
+      "url": "/fr/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
       "route": "guides/castos",
-      "url": "/fr/guides/castos/"
+      "url": "/fr/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
       "route": "guides/ai-video-production",
-      "url": "/fr/guides/ai-video-production/"
+      "url": "/fr/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
       "route": "guides/ai-workflow-automation",
-      "url": "/fr/guides/ai-workflow-automation/"
+      "url": "/fr/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
       "route": "guides/ai-search-visibility",
-      "url": "/fr/guides/ai-search-visibility/"
+      "url": "/fr/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
       "route": "guides/ai-image-creation",
-      "url": "/fr/guides/ai-image-creation/"
+      "url": "/fr/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
       "route": "guides/youtube-search-discovery",
-      "url": "/fr/guides/youtube-search-discovery/"
+      "url": "/fr/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
@@ -1122,12 +1230,14 @@
     {
       "lang": "de",
       "route": "",
-      "url": "/de/"
+      "url": "/de/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "de",
       "route": "products",
       "url": "/de/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -1148,82 +1258,98 @@
     {
       "lang": "de",
       "route": "products/anydo",
-      "url": "/de/products/anydo/"
+      "url": "/de/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "de",
       "route": "products/submagic",
-      "url": "/de/products/submagic/"
+      "url": "/de/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "de",
       "route": "products/nifty",
-      "url": "/de/products/nifty/"
+      "url": "/de/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "de",
       "route": "products/oh-dear",
-      "url": "/de/products/oh-dear/"
+      "url": "/de/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "de",
       "route": "products/castos",
-      "url": "/de/products/castos/"
+      "url": "/de/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "de",
       "route": "guides",
-      "url": "/de/guides/"
+      "url": "/de/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "de",
       "route": "guides/anydo",
-      "url": "/de/guides/anydo/"
+      "url": "/de/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
       "route": "guides/submagic",
-      "url": "/de/guides/submagic/"
+      "url": "/de/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
       "route": "guides/nifty",
-      "url": "/de/guides/nifty/"
+      "url": "/de/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
       "route": "guides/oh-dear",
-      "url": "/de/guides/oh-dear/"
+      "url": "/de/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
       "route": "guides/castos",
-      "url": "/de/guides/castos/"
+      "url": "/de/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
       "route": "guides/ai-video-production",
-      "url": "/de/guides/ai-video-production/"
+      "url": "/de/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
       "route": "guides/ai-workflow-automation",
-      "url": "/de/guides/ai-workflow-automation/"
+      "url": "/de/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
       "route": "guides/ai-search-visibility",
-      "url": "/de/guides/ai-search-visibility/"
+      "url": "/de/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
       "route": "guides/ai-image-creation",
-      "url": "/de/guides/ai-image-creation/"
+      "url": "/de/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
       "route": "guides/youtube-search-discovery",
-      "url": "/de/guides/youtube-search-discovery/"
+      "url": "/de/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
@@ -1306,12 +1432,14 @@
     {
       "lang": "it",
       "route": "",
-      "url": "/it/"
+      "url": "/it/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "it",
       "route": "products",
       "url": "/it/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -1332,82 +1460,98 @@
     {
       "lang": "it",
       "route": "products/anydo",
-      "url": "/it/products/anydo/"
+      "url": "/it/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "it",
       "route": "products/submagic",
-      "url": "/it/products/submagic/"
+      "url": "/it/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "it",
       "route": "products/nifty",
-      "url": "/it/products/nifty/"
+      "url": "/it/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "it",
       "route": "products/oh-dear",
-      "url": "/it/products/oh-dear/"
+      "url": "/it/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "it",
       "route": "products/castos",
-      "url": "/it/products/castos/"
+      "url": "/it/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "it",
       "route": "guides",
-      "url": "/it/guides/"
+      "url": "/it/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "it",
       "route": "guides/anydo",
-      "url": "/it/guides/anydo/"
+      "url": "/it/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
       "route": "guides/submagic",
-      "url": "/it/guides/submagic/"
+      "url": "/it/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
       "route": "guides/nifty",
-      "url": "/it/guides/nifty/"
+      "url": "/it/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
       "route": "guides/oh-dear",
-      "url": "/it/guides/oh-dear/"
+      "url": "/it/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
       "route": "guides/castos",
-      "url": "/it/guides/castos/"
+      "url": "/it/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
       "route": "guides/ai-video-production",
-      "url": "/it/guides/ai-video-production/"
+      "url": "/it/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
       "route": "guides/ai-workflow-automation",
-      "url": "/it/guides/ai-workflow-automation/"
+      "url": "/it/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
       "route": "guides/ai-search-visibility",
-      "url": "/it/guides/ai-search-visibility/"
+      "url": "/it/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
       "route": "guides/ai-image-creation",
-      "url": "/it/guides/ai-image-creation/"
+      "url": "/it/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
       "route": "guides/youtube-search-discovery",
-      "url": "/it/guides/youtube-search-discovery/"
+      "url": "/it/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
@@ -1490,12 +1634,14 @@
     {
       "lang": "hi",
       "route": "",
-      "url": "/hi/"
+      "url": "/hi/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "hi",
       "route": "products",
       "url": "/hi/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -1516,82 +1662,98 @@
     {
       "lang": "hi",
       "route": "products/anydo",
-      "url": "/hi/products/anydo/"
+      "url": "/hi/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "hi",
       "route": "products/submagic",
-      "url": "/hi/products/submagic/"
+      "url": "/hi/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "hi",
       "route": "products/nifty",
-      "url": "/hi/products/nifty/"
+      "url": "/hi/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "hi",
       "route": "products/oh-dear",
-      "url": "/hi/products/oh-dear/"
+      "url": "/hi/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "hi",
       "route": "products/castos",
-      "url": "/hi/products/castos/"
+      "url": "/hi/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "hi",
       "route": "guides",
-      "url": "/hi/guides/"
+      "url": "/hi/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "hi",
       "route": "guides/anydo",
-      "url": "/hi/guides/anydo/"
+      "url": "/hi/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
       "route": "guides/submagic",
-      "url": "/hi/guides/submagic/"
+      "url": "/hi/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
       "route": "guides/nifty",
-      "url": "/hi/guides/nifty/"
+      "url": "/hi/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
       "route": "guides/oh-dear",
-      "url": "/hi/guides/oh-dear/"
+      "url": "/hi/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
       "route": "guides/castos",
-      "url": "/hi/guides/castos/"
+      "url": "/hi/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
       "route": "guides/ai-video-production",
-      "url": "/hi/guides/ai-video-production/"
+      "url": "/hi/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
       "route": "guides/ai-workflow-automation",
-      "url": "/hi/guides/ai-workflow-automation/"
+      "url": "/hi/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
       "route": "guides/ai-search-visibility",
-      "url": "/hi/guides/ai-search-visibility/"
+      "url": "/hi/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
       "route": "guides/ai-image-creation",
-      "url": "/hi/guides/ai-image-creation/"
+      "url": "/hi/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
       "route": "guides/youtube-search-discovery",
-      "url": "/hi/guides/youtube-search-discovery/"
+      "url": "/hi/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
@@ -1674,12 +1836,14 @@
     {
       "lang": "th",
       "route": "",
-      "url": "/th/"
+      "url": "/th/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "th",
       "route": "products",
       "url": "/th/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -1700,82 +1864,98 @@
     {
       "lang": "th",
       "route": "products/anydo",
-      "url": "/th/products/anydo/"
+      "url": "/th/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "th",
       "route": "products/submagic",
-      "url": "/th/products/submagic/"
+      "url": "/th/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "th",
       "route": "products/nifty",
-      "url": "/th/products/nifty/"
+      "url": "/th/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "th",
       "route": "products/oh-dear",
-      "url": "/th/products/oh-dear/"
+      "url": "/th/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "th",
       "route": "products/castos",
-      "url": "/th/products/castos/"
+      "url": "/th/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "th",
       "route": "guides",
-      "url": "/th/guides/"
+      "url": "/th/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "th",
       "route": "guides/anydo",
-      "url": "/th/guides/anydo/"
+      "url": "/th/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
       "route": "guides/submagic",
-      "url": "/th/guides/submagic/"
+      "url": "/th/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
       "route": "guides/nifty",
-      "url": "/th/guides/nifty/"
+      "url": "/th/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
       "route": "guides/oh-dear",
-      "url": "/th/guides/oh-dear/"
+      "url": "/th/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
       "route": "guides/castos",
-      "url": "/th/guides/castos/"
+      "url": "/th/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
       "route": "guides/ai-video-production",
-      "url": "/th/guides/ai-video-production/"
+      "url": "/th/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
       "route": "guides/ai-workflow-automation",
-      "url": "/th/guides/ai-workflow-automation/"
+      "url": "/th/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
       "route": "guides/ai-search-visibility",
-      "url": "/th/guides/ai-search-visibility/"
+      "url": "/th/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
       "route": "guides/ai-image-creation",
-      "url": "/th/guides/ai-image-creation/"
+      "url": "/th/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
       "route": "guides/youtube-search-discovery",
-      "url": "/th/guides/youtube-search-discovery/"
+      "url": "/th/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
@@ -1858,12 +2038,14 @@
     {
       "lang": "pt-BR",
       "route": "",
-      "url": "/pt-br/"
+      "url": "/pt-br/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "pt-BR",
       "route": "products",
       "url": "/pt-br/products/",
+      "lastmod": "2026-11-11",
       "canonicalRoute": ""
     },
     {
@@ -1884,82 +2066,98 @@
     {
       "lang": "pt-BR",
       "route": "products/anydo",
-      "url": "/pt-br/products/anydo/"
+      "url": "/pt-br/products/anydo/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "pt-BR",
       "route": "products/submagic",
-      "url": "/pt-br/products/submagic/"
+      "url": "/pt-br/products/submagic/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "pt-BR",
       "route": "products/nifty",
-      "url": "/pt-br/products/nifty/"
+      "url": "/pt-br/products/nifty/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "pt-BR",
       "route": "products/oh-dear",
-      "url": "/pt-br/products/oh-dear/"
+      "url": "/pt-br/products/oh-dear/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "pt-BR",
       "route": "products/castos",
-      "url": "/pt-br/products/castos/"
+      "url": "/pt-br/products/castos/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "pt-BR",
       "route": "guides",
-      "url": "/pt-br/guides/"
+      "url": "/pt-br/guides/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "pt-BR",
       "route": "guides/anydo",
-      "url": "/pt-br/guides/anydo/"
+      "url": "/pt-br/guides/anydo/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
       "route": "guides/submagic",
-      "url": "/pt-br/guides/submagic/"
+      "url": "/pt-br/guides/submagic/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
       "route": "guides/nifty",
-      "url": "/pt-br/guides/nifty/"
+      "url": "/pt-br/guides/nifty/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
       "route": "guides/oh-dear",
-      "url": "/pt-br/guides/oh-dear/"
+      "url": "/pt-br/guides/oh-dear/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
       "route": "guides/castos",
-      "url": "/pt-br/guides/castos/"
+      "url": "/pt-br/guides/castos/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
       "route": "guides/ai-video-production",
-      "url": "/pt-br/guides/ai-video-production/"
+      "url": "/pt-br/guides/ai-video-production/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
       "route": "guides/ai-workflow-automation",
-      "url": "/pt-br/guides/ai-workflow-automation/"
+      "url": "/pt-br/guides/ai-workflow-automation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
       "route": "guides/ai-search-visibility",
-      "url": "/pt-br/guides/ai-search-visibility/"
+      "url": "/pt-br/guides/ai-search-visibility/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
       "route": "guides/ai-image-creation",
-      "url": "/pt-br/guides/ai-image-creation/"
+      "url": "/pt-br/guides/ai-image-creation/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
       "route": "guides/youtube-search-discovery",
-      "url": "/pt-br/guides/youtube-search-discovery/"
+      "url": "/pt-br/guides/youtube-search-discovery/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
