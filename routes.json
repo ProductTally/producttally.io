@@ -75,6 +75,30 @@
     },
     {
       "lang": "en",
+      "route": "products/frase",
+      "url": "/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/publer",
+      "url": "/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/mangools",
+      "url": "/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/systeme-io",
+      "url": "/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -108,6 +132,30 @@
       "route": "guides/castos",
       "url": "/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/frase",
+      "url": "/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/publer",
+      "url": "/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/mangools",
+      "url": "/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/systeme-io",
+      "url": "/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
@@ -218,6 +266,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "en",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "zh",
       "route": "",
       "url": "/zh/",
@@ -277,6 +349,30 @@
     },
     {
       "lang": "zh",
+      "route": "products/frase",
+      "url": "/zh/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/publer",
+      "url": "/zh/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/mangools",
+      "url": "/zh/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/systeme-io",
+      "url": "/zh/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -310,6 +406,30 @@
       "route": "guides/castos",
       "url": "/zh/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/frase",
+      "url": "/zh/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/publer",
+      "url": "/zh/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/mangools",
+      "url": "/zh/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/systeme-io",
+      "url": "/zh/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
@@ -420,6 +540,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "zh",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/zh/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/zh/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/zh/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/zh/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "es",
       "route": "",
       "url": "/es/",
@@ -479,6 +623,30 @@
     },
     {
       "lang": "es",
+      "route": "products/frase",
+      "url": "/es/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/publer",
+      "url": "/es/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/mangools",
+      "url": "/es/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/systeme-io",
+      "url": "/es/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -512,6 +680,30 @@
       "route": "guides/castos",
       "url": "/es/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/frase",
+      "url": "/es/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/publer",
+      "url": "/es/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/mangools",
+      "url": "/es/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/systeme-io",
+      "url": "/es/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
@@ -622,6 +814,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "es",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/es/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/es/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/es/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/es/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "ja",
       "route": "",
       "url": "/ja/",
@@ -681,6 +897,30 @@
     },
     {
       "lang": "ja",
+      "route": "products/frase",
+      "url": "/ja/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/publer",
+      "url": "/ja/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/mangools",
+      "url": "/ja/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/systeme-io",
+      "url": "/ja/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -714,6 +954,30 @@
       "route": "guides/castos",
       "url": "/ja/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/frase",
+      "url": "/ja/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/publer",
+      "url": "/ja/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/mangools",
+      "url": "/ja/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/systeme-io",
+      "url": "/ja/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
@@ -824,6 +1088,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "ja",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/ja/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/ja/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/ja/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/ja/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "ko",
       "route": "",
       "url": "/ko/",
@@ -883,6 +1171,30 @@
     },
     {
       "lang": "ko",
+      "route": "products/frase",
+      "url": "/ko/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "products/publer",
+      "url": "/ko/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "products/mangools",
+      "url": "/ko/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "products/systeme-io",
+      "url": "/ko/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
       "route": "guides",
       "url": "/ko/guides/",
       "lastmod": "2026-11-11"
@@ -916,6 +1228,30 @@
       "route": "guides/castos",
       "url": "/ko/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/frase",
+      "url": "/ko/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/publer",
+      "url": "/ko/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/mangools",
+      "url": "/ko/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/systeme-io",
+      "url": "/ko/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ko",
@@ -1026,6 +1362,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "ko",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/ko/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/ko/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/ko/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/ko/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "fr",
       "route": "",
       "url": "/fr/",
@@ -1085,6 +1445,30 @@
     },
     {
       "lang": "fr",
+      "route": "products/frase",
+      "url": "/fr/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "products/publer",
+      "url": "/fr/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "products/mangools",
+      "url": "/fr/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "products/systeme-io",
+      "url": "/fr/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
       "route": "guides",
       "url": "/fr/guides/",
       "lastmod": "2026-11-11"
@@ -1118,6 +1502,30 @@
       "route": "guides/castos",
       "url": "/fr/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/frase",
+      "url": "/fr/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/publer",
+      "url": "/fr/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/mangools",
+      "url": "/fr/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/systeme-io",
+      "url": "/fr/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "fr",
@@ -1228,6 +1636,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "fr",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/fr/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/fr/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/fr/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/fr/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "de",
       "route": "",
       "url": "/de/",
@@ -1287,6 +1719,30 @@
     },
     {
       "lang": "de",
+      "route": "products/frase",
+      "url": "/de/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "products/publer",
+      "url": "/de/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "products/mangools",
+      "url": "/de/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "products/systeme-io",
+      "url": "/de/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
       "route": "guides",
       "url": "/de/guides/",
       "lastmod": "2026-11-11"
@@ -1320,6 +1776,30 @@
       "route": "guides/castos",
       "url": "/de/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/frase",
+      "url": "/de/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "guides/publer",
+      "url": "/de/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "guides/mangools",
+      "url": "/de/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "guides/systeme-io",
+      "url": "/de/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "de",
@@ -1430,6 +1910,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "de",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/de/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/de/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/de/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/de/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "it",
       "route": "",
       "url": "/it/",
@@ -1489,6 +1993,30 @@
     },
     {
       "lang": "it",
+      "route": "products/frase",
+      "url": "/it/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "products/publer",
+      "url": "/it/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "products/mangools",
+      "url": "/it/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "products/systeme-io",
+      "url": "/it/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
       "route": "guides",
       "url": "/it/guides/",
       "lastmod": "2026-11-11"
@@ -1522,6 +2050,30 @@
       "route": "guides/castos",
       "url": "/it/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/frase",
+      "url": "/it/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "guides/publer",
+      "url": "/it/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "guides/mangools",
+      "url": "/it/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "guides/systeme-io",
+      "url": "/it/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "it",
@@ -1632,6 +2184,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "it",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/it/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/it/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/it/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/it/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "hi",
       "route": "",
       "url": "/hi/",
@@ -1691,6 +2267,30 @@
     },
     {
       "lang": "hi",
+      "route": "products/frase",
+      "url": "/hi/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "products/publer",
+      "url": "/hi/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "products/mangools",
+      "url": "/hi/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "products/systeme-io",
+      "url": "/hi/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
       "route": "guides",
       "url": "/hi/guides/",
       "lastmod": "2026-11-11"
@@ -1724,6 +2324,30 @@
       "route": "guides/castos",
       "url": "/hi/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/frase",
+      "url": "/hi/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/publer",
+      "url": "/hi/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/mangools",
+      "url": "/hi/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/systeme-io",
+      "url": "/hi/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "hi",
@@ -1834,6 +2458,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "hi",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/hi/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/hi/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/hi/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/hi/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "th",
       "route": "",
       "url": "/th/",
@@ -1893,6 +2541,30 @@
     },
     {
       "lang": "th",
+      "route": "products/frase",
+      "url": "/th/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "products/publer",
+      "url": "/th/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "products/mangools",
+      "url": "/th/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "products/systeme-io",
+      "url": "/th/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
       "route": "guides",
       "url": "/th/guides/",
       "lastmod": "2026-11-11"
@@ -1926,6 +2598,30 @@
       "route": "guides/castos",
       "url": "/th/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/frase",
+      "url": "/th/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "guides/publer",
+      "url": "/th/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "guides/mangools",
+      "url": "/th/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "guides/systeme-io",
+      "url": "/th/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "th",
@@ -2036,6 +2732,30 @@
       "lastmod": "2026-11-10"
     },
     {
+      "lang": "th",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/th/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/th/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/th/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/th/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "pt-BR",
       "route": "",
       "url": "/pt-br/",
@@ -2095,6 +2815,30 @@
     },
     {
       "lang": "pt-BR",
+      "route": "products/frase",
+      "url": "/pt-br/products/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "products/publer",
+      "url": "/pt-br/products/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "products/mangools",
+      "url": "/pt-br/products/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "products/systeme-io",
+      "url": "/pt-br/products/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
       "route": "guides",
       "url": "/pt-br/guides/",
       "lastmod": "2026-11-11"
@@ -2128,6 +2872,30 @@
       "route": "guides/castos",
       "url": "/pt-br/guides/castos/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/frase",
+      "url": "/pt-br/guides/frase/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/publer",
+      "url": "/pt-br/guides/publer/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/mangools",
+      "url": "/pt-br/guides/mangools/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/systeme-io",
+      "url": "/pt-br/guides/systeme-io/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "pt-BR",
@@ -2236,6 +3004,30 @@
       "route": "guides/castos/podcast-hosting-wordpress",
       "url": "/pt-br/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/frase/research-brief-draft",
+      "url": "/pt-br/guides/frase/research-brief-draft/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/publer/private-social-drafts",
+      "url": "/pt-br/guides/publer/private-social-drafts/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/mangools/keyword-shortlist",
+      "url": "/pt-br/guides/mangools/keyword-shortlist/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/systeme-io/preview-a-funnel-page",
+      "url": "/pt-br/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
     }
   ],
   "redirects": []

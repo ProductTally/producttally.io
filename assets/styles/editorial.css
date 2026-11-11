@@ -167,3 +167,29 @@
   .guide-article .article-grid { padding-block-start: 1rem; }
   .article-toc { padding: .85rem 1rem; }
 }
+
+.guide-library-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: stretch;
+  min-block-size: clamp(19rem, 28vw, 24rem);
+  isolation: isolate;
+  overflow: clip;
+  background: var(--surface);
+}
+.guide-hero-art { display: block; position: absolute; inset: 0; z-index: -1; margin: 0; pointer-events: none; }
+.guide-hero-art img { display: block; inline-size: 100%; block-size: 100%; object-fit: cover; }
+.guide-library-heading > .guide-hero-copy { position: relative; inline-size: 60%; max-inline-size: none; min-inline-size: 0; padding-block: 1rem; }
+.guide-library-heading .lead { text-wrap: pretty; }
+@media (max-width: 64rem) {
+  .guide-library-heading { min-block-size: 18rem; }
+  .guide-library-heading > .guide-hero-copy { inline-size: 75%; }
+  .guide-hero-art::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--surface), color-mix(in srgb, var(--surface) 85%, transparent) 45%, transparent); }
+}
+@media (max-width: 48rem) {
+  .guide-library-heading { min-block-size: 15rem; padding: clamp(1.1rem, 4vw, 2rem); }
+  .guide-library-heading > .guide-hero-copy { inline-size: 100%; max-inline-size: 100%; padding-block: 0; }
+  .guide-hero-art img { object-position: right center; opacity: .28; }
+  .guide-hero-art::after { background: linear-gradient(90deg, color-mix(in srgb, var(--surface) 95%, transparent), color-mix(in srgb, var(--surface) 65%, transparent) 60%, color-mix(in srgb, var(--surface) 20%, transparent)); }
+  .guide-library-heading h1 { font-size: clamp(2rem, 7vw, 3rem); line-height: 1.15; word-break: normal; }
+}

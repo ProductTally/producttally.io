@@ -104,19 +104,25 @@
     <p class="eyebrow">フィルター製品</p>
     <div class="filters" role="group" aria-label="フィルター製品"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    <span>すべての製品</span> <span class="filter-count">5</span>
+    <span>すべての製品</span> <span class="filter-count">9</span>
   </wa-button><wa-button data-filter="monitoring"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>サイト監視</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="podcasting"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>ポッドキャスト</span> <span class="filter-count">1</span>
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>執筆</span> <span class="filter-count">3</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>ビデオ</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>生産性</span> <span class="filter-count">2</span>
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>ウェブとフォーム</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="saved"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>保存されました</span> <span data-saved-count>0</span>
@@ -134,9 +140,9 @@
     <wa-button slot="trigger" appearance="outlined" size="s" with-caret>
       <span class="visually-hidden">フィルター製品 </span><span data-filter-label>すべての製品</span>
     </wa-button>
-    <wa-dropdown-item value="all" type="checkbox" checked>すべての製品</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">サイト監視</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">ポッドキャスト</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">ビデオ</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">生産性</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">保存されました</wa-dropdown-item>
+    <wa-dropdown-item value="all" type="checkbox" checked>すべての製品</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">サイト監視</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">ポッドキャスト</wa-dropdown-item><wa-dropdown-item value="writing" type="checkbox">執筆</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">ビデオ</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">生産性</wa-dropdown-item><wa-dropdown-item value="web" type="checkbox">ウェブとフォーム</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">保存されました</wa-dropdown-item>
   </wa-dropdown></div>
-    <div class="catalog-meta" role="status"><span data-result-count>5</span> <span data-result-word>件の製品</span></div>
+    <div class="catalog-meta" role="status"><span data-result-count>9</span> <span data-result-word>件の製品</span></div>
     <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do 生産性 タスク・スケジュール管理 今日やることが、ひと目で分かる。タスク、予定、リマインダーをまとめて、日々の計画をすっきり整理。 無料ウェブ版で英語、簡体字中国語、スペイン語のタスクとサブタスクを保存しました。単発のリマインダーを保存し、タスクを完了にすると、同じ Chrome プロフィールの別タブにも反映されました。英語表示では「tomorrow at 3pm」を日時として認識し、中国語とスペイン語の日付表現はタイトルに残りました。 個人で執筆や公開を管理するクリエイターや、編集用の共有ボードを検討する小規模チーム向け。">
     <div class="card-top">
       <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
@@ -217,6 +223,70 @@
     <p class="card-description">音声の置き場所と公開手順をまとめるCastos。音声ホスティング、RSS、WordPress連携を制作者と小規模チームに提供します。</p>
     <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/podcast-hosting-wordpress/cover.webp" alt="Castos · ポッドキャスト配信"
     width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="frase" data-category="writing" data-search="Frase 執筆 AIコンテンツ調査・執筆 問いから構成案と編集可能な初稿へ。Fraseはキーワード調査、企画、Markdown出力をつなぎ、編集者が確認する小規模チームを支えます。 言語と市場を設定し、26キーワード、構成案、約800語の原稿を作成。Markdown出力と再読み込み後の保存を確認しました。検索順位への効果は示していません。 調査資料と構成を初稿の近くに置き、自分たちの編集手順で確認できます。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/frase.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/ja/products/frase/" translate="no">Frase</a></h2>
+        <span class="product-tag">AIコンテンツ調査・執筆</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="frase"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">製品の保存<span class="visually-hidden"> Frase</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">問いから構成案と編集可能な初稿へ。Fraseはキーワード調査、企画、Markdown出力をつなぎ、編集者が確認する小規模チームを支えます。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/research-brief-draft/cover.webp" alt="Frase · AIコンテンツ調査・執筆"
+    width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="publer" data-category="writing" data-search="Publer 執筆 SNS投稿の下書き・予約 多言語の投稿文とキャンペーンURLを非公開のアイデアにまとめ、投稿の準備時に再利用できます。 2026年11月11日に無料アカウントで検証。英語・中国語・日本語の文とURLは再読み込み後も残り、投稿エディターで開けました。 Ideasは投稿カレンダーとは別に下書きを保存でき、投稿エディターから再利用できます。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/publer.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/ja/products/publer/" translate="no">Publer</a></h2>
+        <span class="product-tag">SNS投稿の下書き・予約</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="publer"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">製品の保存<span class="visually-hidden"> Publer</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">多言語の投稿文とキャンペーンURLを非公開のアイデアにまとめ、投稿の準備時に再利用できます。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/private-social-drafts/cover.webp" alt="Publer Ideasの画面"
+    width="1200" height="628" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="mangools" data-category="writing" data-search="Mangools 執筆 SEOキーワード調査 KWFinderでテーマをキーワード候補に絞り込み、上位ページを確認して企画表に出力できます。 2026年11月11日、Free+で1件の検索から候補と検索結果が表示され、リスト保存とCSV出力ができました。 KWFinderには候補表示、検索結果のプレビュー、リスト保存があります。検索回数はプランにより異なります。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/mangools.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/ja/products/mangools/" translate="no">Mangools</a></h2>
+        <span class="product-tag">SEOキーワード調査</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="mangools"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">製品の保存<span class="visually-hidden"> Mangools</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">KWFinderでテーマをキーワード候補に絞り込み、上位ページを確認して企画表に出力できます。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/keyword-shortlist/cover.webp" alt="Mangools KWFinderのキーワード調査画面"
+    width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="systeme-io" data-category="web" data-search="systeme.io ウェブとフォーム ランディングページと販売ファネル ブロックでページを組み立て、公開前にスマートフォン幅で読みやすさを確認できます。 2026年11月11日、無料プランの停止中ファネルで英語・中国語・日本語の見出しが保存され、再読み込み後も残りました。モバイルプレビューも開けました。 ビジュアルエディターはブロックとモバイルプレビューに対応。Freeはファネル3件、連絡先2,000件、独自ドメイン1件です。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/systeme-io.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/ja/products/systeme-io/" translate="no">systeme.io</a></h2>
+        <span class="product-tag">ランディングページと販売ファネル</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="systeme-io"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">製品の保存<span class="visually-hidden"> systeme.io</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">ブロックでページを組み立て、公開前にスマートフォン幅で読みやすさを確認できます。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/preview-a-funnel-page/cover.webp" alt="systeme.ioのページ編集・自動化画面"
+    width="1200" height="534" loading="lazy" decoding="async"></div>
   </article></div>
     <div class="empty-state" hidden>
       <p class="empty-title">この隅にはまだ何もありません。</p>

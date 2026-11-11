@@ -104,19 +104,25 @@
     <p class="eyebrow">Filtra i prodotti</p>
     <div class="filters" role="group" aria-label="Filtra i prodotti"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    <span>Tutti i prodotti</span> <span class="filter-count">5</span>
+    <span>Tutti i prodotti</span> <span class="filter-count">9</span>
   </wa-button><wa-button data-filter="monitoring"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>Monitoraggio siti</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="podcasting"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>Podcast</span> <span class="filter-count">1</span>
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>Scrivere</span> <span class="filter-count">3</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>Video</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>Produttività</span> <span class="filter-count">2</span>
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>Web e moduli</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="saved"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>Salvato</span> <span data-saved-count>0</span>
@@ -134,9 +140,9 @@
     <wa-button slot="trigger" appearance="outlined" size="s" with-caret>
       <span class="visually-hidden">Filtra i prodotti </span><span data-filter-label>Tutti i prodotti</span>
     </wa-button>
-    <wa-dropdown-item value="all" type="checkbox" checked>Tutti i prodotti</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">Monitoraggio siti</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">Podcast</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">Video</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">Produttività</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">Salvato</wa-dropdown-item>
+    <wa-dropdown-item value="all" type="checkbox" checked>Tutti i prodotti</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">Monitoraggio siti</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">Podcast</wa-dropdown-item><wa-dropdown-item value="writing" type="checkbox">Scrivere</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">Video</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">Produttività</wa-dropdown-item><wa-dropdown-item value="web" type="checkbox">Web e moduli</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">Salvato</wa-dropdown-item>
   </wa-dropdown></div>
-    <div class="catalog-meta" role="status"><span data-result-count>5</span> <span data-result-word>prodotti da esplorare</span></div>
+    <div class="catalog-meta" role="status"><span data-result-count>9</span> <span data-result-word>prodotti da esplorare</span></div>
     <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do Produttività Gestione di attività e agenda Vedi a colpo d’occhio cosa fare oggi. Riunisci attività, date e promemoria in un piano giornaliero chiaro. Nella versione web gratuita abbiamo salvato attività e sottoattività in inglese, cinese semplificato e spagnolo, impostato un promemoria singolo e completato un’attività. Le modifiche erano visibili in un’altra scheda dello stesso profilo Chrome. Nell’interfaccia inglese, «tomorrow at 3pm» ha impostato data e ora. Le espressioni in cinese e spagnolo sono rimaste nel titolo. Creator indipendenti che pianificano le pubblicazioni e piccoli team che valutano una bacheca editoriale condivisa.">
     <div class="card-top">
       <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
@@ -217,6 +223,70 @@
     <p class="card-description">Una sede per l’audio e un processo chiaro per pubblicare. Castos unisce hosting, RSS e WordPress per creatori e piccoli team.</p>
     <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/podcast-hosting-wordpress/cover.webp" alt="Castos · Hosting podcast"
     width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="frase" data-category="writing" data-search="Frase Scrivere Ricerca e scrittura con IA Da una domanda a un brief e a una bozza modificabile. Frase collega parole chiave, pianificazione ed export Markdown per piccoli team con revisione editoriale. Imposta lingua e mercato. Abbiamo ottenuto 26 parole chiave, un brief e circa 800 parole, esportati in Markdown e conservati dopo il ricaricamento. Non dimostra risultati SEO. Tieni ricerca e scaletta accanto alla bozza e applica la tua revisione.">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/frase.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/it/products/frase/" translate="no">Frase</a></h2>
+        <span class="product-tag">Ricerca e scrittura con IA</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="frase"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salva prodotto<span class="visually-hidden"> Frase</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">Da una domanda a un brief e a una bozza modificabile. Frase collega parole chiave, pianificazione ed export Markdown per piccoli team con revisione editoriale.</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/research-brief-draft/cover.webp" alt="Frase · Ricerca e scrittura con IA"
+    width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="publer" data-category="writing" data-search="Publer Scrivere Bozze e programmazione social Raccogli testi multilingue e link della campagna in un’idea privata, pronta da riutilizzare quando prepari un post. L’11 novembre 2026, in un account gratuito, i testi in inglese, cinese e giapponese e il link sono rimasti dopo il ricaricamento. L’idea si è aperta nell’editor. Ideas salva le bozze separatamente dal calendario e le apre nell’editor dei post.">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/publer.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/it/products/publer/" translate="no">Publer</a></h2>
+        <span class="product-tag">Bozze e programmazione social</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="publer"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salva prodotto<span class="visually-hidden"> Publer</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">Raccogli testi multilingue e link della campagna in un’idea privata, pronta da riutilizzare quando prepari un post.</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/private-social-drafts/cover.webp" alt="Interfaccia Publer Ideas"
+    width="1200" height="628" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="mangools" data-category="writing" data-search="Mangools Scrivere Ricerca di parole chiave SEO Con KWFinder selezioni le parole chiave, esamini le pagine che si posizionano e porti l’elenco nel tuo foglio editoriale. L’11 novembre 2026, una ricerca su Free+ ha restituito suggerimenti e risultati. Abbiamo salvato una lista ed esportato il CSV. KWFinder propone parole chiave, anteprime dei risultati ed elenchi salvati. Le ricerche dipendono dal piano.">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/mangools.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/it/products/mangools/" translate="no">Mangools</a></h2>
+        <span class="product-tag">Ricerca di parole chiave SEO</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="mangools"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salva prodotto<span class="visually-hidden"> Mangools</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">Con KWFinder selezioni le parole chiave, esamini le pagine che si posizionano e porti l’elenco nel tuo foglio editoriale.</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/keyword-shortlist/cover.webp" alt="Interfaccia di ricerca Mangools KWFinder"
+    width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="systeme-io" data-category="web" data-search="systeme.io Web e moduli Landing page e funnel di vendita Componi una pagina a blocchi e controlla come si legge sul telefono prima di aprire il funnel al pubblico. L’11 novembre 2026, in un funnel gratuito inattivo, i titoli in inglese, cinese e giapponese sono rimasti dopo il salvataggio e il ricaricamento. L’editor offriva un’anteprima mobile. L’editor visuale include blocchi e anteprima mobile. Free indica 3 funnel, 2.000 contatti e 1 dominio personalizzato.">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/systeme-io.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/it/products/systeme-io/" translate="no">systeme.io</a></h2>
+        <span class="product-tag">Landing page e funnel di vendita</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="systeme-io"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">Salva prodotto<span class="visually-hidden"> systeme.io</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">Componi una pagina a blocchi e controlla come si legge sul telefono prima di aprire il funnel al pubblico.</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/preview-a-funnel-page/cover.webp" alt="Editor di pagine e automazione di systeme.io"
+    width="1200" height="534" loading="lazy" decoding="async"></div>
   </article></div>
     <div class="empty-state" hidden>
       <p class="empty-title">Ancora niente in quest&#39;angolo.</p>

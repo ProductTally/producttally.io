@@ -104,19 +104,25 @@
     <p class="eyebrow">筛选产品</p>
     <div class="filters" role="group" aria-label="筛选产品"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    <span>全部产品</span> <span class="filter-count">5</span>
+    <span>全部产品</span> <span class="filter-count">9</span>
   </wa-button><wa-button data-filter="monitoring"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>网站监控</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="podcasting"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>播客</span> <span class="filter-count">1</span>
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>写作</span> <span class="filter-count">3</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>视频</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>效率与协作</span> <span class="filter-count">2</span>
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>建站与表单</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="saved"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>已收藏</span> <span data-saved-count>0</span>
@@ -134,9 +140,9 @@
     <wa-button slot="trigger" appearance="outlined" size="s" with-caret>
       <span class="visually-hidden">筛选产品 </span><span data-filter-label>全部产品</span>
     </wa-button>
-    <wa-dropdown-item value="all" type="checkbox" checked>全部产品</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">网站监控</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">播客</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">视频</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">效率与协作</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">已收藏</wa-dropdown-item>
+    <wa-dropdown-item value="all" type="checkbox" checked>全部产品</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">网站监控</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">播客</wa-dropdown-item><wa-dropdown-item value="writing" type="checkbox">写作</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">视频</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">效率与协作</wa-dropdown-item><wa-dropdown-item value="web" type="checkbox">建站与表单</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">已收藏</wa-dropdown-item>
   </wa-dropdown></div>
-    <div class="catalog-meta" role="status"><span data-result-count>5</span> <span data-result-word>个产品可探索</span></div>
+    <div class="catalog-meta" role="status"><span data-result-count>9</span> <span data-result-word>个产品可探索</span></div>
     <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do 效率与协作 任务与日程管理 每天该做什么，一眼看清。把任务、日程和提醒集中安排，让零散待办变成清晰的每日计划。 我们在免费网页版用英文、简体中文和西班牙语保存了任务和子任务，保存了一次性提醒，并将一项任务标为完成。同一个 Chrome 配置下换标签页，改动仍在。英文界面识别了 “tomorrow at 3pm”，中文和西班牙语日期短语留在了任务标题里。 适合独立创作者安排写作与发布，也适合准备试用共享编辑看板的小团队。">
     <div class="card-top">
       <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
@@ -217,6 +223,70 @@
     <p class="card-description">让播客有一个内容入口和清晰的发布流程。Castos 集中提供音频托管、RSS 分发与 WordPress 集成，适合创作者和小团队。</p>
     <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/podcast-hosting-wordpress/cover.webp" alt="Castos · 播客托管与分发"
     width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="frase" data-category="writing" data-search="Frase 写作 AI 内容研究与写作 从一个选题问题，推进到内容简报和可编辑初稿。Frase 将关键词探索、内容规划与 Markdown 导出集中起来，适合有编辑核实事实的小团队。 明确设置目标语言和市场。针对英文美国市场的内容日历选题，研究生成了 26 条关键词和可编辑简报，随后生成约 800 词新稿。Markdown 可导出，刷新后正文仍在。这些结果不能证明排名或 AI 引用提升。 让研究资料和大纲跟着初稿走，再按自己的编辑流程校对导出的内容。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/frase.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/zh/products/frase/" translate="no">Frase</a></h2>
+        <span class="product-tag">AI 内容研究与写作</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="frase"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Frase</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">从一个选题问题，推进到内容简报和可编辑初稿。Frase 将关键词探索、内容规划与 Markdown 导出集中起来，适合有编辑核实事实的小团队。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/research-brief-draft/cover.webp" alt="Frase · AI 内容研究与写作"
+    width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="publer" data-category="writing" data-search="Publer 写作 社媒草稿与排程 把多语言文案和活动链接存进同一个私有想法，需要发帖时再带入编辑器。 2026 年 11 月 11 日在免费账户中，私有想法的英、中、日文和链接刷新后均保留，并成功带入帖子编辑器。 Ideas 将草稿与发布日历分开保存。已保存的想法可在帖子编辑器中打开。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/publer.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/zh/products/publer/" translate="no">Publer</a></h2>
+        <span class="product-tag">社媒草稿与排程</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="publer"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Publer</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">把多语言文案和活动链接存进同一个私有想法，需要发帖时再带入编辑器。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/private-social-drafts/cover.webp" alt="Publer Ideas 草稿界面"
+    width="1200" height="628" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="mangools" data-category="writing" data-search="Mangools 写作 SEO 关键词研究 用 KWFinder 把宽泛选题整理成关键词候选清单，查看已排名页面，再导出到内容规划表。 2026 年 11 月 11 日在 Free+ 账户中，一次查询返回了关键词建议和搜索结果，随后成功保存清单并导出 CSV。 KWFinder 提供关键词建议、搜索结果预览和清单保存。查询次数随套餐变化。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/mangools.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/zh/products/mangools/" translate="no">Mangools</a></h2>
+        <span class="product-tag">SEO 关键词研究</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="mangools"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Mangools</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">用 KWFinder 把宽泛选题整理成关键词候选清单，查看已排名页面，再导出到内容规划表。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/keyword-shortlist/cover.webp" alt="Mangools KWFinder 关键词研究界面"
+    width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="systeme-io" data-category="web" data-search="systeme.io 建站与表单 落地页与销售漏斗 用内容区块搭建落地页，上线前先看看标题和内容在手机宽度下怎么排。 2026 年 11 月 11 日在免费账户的停用漏斗中，信息页的英、中、日文标题保存并刷新后仍在，编辑器也提供了移动预览。 可视化编辑器支持内容区块和移动预览。免费版列出 3 个漏斗、2,000 位联系人和 1 个自定义域名。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/systeme-io.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/zh/products/systeme-io/" translate="no">systeme.io</a></h2>
+        <span class="product-tag">落地页与销售漏斗</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="systeme-io"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> systeme.io</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">用内容区块搭建落地页，上线前先看看标题和内容在手机宽度下怎么排。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/preview-a-funnel-page/cover.webp" alt="systeme.io 页面编辑器和自动化界面"
+    width="1200" height="534" loading="lazy" decoding="async"></div>
   </article></div>
     <div class="empty-state" hidden>
       <p class="empty-title">这个角落暂时还没有内容。</p>

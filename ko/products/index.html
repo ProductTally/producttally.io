@@ -104,19 +104,25 @@
     <p class="eyebrow">제품 필터링</p>
     <div class="filters" role="group" aria-label="제품 필터링"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    <span>모든 제품</span> <span class="filter-count">5</span>
+    <span>모든 제품</span> <span class="filter-count">9</span>
   </wa-button><wa-button data-filter="monitoring"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>웹사이트 모니터링</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="podcasting"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>팟캐스트</span> <span class="filter-count">1</span>
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>글쓰기</span> <span class="filter-count">3</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>비디오</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>생산성</span> <span class="filter-count">2</span>
+  </wa-button><wa-button data-filter="web"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>웹 및 양식</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="saved"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>저장됨</span> <span data-saved-count>0</span>
@@ -134,9 +140,9 @@
     <wa-button slot="trigger" appearance="outlined" size="s" with-caret>
       <span class="visually-hidden">제품 필터링 </span><span data-filter-label>모든 제품</span>
     </wa-button>
-    <wa-dropdown-item value="all" type="checkbox" checked>모든 제품</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">웹사이트 모니터링</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">팟캐스트</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">비디오</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">생산성</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">저장됨</wa-dropdown-item>
+    <wa-dropdown-item value="all" type="checkbox" checked>모든 제품</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">웹사이트 모니터링</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">팟캐스트</wa-dropdown-item><wa-dropdown-item value="writing" type="checkbox">글쓰기</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">비디오</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">생산성</wa-dropdown-item><wa-dropdown-item value="web" type="checkbox">웹 및 양식</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">저장됨</wa-dropdown-item>
   </wa-dropdown></div>
-    <div class="catalog-meta" role="status"><span data-result-count>5</span> <span data-result-word>개의 제품</span></div>
+    <div class="catalog-meta" role="status"><span data-result-count>9</span> <span data-result-word>개의 제품</span></div>
     <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do 생산성 작업 및 일정 관리 오늘 할 일을 한눈에 확인하세요. 작업, 일정, 알림을 한곳에 모아 하루 계획을 정리할 수 있습니다. 무료 웹에서 영어, 중국어 간체, 스페인어로 작업과 하위 작업을 저장했습니다. 일회성 알림을 저장하고 작업 하나를 완료로 표시한 뒤, 같은 Chrome 프로필의 다른 탭에서도 변경 사항을 확인했습니다. 영어 화면에서는 “tomorrow at 3pm”이 날짜와 시간으로 인식됐지만 중국어와 스페인어 날짜 표현은 제목에 남았습니다. 글쓰기와 발행을 직접 계획하는 창작자, 편집용 공유 보드를 검토하는 소규모 팀에 적합합니다.">
     <div class="card-top">
       <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
@@ -217,6 +223,70 @@
     <p class="card-description">팟캐스트의 보관과 게시를 체계적으로 연결하세요. Castos는 창작자와 작은 팀에 오디오 호스팅, RSS와 WordPress 연동을 제공합니다.</p>
     <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/podcast-hosting-wordpress/cover.webp" alt="Castos · 팟캐스트 호스팅"
     width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="frase" data-category="writing" data-search="Frase 글쓰기 AI 콘텐츠 연구·작성 질문을 기획안과 편집 가능한 초안으로 연결하세요. Frase는 사실을 검토할 편집자가 있는 작은 팀에 키워드 탐색, 기획과 Markdown 내보내기를 제공합니다. 언어와 시장을 설정해 키워드 26개, 기획안과 약 800단어 원고를 만들었습니다. Markdown 내보내기와 새로고침 후 저장을 확인했습니다. 검색 성과는 입증하지 않습니다. 연구 맥락과 개요를 초안 곁에 두고 자체 편집 절차로 검토하세요.">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/frase.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/ko/products/frase/" translate="no">Frase</a></h2>
+        <span class="product-tag">AI 콘텐츠 연구·작성</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="frase"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">제품 저장<span class="visually-hidden"> Frase</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">질문을 기획안과 편집 가능한 초안으로 연결하세요. Frase는 사실을 검토할 편집자가 있는 작은 팀에 키워드 탐색, 기획과 Markdown 내보내기를 제공합니다.</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/research-brief-draft/cover.webp" alt="Frase · AI 콘텐츠 연구·작성"
+    width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="publer" data-category="writing" data-search="Publer 글쓰기 소셜 미디어 초안·예약 여러 언어의 문구와 캠페인 링크를 비공개 아이디어에 모아 게시물을 준비할 때 재사용하세요. 2026년 11월 11일 무료 계정에서 영어·중국어·일본어 문구와 링크가 새로고침 후 남아 있었고 게시물 편집기에서 열렸습니다. Ideas는 초안을 게시 일정과 별도로 저장하며 게시물 편집기에서 다시 열 수 있습니다.">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/publer.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/ko/products/publer/" translate="no">Publer</a></h2>
+        <span class="product-tag">소셜 미디어 초안·예약</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="publer"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">제품 저장<span class="visually-hidden"> Publer</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">여러 언어의 문구와 캠페인 링크를 비공개 아이디어에 모아 게시물을 준비할 때 재사용하세요.</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/private-social-drafts/cover.webp" alt="Publer Ideas 화면"
+    width="1200" height="628" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="mangools" data-category="writing" data-search="Mangools 글쓰기 SEO 키워드 조사 KWFinder에서 주제를 키워드 후보로 좁히고 검색 상위 페이지를 확인한 뒤 기획표로 내보내세요. 2026년 11월 11일 Free+에서 검색 한 번으로 제안과 검색 결과를 확인하고 목록 저장과 CSV 내보내기를 완료했습니다. KWFinder는 키워드 제안, 검색 결과 미리보기와 목록 저장을 제공합니다. 조회 한도는 요금제마다 다릅니다.">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/mangools.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/ko/products/mangools/" translate="no">Mangools</a></h2>
+        <span class="product-tag">SEO 키워드 조사</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="mangools"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">제품 저장<span class="visually-hidden"> Mangools</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">KWFinder에서 주제를 키워드 후보로 좁히고 검색 상위 페이지를 확인한 뒤 기획표로 내보내세요.</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/keyword-shortlist/cover.webp" alt="Mangools KWFinder 키워드 조사 화면"
+    width="1200" height="630" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="systeme-io" data-category="web" data-search="systeme.io 웹 및 양식 랜딩 페이지와 판매 퍼널 블록으로 랜딩 페이지를 만들고 공개 전에 휴대전화 너비에서 읽기 편한지 확인하세요. 2026년 11월 11일 무료 계정의 비활성 퍼널에서 영어·중국어·일본어 제목이 저장과 새로고침 후에도 유지됐습니다. 편집기에서 모바일 미리보기를 열 수 있었습니다. 시각적 편집기는 블록과 모바일 미리보기를 제공합니다. Free에는 퍼널 3개, 연락처 2,000개, 맞춤 도메인 1개가 표시됩니다.">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/systeme-io.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/ko/products/systeme-io/" translate="no">systeme.io</a></h2>
+        <span class="product-tag">랜딩 페이지와 판매 퍼널</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="systeme-io"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">제품 저장<span class="visually-hidden"> systeme.io</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">블록으로 랜딩 페이지를 만들고 공개 전에 휴대전화 너비에서 읽기 편한지 확인하세요.</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/preview-a-funnel-page/cover.webp" alt="systeme.io 페이지 편집 및 자동화 화면"
+    width="1200" height="534" loading="lazy" decoding="async"></div>
   </article></div>
     <div class="empty-state" hidden>
       <p class="empty-title">이 코너에는 아직 아무것도 없습니다.</p>
