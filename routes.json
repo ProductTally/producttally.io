@@ -140,6 +140,36 @@
     },
     {
       "lang": "en",
+      "route": "products/flowlu",
+      "url": "/products/flowlu/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/windsor-ai",
+      "url": "/products/windsor-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/social-intents",
+      "url": "/products/social-intents/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/answerthis",
+      "url": "/products/answerthis/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/sked-social",
+      "url": "/products/sked-social/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -245,6 +275,36 @@
       "route": "guides/pombo",
       "url": "/guides/pombo/",
       "indexable": false
+    },
+    {
+      "lang": "en",
+      "route": "guides/flowlu",
+      "url": "/guides/flowlu/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/windsor-ai",
+      "url": "/guides/windsor-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/social-intents",
+      "url": "/guides/social-intents/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/answerthis",
+      "url": "/guides/answerthis/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/sked-social",
+      "url": "/guides/sked-social/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
@@ -482,6 +542,36 @@
     },
     {
       "lang": "en",
+      "route": "guides/flowlu/map-a-client-project",
+      "url": "/guides/flowlu/map-a-client-project/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/windsor-ai/check-report-source-settings",
+      "url": "/guides/windsor-ai/check-report-source-settings/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/social-intents/preview-a-chat-widget",
+      "url": "/guides/social-intents/preview-a-chat-widget/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/answerthis/check-a-reference-year",
+      "url": "/guides/answerthis/check-a-reference-year/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/sked-social/plan-a-client-approval",
+      "url": "/guides/sked-social/plan-a-client-approval/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -624,6 +714,36 @@
     },
     {
       "lang": "zh",
+      "route": "products/flowlu",
+      "url": "/zh/products/flowlu/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/windsor-ai",
+      "url": "/zh/products/windsor-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/social-intents",
+      "url": "/zh/products/social-intents/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/answerthis",
+      "url": "/zh/products/answerthis/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/sked-social",
+      "url": "/zh/products/sked-social/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -729,6 +849,36 @@
       "route": "guides/pombo",
       "url": "/zh/guides/pombo/",
       "indexable": false
+    },
+    {
+      "lang": "zh",
+      "route": "guides/flowlu",
+      "url": "/zh/guides/flowlu/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/windsor-ai",
+      "url": "/zh/guides/windsor-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/social-intents",
+      "url": "/zh/guides/social-intents/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/answerthis",
+      "url": "/zh/guides/answerthis/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/sked-social",
+      "url": "/zh/guides/sked-social/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
@@ -966,6 +1116,36 @@
     },
     {
       "lang": "zh",
+      "route": "guides/flowlu/map-a-client-project",
+      "url": "/zh/guides/flowlu/map-a-client-project/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/windsor-ai/check-report-source-settings",
+      "url": "/zh/guides/windsor-ai/check-report-source-settings/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/social-intents/preview-a-chat-widget",
+      "url": "/zh/guides/social-intents/preview-a-chat-widget/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/answerthis/check-a-reference-year",
+      "url": "/zh/guides/answerthis/check-a-reference-year/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/sked-social/plan-a-client-approval",
+      "url": "/zh/guides/sked-social/plan-a-client-approval/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1108,6 +1288,36 @@
     },
     {
       "lang": "es",
+      "route": "products/flowlu",
+      "url": "/es/products/flowlu/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/windsor-ai",
+      "url": "/es/products/windsor-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/social-intents",
+      "url": "/es/products/social-intents/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/answerthis",
+      "url": "/es/products/answerthis/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/sked-social",
+      "url": "/es/products/sked-social/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -1213,6 +1423,36 @@
       "route": "guides/pombo",
       "url": "/es/guides/pombo/",
       "indexable": false
+    },
+    {
+      "lang": "es",
+      "route": "guides/flowlu",
+      "url": "/es/guides/flowlu/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/windsor-ai",
+      "url": "/es/guides/windsor-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/social-intents",
+      "url": "/es/guides/social-intents/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/answerthis",
+      "url": "/es/guides/answerthis/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/sked-social",
+      "url": "/es/guides/sked-social/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
@@ -1450,6 +1690,36 @@
     },
     {
       "lang": "es",
+      "route": "guides/flowlu/map-a-client-project",
+      "url": "/es/guides/flowlu/map-a-client-project/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/windsor-ai/check-report-source-settings",
+      "url": "/es/guides/windsor-ai/check-report-source-settings/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/social-intents/preview-a-chat-widget",
+      "url": "/es/guides/social-intents/preview-a-chat-widget/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/answerthis/check-a-reference-year",
+      "url": "/es/guides/answerthis/check-a-reference-year/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/sked-social/plan-a-client-approval",
+      "url": "/es/guides/sked-social/plan-a-client-approval/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1592,6 +1862,36 @@
     },
     {
       "lang": "ja",
+      "route": "products/flowlu",
+      "url": "/ja/products/flowlu/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/windsor-ai",
+      "url": "/ja/products/windsor-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/social-intents",
+      "url": "/ja/products/social-intents/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/answerthis",
+      "url": "/ja/products/answerthis/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/sked-social",
+      "url": "/ja/products/sked-social/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -1697,6 +1997,36 @@
       "route": "guides/pombo",
       "url": "/ja/guides/pombo/",
       "indexable": false
+    },
+    {
+      "lang": "ja",
+      "route": "guides/flowlu",
+      "url": "/ja/guides/flowlu/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/windsor-ai",
+      "url": "/ja/guides/windsor-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/social-intents",
+      "url": "/ja/guides/social-intents/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/answerthis",
+      "url": "/ja/guides/answerthis/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/sked-social",
+      "url": "/ja/guides/sked-social/",
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
@@ -1930,6 +2260,36 @@
       "lang": "ja",
       "route": "guides/elevenlabs/multilingual-voiceover",
       "url": "/ja/guides/elevenlabs/multilingual-voiceover/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/flowlu/map-a-client-project",
+      "url": "/ja/guides/flowlu/map-a-client-project/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/windsor-ai/check-report-source-settings",
+      "url": "/ja/guides/windsor-ai/check-report-source-settings/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/social-intents/preview-a-chat-widget",
+      "url": "/ja/guides/social-intents/preview-a-chat-widget/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/answerthis/check-a-reference-year",
+      "url": "/ja/guides/answerthis/check-a-reference-year/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/sked-social/plan-a-client-approval",
+      "url": "/ja/guides/sked-social/plan-a-client-approval/",
       "lastmod": "2026-11-11"
     },
     {
