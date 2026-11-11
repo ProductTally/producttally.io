@@ -128,6 +128,18 @@
     },
     {
       "lang": "en",
+      "route": "products/signaturely",
+      "url": "/products/signaturely/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/pombo",
+      "url": "/products/pombo/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -221,6 +233,18 @@
       "route": "guides/elevenlabs",
       "url": "/guides/elevenlabs/",
       "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/signaturely",
+      "url": "/guides/signaturely/",
+      "indexable": false
+    },
+    {
+      "lang": "en",
+      "route": "guides/pombo",
+      "url": "/guides/pombo/",
+      "indexable": false
     },
     {
       "lang": "en",
@@ -588,6 +612,18 @@
     },
     {
       "lang": "zh",
+      "route": "products/signaturely",
+      "url": "/zh/products/signaturely/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/pombo",
+      "url": "/zh/products/pombo/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -681,6 +717,18 @@
       "route": "guides/elevenlabs",
       "url": "/zh/guides/elevenlabs/",
       "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/signaturely",
+      "url": "/zh/guides/signaturely/",
+      "indexable": false
+    },
+    {
+      "lang": "zh",
+      "route": "guides/pombo",
+      "url": "/zh/guides/pombo/",
+      "indexable": false
     },
     {
       "lang": "zh",
@@ -1048,6 +1096,18 @@
     },
     {
       "lang": "es",
+      "route": "products/signaturely",
+      "url": "/es/products/signaturely/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/pombo",
+      "url": "/es/products/pombo/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -1141,6 +1201,18 @@
       "route": "guides/elevenlabs",
       "url": "/es/guides/elevenlabs/",
       "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/signaturely",
+      "url": "/es/guides/signaturely/",
+      "indexable": false
+    },
+    {
+      "lang": "es",
+      "route": "guides/pombo",
+      "url": "/es/guides/pombo/",
+      "indexable": false
     },
     {
       "lang": "es",
@@ -1508,6 +1580,18 @@
     },
     {
       "lang": "ja",
+      "route": "products/signaturely",
+      "url": "/ja/products/signaturely/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/pombo",
+      "url": "/ja/products/pombo/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -1601,6 +1685,18 @@
       "route": "guides/elevenlabs",
       "url": "/ja/guides/elevenlabs/",
       "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/signaturely",
+      "url": "/ja/guides/signaturely/",
+      "indexable": false
+    },
+    {
+      "lang": "ja",
+      "route": "guides/pombo",
+      "url": "/ja/guides/pombo/",
+      "indexable": false
     },
     {
       "lang": "ja",
