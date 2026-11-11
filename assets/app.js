@@ -39,12 +39,12 @@ async function setupProductMedia() {
   initProductMedia();
 }
 
-async function setupGuideTooltips() {
-  const cards = document.querySelectorAll('.note-card');
-  if (!cards.length) return;
-  const { initGuideTooltips } = await import('./interactions/guide-tooltips.js');
-  initGuideTooltips(cards);
+async function setupCardTooltips() {
+  const links = document.querySelectorAll('[data-card-tooltip-link]');
+  if (!links.length) return;
+  const { initCardTooltips } = await import('./interactions/card-tooltips.js');
+  initCardTooltips(links);
   await register('tooltip');
 }
 
-await Promise.allSettled([setupLanguage(), setupCatalog(), setupProductMedia(), setupGuideTooltips()]);
+await Promise.allSettled([setupLanguage(), setupCatalog(), setupProductMedia(), setupCardTooltips()]);

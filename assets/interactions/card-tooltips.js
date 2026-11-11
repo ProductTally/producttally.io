@@ -1,13 +1,12 @@
 function isClipped(text) {
   const lineHeight = parseFloat(getComputedStyle(text).lineHeight);
   // Glyphs can extend slightly outside the last visible line box.
-  return text.scrollHeight - text.clientHeight > lineHeight / 2;
+  return text.scrollWidth > text.clientWidth || text.scrollHeight - text.clientHeight > lineHeight / 2;
 }
 
-export function initGuideTooltips(cards) {
-  for (const card of cards) {
-    const link = card.querySelector('.note-card-link');
-    const tooltips = [...card.querySelectorAll('.guide-card-tooltip')].map(tooltip => ({
+export function initCardTooltips(links) {
+  for (const link of links) {
+    const tooltips = [...link.parentElement.querySelectorAll('.card-tooltip')].map(tooltip => ({
       tooltip,
       text: document.getElementById(tooltip.getAttribute('for')),
     }));

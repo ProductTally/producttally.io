@@ -28,7 +28,6 @@
 .note-title { -webkit-line-clamp: 2; }
 .note-summary { -webkit-line-clamp: 3; color: var(--muted); font-size: .91rem; }
 .guide-card-arrow { color: var(--accent); align-self: end; margin-block-start: auto; }
-.guide-card-tooltip { --max-width: min(38ch, calc(100vw - 2rem)); overflow-wrap: anywhere; }
 
 
 .note-cover {
