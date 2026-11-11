@@ -76,3 +76,37 @@
     margin-block-start: clamp(2rem, 6vw, 5rem);
   }
 }
+
+.pricing-payment {
+  display: grid;
+  gap: .5rem;
+  padding-block-start: .85rem;
+  border-block-start: 1px solid var(--line);
+}
+.pricing-payment h3 {
+  font: 600 1rem/1.5 var(--body);
+}
+.pricing-payment-options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem .75rem;
+}
+.pricing-payment-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .35rem .6rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+.pricing-payment-brand img {
+  display: block;
+  inline-size: auto;
+  block-size: 1.35rem;
+}
+.pricing-payment-options p {
+  color: var(--muted);
+  font-size: .9rem;
+}
