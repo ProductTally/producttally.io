@@ -116,6 +116,12 @@
     },
     {
       "lang": "en",
+      "route": "products/quso-ai",
+      "url": "/products/quso-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -196,6 +202,12 @@
       "lang": "en",
       "route": "guides/n8n",
       "url": "/guides/n8n/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/quso-ai",
+      "url": "/guides/quso-ai/",
       "lastmod": "2026-11-11"
     },
     {
@@ -422,6 +434,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/quso-ai/check-video-credits",
+      "url": "/guides/quso-ai/check-video-credits/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -540,6 +558,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/quso-ai",
+      "url": "/zh/products/quso-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -620,6 +644,12 @@
       "lang": "zh",
       "route": "guides/n8n",
       "url": "/zh/guides/n8n/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/quso-ai",
+      "url": "/zh/guides/quso-ai/",
       "lastmod": "2026-11-11"
     },
     {
@@ -846,6 +876,12 @@
     },
     {
       "lang": "zh",
+      "route": "guides/quso-ai/check-video-credits",
+      "url": "/zh/guides/quso-ai/check-video-credits/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -964,6 +1000,12 @@
     },
     {
       "lang": "es",
+      "route": "products/quso-ai",
+      "url": "/es/products/quso-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -1044,6 +1086,12 @@
       "lang": "es",
       "route": "guides/n8n",
       "url": "/es/guides/n8n/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/quso-ai",
+      "url": "/es/guides/quso-ai/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1270,6 +1318,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/quso-ai/check-video-credits",
+      "url": "/es/guides/quso-ai/check-video-credits/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1388,6 +1442,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/quso-ai",
+      "url": "/ja/products/quso-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -1468,6 +1528,12 @@
       "lang": "ja",
       "route": "guides/n8n",
       "url": "/ja/guides/n8n/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/quso-ai",
+      "url": "/ja/guides/quso-ai/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1690,6 +1756,12 @@
       "lang": "ja",
       "route": "guides/n8n/multilingual-draft-routing",
       "url": "/ja/guides/n8n/multilingual-draft-routing/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/quso-ai/check-video-credits",
+      "url": "/ja/guides/quso-ai/check-video-credits/",
       "lastmod": "2026-11-11"
     },
     {
