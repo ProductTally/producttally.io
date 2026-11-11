@@ -128,6 +128,12 @@
     },
     {
       "lang": "en",
+      "route": "products/gamma",
+      "url": "/products/gamma/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "products/signaturely",
       "url": "/products/signaturely/",
       "lastmod": "2026-11-11"
@@ -262,6 +268,12 @@
       "lang": "en",
       "route": "guides/elevenlabs",
       "url": "/guides/elevenlabs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/gamma",
+      "url": "/guides/gamma/",
       "lastmod": "2026-11-11"
     },
     {
@@ -542,6 +554,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/gamma/export-to-powerpoint",
+      "url": "/guides/gamma/export-to-powerpoint/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/flowlu/map-a-client-project",
       "url": "/guides/flowlu/map-a-client-project/",
       "lastmod": "2026-11-11"
@@ -702,6 +720,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/gamma",
+      "url": "/zh/products/gamma/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "products/signaturely",
       "url": "/zh/products/signaturely/",
       "lastmod": "2026-11-11"
@@ -836,6 +860,12 @@
       "lang": "zh",
       "route": "guides/elevenlabs",
       "url": "/zh/guides/elevenlabs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/gamma",
+      "url": "/zh/guides/gamma/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1116,6 +1146,12 @@
     },
     {
       "lang": "zh",
+      "route": "guides/gamma/export-to-powerpoint",
+      "url": "/zh/guides/gamma/export-to-powerpoint/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/flowlu/map-a-client-project",
       "url": "/zh/guides/flowlu/map-a-client-project/",
       "lastmod": "2026-11-11"
@@ -1276,6 +1312,12 @@
     },
     {
       "lang": "es",
+      "route": "products/gamma",
+      "url": "/es/products/gamma/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "products/signaturely",
       "url": "/es/products/signaturely/",
       "lastmod": "2026-11-11"
@@ -1410,6 +1452,12 @@
       "lang": "es",
       "route": "guides/elevenlabs",
       "url": "/es/guides/elevenlabs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/gamma",
+      "url": "/es/guides/gamma/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1690,6 +1738,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/gamma/export-to-powerpoint",
+      "url": "/es/guides/gamma/export-to-powerpoint/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/flowlu/map-a-client-project",
       "url": "/es/guides/flowlu/map-a-client-project/",
       "lastmod": "2026-11-11"
@@ -1850,6 +1904,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/gamma",
+      "url": "/ja/products/gamma/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "products/signaturely",
       "url": "/ja/products/signaturely/",
       "lastmod": "2026-11-11"
@@ -1984,6 +2044,12 @@
       "lang": "ja",
       "route": "guides/elevenlabs",
       "url": "/ja/guides/elevenlabs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/gamma",
+      "url": "/ja/guides/gamma/",
       "lastmod": "2026-11-11"
     },
     {
@@ -2260,6 +2326,12 @@
       "lang": "ja",
       "route": "guides/elevenlabs/multilingual-voiceover",
       "url": "/ja/guides/elevenlabs/multilingual-voiceover/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/gamma/export-to-powerpoint",
+      "url": "/ja/guides/gamma/export-to-powerpoint/",
       "lastmod": "2026-11-11"
     },
     {
