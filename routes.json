@@ -122,6 +122,12 @@
     },
     {
       "lang": "en",
+      "route": "products/elevenlabs",
+      "url": "/products/elevenlabs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -208,6 +214,12 @@
       "lang": "en",
       "route": "guides/quso-ai",
       "url": "/guides/quso-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/elevenlabs",
+      "url": "/guides/elevenlabs/",
       "lastmod": "2026-11-11"
     },
     {
@@ -440,6 +452,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/elevenlabs/multilingual-voiceover",
+      "url": "/guides/elevenlabs/multilingual-voiceover/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -564,6 +582,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/elevenlabs",
+      "url": "/zh/products/elevenlabs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -650,6 +674,12 @@
       "lang": "zh",
       "route": "guides/quso-ai",
       "url": "/zh/guides/quso-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/elevenlabs",
+      "url": "/zh/guides/elevenlabs/",
       "lastmod": "2026-11-11"
     },
     {
@@ -882,6 +912,12 @@
     },
     {
       "lang": "zh",
+      "route": "guides/elevenlabs/multilingual-voiceover",
+      "url": "/zh/guides/elevenlabs/multilingual-voiceover/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1006,6 +1042,12 @@
     },
     {
       "lang": "es",
+      "route": "products/elevenlabs",
+      "url": "/es/products/elevenlabs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -1092,6 +1134,12 @@
       "lang": "es",
       "route": "guides/quso-ai",
       "url": "/es/guides/quso-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/elevenlabs",
+      "url": "/es/guides/elevenlabs/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1324,6 +1372,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/elevenlabs/multilingual-voiceover",
+      "url": "/es/guides/elevenlabs/multilingual-voiceover/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1448,6 +1502,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/elevenlabs",
+      "url": "/ja/products/elevenlabs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -1534,6 +1594,12 @@
       "lang": "ja",
       "route": "guides/quso-ai",
       "url": "/ja/guides/quso-ai/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/elevenlabs",
+      "url": "/ja/guides/elevenlabs/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1762,6 +1828,12 @@
       "lang": "ja",
       "route": "guides/quso-ai/check-video-credits",
       "url": "/ja/guides/quso-ai/check-video-credits/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/elevenlabs/multilingual-voiceover",
+      "url": "/ja/guides/elevenlabs/multilingual-voiceover/",
       "lastmod": "2026-11-11"
     },
     {
