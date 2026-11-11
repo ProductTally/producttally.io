@@ -398,6 +398,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/ai-workflow-automation/n8n-nod-first-task",
+      "url": "/guides/ai-workflow-automation/n8n-nod-first-task/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -794,6 +800,12 @@
       "lang": "zh",
       "route": "guides/deepl/translate-word-formatting",
       "url": "/zh/guides/deepl/translate-word-formatting/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-workflow-automation/n8n-nod-first-task",
+      "url": "/zh/guides/ai-workflow-automation/n8n-nod-first-task/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1198,6 +1210,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/ai-workflow-automation/n8n-nod-first-task",
+      "url": "/es/guides/ai-workflow-automation/n8n-nod-first-task/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1594,6 +1612,12 @@
       "lang": "ja",
       "route": "guides/deepl/translate-word-formatting",
       "url": "/ja/guides/deepl/translate-word-formatting/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-workflow-automation/n8n-nod-first-task",
+      "url": "/ja/guides/ai-workflow-automation/n8n-nod-first-task/",
       "lastmod": "2026-11-11"
     },
     {

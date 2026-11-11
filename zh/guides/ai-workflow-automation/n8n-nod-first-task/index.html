@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>n8n Nod 是什么？小团队的桌面 AI 助手选型指南 — ProductTally</title>
+  <meta name="description" content="了解哪些任务适合交给 Nod、数据会经过哪里，并用三条样例记录验收它的第一份草稿。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-workflow-automation/n8n-nod-first-task/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-workflow-automation/n8n-nod-first-task/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-workflow-automation/n8n-nod-first-task/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-workflow-automation/n8n-nod-first-task/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="n8n Nod 是什么？小团队的桌面 AI 助手选型指南 — ProductTally">
+  <meta property="og:description" content="了解哪些任务适合交给 Nod、数据会经过哪里，并用三条样例记录验收它的第一份草稿。">
+  <meta property="og:url" content="https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/n8n-nod-first-task/cover.webp">
+  <meta property="og:image:alt" content="暖陶色桌面上，笔记本电脑旁摆着三张记录卡。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="n8n Nod 是什么？小团队的桌面 AI 助手选型指南 — ProductTally">
+  <meta name="twitter:description" content="了解哪些任务适合交给 Nod、数据会经过哪里，并用三条样例记录验收它的第一份草稿。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/n8n-nod-first-task/cover.webp">
+  <meta name="twitter:image:alt" content="暖陶色桌面上，笔记本电脑旁摆着三张记录卡。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/#webpage","name":"n8n Nod 是什么？小团队的桌面 AI 助手选型指南","description":"了解哪些任务适合交给 Nod、数据会经过哪里，并用三条样例记录验收它的第一份草稿。","url":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/#article","headline":"n8n Nod 是什么？小团队的桌面 AI 助手选型指南","description":"了解哪些任务适合交给 Nod、数据会经过哪里，并用三条样例记录验收它的第一份草稿。","url":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/#article-image","url":"https://producttally.com/assets/articles/n8n-nod-first-task/cover.webp","contentUrl":"https://producttally.com/assets/articles/n8n-nod-first-task/cover.webp","width":1200,"height":800,"caption":"暖陶色桌面上，笔记本电脑旁摆着三张记录卡。"},"dateModified":"2026-11-11","citation":["https://blog.n8n.io/meet-nod/","https://nod.n8n.io/docs/get-started/install-desktop/","https://nod.n8n.io/docs/connect/models/","https://nod.n8n.io/docs/connect/apps/","https://nod.n8n.io/docs/use/spending/","https://nod.n8n.io/docs/use/schedules/","https://nod.n8n.io/docs/deploy/troubleshooting/","https://docs.n8n.io/build/understand-workflows"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"AI 工作流自动化","item":"https://producttally.com/zh/guides/ai-workflow-automation/"},{"@type":"ListItem","position":4,"name":"n8n Nod 是什么？小团队的桌面 AI 助手选型指南","item":"https://producttally.com/zh/guides/ai-workflow-automation/n8n-nod-first-task/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/guides/" aria-current="location">指南广场</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-workflow-automation/n8n-nod-first-task/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-workflow-automation/n8n-nod-first-task/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-workflow-automation/n8n-nod-first-task/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-workflow-automation/n8n-nod-first-task/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/guides/ai-workflow-automation/n8n-nod-first-task/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-workflow-automation/n8n-nod-first-task/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-workflow-automation/n8n-nod-first-task/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/guides/ai-workflow-automation/n8n-nod-first-task/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/guides/ai-workflow-automation/">AI 工作流自动化</a></li><li><span aria-current="page">n8n Nod 是什么？小团队的桌面 AI 助手选型指南</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">效率与协作 · 4 分钟阅读</p>
+        <h1>n8n Nod 是什么？小团队的桌面 AI 助手选型指南</h1>
+        <p class="lead">了解哪些任务适合交给 Nod、数据会经过哪里，并用三条样例记录验收它的第一份草稿。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-11">2026年11月11日</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/n8n-nod-first-task/cover.webp"
+    srcset="/assets/articles/n8n-nod-first-task/cover-small.webp 640w, /assets/articles/n8n-nod-first-task/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="暖陶色桌面上，笔记本电脑旁摆着三张记录卡。"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="本文目录">
+        <p class="eyebrow">本文目录</p>
+        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">哪些工作适合先交给 Nod？</a></li><li><a href="#section-1">数据会经过哪里？费用由谁收取？</a></li><li><a href="#section-2">用三条虚构记录验收一份行动清单</a></li><li><a href="#section-3">什么时候把任务交给工作流？</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>先看结论</h2><p>Nod 是 n8n Labs 推出的桌面 AI 助手，适合先试需要阅读多份材料再整理结果的工作。它于 2026 年 11 月 10 日以研究预览形式发布，提供 Mac 和 Windows 下载。任务遵循固定规则且要写回业务系统时，可以评估 n8n 工作流。本文依据官方资料提供试用方案。</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>哪些工作适合先交给 Nod？</h2><p>客户会结束后，会议纪要、项目排期和跟进记录各有一部分信息。可以请助手把它们整理成行动清单，再由负责人核对。这类工作每次材料都不同。如果每周都从同一个系统导出固定字段，再交给同一个团队，就适合用工作流记录触发条件、输入和失败处理。n8n 的官方工作流文档介绍了节点与执行记录。</p>
+        </section><section id="section-1">
+          <h2>数据会经过哪里？费用由谁收取？</h2><p>桌面版 Nod 在电脑上运行，并使用自己的浏览器。按官方模型连接文档，云端模型请求会发给你连接的服务商。使用默认的托管应用连接时，请求和结果还会经过 n8n 的连接服务和 Composio。试用客户资料前，先分别确认两条数据路径。</p><p>Nod 应用本身不收费。API 用量由模型提供商计费，使用受支持的订阅连接时按相应计划计量。官方用量指南说明，API 连接可以查看估算和设置月限额。试用时记下模型、估算费用和复核时间。</p>
+        </section><section id="section-2">
+          <h2>用三条虚构记录验收一份行动清单</h2><p>11 月 9 日会议纪要：周四前发方案初稿，负责人待定。11 月 10 日项目排期：周五提交方案，由 Mina 负责。11 月 10 日客户跟进：发送前确认客户是否已经批准预算。</p><p>可复制的指令：只用这三条记录，整理一份内部行动清单。每项写明任务、负责人、截止时间和来源。两个日期可能对应不同交付，先列出两者，请负责人确认关系。缺少证据的事项标为「待确认」。只在当前对话里给出草稿。</p><p>验收四件事：保留周四和周五两个节点，说明 Mina 来自项目排期，把预算审批留作待确认，只在对话中返回草稿。如果助手把两项交付合并成同一个截止日，先请负责人确认。ProductTally 尚未运行这组任务。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/n8n-nod-first-task/draft-review.svg" width="1200" height="480"
+          alt="复核流程：把三条记录交给助手生成草稿，分享前再对照原始材料检查。" loading="lazy" decoding="async"><figcaption>复核流程：把三条记录交给助手生成草稿，分享前再对照原始材料检查。</figcaption></figure><section id="section-3">
+          <h2>什么时候把任务交给工作流？</h2><p>输入和规则稳定后，可以让工作流每周一读取上周的记录并生成核对清单。遇到客户批准日期和内部排期冲突时，再由项目负责人解释。Nod 也支持计划任务。按官方说明，桌面本地模式要求 Nod 保持运行，且电脑处于唤醒状态。</p>
+        </section>
+        
+        <section aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/guides/ai-workflow-automation/choose-your-first-ai-automation/">AI 工作流自动化：如何选择一个安全的首个流程</a></li></ul>
+        </section>
+        <section><h2>官方参考资料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://blog.n8n.io/meet-nod/">n8n Labs 发布公告</a></cite></li><li><cite><a data-source-citation="true" href="https://nod.n8n.io/docs/get-started/install-desktop/">Nod 桌面安装文档</a></cite></li><li><cite><a data-source-citation="true" href="https://nod.n8n.io/docs/connect/models/">Nod 模型连接</a></cite></li><li><cite><a data-source-citation="true" href="https://nod.n8n.io/docs/connect/apps/">Nod 应用连接</a></cite></li><li><cite><a data-source-citation="true" href="https://nod.n8n.io/docs/use/spending/">Nod 用量与费用</a></cite></li><li><cite><a data-source-citation="true" href="https://nod.n8n.io/docs/use/schedules/">Nod 计划任务</a></cite></li><li><cite><a data-source-citation="true" href="https://nod.n8n.io/docs/deploy/troubleshooting/">Nod 桌面运行条件</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.n8n.io/build/understand-workflows">n8n 工作流文档</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/guides/">指南广场</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>
