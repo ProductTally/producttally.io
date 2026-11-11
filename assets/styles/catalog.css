@@ -202,12 +202,13 @@
 .square-heading h1 { font-size: clamp(2.35rem, 6vw, 4.65rem); letter-spacing: -.035em; }
 .square-heading .lead { max-inline-size: 64ch; }
 .product-tag {
-  padding: .2rem .55rem;
+  padding: .125rem .4rem;
   border-radius: var(--radius-pill);
   background: var(--wash);
   color: var(--muted);
-  font-size: .77rem;
+  font-size: .72rem;
   font-weight: 500;
+  line-height: 1.25;
 }
 
 .directory-heading {
