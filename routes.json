@@ -53,6 +53,21 @@
     },
     {
       "lang": "en",
+      "route": "products/nifty",
+      "url": "/products/nifty/"
+    },
+    {
+      "lang": "en",
+      "route": "products/oh-dear",
+      "url": "/products/oh-dear/"
+    },
+    {
+      "lang": "en",
+      "route": "products/castos",
+      "url": "/products/castos/"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/"
     },
@@ -63,19 +78,125 @@
     },
     {
       "lang": "en",
+      "route": "guides/submagic",
+      "url": "/guides/submagic/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/nifty",
+      "url": "/guides/nifty/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/oh-dear",
+      "url": "/guides/oh-dear/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/castos",
+      "url": "/guides/castos/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-video-production",
+      "url": "/guides/ai-video-production/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-workflow-automation",
+      "url": "/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-search-visibility",
+      "url": "/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-image-creation",
+      "url": "/guides/ai-image-creation/"
+    },
+    {
+      "lang": "en",
+      "route": "guides/youtube-search-discovery",
+      "url": "/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "en",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
-      "route": "guides/submagic",
-      "url": "/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "en",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -116,6 +237,21 @@
     },
     {
       "lang": "zh",
+      "route": "products/nifty",
+      "url": "/zh/products/nifty/"
+    },
+    {
+      "lang": "zh",
+      "route": "products/oh-dear",
+      "url": "/zh/products/oh-dear/"
+    },
+    {
+      "lang": "zh",
+      "route": "products/castos",
+      "url": "/zh/products/castos/"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/"
     },
@@ -126,19 +262,125 @@
     },
     {
       "lang": "zh",
+      "route": "guides/submagic",
+      "url": "/zh/guides/submagic/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/nifty",
+      "url": "/zh/guides/nifty/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/oh-dear",
+      "url": "/zh/guides/oh-dear/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/castos",
+      "url": "/zh/guides/castos/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-video-production",
+      "url": "/zh/guides/ai-video-production/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-workflow-automation",
+      "url": "/zh/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-search-visibility",
+      "url": "/zh/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-image-creation",
+      "url": "/zh/guides/ai-image-creation/"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/youtube-search-discovery",
+      "url": "/zh/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "zh",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/zh/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
-      "route": "guides/submagic",
-      "url": "/zh/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/zh/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "zh",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/zh/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/zh/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/zh/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/zh/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/zh/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/zh/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/zh/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/zh/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/zh/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/zh/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/zh/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -179,6 +421,21 @@
     },
     {
       "lang": "es",
+      "route": "products/nifty",
+      "url": "/es/products/nifty/"
+    },
+    {
+      "lang": "es",
+      "route": "products/oh-dear",
+      "url": "/es/products/oh-dear/"
+    },
+    {
+      "lang": "es",
+      "route": "products/castos",
+      "url": "/es/products/castos/"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/"
     },
@@ -189,19 +446,125 @@
     },
     {
       "lang": "es",
+      "route": "guides/submagic",
+      "url": "/es/guides/submagic/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/nifty",
+      "url": "/es/guides/nifty/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/oh-dear",
+      "url": "/es/guides/oh-dear/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/castos",
+      "url": "/es/guides/castos/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-video-production",
+      "url": "/es/guides/ai-video-production/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-workflow-automation",
+      "url": "/es/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-search-visibility",
+      "url": "/es/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-image-creation",
+      "url": "/es/guides/ai-image-creation/"
+    },
+    {
+      "lang": "es",
+      "route": "guides/youtube-search-discovery",
+      "url": "/es/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "es",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/es/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
-      "route": "guides/submagic",
-      "url": "/es/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/es/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "es",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/es/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/es/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/es/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/es/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/es/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/es/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/es/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/es/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/es/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/es/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/es/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -242,6 +605,21 @@
     },
     {
       "lang": "ja",
+      "route": "products/nifty",
+      "url": "/ja/products/nifty/"
+    },
+    {
+      "lang": "ja",
+      "route": "products/oh-dear",
+      "url": "/ja/products/oh-dear/"
+    },
+    {
+      "lang": "ja",
+      "route": "products/castos",
+      "url": "/ja/products/castos/"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/"
     },
@@ -252,19 +630,125 @@
     },
     {
       "lang": "ja",
+      "route": "guides/submagic",
+      "url": "/ja/guides/submagic/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/nifty",
+      "url": "/ja/guides/nifty/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/oh-dear",
+      "url": "/ja/guides/oh-dear/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/castos",
+      "url": "/ja/guides/castos/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-video-production",
+      "url": "/ja/guides/ai-video-production/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-workflow-automation",
+      "url": "/ja/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-search-visibility",
+      "url": "/ja/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-image-creation",
+      "url": "/ja/guides/ai-image-creation/"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/youtube-search-discovery",
+      "url": "/ja/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "ja",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/ja/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
-      "route": "guides/submagic",
-      "url": "/ja/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/ja/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ja",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/ja/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/ja/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/ja/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/ja/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/ja/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/ja/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/ja/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/ja/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/ja/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/ja/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -305,6 +789,21 @@
     },
     {
       "lang": "ko",
+      "route": "products/nifty",
+      "url": "/ko/products/nifty/"
+    },
+    {
+      "lang": "ko",
+      "route": "products/oh-dear",
+      "url": "/ko/products/oh-dear/"
+    },
+    {
+      "lang": "ko",
+      "route": "products/castos",
+      "url": "/ko/products/castos/"
+    },
+    {
+      "lang": "ko",
       "route": "guides",
       "url": "/ko/guides/"
     },
@@ -315,19 +814,125 @@
     },
     {
       "lang": "ko",
+      "route": "guides/submagic",
+      "url": "/ko/guides/submagic/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/nifty",
+      "url": "/ko/guides/nifty/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/oh-dear",
+      "url": "/ko/guides/oh-dear/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/castos",
+      "url": "/ko/guides/castos/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-video-production",
+      "url": "/ko/guides/ai-video-production/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-workflow-automation",
+      "url": "/ko/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-search-visibility",
+      "url": "/ko/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-image-creation",
+      "url": "/ko/guides/ai-image-creation/"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/youtube-search-discovery",
+      "url": "/ko/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "ko",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/ko/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
-      "route": "guides/submagic",
-      "url": "/ko/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/ko/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "ko",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/ko/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/ko/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/ko/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/ko/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/ko/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/ko/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/ko/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/ko/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/ko/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/ko/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/ko/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -368,6 +973,21 @@
     },
     {
       "lang": "fr",
+      "route": "products/nifty",
+      "url": "/fr/products/nifty/"
+    },
+    {
+      "lang": "fr",
+      "route": "products/oh-dear",
+      "url": "/fr/products/oh-dear/"
+    },
+    {
+      "lang": "fr",
+      "route": "products/castos",
+      "url": "/fr/products/castos/"
+    },
+    {
+      "lang": "fr",
       "route": "guides",
       "url": "/fr/guides/"
     },
@@ -378,19 +998,125 @@
     },
     {
       "lang": "fr",
+      "route": "guides/submagic",
+      "url": "/fr/guides/submagic/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/nifty",
+      "url": "/fr/guides/nifty/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/oh-dear",
+      "url": "/fr/guides/oh-dear/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/castos",
+      "url": "/fr/guides/castos/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-video-production",
+      "url": "/fr/guides/ai-video-production/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-workflow-automation",
+      "url": "/fr/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-search-visibility",
+      "url": "/fr/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-image-creation",
+      "url": "/fr/guides/ai-image-creation/"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/youtube-search-discovery",
+      "url": "/fr/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "fr",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/fr/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
-      "route": "guides/submagic",
-      "url": "/fr/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/fr/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "fr",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/fr/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/fr/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/fr/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/fr/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/fr/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/fr/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/fr/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/fr/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/fr/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/fr/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/fr/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -431,6 +1157,21 @@
     },
     {
       "lang": "de",
+      "route": "products/nifty",
+      "url": "/de/products/nifty/"
+    },
+    {
+      "lang": "de",
+      "route": "products/oh-dear",
+      "url": "/de/products/oh-dear/"
+    },
+    {
+      "lang": "de",
+      "route": "products/castos",
+      "url": "/de/products/castos/"
+    },
+    {
+      "lang": "de",
       "route": "guides",
       "url": "/de/guides/"
     },
@@ -441,19 +1182,125 @@
     },
     {
       "lang": "de",
+      "route": "guides/submagic",
+      "url": "/de/guides/submagic/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/nifty",
+      "url": "/de/guides/nifty/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/oh-dear",
+      "url": "/de/guides/oh-dear/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/castos",
+      "url": "/de/guides/castos/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-video-production",
+      "url": "/de/guides/ai-video-production/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-workflow-automation",
+      "url": "/de/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-search-visibility",
+      "url": "/de/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-image-creation",
+      "url": "/de/guides/ai-image-creation/"
+    },
+    {
+      "lang": "de",
+      "route": "guides/youtube-search-discovery",
+      "url": "/de/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "de",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/de/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
-      "route": "guides/submagic",
-      "url": "/de/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/de/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "de",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/de/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/de/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/de/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/de/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/de/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/de/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/de/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/de/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/de/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/de/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "de",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/de/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -494,6 +1341,21 @@
     },
     {
       "lang": "it",
+      "route": "products/nifty",
+      "url": "/it/products/nifty/"
+    },
+    {
+      "lang": "it",
+      "route": "products/oh-dear",
+      "url": "/it/products/oh-dear/"
+    },
+    {
+      "lang": "it",
+      "route": "products/castos",
+      "url": "/it/products/castos/"
+    },
+    {
+      "lang": "it",
       "route": "guides",
       "url": "/it/guides/"
     },
@@ -504,19 +1366,125 @@
     },
     {
       "lang": "it",
+      "route": "guides/submagic",
+      "url": "/it/guides/submagic/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/nifty",
+      "url": "/it/guides/nifty/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/oh-dear",
+      "url": "/it/guides/oh-dear/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/castos",
+      "url": "/it/guides/castos/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-video-production",
+      "url": "/it/guides/ai-video-production/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-workflow-automation",
+      "url": "/it/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-search-visibility",
+      "url": "/it/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-image-creation",
+      "url": "/it/guides/ai-image-creation/"
+    },
+    {
+      "lang": "it",
+      "route": "guides/youtube-search-discovery",
+      "url": "/it/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "it",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/it/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
-      "route": "guides/submagic",
-      "url": "/it/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/it/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "it",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/it/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/it/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/it/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/it/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/it/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/it/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/it/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/it/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/it/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/it/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "it",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/it/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -557,6 +1525,21 @@
     },
     {
       "lang": "hi",
+      "route": "products/nifty",
+      "url": "/hi/products/nifty/"
+    },
+    {
+      "lang": "hi",
+      "route": "products/oh-dear",
+      "url": "/hi/products/oh-dear/"
+    },
+    {
+      "lang": "hi",
+      "route": "products/castos",
+      "url": "/hi/products/castos/"
+    },
+    {
+      "lang": "hi",
       "route": "guides",
       "url": "/hi/guides/"
     },
@@ -567,19 +1550,125 @@
     },
     {
       "lang": "hi",
+      "route": "guides/submagic",
+      "url": "/hi/guides/submagic/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/nifty",
+      "url": "/hi/guides/nifty/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/oh-dear",
+      "url": "/hi/guides/oh-dear/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/castos",
+      "url": "/hi/guides/castos/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-video-production",
+      "url": "/hi/guides/ai-video-production/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-workflow-automation",
+      "url": "/hi/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-search-visibility",
+      "url": "/hi/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-image-creation",
+      "url": "/hi/guides/ai-image-creation/"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/youtube-search-discovery",
+      "url": "/hi/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "hi",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/hi/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
-      "route": "guides/submagic",
-      "url": "/hi/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/hi/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "hi",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/hi/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/hi/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/hi/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/hi/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/hi/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/hi/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/hi/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/hi/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/hi/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/hi/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/hi/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -620,6 +1709,21 @@
     },
     {
       "lang": "th",
+      "route": "products/nifty",
+      "url": "/th/products/nifty/"
+    },
+    {
+      "lang": "th",
+      "route": "products/oh-dear",
+      "url": "/th/products/oh-dear/"
+    },
+    {
+      "lang": "th",
+      "route": "products/castos",
+      "url": "/th/products/castos/"
+    },
+    {
+      "lang": "th",
       "route": "guides",
       "url": "/th/guides/"
     },
@@ -630,19 +1734,125 @@
     },
     {
       "lang": "th",
+      "route": "guides/submagic",
+      "url": "/th/guides/submagic/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/nifty",
+      "url": "/th/guides/nifty/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/oh-dear",
+      "url": "/th/guides/oh-dear/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/castos",
+      "url": "/th/guides/castos/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-video-production",
+      "url": "/th/guides/ai-video-production/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-workflow-automation",
+      "url": "/th/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-search-visibility",
+      "url": "/th/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-image-creation",
+      "url": "/th/guides/ai-image-creation/"
+    },
+    {
+      "lang": "th",
+      "route": "guides/youtube-search-discovery",
+      "url": "/th/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "th",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/th/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
-      "route": "guides/submagic",
-      "url": "/th/guides/submagic/"
+      "route": "guides/submagic/short-video-captions",
+      "url": "/th/guides/submagic/short-video-captions/",
+      "lastmod": "2026-11-10"
     },
     {
       "lang": "th",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/th/guides/submagic/short-video-captions/",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/th/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/th/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/th/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/th/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/th/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/th/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/th/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/th/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/th/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "th",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/th/guides/castos/podcast-hosting-wordpress/",
       "lastmod": "2026-11-10"
     },
     {
@@ -683,6 +1893,21 @@
     },
     {
       "lang": "pt-BR",
+      "route": "products/nifty",
+      "url": "/pt-br/products/nifty/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "products/oh-dear",
+      "url": "/pt-br/products/oh-dear/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "products/castos",
+      "url": "/pt-br/products/castos/"
+    },
+    {
+      "lang": "pt-BR",
       "route": "guides",
       "url": "/pt-br/guides/"
     },
@@ -693,154 +1918,127 @@
     },
     {
       "lang": "pt-BR",
+      "route": "guides/submagic",
+      "url": "/pt-br/guides/submagic/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/nifty",
+      "url": "/pt-br/guides/nifty/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/oh-dear",
+      "url": "/pt-br/guides/oh-dear/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/castos",
+      "url": "/pt-br/guides/castos/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-video-production",
+      "url": "/pt-br/guides/ai-video-production/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-workflow-automation",
+      "url": "/pt-br/guides/ai-workflow-automation/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-search-visibility",
+      "url": "/pt-br/guides/ai-search-visibility/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-image-creation",
+      "url": "/pt-br/guides/ai-image-creation/"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/youtube-search-discovery",
+      "url": "/pt-br/guides/youtube-search-discovery/"
+    },
+    {
+      "lang": "pt-BR",
       "route": "guides/anydo/plan-a-publishing-week",
       "url": "/pt-br/guides/anydo/plan-a-publishing-week/",
       "lastmod": "2026-11-10"
     },
     {
       "lang": "pt-BR",
-      "route": "guides/submagic",
-      "url": "/pt-br/guides/submagic/"
-    },
-    {
-      "lang": "pt-BR",
       "route": "guides/submagic/short-video-captions",
       "url": "/pt-br/guides/submagic/short-video-captions/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
+      "url": "/pt-br/guides/ai-video-production/ai-video-workflow-for-small-teams/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
+      "url": "/pt-br/guides/ai-workflow-automation/choose-your-first-ai-automation/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
+      "url": "/pt-br/guides/ai-search-visibility/ai-search-visibility-checklist/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/pt-br/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-search-visibility/google-multimodal-search-console",
+      "url": "/pt-br/guides/ai-search-visibility/google-multimodal-search-console/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
+      "url": "/pt-br/guides/ai-image-creation/gpt-image-26-creator-workflow/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
+      "url": "/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
+      "url": "/pt-br/guides/youtube-search-discovery/youtube-seo-for-creators/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/nifty/content-launch-project",
+      "url": "/pt-br/guides/nifty/content-launch-project/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/oh-dear/website-monitoring-404",
+      "url": "/pt-br/guides/oh-dear/website-monitoring-404/",
+      "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/castos/podcast-hosting-wordpress",
+      "url": "/pt-br/guides/castos/podcast-hosting-wordpress/",
+      "lastmod": "2026-11-10"
     }
   ],
-  "redirects": [
-    {
-      "url": "/notes/",
-      "target": "/guides/"
-    },
-    {
-      "url": "/notes/plan-a-publishing-week/",
-      "target": "/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/notes/short-video-captions/",
-      "target": "/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/zh/notes/",
-      "target": "/zh/guides/"
-    },
-    {
-      "url": "/zh/notes/plan-a-publishing-week/",
-      "target": "/zh/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/zh/notes/short-video-captions/",
-      "target": "/zh/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/es/notes/",
-      "target": "/es/guides/"
-    },
-    {
-      "url": "/es/notes/plan-a-publishing-week/",
-      "target": "/es/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/es/notes/short-video-captions/",
-      "target": "/es/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/ja/notes/",
-      "target": "/ja/guides/"
-    },
-    {
-      "url": "/ja/notes/plan-a-publishing-week/",
-      "target": "/ja/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/ja/notes/short-video-captions/",
-      "target": "/ja/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/ko/notes/",
-      "target": "/ko/guides/"
-    },
-    {
-      "url": "/ko/notes/plan-a-publishing-week/",
-      "target": "/ko/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/ko/notes/short-video-captions/",
-      "target": "/ko/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/fr/notes/",
-      "target": "/fr/guides/"
-    },
-    {
-      "url": "/fr/notes/plan-a-publishing-week/",
-      "target": "/fr/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/fr/notes/short-video-captions/",
-      "target": "/fr/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/de/notes/",
-      "target": "/de/guides/"
-    },
-    {
-      "url": "/de/notes/plan-a-publishing-week/",
-      "target": "/de/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/de/notes/short-video-captions/",
-      "target": "/de/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/it/notes/",
-      "target": "/it/guides/"
-    },
-    {
-      "url": "/it/notes/plan-a-publishing-week/",
-      "target": "/it/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/it/notes/short-video-captions/",
-      "target": "/it/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/hi/notes/",
-      "target": "/hi/guides/"
-    },
-    {
-      "url": "/hi/notes/plan-a-publishing-week/",
-      "target": "/hi/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/hi/notes/short-video-captions/",
-      "target": "/hi/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/th/notes/",
-      "target": "/th/guides/"
-    },
-    {
-      "url": "/th/notes/plan-a-publishing-week/",
-      "target": "/th/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/th/notes/short-video-captions/",
-      "target": "/th/guides/submagic/short-video-captions/"
-    },
-    {
-      "url": "/pt-br/notes/",
-      "target": "/pt-br/guides/"
-    },
-    {
-      "url": "/pt-br/notes/plan-a-publishing-week/",
-      "target": "/pt-br/guides/anydo/plan-a-publishing-week/"
-    },
-    {
-      "url": "/pt-br/notes/short-video-captions/",
-      "target": "/pt-br/guides/submagic/short-video-captions/"
-    }
-  ]
+  "redirects": []
 }

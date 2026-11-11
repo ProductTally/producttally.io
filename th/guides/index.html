@@ -6,6 +6,7 @@
   <title>คลังคู่มือ — ProductTally</title>
   <meta name="description" content="บทความเชิงปฏิบัติเกี่ยวกับการเลือกและใช้ผลิตภัณฑ์ดิจิทัล">
   <meta name="theme-color" content="#FBF8F3">
+  
   <link rel="canonical" href="https://producttally.com/th/guides/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/guides/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/">
@@ -25,6 +26,7 @@
   <meta property="og:description" content="บทความเชิงปฏิบัติเกี่ยวกับการเลือกและใช้ผลิตภัณฑ์ดิจิทัล">
   <meta property="og:url" content="https://producttally.com/th/guides/">
   <meta property="og:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta property="og:image:alt" content="ProductTally">
   <meta property="og:locale" content="th_TH">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
@@ -40,6 +42,7 @@
   <meta name="twitter:title" content="คลังคู่มือ — ProductTally">
   <meta name="twitter:description" content="บทความเชิงปฏิบัติเกี่ยวกับการเลือกและใช้ผลิตภัณฑ์ดิจิทัล">
   <meta name="twitter:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta name="twitter:image:alt" content="ProductTally">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/th/guides/#webpage","name":"คลังคู่มือ","description":"บทความเชิงปฏิบัติเกี่ยวกับการเลือกและใช้ผลิตภัณฑ์ดิจิทัล","url":"https://producttally.com/th/guides/","inLanguage":"th","isPartOf":{"@id":"https://producttally.com/#website"},"breadcrumb":{"@id":"https://producttally.com/th/guides/#breadcrumbs"}},{"@type":"BreadcrumbList","@id":"https://producttally.com/th/guides/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"หน้าแรก","item":"https://producttally.com/th/"},{"@type":"ListItem","position":2,"name":"คลังคู่มือ","item":"https://producttally.com/th/guides/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
@@ -57,8 +60,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="การนำทางหลัก">
-          <div class="primary-links"><a href="/th/">ผลิตภัณฑ์</a><a href="/th/guides/" aria-current="page">คู่มือ</a><a href="/th/about/">เกณฑ์การประเมิน</a></div>
-          <a class="header-review" href="/th/pricing/">บริการรีวิว<svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a>
+          <div class="primary-links"><a href="/th/">ผลิตภัณฑ์</a><a href="/th/guides/" aria-current="page">คลังคู่มือ</a><a href="/th/pricing/">บริการรีวิว</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -109,27 +111,36 @@
     </header>
     <div class="guide-library"><div class="catalog" data-catalog data-result-plural="คู่มือ"
     data-result-single="คู่มือ" data-locale-format="th-TH">
-    <div class="catalog-controls">
-      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="ค้นหาคำแนะนำหรือหัวข้อ..." autocomplete="off">
-        <span slot="label" class="visually-hidden">ค้นหาคู่มือ</span>
-        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
-      </wa-input>
-      <div class="filters" role="group" aria-label="กรองคู่มือ"><wa-button data-filter="all"
+    <div class="catalog-controls"><wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="ค้นหาคำแนะนำหรือหัวข้อ..." autocomplete="off">
+    <span slot="label" class="visually-hidden">ค้นหาคู่มือ</span>
+    <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+  </wa-input><div class="filters" role="group" aria-label="กรองคู่มือ"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    คู่มือทั้งหมด
+    <span>คู่มือทั้งหมด</span>
+  </wa-button><wa-button data-filter="monitoring"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>ตรวจสอบเว็บไซต์</span>
+  </wa-button><wa-button data-filter="podcasting"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>พอดแคสต์</span>
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>การเขียน</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    วีดีโอ
+    <span>วีดีโอ</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    ผลผลิต
-  </wa-button></div>
-    </div>
-    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>คู่มือ</span></div>
+    <span>ผลผลิต</span>
+  </wa-button></div></div>
+    <div class="catalog-meta" role="status"><span data-result-count>13</span> <span data-result-word>คู่มือ</span></div>
     <div class="note-grid"><article class="note-card" data-catalog-item="plan-a-publishing-week" data-category="productivity" data-search="วางแผนเผยแพร่หนึ่งสัปดาห์ด้วย My Day ฟรี ผลทดสอบ Any.do รุ่นฟรีสำหรับบันทึกงานและการเตือน ป้อนวันที่สามภาษา และตรวจตัวเลือกการแชร์งาน ผลผลิต แตกหัวข้อหนึ่งเรื่องเป็นงานรายวัน ตรวจสอบวันที่ด้วยภาษาที่ใช้ทำงาน ลองใช้บอร์ดเมื่อมีงานที่ต้องส่งต่อ ตัดสินใจหลังเผยแพร่จริงหนึ่งรอบ">
-      <div class="note-art art-writing" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19h14M7 15l1-5L17 1l5 5-9 9-6 1M14 4l5 5"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/plan-a-publishing-week/cover.webp"
+    srcset="/assets/articles/plan-a-publishing-week/cover-small.webp 640w, /assets/articles/plan-a-publishing-week/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">ผลผลิต · 2 นาทีอ่าน</p>
         <h2><a href="/th/guides/anydo/plan-a-publishing-week/">วางแผนเผยแพร่หนึ่งสัปดาห์ด้วย My Day ฟรี</a></h2>
@@ -137,13 +148,159 @@
         <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
       </div>
     </article><article class="note-card" data-catalog-item="short-video-captions" data-category="video" data-search="ซับไตเติลในรุ่นทดลอง ดาวน์โหลด SRT และส่งออกวิดีโอ ทดลอง Submagic ด้วยคลิปภาษาอังกฤษ ตั้งแต่แก้ซับและดาวน์โหลด SRT จนถึงหน้าที่ให้เลือกแพ็กเกจเพื่อส่งออกวิดีโอ วีดีโอ เลือกคลิปที่ตรวจได้ทีละคำ ตรวจตั้งแต่อัปโหลดจนได้ไฟล์สำเร็จ คิดเครดิตจากฟังก์ชันที่จะใช้จริง ใช้ไฟล์ที่ส่งออกแล้วตัดสินใจ">
-      <div class="note-art art-video" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4z"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/short-video-captions/cover.webp"
+    srcset="/assets/articles/short-video-captions/cover-small.webp 640w, /assets/articles/short-video-captions/cover.webp 1060w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1060" height="498" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">วีดีโอ · 2 นาทีอ่าน</p>
         <h2><a href="/th/guides/submagic/short-video-captions/">ซับไตเติลในรุ่นทดลอง ดาวน์โหลด SRT และส่งออกวิดีโอ</a></h2>
         <p>ทดลอง Submagic ด้วยคลิปภาษาอังกฤษ ตั้งแต่แก้ซับและดาวน์โหลด SRT จนถึงหน้าที่ให้เลือกแพ็กเกจเพื่อส่งออกวิดีโอ</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="ai-video-workflow-for-small-teams" data-category="video" data-search="เวิร์กโฟลว์วิดีโอ AI สำหรับทีมเล็ก: วางแผน สร้าง ตัดต่อ ตรวจสอบ ขั้นตอนทำวิดีโอด้วย AI สำหรับครีเอเตอร์และทีมเล็ก ตั้งโจทย์ สร้างและตรวจทีละช็อต แล้วเช็กกฎของแพลตฟอร์มก่อนเผยแพร่ สัญญาณความต้องการมาจากตลาดสหรัฐฯ ของ Upwork ไม่ใช่ปริมาณค้นหา Google ทั่วโลก วีดีโอ เขียนบรีฟก่อนเปิดเครื่องมือสร้าง สร้างเป็นช็อตที่ตรวจสอบได้ ตัดต่อให้เป็นเรื่องเดียวและตรวจไฟล์สุดท้าย ตรวจข้อกำหนดเปิดเผยของแต่ละแพลตฟอร์ม สร้างหน้าเฉพาะสำหรับวิดีโอสำคัญแต่ละรายการ">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/ai-video-workflow-for-small-teams/cover.webp"
+    srcset="/assets/articles/ai-video-workflow-for-small-teams/cover-small.webp 640w, /assets/articles/ai-video-workflow-for-small-teams/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">การผลิตวิดีโอด้วย AI · 8 นาทีอ่าน</p>
+        <h2><a href="/th/guides/ai-video-production/ai-video-workflow-for-small-teams/">เวิร์กโฟลว์วิดีโอ AI สำหรับทีมเล็ก: วางแผน สร้าง ตัดต่อ ตรวจสอบ</a></h2>
+        <p>ขั้นตอนทำวิดีโอด้วย AI สำหรับครีเอเตอร์และทีมเล็ก ตั้งโจทย์ สร้างและตรวจทีละช็อต แล้วเช็กกฎของแพลตฟอร์มก่อนเผยแพร่ สัญญาณความต้องการมาจากตลาดสหรัฐฯ ของ Upwork ไม่ใช่ปริมาณค้นหา Google ทั่วโลก</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="choose-your-first-ai-automation" data-category="productivity" data-search="ระบบอัตโนมัติด้วย AI: เลือกกระบวนการแรกอย่างปลอดภัย ค้นหางานซ้ำที่เหมาะสม กำหนดจุดตรวจโดยคน และประเมินโครงการนำร่องก่อนขยายผล สัญญาณความต้องการมาจากตลาดสหรัฐฯ ของ Upwork ไม่ใช่ปริมาณค้นหา Google ทั่วโลก ผลผลิต บันทึกงานปัจจุบันและกรณียกเว้น ใช้เวิร์กโฟลว์ตายตัวเมื่อขั้นตอนคาดเดาได้ กำหนดการอนุมัติ สิทธิ์เข้าถึง และการกู้คืน ทดลองหนึ่งงานและวัดผลตั้งแต่ต้นจนจบ เผยแพร่การทดลองเป็นหลักฐานที่ทำซ้ำได้">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/choose-your-first-ai-automation/cover.webp"
+    srcset="/assets/articles/choose-your-first-ai-automation/cover-small.webp 640w, /assets/articles/choose-your-first-ai-automation/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">ระบบอัตโนมัติเวิร์กโฟลว์ AI · 9 นาทีอ่าน</p>
+        <h2><a href="/th/guides/ai-workflow-automation/choose-your-first-ai-automation/">ระบบอัตโนมัติด้วย AI: เลือกกระบวนการแรกอย่างปลอดภัย</a></h2>
+        <p>ค้นหางานซ้ำที่เหมาะสม กำหนดจุดตรวจโดยคน และประเมินโครงการนำร่องก่อนขยายผล สัญญาณความต้องการมาจากตลาดสหรัฐฯ ของ Upwork ไม่ใช่ปริมาณค้นหา Google ทั่วโลก</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="ai-search-visibility-checklist" data-category="writing" data-search="AI SEO สำหรับเว็บไซต์ขนาดเล็ก: เช็กลิสต์ GEO ที่ใช้ได้จริง เพิ่มการมองเห็นใน AI Search ด้วยพื้นฐาน SEO และหลักฐานที่ตรวจสอบได้ พร้อมดูว่าควรวัดอะไรและควรเลี่ยงทางลัด GEO แบบใด การเขียน ทำให้ค้นพบและเข้าใจหน้าเว็บได้ง่าย เพิ่มข้อมูลที่สรุปทั่วไปให้ไม่ได้ ตอบก่อน แล้วอธิบายเหตุผล ใช้ข้อมูลเชิงโครงสร้างให้ตรงและติดตามผล กำหนดหนึ่งหน้าให้ตรงกับเจตนาหลักของผู้อ่าน วัดการอ้างอิง การกล่าวถึงแบรนด์ และผลลัพธ์แยกกัน">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/ai-search-visibility-checklist/cover.webp"
+    srcset="/assets/articles/ai-search-visibility-checklist/cover-small.webp 640w, /assets/articles/ai-search-visibility-checklist/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">การมองเห็นใน AI Search · 11 นาทีอ่าน</p>
+        <h2><a href="/th/guides/ai-search-visibility/ai-search-visibility-checklist/">AI SEO สำหรับเว็บไซต์ขนาดเล็ก: เช็กลิสต์ GEO ที่ใช้ได้จริง</a></h2>
+        <p>เพิ่มการมองเห็นใน AI Search ด้วยพื้นฐาน SEO และหลักฐานที่ตรวจสอบได้ พร้อมดูว่าควรวัดอะไรและควรเลี่ยงทางลัด GEO แบบใด</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="bing-ai-performance-topic-gaps" data-category="writing" data-search="หาเนื้อหาที่ขาดด้าน GEO ด้วย Bing AI Performance ใช้ Topics Portfolio ใน Bing Webmaster Tools ตรวจดูหัวข้อที่ได้รับการอ้างอิงและคำค้นหาโอกาส แล้วตัดสินใจว่าจะปรับปรุงคู่มือเดิมหรือเขียนบทความใหม่ที่มีประโยชน์ต่างออกไป ฟีเจอร์ยังเป็นเบต้าและตัวเลขใช้ดูแนวโน้มเท่านั้น การเขียน ตรวจว่ารายงานเปิดให้เว็บไซต์หรือยัง อ่านสัญญาณทั้งสามโดยไม่ตีความเกินจริง เปลี่ยนคำค้นหาโอกาสให้เป็นการตัดสินใจด้านเนื้อหา ปรับหน้าเพื่อตอบผู้อ่าน ไม่ใช่เพื่อป้ายในแดชบอร์ด เก็บบันทึกเล็ก ๆ ที่ทำซ้ำได้ รู้ข้อจำกัดของวิธีนี้">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/bing-ai-performance-topic-gaps/cover.webp"
+    srcset="/assets/articles/bing-ai-performance-topic-gaps/cover-small.webp 640w, /assets/articles/bing-ai-performance-topic-gaps/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">การมองเห็นใน AI Search · 9 นาทีอ่าน</p>
+        <h2><a href="/th/guides/ai-search-visibility/bing-ai-performance-topic-gaps/">หาเนื้อหาที่ขาดด้าน GEO ด้วย Bing AI Performance</a></h2>
+        <p>ใช้ Topics Portfolio ใน Bing Webmaster Tools ตรวจดูหัวข้อที่ได้รับการอ้างอิงและคำค้นหาโอกาส แล้วตัดสินใจว่าจะปรับปรุงคู่มือเดิมหรือเขียนบทความใหม่ที่มีประโยชน์ต่างออกไป ฟีเจอร์ยังเป็นเบต้าและตัวเลขใช้ดูแนวโน้มเท่านั้น</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="google-multimodal-search-console" data-category="writing" data-search="รายงานการค้นหาแบบหลายรูปแบบใน Search Console: เช็กลิสต์ SEO รูปภาพ ดูข้อมูลการค้นหาด้วยภาพ เช่น Lens และ Circle to Search ทำความเข้าใจข้อจำกัดของรายงานใหม่ และตรวจ SEO รูปภาพในแต่ละหน้า การเขียน หาตัวกรองประเภทการค้นหาใหม่ ทำความเข้าใจว่าการแสดงผลหมายถึงอะไร ตรวจรูปภาพบนหน้าที่เริ่มปรากฏแล้ว เติมบริบทให้รูปภาพสำคัญ เปลี่ยนทีละอย่างและจดบันทึก อย่ากล่าวอ้างผล SEO ภาพเกินจริง">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/google-multimodal-search-console/cover.webp"
+    srcset="/assets/articles/google-multimodal-search-console/cover-small.webp 640w, /assets/articles/google-multimodal-search-console/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">การมองเห็นใน AI Search · 9 นาทีอ่าน</p>
+        <h2><a href="/th/guides/ai-search-visibility/google-multimodal-search-console/">รายงานการค้นหาแบบหลายรูปแบบใน Search Console: เช็กลิสต์ SEO รูปภาพ</a></h2>
+        <p>ดูข้อมูลการค้นหาด้วยภาพ เช่น Lens และ Circle to Search ทำความเข้าใจข้อจำกัดของรายงานใหม่ และตรวจ SEO รูปภาพในแต่ละหน้า</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="gpt-image-26-creator-workflow" data-category="video" data-search="GPT Image 2.6 สำหรับครีเอเตอร์: เวิร์กโฟลว์แก้ภาพและสร้าง GIF ขั้นตอนที่ทำซ้ำได้สำหรับภาพสินค้า กราฟิกโซเชียล และ GIF สั้นแบบวนซ้ำ อ้างอิงข้อมูลทางการ ณ วันที่ 10 พฤศจิกายน 2026 ไม่ใช่การทดสอบคุณภาพหรือความเร็วโดยอิสระ วีดีโอ เลือกภาพหนึ่งภาพและกำหนดหน้าที่ เขียนพรอมป์ที่แก้ไขต่อได้ สร้างภาพต้นแบบแล้วเปลี่ยนทีละอย่าง วางแผน GIF ให้เป็นการเคลื่อนไหวง่ายและวนลื่น ตรวจในบริบทเผยแพร่ก่อนส่งออก อย่าสับสนระหว่างประกาศเปิดตัวกับผลทดสอบ">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/gpt-image-26-creator-workflow/cover.webp"
+    srcset="/assets/articles/gpt-image-26-creator-workflow/cover-small.webp 640w, /assets/articles/gpt-image-26-creator-workflow/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">การสร้างภาพด้วย AI · 8 นาทีอ่าน</p>
+        <h2><a href="/th/guides/ai-image-creation/gpt-image-26-creator-workflow/">GPT Image 2.6 สำหรับครีเอเตอร์: เวิร์กโฟลว์แก้ภาพและสร้าง GIF</a></h2>
+        <p>ขั้นตอนที่ทำซ้ำได้สำหรับภาพสินค้า กราฟิกโซเชียล และ GIF สั้นแบบวนซ้ำ อ้างอิงข้อมูลทางการ ณ วันที่ 10 พฤศจิกายน 2026 ไม่ใช่การทดสอบคุณภาพหรือความเร็วโดยอิสระ</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="track-ai-assistant-traffic-ga4" data-category="writing" data-search="วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant ดูการเข้าชมจากผู้ช่วย AI หน้า Landing Page และการกระทำที่มีความหมาย โดยไม่สับสนระหว่างเซสชันจากลิงก์ การอ้างอิง และการมองเห็นในการค้นหาด้วย AI ทั้งหมด การเขียน ช่อง AI Assistant ใน GA4 นับอะไร เปิดรายงานเซสชันและกรองช่องทาง ตรวจแหล่งที่มา หน้า Landing Page และการกระทำ ใช้ขอบเขตเซสชันเมื่อวิเคราะห์การเข้าชม แยกการอ้างอิง AI ออกจากการมองเห็นใน AI Search ตรวจการเข้าชมที่หายไปหรือจัดหมวดผิด ทำรายงานทบทวนรายเดือนที่ทำซ้ำได้">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/track-ai-assistant-traffic-ga4/cover.webp"
+    srcset="/assets/articles/track-ai-assistant-traffic-ga4/cover-small.webp 640w, /assets/articles/track-ai-assistant-traffic-ga4/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">การมองเห็นใน AI Search · 10 นาทีอ่าน</p>
+        <h2><a href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant</a></h2>
+        <p>ดูการเข้าชมจากผู้ช่วย AI หน้า Landing Page และการกระทำที่มีความหมาย โดยไม่สับสนระหว่างเซสชันจากลิงก์ การอ้างอิง และการมองเห็นในการค้นหาด้วย AI ทั้งหมด</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="youtube-seo-for-creators" data-category="video" data-search="YouTube SEO สำหรับครีเอเตอร์: แยก YouTube Search ออกจากทราฟฟิก Google ใช้ YouTube Studio เพื่อทำความเข้าใจการค้นพบภายใน YouTube แล้วใช้ platform property ที่ยืนยันแล้วใน Search Console ดูว่า Google พาผู้ชมมาที่ช่องอย่างไร รายงานทั้งสองตอบคนละคำถาม วีดีโอ แยกพื้นผิวการค้นหาทั้งสองก่อนแก้วิดีโอ ค้นหาคำถามจริงของผู้ชมใน YouTube Studio ให้วิดีโอหนึ่งเรื่องตอบโจทย์ที่ชัดเจนหนึ่งข้อ เพิ่มช่องเป็น platform property ใน Search Console อ่านการค้นพบจาก Google ในฐานะข้อมูลของ Google จดบันทึกการเปลี่ยนแปลงและเลือกขั้นตอนถัดไป">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/youtube-seo-for-creators/cover.webp"
+    srcset="/assets/articles/youtube-seo-for-creators/cover-small.webp 640w, /assets/articles/youtube-seo-for-creators/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">การค้นพบผ่าน YouTube Search · 9 นาทีอ่าน</p>
+        <h2><a href="/th/guides/youtube-search-discovery/youtube-seo-for-creators/">YouTube SEO สำหรับครีเอเตอร์: แยก YouTube Search ออกจากทราฟฟิก Google</a></h2>
+        <p>ใช้ YouTube Studio เพื่อทำความเข้าใจการค้นพบภายใน YouTube แล้วใช้ platform property ที่ยืนยันแล้วใน Search Console ดูว่า Google พาผู้ชมมาที่ช่องอย่างไร รายงานทั้งสองตอบคนละคำถาม</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="content-launch-project" data-category="productivity" data-search="Nifty สำหรับทีมคอนเทนต์: รวมงาน ขั้นตอน และบรีฟเปิดตัวในโปรเจกต์เดียว จัดการการเปิดตัวด้วยกำหนดส่ง งานที่ขึ้นต่อกัน และเอกสารใน Nifty พร้อมตรวจไฟล์ส่งออกและข้อจำกัดของแผน Free ผลผลิต สร้างโปรเจกต์เพื่อผลลัพธ์หนึ่งชิ้น ตรวจวันครบกำหนดและงานย่อยแยกกัน เชื่อมงานที่ขึ้นต่อกันกับความคืบหน้า เก็บบรีฟและตรวจไฟล์ส่งออก ตรวจแพ็กเกจก่อนใช้งานจริง เริ่มจากการเปิดตัวเล็ก ๆ">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/content-launch-project/cover.webp"
+    srcset="/assets/articles/content-launch-project/cover-small.webp 640w, /assets/articles/content-launch-project/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="606" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">ผลผลิต · 4 นาทีอ่าน</p>
+        <h2><a href="/th/guides/nifty/content-launch-project/">Nifty สำหรับทีมคอนเทนต์: รวมงาน ขั้นตอน และบรีฟเปิดตัวในโปรเจกต์เดียว</a></h2>
+        <p>จัดการการเปิดตัวด้วยกำหนดส่ง งานที่ขึ้นต่อกัน และเอกสารใน Nifty พร้อมตรวจไฟล์ส่งออกและข้อจำกัดของแผน Free</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="website-monitoring-404" data-category="monitoring" data-search="Oh Dear สำหรับทีมเล็ก: แยกหน้า 404 ออกจากปัญหาทั้งเว็บไซต์ ตั้งค่า uptime, SSL และ DNS ทดสอบการแจ้งเตือน แล้วอ่าน 404 และการกลับมาปกติจาก URL เต็มและเวลา ตรวจสอบเว็บไซต์ เพิ่มเว็บไซต์ที่มีสิทธิ์ตรวจ แยกประเภทการแจ้งเตือน อ่าน URL เต็มของ 404 ตีความการกลับมาปกติ อ่านประวัติและการส่งออกอย่างมีบริบท เลือกตามจำนวนเว็บไซต์">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/website-monitoring-404/cover.webp"
+    srcset="/assets/articles/website-monitoring-404/cover-small.webp 640w, /assets/articles/website-monitoring-404/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="818" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">ตรวจสอบเว็บไซต์ · 4 นาทีอ่าน</p>
+        <h2><a href="/th/guides/oh-dear/website-monitoring-404/">Oh Dear สำหรับทีมเล็ก: แยกหน้า 404 ออกจากปัญหาทั้งเว็บไซต์</a></h2>
+        <p>ตั้งค่า uptime, SSL และ DNS ทดสอบการแจ้งเตือน แล้วอ่าน 404 และการกลับมาปกติจาก URL เต็มและเวลา</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="podcast-hosting-wordpress" data-category="podcasting" data-search="คู่มือ Castos: โฮสต์พอดแคสต์ WordPress และราคา ทำความเข้าใจ RSS การซิงก์ WordPress และตัวเลือก YouTube ของ Castos ก่อนเลือกแพ็กเกจสำหรับรายการของคุณ พอดแคสต์ Castos ช่วยอะไรได้บ้าง ใช้ WordPress ต้องกำหนดจุดเผยแพร่ เตรียมเอพิโซดแรก เลือกแพ็กเกจตามงาน YouTube ต่างจากโฮสต์วิดีโอ อ่านความเห็นชุมชนอย่างไร">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/podcast-hosting-wordpress/cover.webp"
+    srcset="/assets/articles/podcast-hosting-wordpress/cover-small.webp 640w, /assets/articles/podcast-hosting-wordpress/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="630" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">พอดแคสต์ · 4 นาทีอ่าน</p>
+        <h2><a href="/th/guides/castos/podcast-hosting-wordpress/">คู่มือ Castos: โฮสต์พอดแคสต์ WordPress และราคา</a></h2>
+        <p>ทำความเข้าใจ RSS การซิงก์ WordPress และตัวเลือก YouTube ของ Castos ก่อนเลือกแพ็กเกจสำหรับรายการของคุณ</p>
         <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
       </div>
     </article></div>
@@ -155,14 +312,44 @@
   </div><nav class="guide-products" id="browse-products" aria-label="เลือกดูตามผลิตภัณฑ์">
       <p class="eyebrow">เลือกดูตามผลิตภัณฑ์</p>
       <ul><li><a href="/th/guides/anydo/">
-          <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+          <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
           <span translate="no">Any.do</span>
           <span class="guide-count">1 คู่มือ</span>
         </a></li><li><a href="/th/guides/submagic/">
-          <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+          <img class="product-mark product-mark-image" src="/assets/product-icons/submagic.svg" alt="" width="48" height="48">
           <span translate="no">Submagic</span>
           <span class="guide-count">1 คู่มือ</span>
+        </a></li><li><a href="/th/guides/nifty/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/nifty.png" alt="" width="48" height="48">
+          <span translate="no">Nifty</span>
+          <span class="guide-count">1 คู่มือ</span>
+        </a></li><li><a href="/th/guides/oh-dear/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48">
+          <span translate="no">Oh Dear</span>
+          <span class="guide-count">1 คู่มือ</span>
+        </a></li><li><a href="/th/guides/castos/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/castos.png" alt="" width="48" height="48">
+          <span translate="no">Castos</span>
+          <span class="guide-count">1 คู่มือ</span>
         </a></li></ul>
+    </nav><nav class="guide-products guide-topics" id="browse-topics" aria-label="เลือกดูตามหัวข้อ">
+      <p class="eyebrow">เลือกดูตามหัวข้อ</p>
+      <ul><li><a href="/th/guides/ai-video-production/">
+        <span>การผลิตวิดีโอด้วย AI</span>
+        <span class="guide-count">1 คู่มือ</span>
+      </a></li><li><a href="/th/guides/ai-workflow-automation/">
+        <span>ระบบอัตโนมัติเวิร์กโฟลว์ AI</span>
+        <span class="guide-count">1 คู่มือ</span>
+      </a></li><li><a href="/th/guides/ai-search-visibility/">
+        <span>การมองเห็นใน AI Search</span>
+        <span class="guide-count">4 คู่มือ</span>
+      </a></li><li><a href="/th/guides/ai-image-creation/">
+        <span>การสร้างภาพด้วย AI</span>
+        <span class="guide-count">1 คู่มือ</span>
+      </a></li><li><a href="/th/guides/youtube-search-discovery/">
+        <span>การค้นพบผ่าน YouTube Search</span>
+        <span class="guide-count">1 คู่มือ</span>
+      </a></li></ul>
     </nav></div>
   </section></main>
   <footer class="site-footer">
@@ -175,7 +362,7 @@
       </div>
       <nav aria-label="การนำทางส่วนท้าย">
         <a href="/th/">ผลิตภัณฑ์</a>
-        <a href="/th/guides/">คู่มือ</a>
+        <a href="/th/guides/">คลังคู่มือ</a>
         <a href="/th/about/">เกี่ยวกับโครงการ</a>
         <a href="/th/pricing/">บริการรีวิว</a>
         <a href="/th/privacy/">ความเป็นส่วนตัว</a>

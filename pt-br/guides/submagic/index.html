@@ -6,6 +6,7 @@
   <title>Guias de Submagic — ProductTally</title>
   <meta name="description" content="Guias práticos e artigos para usar Submagic.">
   <meta name="theme-color" content="#FBF8F3">
+  
   <link rel="canonical" href="https://producttally.com/pt-br/guides/submagic/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/guides/submagic/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/submagic/">
@@ -25,6 +26,7 @@
   <meta property="og:description" content="Guias práticos e artigos para usar Submagic.">
   <meta property="og:url" content="https://producttally.com/pt-br/guides/submagic/">
   <meta property="og:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta property="og:image:alt" content="ProductTally">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
@@ -40,6 +42,7 @@
   <meta name="twitter:title" content="Guias de Submagic — ProductTally">
   <meta name="twitter:description" content="Guias práticos e artigos para usar Submagic.">
   <meta name="twitter:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta name="twitter:image:alt" content="ProductTally">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/pt-br/guides/submagic/#webpage","name":"Guias de Submagic","description":"Guias práticos e artigos para usar Submagic.","url":"https://producttally.com/pt-br/guides/submagic/","inLanguage":"pt-BR","isPartOf":{"@id":"https://producttally.com/#website"},"breadcrumb":{"@id":"https://producttally.com/pt-br/guides/submagic/#breadcrumbs"}},{"@type":"BreadcrumbList","@id":"https://producttally.com/pt-br/guides/submagic/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://producttally.com/pt-br/"},{"@type":"ListItem","position":2,"name":"Biblioteca de guias","item":"https://producttally.com/pt-br/guides/"},{"@type":"ListItem","position":3,"name":"Submagic","item":"https://producttally.com/pt-br/guides/submagic/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
@@ -57,8 +60,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="Navegação primária">
-          <div class="primary-links"><a href="/pt-br/">Produtos</a><a href="/pt-br/guides/" aria-current="location">Guias</a><a href="/pt-br/about/">Nossos critérios</a></div>
-          <a class="header-review" href="/pt-br/pricing/">Avaliação sob encomenda<svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a>
+          <div class="primary-links"><a href="/pt-br/">Produtos</a><a href="/pt-br/guides/" aria-current="location">Guias</a><a href="/pt-br/pricing/">Avaliação sob encomenda</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -109,24 +111,24 @@
     </header>
     <div class="catalog" data-catalog data-result-plural="guias"
     data-result-single="guia" data-locale-format="pt-BR">
-    <div class="catalog-controls">
-      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="Pesquise guias ou tópicos…" autocomplete="off">
-        <span slot="label" class="visually-hidden">Buscar guias</span>
-        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
-      </wa-input>
-      <div class="filters" role="group" aria-label="Filtrar guias"><wa-button data-filter="all"
+    <div class="catalog-controls"><wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="Pesquise guias ou tópicos…" autocomplete="off">
+    <span slot="label" class="visually-hidden">Buscar guias</span>
+    <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+  </wa-input><div class="filters" role="group" aria-label="Filtrar guias"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    Todos os guias
+    <span>Todos os guias</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    Vídeo
-  </wa-button></div>
-    </div>
+    <span>Vídeo</span>
+  </wa-button></div></div>
     <div class="catalog-meta" role="status"><span data-result-count>1</span> <span data-result-word>guia</span></div>
     <div class="note-grid"><article class="note-card" data-catalog-item="short-video-captions" data-category="video" data-search="Legendas no teste, download de SRT e exportação de vídeo Com um clipe em inglês, testamos a correção de legendas, o download de SRT e o que o Submagic exige para exportar o vídeo. Vídeo Escolha um clipe que você consiga conferir Teste o processo até baixar o arquivo final Calcule os créditos com as funções que você usa Decida com base em um arquivo exportado">
-      <div class="note-art art-video" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4z"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/short-video-captions/cover.webp"
+    srcset="/assets/articles/short-video-captions/cover-small.webp 640w, /assets/articles/short-video-captions/cover.webp 1060w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1060" height="498" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">Vídeo · 2 minutos de leitura</p>
         <h2><a href="/pt-br/guides/submagic/short-video-captions/">Legendas no teste, download de SRT e exportação de vídeo</a></h2>

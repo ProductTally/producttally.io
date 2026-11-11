@@ -6,6 +6,7 @@
   <title>가이드 모음 — ProductTally</title>
   <meta name="description" content="디지털 제품 선택 및 사용에 관한 실용적인 기사입니다.">
   <meta name="theme-color" content="#FBF8F3">
+  
   <link rel="canonical" href="https://producttally.com/ko/guides/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/guides/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/">
@@ -25,6 +26,7 @@
   <meta property="og:description" content="디지털 제품 선택 및 사용에 관한 실용적인 기사입니다.">
   <meta property="og:url" content="https://producttally.com/ko/guides/">
   <meta property="og:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta property="og:image:alt" content="ProductTally">
   <meta property="og:locale" content="ko_KR">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
@@ -40,6 +42,7 @@
   <meta name="twitter:title" content="가이드 모음 — ProductTally">
   <meta name="twitter:description" content="디지털 제품 선택 및 사용에 관한 실용적인 기사입니다.">
   <meta name="twitter:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta name="twitter:image:alt" content="ProductTally">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ko/guides/#webpage","name":"가이드 모음","description":"디지털 제품 선택 및 사용에 관한 실용적인 기사입니다.","url":"https://producttally.com/ko/guides/","inLanguage":"ko","isPartOf":{"@id":"https://producttally.com/#website"},"breadcrumb":{"@id":"https://producttally.com/ko/guides/#breadcrumbs"}},{"@type":"BreadcrumbList","@id":"https://producttally.com/ko/guides/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://producttally.com/ko/"},{"@type":"ListItem","position":2,"name":"가이드 모음","item":"https://producttally.com/ko/guides/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
@@ -57,8 +60,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="기본 탐색">
-          <div class="primary-links"><a href="/ko/">제품</a><a href="/ko/guides/" aria-current="page">가이드</a><a href="/ko/about/">평가 기준</a></div>
-          <a class="header-review" href="/ko/pricing/">리뷰 의뢰<svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a>
+          <div class="primary-links"><a href="/ko/">제품</a><a href="/ko/guides/" aria-current="page">가이드 광장</a><a href="/ko/pricing/">리뷰 의뢰</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -109,27 +111,36 @@
     </header>
     <div class="guide-library"><div class="catalog" data-catalog data-result-plural="개의 가이드"
     data-result-single="개의 가이드" data-locale-format="ko-KR">
-    <div class="catalog-controls">
-      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="가이드 또는 주제 검색…" autocomplete="off">
-        <span slot="label" class="visually-hidden">가이드 검색</span>
-        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
-      </wa-input>
-      <div class="filters" role="group" aria-label="가이드 필터링"><wa-button data-filter="all"
+    <div class="catalog-controls"><wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="가이드 또는 주제 검색…" autocomplete="off">
+    <span slot="label" class="visually-hidden">가이드 검색</span>
+    <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+  </wa-input><div class="filters" role="group" aria-label="가이드 필터링"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    모든 가이드
+    <span>모든 가이드</span>
+  </wa-button><wa-button data-filter="monitoring"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>웹사이트 모니터링</span>
+  </wa-button><wa-button data-filter="podcasting"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>팟캐스트</span>
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>글쓰기</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    비디오
+    <span>비디오</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    생산성
-  </wa-button></div>
-    </div>
-    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>개의 가이드</span></div>
+    <span>생산성</span>
+  </wa-button></div></div>
+    <div class="catalog-meta" role="status"><span data-result-count>13</span> <span data-result-word>개의 가이드</span></div>
     <div class="note-grid"><article class="note-card" data-catalog-item="plan-a-publishing-week" data-category="productivity" data-search="무료 My Day로 한 주의 발행 일정 짜기 Any.do 무료 웹에서 저장한 작업과 알림, 세 언어의 날짜 입력 차이, 공유에 필요한 요금제를 살펴봅니다. 생산성 콘텐츠 한 편을 하루 단위 작업으로 나누기 평소 쓰는 언어로 날짜 확인하기 협업이 필요할 때 공유 보드 검토하기 실제 발행을 한 번 마친 뒤 판단하기">
-      <div class="note-art art-writing" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19h14M7 15l1-5L17 1l5 5-9 9-6 1M14 4l5 5"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/plan-a-publishing-week/cover.webp"
+    srcset="/assets/articles/plan-a-publishing-week/cover-small.webp 640w, /assets/articles/plan-a-publishing-week/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">생산성 · 2 분 읽음</p>
         <h2><a href="/ko/guides/anydo/plan-a-publishing-week/">무료 My Day로 한 주의 발행 일정 짜기</a></h2>
@@ -137,13 +148,159 @@
         <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
       </div>
     </article><article class="note-card" data-catalog-item="short-video-captions" data-category="video" data-search="체험판 자막 편집, SRT 다운로드 및 영상 내보내기 영어 샘플로 Submagic의 자막 수정과 SRT 다운로드를 시험하고, 동영상 내보내기에서 나온 유료 요금제 안내를 살펴봅니다. 비디오 내용을 직접 확인할 수 있는 영상 고르기 업로드부터 완성 파일까지 확인하기 실제로 쓰는 기능의 크레딧 계산하기 완성 파일로 구독 여부 판단하기">
-      <div class="note-art art-video" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4z"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/short-video-captions/cover.webp"
+    srcset="/assets/articles/short-video-captions/cover-small.webp 640w, /assets/articles/short-video-captions/cover.webp 1060w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1060" height="498" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">비디오 · 2 분 읽음</p>
         <h2><a href="/ko/guides/submagic/short-video-captions/">체험판 자막 편집, SRT 다운로드 및 영상 내보내기</a></h2>
         <p>영어 샘플로 Submagic의 자막 수정과 SRT 다운로드를 시험하고, 동영상 내보내기에서 나온 유료 요금제 안내를 살펴봅니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="ai-video-workflow-for-small-teams" data-category="video" data-search="소규모 팀을 위한 AI 영상 제작: 기획부터 검수까지 크리에이터와 소규모 팀을 위한 AI 영상 제작 과정입니다. 기획을 정하고 장면별로 생성·검토한 뒤 플랫폼의 공개 규칙을 확인합니다. 수요 신호는 Upwork 미국 마켓플레이스 기준이며 전 세계 Google 검색량을 뜻하지 않습니다. 비디오 생성 전에 기획을 작성하세요 검토 가능한 장면 단위로 생성하세요 이야기의 흐름을 편집하고 완성본을 확인하세요 플랫폼별 AI 공개 규칙을 확인하세요 중요한 영상마다 전용 페이지를 만드세요">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/ai-video-workflow-for-small-teams/cover.webp"
+    srcset="/assets/articles/ai-video-workflow-for-small-teams/cover-small.webp 640w, /assets/articles/ai-video-workflow-for-small-teams/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI 영상 제작 · 8 분 읽음</p>
+        <h2><a href="/ko/guides/ai-video-production/ai-video-workflow-for-small-teams/">소규모 팀을 위한 AI 영상 제작: 기획부터 검수까지</a></h2>
+        <p>크리에이터와 소규모 팀을 위한 AI 영상 제작 과정입니다. 기획을 정하고 장면별로 생성·검토한 뒤 플랫폼의 공개 규칙을 확인합니다. 수요 신호는 Upwork 미국 마켓플레이스 기준이며 전 세계 Google 검색량을 뜻하지 않습니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="choose-your-first-ai-automation" data-category="productivity" data-search="AI 워크플로 자동화: 안전한 첫 업무 선택하기 반복 가능한 자동화 사례를 찾고 사람의 확인 단계를 설정한 뒤, 확대 전에 시범 운영을 평가하는 방법을 안내합니다. 수요 신호는 Upwork 미국 마켓플레이스 기준이며 전 세계 Google 검색량을 뜻하지 않습니다. 생산성 예외까지 포함해 현재 업무를 기록하세요 단계가 예측 가능하면 고정된 워크플로를 사용하세요 승인, 권한과 복구 규칙을 정하세요 한 가지 업무를 시험하고 전체 결과를 측정하세요 재현 가능한 근거로 파일럿을 공개하세요">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/choose-your-first-ai-automation/cover.webp"
+    srcset="/assets/articles/choose-your-first-ai-automation/cover-small.webp 640w, /assets/articles/choose-your-first-ai-automation/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI 워크플로 자동화 · 9 분 읽음</p>
+        <h2><a href="/ko/guides/ai-workflow-automation/choose-your-first-ai-automation/">AI 워크플로 자동화: 안전한 첫 업무 선택하기</a></h2>
+        <p>반복 가능한 자동화 사례를 찾고 사람의 확인 단계를 설정한 뒤, 확대 전에 시범 운영을 평가하는 방법을 안내합니다. 수요 신호는 Upwork 미국 마켓플레이스 기준이며 전 세계 Google 검색량을 뜻하지 않습니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="ai-search-visibility-checklist" data-category="writing" data-search="소규모 웹사이트를 위한 AI SEO: 실전 GEO 점검표 SEO 기본기와 검증 가능한 근거로 작은 사이트의 AI 검색 가시성을 높이세요. 무엇을 측정하고 어떤 GEO 지름길을 피해야 하는지 설명합니다. 글쓰기 페이지를 찾고 이해하기 쉽게 만드세요 일반적인 요약으로 대체할 수 없는 정보를 더하세요 먼저 답하고 이유를 설명하세요 구조화 데이터와 가시성 수치를 신중하게 다루세요 독자 의도마다 유용한 페이지 하나를 연결하세요 인용, 브랜드 언급과 성과를 따로 측정하세요">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/ai-search-visibility-checklist/cover.webp"
+    srcset="/assets/articles/ai-search-visibility-checklist/cover-small.webp 640w, /assets/articles/ai-search-visibility-checklist/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI 검색 가시성 · 11 분 읽음</p>
+        <h2><a href="/ko/guides/ai-search-visibility/ai-search-visibility-checklist/">소규모 웹사이트를 위한 AI SEO: 실전 GEO 점검표</a></h2>
+        <p>SEO 기본기와 검증 가능한 근거로 작은 사이트의 AI 검색 가시성을 높이세요. 무엇을 측정하고 어떤 GEO 지름길을 피해야 하는지 설명합니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="bing-ai-performance-topic-gaps" data-category="writing" data-search="Bing AI Performance로 GEO 콘텐츠 공백 찾기 Bing Webmaster Tools의 Topics Portfolio에서 인용 주제와 기회 쿼리를 살펴보고 기존 가이드를 개선할지, 별도의 가치가 있는 글을 쓸지 판단합니다. 베타 기능의 수치는 방향성 참고 자료입니다. 글쓰기 사이트에서 보고서를 사용할 수 있는지 확인하세요 세 가지 주제 지표를 과해석하지 마세요 기회 쿼리를 편집 결정으로 바꾸세요 보고서 라벨보다 독자 질문에 맞춰 페이지를 개선하세요 작고 반복 가능한 기록을 유지하세요 이 방법의 한계를 이해하세요">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/bing-ai-performance-topic-gaps/cover.webp"
+    srcset="/assets/articles/bing-ai-performance-topic-gaps/cover-small.webp 640w, /assets/articles/bing-ai-performance-topic-gaps/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI 검색 가시성 · 9 분 읽음</p>
+        <h2><a href="/ko/guides/ai-search-visibility/bing-ai-performance-topic-gaps/">Bing AI Performance로 GEO 콘텐츠 공백 찾기</a></h2>
+        <p>Bing Webmaster Tools의 Topics Portfolio에서 인용 주제와 기회 쿼리를 살펴보고 기존 가이드를 개선할지, 별도의 가치가 있는 글을 쓸지 판단합니다. 베타 기능의 수치는 방향성 참고 자료입니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="google-multimodal-search-console" data-category="writing" data-search="Search Console 다중 모달 검색 보고서와 이미지 SEO Lens와 Circle to Search를 포함한 이미지 기반 발견 데이터를 확인하는 방법입니다. 보고서를 찾고 한계를 해석하며 페이지별 이미지 SEO를 점검합니다. 글쓰기 새 검색 유형 필터를 찾으세요 노출이 무엇을 설명하는지 확인하세요 이미 노출된 페이지의 이미지를 점검하세요 중요한 이미지에 충분한 페이지 문맥을 제공하세요 한 번에 하나씩 개선하고 기록하세요 시각 검색 SEO의 효과를 과장하지 마세요">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/google-multimodal-search-console/cover.webp"
+    srcset="/assets/articles/google-multimodal-search-console/cover-small.webp 640w, /assets/articles/google-multimodal-search-console/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI 검색 가시성 · 9 분 읽음</p>
+        <h2><a href="/ko/guides/ai-search-visibility/google-multimodal-search-console/">Search Console 다중 모달 검색 보고서와 이미지 SEO</a></h2>
+        <p>Lens와 Circle to Search를 포함한 이미지 기반 발견 데이터를 확인하는 방법입니다. 보고서를 찾고 한계를 해석하며 페이지별 이미지 SEO를 점검합니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="gpt-image-26-creator-workflow" data-category="video" data-search="크리에이터를 위한 GPT Image 2.6: 이미지 편집과 GIF 제작 과정 제품 이미지, 소셜 그래픽, 짧은 반복 GIF를 위한 재현 가능한 과정입니다. 2026년 11월 10일 기준 공식 정보에 기반하며 독립적인 품질 또는 속도 벤치마크는 아닙니다. 비디오 이미지 하나를 고르고 용도를 정하세요 수정하기 쉬운 프롬프트를 작성하세요 기본 이미지를 만들고 한 번에 하나만 바꾸세요 GIF는 간단하고 자연스럽게 반복되는 움직임으로 설계하세요 내보내기 전에 게시 환경에서 검수하세요 출시 안내를 테스트 결과로 취급하지 마세요">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/gpt-image-26-creator-workflow/cover.webp"
+    srcset="/assets/articles/gpt-image-26-creator-workflow/cover-small.webp 640w, /assets/articles/gpt-image-26-creator-workflow/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI 이미지 제작 · 8 분 읽음</p>
+        <h2><a href="/ko/guides/ai-image-creation/gpt-image-26-creator-workflow/">크리에이터를 위한 GPT Image 2.6: 이미지 편집과 GIF 제작 과정</a></h2>
+        <p>제품 이미지, 소셜 그래픽, 짧은 반복 GIF를 위한 재현 가능한 과정입니다. 2026년 11월 10일 기준 공식 정보에 기반하며 독립적인 품질 또는 속도 벤치마크는 아닙니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="track-ai-assistant-traffic-ga4" data-category="writing" data-search="GA4 AI Assistant 채널로 AI 유입을 추적하는 방법 AI 어시스턴트가 보낸 방문과 랜딩 페이지, 유의미한 행동을 확인하고 추천 세션을 인용이나 전체 AI 검색 노출로 오해하지 않는 방법입니다. 글쓰기 GA4 AI Assistant 채널이 집계하는 항목 세션 보고서를 열고 채널을 필터링하기 소스, 랜딩 페이지, 의미 있는 행동 확인하기 방문을 분석할 땐 세션 범위를 사용하기 AI 추천 방문과 AI 검색 노출을 따로 보기 방문이 없거나 잘못 분류되었을 때 확인하기 매달 반복할 수 있는 간단한 점검표 만들기">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/track-ai-assistant-traffic-ga4/cover.webp"
+    srcset="/assets/articles/track-ai-assistant-traffic-ga4/cover-small.webp 640w, /assets/articles/track-ai-assistant-traffic-ga4/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI 검색 가시성 · 10 분 읽음</p>
+        <h2><a href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">GA4 AI Assistant 채널로 AI 유입을 추적하는 방법</a></h2>
+        <p>AI 어시스턴트가 보낸 방문과 랜딩 페이지, 유의미한 행동을 확인하고 추천 세션을 인용이나 전체 AI 검색 노출로 오해하지 않는 방법입니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="youtube-seo-for-creators" data-category="video" data-search="크리에이터를 위한 YouTube SEO: YouTube 검색과 Google 유입 구분하기 YouTube Studio로 YouTube 내부의 발견 경로를 살펴보고, Search Console의 인증된 플랫폼 속성으로 Google 검색에서 채널을 찾는 방식을 확인하세요. 두 보고서는 서로 다른 질문에 답합니다. 비디오 동영상을 바꾸기 전에 두 검색 영역을 구분하세요 YouTube Studio에서 실제 시청자 질문을 찾으세요 동영상 하나가 명확한 작업 하나에 답하게 하세요 채널을 Search Console 플랫폼 속성으로 추가하세요 Google 발견 데이터를 Google 데이터로 읽으세요 간단한 변경 기록을 남기고 다음 작업을 고르세요">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/youtube-seo-for-creators/cover.webp"
+    srcset="/assets/articles/youtube-seo-for-creators/cover-small.webp 640w, /assets/articles/youtube-seo-for-creators/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">YouTube 검색 발견 · 9 분 읽음</p>
+        <h2><a href="/ko/guides/youtube-search-discovery/youtube-seo-for-creators/">크리에이터를 위한 YouTube SEO: YouTube 검색과 Google 유입 구분하기</a></h2>
+        <p>YouTube Studio로 YouTube 내부의 발견 경로를 살펴보고, Search Console의 인증된 플랫폼 속성으로 Google 검색에서 채널을 찾는 방식을 확인하세요. 두 보고서는 서로 다른 질문에 답합니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="content-launch-project" data-category="productivity" data-search="Nifty 콘텐츠 협업 입문: 출시 작업과 진행 단계, 브리프를 한 프로젝트에 Nifty에서 마감일, 작업 의존성, 문서를 연결하고 내보내기 결과와 무료 요금제의 범위를 확인하세요. 생산성 하나의 결과물을 위한 프로젝트 마감일과 하위 작업은 별도로 확인 의존성과 자동 진행 상황 연결 문서와 내보내기 결과 확인 정식 작업 전에 요금제 확인 작은 출시부터 시작">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/content-launch-project/cover.webp"
+    srcset="/assets/articles/content-launch-project/cover-small.webp 640w, /assets/articles/content-launch-project/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="606" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">생산성 · 4 분 읽음</p>
+        <h2><a href="/ko/guides/nifty/content-launch-project/">Nifty 콘텐츠 협업 입문: 출시 작업과 진행 단계, 브리프를 한 프로젝트에</a></h2>
+        <p>Nifty에서 마감일, 작업 의존성, 문서를 연결하고 내보내기 결과와 무료 요금제의 범위를 확인하세요.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="website-monitoring-404" data-category="monitoring" data-search="작은 팀을 위한 Oh Dear: 페이지 404와 전체 사이트 장애 구분하기 Oh Dear에서 uptime, SSL, DNS를 설정하고 알림을 테스트하세요. 전체 URL과 시간을 기준으로 404와 복구를 해석합니다. 웹사이트 모니터링 권한이 있는 사이트부터 추가 알림 유형 구분 404의 전체 URL 확인 복구와 검사 시차 해석 기록과 내보내기에 맥락 더하기 사이트 수에 맞는 요금제 선택">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/website-monitoring-404/cover.webp"
+    srcset="/assets/articles/website-monitoring-404/cover-small.webp 640w, /assets/articles/website-monitoring-404/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="818" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">웹사이트 모니터링 · 4 분 읽음</p>
+        <h2><a href="/ko/guides/oh-dear/website-monitoring-404/">작은 팀을 위한 Oh Dear: 페이지 404와 전체 사이트 장애 구분하기</a></h2>
+        <p>Oh Dear에서 uptime, SSL, DNS를 설정하고 알림을 테스트하세요. 전체 URL과 시간을 기준으로 404와 복구를 해석합니다.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="podcast-hosting-wordpress" data-category="podcasting" data-search="Castos 가이드: 팟캐스트 호스팅, WordPress와 요금제 Castos의 RSS 배포, WordPress 동기화, YouTube 재게시와 요금제 차이를 살펴보세요. 팟캐스트 어떤 방송에 활용할 수 있나요? WordPress에서는 게시 위치부터 정하세요 첫 에피소드 준비 순서 필요한 기능으로 요금제 선택하기 YouTube 재게시와 동영상 호스팅의 차이 커뮤니티 의견을 읽는 방법">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/podcast-hosting-wordpress/cover.webp"
+    srcset="/assets/articles/podcast-hosting-wordpress/cover-small.webp 640w, /assets/articles/podcast-hosting-wordpress/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="630" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">팟캐스트 · 4 분 읽음</p>
+        <h2><a href="/ko/guides/castos/podcast-hosting-wordpress/">Castos 가이드: 팟캐스트 호스팅, WordPress와 요금제</a></h2>
+        <p>Castos의 RSS 배포, WordPress 동기화, YouTube 재게시와 요금제 차이를 살펴보세요.</p>
         <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
       </div>
     </article></div>
@@ -155,14 +312,44 @@
   </div><nav class="guide-products" id="browse-products" aria-label="제품별로 찾아보기">
       <p class="eyebrow">제품별로 찾아보기</p>
       <ul><li><a href="/ko/guides/anydo/">
-          <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+          <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
           <span translate="no">Any.do</span>
           <span class="guide-count">1 개의 가이드</span>
         </a></li><li><a href="/ko/guides/submagic/">
-          <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+          <img class="product-mark product-mark-image" src="/assets/product-icons/submagic.svg" alt="" width="48" height="48">
           <span translate="no">Submagic</span>
           <span class="guide-count">1 개의 가이드</span>
+        </a></li><li><a href="/ko/guides/nifty/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/nifty.png" alt="" width="48" height="48">
+          <span translate="no">Nifty</span>
+          <span class="guide-count">1 개의 가이드</span>
+        </a></li><li><a href="/ko/guides/oh-dear/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48">
+          <span translate="no">Oh Dear</span>
+          <span class="guide-count">1 개의 가이드</span>
+        </a></li><li><a href="/ko/guides/castos/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/castos.png" alt="" width="48" height="48">
+          <span translate="no">Castos</span>
+          <span class="guide-count">1 개의 가이드</span>
         </a></li></ul>
+    </nav><nav class="guide-products guide-topics" id="browse-topics" aria-label="주제별로 보기">
+      <p class="eyebrow">주제별로 보기</p>
+      <ul><li><a href="/ko/guides/ai-video-production/">
+        <span>AI 영상 제작</span>
+        <span class="guide-count">1 개의 가이드</span>
+      </a></li><li><a href="/ko/guides/ai-workflow-automation/">
+        <span>AI 워크플로 자동화</span>
+        <span class="guide-count">1 개의 가이드</span>
+      </a></li><li><a href="/ko/guides/ai-search-visibility/">
+        <span>AI 검색 가시성</span>
+        <span class="guide-count">4 개의 가이드</span>
+      </a></li><li><a href="/ko/guides/ai-image-creation/">
+        <span>AI 이미지 제작</span>
+        <span class="guide-count">1 개의 가이드</span>
+      </a></li><li><a href="/ko/guides/youtube-search-discovery/">
+        <span>YouTube 검색 발견</span>
+        <span class="guide-count">1 개의 가이드</span>
+      </a></li></ul>
     </nav></div>
   </section></main>
   <footer class="site-footer">
@@ -175,7 +362,7 @@
       </div>
       <nav aria-label="바닥글 탐색">
         <a href="/ko/">제품</a>
-        <a href="/ko/guides/">가이드</a>
+        <a href="/ko/guides/">가이드 광장</a>
         <a href="/ko/about/">프로젝트 소개</a>
         <a href="/ko/pricing/">리뷰 의뢰</a>
         <a href="/ko/privacy/">개인 정보 보호</a>

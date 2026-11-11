@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title">
+  <title id="title">A visual workflow for reviewing multimodal search data</title>
+  <rect width="1200" height="720" rx="36" fill="#f8f2e8"/>
+  <path d="M248 362h128m192 0h120m192 0h112" fill="none" stroke="#b55231" stroke-width="8" stroke-linecap="round"/>
+  <path d="m362 342 23 20-23 20m424-40 23 20-23 20m404-40 23 20-23 20" fill="none" stroke="#b55231" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(68 186)">
+    <rect width="206" height="352" rx="30" fill="#fffdf9" stroke="#e5cdbb" stroke-width="4"/>
+    <rect x="48" y="26" width="110" height="196" rx="22" fill="#33261f"/>
+    <rect x="58" y="45" width="90" height="150" rx="14" fill="#f5e3cf"/>
+    <rect x="68" y="57" width="70" height="70" rx="12" fill="#e2af8e"/>
+    <circle cx="103" cy="91" r="21" fill="#738b71"/><path d="M69 118c13-23 28-29 38-20 11-16 20-10 31 20" fill="#d6b487"/>
+    <circle cx="103" cy="207" r="4" fill="#fffdf9"/>
+    <rect x="33" y="258" width="140" height="13" rx="7" fill="#d8c7b5"/><rect x="48" y="284" width="110" height="13" rx="7" fill="#ece1d4"/>
+  </g>
+  <g transform="translate(420 190)">
+    <rect width="230" height="344" rx="28" fill="#fffdf9" stroke="#e5cdbb" stroke-width="4"/>
+    <rect x="28" y="30" width="174" height="24" rx="12" fill="#eadfce"/>
+    <circle cx="74" cy="142" r="35" fill="#f4e2d2"/><path d="M61 142h26M74 129v26" stroke="#b55231" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="155" cy="142" r="35" fill="#e3ebdf"/><path d="M140 142h30M155 127v30" stroke="#728b73" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="74" cy="224" r="35" fill="#f4e2d2"/><path d="M58 224c11-13 22-13 33 0-11 13-22 13-33 0Z" fill="none" stroke="#b55231" stroke-width="6"/>
+    <circle cx="155" cy="224" r="35" fill="#e3ebdf"/><circle cx="155" cy="224" r="13" fill="none" stroke="#728b73" stroke-width="6"/><path d="m165 234 12 12" stroke="#728b73" stroke-width="6" stroke-linecap="round"/>
+    <rect x="30" y="292" width="170" height="12" rx="6" fill="#eadfce"/>
+  </g>
+  <g transform="translate(746 190)">
+    <rect width="230" height="344" rx="28" fill="#fffdf9" stroke="#e5cdbb" stroke-width="4"/>
+    <rect x="28" y="30" width="174" height="24" rx="12" fill="#eadfce"/>
+    <path d="M45 265V95m0 170h150" fill="none" stroke="#d9c6b2" stroke-width="5" stroke-linecap="round"/>
+    <rect x="65" y="201" width="22" height="64" rx="8" fill="#d8ac8c"/><rect x="104" y="164" width="22" height="101" rx="8" fill="#8b9f86"/><rect x="143" y="126" width="22" height="139" rx="8" fill="#c05b39"/>
+    <path d="m68 180 49-26 37-38 22-5" fill="none" stroke="#795b48" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="68" cy="180" r="6" fill="#795b48"/><circle cx="117" cy="154" r="6" fill="#795b48"/><circle cx="154" cy="116" r="6" fill="#795b48"/><circle cx="176" cy="111" r="6" fill="#795b48"/>
+  </g>
+  <g transform="translate(1004 270)">
+    <rect width="140" height="170" rx="24" fill="#dfe8db"/>
+    <path d="M38 50h64M38 72h54M38 94h42" stroke="#6f876f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M41 132 61 151l42-49" fill="none" stroke="#b55231" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

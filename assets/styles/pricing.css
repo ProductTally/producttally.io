@@ -29,6 +29,15 @@
   color: var(--accent);
 }
 .pricing-card > p, .pricing-policy { color: var(--muted); }
+.pricing-offer { padding-block: .5rem; }
+.pricing-amount { display: flex; align-items: baseline; flex-wrap: wrap; gap: .45rem; font: 600 clamp(2.5rem, 7vw, 3.5rem)/1.15 var(--body); color: var(--ink); }
+.pricing-amount > span { font: 500 1.1rem/1.4 var(--body); }
+.pricing-offer > p + p { color: var(--muted); margin-block-start: .4rem; }
+.pricing-email { justify-self: start; margin-block-start: .5rem; max-inline-size: 100%; text-align: center; }
+.pricing-process { max-inline-size: 46rem; margin-block-start: 1.75rem; }
+.pricing-process h2 { font: 600 clamp(1.2rem, 2vw, 1.5rem)/1.4 var(--body); }
+.pricing-process ol { padding-inline-start: 1.3rem; margin-block-start: .7rem; color: var(--muted); }
+.pricing-process li + li { margin-block-start: .55rem; }
 .pricing-card ul {
   display: grid;
   gap: .45rem;

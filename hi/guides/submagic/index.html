@@ -6,6 +6,7 @@
   <title>Submagic की गाइड — ProductTally</title>
   <meta name="description" content="Submagic का उपयोग करने के लिए व्यावहारिक मार्गदर्शिकाएँ और लेख।">
   <meta name="theme-color" content="#FBF8F3">
+  
   <link rel="canonical" href="https://producttally.com/hi/guides/submagic/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/guides/submagic/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/submagic/">
@@ -25,6 +26,7 @@
   <meta property="og:description" content="Submagic का उपयोग करने के लिए व्यावहारिक मार्गदर्शिकाएँ और लेख।">
   <meta property="og:url" content="https://producttally.com/hi/guides/submagic/">
   <meta property="og:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta property="og:image:alt" content="ProductTally">
   <meta property="og:locale" content="hi_IN">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
@@ -40,6 +42,7 @@
   <meta name="twitter:title" content="Submagic की गाइड — ProductTally">
   <meta name="twitter:description" content="Submagic का उपयोग करने के लिए व्यावहारिक मार्गदर्शिकाएँ और लेख।">
   <meta name="twitter:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta name="twitter:image:alt" content="ProductTally">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/hi/guides/submagic/#webpage","name":"Submagic की गाइड","description":"Submagic का उपयोग करने के लिए व्यावहारिक मार्गदर्शिकाएँ और लेख।","url":"https://producttally.com/hi/guides/submagic/","inLanguage":"hi","isPartOf":{"@id":"https://producttally.com/#website"},"breadcrumb":{"@id":"https://producttally.com/hi/guides/submagic/#breadcrumbs"}},{"@type":"BreadcrumbList","@id":"https://producttally.com/hi/guides/submagic/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"होम","item":"https://producttally.com/hi/"},{"@type":"ListItem","position":2,"name":"गाइड संग्रह","item":"https://producttally.com/hi/guides/"},{"@type":"ListItem","position":3,"name":"Submagic","item":"https://producttally.com/hi/guides/submagic/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
@@ -57,8 +60,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="प्राथमिक नेविगेशन">
-          <div class="primary-links"><a href="/hi/">उत्पाद</a><a href="/hi/guides/" aria-current="location">गाइड</a><a href="/hi/about/">हमारा तरीका</a></div>
-          <a class="header-review" href="/hi/pricing/">समीक्षा सेवा<svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a>
+          <div class="primary-links"><a href="/hi/">उत्पाद</a><a href="/hi/guides/" aria-current="location">गाइड</a><a href="/hi/pricing/">समीक्षा सेवा</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -109,24 +111,24 @@
     </header>
     <div class="catalog" data-catalog data-result-plural="गाइड"
     data-result-single="गाइड" data-locale-format="hi-IN">
-    <div class="catalog-controls">
-      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="मार्गदर्शिकाएँ या विषय खोजें…" autocomplete="off">
-        <span slot="label" class="visually-hidden">गाइड खोजें</span>
-        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
-      </wa-input>
-      <div class="filters" role="group" aria-label="गाइड फ़िल्टर करें"><wa-button data-filter="all"
+    <div class="catalog-controls"><wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="मार्गदर्शिकाएँ या विषय खोजें…" autocomplete="off">
+    <span slot="label" class="visually-hidden">गाइड खोजें</span>
+    <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+  </wa-input><div class="filters" role="group" aria-label="गाइड फ़िल्टर करें"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    सभी गाइड
+    <span>सभी गाइड</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    वीडियो
-  </wa-button></div>
-    </div>
+    <span>वीडियो</span>
+  </wa-button></div></div>
     <div class="catalog-meta" role="status"><span data-result-count>1</span> <span data-result-word>गाइड</span></div>
     <div class="note-grid"><article class="note-card" data-catalog-item="short-video-captions" data-category="video" data-search="ट्रायल में कैप्शन, SRT डाउनलोड और वीडियो एक्सपोर्ट अंग्रेज़ी नमूने पर Submagic का ट्रायल आज़माया। कैप्शन सुधारने, SRT डाउनलोड करने और वीडियो एक्सपोर्ट पर प्लान चुनने तक के नतीजे देखें। वीडियो ऐसा क्लिप चुनें जिसे आप ख़ुद जाँच सकें अपलोड से डाउनलोड तक पूरी प्रक्रिया जाँचें जो फ़ीचर इस्तेमाल करेंगे उनके क्रेडिट जोड़ें डाउनलोड की हुई फ़ाइल देखकर फ़ैसला करें">
-      <div class="note-art art-video" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4z"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/short-video-captions/cover.webp"
+    srcset="/assets/articles/short-video-captions/cover-small.webp 640w, /assets/articles/short-video-captions/cover.webp 1060w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1060" height="498" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">वीडियो · 2 मिनट पढ़ा</p>
         <h2><a href="/hi/guides/submagic/short-video-captions/">ट्रायल में कैप्शन, SRT डाउनलोड और वीडियो एक्सपोर्ट</a></h2>

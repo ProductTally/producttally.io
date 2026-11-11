@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>如何用 GA4 的 AI Assistant 渠道追踪 AI 访问 — ProductTally</title>
+  <meta name="description" content="查看 AI 助手带来的访问、落地页面和关键行为，并区分引荐会话、AI 答案引用与 AI 搜索曝光。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ko" href="https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="fr" href="https://producttally.com/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="de" href="https://producttally.com/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="it" href="https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="hi" href="https://producttally.com/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="th" href="https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="pt-BR" href="https://producttally.com/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="如何用 GA4 的 AI Assistant 渠道追踪 AI 访问 — ProductTally">
+  <meta property="og:description" content="查看 AI 助手带来的访问、落地页面和关键行为，并区分引荐会话、AI 答案引用与 AI 搜索曝光。">
+  <meta property="og:url" content="https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta property="og:image:alt" content="创作者把 AI 助手访问、视觉搜索信号和被引用页面分开整理与衡量。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="th_TH">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="如何用 GA4 的 AI Assistant 渠道追踪 AI 访问 — ProductTally">
+  <meta name="twitter:description" content="查看 AI 助手带来的访问、落地页面和关键行为，并区分引荐会话、AI 答案引用与 AI 搜索曝光。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta name="twitter:image:alt" content="创作者把 AI 助手访问、视觉搜索信号和被引用页面分开整理与衡量。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage","name":"如何用 GA4 的 AI Assistant 渠道追踪 AI 访问","description":"查看 AI 助手带来的访问、落地页面和关键行为，并区分引荐会话、AI 答案引用与 AI 搜索曝光。","url":"https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article","headline":"如何用 GA4 的 AI Assistant 渠道追踪 AI 访问","description":"查看 AI 助手带来的访问、落地页面和关键行为，并区分引荐会话、AI 答案引用与 AI 搜索曝光。","url":"https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","url":"https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp","width":1200,"height":800,"caption":"创作者把 AI 助手访问、视觉搜索信号和被引用页面分开整理与衡量。"},"dateModified":"2026-11-10","citation":["https://support.google.com/analytics/answer/9164320?hl=en","https://support.google.com/analytics/answer/9756891?hl=en","https://support.google.com/analytics/answer/12923437?hl=en","https://support.google.com/analytics/answer/14731736?hl=en","https://support.google.com/analytics/answer/15258820?hl=en","https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports","https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"AI 搜索可见度","item":"https://producttally.com/zh/guides/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"如何用 GA4 的 AI Assistant 渠道追踪 AI 访问","item":"https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/guides/" aria-current="location">指南广场</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" translate="no">
+      한국어
+    </wa-dropdown-item><wa-dropdown-item href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" translate="no">
+      Français
+    </wa-dropdown-item><wa-dropdown-item href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" translate="no">
+      Deutsch
+    </wa-dropdown-item><wa-dropdown-item href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" translate="no">
+      Italiano
+    </wa-dropdown-item><wa-dropdown-item href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" translate="no">
+      हिन्दी
+    </wa-dropdown-item><wa-dropdown-item href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" translate="no">
+      ไทย
+    </wa-dropdown-item><wa-dropdown-item href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" translate="no">
+      Português (Brasil)
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a><a href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/guides/ai-search-visibility/">AI 搜索可见度</a></li><li><span aria-current="page">如何用 GA4 的 AI Assistant 渠道追踪 AI 访问</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">写作 · 10 分钟阅读</p>
+        <h1>如何用 GA4 的 AI Assistant 渠道追踪 AI 访问</h1>
+        <p class="lead">查看 AI 助手带来的访问、落地页面和关键行为，并区分引荐会话、AI 答案引用与 AI 搜索曝光。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-10">2026年11月10日</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/track-ai-assistant-traffic-ga4/cover.webp"
+    srcset="/assets/articles/track-ai-assistant-traffic-ga4/cover-small.webp 640w, /assets/articles/track-ai-assistant-traffic-ga4/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="创作者把 AI 助手访问、视觉搜索信号和被引用页面分开整理与衡量。"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="本文目录">
+        <p class="eyebrow">本文目录</p>
+        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">GA4 的 AI Assistant 渠道统计什么</a></li><li><a href="#section-1">打开会话报表并筛出 AI Assistant</a></li><li><a href="#section-2">查看来源、落地页和真正有用的行为</a></li><li><a href="#section-3">想分析一次访问，就用会话范围</a></li><li><a href="#section-4">把 AI 引荐与 AI 搜索可见度分开</a></li><li><a href="#section-5">排查没有记录或归类异常的访问</a></li><li><a href="#section-6">建立每月都能复查的小报表</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>先看结论</h2><p>在 GA4 打开“报告 &gt; 获客 &gt; 流量获取”，将会话默认渠道组筛选为 AI Assistant，再把表格维度切换为“会话来源/媒介”，并查看落地页、互动和已配置的关键事件。该渠道统计能识别来源的 AI 助手访问；Google AI 概览和 AI 模式的点击归入自然搜索，并在 Search Console 单独查看可见度。</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>GA4 的 AI Assistant 渠道统计什么</h2><p>Google 于 2026 年 5 月 13 日为 GA4 增加 AI Assistant 流量统计。如果会话引荐来源符合已识别的 AI 助手规则，GA4 可以将媒介标为 `ai-assistant`，并把访问归入 AI Assistant。Google 举例提到 ChatGPT、Gemini、DeepSeek、Copilot 和 Grok。当前渠道定义明确排除 Google AI 概览和 AI 模式，这两者归入自然搜索。来源识别规则可能变化，复查历史报表时应以最新定义为准。</p>
+        </section><section id="section-1">
+          <h2>打开会话报表并筛出 AI Assistant</h2><p>先选对 GA4 媒体资源和日期范围，再打开“报告 &gt; 获客 &gt; 流量获取”。该报表默认维度是“会话默认渠道组”。在表格中找到 AI Assistant，或添加报表筛选器只看这个渠道。如果左侧菜单中没有“流量获取”，可能需要编辑者将报表重新加入报表集合。优先比较完整月份；只有两个时间段都有足够访问量时，环比才有解释价值。</p>
+        </section><section id="section-2">
+          <h2>查看来源、落地页和真正有用的行为</h2><p>将表格维度改为“会话来源/媒介”，查看访问来自哪个已识别的 AI 助手。再添加或筛选落地页，区分用户进入的是指南、产品页还是其他页面。把会话数与互动会话数、互动率、每次会话平均互动时长，以及实际配置的关键事件放在一起看，例如完成注册或开始试用。数量和比率应同时保留：访问很少时，百分比容易显得变化很大。</p>
+        </section><section id="section-3">
+          <h2>想分析一次访问，就用会话范围</h2><p>流量获取按会话统计，把当前访问归到该次会话的来源。用户获取则按用户统计，显示最初把这个人带到网站的渠道。两份报表回答的问题不同，互动指标的分母也不同，不要直接比较。若要回答“这个月从 AI 助手来的访问做了什么？”，应在流量获取中使用会话维度。</p>
+        </section><section id="section-4">
+          <h2>把 AI 引荐与 AI 搜索可见度分开</h2><p>GA4 能记录从 AI 助手链接进入网站的访问，却看不到没有点击的网站引用，也不能可靠地还原触发访问的提示词。Google AI 概览和 AI 模式应在 Search Console 的生成式 AI 效果报告中查看；Google 报告展示次数和出现的页面，GA4 记录后续访问和已经配置的事件。Bing AI Performance 报告引用和 grounding query。这些是不同信号，不要相加成一个“AI 流量”总数。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/track-ai-assistant-traffic-ga4/measurement-lanes.svg" width="1200" height="720"
+          alt="概念流程图：GA4 记录可识别的助手访问，Search Console 报告生成式搜索展示，Bing 报告引用；先分别看信号，再决定优化哪一页。" loading="lazy" decoding="async"><figcaption>概念流程图：GA4 记录可识别的助手访问，Search Console 报告生成式搜索展示，Bing 报告引用；先分别看信号，再决定优化哪一页。</figcaption></figure><section id="section-5">
+          <h2>排查没有记录或归类异常的访问</h2><p>如果 AI Assistant 为空，先核对媒体资源、日期范围、报表维度以及网站是否已有会话记录，再查看“会话来源/媒介”中是否存在可识别的助手来源。引荐信息丢失的访问可能显示为 direct / none；Google 还列出重定向、缺少流量来源信息和浏览器拦截等原因。应把 AI Assistant 当作可测量的下限，不要当作所有受 AI 影响人群的完整人数。</p>
+        </section><section id="section-6">
+          <h2>建立每月都能复查的小报表</h2><p>固定记录日期范围、AI Assistant 会话数、来源、落地页、互动会话和已配置的关键事件。把 Search Console 的 AI 展示次数、Bing 引用放在独立列或报表里，并在旁边记录对应时段做过的页面修改。每月使用相同时间范围和网站分区。报表能帮助你挑出值得复查的页面，但不能证明 AI 提及导致注册，也不能证明某次文案修改带来了后续引用。</p>
+        </section>
+        
+        <section><h2>官方参考资料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9164320?hl=en">Google Analytics 帮助：Google Analytics 新功能</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9756891?hl=en">Google Analytics 帮助：默认渠道组</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/12923437?hl=en">Google Analytics 帮助：流量获取报告</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/14731736?hl=en">Google Analytics 帮助：用户获取与流量获取的区别</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/15258820?hl=en">Google Analytics 帮助：了解 direct / none 流量</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports">Google 搜索中心：Search Generative AI 效果报告</a></cite></li><li><cite><a data-source-citation="true" href="https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/">Bing Webmaster Blog：AI Performance 公开预览</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/guides/">指南广场</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

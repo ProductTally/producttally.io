@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GA4のAI AssistantチャネルでAI流入を確認する方法 — ProductTally</title>
+  <meta name="description" content="AIアシスタントからの訪問、流入先ページ、有効な行動を確認し、紹介セッションと引用、AI検索全体の露出を混同しないための手順です。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ko" href="https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="fr" href="https://producttally.com/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="de" href="https://producttally.com/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="it" href="https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="hi" href="https://producttally.com/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="th" href="https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="pt-BR" href="https://producttally.com/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="GA4のAI AssistantチャネルでAI流入を確認する方法 — ProductTally">
+  <meta property="og:description" content="AIアシスタントからの訪問、流入先ページ、有効な行動を確認し、紹介セッションと引用、AI検索全体の露出を混同しないための手順です。">
+  <meta property="og:url" content="https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta property="og:image:alt" content="クリエイターがAIアシスタントからの訪問、画像検索のシグナル、引用されたページを別々に整理しています。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="th_TH">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GA4のAI AssistantチャネルでAI流入を確認する方法 — ProductTally">
+  <meta name="twitter:description" content="AIアシスタントからの訪問、流入先ページ、有効な行動を確認し、紹介セッションと引用、AI検索全体の露出を混同しないための手順です。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta name="twitter:image:alt" content="クリエイターがAIアシスタントからの訪問、画像検索のシグナル、引用されたページを別々に整理しています。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage","name":"GA4のAI AssistantチャネルでAI流入を確認する方法","description":"AIアシスタントからの訪問、流入先ページ、有効な行動を確認し、紹介セッションと引用、AI検索全体の露出を混同しないための手順です。","url":"https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article"},"breadcrumb":{"@id":"https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article","headline":"GA4のAI AssistantチャネルでAI流入を確認する方法","description":"AIアシスタントからの訪問、流入先ページ、有効な行動を確認し、紹介セッションと引用、AI検索全体の露出を混同しないための手順です。","url":"https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","url":"https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp","width":1200,"height":800,"caption":"クリエイターがAIアシスタントからの訪問、画像検索のシグナル、引用されたページを別々に整理しています。"},"dateModified":"2026-11-10","citation":["https://support.google.com/analytics/answer/9164320?hl=en","https://support.google.com/analytics/answer/9756891?hl=en","https://support.google.com/analytics/answer/12923437?hl=en","https://support.google.com/analytics/answer/14731736?hl=en","https://support.google.com/analytics/answer/15258820?hl=en","https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports","https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ガイド一覧","item":"https://producttally.com/ja/guides/"},{"@type":"ListItem","position":3,"name":"AI検索での可視性","item":"https://producttally.com/ja/guides/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"GA4のAI AssistantチャネルでAI流入を確認する方法","item":"https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/guides/" aria-current="location">ガイド広場</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" translate="no">
+      한국어
+    </wa-dropdown-item><wa-dropdown-item href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" translate="no">
+      Français
+    </wa-dropdown-item><wa-dropdown-item href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" translate="no">
+      Deutsch
+    </wa-dropdown-item><wa-dropdown-item href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" translate="no">
+      Italiano
+    </wa-dropdown-item><wa-dropdown-item href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" translate="no">
+      हिन्दी
+    </wa-dropdown-item><wa-dropdown-item href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" translate="no">
+      ไทย
+    </wa-dropdown-item><wa-dropdown-item href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" translate="no">
+      Português (Brasil)
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a><a href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/guides/">ガイド一覧</a></li><li><a href="/ja/guides/ai-search-visibility/">AI検索での可視性</a></li><li><span aria-current="page">GA4のAI AssistantチャネルでAI流入を確認する方法</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">執筆 · 10 最小読み取り</p>
+        <h1>GA4のAI AssistantチャネルでAI流入を確認する方法</h1>
+        <p class="lead">AIアシスタントからの訪問、流入先ページ、有効な行動を確認し、紹介セッションと引用、AI検索全体の露出を混同しないための手順です。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-10">2026/11/10</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/track-ai-assistant-traffic-ga4/cover.webp"
+    srcset="/assets/articles/track-ai-assistant-traffic-ga4/cover-small.webp 640w, /assets/articles/track-ai-assistant-traffic-ga4/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="クリエイターがAIアシスタントからの訪問、画像検索のシグナル、引用されたページを別々に整理しています。"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="この記事の目次">
+        <p class="eyebrow">この記事の目次</p>
+        <ol><li><a href="#quick-answer">結論</a></li><li><a href="#section-0">GA4のAI Assistantチャネルが数えるもの</a></li><li><a href="#section-1">セッションレポートを開いてチャネルを絞る</a></li><li><a href="#section-2">参照元、ランディングページ、有効な行動を見る</a></li><li><a href="#section-3">訪問を分析するならセッション単位を使う</a></li><li><a href="#section-4">AI流入とAI検索での可視性を分ける</a></li><li><a href="#section-5">訪問が見えない、または分類が違うとき</a></li><li><a href="#section-6">毎月繰り返せる小さな確認表を作る</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>結論</h2><p>GA4で「レポート」&gt;「集客」&gt;「トラフィック獲得」を開き、セッションのデフォルトチャネルグループをAI Assistantに絞ります。表のディメンションを「セッションの参照元 / メディア」に変更し、ランディングページ、エンゲージメント、キーイベントを確認します。認識されたアシスタントからの訪問を測るチャネルです。GoogleのAI OverviewsとAI Modeはオーガニック検索に分類され、Search Consoleで別に可視性を確認します。</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>GA4のAI Assistantチャネルが数えるもの</h2><p>Googleは2026年5月13日にGA4のAI Assistantトラフィック計測を発表しました。セッションの参照元が認識済みアシスタントに一致すると、メディアが`ai-assistant`となり、AI Assistantチャネルに分類される場合があります。例としてChatGPT、Gemini、DeepSeek、Copilot、Grokが挙げられています。現在の定義ではGoogle AI OverviewsとAI Modeは除外され、オーガニック検索に含まれます。認識ルールは変わり得るため、次回の確認時は最新定義を参照してください。</p>
+        </section><section id="section-1">
+          <h2>セッションレポートを開いてチャネルを絞る</h2><p>正しいGA4プロパティと期間を選び、「レポート」&gt;「集客」&gt;「トラフィック獲得」を開きます。デフォルトのディメンションはセッションのデフォルトチャネルグループです。表からAI Assistantを探すか、レポートフィルタでそのチャネルだけを含めます。集客レポートが左メニューにない場合は、編集者がレポートコレクションに戻す必要があるかもしれません。比較する両方の期間に十分な実績がある場合に、月単位で比べます。</p>
+        </section><section id="section-2">
+          <h2>参照元、ランディングページ、有効な行動を見る</h2><p>表のディメンションを「セッションの参照元 / メディア」に変え、認識されたアシスタントを確認します。ランディングページを追加または絞り込み、ガイド、製品ページ、その他のURLのどこに訪問者が到着したかを見ます。セッション数、エンゲージメントのあったセッション、エンゲージメント率、セッションあたりの平均エンゲージメント時間、実際に設定したキーイベント（登録完了やトライアル開始など）を並べて確認します。母数が小さいと割合の変化が大きく見えるため、件数も残します。</p>
+        </section><section id="section-3">
+          <h2>訪問を分析するならセッション単位を使う</h2><p>トラフィック獲得はセッション単位で、現在の訪問をそのセッションの参照元に割り当てます。ユーザー獲得はユーザー単位で、最初にサイトを訪れたチャネルを示します。答える質問も分母も異なるため、エンゲージメント指標を同じものとして直接比較しないでください。「今月、AI経由の訪問は何をしたか」を調べるなら、トラフィック獲得のセッションディメンションを使います。</p>
+        </section><section id="section-4">
+          <h2>AI流入とAI検索での可視性を分ける</h2><p>GA4で確認できるのは、アシスタント内のリンクからサイトへ訪問したケースです。クリックのない引用や、訪問につながったプロンプトは把握できません。Google AI OverviewsとAI ModeはSearch Consoleの生成AI機能パフォーマンスレポートで確認します。Googleは表示回数と表示ページを示し、GA4はその後の訪問と設定済みイベントを記録します。Bing AI Performanceは引用とgrounding queryを報告します。それぞれ別のシグナルなので、1つの「AI流入」合計に加算しないでください。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/track-ai-assistant-traffic-ga4/measurement-lanes.svg" width="1200" height="720"
+          alt="概念図：GA4は識別できるアシスタント訪問、Search Consoleは生成AI検索の表示、Bingは引用を計測します。各シグナルを分けて確認してから改善するページを選びます。" loading="lazy" decoding="async"><figcaption>概念図：GA4は識別できるアシスタント訪問、Search Consoleは生成AI検索の表示、Bingは引用を計測します。各シグナルを分けて確認してから改善するページを選びます。</figcaption></figure><section id="section-5">
+          <h2>訪問が見えない、または分類が違うとき</h2><p>AI Assistantが空なら、プロパティ、期間、レポートのディメンション、サイトにセッションが記録されているかを確認します。次に「セッションの参照元 / メディア」で認識可能なアシスタントの参照元を探します。参照元情報が失われるとdirect / noneに分類される場合があります。Googleはリダイレクト、流入情報の欠落、ブラウザによるブロックも原因として挙げています。このチャネルは測定できる下限として扱い、AIの影響を受けた全員の数とは見なさないでください。</p>
+        </section><section id="section-6">
+          <h2>毎月繰り返せる小さな確認表を作る</h2><p>期間、AI Assistantのセッション数、参照元、ランディングページ、エンゲージメントのあったセッション、設定済みキーイベントを保存します。Search ConsoleのAI表示回数とBingの引用は別の列またはレポートに記録し、該当期間に行ったページ変更も添えます。毎月同じ期間とページ区分を比較してください。レポートは確認すべきページを選ぶ助けになりますが、AIの言及が登録を生んだことや、文章変更が後の引用を生んだことを証明するものではありません。</p>
+        </section>
+        
+        <section><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9164320?hl=en">Google Analytics ヘルプ：Google Analytics の最新情報</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9756891?hl=en">Google Analytics ヘルプ：デフォルトチャネルグループ</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/12923437?hl=en">Google Analytics ヘルプ：トラフィック獲得レポート</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/14731736?hl=en">Google Analytics ヘルプ：ユーザー獲得とトラフィック獲得</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/15258820?hl=en">Google Analytics ヘルプ：direct / none トラフィック</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports">Google Search Central：生成AI検索パフォーマンスレポート</a></cite></li><li><cite><a data-source-citation="true" href="https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/">Bing Webmaster Blog：AI Performance 公開プレビュー</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/guides/">ガイド広場</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

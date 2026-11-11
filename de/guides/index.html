@@ -6,6 +6,7 @@
   <title>Anleitungen — ProductTally</title>
   <meta name="description" content="Praktische Artikel zur Auswahl und Verwendung digitaler Produkte.">
   <meta name="theme-color" content="#FBF8F3">
+  
   <link rel="canonical" href="https://producttally.com/de/guides/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/guides/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/">
@@ -25,6 +26,7 @@
   <meta property="og:description" content="Praktische Artikel zur Auswahl und Verwendung digitaler Produkte.">
   <meta property="og:url" content="https://producttally.com/de/guides/">
   <meta property="og:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta property="og:image:alt" content="ProductTally">
   <meta property="og:locale" content="de_DE">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
@@ -40,6 +42,7 @@
   <meta name="twitter:title" content="Anleitungen — ProductTally">
   <meta name="twitter:description" content="Praktische Artikel zur Auswahl und Verwendung digitaler Produkte.">
   <meta name="twitter:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta name="twitter:image:alt" content="ProductTally">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/de/guides/#webpage","name":"Anleitungen","description":"Praktische Artikel zur Auswahl und Verwendung digitaler Produkte.","url":"https://producttally.com/de/guides/","inLanguage":"de","isPartOf":{"@id":"https://producttally.com/#website"},"breadcrumb":{"@id":"https://producttally.com/de/guides/#breadcrumbs"}},{"@type":"BreadcrumbList","@id":"https://producttally.com/de/guides/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Startseite","item":"https://producttally.com/de/"},{"@type":"ListItem","position":2,"name":"Anleitungen","item":"https://producttally.com/de/guides/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
@@ -57,8 +60,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="Primäre Navigation">
-          <div class="primary-links"><a href="/de/">Produkte</a><a href="/de/guides/" aria-current="page">Anleitungen</a><a href="/de/about/">Unsere Kriterien</a></div>
-          <a class="header-review" href="/de/pricing/">Test beauftragen<svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a>
+          <div class="primary-links"><a href="/de/">Produkte</a><a href="/de/guides/" aria-current="page">Ratgeber</a><a href="/de/pricing/">Test beauftragen</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -109,27 +111,36 @@
     </header>
     <div class="guide-library"><div class="catalog" data-catalog data-result-plural="Anleitungen"
     data-result-single="Anleitung" data-locale-format="de-DE">
-    <div class="catalog-controls">
-      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="Anleitungen oder Themen suchen…" autocomplete="off">
-        <span slot="label" class="visually-hidden">Anleitungen suchen</span>
-        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
-      </wa-input>
-      <div class="filters" role="group" aria-label="Anleitungen filtern"><wa-button data-filter="all"
+    <div class="catalog-controls"><wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="Anleitungen oder Themen suchen…" autocomplete="off">
+    <span slot="label" class="visually-hidden">Anleitungen suchen</span>
+    <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+  </wa-input><div class="filters" role="group" aria-label="Anleitungen filtern"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    Alle Anleitungen
+    <span>Alle Anleitungen</span>
+  </wa-button><wa-button data-filter="monitoring"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>Website-Monitoring</span>
+  </wa-button><wa-button data-filter="podcasting"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>Podcasts</span>
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>Schreiben</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    Video
+    <span>Video</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    Produktivität
-  </wa-button></div>
-    </div>
-    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>Anleitungen</span></div>
+    <span>Produktivität</span>
+  </wa-button></div></div>
+    <div class="catalog-meta" role="status"><span data-result-count>13</span> <span data-result-word>Anleitungen</span></div>
     <div class="note-grid"><article class="note-card" data-catalog-item="plan-a-publishing-week" data-category="productivity" data-search="Eine Veröffentlichungswoche mit dem kostenlosen My Day planen So schlägt sich Any.do Free bei der Wochenplanung: getestete Aufgaben und Erinnerungen, Datumseingabe in drei Sprachen und Optionen zum Teilen. Produktivität Aus einem Thema konkrete Tagesaufgaben machen Datumsangaben in Ihrer Arbeitssprache prüfen Ein gemeinsames Board ausprobieren, sobald Übergaben nötig sind Nach einem echten Veröffentlichungszyklus entscheiden">
-      <div class="note-art art-writing" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19h14M7 15l1-5L17 1l5 5-9 9-6 1M14 4l5 5"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/plan-a-publishing-week/cover.webp"
+    srcset="/assets/articles/plan-a-publishing-week/cover-small.webp 640w, /assets/articles/plan-a-publishing-week/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">Produktivität · 2 Min. gelesen</p>
         <h2><a href="/de/guides/anydo/plan-a-publishing-week/">Eine Veröffentlichungswoche mit dem kostenlosen My Day planen</a></h2>
@@ -137,13 +148,159 @@
         <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
       </div>
     </article><article class="note-card" data-catalog-item="short-video-captions" data-category="video" data-search="Untertitel im Test, SRT-Download und Videoexport Was im Submagic-Test mit einem englischen Clip möglich war, von der Untertitelkorrektur bis zum kostenpflichtigen Videoexport. Video Einen gut überprüfbaren Clip wählen Den Ablauf bis zur fertigen Datei testen Credits für die tatsächlichen Arbeitsschritte kalkulieren Mit einem fertigen Export entscheiden">
-      <div class="note-art art-video" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4z"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/short-video-captions/cover.webp"
+    srcset="/assets/articles/short-video-captions/cover-small.webp 640w, /assets/articles/short-video-captions/cover.webp 1060w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1060" height="498" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">Video · 2 Min. gelesen</p>
         <h2><a href="/de/guides/submagic/short-video-captions/">Untertitel im Test, SRT-Download und Videoexport</a></h2>
         <p>Was im Submagic-Test mit einem englischen Clip möglich war, von der Untertitelkorrektur bis zum kostenpflichtigen Videoexport.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="ai-video-workflow-for-small-teams" data-category="video" data-search="KI-Video für kleine Teams: planen, erzeugen, schneiden, prüfen Ein KI-Videoablauf für Kreative und kleine Teams: Briefing erstellen, Einstellungen prüfen und Regeln der Zielplattform beachten. Das Nachfragesignal stammt vom US-Marktplatz Upwork und entspricht nicht dem weltweiten Google-Suchvolumen. Video Vor dem Generator ein Briefing schreiben Überprüfbare Einstellungen erzeugen Eine Geschichte schneiden und die fertige Datei prüfen Kennzeichnungsregeln der jeweiligen Plattform prüfen Für jedes wichtige Video eine eigene Seite anlegen">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/ai-video-workflow-for-small-teams/cover.webp"
+    srcset="/assets/articles/ai-video-workflow-for-small-teams/cover-small.webp 640w, /assets/articles/ai-video-workflow-for-small-teams/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">KI-Videoproduktion · 8 Min. gelesen</p>
+        <h2><a href="/de/guides/ai-video-production/ai-video-workflow-for-small-teams/">KI-Video für kleine Teams: planen, erzeugen, schneiden, prüfen</a></h2>
+        <p>Ein KI-Videoablauf für Kreative und kleine Teams: Briefing erstellen, Einstellungen prüfen und Regeln der Zielplattform beachten. Das Nachfragesignal stammt vom US-Marktplatz Upwork und entspricht nicht dem weltweiten Google-Suchvolumen.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="choose-your-first-ai-automation" data-category="productivity" data-search="KI-Workflow-Automatisierung: einen sicheren ersten Prozess wählen Finde eine wiederholbare Aufgabe, setze menschliche Prüfpunkte und bewerte einen Pilotversuch vor dem Ausbau. Das Nachfragesignal stammt vom US-Marktplatz Upwork und entspricht nicht dem weltweiten Google-Suchvolumen. Produktivität Den aktuellen Ablauf samt Ausnahmen dokumentieren Bei vorhersehbaren Schritten einen festen Workflow nutzen Freigaben, Zugriffe und Wiederherstellung festlegen Einen Ablauf testen und das Gesamtergebnis messen Den Pilotversuch als reproduzierbaren Beleg veröffentlichen">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/choose-your-first-ai-automation/cover.webp"
+    srcset="/assets/articles/choose-your-first-ai-automation/cover-small.webp 640w, /assets/articles/choose-your-first-ai-automation/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">KI-Workflow-Automatisierung · 9 Min. gelesen</p>
+        <h2><a href="/de/guides/ai-workflow-automation/choose-your-first-ai-automation/">KI-Workflow-Automatisierung: einen sicheren ersten Prozess wählen</a></h2>
+        <p>Finde eine wiederholbare Aufgabe, setze menschliche Prüfpunkte und bewerte einen Pilotversuch vor dem Ausbau. Das Nachfragesignal stammt vom US-Marktplatz Upwork und entspricht nicht dem weltweiten Google-Suchvolumen.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="ai-search-visibility-checklist" data-category="writing" data-search="KI-SEO für kleine Websites: eine praktische GEO-Checkliste Verbessere die Sichtbarkeit in der KI-Suche mit bewährten SEO-Grundlagen und überprüfbaren Belegen. Erfahre, was du messen und welche GEO-Abkürzungen du meiden solltest. Schreiben Seiten auffindbar und verständlich machen Informationen hinzufügen, die eine allgemeine Zusammenfassung nicht bietet Zuerst antworten, danach begründen Strukturierte Daten korrekt halten und Sichtbarkeit messen Eine Suchabsicht einer hilfreichen Seite zuordnen Zitate, Markennennungen und Ergebnisse getrennt messen">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/ai-search-visibility-checklist/cover.webp"
+    srcset="/assets/articles/ai-search-visibility-checklist/cover-small.webp 640w, /assets/articles/ai-search-visibility-checklist/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">Sichtbarkeit in der KI-Suche · 11 Min. gelesen</p>
+        <h2><a href="/de/guides/ai-search-visibility/ai-search-visibility-checklist/">KI-SEO für kleine Websites: eine praktische GEO-Checkliste</a></h2>
+        <p>Verbessere die Sichtbarkeit in der KI-Suche mit bewährten SEO-Grundlagen und überprüfbaren Belegen. Erfahre, was du messen und welche GEO-Abkürzungen du meiden solltest.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="bing-ai-performance-topic-gaps" data-category="writing" data-search="GEO-Inhaltslücken mit Bing AI Performance finden Prüfe mit Topics Portfolio in Bing Webmaster Tools Zitatthemen und Opportunity Queries. Entscheide dann, ob ein vorhandener Leitfaden verbessert werden sollte oder ein eigenständiger Artikel sinnvoll ist. Die Funktion ist Beta; ihre Werte sind Richtungsindikatoren. Schreiben Verfügbarkeit des Berichts prüfen Drei Themensignale richtig lesen Eine Opportunity Query in eine redaktionelle Entscheidung übersetzen Die Leserfrage statt des Dashboard-Labels beantworten Ein kleines, wiederholbares Protokoll führen Die Grenzen kennen">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/bing-ai-performance-topic-gaps/cover.webp"
+    srcset="/assets/articles/bing-ai-performance-topic-gaps/cover-small.webp 640w, /assets/articles/bing-ai-performance-topic-gaps/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">Sichtbarkeit in der KI-Suche · 9 Min. gelesen</p>
+        <h2><a href="/de/guides/ai-search-visibility/bing-ai-performance-topic-gaps/">GEO-Inhaltslücken mit Bing AI Performance finden</a></h2>
+        <p>Prüfe mit Topics Portfolio in Bing Webmaster Tools Zitatthemen und Opportunity Queries. Entscheide dann, ob ein vorhandener Leitfaden verbessert werden sollte oder ein eigenständiger Artikel sinnvoll ist. Die Funktion ist Beta; ihre Werte sind Richtungsindikatoren.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="google-multimodal-search-console" data-category="writing" data-search="Multimodaler Suchbericht in Search Console: Checkliste für Bild-SEO So findest du bildbasierte Suchanfragen wie Lens und Circle to Search, verstehst die Grenzen des neuen Berichts und prüfst die Bild-SEO relevanter Seiten. Schreiben Den neuen Suchtyp-Filter finden Verstehen, was die Impressionen abbilden Bilder auf bereits sichtbaren Seiten prüfen Wichtige Bilder in den Seitenkontext einbetten Eine kontrollierte Änderung vornehmen und dokumentieren Versprechen zu Visual Search zurückhaltend formulieren">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/google-multimodal-search-console/cover.webp"
+    srcset="/assets/articles/google-multimodal-search-console/cover-small.webp 640w, /assets/articles/google-multimodal-search-console/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">Sichtbarkeit in der KI-Suche · 9 Min. gelesen</p>
+        <h2><a href="/de/guides/ai-search-visibility/google-multimodal-search-console/">Multimodaler Suchbericht in Search Console: Checkliste für Bild-SEO</a></h2>
+        <p>So findest du bildbasierte Suchanfragen wie Lens und Circle to Search, verstehst die Grenzen des neuen Berichts und prüfst die Bild-SEO relevanter Seiten.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="gpt-image-26-creator-workflow" data-category="video" data-search="GPT Image 2.6 für Kreative: Bildbearbeitung und GIF-Workflow Ein wiederholbarer Ablauf für Produktbilder, Social-Grafiken und kurze GIF-Loops. Stand der offiziellen Informationen: 10. November 2026; dies ist kein unabhängiger Qualitäts- oder Geschwindigkeitstest. Video Ein Bild und seinen Zweck festlegen Einen bearbeitbaren Prompt formulieren Eine Basis erstellen und pro Runde eine Sache ändern Ein GIF als einfache, nahtlose Bewegung planen Vor dem Export im echten Einsatz prüfen Release-Angaben nicht als Testergebnis ausgeben">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/gpt-image-26-creator-workflow/cover.webp"
+    srcset="/assets/articles/gpt-image-26-creator-workflow/cover-small.webp 640w, /assets/articles/gpt-image-26-creator-workflow/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">KI-Bilderstellung · 8 Min. gelesen</p>
+        <h2><a href="/de/guides/ai-image-creation/gpt-image-26-creator-workflow/">GPT Image 2.6 für Kreative: Bildbearbeitung und GIF-Workflow</a></h2>
+        <p>Ein wiederholbarer Ablauf für Produktbilder, Social-Grafiken und kurze GIF-Loops. Stand der offiziellen Informationen: 10. November 2026; dies ist kein unabhängiger Qualitäts- oder Geschwindigkeitstest.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="track-ai-assistant-traffic-ga4" data-category="writing" data-search="KI-Traffic in GA4 mit dem Kanal AI Assistant messen Ermitteln Sie Besuche über KI-Assistenten, deren Einstiegsseiten und relevante Aktionen, ohne Verweis-Sitzungen mit Zitaten oder der gesamten KI-Suchpräsenz gleichzusetzen. Schreiben Was der GA4-Kanal AI Assistant erfasst Den Sitzungsbericht öffnen und den Kanal filtern Quellen, Einstiegsseiten und sinnvolle Aktionen prüfen Für einzelne Besuche den Sitzungsumfang verwenden KI-Verweise von KI-Sichtbarkeit getrennt halten Fehlende oder falsch eingeordnete Besuche untersuchen Eine monatliche, wiederholbare Auswertung anlegen">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/track-ai-assistant-traffic-ga4/cover.webp"
+    srcset="/assets/articles/track-ai-assistant-traffic-ga4/cover-small.webp 640w, /assets/articles/track-ai-assistant-traffic-ga4/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">Sichtbarkeit in der KI-Suche · 10 Min. gelesen</p>
+        <h2><a href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">KI-Traffic in GA4 mit dem Kanal AI Assistant messen</a></h2>
+        <p>Ermitteln Sie Besuche über KI-Assistenten, deren Einstiegsseiten und relevante Aktionen, ohne Verweis-Sitzungen mit Zitaten oder der gesamten KI-Suchpräsenz gleichzusetzen.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="youtube-seo-for-creators" data-category="video" data-search="YouTube-SEO für Creator: YouTube-Suche und Google-Zugriffe getrennt betrachten Nutze YouTube Studio, um die Entdeckung innerhalb von YouTube zu verstehen, und eine bestätigte Plattform-Property in der Search Console, um Google-Zugriffe auf deinen Kanal zu sehen. Beide Berichte beantworten unterschiedliche Fragen. Video Unterscheide die beiden Suchflächen vor Änderungen Finde eine echte Zuschauerfrage in YouTube Studio Lass ein Video eine konkrete Aufgabe beantworten Füge den Kanal als Search-Console-Plattform-Property hinzu Lies Google-Entdeckung als Google-Daten Führe ein kurzes Änderungsprotokoll und wähle den nächsten Schritt">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/youtube-seo-for-creators/cover.webp"
+    srcset="/assets/articles/youtube-seo-for-creators/cover-small.webp 640w, /assets/articles/youtube-seo-for-creators/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">Entdeckung über die YouTube-Suche · 9 Min. gelesen</p>
+        <h2><a href="/de/guides/youtube-search-discovery/youtube-seo-for-creators/">YouTube-SEO für Creator: YouTube-Suche und Google-Zugriffe getrennt betrachten</a></h2>
+        <p>Nutze YouTube Studio, um die Entdeckung innerhalb von YouTube zu verstehen, und eine bestätigte Plattform-Property in der Search Console, um Google-Zugriffe auf deinen Kanal zu sehen. Beide Berichte beantworten unterschiedliche Fragen.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="content-launch-project" data-category="productivity" data-search="Nifty für Content-Teams: Aufgaben, Etappen und Briefing für einen Launch Planen Sie einen Launch mit Nifty: Termine, Abhängigkeiten und Dokumente verbinden, Exporte prüfen und den Free-Tarif einordnen. Produktivität Ein Projekt für ein Ergebnis Termin und Checkliste getrennt prüfen Abhängigkeiten und Fortschritt verbinden Briefing speichern und Exporte prüfen Tarif vor dem Produktiveinsatz prüfen Mit einem kleinen Launch beginnen">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/content-launch-project/cover.webp"
+    srcset="/assets/articles/content-launch-project/cover-small.webp 640w, /assets/articles/content-launch-project/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="606" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">Produktivität · 4 Min. gelesen</p>
+        <h2><a href="/de/guides/nifty/content-launch-project/">Nifty für Content-Teams: Aufgaben, Etappen und Briefing für einen Launch</a></h2>
+        <p>Planen Sie einen Launch mit Nifty: Termine, Abhängigkeiten und Dokumente verbinden, Exporte prüfen und den Free-Tarif einordnen.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="website-monitoring-404" data-category="monitoring" data-search="Oh Dear für kleine Teams: einen 404 von einem Website-Ausfall unterscheiden Uptime, SSL und DNS einrichten, eine Nachricht testen und 404-Berichte anhand vollständiger URL und Zeitstempel verstehen. Website-Monitoring Eine autorisierte Website hinzufügen Meldungsarten unterscheiden Die vollständige 404-URL lesen Wiederherstellung richtig einordnen Verlauf und Export kontextualisieren Nach Website-Anzahl wählen">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/website-monitoring-404/cover.webp"
+    srcset="/assets/articles/website-monitoring-404/cover-small.webp 640w, /assets/articles/website-monitoring-404/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="818" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">Website-Monitoring · 4 Min. gelesen</p>
+        <h2><a href="/de/guides/oh-dear/website-monitoring-404/">Oh Dear für kleine Teams: einen 404 von einem Website-Ausfall unterscheiden</a></h2>
+        <p>Uptime, SSL und DNS einrichten, eine Nachricht testen und 404-Berichte anhand vollständiger URL und Zeitstempel verstehen.</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="podcast-hosting-wordpress" data-category="podcasting" data-search="Castos für Podcasts: Hosting, WordPress und Tarife RSS-Veröffentlichung, WordPress-Synchronisierung und YouTube-Funktionen von Castos verstehen und den passenden Tarif wählen. Podcasts Was bietet Castos? WordPress: Veröffentlichungsort festlegen Die erste Episode vorbereiten Den Tarif nach dem Ablauf wählen YouTube-Veröffentlichung und Videohosting Community-Berichte richtig einordnen">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/podcast-hosting-wordpress/cover.webp"
+    srcset="/assets/articles/podcast-hosting-wordpress/cover-small.webp 640w, /assets/articles/podcast-hosting-wordpress/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="630" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">Podcasts · 4 Min. gelesen</p>
+        <h2><a href="/de/guides/castos/podcast-hosting-wordpress/">Castos für Podcasts: Hosting, WordPress und Tarife</a></h2>
+        <p>RSS-Veröffentlichung, WordPress-Synchronisierung und YouTube-Funktionen von Castos verstehen und den passenden Tarif wählen.</p>
         <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
       </div>
     </article></div>
@@ -155,14 +312,44 @@
   </div><nav class="guide-products" id="browse-products" aria-label="Nach Produkt durchsuchen">
       <p class="eyebrow">Nach Produkt durchsuchen</p>
       <ul><li><a href="/de/guides/anydo/">
-          <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+          <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
           <span translate="no">Any.do</span>
           <span class="guide-count">1 Anleitung</span>
         </a></li><li><a href="/de/guides/submagic/">
-          <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+          <img class="product-mark product-mark-image" src="/assets/product-icons/submagic.svg" alt="" width="48" height="48">
           <span translate="no">Submagic</span>
           <span class="guide-count">1 Anleitung</span>
+        </a></li><li><a href="/de/guides/nifty/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/nifty.png" alt="" width="48" height="48">
+          <span translate="no">Nifty</span>
+          <span class="guide-count">1 Anleitung</span>
+        </a></li><li><a href="/de/guides/oh-dear/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48">
+          <span translate="no">Oh Dear</span>
+          <span class="guide-count">1 Anleitung</span>
+        </a></li><li><a href="/de/guides/castos/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/castos.png" alt="" width="48" height="48">
+          <span translate="no">Castos</span>
+          <span class="guide-count">1 Anleitung</span>
         </a></li></ul>
+    </nav><nav class="guide-products guide-topics" id="browse-topics" aria-label="Nach Themen stöbern">
+      <p class="eyebrow">Nach Themen stöbern</p>
+      <ul><li><a href="/de/guides/ai-video-production/">
+        <span>KI-Videoproduktion</span>
+        <span class="guide-count">1 Anleitung</span>
+      </a></li><li><a href="/de/guides/ai-workflow-automation/">
+        <span>KI-Workflow-Automatisierung</span>
+        <span class="guide-count">1 Anleitung</span>
+      </a></li><li><a href="/de/guides/ai-search-visibility/">
+        <span>Sichtbarkeit in der KI-Suche</span>
+        <span class="guide-count">4 Anleitungen</span>
+      </a></li><li><a href="/de/guides/ai-image-creation/">
+        <span>KI-Bilderstellung</span>
+        <span class="guide-count">1 Anleitung</span>
+      </a></li><li><a href="/de/guides/youtube-search-discovery/">
+        <span>Entdeckung über die YouTube-Suche</span>
+        <span class="guide-count">1 Anleitung</span>
+      </a></li></ul>
     </nav></div>
   </section></main>
   <footer class="site-footer">
@@ -175,7 +362,7 @@
       </div>
       <nav aria-label="Fußzeilennavigation">
         <a href="/de/">Produkte</a>
-        <a href="/de/guides/">Anleitungen</a>
+        <a href="/de/guides/">Ratgeber</a>
         <a href="/de/about/">Über das Projekt</a>
         <a href="/de/pricing/">Test beauftragen</a>
         <a href="/de/privacy/">Privatsphäre</a>

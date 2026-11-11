@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="th" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant — ProductTally</title>
+  <meta name="description" content="ดูการเข้าชมจากผู้ช่วย AI หน้า Landing Page และการกระทำที่มีความหมาย โดยไม่สับสนระหว่างเซสชันจากลิงก์ การอ้างอิง และการมองเห็นในการค้นหาด้วย AI ทั้งหมด">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ko" href="https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="fr" href="https://producttally.com/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="de" href="https://producttally.com/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="it" href="https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="hi" href="https://producttally.com/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="th" href="https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="pt-BR" href="https://producttally.com/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant — ProductTally">
+  <meta property="og:description" content="ดูการเข้าชมจากผู้ช่วย AI หน้า Landing Page และการกระทำที่มีความหมาย โดยไม่สับสนระหว่างเซสชันจากลิงก์ การอ้างอิง และการมองเห็นในการค้นหาด้วย AI ทั้งหมด">
+  <meta property="og:url" content="https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta property="og:image:alt" content="ครีเอเตอร์แยกการเข้าชมจากผู้ช่วย AI สัญญาณการค้นหาด้วยภาพ และหน้าที่ได้รับการอ้างอิงออกจากกัน">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="th_TH">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant — ProductTally">
+  <meta name="twitter:description" content="ดูการเข้าชมจากผู้ช่วย AI หน้า Landing Page และการกระทำที่มีความหมาย โดยไม่สับสนระหว่างเซสชันจากลิงก์ การอ้างอิง และการมองเห็นในการค้นหาด้วย AI ทั้งหมด">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta name="twitter:image:alt" content="ครีเอเตอร์แยกการเข้าชมจากผู้ช่วย AI สัญญาณการค้นหาด้วยภาพ และหน้าที่ได้รับการอ้างอิงออกจากกัน">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage","name":"วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant","description":"ดูการเข้าชมจากผู้ช่วย AI หน้า Landing Page และการกระทำที่มีความหมาย โดยไม่สับสนระหว่างเซสชันจากลิงก์ การอ้างอิง และการมองเห็นในการค้นหาด้วย AI ทั้งหมด","url":"https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"th","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article"},"breadcrumb":{"@id":"https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article","headline":"วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant","description":"ดูการเข้าชมจากผู้ช่วย AI หน้า Landing Page และการกระทำที่มีความหมาย โดยไม่สับสนระหว่างเซสชันจากลิงก์ การอ้างอิง และการมองเห็นในการค้นหาด้วย AI ทั้งหมด","url":"https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"th","mainEntityOfPage":{"@id":"https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","url":"https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp","width":1200,"height":800,"caption":"ครีเอเตอร์แยกการเข้าชมจากผู้ช่วย AI สัญญาณการค้นหาด้วยภาพ และหน้าที่ได้รับการอ้างอิงออกจากกัน"},"dateModified":"2026-11-10","citation":["https://support.google.com/analytics/answer/9164320?hl=en","https://support.google.com/analytics/answer/9756891?hl=en","https://support.google.com/analytics/answer/12923437?hl=en","https://support.google.com/analytics/answer/14731736?hl=en","https://support.google.com/analytics/answer/15258820?hl=en","https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports","https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"หน้าแรก","item":"https://producttally.com/th/"},{"@type":"ListItem","position":2,"name":"คลังคู่มือ","item":"https://producttally.com/th/guides/"},{"@type":"ListItem","position":3,"name":"การมองเห็นใน AI Search","item":"https://producttally.com/th/guides/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant","item":"https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="th" data-save-label="บันทึกผลิตภัณฑ์" data-unsave-label="ยกเลิกการบันทึกผลิตภัณฑ์" data-save-toast="บันทึกลงในรายการโปรดของคุณแล้ว" data-unsave-toast="ลบออกจากรายการโปรดของคุณแล้ว" data-storage-error="เบราว์เซอร์ของคุณไม่สามารถบันทึกการเปลี่ยนแปลงนี้ได้">
+  <a class="skip-link" href="#main">ข้ามไปที่เนื้อหา</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/th/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="การนำทางหลัก">
+          <div class="primary-links"><a href="/th/">ผลิตภัณฑ์</a><a href="/th/guides/" aria-current="location">คลังคู่มือ</a><a href="/th/pricing/">บริการรีวิว</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">ภาษา <span translate="no">ไทย</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">ไทย</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" translate="no">
+      한국어
+    </wa-dropdown-item><wa-dropdown-item href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" translate="no">
+      Français
+    </wa-dropdown-item><wa-dropdown-item href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" translate="no">
+      Deutsch
+    </wa-dropdown-item><wa-dropdown-item href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" translate="no">
+      Italiano
+    </wa-dropdown-item><wa-dropdown-item href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" translate="no">
+      हिन्दी
+    </wa-dropdown-item><wa-dropdown-item href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" translate="no" aria-current="page">
+      ไทย
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" translate="no">
+      Português (Brasil)
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="ภาษา"><a href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a><a href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="เส้นทางหน้าเว็บ">
+    <ol><li><a href="/th/">หน้าแรก</a></li><li><a href="/th/guides/">คลังคู่มือ</a></li><li><a href="/th/guides/ai-search-visibility/">การมองเห็นใน AI Search</a></li><li><span aria-current="page">วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">การเขียน · 10 นาทีอ่าน</p>
+        <h1>วิธีวัดทราฟฟิก AI ใน GA4 ด้วยช่อง AI Assistant</h1>
+        <p class="lead">ดูการเข้าชมจากผู้ช่วย AI หน้า Landing Page และการกระทำที่มีความหมาย โดยไม่สับสนระหว่างเซสชันจากลิงก์ การอ้างอิง และการมองเห็นในการค้นหาด้วย AI ทั้งหมด</p>
+        <p class="byline">โดย <a href="/th/about/">Evan</a>
+          · อัปเดต <time datetime="2026-11-10">10 พ.ย. 2569</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/track-ai-assistant-traffic-ga4/cover.webp"
+    srcset="/assets/articles/track-ai-assistant-traffic-ga4/cover-small.webp 640w, /assets/articles/track-ai-assistant-traffic-ga4/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="ครีเอเตอร์แยกการเข้าชมจากผู้ช่วย AI สัญญาณการค้นหาด้วยภาพ และหน้าที่ได้รับการอ้างอิงออกจากกัน"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="สารบัญบทความ">
+        <p class="eyebrow">สารบัญบทความ</p>
+        <ol><li><a href="#quick-answer">คำตอบสั้น ๆ</a></li><li><a href="#section-0">ช่อง AI Assistant ใน GA4 นับอะไร</a></li><li><a href="#section-1">เปิดรายงานเซสชันและกรองช่องทาง</a></li><li><a href="#section-2">ตรวจแหล่งที่มา หน้า Landing Page และการกระทำ</a></li><li><a href="#section-3">ใช้ขอบเขตเซสชันเมื่อวิเคราะห์การเข้าชม</a></li><li><a href="#section-4">แยกการอ้างอิง AI ออกจากการมองเห็นใน AI Search</a></li><li><a href="#section-5">ตรวจการเข้าชมที่หายไปหรือจัดหมวดผิด</a></li><li><a href="#section-6">ทำรายงานทบทวนรายเดือนที่ทำซ้ำได้</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>คำตอบสั้น ๆ</h2><p>ใน GA4 เปิดรายงาน &gt; การได้ผู้ใช้ใหม่ &gt; การได้ทราฟฟิก แล้วกรองกลุ่มช่องทางเริ่มต้นของเซสชันเป็น AI Assistant เปลี่ยนมิติข้อมูลเป็นแหล่งที่มา / สื่อของเซสชัน และเพิ่มหน้า Landing Page การมีส่วนร่วม และเหตุการณ์สำคัญที่ตั้งค่าไว้ ช่องนี้วัดการเข้าชมที่ระบุผู้ช่วยได้ คลิกจาก Google AI Overviews และ AI Mode จัดอยู่ใน Organic Search และดูการมองเห็นแยกได้ใน Search Console</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>ช่อง AI Assistant ใน GA4 นับอะไร</h2><p>Google ประกาศการวัดทราฟฟิก AI Assistant ใน GA4 เมื่อ 13 พฤษภาคม 2026 หากรีเฟอร์เรอร์ของเซสชันตรงกับผู้ช่วยที่รู้จัก GA4 อาจกำหนดสื่อเป็น `ai-assistant` และจัดการเข้าชมไว้ในช่อง AI Assistant Google ยกตัวอย่าง ChatGPT, Gemini, DeepSeek, Copilot และ Grok นิยามปัจจุบันไม่รวม Google AI Overviews และ AI Mode ซึ่งจัดอยู่ใน Organic Search กฎการตรวจจับอาจเปลี่ยนได้ โปรดดูนิยามล่าสุดก่อนอ่านรายงานในอนาคต</p>
+        </section><section id="section-1">
+          <h2>เปิดรายงานเซสชันและกรองช่องทาง</h2><p>เลือกพร็อพเพอร์ตี GA4 และช่วงวันที่ให้ถูกต้อง แล้วเปิดรายงาน &gt; การได้ผู้ใช้ใหม่ &gt; การได้ทราฟฟิก มิติข้อมูลเริ่มต้นคือกลุ่มช่องทางเริ่มต้นของเซสชัน ค้นหา AI Assistant ในตารางหรือใช้ตัวกรองให้รวมเฉพาะช่องนี้ หากไม่มีรายงานการได้ทราฟฟิกในเมนูด้านซ้าย ผู้แก้ไขอาจต้องเพิ่มกลับไปยังชุดรายงาน เปรียบเทียบเดือนเต็มเมื่อทั้งสองช่วงมีข้อมูลเพียงพอให้อ่านความหมาย</p>
+        </section><section id="section-2">
+          <h2>ตรวจแหล่งที่มา หน้า Landing Page และการกระทำ</h2><p>เปลี่ยนมิติข้อมูลตารางเป็นแหล่งที่มา / สื่อของเซสชัน เพื่อดูว่าผู้ช่วยใดส่งการเข้าชมมา เพิ่มหรือกรองหน้า Landing Page เพื่อแยกคู่มือ หน้าผลิตภัณฑ์ และ URL อื่น ตรวจเซสชัน เซสชันที่มีส่วนร่วม อัตราการมีส่วนร่วม เวลาเฉลี่ยต่อเซสชัน และเหตุการณ์สำคัญที่ตั้งค่าไว้จริง เช่น สมัครเสร็จหรือเริ่มทดลองใช้ฟรี เก็บทั้งจำนวนและอัตราไว้ เพราะตัวอย่างน้อยอาจทำให้เปอร์เซ็นต์เปลี่ยนมาก</p>
+        </section><section id="section-3">
+          <h2>ใช้ขอบเขตเซสชันเมื่อวิเคราะห์การเข้าชม</h2><p>การได้ทราฟฟิกใช้ขอบเขตเซสชันและผูกการเข้าชมปัจจุบันกับแหล่งที่มาของเซสชันนั้น การได้ผู้ใช้ใหม่ใช้ขอบเขตผู้ใช้และบอกช่องทางที่พาคนนั้นมายังเว็บไซต์ครั้งแรก ทั้งสองรายงานตอบคนละคำถามและใช้ตัวหารต่างกัน จึงไม่ควรเทียบอัตราการมีส่วนร่วมโดยตรง หากต้องการรู้ว่าการเข้าชมจาก AI ทำอะไรในเดือนนี้ ให้ใช้มิติข้อมูลเซสชันในรายงานการได้ทราฟฟิก</p>
+        </section><section id="section-4">
+          <h2>แยกการอ้างอิง AI ออกจากการมองเห็นใน AI Search</h2><p>GA4 แสดงการเข้าชมที่มาจากลิงก์ในผู้ช่วย แต่ไม่แสดงการอ้างอิงที่ไม่มีคลิกหรือ prompt ที่นำไปสู่การเข้าชม สำหรับ Google AI Overviews และ AI Mode ให้ดูรายงาน Generative AI performance ใน Search Console Google รายงานจำนวนการแสดงผลและหน้าที่ปรากฏ ส่วน GA4 บันทึกการเข้าชมถัดมาและเหตุการณ์ที่ตั้งค่าไว้ Bing AI Performance รายงานการอ้างอิงและ grounding query สัญญาณเหล่านี้ต่างกัน อย่ารวมเป็นยอด “ทราฟฟิก AI” เดียว</p>
+        </section><figure class="article-figure"><img src="/assets/articles/track-ai-assistant-traffic-ga4/measurement-lanes.svg" width="1200" height="720"
+          alt="ภาพแนวคิด: GA4 วัดการเข้าชมจากผู้ช่วยที่ระบุได้ Search Console รายงานการแสดงผลจากการค้นหาแบบ Generative และ Bing รายงานการอ้างอิง ตรวจแต่ละสัญญาณแยกกันก่อนเลือกหน้าที่จะปรับปรุง" loading="lazy" decoding="async"><figcaption>ภาพแนวคิด: GA4 วัดการเข้าชมจากผู้ช่วยที่ระบุได้ Search Console รายงานการแสดงผลจากการค้นหาแบบ Generative และ Bing รายงานการอ้างอิง ตรวจแต่ละสัญญาณแยกกันก่อนเลือกหน้าที่จะปรับปรุง</figcaption></figure><section id="section-5">
+          <h2>ตรวจการเข้าชมที่หายไปหรือจัดหมวดผิด</h2><p>หาก AI Assistant ว่าง ให้ตรวจพร็อพเพอร์ตี ช่วงวันที่ มิติข้อมูลรายงาน และมีการบันทึกเซสชันบนเว็บไซต์หรือไม่ จากนั้นดูแหล่งที่มา / สื่อของเซสชันเพื่อหารีเฟอร์เรอร์ผู้ช่วยที่ระบุได้ เมื่อข้อมูลรีเฟอร์เรอร์หายไป การเข้าชมอาจเป็น direct / none Google ยังระบุการเปลี่ยนเส้นทาง ข้อมูลแหล่งที่มาที่ขาด และการบล็อกของเบราว์เซอร์เป็นสาเหตุที่เป็นไปได้ ให้มองช่องนี้เป็นขั้นต่ำที่วัดได้ ไม่ใช่จำนวนผู้ที่ได้รับอิทธิพลจาก AI ทั้งหมด</p>
+        </section><section id="section-6">
+          <h2>ทำรายงานทบทวนรายเดือนที่ทำซ้ำได้</h2><p>บันทึกช่วงวันที่ เซสชัน AI Assistant แหล่งที่มา หน้า Landing Page เซสชันที่มีส่วนร่วม และเหตุการณ์สำคัญที่ตั้งค่าไว้ แยกจำนวนการแสดงผล AI ใน Search Console และการอ้างอิงจาก Bing ไว้คนละคอลัมน์หรือรายงาน พร้อมจดการแก้หน้าเว็บในช่วงนั้น เปรียบเทียบช่วงเวลาและส่วนของเว็บไซต์เดียวกันทุกเดือน รายงานช่วยเลือกหน้าที่ควรตรวจ แต่ไม่ได้พิสูจน์ว่าการกล่าวถึงโดย AI ทำให้สมัคร หรือการแก้ข้อความทำให้เกิดการอ้างอิงภายหลัง</p>
+        </section>
+        
+        <section><h2>แหล่งอ้างอิงทางการ</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9164320?hl=en">Google Analytics Help: มีอะไรใหม่ใน Google Analytics</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9756891?hl=en">Google Analytics Help: กลุ่มช่องทางเริ่มต้น</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/12923437?hl=en">Google Analytics Help: รายงานการได้ทราฟฟิก</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/14731736?hl=en">Google Analytics Help: การได้ผู้ใช้ใหม่เทียบกับการได้ทราฟฟิก</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/15258820?hl=en">Google Analytics Help: ทำความเข้าใจทราฟฟิก direct / none</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports">Google Search Central: รายงานประสิทธิภาพ Generative AI</a></cite></li><li><cite><a data-source-citation="true" href="https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/">Bing Webmaster Blog: ตัวอย่างสาธารณะของ AI Performance</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/th/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>มุมที่เงียบสงบของอินเทอร์เน็ตเพื่อผลิตภัณฑ์ที่ดีกว่า</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">ส่งอีเมลถึง Evan</a>
+      </div>
+      <nav aria-label="การนำทางส่วนท้าย">
+        <a href="/th/">ผลิตภัณฑ์</a>
+        <a href="/th/guides/">คลังคู่มือ</a>
+        <a href="/th/about/">เกี่ยวกับโครงการ</a>
+        <a href="/th/pricing/">บริการรีวิว</a>
+        <a href="/th/privacy/">ความเป็นส่วนตัว</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>สมุดบันทึกอิสระโดย Evan</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

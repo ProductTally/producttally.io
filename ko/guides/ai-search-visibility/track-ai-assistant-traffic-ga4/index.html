@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="ko" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GA4 AI Assistant 채널로 AI 유입을 추적하는 방법 — ProductTally</title>
+  <meta name="description" content="AI 어시스턴트가 보낸 방문과 랜딩 페이지, 유의미한 행동을 확인하고 추천 세션을 인용이나 전체 AI 검색 노출로 오해하지 않는 방법입니다.">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ko" href="https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="fr" href="https://producttally.com/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="de" href="https://producttally.com/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="it" href="https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="hi" href="https://producttally.com/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="th" href="https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="pt-BR" href="https://producttally.com/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="GA4 AI Assistant 채널로 AI 유입을 추적하는 방법 — ProductTally">
+  <meta property="og:description" content="AI 어시스턴트가 보낸 방문과 랜딩 페이지, 유의미한 행동을 확인하고 추천 세션을 인용이나 전체 AI 검색 노출로 오해하지 않는 방법입니다.">
+  <meta property="og:url" content="https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta property="og:image:alt" content="크리에이터가 AI 어시스턴트 방문, 시각 검색 신호, 인용된 페이지를 별도 측정 항목으로 정리합니다.">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="th_TH">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GA4 AI Assistant 채널로 AI 유입을 추적하는 방법 — ProductTally">
+  <meta name="twitter:description" content="AI 어시스턴트가 보낸 방문과 랜딩 페이지, 유의미한 행동을 확인하고 추천 세션을 인용이나 전체 AI 검색 노출로 오해하지 않는 방법입니다.">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta name="twitter:image:alt" content="크리에이터가 AI 어시스턴트 방문, 시각 검색 신호, 인용된 페이지를 별도 측정 항목으로 정리합니다.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage","name":"GA4 AI Assistant 채널로 AI 유입을 추적하는 방법","description":"AI 어시스턴트가 보낸 방문과 랜딩 페이지, 유의미한 행동을 확인하고 추천 세션을 인용이나 전체 AI 검색 노출로 오해하지 않는 방법입니다.","url":"https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"ko","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article"},"breadcrumb":{"@id":"https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article","headline":"GA4 AI Assistant 채널로 AI 유입을 추적하는 방법","description":"AI 어시스턴트가 보낸 방문과 랜딩 페이지, 유의미한 행동을 확인하고 추천 세션을 인용이나 전체 AI 검색 노출로 오해하지 않는 방법입니다.","url":"https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"ko","mainEntityOfPage":{"@id":"https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","url":"https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp","width":1200,"height":800,"caption":"크리에이터가 AI 어시스턴트 방문, 시각 검색 신호, 인용된 페이지를 별도 측정 항목으로 정리합니다."},"dateModified":"2026-11-10","citation":["https://support.google.com/analytics/answer/9164320?hl=en","https://support.google.com/analytics/answer/9756891?hl=en","https://support.google.com/analytics/answer/12923437?hl=en","https://support.google.com/analytics/answer/14731736?hl=en","https://support.google.com/analytics/answer/15258820?hl=en","https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports","https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://producttally.com/ko/"},{"@type":"ListItem","position":2,"name":"가이드 모음","item":"https://producttally.com/ko/guides/"},{"@type":"ListItem","position":3,"name":"AI 검색 가시성","item":"https://producttally.com/ko/guides/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"GA4 AI Assistant 채널로 AI 유입을 추적하는 방법","item":"https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ko" data-save-label="제품 저장" data-unsave-label="제품 저장 취소" data-save-toast="관심 목록에 저장되었습니다" data-unsave-toast="관심 목록에서 삭제되었습니다." data-storage-error="브라우저가 이 변경 사항을 저장할 수 없습니다.">
+  <a class="skip-link" href="#main">콘텐츠로 건너뛰기</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ko/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="기본 탐색">
+          <div class="primary-links"><a href="/ko/">제품</a><a href="/ko/guides/" aria-current="location">가이드 광장</a><a href="/ko/pricing/">리뷰 의뢰</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">언어 <span translate="no">한국어</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">한국어</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" translate="no" aria-current="page">
+      한국어
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" translate="no">
+      Français
+    </wa-dropdown-item><wa-dropdown-item href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" translate="no">
+      Deutsch
+    </wa-dropdown-item><wa-dropdown-item href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" translate="no">
+      Italiano
+    </wa-dropdown-item><wa-dropdown-item href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" translate="no">
+      हिन्दी
+    </wa-dropdown-item><wa-dropdown-item href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" translate="no">
+      ไทย
+    </wa-dropdown-item><wa-dropdown-item href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" translate="no">
+      Português (Brasil)
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="언어"><a href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a><a href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="현재 위치">
+    <ol><li><a href="/ko/">홈</a></li><li><a href="/ko/guides/">가이드 모음</a></li><li><a href="/ko/guides/ai-search-visibility/">AI 검색 가시성</a></li><li><span aria-current="page">GA4 AI Assistant 채널로 AI 유입을 추적하는 방법</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">글쓰기 · 10 분 읽음</p>
+        <h1>GA4 AI Assistant 채널로 AI 유입을 추적하는 방법</h1>
+        <p class="lead">AI 어시스턴트가 보낸 방문과 랜딩 페이지, 유의미한 행동을 확인하고 추천 세션을 인용이나 전체 AI 검색 노출로 오해하지 않는 방법입니다.</p>
+        <p class="byline">작성자: <a href="/ko/about/">Evan</a>
+          · 업데이트 <time datetime="2026-11-10">2026. 11. 10.</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/track-ai-assistant-traffic-ga4/cover.webp"
+    srcset="/assets/articles/track-ai-assistant-traffic-ga4/cover-small.webp 640w, /assets/articles/track-ai-assistant-traffic-ga4/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="크리에이터가 AI 어시스턴트 방문, 시각 검색 신호, 인용된 페이지를 별도 측정 항목으로 정리합니다."
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="이 글의 목차">
+        <p class="eyebrow">이 글의 목차</p>
+        <ol><li><a href="#quick-answer">핵심 답변</a></li><li><a href="#section-0">GA4 AI Assistant 채널이 집계하는 항목</a></li><li><a href="#section-1">세션 보고서를 열고 채널을 필터링하기</a></li><li><a href="#section-2">소스, 랜딩 페이지, 의미 있는 행동 확인하기</a></li><li><a href="#section-3">방문을 분석할 땐 세션 범위를 사용하기</a></li><li><a href="#section-4">AI 추천 방문과 AI 검색 노출을 따로 보기</a></li><li><a href="#section-5">방문이 없거나 잘못 분류되었을 때 확인하기</a></li><li><a href="#section-6">매달 반복할 수 있는 간단한 점검표 만들기</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>핵심 답변</h2><p>GA4에서 보고서 &gt; 획득 &gt; 트래픽 획득을 열고 세션 기본 채널 그룹을 AI Assistant로 필터링하세요. 표의 측정기준을 세션 소스/매체로 바꾸고 랜딩 페이지, 참여 지표, 설정된 주요 이벤트를 추가합니다. 이 채널은 식별 가능한 AI 어시스턴트 방문을 측정합니다. Google AI 개요와 AI 모드는 자연 검색으로 분류되며 Search Console에서 별도 가시성을 확인합니다.</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>GA4 AI Assistant 채널이 집계하는 항목</h2><p>Google은 2026년 5월 13일 GA4의 AI Assistant 트래픽 측정을 발표했습니다. 세션 리퍼러가 인식된 어시스턴트와 일치하면 GA4가 `ai-assistant` 매체를 지정하고 AI Assistant 채널로 묶을 수 있습니다. 예시로 ChatGPT, Gemini, DeepSeek, Copilot, Grok이 언급됩니다. 현재 정의에서 Google AI 개요와 AI 모드는 제외되며 자연 검색으로 분류됩니다. 인식 규칙은 달라질 수 있으니 이후 보고서를 볼 때 최신 정의를 확인하세요.</p>
+        </section><section id="section-1">
+          <h2>세션 보고서를 열고 채널을 필터링하기</h2><p>올바른 GA4 속성과 기간을 선택한 뒤 보고서 &gt; 획득 &gt; 트래픽 획득으로 이동합니다. 기본 측정기준은 세션 기본 채널 그룹입니다. 표에서 AI Assistant를 찾거나 보고서 필터로 해당 채널만 포함하세요. 왼쪽 메뉴에 획득 보고서가 없다면 편집자가 보고서 컬렉션에 다시 추가해야 할 수 있습니다. 해석 가능한 데이터가 충분한 경우에 완전한 월 단위 기간끼리 비교합니다.</p>
+        </section><section id="section-2">
+          <h2>소스, 랜딩 페이지, 의미 있는 행동 확인하기</h2><p>표의 측정기준을 세션 소스/매체로 바꾸면 어떤 인식된 어시스턴트가 방문을 보냈는지 볼 수 있습니다. 랜딩 페이지를 추가하거나 필터링해 방문자가 가이드, 제품 페이지 또는 다른 URL 중 어디에 도착했는지 확인하세요. 세션 수와 참여 세션, 참여율, 세션당 평균 참여 시간, 실제 설정한 주요 이벤트(가입 완료나 체험 시작 등)를 함께 검토합니다. 방문 수가 적으면 비율이 크게 흔들려 보일 수 있으므로 건수도 남겨 두세요.</p>
+        </section><section id="section-3">
+          <h2>방문을 분석할 땐 세션 범위를 사용하기</h2><p>트래픽 획득은 세션 단위로 현재 방문을 그 세션의 소스에 연결합니다. 사용자 획득은 사용자 단위이며 처음 사이트를 방문하게 한 채널을 보여 줍니다. 두 보고서는 질문과 분모가 다르므로 참여 지표를 같은 기준처럼 직접 비교하면 안 됩니다. “이번 달 AI에서 온 방문은 무엇을 했나?”를 확인하려면 트래픽 획득의 세션 측정기준을 사용하세요.</p>
+        </section><section id="section-4">
+          <h2>AI 추천 방문과 AI 검색 노출을 따로 보기</h2><p>GA4는 어시스턴트의 링크를 클릭해 사이트에 도착한 방문을 보여 주지만, 클릭이 없는 인용이나 방문을 유발한 프롬프트는 알 수 없습니다. Google AI 개요와 AI 모드는 Search Console 생성형 AI 실적 보고서에서 확인하세요. Google은 노출수와 표시된 페이지를 보고하며 GA4는 이후 방문과 설정된 이벤트를 기록합니다. Bing AI Performance는 인용과 grounding query를 보여 줍니다. 서로 다른 신호이므로 하나의 “AI 트래픽” 수치로 더하지 마세요.</p>
+        </section><figure class="article-figure"><img src="/assets/articles/track-ai-assistant-traffic-ga4/measurement-lanes.svg" width="1200" height="720"
+          alt="개념도: GA4는 식별 가능한 어시스턴트 방문을, Search Console은 생성형 검색 노출을, Bing은 인용을 기록합니다. 각 신호를 따로 검토한 뒤 개선할 페이지를 선택하세요." loading="lazy" decoding="async"><figcaption>개념도: GA4는 식별 가능한 어시스턴트 방문을, Search Console은 생성형 검색 노출을, Bing은 인용을 기록합니다. 각 신호를 따로 검토한 뒤 개선할 페이지를 선택하세요.</figcaption></figure><section id="section-5">
+          <h2>방문이 없거나 잘못 분류되었을 때 확인하기</h2><p>AI Assistant가 비어 있으면 속성, 날짜, 보고서 측정기준과 사이트에 세션이 기록됐는지부터 확인합니다. 그런 다음 세션 소스/매체에서 식별 가능한 어시스턴트 리퍼러를 찾으세요. 리퍼러 정보가 사라진 방문은 direct / none으로 잡힐 수 있습니다. Google은 리디렉션, 유입 정보 누락, 브라우저 차단도 원인으로 설명합니다. 이 채널은 측정 가능한 하한으로 보고, AI의 영향을 받은 모든 방문자 수로 간주하지 마세요.</p>
+        </section><section id="section-6">
+          <h2>매달 반복할 수 있는 간단한 점검표 만들기</h2><p>기간, AI Assistant 세션, 소스, 랜딩 페이지, 참여 세션, 설정된 주요 이벤트를 기록합니다. Search Console AI 노출과 Bing 인용은 별도 열이나 보고서에 두고, 해당 기간의 페이지 변경사항을 함께 적으세요. 매달 같은 기간과 사이트 영역을 비교합니다. 이 보고서는 자세히 살펴볼 페이지를 고르는 데 도움이 되지만 AI 언급이 가입을 일으켰다거나 문구 변경이 나중의 인용을 일으켰다는 증거는 아닙니다.</p>
+        </section>
+        
+        <section><h2>공식 참고 자료</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9164320?hl=en">Google Analytics 도움말: Google Analytics의 새로운 기능</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9756891?hl=en">Google Analytics 도움말: 기본 채널 그룹</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/12923437?hl=en">Google Analytics 도움말: 트래픽 획득 보고서</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/14731736?hl=en">Google Analytics 도움말: 사용자 획득과 트래픽 획득 비교</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/15258820?hl=en">Google Analytics 도움말: direct / none 트래픽 이해</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports">Google 검색 센터: 생성형 AI 검색 성과 보고서</a></cite></li><li><cite><a data-source-citation="true" href="https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/">Bing Webmaster Blog: AI Performance 공개 미리 보기</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ko/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>더 나은 제품을 위한 조용한 인터넷 코너.</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan에게 이메일 보내기</a>
+      </div>
+      <nav aria-label="바닥글 탐색">
+        <a href="/ko/">제품</a>
+        <a href="/ko/guides/">가이드 광장</a>
+        <a href="/ko/about/">프로젝트 소개</a>
+        <a href="/ko/pricing/">리뷰 의뢰</a>
+        <a href="/ko/privacy/">개인 정보 보호</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan의 독립 노트북입니다.</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

@@ -8,6 +8,9 @@ export function initCatalog(catalog, saved) {
   const resultWord = catalog.querySelector('[data-result-word]');
   const emptyState = catalog.querySelector('.empty-state');
   const buttons = [...catalog.querySelectorAll('[data-filter]')];
+  const menu = catalog.querySelector('[data-filter-menu]');
+  const menuOptions = [...(menu?.querySelectorAll('wa-dropdown-item') ?? [])];
+  const menuLabel = menu?.querySelector('[data-filter-label]');
   const locale = catalog.dataset.localeFormat;
   const number = new Intl.NumberFormat(locale);
   const cards = [...catalog.querySelectorAll('[data-catalog-item]')].map(element => ({
@@ -50,6 +53,11 @@ export function initCatalog(catalog, saved) {
     resultWord.textContent = visible === 1 ? catalog.dataset.resultSingle : catalog.dataset.resultPlural;
     emptyState.hidden = visible > 0;
     for (const button of buttons) button.setAttribute('aria-pressed', String(button.dataset.filter === activeCategory));
+    for (const option of menuOptions) {
+      const selected = option.getAttribute('value') === activeCategory;
+      option.checked = selected;
+      if (selected) menuLabel.textContent = option.textContent.trim();
+    }
   }
 
   function apply() {
@@ -63,6 +71,10 @@ export function initCatalog(catalog, saved) {
       apply();
     });
   }
+  menu?.addEventListener('wa-select', event => {
+    activeCategory = event.detail.item.getAttribute('value');
+    apply();
+  });
   catalog.querySelector('[data-reset]').addEventListener('click', () => {
     activeCategory = 'all';
     input.value = '';

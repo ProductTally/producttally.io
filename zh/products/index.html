@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>产品广场 — ProductTally</title>
-  <meta name="description" content="从真实使用场景出发，先了解细节，再决定是否加入你的工作流。">
+  <meta name="description" content="探索 SaaS、软件与数字产品，通过真实评测和实用指南找到所需，也让好产品被更多人看见。">
   <meta name="theme-color" content="#FBF8F3">
+  
   <link rel="canonical" href="https://producttally.com/zh/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/">
@@ -22,9 +23,10 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ProductTally">
   <meta property="og:title" content="产品广场 — ProductTally">
-  <meta property="og:description" content="从真实使用场景出发，先了解细节，再决定是否加入你的工作流。">
+  <meta property="og:description" content="探索 SaaS、软件与数字产品，通过真实评测和实用指南找到所需，也让好产品被更多人看见。">
   <meta property="og:url" content="https://producttally.com/zh/">
   <meta property="og:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta property="og:image:alt" content="ProductTally">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="es_ES">
@@ -38,9 +40,10 @@
   <meta property="og:locale:alternate" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="产品广场 — ProductTally">
-  <meta name="twitter:description" content="从真实使用场景出发，先了解细节，再决定是否加入你的工作流。">
+  <meta name="twitter:description" content="探索 SaaS、软件与数字产品，通过真实评测和实用指南找到所需，也让好产品被更多人看见。">
   <meta name="twitter:image" content="https://producttally.com/assets/producttally-icon.png">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/#webpage","name":"产品广场","description":"从真实使用场景出发，先了解细节，再决定是否加入你的工作流。","url":"https://producttally.com/zh/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"}}]}</script>
+  <meta name="twitter:image:alt" content="ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/#webpage","name":"产品广场","description":"探索 SaaS、软件与数字产品，通过真实评测和实用指南找到所需，也让好产品被更多人看见。","url":"https://producttally.com/zh/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"}}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style.css">
@@ -57,8 +60,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="主导航">
-          <div class="primary-links"><a href="/zh/" aria-current="location">产品广场</a><a href="/zh/guides/">指南文章</a><a href="/zh/about/">筛选方法</a></div>
-          <a class="header-review" href="/zh/pricing/">评测合作<svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a>
+          <div class="primary-links"><a href="/zh/" aria-current="location">产品广场</a><a href="/zh/guides/">指南广场</a><a href="/zh/pricing/">评测合作</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -95,46 +97,52 @@
         </div>
       </div>
     </header>
-  <main id="main" tabindex="-1"><section class="wrap section page-index">
-    <header class="section-heading">
-      <p class="eyebrow">产品短名单</p>
-      <h1>好产品，值得多看一眼。</h1>
-      <p class="lead">从真实使用场景出发，先了解细节，再决定是否加入你的工作流。</p>
-    </header>
-    <div class="catalog" data-catalog data-result-plural="个产品可探索"
+  <main id="main" tabindex="-1"><section class="wrap product-directory" id="shortlist" aria-labelledby="square-title">
+    <div class="catalog directory-catalog" data-catalog data-result-plural="个产品可探索"
     data-result-single="个产品可探索" data-locale-format="zh-CN">
-    <div class="catalog-controls">
-      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="搜索产品或你想完成的事…" autocomplete="off">
-        <span slot="label" class="visually-hidden">搜索产品</span>
-        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
-      </wa-input>
-      <div class="filters" role="group" aria-label="筛选产品"><wa-button data-filter="all"
+    <aside class="directory-sidebar">
+    <p class="eyebrow">筛选产品</p>
+    <div class="filters" role="group" aria-label="筛选产品"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    全部产品
-  </wa-button><wa-button data-filter="writing"
+    <span>全部产品</span> <span class="filter-count">5</span>
+  </wa-button><wa-button data-filter="monitoring"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    写作
+    <span>网站监控</span> <span class="filter-count">1</span>
+  </wa-button><wa-button data-filter="podcasting"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>播客</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    视频
+    <span>视频</span> <span class="filter-count">1</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    效率与协作
-  </wa-button><wa-button data-filter="web"
-    aria-pressed="false" class="filter" appearance="plain" size="s">
-    建站与表单
+    <span>效率与协作</span> <span class="filter-count">2</span>
   </wa-button><wa-button data-filter="saved"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    已收藏 <span data-saved-count>0</span>
+    <span>已收藏</span> <span data-saved-count>0</span>
   </wa-button></div>
-    </div>
-    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>个产品可探索</span></div>
-    <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do 效率与协作 把待办和日历放在一起，适合想把内容积压转成每日行动的创作者。 已实测免费版网页流程 适合独立创作者安排写作与发布，也适合准备试用共享编辑看板的小团队。">
+  </aside>
+  <div class="directory-results">
+    <header class="product-directory-heading">
+    <h1 id="square-title">发现好用的 SaaS 与软件产品</h1>
+    <p class="lead">探索 SaaS、软件与数字产品，通过真实评测和实用指南找到所需，也让好产品被更多人看见。</p>
+  </header>
+    <div class="catalog-controls"><wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="搜索产品或你想完成的事…" autocomplete="off">
+    <span slot="label" class="visually-hidden">搜索产品</span>
+    <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+  </wa-input><wa-dropdown class="directory-mobile-filters" data-filter-menu placement="bottom-end" distance="6" size="s">
+    <wa-button slot="trigger" appearance="outlined" size="s" with-caret>
+      <span class="visually-hidden">筛选产品 </span><span data-filter-label>全部产品</span>
+    </wa-button>
+    <wa-dropdown-item value="all" type="checkbox" checked>全部产品</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">网站监控</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">播客</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">视频</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">效率与协作</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">已收藏</wa-dropdown-item>
+  </wa-dropdown></div>
+    <div class="catalog-meta" role="status"><span data-result-count>5</span> <span data-result-word>个产品可探索</span></div>
+    <div class="product-grid"><article class="product-card" data-catalog-item="anydo" data-category="productivity" data-search="Any.do 效率与协作 任务与日程管理 每天该做什么，一眼看清。把任务、日程和提醒集中安排，让零散待办变成清晰的每日计划。 我们在免费网页版用英文、简体中文和西班牙语保存了任务和子任务，保存了一次性提醒，并将一项任务标为完成。同一个 Chrome 配置下换标签页，改动仍在。英文界面识别了 “tomorrow at 3pm”，中文和西班牙语日期短语留在了任务标题里。 适合独立创作者安排写作与发布，也适合准备试用共享编辑看板的小团队。">
     <div class="card-top">
-      <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+      <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
       <div class="card-identity">
         <h2><a href="/zh/products/anydo/" translate="no">Any.do</a></h2>
-        <span class="product-tag">效率与协作</span>
+        <span class="product-tag">任务与日程管理</span>
       </div>
       <wa-button class="save-button" appearance="plain"
     data-save="anydo"
@@ -142,14 +150,15 @@
     <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Any.do</span></span>
   </wa-button>
     </div>
-    <p class="card-description">把待办和日历放在一起，适合想把内容积压转成每日行动的创作者。</p>
-    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已实测免费版网页流程</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
-  </article><article class="product-card" data-catalog-item="submagic" data-category="video" data-search="Submagic 视频 一款浏览器短视频编辑器，适合评估口播片段加字幕的流程。 已实测字幕编辑和 SRT 适合想先验证字幕和成片流程、再决定是否订阅的个人创作者和小型视频团队。">
+    <p class="card-description">每天该做什么，一眼看清。把任务、日程和提醒集中安排，让零散待办变成清晰的每日计划。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/plan-a-publishing-week/official-myday.webp" alt="Any.do 在桌面端和手机端展示的 My Day 界面"
+    width="2245" height="1587" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="submagic" data-category="video" data-search="Submagic 视频 短视频剪辑与字幕 上传口播视频，自动生成字幕。改文字、换样式，让视频里的重点更醒目。 我们从两个入口上传同一条 13.8 秒的英文合成语音竖屏样片。两个项目都在 98% 停留超过五分钟，稍后回访时都可编辑。两次都把 “Tally” 识别成 “L”。我们修正了其中一个项目，换成 Nora 模板，并在下载的 SRT 里确认修正已保留。 适合想先验证字幕和成片流程、再决定是否订阅的个人创作者和小型视频团队。">
     <div class="card-top">
-      <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+      <img class="product-mark product-mark-image" src="/assets/product-icons/submagic.svg" alt="" width="48" height="48">
       <div class="card-identity">
         <h2><a href="/zh/products/submagic/" translate="no">Submagic</a></h2>
-        <span class="product-tag">视频</span>
+        <span class="product-tag">短视频剪辑与字幕</span>
       </div>
       <wa-button class="save-button" appearance="plain"
     data-save="submagic"
@@ -157,14 +166,64 @@
     <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Submagic</span></span>
   </wa-button>
     </div>
-    <p class="card-description">一款浏览器短视频编辑器，适合评估口播片段加字幕的流程。</p>
-    <div class="card-bottom"><span class="tested"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>已实测字幕编辑和 SRT</span><span aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span></div>
+    <p class="card-description">上传口播视频，自动生成字幕。改文字、换样式，让视频里的重点更醒目。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/short-video-captions/cover.webp" alt="Submagic 官方字幕样式处理前后对比图"
+    width="1060" height="498" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="nifty" data-category="productivity" data-search="Nifty 效率与协作 项目与团队协作 把任务、项目文档和路线图进度放在一起。Nifty 帮创作者和小团队将内容简报变成有序的发布计划。 任务、项目文档与路线图共享项目上下文，任务依赖可明确工作的先后顺序。 简报跟着任务走，通过阶段进度掌握发布节奏，减少分散维护的协作清单。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/nifty.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/zh/products/nifty/" translate="no">Nifty</a></h2>
+        <span class="product-tag">项目与团队协作</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="nifty"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Nifty</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">把任务、项目文档和路线图进度放在一起。Nifty 帮创作者和小团队将内容简报变成有序的发布计划。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/content-launch-project/cover.webp" alt="Nifty · 项目与团队协作"
+    width="1200" height="606" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="oh-dear" data-category="monitoring" data-search="Oh Dear 网站监控 网站监控 在访客反馈之前，先留意网站的异常。Oh Dear 将可用性、SSL、DNS 和断链监控集中到同一个面板。 监控有权管理的网站，查看可用性、证书、DNS 变化和断链，各项结果按对应检查计划更新。 集中查看可用性与站点完整性信号，再结合完整 URL 和 HTTP 响应定位问题页面。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/zh/products/oh-dear/" translate="no">Oh Dear</a></h2>
+        <span class="product-tag">网站监控</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="oh-dear"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Oh Dear</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">在访客反馈之前，先留意网站的异常。Oh Dear 将可用性、SSL、DNS 和断链监控集中到同一个面板。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/website-monitoring-404/cover.webp" alt="Oh Dear · 网站监控"
+    width="1200" height="818" loading="lazy" decoding="async"></div>
+  </article><article class="product-card" data-catalog-item="castos" data-category="podcasting" data-search="Castos 播客 播客托管与分发 让播客有一个内容入口和清晰的发布流程。Castos 集中提供音频托管、RSS 分发与 WordPress 集成，适合创作者和小团队。 托管媒体并发布播客 RSS，可选择公开、私密或混合可见性；独立订阅者 RSS 支持撤销访问。 通过 Seriously Simple Podcasting 管理以 WordPress 为中心的播客，将节目发布与网站连接起来。">
+    <div class="card-top">
+      <img class="product-mark product-mark-image" src="/assets/product-icons/castos.png" alt="" width="48" height="48">
+      <div class="card-identity">
+        <h2><a href="/zh/products/castos/" translate="no">Castos</a></h2>
+        <span class="product-tag">播客托管与分发</span>
+      </div>
+      <wa-button class="save-button" appearance="plain"
+    data-save="castos"
+    aria-pressed="false">
+    <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span data-save-text class="visually-hidden">收藏产品<span class="visually-hidden"> Castos</span></span>
+  </wa-button>
+    </div>
+    <p class="card-description">让播客有一个内容入口和清晰的发布流程。Castos 集中提供音频托管、RSS 分发与 WordPress 集成，适合创作者和小团队。</p>
+    <div class="product-card-media"><img class="product-promo-image" src="/assets/articles/podcast-hosting-wordpress/cover.webp" alt="Castos · 播客托管与分发"
+    width="1200" height="630" loading="lazy" decoding="async"></div>
   </article></div>
     <div class="empty-state" hidden>
       <p class="empty-title">这个角落暂时还没有内容。</p>
       <p>换个关键词，或者清除筛选再看看。</p>
       <wa-button class="text-button" data-reset appearance="plain">清除筛选 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></wa-button>
     </div>
+  </div>
   </div>
   </section></main>
   <footer class="site-footer">
@@ -177,7 +236,7 @@
       </div>
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>
-        <a href="/zh/guides/">指南文章</a>
+        <a href="/zh/guides/">指南广场</a>
         <a href="/zh/about/">关于这个项目</a>
         <a href="/zh/pricing/">评测合作</a>
         <a href="/zh/privacy/">隐私说明</a>

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="it" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Come misurare il traffico AI in GA4 con il canale AI Assistant — ProductTally</title>
+  <meta name="description" content="Individua le visite provenienti dagli assistenti AI, le relative pagine di destinazione e le azioni utili senza confondere sessioni referral, citazioni e visibilità complessiva nella ricerca AI.">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="ko" href="https://producttally.com/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="fr" href="https://producttally.com/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="de" href="https://producttally.com/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="it" href="https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="hi" href="https://producttally.com/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="th" href="https://producttally.com/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="pt-BR" href="https://producttally.com/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Come misurare il traffico AI in GA4 con il canale AI Assistant — ProductTally">
+  <meta property="og:description" content="Individua le visite provenienti dagli assistenti AI, le relative pagine di destinazione e le azioni utili senza confondere sessioni referral, citazioni e visibilità complessiva nella ricerca AI.">
+  <meta property="og:url" content="https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta property="og:image:alt" content="Una creator organizza separatamente visite dagli assistenti AI, segnali di ricerca visuale e pagine citate.">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="th_TH">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Come misurare il traffico AI in GA4 con il canale AI Assistant — ProductTally">
+  <meta name="twitter:description" content="Individua le visite provenienti dagli assistenti AI, le relative pagine di destinazione e le azioni utili senza confondere sessioni referral, citazioni e visibilità complessiva nella ricerca AI.">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp">
+  <meta name="twitter:image:alt" content="Una creator organizza separatamente visite dagli assistenti AI, segnali di ricerca visuale e pagine citate.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage","name":"Come misurare il traffico AI in GA4 con il canale AI Assistant","description":"Individua le visite provenienti dagli assistenti AI, le relative pagine di destinazione e le azioni utili senza confondere sessioni referral, citazioni e visibilità complessiva nella ricerca AI.","url":"https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"it","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article"},"breadcrumb":{"@id":"https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#article","headline":"Come misurare il traffico AI in GA4 con il canale AI Assistant","description":"Individua le visite provenienti dagli assistenti AI, le relative pagine di destinazione e le azioni utili senza confondere sessioni referral, citazioni e visibilità complessiva nella ricerca AI.","url":"https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/","inLanguage":"it","mainEntityOfPage":{"@id":"https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","url":"https://producttally.com/assets/articles/track-ai-assistant-traffic-ga4/cover.webp","width":1200,"height":800,"caption":"Una creator organizza separatamente visite dagli assistenti AI, segnali di ricerca visuale e pagine citate."},"dateModified":"2026-11-10","citation":["https://support.google.com/analytics/answer/9164320?hl=en","https://support.google.com/analytics/answer/9756891?hl=en","https://support.google.com/analytics/answer/12923437?hl=en","https://support.google.com/analytics/answer/14731736?hl=en","https://support.google.com/analytics/answer/15258820?hl=en","https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports","https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://producttally.com/it/"},{"@type":"ListItem","position":2,"name":"Raccolta di guide","item":"https://producttally.com/it/guides/"},{"@type":"ListItem","position":3,"name":"Visibilità nella ricerca IA","item":"https://producttally.com/it/guides/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"Come misurare il traffico AI in GA4 con il canale AI Assistant","item":"https://producttally.com/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="it" data-save-label="Salva prodotto" data-unsave-label="Prodotto non salvato" data-save-toast="Salvato nella tua lista dei preferiti" data-unsave-toast="Rimosso dalla tua lista dei preferiti" data-storage-error="Il tuo browser non è riuscito a salvare questa modifica.">
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/it/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="Navigazione primaria">
+          <div class="primary-links"><a href="/it/">Prodotti</a><a href="/it/guides/" aria-current="location">Guide</a><a href="/it/pricing/">Richiedi una recensione</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Lingua <span translate="no">Italiano</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">Italiano</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" translate="no">
+      한국어
+    </wa-dropdown-item><wa-dropdown-item href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" translate="no">
+      Français
+    </wa-dropdown-item><wa-dropdown-item href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" translate="no">
+      Deutsch
+    </wa-dropdown-item><wa-dropdown-item href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" translate="no" aria-current="page">
+      Italiano
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" translate="no">
+      हिन्दी
+    </wa-dropdown-item><wa-dropdown-item href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" translate="no">
+      ไทย
+    </wa-dropdown-item><wa-dropdown-item href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" translate="no">
+      Português (Brasil)
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="Lingua"><a href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a><a href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="Percorso di navigazione">
+    <ol><li><a href="/it/">Home</a></li><li><a href="/it/guides/">Raccolta di guide</a></li><li><a href="/it/guides/ai-search-visibility/">Visibilità nella ricerca IA</a></li><li><span aria-current="page">Come misurare il traffico AI in GA4 con il canale AI Assistant</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">Scrivere · 10 minimo letto</p>
+        <h1>Come misurare il traffico AI in GA4 con il canale AI Assistant</h1>
+        <p class="lead">Individua le visite provenienti dagli assistenti AI, le relative pagine di destinazione e le azioni utili senza confondere sessioni referral, citazioni e visibilità complessiva nella ricerca AI.</p>
+        <p class="byline">Di <a href="/it/about/">Evan</a>
+          · Aggiornato <time datetime="2026-11-10">10 nov 2026</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/track-ai-assistant-traffic-ga4/cover.webp"
+    srcset="/assets/articles/track-ai-assistant-traffic-ga4/cover-small.webp 640w, /assets/articles/track-ai-assistant-traffic-ga4/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="Una creator organizza separatamente visite dagli assistenti AI, segnali di ricerca visuale e pagine citate."
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="In questo articolo">
+        <p class="eyebrow">In questo articolo</p>
+        <ol><li><a href="#quick-answer">Risposta breve</a></li><li><a href="#section-0">Cosa conteggia il canale AI Assistant di GA4</a></li><li><a href="#section-1">Apri il rapporto delle sessioni e isola il canale</a></li><li><a href="#section-2">Esamina sorgenti, pagine di destinazione e azioni utili</a></li><li><a href="#section-3">Usa l’ambito di sessione per analizzare una visita</a></li><li><a href="#section-4">Tieni separati referral AI e visibilità nella ricerca AI</a></li><li><a href="#section-5">Indaga le visite assenti o classificate in modo errato</a></li><li><a href="#section-6">Crea una verifica mensile ripetibile</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>Risposta breve</h2><p>In GA4 apri Rapporti &gt; Acquisizione &gt; Acquisizione di traffico e filtra il gruppo di canali predefinito della sessione su AI Assistant. Scegli la dimensione Sorgente / mezzo della sessione e aggiungi pagina di destinazione, coinvolgimento ed eventi chiave configurati. Il canale misura le visite identificabili da assistenti riconosciuti. Google classifica i clic da AI Overviews e AI Mode nella Ricerca organica e ne misura la visibilità separatamente in Search Console.</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>Cosa conteggia il canale AI Assistant di GA4</h2><p>Google ha annunciato il monitoraggio del traffico AI Assistant in GA4 il 13 maggio 2026. Quando il referrer di una sessione corrisponde a un assistente riconosciuto, GA4 può assegnare il mezzo `ai-assistant` e classificare la visita nel canale AI Assistant. Tra gli esempi Google cita ChatGPT, Gemini, DeepSeek, Copilot e Grok. La definizione attuale esclude AI Overviews e AI Mode di Google, che rientrano nella Ricerca organica. Le regole possono cambiare: verifica la definizione aggiornata prima di analizzare un report futuro.</p>
+        </section><section id="section-1">
+          <h2>Apri il rapporto delle sessioni e isola il canale</h2><p>Seleziona la proprietà GA4 e l’intervallo corretti, quindi apri Rapporti &gt; Acquisizione &gt; Acquisizione di traffico. La dimensione predefinita è il gruppo di canali predefinito della sessione. Cerca AI Assistant nella tabella oppure applica un filtro che includa solo quel canale. Se il rapporto Acquisizione manca nel menu, un editor potrebbe doverlo aggiungere di nuovo alla raccolta. Confronta mesi completi solo se entrambi hanno abbastanza attività per essere interpretati.</p>
+        </section><section id="section-2">
+          <h2>Esamina sorgenti, pagine di destinazione e azioni utili</h2><p>Cambia la dimensione della tabella in Sorgente / mezzo della sessione per vedere quale assistente riconosciuto ha inviato la visita. Aggiungi o filtra la pagina di destinazione per distinguere una guida, una pagina prodotto o un altro URL. Confronta sessioni, sessioni con coinvolgimento, tasso di coinvolgimento, tempo medio di coinvolgimento per sessione ed eventi chiave realmente configurati, come registrazione completata o avvio della prova. Mostra i conteggi insieme alle percentuali: con poche visite, le variazioni percentuali possono sembrare ampie.</p>
+        </section><section id="section-3">
+          <h2>Usa l’ambito di sessione per analizzare una visita</h2><p>Acquisizione di traffico è basato sulle sessioni e attribuisce la visita corrente alla sorgente della sessione. Acquisizione utenti è basato sugli utenti e mostra il canale che li ha portati sul sito la prima volta. Le due viste rispondono a domande diverse e hanno denominatori diversi; non confrontare direttamente i tassi di coinvolgimento. Per capire cosa hanno fatto questo mese le visite dall’AI, usa le dimensioni di sessione in Acquisizione di traffico.</p>
+        </section><section id="section-4">
+          <h2>Tieni separati referral AI e visibilità nella ricerca AI</h2><p>GA4 può mostrare una visita arrivata da un link in un assistente, ma non una citazione senza clic né il prompt che ha causato la visita. Per AI Overviews e AI Mode di Google consulta il rapporto sul rendimento delle funzionalità di IA generativa in Search Console: Google mostra impressioni e pagine, mentre GA4 registra visite successive ed eventi configurati. Bing AI Performance riporta citazioni e query di grounding. Sono segnali distinti: non sommarli in un unico totale di “traffico AI”.</p>
+        </section><figure class="article-figure"><img src="/assets/articles/track-ai-assistant-traffic-ga4/measurement-lanes.svg" width="1200" height="720"
+          alt="Schema concettuale: GA4 misura le visite identificabili degli assistenti, Search Console le impressioni della ricerca generativa e Bing le citazioni. Esamina ogni segnale separatamente prima di scegliere una pagina da migliorare." loading="lazy" decoding="async"><figcaption>Schema concettuale: GA4 misura le visite identificabili degli assistenti, Search Console le impressioni della ricerca generativa e Bing le citazioni. Esamina ogni segnale separatamente prima di scegliere una pagina da migliorare.</figcaption></figure><section id="section-5">
+          <h2>Indaga le visite assenti o classificate in modo errato</h2><p>Se AI Assistant è vuoto, controlla proprietà, date, dimensione del rapporto e presenza di sessioni registrate sul sito. Poi esamina Sorgente / mezzo della sessione per trovare referrer riconoscibili degli assistenti. Se l’informazione del referrer si perde, la visita può risultare direct / none. Google cita anche reindirizzamenti, informazioni sulla sorgente mancanti e blocchi del browser. Considera il canale un minimo misurabile, non il conteggio completo delle persone influenzate dall’AI.</p>
+        </section><section id="section-6">
+          <h2>Crea una verifica mensile ripetibile</h2><p>Salva intervallo, sessioni AI Assistant, sorgenti, pagine di destinazione, sessioni con coinvolgimento ed eventi chiave configurati. Mantieni impressioni AI di Search Console e citazioni Bing in colonne o rapporti separati, annotando le modifiche alle pagine nel periodo interessato. Confronta ogni mese gli stessi intervalli e le stesse sezioni del sito. Il rapporto aiuta a scegliere una pagina da esaminare, ma non dimostra che una menzione AI abbia causato una registrazione o che una modifica del testo abbia prodotto una citazione successiva.</p>
+        </section>
+        
+        <section><h2>Fonti ufficiali</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9164320?hl=en">Guida Google Analytics: novità di Google Analytics</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9756891?hl=en">Guida Google Analytics: gruppo di canali predefinito</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/12923437?hl=en">Guida Google Analytics: rapporto Acquisizione di traffico</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/14731736?hl=en">Guida Google Analytics: Acquisizione utenti e Acquisizione di traffico</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/15258820?hl=en">Guida Google Analytics: capire il traffico direct / none</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports">Google Search Central: rapporti sul rendimento dell’IA generativa</a></cite></li><li><cite><a data-source-citation="true" href="https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/">Bing Webmaster Blog: anteprima pubblica di AI Performance</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/it/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>Un angolo più tranquillo di Internet per prodotti migliori.</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Scrivi a Evan</a>
+      </div>
+      <nav aria-label="Navigazione nel piè di pagina">
+        <a href="/it/">Prodotti</a>
+        <a href="/it/guides/">Guide</a>
+        <a href="/it/about/">Informazioni sul progetto</a>
+        <a href="/it/pricing/">Richiedi una recensione</a>
+        <a href="/it/privacy/">Privacy</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Un taccuino indipendente di Evan.</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPT Image 2.6を使う画像編集とGIF制作の実践手順 — ProductTally</title>
+  <meta name="description" content="商品画像、SNS用ビジュアル、短いループGIFのための再現可能な手順です。2026年11月10日時点の公式情報に基づくもので、画質や速度の独立ベンチマークではありません。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="ko" href="https://producttally.com/ko/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="fr" href="https://producttally.com/fr/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="de" href="https://producttally.com/de/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="it" href="https://producttally.com/it/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="hi" href="https://producttally.com/hi/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="th" href="https://producttally.com/th/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="pt-BR" href="https://producttally.com/pt-br/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="GPT Image 2.6を使う画像編集とGIF制作の実践手順 — ProductTally">
+  <meta property="og:description" content="商品画像、SNS用ビジュアル、短いループGIFのための再現可能な手順です。2026年11月10日時点の公式情報に基づくもので、画質や速度の独立ベンチマークではありません。">
+  <meta property="og:url" content="https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/gpt-image-26-creator-workflow/cover.webp">
+  <meta property="og:image:alt" content="クリエイターが一貫性のある商品画像の案とループアニメーションのフレームを確認している。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="hi_IN">
+  <meta property="og:locale:alternate" content="th_TH">
+  <meta property="og:locale:alternate" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GPT Image 2.6を使う画像編集とGIF制作の実践手順 — ProductTally">
+  <meta name="twitter:description" content="商品画像、SNS用ビジュアル、短いループGIFのための再現可能な手順です。2026年11月10日時点の公式情報に基づくもので、画質や速度の独立ベンチマークではありません。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/gpt-image-26-creator-workflow/cover.webp">
+  <meta name="twitter:image:alt" content="クリエイターが一貫性のある商品画像の案とループアニメーションのフレームを確認している。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/#webpage","name":"GPT Image 2.6を使う画像編集とGIF制作の実践手順","description":"商品画像、SNS用ビジュアル、短いループGIFのための再現可能な手順です。2026年11月10日時点の公式情報に基づくもので、画質や速度の独立ベンチマークではありません。","url":"https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/#article"},"breadcrumb":{"@id":"https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/#article","headline":"GPT Image 2.6を使う画像編集とGIF制作の実践手順","description":"商品画像、SNS用ビジュアル、短いループGIFのための再現可能な手順です。2026年11月10日時点の公式情報に基づくもので、画質や速度の独立ベンチマークではありません。","url":"https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","url":"https://producttally.com/assets/articles/gpt-image-26-creator-workflow/cover.webp","width":1200,"height":800,"caption":"クリエイターが一貫性のある商品画像の案とループアニメーションのフレームを確認している。"},"dateModified":"2026-11-10","citation":["https://openai.com/index/introducing-images-2-6/","https://help.openai.com/en/articles/6825453-chatgpt-release-notes","https://developers.openai.com/api/docs/guides/image-generation","https://developers.google.com/search/docs/appearance/google-images"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ガイド一覧","item":"https://producttally.com/ja/guides/"},{"@type":"ListItem","position":3,"name":"AI画像制作","item":"https://producttally.com/ja/guides/ai-image-creation/"},{"@type":"ListItem","position":4,"name":"GPT Image 2.6を使う画像編集とGIF制作の実践手順","item":"https://producttally.com/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/guides/" aria-current="location">ガイド広場</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/ko/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="ko" translate="no">
+      한국어
+    </wa-dropdown-item><wa-dropdown-item href="/fr/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="fr" translate="no">
+      Français
+    </wa-dropdown-item><wa-dropdown-item href="/de/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="de" translate="no">
+      Deutsch
+    </wa-dropdown-item><wa-dropdown-item href="/it/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="it" translate="no">
+      Italiano
+    </wa-dropdown-item><wa-dropdown-item href="/hi/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="hi" translate="no">
+      हिन्दी
+    </wa-dropdown-item><wa-dropdown-item href="/th/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="th" translate="no">
+      ไทย
+    </wa-dropdown-item><wa-dropdown-item href="/pt-br/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="pt-BR" translate="no">
+      Português (Brasil)
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/ko/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="ko" hreflang="ko" translate="no">한국어</a><a href="/fr/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="fr" hreflang="fr" translate="no">Français</a><a href="/de/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="de" hreflang="de" translate="no">Deutsch</a><a href="/it/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="it" hreflang="it" translate="no">Italiano</a><a href="/hi/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="hi" hreflang="hi" translate="no">हिन्दी</a><a href="/th/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="th" hreflang="th" translate="no">ไทย</a><a href="/pt-br/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="pt-BR" hreflang="pt-BR" translate="no">Português (Brasil)</a><a href="/zh/guides/ai-image-creation/gpt-image-26-creator-workflow/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/guides/">ガイド一覧</a></li><li><a href="/ja/guides/ai-image-creation/">AI画像制作</a></li><li><span aria-current="page">GPT Image 2.6を使う画像編集とGIF制作の実践手順</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">ビデオ · 8 最小読み取り</p>
+        <h1>GPT Image 2.6を使う画像編集とGIF制作の実践手順</h1>
+        <p class="lead">商品画像、SNS用ビジュアル、短いループGIFのための再現可能な手順です。2026年11月10日時点の公式情報に基づくもので、画質や速度の独立ベンチマークではありません。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-10">2026/11/10</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/gpt-image-26-creator-workflow/cover.webp"
+    srcset="/assets/articles/gpt-image-26-creator-workflow/cover-small.webp 640w, /assets/articles/gpt-image-26-creator-workflow/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="クリエイターが一貫性のある商品画像の案とループアニメーションのフレームを確認している。"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="この記事の目次">
+        <p class="eyebrow">この記事の目次</p>
+        <ol><li><a href="#quick-answer">結論</a></li><li><a href="#section-0">用途を1つに絞る</a></li><li><a href="#section-1">修正しやすいプロンプトを書く</a></li><li><a href="#section-2">ベースを作り、一度に1点だけ変える</a></li><li><a href="#section-3">GIFは単純で自然につながる動きにする</a></li><li><a href="#section-4">書き出し前に公開用チェックを行う</a></li><li><a href="#section-5">リリース情報とテスト結果を混同しない</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>結論</h2><p>用途を文章で定め、ベース画像を作り、確認可能な小さな修正を重ねます。GIFは動作とループを先に決めます。最終表示環境でブランド、文字、トリミング、アクセシビリティ、ファイルを確認してください。OpenAIは2026年11月4日にImages 2.6を発表しましたが、機能の提供範囲は製品やアカウントによって異なります。</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>用途を1つに絞る</h2><p>掲載場所、対象者、縦横比、必ず見せる要素、文字や動きの有無を書きます。商品ページ、SNS画像、説明用GIFでは必要な切り抜きや細部が異なります。商品名、形、色、注意書きなど変更不可の事実を列挙し、モデルに事実を作らせないようにします。</p>
+        </section><section id="section-1">
+          <h2>修正しやすいプロンプトを書く</h2><p>被写体と動作、構図、背景、光、スタイル、配色、出力比率の順で記述します。必須条件と好みを分け、参考画像があるなら残す部分と変更できる部分を指定します。「もっとプロらしく」だけでは、次の修正で何を保つか分かりません。</p>
+        </section><section id="section-2">
+          <h2>ベースを作り、一度に1点だけ変える</h2><p>まず全体構図を作り、公開時のサイズで確認してから細部を調整します。各回の修正は、物体を動かす、切り抜きを変える、背景を柔らかくするなど具体的な1点に絞り、維持する要素を明記します。プロンプトと採用版を保存し、矛盾した指示を積み上げないようにします。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/gpt-image-26-creator-workflow/workflow.svg" width="1200" height="720"
+          alt="概念的な手順図。要件を定め、ベース画像を作り、細部を1つずつ調整し、書き出しを確認します。" loading="lazy" decoding="async"><figcaption>概念的な手順図。要件を定め、ベース画像を作り、細部を1つずつ調整し、書き出しを確認します。</figcaption></figure><section id="section-3">
+          <h2>GIFは単純で自然につながる動きにする</h2><p>小さな回転、出現、穏やかな脈動など、一目で分かる動きを1つ選びます。開始、動き、開始に戻せる終了の姿勢を決めます。最初と最後のフレームを並べて不自然な跳びがないか確認し、掲載先で速度、文字の読みやすさ、容量を試します。無音でも意味が伝わるかも見ます。</p>
+        </section><section id="section-4">
+          <h2>書き出し前に公開用チェックを行う</h2><p>実寸で商品情報、ロゴ、指、輪郭、スペル、コントラスト、切り抜き、スマートフォンの安全領域を確認します。重要な文字は元資料と1文字ずつ照合します。ウェブ用には圧縮したレスポンシブ画像を出力し、分かりやすいファイル名を付け、関連する本文の近くに標準HTML画像として配置して、簡潔な代替テキストを付けます。生成イラストは手順を説明できますが、製品の実地検証にはなりません。元データと承認済みの書き出しファイルは分けて保存します。</p>
+        </section><section id="section-5">
+          <h2>リリース情報とテスト結果を混同しない</h2><p>OpenAIの11月4日の発表は、より速い編集反復、精密な編集、各製品でのGIF生成について説明しています。APIモデルと提供状況は別に記載されています。全アカウントで全機能が使える、他モデルより優れているとは本記事では主張しません。導入前に自分のアカウントで同じ依頼を試し、版と日付、書き出したファイルを記録して現行手順と比較します。</p>
+        </section>
+        
+        <section><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://openai.com/index/introducing-images-2-6/">OpenAI：Images 2.6の紹介</a></cite></li><li><cite><a data-source-citation="true" href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">OpenAIヘルプセンター：ChatGPTリリースノート</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.openai.com/api/docs/guides/image-generation">OpenAI API：画像生成ガイド</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.google.com/search/docs/appearance/google-images">Google 検索セントラル：画像SEOのベストプラクティス</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/guides/">ガイド広場</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

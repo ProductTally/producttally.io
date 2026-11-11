@@ -6,6 +6,7 @@
   <title>ガイド一覧 — ProductTally</title>
   <meta name="description" content="デジタル製品の選び方と使い方を紹介する実践ガイド。">
   <meta name="theme-color" content="#FBF8F3">
+  
   <link rel="canonical" href="https://producttally.com/ja/guides/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/guides/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/">
@@ -25,6 +26,7 @@
   <meta property="og:description" content="デジタル製品の選び方と使い方を紹介する実践ガイド。">
   <meta property="og:url" content="https://producttally.com/ja/guides/">
   <meta property="og:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta property="og:image:alt" content="ProductTally">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
@@ -40,6 +42,7 @@
   <meta name="twitter:title" content="ガイド一覧 — ProductTally">
   <meta name="twitter:description" content="デジタル製品の選び方と使い方を紹介する実践ガイド。">
   <meta name="twitter:image" content="https://producttally.com/assets/producttally-icon.png">
+  <meta name="twitter:image:alt" content="ProductTally">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja","ko","fr","de","it","hi","th","pt-BR"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/guides/#webpage","name":"ガイド一覧","description":"デジタル製品の選び方と使い方を紹介する実践ガイド。","url":"https://producttally.com/ja/guides/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"breadcrumb":{"@id":"https://producttally.com/ja/guides/#breadcrumbs"}},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/guides/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ガイド一覧","item":"https://producttally.com/ja/guides/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
@@ -57,8 +60,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="プライマリナビゲーション">
-          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/guides/" aria-current="page">ガイド</a><a href="/ja/about/">評価方針</a></div>
-          <a class="header-review" href="/ja/pricing/">レビュー依頼<svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a>
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/guides/" aria-current="page">ガイド広場</a><a href="/ja/pricing/">レビュー依頼</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -109,27 +111,36 @@
     </header>
     <div class="guide-library"><div class="catalog" data-catalog data-result-plural="件のガイド"
     data-result-single="件のガイド" data-locale-format="ja-JP">
-    <div class="catalog-controls">
-      <wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="ガイドやトピックを検索…" autocomplete="off">
-        <span slot="label" class="visually-hidden">ガイドを検索</span>
-        <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
-      </wa-input>
-      <div class="filters" role="group" aria-label="ガイドを絞り込む"><wa-button data-filter="all"
+    <div class="catalog-controls"><wa-input class="search" type="search" name="q" with-start with-clear data-search placeholder="ガイドやトピックを検索…" autocomplete="off">
+    <span slot="label" class="visually-hidden">ガイドを検索</span>
+    <span slot="start"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></span>
+  </wa-input><div class="filters" role="group" aria-label="ガイドを絞り込む"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
-    すべてのガイド
+    <span>すべてのガイド</span>
+  </wa-button><wa-button data-filter="monitoring"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>サイト監視</span>
+  </wa-button><wa-button data-filter="podcasting"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>ポッドキャスト</span>
+  </wa-button><wa-button data-filter="writing"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>執筆</span>
   </wa-button><wa-button data-filter="video"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    ビデオ
+    <span>ビデオ</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
-    生産性
-  </wa-button></div>
-    </div>
-    <div class="catalog-meta" role="status"><span data-result-count>2</span> <span data-result-word>件のガイド</span></div>
+    <span>生産性</span>
+  </wa-button></div></div>
+    <div class="catalog-meta" role="status"><span data-result-count>13</span> <span data-result-word>件のガイド</span></div>
     <div class="note-grid"><article class="note-card" data-catalog-item="plan-a-publishing-week" data-category="productivity" data-search="無料版の My Day で1週間の公開予定を組む Any.do 無料版で試したタスクやリマインダー、3言語での日付入力、共有に必要なプランを紹介します。 生産性 企画を今日できる作業に分ける 普段使う言語で日付を確かめる 共有が必要になったらボードを試す 公開まで1周して判断する">
-      <div class="note-art art-writing" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19h14M7 15l1-5L17 1l5 5-9 9-6 1M14 4l5 5"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/plan-a-publishing-week/cover.webp"
+    srcset="/assets/articles/plan-a-publishing-week/cover-small.webp 640w, /assets/articles/plan-a-publishing-week/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">生産性 · 2 最小読み取り</p>
         <h2><a href="/ja/guides/anydo/plan-a-publishing-week/">無料版の My Day で1週間の公開予定を組む</a></h2>
@@ -137,13 +148,159 @@
         <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
       </div>
     </article><article class="note-card" data-catalog-item="short-video-captions" data-category="video" data-search="試用版で字幕を編集し、SRT と動画を書き出す 英語のサンプルで Submagic を試し、字幕の修正と SRT の取得、動画書き出しに必要な条件を確認しました。 ビデオ 聞き取って確認できる素材を用意する 書き出しまでできるかを確認する 使う機能ごとにクレジットを見積もる 完成したファイルで契約を判断する">
-      <div class="note-art art-video" aria-hidden="true">
-    <span class="art-glyph"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="m10 8 6 4-6 4z"/></svg></span>
-  </div>
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/short-video-captions/cover.webp"
+    srcset="/assets/articles/short-video-captions/cover-small.webp 640w, /assets/articles/short-video-captions/cover.webp 1060w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1060" height="498" alt=""
+    loading="lazy" decoding="async"></div>
       <div class="note-copy">
         <p class="eyebrow">ビデオ · 2 最小読み取り</p>
         <h2><a href="/ja/guides/submagic/short-video-captions/">試用版で字幕を編集し、SRT と動画を書き出す</a></h2>
         <p>英語のサンプルで Submagic を試し、字幕の修正と SRT の取得、動画書き出しに必要な条件を確認しました。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="ai-video-workflow-for-small-teams" data-category="video" data-search="小規模チームのAI動画制作：企画、生成、編集、確認 クリエイターや小規模チーム向けのAI動画制作手順。要件を決め、カットごとに生成・確認し、公開前に表示ルールを確かめます。需要の手掛かりはUpwork米国マーケットプレイスのもので、Google全体の検索量ではありません。 ビデオ 生成前に企画をまとめる 確認できる単位で生成する 物語として編集し、完成ファイルを確認する 掲載先ごとのAI表示ルールを確認する 重要な動画には専用ページを用意する">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/ai-video-workflow-for-small-teams/cover.webp"
+    srcset="/assets/articles/ai-video-workflow-for-small-teams/cover-small.webp 640w, /assets/articles/ai-video-workflow-for-small-teams/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI動画制作 · 8 最小読み取り</p>
+        <h2><a href="/ja/guides/ai-video-production/ai-video-workflow-for-small-teams/">小規模チームのAI動画制作：企画、生成、編集、確認</a></h2>
+        <p>クリエイターや小規模チーム向けのAI動画制作手順。要件を決め、カットごとに生成・確認し、公開前に表示ルールを確かめます。需要の手掛かりはUpwork米国マーケットプレイスのもので、Google全体の検索量ではありません。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="choose-your-first-ai-automation" data-category="productivity" data-search="AI業務自動化：安全な最初のプロセスを選ぶ 繰り返し作業を見つけ、人による確認点を設け、拡大前に小さな試験導入を評価する方法を解説します。需要の手掛かりはUpwork米国マーケットプレイスのもので、Google全体の検索量ではありません。 生産性 例外を含め、現行作業を記録する 手順が決まっているなら固定ワークフローにする 承認、権限、復旧方法を決める 一つの業務で試し、全体の効果を測る 再現できる証拠として試験内容を公開する">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/choose-your-first-ai-automation/cover.webp"
+    srcset="/assets/articles/choose-your-first-ai-automation/cover-small.webp 640w, /assets/articles/choose-your-first-ai-automation/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AIワークフロー自動化 · 9 最小読み取り</p>
+        <h2><a href="/ja/guides/ai-workflow-automation/choose-your-first-ai-automation/">AI業務自動化：安全な最初のプロセスを選ぶ</a></h2>
+        <p>繰り返し作業を見つけ、人による確認点を設け、拡大前に小さな試験導入を評価する方法を解説します。需要の手掛かりはUpwork米国マーケットプレイスのもので、Google全体の検索量ではありません。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="ai-search-visibility-checklist" data-category="writing" data-search="小規模サイトのAI SEO：実践的なGEOチェックリスト 基本的なSEOと検証可能な根拠で、小規模サイトのAI検索可視性を高めます。測定すべき指標と避けたいGEOの近道を解説します。 執筆 ページを見つけやすく、理解しやすくする 一般的な要約では代替できない情報を加える 先に答えを示し、その後に理由を説明する 構造化データを正確に保ち、可視性を測る 読者の意図ごとに役立つページを一つ作る 引用、ブランド言及、成果を分けて測る">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/ai-search-visibility-checklist/cover.webp"
+    srcset="/assets/articles/ai-search-visibility-checklist/cover-small.webp 640w, /assets/articles/ai-search-visibility-checklist/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI検索での可視性 · 11 最小読み取り</p>
+        <h2><a href="/ja/guides/ai-search-visibility/ai-search-visibility-checklist/">小規模サイトのAI SEO：実践的なGEOチェックリスト</a></h2>
+        <p>基本的なSEOと検証可能な根拠で、小規模サイトのAI検索可視性を高めます。測定すべき指標と避けたいGEOの近道を解説します。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="bing-ai-performance-topic-gaps" data-category="writing" data-search="Bing AI PerformanceでGEOのコンテンツギャップを見つける Bing Webmaster ToolsのTopics Portfolioで引用テーマと機会クエリを確認し、既存ガイドの改善か、新たな価値のある記事の作成かを判断します。機能はベータ版で、数値は方向性を示すものです。 執筆 レポートが利用できるか確認する 3つのテーマ指標を正確に読む 機会クエリを編集判断につなげる レポートのラベルではなく読者の質問に答える 再現できる小さな記録を続ける この方法の限界を把握する">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/bing-ai-performance-topic-gaps/cover.webp"
+    srcset="/assets/articles/bing-ai-performance-topic-gaps/cover-small.webp 640w, /assets/articles/bing-ai-performance-topic-gaps/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI検索での可視性 · 9 最小読み取り</p>
+        <h2><a href="/ja/guides/ai-search-visibility/bing-ai-performance-topic-gaps/">Bing AI PerformanceでGEOのコンテンツギャップを見つける</a></h2>
+        <p>Bing Webmaster ToolsのTopics Portfolioで引用テーマと機会クエリを確認し、既存ガイドの改善か、新たな価値のある記事の作成かを判断します。機能はベータ版で、数値は方向性を示すものです。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="google-multimodal-search-console" data-category="writing" data-search="Search Consoleのマルチモーダル検索レポートと画像SEO LensやCircle to Searchなど、画像を起点とする検索のデータを確認する方法を紹介します。レポートの場所、指標の限界、ページごとに見直したい画像SEOを整理します。 執筆 新しい検索タイプのフィルタを見つける 表示回数が何を表すか確認する 表示のあるページの画像を点検する 重要な画像にページの文脈を与える 1つずつ変更し、記録する 視覚検索SEOの効果を誇張しない">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/google-multimodal-search-console/cover.webp"
+    srcset="/assets/articles/google-multimodal-search-console/cover-small.webp 640w, /assets/articles/google-multimodal-search-console/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI検索での可視性 · 9 最小読み取り</p>
+        <h2><a href="/ja/guides/ai-search-visibility/google-multimodal-search-console/">Search Consoleのマルチモーダル検索レポートと画像SEO</a></h2>
+        <p>LensやCircle to Searchなど、画像を起点とする検索のデータを確認する方法を紹介します。レポートの場所、指標の限界、ページごとに見直したい画像SEOを整理します。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="gpt-image-26-creator-workflow" data-category="video" data-search="GPT Image 2.6を使う画像編集とGIF制作の実践手順 商品画像、SNS用ビジュアル、短いループGIFのための再現可能な手順です。2026年11月10日時点の公式情報に基づくもので、画質や速度の独立ベンチマークではありません。 ビデオ 用途を1つに絞る 修正しやすいプロンプトを書く ベースを作り、一度に1点だけ変える GIFは単純で自然につながる動きにする 書き出し前に公開用チェックを行う リリース情報とテスト結果を混同しない">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/gpt-image-26-creator-workflow/cover.webp"
+    srcset="/assets/articles/gpt-image-26-creator-workflow/cover-small.webp 640w, /assets/articles/gpt-image-26-creator-workflow/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI画像制作 · 8 最小読み取り</p>
+        <h2><a href="/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/">GPT Image 2.6を使う画像編集とGIF制作の実践手順</a></h2>
+        <p>商品画像、SNS用ビジュアル、短いループGIFのための再現可能な手順です。2026年11月10日時点の公式情報に基づくもので、画質や速度の独立ベンチマークではありません。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="track-ai-assistant-traffic-ga4" data-category="writing" data-search="GA4のAI AssistantチャネルでAI流入を確認する方法 AIアシスタントからの訪問、流入先ページ、有効な行動を確認し、紹介セッションと引用、AI検索全体の露出を混同しないための手順です。 執筆 GA4のAI Assistantチャネルが数えるもの セッションレポートを開いてチャネルを絞る 参照元、ランディングページ、有効な行動を見る 訪問を分析するならセッション単位を使う AI流入とAI検索での可視性を分ける 訪問が見えない、または分類が違うとき 毎月繰り返せる小さな確認表を作る">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/track-ai-assistant-traffic-ga4/cover.webp"
+    srcset="/assets/articles/track-ai-assistant-traffic-ga4/cover-small.webp 640w, /assets/articles/track-ai-assistant-traffic-ga4/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">AI検索での可視性 · 10 最小読み取り</p>
+        <h2><a href="/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">GA4のAI AssistantチャネルでAI流入を確認する方法</a></h2>
+        <p>AIアシスタントからの訪問、流入先ページ、有効な行動を確認し、紹介セッションと引用、AI検索全体の露出を混同しないための手順です。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="youtube-seo-for-creators" data-category="video" data-search="クリエイター向けYouTube SEO：YouTube検索とGoogle流入を分けて見る YouTube StudioでYouTube内の発見を確認し、Search Consoleの認証済みプラットフォームプロパティでGoogle検索からの流入を確認します。二つのレポートは異なる問いに答えます。 ビデオ 動画を変更する前に二つの検索面を区別する YouTube Studioで実際の質問を見つける 一つの動画で一つの明確な用事に答える チャンネルをSearch Consoleのプラットフォームプロパティに追加する Googleでの発見をGoogleのデータとして読む 小さな変更記録を残し、次の対応を決める">
+      <div class="note-cover"><img class="article-image"
+    src="/assets/articles/youtube-seo-for-creators/cover.webp"
+    srcset="/assets/articles/youtube-seo-for-creators/cover-small.webp 640w, /assets/articles/youtube-seo-for-creators/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="800" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">YouTube検索での発見 · 9 最小読み取り</p>
+        <h2><a href="/ja/guides/youtube-search-discovery/youtube-seo-for-creators/">クリエイター向けYouTube SEO：YouTube検索とGoogle流入を分けて見る</a></h2>
+        <p>YouTube StudioでYouTube内の発見を確認し、Search Consoleの認証済みプラットフォームプロパティでGoogle検索からの流入を確認します。二つのレポートは異なる問いに答えます。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="content-launch-project" data-category="productivity" data-search="Niftyでコンテンツ制作を始める：タスク・進捗・ブリーフを一つのプロジェクトに Niftyで公開作業を整理。期限、依存関係、文書とエクスポートをつなぎ、無料プランの範囲も確認します。 生産性 成果物を中心にプロジェクトを作る 期限とサブタスクを別々に確認する 依存関係と自動進捗を使う 文書を保存し、出力内容を確認する 本番利用の前にプランを確認する 小さな公開案件から試す">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/content-launch-project/cover.webp"
+    srcset="/assets/articles/content-launch-project/cover-small.webp 640w, /assets/articles/content-launch-project/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="606" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">生産性 · 4 最小読み取り</p>
+        <h2><a href="/ja/guides/nifty/content-launch-project/">Niftyでコンテンツ制作を始める：タスク・進捗・ブリーフを一つのプロジェクトに</a></h2>
+        <p>Niftyで公開作業を整理。期限、依存関係、文書とエクスポートをつなぎ、無料プランの範囲も確認します。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="website-monitoring-404" data-category="monitoring" data-search="小さなチームのOh Dear入門：404とサイト全体の障害を区別する Oh Dearで稼働状況、SSL、DNSを確認。通知を試し、URLと時刻から404や復帰を読み解きます。 サイト監視 監視する権限のあるサイトを追加する 通知の種類を区別する 404の完全なURLを見る 復帰と更新タイミングを読む 履歴と出力を正しく扱う サイト数に合うプランを選ぶ">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/website-monitoring-404/cover.webp"
+    srcset="/assets/articles/website-monitoring-404/cover-small.webp 640w, /assets/articles/website-monitoring-404/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="818" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">サイト監視 · 4 最小読み取り</p>
+        <h2><a href="/ja/guides/oh-dear/website-monitoring-404/">小さなチームのOh Dear入門：404とサイト全体の障害を区別する</a></h2>
+        <p>Oh Dearで稼働状況、SSL、DNSを確認。通知を試し、URLと時刻から404や復帰を読み解きます。</p>
+        <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+      </div>
+    </article><article class="note-card" data-catalog-item="podcast-hosting-wordpress" data-category="podcasting" data-search="Castosの選び方：ポッドキャスト配信・WordPress・料金 Castosの音声ホスティング、RSS配信、WordPress連携、YouTube機能と料金プランを確認します。 ポッドキャスト どんな配信に使える？ WordPressでは更新元を決める 最初のエピソードを準備する 使う機能から料金を選ぶ YouTube再配信と動画保管は別 コミュニティの声をどう読む？">
+      <div class="note-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/podcast-hosting-wordpress/cover.webp"
+    srcset="/assets/articles/podcast-hosting-wordpress/cover-small.webp 640w, /assets/articles/podcast-hosting-wordpress/cover.webp 1200w"
+    sizes="(max-width: 40rem) 100vw, 26rem"
+    width="1200" height="630" alt=""
+    loading="lazy" decoding="async"></div>
+      <div class="note-copy">
+        <p class="eyebrow">ポッドキャスト · 4 最小読み取り</p>
+        <h2><a href="/ja/guides/castos/podcast-hosting-wordpress/">Castosの選び方：ポッドキャスト配信・WordPress・料金</a></h2>
+        <p>Castosの音声ホスティング、RSS配信、WordPress連携、YouTube機能と料金プランを確認します。</p>
         <span class="guide-card-arrow" aria-hidden="true"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
       </div>
     </article></div>
@@ -155,14 +312,44 @@
   </div><nav class="guide-products" id="browse-products" aria-label="製品別に見る">
       <p class="eyebrow">製品別に見る</p>
       <ul><li><a href="/ja/guides/anydo/">
-          <span class="product-mark" aria-hidden="true" style="--mark:#0877BF;--tint:#E6F2FA">A</span>
+          <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
           <span translate="no">Any.do</span>
           <span class="guide-count">1 件のガイド</span>
         </a></li><li><a href="/ja/guides/submagic/">
-          <span class="product-mark" aria-hidden="true" style="--mark:#8B377F;--tint:#F6EAF4">S</span>
+          <img class="product-mark product-mark-image" src="/assets/product-icons/submagic.svg" alt="" width="48" height="48">
           <span translate="no">Submagic</span>
           <span class="guide-count">1 件のガイド</span>
+        </a></li><li><a href="/ja/guides/nifty/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/nifty.png" alt="" width="48" height="48">
+          <span translate="no">Nifty</span>
+          <span class="guide-count">1 件のガイド</span>
+        </a></li><li><a href="/ja/guides/oh-dear/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48">
+          <span translate="no">Oh Dear</span>
+          <span class="guide-count">1 件のガイド</span>
+        </a></li><li><a href="/ja/guides/castos/">
+          <img class="product-mark product-mark-image" src="/assets/product-icons/castos.png" alt="" width="48" height="48">
+          <span translate="no">Castos</span>
+          <span class="guide-count">1 件のガイド</span>
         </a></li></ul>
+    </nav><nav class="guide-products guide-topics" id="browse-topics" aria-label="テーマ別に見る">
+      <p class="eyebrow">テーマ別に見る</p>
+      <ul><li><a href="/ja/guides/ai-video-production/">
+        <span>AI動画制作</span>
+        <span class="guide-count">1 件のガイド</span>
+      </a></li><li><a href="/ja/guides/ai-workflow-automation/">
+        <span>AIワークフロー自動化</span>
+        <span class="guide-count">1 件のガイド</span>
+      </a></li><li><a href="/ja/guides/ai-search-visibility/">
+        <span>AI検索での可視性</span>
+        <span class="guide-count">4 件のガイド</span>
+      </a></li><li><a href="/ja/guides/ai-image-creation/">
+        <span>AI画像制作</span>
+        <span class="guide-count">1 件のガイド</span>
+      </a></li><li><a href="/ja/guides/youtube-search-discovery/">
+        <span>YouTube検索での発見</span>
+        <span class="guide-count">1 件のガイド</span>
+      </a></li></ul>
     </nav></div>
   </section></main>
   <footer class="site-footer">
@@ -175,7 +362,7 @@
       </div>
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>
-        <a href="/ja/guides/">ガイド</a>
+        <a href="/ja/guides/">ガイド広場</a>
         <a href="/ja/about/">プロジェクトについて</a>
         <a href="/ja/pricing/">レビュー依頼</a>
         <a href="/ja/privacy/">プライバシー</a>

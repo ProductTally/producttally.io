@@ -2,16 +2,16 @@
 
 > Independent, evidence-led notes on SaaS, software, and digital products for creators and small teams.
 
-ProductTally publishes practical product observations, comparisons, and guides. Each product page states the tasks checked, known limits, and official sources. Basic tests cover only the described tasks; they are not a review of every feature.
+ProductTally product pages explain product positioning, supported features, practical uses, advantages, and relevant plan conditions, with official evidence, product imagery, demonstrations, and related guides. Guides provide practical workflows and evidence-led recommendations.
 
 ## English
 - [Back to home](https://producttally.com/)
-- [Guides](https://producttally.com/guides/)
+- [Guide directory](https://producttally.com/guides/)
 - [About the project](https://producttally.com/about/)
 
 ## 简体中文
 - [回到首页](https://producttally.com/zh/)
-- [指南文章](https://producttally.com/zh/guides/)
+- [指南广场](https://producttally.com/zh/guides/)
 - [关于这个项目](https://producttally.com/zh/about/)
 
 ## Español
@@ -21,12 +21,12 @@ ProductTally publishes practical product observations, comparisons, and guides. 
 
 ## 日本語
 - [家に戻る](https://producttally.com/ja/)
-- [ガイド](https://producttally.com/ja/guides/)
+- [ガイド広場](https://producttally.com/ja/guides/)
 - [プロジェクトについて](https://producttally.com/ja/about/)
 
 ## 한국어
 - [집으로 돌아가기](https://producttally.com/ko/)
-- [가이드](https://producttally.com/ko/guides/)
+- [가이드 광장](https://producttally.com/ko/guides/)
 - [프로젝트 소개](https://producttally.com/ko/about/)
 
 ## Français
@@ -36,7 +36,7 @@ ProductTally publishes practical product observations, comparisons, and guides. 
 
 ## Deutsch
 - [Zurück nach Hause](https://producttally.com/de/)
-- [Anleitungen](https://producttally.com/de/guides/)
+- [Ratgeber](https://producttally.com/de/guides/)
 - [Über das Projekt](https://producttally.com/de/about/)
 
 ## Italiano
@@ -51,7 +51,7 @@ ProductTally publishes practical product observations, comparisons, and guides. 
 
 ## ไทย
 - [กลับบ้าน](https://producttally.com/th/)
-- [คู่มือ](https://producttally.com/th/guides/)
+- [คลังคู่มือ](https://producttally.com/th/guides/)
 - [เกี่ยวกับโครงการ](https://producttally.com/th/about/)
 
 ## Português (Brasil)
