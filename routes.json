@@ -166,25 +166,25 @@
       "lang": "en",
       "route": "guides/ai-video-production",
       "url": "/guides/ai-video-production/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "guides/ai-workflow-automation",
       "url": "/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "guides/ai-search-visibility",
       "url": "/guides/ai-search-visibility/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "guides/ai-image-creation",
       "url": "/guides/ai-image-creation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
@@ -208,19 +208,19 @@
       "lang": "en",
       "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
       "url": "/guides/ai-video-production/ai-video-workflow-for-small-teams/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
       "url": "/guides/ai-workflow-automation/choose-your-first-ai-automation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
       "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
       "url": "/guides/ai-search-visibility/ai-search-visibility-checklist/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
@@ -238,7 +238,7 @@
       "lang": "en",
       "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
       "url": "/guides/ai-image-creation/gpt-image-26-creator-workflow/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "en",
@@ -298,6 +298,18 @@
       "lang": "en",
       "route": "guides/capcut/auto-captions-export",
       "url": "/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
+      "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-image-creation/firefly-creative-agent-graph-workflow",
+      "url": "/guides/ai-image-creation/firefly-creative-agent-graph-workflow/",
       "lastmod": "2026-11-11"
     },
     {
@@ -458,25 +470,25 @@
       "lang": "zh",
       "route": "guides/ai-video-production",
       "url": "/zh/guides/ai-video-production/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "guides/ai-workflow-automation",
       "url": "/zh/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "guides/ai-search-visibility",
       "url": "/zh/guides/ai-search-visibility/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "guides/ai-image-creation",
       "url": "/zh/guides/ai-image-creation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
@@ -500,19 +512,19 @@
       "lang": "zh",
       "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
       "url": "/zh/guides/ai-video-production/ai-video-workflow-for-small-teams/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
       "url": "/zh/guides/ai-workflow-automation/choose-your-first-ai-automation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
       "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
       "url": "/zh/guides/ai-search-visibility/ai-search-visibility-checklist/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
@@ -530,7 +542,7 @@
       "lang": "zh",
       "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
       "url": "/zh/guides/ai-image-creation/gpt-image-26-creator-workflow/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "zh",
@@ -590,6 +602,18 @@
       "lang": "zh",
       "route": "guides/capcut/auto-captions-export",
       "url": "/zh/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
+      "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-image-creation/firefly-creative-agent-graph-workflow",
+      "url": "/zh/guides/ai-image-creation/firefly-creative-agent-graph-workflow/",
       "lastmod": "2026-11-11"
     },
     {
@@ -750,25 +774,25 @@
       "lang": "es",
       "route": "guides/ai-video-production",
       "url": "/es/guides/ai-video-production/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "guides/ai-workflow-automation",
       "url": "/es/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "guides/ai-search-visibility",
       "url": "/es/guides/ai-search-visibility/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "guides/ai-image-creation",
       "url": "/es/guides/ai-image-creation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
@@ -792,19 +816,19 @@
       "lang": "es",
       "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
       "url": "/es/guides/ai-video-production/ai-video-workflow-for-small-teams/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
       "url": "/es/guides/ai-workflow-automation/choose-your-first-ai-automation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
       "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
       "url": "/es/guides/ai-search-visibility/ai-search-visibility-checklist/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
@@ -822,7 +846,7 @@
       "lang": "es",
       "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
       "url": "/es/guides/ai-image-creation/gpt-image-26-creator-workflow/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "es",
@@ -882,6 +906,18 @@
       "lang": "es",
       "route": "guides/capcut/auto-captions-export",
       "url": "/es/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
+      "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-image-creation/firefly-creative-agent-graph-workflow",
+      "url": "/es/guides/ai-image-creation/firefly-creative-agent-graph-workflow/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1042,25 +1078,25 @@
       "lang": "ja",
       "route": "guides/ai-video-production",
       "url": "/ja/guides/ai-video-production/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "guides/ai-workflow-automation",
       "url": "/ja/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "guides/ai-search-visibility",
       "url": "/ja/guides/ai-search-visibility/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "guides/ai-image-creation",
       "url": "/ja/guides/ai-image-creation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
@@ -1084,19 +1120,19 @@
       "lang": "ja",
       "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
       "url": "/ja/guides/ai-video-production/ai-video-workflow-for-small-teams/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
       "url": "/ja/guides/ai-workflow-automation/choose-your-first-ai-automation/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
       "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
       "url": "/ja/guides/ai-search-visibility/ai-search-visibility-checklist/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
@@ -1114,7 +1150,7 @@
       "lang": "ja",
       "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
       "url": "/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/",
-      "lastmod": "2026-11-10"
+      "lastmod": "2026-11-11"
     },
     {
       "lang": "ja",
@@ -1174,6 +1210,18 @@
       "lang": "ja",
       "route": "guides/capcut/auto-captions-export",
       "url": "/ja/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
+      "url": "/ja/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-image-creation/firefly-creative-agent-graph-workflow",
+      "url": "/ja/guides/ai-image-creation/firefly-creative-agent-graph-workflow/",
       "lastmod": "2026-11-11"
     }
   ],

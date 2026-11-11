@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#c8ac96" opacity=".35"/></pattern>
+    <g id="bottle"><path d="M-18-67h36v22l18 22v78q0 14-14 14h-44q-14 0-14-14v-78l18-22z" fill="#b15436"/><rect x="-21" y="-76" width="42" height="18" rx="5" fill="#59392b"/><rect x="-27" y="5" width="54" height="32" rx="5" fill="#f5d3ad"/></g>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="#f5e9dd"/>
+  <rect x="36" y="36" width="1128" height="648" rx="24" fill="url(#dots)"/>
+  <g fill="none" stroke="#a66a50" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M322 360h101m-17-13 17 13-17 13m173-13h63q19 0 19-19v-93q0-19 19-19h42m-143 131h63q19 0 19 19v93q0 19 19 19h42m199-262h61q22 0 22 22v41m-83 199h61q22 0 22-22v-42"/>
+  </g>
+  <rect x="86" y="238" width="236" height="244" rx="24" fill="#fffaf4" stroke="#d3b29e" stroke-width="3"/>
+  <ellipse cx="204" cy="435" rx="66" ry="12" fill="#ead5c4"/>
+  <use href="#bottle" transform="translate(204 360)"/>
+  <rect x="426" y="281" width="153" height="158" rx="22" fill="#efd4be" stroke="#d3b29e" stroke-width="3"/>
+  <g fill="none" stroke="#713f2e" stroke-width="6" stroke-linecap="round">
+    <path d="M459 332h87m-87 28h87m-87 28h87"/>
+    <circle cx="484" cy="332" r="8" fill="#f7e8da"/><circle cx="521" cy="360" r="8" fill="#f7e8da"/><circle cx="496" cy="388" r="8" fill="#f7e8da"/>
+  </g>
+  <rect x="724" y="151" width="157" height="157" rx="18" fill="#f9deca" stroke="#d3b29e" stroke-width="3"/>
+  <rect x="742" y="385" width="121" height="212" rx="18" fill="#e2e7d7" stroke="#b6bcaa" stroke-width="3"/>
+  <use href="#bottle" transform="translate(803 234) scale(.68)"/>
+  <use href="#bottle" transform="translate(803 510) scale(.63)"/>
+  <circle cx="1004" cy="360" r="67" fill="#dee5d4" stroke="#b6bcaa" stroke-width="3"/>
+  <path d="m976 360 20 20 38-40" fill="none" stroke="#466252" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

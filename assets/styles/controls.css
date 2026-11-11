@@ -129,3 +129,9 @@ wa-button[data-save][aria-pressed="true"]::part(button) { color: var(--accent-da
 wa-button[data-save][aria-pressed="true"] .icon { fill: currentColor; }
 .save-wide .icon { margin-inline-end: .4rem; }
 wa-toast { --width: min(24rem, 100vw - 2rem); }
+wa-tooltip {
+  --wa-tooltip-background-color: var(--ink);
+  --wa-tooltip-content-color: var(--surface);
+  --wa-tooltip-border-color: var(--ink);
+}
+wa-tooltip:not(:defined) { display: none; }

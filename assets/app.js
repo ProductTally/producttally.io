@@ -39,4 +39,12 @@ async function setupProductMedia() {
   initProductMedia();
 }
 
-await Promise.allSettled([setupLanguage(), setupCatalog(), setupProductMedia()]);
+async function setupGuideTooltips() {
+  const cards = document.querySelectorAll('.note-card');
+  if (!cards.length) return;
+  const { initGuideTooltips } = await import('./interactions/guide-tooltips.js');
+  initGuideTooltips(cards);
+  await register('tooltip');
+}
+
+await Promise.allSettled([setupLanguage(), setupCatalog(), setupProductMedia(), setupGuideTooltips()]);
