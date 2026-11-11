@@ -55,3 +55,24 @@
 .pricing-contact { margin-block-start: 1.25rem; }
 .pricing-contact a { color: var(--accent-dark); }
 .pricing-policy { margin-block-start: .75rem; max-inline-size: 76ch; font-size: .9rem; }
+
+.pricing-layout {
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
+}
+.pricing-summary { min-inline-size: 0; }
+.pricing-illustration {
+  display: block;
+  inline-size: min(100%, 26rem);
+  block-size: auto;
+  justify-self: center;
+  border-radius: var(--radius);
+}
+@media (min-width: 64rem) {
+  .pricing-layout { grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); }
+  .pricing-illustration {
+    inline-size: 100%;
+    margin-block-start: clamp(2rem, 6vw, 5rem);
+  }
+}
