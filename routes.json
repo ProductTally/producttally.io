@@ -104,6 +104,12 @@
     },
     {
       "lang": "en",
+      "route": "products/deepl",
+      "url": "/products/deepl/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -172,6 +178,12 @@
       "lang": "en",
       "route": "guides/gemini-notebook",
       "url": "/guides/gemini-notebook/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/deepl",
+      "url": "/guides/deepl/",
       "lastmod": "2026-11-11"
     },
     {
@@ -380,6 +392,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/deepl/translate-word-formatting",
+      "url": "/guides/deepl/translate-word-formatting/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -486,6 +504,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/deepl",
+      "url": "/zh/products/deepl/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -554,6 +578,12 @@
       "lang": "zh",
       "route": "guides/gemini-notebook",
       "url": "/zh/guides/gemini-notebook/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/deepl",
+      "url": "/zh/guides/deepl/",
       "lastmod": "2026-11-11"
     },
     {
@@ -762,6 +792,12 @@
     },
     {
       "lang": "zh",
+      "route": "guides/deepl/translate-word-formatting",
+      "url": "/zh/guides/deepl/translate-word-formatting/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -868,6 +904,12 @@
     },
     {
       "lang": "es",
+      "route": "products/deepl",
+      "url": "/es/products/deepl/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -936,6 +978,12 @@
       "lang": "es",
       "route": "guides/gemini-notebook",
       "url": "/es/guides/gemini-notebook/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/deepl",
+      "url": "/es/guides/deepl/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1144,6 +1192,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/deepl/translate-word-formatting",
+      "url": "/es/guides/deepl/translate-word-formatting/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1250,6 +1304,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/deepl",
+      "url": "/ja/products/deepl/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -1318,6 +1378,12 @@
       "lang": "ja",
       "route": "guides/gemini-notebook",
       "url": "/ja/guides/gemini-notebook/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/deepl",
+      "url": "/ja/guides/deepl/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1522,6 +1588,12 @@
       "lang": "ja",
       "route": "guides/gemini-notebook/notebooklm-source-citations",
       "url": "/ja/guides/gemini-notebook/notebooklm-source-citations/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/deepl/translate-word-formatting",
+      "url": "/ja/guides/deepl/translate-word-formatting/",
       "lastmod": "2026-11-11"
     },
     {
