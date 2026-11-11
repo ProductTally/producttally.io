@@ -188,6 +188,24 @@
     },
     {
       "lang": "en",
+      "route": "products/cal-com",
+      "url": "/products/cal-com/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/pdf2go",
+      "url": "/products/pdf2go/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "products/seopress",
+      "url": "/products/seopress/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -340,6 +358,24 @@
       "lang": "en",
       "route": "guides/videogen",
       "url": "/guides/videogen/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/cal-com",
+      "url": "/guides/cal-com/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/pdf2go",
+      "url": "/guides/pdf2go/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/seopress",
+      "url": "/guides/seopress/",
       "lastmod": "2026-11-11"
     },
     {
@@ -626,6 +662,24 @@
     },
     {
       "lang": "en",
+      "route": "guides/cal-com/check-guest-time-zone",
+      "url": "/guides/cal-com/check-guest-time-zone/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/pdf2go/merge-workshop-pdfs",
+      "url": "/guides/pdf2go/merge-workshop-pdfs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/seopress/check-wordpress-noindex",
+      "url": "/guides/seopress/check-wordpress-noindex/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -816,6 +870,24 @@
     },
     {
       "lang": "zh",
+      "route": "products/cal-com",
+      "url": "/zh/products/cal-com/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/pdf2go",
+      "url": "/zh/products/pdf2go/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "products/seopress",
+      "url": "/zh/products/seopress/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -968,6 +1040,24 @@
       "lang": "zh",
       "route": "guides/videogen",
       "url": "/zh/guides/videogen/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/cal-com",
+      "url": "/zh/guides/cal-com/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/pdf2go",
+      "url": "/zh/guides/pdf2go/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/seopress",
+      "url": "/zh/guides/seopress/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1254,6 +1344,24 @@
     },
     {
       "lang": "zh",
+      "route": "guides/cal-com/check-guest-time-zone",
+      "url": "/zh/guides/cal-com/check-guest-time-zone/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/pdf2go/merge-workshop-pdfs",
+      "url": "/zh/guides/pdf2go/merge-workshop-pdfs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/seopress/check-wordpress-noindex",
+      "url": "/zh/guides/seopress/check-wordpress-noindex/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1444,6 +1552,24 @@
     },
     {
       "lang": "es",
+      "route": "products/cal-com",
+      "url": "/es/products/cal-com/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/pdf2go",
+      "url": "/es/products/pdf2go/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "products/seopress",
+      "url": "/es/products/seopress/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -1596,6 +1722,24 @@
       "lang": "es",
       "route": "guides/videogen",
       "url": "/es/guides/videogen/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/cal-com",
+      "url": "/es/guides/cal-com/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/pdf2go",
+      "url": "/es/guides/pdf2go/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/seopress",
+      "url": "/es/guides/seopress/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1882,6 +2026,24 @@
     },
     {
       "lang": "es",
+      "route": "guides/cal-com/check-guest-time-zone",
+      "url": "/es/guides/cal-com/check-guest-time-zone/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/pdf2go/merge-workshop-pdfs",
+      "url": "/es/guides/pdf2go/merge-workshop-pdfs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/seopress/check-wordpress-noindex",
+      "url": "/es/guides/seopress/check-wordpress-noindex/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -2072,6 +2234,24 @@
     },
     {
       "lang": "ja",
+      "route": "products/cal-com",
+      "url": "/ja/products/cal-com/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/pdf2go",
+      "url": "/ja/products/pdf2go/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "products/seopress",
+      "url": "/ja/products/seopress/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -2224,6 +2404,24 @@
       "lang": "ja",
       "route": "guides/videogen",
       "url": "/ja/guides/videogen/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/cal-com",
+      "url": "/ja/guides/cal-com/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/pdf2go",
+      "url": "/ja/guides/pdf2go/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/seopress",
+      "url": "/ja/guides/seopress/",
       "lastmod": "2026-11-11"
     },
     {
@@ -2506,6 +2704,24 @@
       "lang": "ja",
       "route": "guides/videogen/script-to-narrated-short",
       "url": "/ja/guides/videogen/script-to-narrated-short/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/cal-com/check-guest-time-zone",
+      "url": "/ja/guides/cal-com/check-guest-time-zone/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/pdf2go/merge-workshop-pdfs",
+      "url": "/ja/guides/pdf2go/merge-workshop-pdfs/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/seopress/check-wordpress-noindex",
+      "url": "/ja/guides/seopress/check-wordpress-noindex/",
       "lastmod": "2026-11-11"
     },
     {
