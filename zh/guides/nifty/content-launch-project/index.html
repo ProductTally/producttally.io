@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nifty 内容协作入门：把发布任务、阶段进度和简报放进一个项目 — ProductTally</title>
-  <meta name="description" content="用 Nifty 管理一次内容发布：安排截止日和任务依赖、保存简报并检查导出，同时看清试用与免费版的边界。">
+  <title>用 Nifty 管理内容发布项目：任务、里程碑与需求文档 — ProductTally</title>
+  <meta name="description" content="搭建一次真实的内容发布项目，看看路线图、任务依赖和文档能否让团队交接更清楚。">
   <meta name="theme-color" content="#FBF8F3">
   
   <link rel="canonical" href="https://producttally.com/zh/guides/nifty/content-launch-project/">
@@ -15,8 +15,8 @@
   <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/nifty/content-launch-project/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ProductTally">
-  <meta property="og:title" content="Nifty 内容协作入门：把发布任务、阶段进度和简报放进一个项目 — ProductTally">
-  <meta property="og:description" content="用 Nifty 管理一次内容发布：安排截止日和任务依赖、保存简报并检查导出，同时看清试用与免费版的边界。">
+  <meta property="og:title" content="用 Nifty 管理内容发布项目：任务、里程碑与需求文档 — ProductTally">
+  <meta property="og:description" content="搭建一次真实的内容发布项目，看看路线图、任务依赖和文档能否让团队交接更清楚。">
   <meta property="og:url" content="https://producttally.com/zh/guides/nifty/content-launch-project/">
   <meta property="og:image" content="https://producttally.com/assets/articles/content-launch-project/cover.webp">
   <meta property="og:image:alt" content="Nifty · 项目与团队协作">
@@ -28,11 +28,11 @@
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:locale:alternate" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Nifty 内容协作入门：把发布任务、阶段进度和简报放进一个项目 — ProductTally">
-  <meta name="twitter:description" content="用 Nifty 管理一次内容发布：安排截止日和任务依赖、保存简报并检查导出，同时看清试用与免费版的边界。">
+  <meta name="twitter:title" content="用 Nifty 管理内容发布项目：任务、里程碑与需求文档 — ProductTally">
+  <meta name="twitter:description" content="搭建一次真实的内容发布项目，看看路线图、任务依赖和文档能否让团队交接更清楚。">
   <meta name="twitter:image" content="https://producttally.com/assets/articles/content-launch-project/cover.webp">
   <meta name="twitter:image:alt" content="Nifty · 项目与团队协作">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#webpage","name":"Nifty 内容协作入门：把发布任务、阶段进度和简报放进一个项目","description":"用 Nifty 管理一次内容发布：安排截止日和任务依赖、保存简报并检查导出，同时看清试用与免费版的边界。","url":"https://producttally.com/zh/guides/nifty/content-launch-project/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#article","headline":"Nifty 内容协作入门：把发布任务、阶段进度和简报放进一个项目","description":"用 Nifty 管理一次内容发布：安排截止日和任务依赖、保存简报并检查导出，同时看清试用与免费版的边界。","url":"https://producttally.com/zh/guides/nifty/content-launch-project/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#article-image","url":"https://producttally.com/assets/articles/content-launch-project/cover.webp","contentUrl":"https://producttally.com/assets/articles/content-launch-project/cover.webp","width":1200,"height":606,"caption":"Nifty · 项目与团队协作"},"about":[{"@id":"https://producttally.com/products/nifty/#software"}],"dateModified":"2026-11-10","citation":["https://niftypm.com/pricing/","https://help.niftypm.com/en/articles/994857-creating-a-new-project","https://help.niftypm.com/en/articles/4558252-reporting-in-nifty"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/nifty/#software","name":"Nifty","url":"https://niftypm.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Nifty","item":"https://producttally.com/zh/guides/nifty/"},{"@type":"ListItem","position":4,"name":"Nifty 内容协作入门：把发布任务、阶段进度和简报放进一个项目","item":"https://producttally.com/zh/guides/nifty/content-launch-project/"}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#webpage","name":"用 Nifty 管理内容发布项目：任务、里程碑与需求文档","description":"搭建一次真实的内容发布项目，看看路线图、任务依赖和文档能否让团队交接更清楚。","url":"https://producttally.com/zh/guides/nifty/content-launch-project/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#article","headline":"用 Nifty 管理内容发布项目：任务、里程碑与需求文档","description":"搭建一次真实的内容发布项目，看看路线图、任务依赖和文档能否让团队交接更清楚。","url":"https://producttally.com/zh/guides/nifty/content-launch-project/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#article-image","url":"https://producttally.com/assets/articles/content-launch-project/cover.webp","contentUrl":"https://producttally.com/assets/articles/content-launch-project/cover.webp","width":1200,"height":606,"caption":"Nifty · 项目与团队协作"},"about":[{"@id":"https://producttally.com/products/nifty/#software"}],"dateModified":"2026-11-11","citation":["https://niftypm.com/pricing/","https://help.niftypm.com/en/articles/994857-creating-a-new-project","https://help.niftypm.com/en/articles/4558252-reporting-in-nifty","https://www.capterra.com/p/172519/Nifty/reviews/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/nifty/#software","name":"Nifty","url":"https://niftypm.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/nifty/content-launch-project/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Nifty","item":"https://producttally.com/zh/guides/nifty/"},{"@type":"ListItem","position":4,"name":"用 Nifty 管理内容发布项目：任务、里程碑与需求文档","item":"https://producttally.com/zh/guides/nifty/content-launch-project/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style.css">
@@ -73,15 +73,15 @@
       </div>
     </header>
   <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
-    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/guides/nifty/">Nifty</a></li><li><span aria-current="page">Nifty 内容协作入门：把发布任务、阶段进度和简报放进一个项目</span></li></ol>
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/guides/nifty/">Nifty</a></li><li><span aria-current="page">用 Nifty 管理内容发布项目：任务、里程碑与需求文档</span></li></ol>
   </nav><article class="wrap detail guide-article">
     <header class="detail-header article-header">
       <div class="article-intro">
         <p class="eyebrow">效率与协作 · 4 分钟阅读</p>
-        <h1>Nifty 内容协作入门：把发布任务、阶段进度和简报放进一个项目</h1>
-        <p class="lead">用 Nifty 管理一次内容发布：安排截止日和任务依赖、保存简报并检查导出，同时看清试用与免费版的边界。</p>
+        <h1>用 Nifty 管理内容发布项目：任务、里程碑与需求文档</h1>
+        <p class="lead">搭建一次真实的内容发布项目，看看路线图、任务依赖和文档能否让团队交接更清楚。</p>
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
-          · 更新于 <time datetime="2026-11-10">2026年11月10日</time></p>
+          · 更新于 <time datetime="2026-11-11">2026年11月11日</time></p>
       </div>
       <div class="article-cover"><img class="article-image article-image-contain"
     src="/assets/articles/content-launch-project/cover.webp"
@@ -93,11 +93,11 @@
     <div class="article-grid">
       <nav class="article-toc" aria-label="本文目录">
         <p class="eyebrow">本文目录</p>
-        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">围绕一个交付物创建项目</a></li><li><a href="#section-1">设定截止日，也单独检查子任务</a></li><li><a href="#section-2">用依赖安排先后，用路线图看进度</a></li><li><a href="#section-3">简报跟着项目走，导出后再检查内容</a></li><li><a href="#section-4">先核对套餐，再迁入正式内容</a></li><li><a href="#section-5">先跑通一次小发布，再扩展流程</a></li></ol>
+        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">围绕一个交付物创建项目</a></li><li><a href="#section-1">设定截止日，也单独检查子任务</a></li><li><a href="#section-2">用依赖安排先后，用路线图看进度</a></li><li><a href="#section-3">简报跟着项目走，导出后再检查内容</a></li><li><a href="#section-4">先核对套餐，再迁入正式内容</a></li><li><a href="#section-5">先跑通一次小发布，再扩展流程</a></li><li><a href="#section-6">让里程碑回答下一个接手的人在等什么</a></li></ol>
       </nav>
       <div class="prose">
         <section class="article-answer" id="quick-answer">
-          <h2>先看结论</h2><p>选题有了，任务在清单里，简报却散落在另一个地方。Nifty 可以把这些内容放进同一个项目，让你沿着任务、阶段进度和文档推进一次发布。本文基于 2026 年 11 月 10 日、单用户的 14 天试用体验，未购买订阅，适合作为创作者和小团队的起步指南。</p>
+          <h2>先看结论</h2><p>Nifty 适合既要看发布进度、又希望把需求文档放在任务旁边的小团队。当上一位同事的工作会卡住下一个环节时，路线图才容易体现价值。 选题有了，任务在清单里，简报却散落在另一个地方。Nifty 可以把这些内容放进同一个项目，让你沿着任务、阶段进度和文档推进一次发布。本文基于 2026 年 11 月 10 日、单用户的 14 天试用体验，未购买订阅，适合作为创作者和小团队的起步指南。</p>
           <a class="text-link" href="/zh/products/nifty/">Nifty 评测</a>
         </section>
         <section id="section-0">
@@ -113,6 +113,8 @@
           <h2>先核对套餐，再迁入正式内容</h2><p>本次使用的是 14 天试用，不是对永久免费版功能的完整验证。免费方案选择器显示 2 个活跃项目、100 MB 和 500 个任务；试用结束或降级后的导出与访问行为未确认。11 月 10 日官方年付折合月价为 Pro 每成员 $10、Business 每成员 $16，不能把它们写成按月扣费；币种、税费和具体套餐以官方页面为准。</p>
         </section><section id="section-5">
           <h2>先跑通一次小发布，再扩展流程</h2><p>初次引导曾出现白屏，回到 Google 登录后恢复。建议先用一份简报、一组依赖和两种导出格式跑通小项目，再迁入更大的工作量。对希望把项目上下文连起来的创作者，这个方向值得尝试；多人权限、长期可靠性及免费版所有权益仍需另行评估。</p>
+        </section><section id="section-6">
+          <h2>让里程碑回答下一个接手的人在等什么</h2><p>一位在 Capterra 上分享经验的用户会让客户查看项目进度，但他起初花了些时间才用顺里程碑。给内容项目设一个「可开始编辑审阅」里程碑，只关联开始审阅前必须完成的任务。让下一位接手的人找出需求文档，以及当前卡在哪一步。如果一张清单就能回答这两个问题，维护路线图可能只会增加工作量。</p>
         </section>
         <section><h2>访问官方网站</h2>
           <ul><li><a class="text-link" href="https://niftypm.com?fpr=evan-f3cc7a" data-affiliate-product="nifty">
@@ -123,8 +125,8 @@
           <h2 id="related-guides">相关指南</h2>
           <ul><li><a href="/zh/guides/ai-workflow-automation/choose-your-first-ai-automation/">AI 工作流自动化：如何选择一个安全的首个流程</a></li></ul>
         </section>
-        <section><h2>官方参考资料</h2>
-          <ul><li><cite><a data-source-citation="true" href="https://niftypm.com/pricing/?fpr=evan-f3cc7a">先核对套餐，再迁入正式内容 · niftypm.com</a></cite></li><li><cite><a data-source-citation="true" href="https://help.niftypm.com/en/articles/994857-creating-a-new-project?fpr=evan-f3cc7a">围绕一个交付物创建项目 · help.niftypm.com</a></cite></li><li><cite><a data-source-citation="true" href="https://help.niftypm.com/en/articles/4558252-reporting-in-nifty?fpr=evan-f3cc7a">简报跟着项目走，导出后再检查内容 · help.niftypm.com</a></cite></li></ul>
+        <section><h2>资料来源与用户评价</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://niftypm.com/pricing/?fpr=evan-f3cc7a">先核对套餐，再迁入正式内容 · niftypm.com</a></cite></li><li><cite><a data-source-citation="true" href="https://help.niftypm.com/en/articles/994857-creating-a-new-project?fpr=evan-f3cc7a">围绕一个交付物创建项目 · help.niftypm.com</a></cite></li><li><cite><a data-source-citation="true" href="https://help.niftypm.com/en/articles/4558252-reporting-in-nifty?fpr=evan-f3cc7a">简报跟着项目走，导出后再检查内容 · help.niftypm.com</a></cite></li><li><cite><a data-source-citation="true" href="https://www.capterra.com/p/172519/Nifty/reviews/">Capterra：Nifty 用户对客户协作与里程碑的评价</a></cite></li></ul>
         </section>
       </div>
     </div>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Oh Dear 网站监控入门：分清页面 404 和整站宕机 — ProductTally</title>
-  <meta name="description" content="给小团队的 Oh Dear 设置指南：查看 uptime、SSL 和 DNS，测试告警，并结合完整 URL 读懂 404 与恢复记录。">
+  <title>用 Oh Dear 监控小型网站：从可用性告警到定位坏链 — ProductTally</title>
+  <meta name="description" content="给首页加监控，学会区分 404、爬取报告和恢复通知，找到需要处理的页面。">
   <meta name="theme-color" content="#FBF8F3">
   
   <link rel="canonical" href="https://producttally.com/zh/guides/oh-dear/website-monitoring-404/">
@@ -15,8 +15,8 @@
   <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/oh-dear/website-monitoring-404/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ProductTally">
-  <meta property="og:title" content="Oh Dear 网站监控入门：分清页面 404 和整站宕机 — ProductTally">
-  <meta property="og:description" content="给小团队的 Oh Dear 设置指南：查看 uptime、SSL 和 DNS，测试告警，并结合完整 URL 读懂 404 与恢复记录。">
+  <meta property="og:title" content="用 Oh Dear 监控小型网站：从可用性告警到定位坏链 — ProductTally">
+  <meta property="og:description" content="给首页加监控，学会区分 404、爬取报告和恢复通知，找到需要处理的页面。">
   <meta property="og:url" content="https://producttally.com/zh/guides/oh-dear/website-monitoring-404/">
   <meta property="og:image" content="https://producttally.com/assets/articles/website-monitoring-404/cover.webp">
   <meta property="og:image:alt" content="Oh Dear · 网站监控">
@@ -28,11 +28,11 @@
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:locale:alternate" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Oh Dear 网站监控入门：分清页面 404 和整站宕机 — ProductTally">
-  <meta name="twitter:description" content="给小团队的 Oh Dear 设置指南：查看 uptime、SSL 和 DNS，测试告警，并结合完整 URL 读懂 404 与恢复记录。">
+  <meta name="twitter:title" content="用 Oh Dear 监控小型网站：从可用性告警到定位坏链 — ProductTally">
+  <meta name="twitter:description" content="给首页加监控，学会区分 404、爬取报告和恢复通知，找到需要处理的页面。">
   <meta name="twitter:image" content="https://producttally.com/assets/articles/website-monitoring-404/cover.webp">
   <meta name="twitter:image:alt" content="Oh Dear · 网站监控">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#webpage","name":"Oh Dear 网站监控入门：分清页面 404 和整站宕机","description":"给小团队的 Oh Dear 设置指南：查看 uptime、SSL 和 DNS，测试告警，并结合完整 URL 读懂 404 与恢复记录。","url":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#article","headline":"Oh Dear 网站监控入门：分清页面 404 和整站宕机","description":"给小团队的 Oh Dear 设置指南：查看 uptime、SSL 和 DNS，测试告警，并结合完整 URL 读懂 404 与恢复记录。","url":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#article-image","url":"https://producttally.com/assets/articles/website-monitoring-404/cover.webp","contentUrl":"https://producttally.com/assets/articles/website-monitoring-404/cover.webp","width":1200,"height":818,"caption":"Oh Dear · 网站监控"},"about":[{"@id":"https://producttally.com/products/oh-dear/#software"}],"dateModified":"2026-11-10","citation":["https://ohdear.app/pricing","https://ohdear.app/docs/features/uptime-and-performance-monitoring","https://ohdear.app/docs/notifications/send-a-test-notification-from-oh-dear"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/oh-dear/#software","name":"Oh Dear","url":"https://ohdear.app/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Oh Dear","item":"https://producttally.com/zh/guides/oh-dear/"},{"@type":"ListItem","position":4,"name":"Oh Dear 网站监控入门：分清页面 404 和整站宕机","item":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/"}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#webpage","name":"用 Oh Dear 监控小型网站：从可用性告警到定位坏链","description":"给首页加监控，学会区分 404、爬取报告和恢复通知，找到需要处理的页面。","url":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#article","headline":"用 Oh Dear 监控小型网站：从可用性告警到定位坏链","description":"给首页加监控，学会区分 404、爬取报告和恢复通知，找到需要处理的页面。","url":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#article-image","url":"https://producttally.com/assets/articles/website-monitoring-404/cover.webp","contentUrl":"https://producttally.com/assets/articles/website-monitoring-404/cover.webp","width":1200,"height":818,"caption":"Oh Dear · 网站监控"},"about":[{"@id":"https://producttally.com/products/oh-dear/#software"}],"dateModified":"2026-11-11","citation":["https://ohdear.app/pricing","https://ohdear.app/docs/features/uptime-and-performance-monitoring","https://ohdear.app/docs/notifications/send-a-test-notification-from-oh-dear","https://ohdear.app/docs/features/configure-your-oh-dear-settings-per-monitor","https://www.reddit.com/r/laravel/comments/1ogg7yb/what_are_you_using_for_monitoring_or_searching/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/oh-dear/#software","name":"Oh Dear","url":"https://ohdear.app/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Oh Dear","item":"https://producttally.com/zh/guides/oh-dear/"},{"@type":"ListItem","position":4,"name":"用 Oh Dear 监控小型网站：从可用性告警到定位坏链","item":"https://producttally.com/zh/guides/oh-dear/website-monitoring-404/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style.css">
@@ -73,15 +73,15 @@
       </div>
     </header>
   <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
-    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/guides/oh-dear/">Oh Dear</a></li><li><span aria-current="page">Oh Dear 网站监控入门：分清页面 404 和整站宕机</span></li></ol>
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/guides/oh-dear/">Oh Dear</a></li><li><span aria-current="page">用 Oh Dear 监控小型网站：从可用性告警到定位坏链</span></li></ol>
   </nav><article class="wrap detail guide-article">
     <header class="detail-header article-header">
       <div class="article-intro">
         <p class="eyebrow">网站监控 · 4 分钟阅读</p>
-        <h1>Oh Dear 网站监控入门：分清页面 404 和整站宕机</h1>
-        <p class="lead">给小团队的 Oh Dear 设置指南：查看 uptime、SSL 和 DNS，测试告警，并结合完整 URL 读懂 404 与恢复记录。</p>
+        <h1>用 Oh Dear 监控小型网站：从可用性告警到定位坏链</h1>
+        <p class="lead">给首页加监控，学会区分 404、爬取报告和恢复通知，找到需要处理的页面。</p>
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
-          · 更新于 <time datetime="2026-11-10">2026年11月10日</time></p>
+          · 更新于 <time datetime="2026-11-11">2026年11月11日</time></p>
       </div>
       <div class="article-cover"><img class="article-image article-image-contain"
     src="/assets/articles/website-monitoring-404/cover.webp"
@@ -93,11 +93,11 @@
     <div class="article-grid">
       <nav class="article-toc" aria-label="本文目录">
         <p class="eyebrow">本文目录</p>
-        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">先添加自己有权监控的网站</a></li><li><a href="#section-1">先测通知，再分清告警类型</a></li><li><a href="#section-2">看到 404，先检查完整目标</a></li><li><a href="#section-3">读懂恢复记录和检查时间差</a></li><li><a href="#section-4">历史百分比和导出都要结合上下文</a></li><li><a href="#section-5">按实际站点数量选择套餐</a></li></ol>
+        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">先添加自己有权监控的网站</a></li><li><a href="#section-1">先测通知，再分清告警类型</a></li><li><a href="#section-2">看到 404，先检查完整目标</a></li><li><a href="#section-3">读懂恢复记录和检查时间差</a></li><li><a href="#section-4">历史百分比和导出都要结合上下文</a></li><li><a href="#section-5">按实际站点数量选择套餐</a></li><li><a href="#section-6">按团队需要组合站外监控和站内报错</a></li></ol>
       </nav>
       <div class="prose">
         <section class="article-answer" id="quick-answer">
-          <h2>先看结论</h2><p>网站能打开，不代表每个链接都正常。Oh Dear 将可用性和网站完整性检查放在一起，适合先从首页和一个独立诊断目标开始。2026 年 11 月 10 日的无卡 10 天试用中，它识别了人为设置的 404；更换目标后，也识别到健康响应。本次没有购买套餐。</p>
+          <h2>先看结论</h2><p>Oh Dear 适合想把可用性、证书和链接巡检放在一起管的小团队。对内容站来说，即使首页正常，爬取也有机会发现打不开的指南或下载页。 网站能打开，不代表每个链接都正常。Oh Dear 将可用性和网站完整性检查放在一起，适合先从首页和一个独立诊断目标开始。2026 年 11 月 10 日的无卡 10 天试用中，它识别了人为设置的 404；更换目标后，也识别到健康响应。本次没有购买套餐。</p>
           <a class="text-link" href="/zh/products/oh-dear/">Oh Dear 评测</a>
         </section>
         <section id="section-0">
@@ -113,6 +113,8 @@
           <h2>历史百分比和导出都要结合上下文</h2><p>新建监控在 7/30 天栏中显示的 100%，不等于已观测了 30 天。此次下载停机 CSV 时，Chrome 返回 ERR_BLOCKED_BY_CLIENT，未取得文件；这不能证明服务端导出有问题。测试后已停用诊断监控的 11 项检查，首页监控继续运行。</p>
         </section><section id="section-5">
           <h2>按实际站点数量选择套餐</h2><p>试用到 11 月 20 日。11 月 10 日核对的官方月价为：Solo €15／2 站、Solo Plus €29／5 站、Freelance €49／10 站、Studio €99／25 站、Agency €149／50 站，均未含增值税。它值得用于起步配置与诊断；Cron、公开状态页和长期可靠性不在本次验证范围。</p>
+        </section><section id="section-6">
+          <h2>按团队需要组合站外监控和站内报错</h2><p>Reddit 的 Laravel 社区有人指出，Oh Dear 主要检查站点是否可访问，Laravel Nightwatch 则能做更深入的应用诊断。如果团队需要同时知道访客能否打开网站、应用内部有没有报错，就把站外巡检和应用错误告警配合使用。先确认 Oh Dear 能抓到导航里的一篇文章。如果页面可能返回 HTTP 200 却显示错误内容，官方文档说明了如何检查响应正文。如果登录或结账是关键流程，再为它们单独做端到端检查。</p>
         </section>
         <section><h2>访问官方网站</h2>
           <ul><li><a class="text-link" href="https://ohdear.app?via=evan" data-affiliate-product="oh-dear">
@@ -123,8 +125,8 @@
           <h2 id="related-guides">相关指南</h2>
           <ul><li><a href="/zh/guides/ai-search-visibility/ai-search-visibility-checklist/">小型网站 AI SEO 实用指南：兼顾 GEO 的检查清单</a></li></ul>
         </section>
-        <section><h2>官方参考资料</h2>
-          <ul><li><cite><a data-source-citation="true" href="https://ohdear.app/pricing?via=evan">按实际站点数量选择套餐 · ohdear.app</a></cite></li><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/features/uptime-and-performance-monitoring?via=evan">先添加自己有权监控的网站 · ohdear.app</a></cite></li><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/notifications/send-a-test-notification-from-oh-dear?via=evan">先测通知，再分清告警类型 · ohdear.app</a></cite></li></ul>
+        <section><h2>资料来源与用户评价</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://ohdear.app/pricing?via=evan">按实际站点数量选择套餐 · ohdear.app</a></cite></li><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/features/uptime-and-performance-monitoring?via=evan">先添加自己有权监控的网站 · ohdear.app</a></cite></li><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/notifications/send-a-test-notification-from-oh-dear?via=evan">先测通知，再分清告警类型 · ohdear.app</a></cite></li><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/features/configure-your-oh-dear-settings-per-monitor?via=evan">Oh Dear：单项监控设置与响应正文检查</a></cite></li><li><cite><a data-source-citation="true" href="https://www.reddit.com/r/laravel/comments/1ogg7yb/what_are_you_using_for_monitoring_or_searching/">Reddit：Laravel 社区讨论站点可用性与应用诊断</a></cite></li></ul>
         </section>
       </div>
     </div>
