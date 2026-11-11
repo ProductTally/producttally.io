@@ -99,6 +99,12 @@
     },
     {
       "lang": "en",
+      "route": "products/capcut",
+      "url": "/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-11"
@@ -155,6 +161,12 @@
       "lang": "en",
       "route": "guides/systeme-io",
       "url": "/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "en",
+      "route": "guides/capcut",
+      "url": "/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -290,6 +302,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "en",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "zh",
       "route": "",
       "url": "/zh/",
@@ -373,6 +391,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/capcut",
+      "url": "/zh/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
       "lastmod": "2026-11-11"
@@ -429,6 +453,12 @@
       "lang": "zh",
       "route": "guides/systeme-io",
       "url": "/zh/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/capcut",
+      "url": "/zh/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -564,6 +594,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "zh",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/zh/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "es",
       "route": "",
       "url": "/es/",
@@ -647,6 +683,12 @@
     },
     {
       "lang": "es",
+      "route": "products/capcut",
+      "url": "/es/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-11"
@@ -703,6 +745,12 @@
       "lang": "es",
       "route": "guides/systeme-io",
       "url": "/es/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "es",
+      "route": "guides/capcut",
+      "url": "/es/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -838,6 +886,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "es",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/es/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "ja",
       "route": "",
       "url": "/ja/",
@@ -921,6 +975,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/capcut",
+      "url": "/ja/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
       "lastmod": "2026-11-11"
@@ -977,6 +1037,12 @@
       "lang": "ja",
       "route": "guides/systeme-io",
       "url": "/ja/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/capcut",
+      "url": "/ja/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1112,6 +1178,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "ja",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/ja/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "ko",
       "route": "",
       "url": "/ko/",
@@ -1195,6 +1267,12 @@
     },
     {
       "lang": "ko",
+      "route": "products/capcut",
+      "url": "/ko/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
       "route": "guides",
       "url": "/ko/guides/",
       "lastmod": "2026-11-11"
@@ -1251,6 +1329,12 @@
       "lang": "ko",
       "route": "guides/systeme-io",
       "url": "/ko/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ko",
+      "route": "guides/capcut",
+      "url": "/ko/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1386,6 +1470,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "ko",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/ko/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "fr",
       "route": "",
       "url": "/fr/",
@@ -1469,6 +1559,12 @@
     },
     {
       "lang": "fr",
+      "route": "products/capcut",
+      "url": "/fr/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
       "route": "guides",
       "url": "/fr/guides/",
       "lastmod": "2026-11-11"
@@ -1525,6 +1621,12 @@
       "lang": "fr",
       "route": "guides/systeme-io",
       "url": "/fr/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "fr",
+      "route": "guides/capcut",
+      "url": "/fr/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1660,6 +1762,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "fr",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/fr/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "de",
       "route": "",
       "url": "/de/",
@@ -1743,6 +1851,12 @@
     },
     {
       "lang": "de",
+      "route": "products/capcut",
+      "url": "/de/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
       "route": "guides",
       "url": "/de/guides/",
       "lastmod": "2026-11-11"
@@ -1799,6 +1913,12 @@
       "lang": "de",
       "route": "guides/systeme-io",
       "url": "/de/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "de",
+      "route": "guides/capcut",
+      "url": "/de/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -1934,6 +2054,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "de",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/de/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "it",
       "route": "",
       "url": "/it/",
@@ -2017,6 +2143,12 @@
     },
     {
       "lang": "it",
+      "route": "products/capcut",
+      "url": "/it/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
       "route": "guides",
       "url": "/it/guides/",
       "lastmod": "2026-11-11"
@@ -2073,6 +2205,12 @@
       "lang": "it",
       "route": "guides/systeme-io",
       "url": "/it/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "it",
+      "route": "guides/capcut",
+      "url": "/it/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -2208,6 +2346,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "it",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/it/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "hi",
       "route": "",
       "url": "/hi/",
@@ -2291,6 +2435,12 @@
     },
     {
       "lang": "hi",
+      "route": "products/capcut",
+      "url": "/hi/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
       "route": "guides",
       "url": "/hi/guides/",
       "lastmod": "2026-11-11"
@@ -2347,6 +2497,12 @@
       "lang": "hi",
       "route": "guides/systeme-io",
       "url": "/hi/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "hi",
+      "route": "guides/capcut",
+      "url": "/hi/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -2482,6 +2638,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "hi",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/hi/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "th",
       "route": "",
       "url": "/th/",
@@ -2565,6 +2727,12 @@
     },
     {
       "lang": "th",
+      "route": "products/capcut",
+      "url": "/th/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
       "route": "guides",
       "url": "/th/guides/",
       "lastmod": "2026-11-11"
@@ -2621,6 +2789,12 @@
       "lang": "th",
       "route": "guides/systeme-io",
       "url": "/th/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "th",
+      "route": "guides/capcut",
+      "url": "/th/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -2756,6 +2930,12 @@
       "lastmod": "2026-11-11"
     },
     {
+      "lang": "th",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/th/guides/capcut/auto-captions-export/",
+      "lastmod": "2026-11-11"
+    },
+    {
       "lang": "pt-BR",
       "route": "",
       "url": "/pt-br/",
@@ -2839,6 +3019,12 @@
     },
     {
       "lang": "pt-BR",
+      "route": "products/capcut",
+      "url": "/pt-br/products/capcut/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
       "route": "guides",
       "url": "/pt-br/guides/",
       "lastmod": "2026-11-11"
@@ -2895,6 +3081,12 @@
       "lang": "pt-BR",
       "route": "guides/systeme-io",
       "url": "/pt-br/guides/systeme-io/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/capcut",
+      "url": "/pt-br/guides/capcut/",
       "lastmod": "2026-11-11"
     },
     {
@@ -3027,6 +3219,12 @@
       "lang": "pt-BR",
       "route": "guides/systeme-io/preview-a-funnel-page",
       "url": "/pt-br/guides/systeme-io/preview-a-funnel-page/",
+      "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "pt-BR",
+      "route": "guides/capcut/auto-captions-export",
+      "url": "/pt-br/guides/capcut/auto-captions-export/",
       "lastmod": "2026-11-11"
     }
   ],
