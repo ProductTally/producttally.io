@@ -115,6 +115,9 @@
 .directory-sidebar {
   position: sticky;
   inset-block-start: 1rem;
+  max-block-size: calc(100dvh - 2rem);
+  overflow-y: auto;
+  scrollbar-width: thin;
   padding: .85rem;
   border-radius: var(--radius);
   background: var(--wash);
