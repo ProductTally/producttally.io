@@ -212,6 +212,12 @@
     },
     {
       "lang": "en",
+      "route": "products/magnific",
+      "url": "/products/magnific/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-12"
@@ -728,6 +734,12 @@
       "lang": "zh",
       "route": "products/payhip",
       "url": "/zh/products/payhip/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "products/magnific",
+      "url": "/zh/products/magnific/",
       "lastmod": "2026-11-12"
     },
     {
@@ -1252,6 +1264,12 @@
     },
     {
       "lang": "es",
+      "route": "products/magnific",
+      "url": "/es/products/magnific/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-12"
@@ -1768,6 +1786,12 @@
       "lang": "ja",
       "route": "products/payhip",
       "url": "/ja/products/payhip/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "products/magnific",
+      "url": "/ja/products/magnific/",
       "lastmod": "2026-11-12"
     },
     {
