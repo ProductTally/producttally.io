@@ -136,8 +136,8 @@
 .product-section-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: .15rem .85rem;
-  padding: .6rem 0;
+  gap: .35rem .55rem;
+  padding: .65rem 0;
   margin-block: .75rem clamp(1.4rem, 4vw, 2.6rem);
   border-block-end: 1px solid var(--line);
   background: var(--paper);
@@ -146,7 +146,8 @@
   display: inline-flex;
   align-items: center;
   min-block-size: 2.75rem;
-  padding-inline: .5rem;
+  padding-inline: .75rem;
+  border: 1px solid var(--line);
   border-radius: var(--radius);
   font-size: .92rem;
   font-weight: 650;
@@ -155,8 +156,7 @@
 .product-section-nav a:hover, .product-section-nav a:focus-visible { color: var(--accent-dark); background: var(--accent-wash); }
 .product-audience {
   display: grid;
-  grid-template-columns: minmax(9rem, 1fr) minmax(0, 3fr);
-  gap: .75rem 2rem;
+  gap: .65rem;
   align-items: start;
   padding: clamp(1.1rem, 3vw, 2rem);
   border-radius: var(--radius);
@@ -168,8 +168,8 @@
 .product-audience p + p { margin-block-start: .35rem; }
 .product-review {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(.85rem, 2.5vw, 1.5rem);
   max-inline-size: none;
   padding-block: clamp(1.5rem, 4vw, 2.5rem);
   font-size: 1rem;
@@ -185,7 +185,6 @@
 .product-review h2 { font: 600 clamp(1.1rem, 2vw, 1.3rem)/1.4 var(--body); }
 .product-review :is(ul, ol) { padding-inline-start: 1.25rem; margin-block-end: 0; }
 .product-review li + li { margin-block-start: .65rem; }
-.product-review .product-howto { grid-column: 1 / -1; }
 .product-howto ol { display: grid; gap: .75rem; }
 .product-howto li { padding-inline-start: .35rem; }
 .product-howto li::marker { color: var(--accent); font-weight: 700; }
@@ -199,20 +198,23 @@
 }
 .product-media h2 { font: 600 clamp(1.3rem, 2.2vw, 1.7rem)/1.35 var(--body); margin-block-end: 1rem; }
 .product-media figure { max-inline-size: 46rem; }
+.product-reading-list {
+  display: grid;
+  gap: .75rem;
+  margin-block-start: 1rem;
+}
 .product-reading-panel {
-  max-inline-size: 52rem;
-  margin-block-start: .75rem;
   padding: clamp(1rem, 2.5vw, 1.5rem);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface);
 }
 .product-reading-panel h3 { margin-block-end: .45rem; font: 650 1.1rem/1.4 var(--body); }
-.product-reading-panel .text-link { font-size: .87rem; }
-@media (min-width: 64rem) {
-  .product-section-nav { position: sticky; inset-block-start: 0; z-index: 2; }
-  .product-detail section[id] { scroll-margin-block-start: 6rem; }
-}
+.product-reading-panel p { max-inline-size: 78ch; line-height: 1.7; }
+.product-reading-panel .text-link { font-size: .87rem; margin-block-start: .25rem; }
+.product-reading-panel time { color: var(--muted); font-size: .82rem; }
+.product-benefits-list { display: grid; gap: .9rem; }
+.product-benefits-list h3 { font: 650 1rem/1.45 var(--body); margin-block-end: .25rem; }
 .product-image-frame, .product-video { display: block; inline-size: 100%; aspect-ratio: 16 / 10; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--surface); }
 .product-media a { overflow-wrap: anywhere; }
 .product-video-preview { position: relative; display: grid; place-items: center; inline-size: 100%; aspect-ratio: 16 / 10; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: var(--wash); }
@@ -240,7 +242,7 @@
 .product-guides .note-copy h3 { font: 600 clamp(1.1rem, 1.8vw, 1.25rem)/1.4 var(--body); }
 
 @media (max-width: 48rem) {
-  .product-overview, .product-review, .product-audience { grid-template-columns: minmax(0, 1fr); }
+  .product-overview { grid-template-columns: minmax(0, 1fr); }
 }
 .article-toc .eyebrow { margin-block-end: .6rem; }
 .article-toc a { color: var(--muted); text-decoration: none; }
