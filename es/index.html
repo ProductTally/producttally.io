@@ -75,12 +75,12 @@
     data-result-single="producto para explorar" data-locale-format="es-ES">
     <aside class="directory-sidebar">
     <p class="eyebrow">Filtrar productos</p>
-    <div class="filters" role="group" aria-label="Filtrar productos"><wa-button data-filter="saved"
-    aria-pressed="false" class="filter" appearance="plain" size="s">
-    <span>Guardados</span> <span data-saved-count>0</span>
-  </wa-button><wa-button data-filter="all"
+    <div class="filters" role="group" aria-label="Filtrar productos"><wa-button data-filter="all"
     aria-pressed="true" class="filter" appearance="plain" size="s">
     <span>Todos</span> <span class="filter-count">33</span>
+  </wa-button><wa-button data-filter="saved"
+    aria-pressed="false" class="filter" appearance="plain" size="s">
+    <span>Guardados</span> <span data-saved-count>0</span>
   </wa-button><wa-button data-filter="productivity"
     aria-pressed="false" class="filter" appearance="plain" size="s">
     <span>Productividad</span> <span class="filter-count">4</span>
@@ -143,14 +143,14 @@
     <wa-button slot="trigger" appearance="outlined" size="s" with-caret>
       <span class="visually-hidden">Filtrar productos </span><span data-filter-label>Todos</span>
     </wa-button>
-    <wa-dropdown-item value="saved" type="checkbox">Guardados</wa-dropdown-item><wa-dropdown-item value="all" type="checkbox" checked>Todos</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">Productividad</wa-dropdown-item><wa-dropdown-item value="automation" type="checkbox">Automatización de flujos de trabajo</wa-dropdown-item><wa-dropdown-item value="analytics" type="checkbox">Datos y análisis</wa-dropdown-item><wa-dropdown-item value="writing" type="checkbox">Escritura e investigación</wa-dropdown-item><wa-dropdown-item value="translation" type="checkbox">Traducción</wa-dropdown-item><wa-dropdown-item value="design" type="checkbox">Diseño e imagen</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">Vídeo</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">Audio y pódcast</wa-dropdown-item><wa-dropdown-item value="seo" type="checkbox">SEO</wa-dropdown-item><wa-dropdown-item value="marketing" type="checkbox">Marketing y redes</wa-dropdown-item><wa-dropdown-item value="web" type="checkbox">Web y formularios</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">Monitorización web</wa-dropdown-item><wa-dropdown-item value="support" type="checkbox">Atención al cliente</wa-dropdown-item><wa-dropdown-item value="commerce" type="checkbox">Comercio electrónico</wa-dropdown-item><wa-dropdown-item value="documents" type="checkbox">Archivos y documentos</wa-dropdown-item><wa-dropdown-item value="learning" type="checkbox">Aprendizaje en línea</wa-dropdown-item>
+    <wa-dropdown-item value="all" type="checkbox" checked>Todos</wa-dropdown-item><wa-dropdown-item value="saved" type="checkbox">Guardados</wa-dropdown-item><wa-dropdown-item value="productivity" type="checkbox">Productividad</wa-dropdown-item><wa-dropdown-item value="automation" type="checkbox">Automatización de flujos de trabajo</wa-dropdown-item><wa-dropdown-item value="analytics" type="checkbox">Datos y análisis</wa-dropdown-item><wa-dropdown-item value="writing" type="checkbox">Escritura e investigación</wa-dropdown-item><wa-dropdown-item value="translation" type="checkbox">Traducción</wa-dropdown-item><wa-dropdown-item value="design" type="checkbox">Diseño e imagen</wa-dropdown-item><wa-dropdown-item value="video" type="checkbox">Vídeo</wa-dropdown-item><wa-dropdown-item value="podcasting" type="checkbox">Audio y pódcast</wa-dropdown-item><wa-dropdown-item value="seo" type="checkbox">SEO</wa-dropdown-item><wa-dropdown-item value="marketing" type="checkbox">Marketing y redes</wa-dropdown-item><wa-dropdown-item value="web" type="checkbox">Web y formularios</wa-dropdown-item><wa-dropdown-item value="monitoring" type="checkbox">Monitorización web</wa-dropdown-item><wa-dropdown-item value="support" type="checkbox">Atención al cliente</wa-dropdown-item><wa-dropdown-item value="commerce" type="checkbox">Comercio electrónico</wa-dropdown-item><wa-dropdown-item value="documents" type="checkbox">Archivos y documentos</wa-dropdown-item><wa-dropdown-item value="learning" type="checkbox">Aprendizaje en línea</wa-dropdown-item>
   </wa-dropdown></div>
     <div class="catalog-meta" role="status" tabindex="-1"><span data-result-count>33</span> <span data-result-word>productos para explorar</span></div>
     <div class="product-grid"><article class="product-card" data-catalog-item="gamma" data-category="design" data-search="Gamma Diseño e imagen Creador de presentaciones con IA Gamma convierte un esquema en diapositivas que puedes editar en el navegador. Sirve a creadores y equipos pequeños que preparan propuestas, clases o informes y necesitan entregarlos como enlace o archivo de PowerPoint. Revisa el esquema, elige un estilo y edita las diapositivas antes de exportarlas a PowerPoint o PDF. Útil si ya tienes el alcance y el presupuesto y necesitas una primera versión que puedas retocar.">
     <a class="product-card-link" data-card-tooltip-link href="/es/products/gamma/"
       aria-labelledby="product-card-gamma-title" aria-describedby="product-card-gamma-tag product-card-gamma-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/gamma.svg" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/gamma.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-gamma-title" translate="no">Gamma</h2>
           <span class="product-tag" id="product-card-gamma-tag">Creador de presentaciones con IA</span>
@@ -171,7 +171,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/gemini-notebook/"
       aria-labelledby="product-card-gemini-notebook-title" aria-describedby="product-card-gemini-notebook-tag product-card-gemini-notebook-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/gemini-notebook.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/gemini-notebook.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-gemini-notebook-title" translate="no">Gemini Notebook</h2>
           <span class="product-tag" id="product-card-gemini-notebook-tag">Cuaderno de investigación con IA</span>
@@ -192,7 +192,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/publer/"
       aria-labelledby="product-card-publer-title" aria-describedby="product-card-publer-tag product-card-publer-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/publer.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/publer.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-publer-title" translate="no">Publer</h2>
           <span class="product-tag" id="product-card-publer-tag">Borradores y programación para redes</span>
@@ -213,7 +213,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/elevenlabs/"
       aria-labelledby="product-card-elevenlabs-title" aria-describedby="product-card-elevenlabs-tag product-card-elevenlabs-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/elevenlabs.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/elevenlabs.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-elevenlabs-title" translate="no">ElevenLabs</h2>
           <span class="product-tag" id="product-card-elevenlabs-tag">Locución con IA y texto a voz</span>
@@ -234,7 +234,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/n8n/"
       aria-labelledby="product-card-n8n-title" aria-describedby="product-card-n8n-tag product-card-n8n-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/n8n.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/n8n.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-n8n-title" translate="no">n8n</h2>
           <span class="product-tag" id="product-card-n8n-tag">Automatización de flujos de trabajo</span>
@@ -255,7 +255,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/capcut/"
       aria-labelledby="product-card-capcut-title" aria-describedby="product-card-capcut-tag product-card-capcut-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/capcut.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/capcut.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-capcut-title" translate="no">CapCut</h2>
           <span class="product-tag" id="product-card-capcut-tag">Edición de vídeo en línea y subtítulos</span>
@@ -276,7 +276,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/deepl/"
       aria-labelledby="product-card-deepl-title" aria-describedby="product-card-deepl-tag product-card-deepl-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/deepl.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/deepl.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-deepl-title" translate="no">DeepL Translator</h2>
           <span class="product-tag" id="product-card-deepl-tag">Traducción de documentos</span>
@@ -297,7 +297,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/cal-com/"
       aria-labelledby="product-card-cal-com-title" aria-describedby="product-card-cal-com-tag product-card-cal-com-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/cal-com.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/cal-com.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-cal-com-title" translate="no">Cal.com</h2>
           <span class="product-tag" id="product-card-cal-com-tag">Reservas y agenda en línea</span>
@@ -318,7 +318,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/seopress/"
       aria-labelledby="product-card-seopress-title" aria-describedby="product-card-seopress-tag product-card-seopress-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/seopress.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/seopress.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-seopress-title" translate="no">SEOPress</h2>
           <span class="product-tag" id="product-card-seopress-tag">Plugin de SEO para WordPress</span>
@@ -339,7 +339,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/anydo/"
       aria-labelledby="product-card-anydo-title" aria-describedby="product-card-anydo-tag product-card-anydo-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/anydo.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-anydo-title" translate="no">Any.do</h2>
           <span class="product-tag" id="product-card-anydo-tag">Gestión de tareas y agenda</span>
@@ -360,7 +360,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/nifty/"
       aria-labelledby="product-card-nifty-title" aria-describedby="product-card-nifty-tag product-card-nifty-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/nifty.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/nifty.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-nifty-title" translate="no">Nifty</h2>
           <span class="product-tag" id="product-card-nifty-tag">Gestión de proyectos</span>
@@ -381,7 +381,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/oh-dear/"
       aria-labelledby="product-card-oh-dear-title" aria-describedby="product-card-oh-dear-tag product-card-oh-dear-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/oh-dear.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-oh-dear-title" translate="no">Oh Dear</h2>
           <span class="product-tag" id="product-card-oh-dear-tag">Monitorización web</span>
@@ -402,7 +402,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/pdf2go/"
       aria-labelledby="product-card-pdf2go-title" aria-describedby="product-card-pdf2go-tag product-card-pdf2go-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/pdf2go.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/pdf2go.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-pdf2go-title" translate="no">PDF2Go</h2>
           <span class="product-tag" id="product-card-pdf2go-tag">Edición y conversión de PDF en línea</span>
@@ -423,7 +423,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/systeme-io/"
       aria-labelledby="product-card-systeme-io-title" aria-describedby="product-card-systeme-io-tag product-card-systeme-io-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/systeme-io.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/systeme-io.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-systeme-io-title" translate="no">systeme.io</h2>
           <span class="product-tag" id="product-card-systeme-io-tag">Páginas de destino y embudos</span>
@@ -444,7 +444,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/submagic/"
       aria-labelledby="product-card-submagic-title" aria-describedby="product-card-submagic-tag product-card-submagic-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/submagic.svg" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/submagic.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-submagic-title" translate="no">Submagic</h2>
           <span class="product-tag" id="product-card-submagic-tag">Edición y subtítulos para vídeos cortos</span>
@@ -465,7 +465,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/mangools/"
       aria-labelledby="product-card-mangools-title" aria-describedby="product-card-mangools-tag product-card-mangools-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/mangools.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/mangools.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-mangools-title" translate="no">Mangools</h2>
           <span class="product-tag" id="product-card-mangools-tag">Investigación de palabras clave SEO</span>
@@ -486,7 +486,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/payhip/"
       aria-labelledby="product-card-payhip-title" aria-describedby="product-card-payhip-tag product-card-payhip-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/payhip.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/payhip.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-payhip-title" translate="no">Payhip</h2>
           <span class="product-tag" id="product-card-payhip-tag">Tienda de descargas digitales</span>
@@ -507,7 +507,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/udemy/"
       aria-labelledby="product-card-udemy-title" aria-describedby="product-card-udemy-tag product-card-udemy-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/udemy.svg" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/udemy.svg" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-udemy-title" translate="no">Udemy</h2>
           <span class="product-tag" id="product-card-udemy-tag">Mercado de cursos online</span>
@@ -528,7 +528,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/pcloud/"
       aria-labelledby="product-card-pcloud-title" aria-describedby="product-card-pcloud-tag product-card-pcloud-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/pcloud.webp" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/pcloud.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-pcloud-title" translate="no">pCloud</h2>
           <span class="product-tag" id="product-card-pcloud-tag">Almacenamiento y envío de archivos</span>
@@ -549,7 +549,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/frase/"
       aria-labelledby="product-card-frase-title" aria-describedby="product-card-frase-tag product-card-frase-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/frase.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/frase.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-frase-title" translate="no">Frase</h2>
           <span class="product-tag" id="product-card-frase-tag">Investigación y redacción con IA</span>
@@ -570,7 +570,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/magnific/"
       aria-labelledby="product-card-magnific-title" aria-describedby="product-card-magnific-tag product-card-magnific-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/magnific.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/magnific.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-magnific-title" translate="no">Magnific</h2>
           <span class="product-tag" id="product-card-magnific-tag">Ampliación de imágenes con IA</span>
@@ -591,7 +591,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/flowlu/"
       aria-labelledby="product-card-flowlu-title" aria-describedby="product-card-flowlu-tag product-card-flowlu-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/flowlu.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/flowlu.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-flowlu-title" translate="no">Flowlu</h2>
           <span class="product-tag" id="product-card-flowlu-tag">Gestión de proyectos y CRM</span>
@@ -612,7 +612,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/coupler-io/"
       aria-labelledby="product-card-coupler-io-title" aria-describedby="product-card-coupler-io-tag product-card-coupler-io-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/coupler-io.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/coupler-io.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-coupler-io-title" translate="no">Coupler.io</h2>
           <span class="product-tag" id="product-card-coupler-io-tag">Integración de datos de marketing</span>
@@ -633,7 +633,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/joggai/"
       aria-labelledby="product-card-joggai-title" aria-describedby="product-card-joggai-tag product-card-joggai-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/joggai.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/joggai.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-joggai-title" translate="no">JoggAI</h2>
           <span class="product-tag" id="product-card-joggai-tag">Anuncios de vídeo con IA desde URL</span>
@@ -654,7 +654,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/pombo/"
       aria-labelledby="product-card-pombo-title" aria-describedby="product-card-pombo-tag product-card-pombo-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/pombo.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/pombo.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-pombo-title" translate="no">Pombo</h2>
           <span class="product-tag" id="product-card-pombo-tag">Software de correo para el ciclo de vida del cliente</span>
@@ -674,7 +674,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/videogen/"
       aria-labelledby="product-card-videogen-title" aria-describedby="product-card-videogen-tag product-card-videogen-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/videogen.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/videogen.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-videogen-title" translate="no">VideoGen</h2>
           <span class="product-tag" id="product-card-videogen-tag">Producción de vídeo con IA</span>
@@ -695,7 +695,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/signaturely/"
       aria-labelledby="product-card-signaturely-title" aria-describedby="product-card-signaturely-tag product-card-signaturely-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/signaturely.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/signaturely.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-signaturely-title" translate="no">Signaturely</h2>
           <span class="product-tag" id="product-card-signaturely-tag">Software de firma electrónica</span>
@@ -715,7 +715,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/answerthis/"
       aria-labelledby="product-card-answerthis-title" aria-describedby="product-card-answerthis-tag product-card-answerthis-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/answerthis.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/answerthis.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-answerthis-title" translate="no">AnswerThis</h2>
           <span class="product-tag" id="product-card-answerthis-tag">Asistente de investigación y verificación de referencias</span>
@@ -736,7 +736,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/windsor-ai/"
       aria-labelledby="product-card-windsor-ai-title" aria-describedby="product-card-windsor-ai-tag product-card-windsor-ai-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/windsor-ai.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/windsor-ai.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-windsor-ai-title" translate="no">Windsor.ai</h2>
           <span class="product-tag" id="product-card-windsor-ai-tag">Conectores de datos de marketing</span>
@@ -757,7 +757,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/social-intents/"
       aria-labelledby="product-card-social-intents-title" aria-describedby="product-card-social-intents-tag product-card-social-intents-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/social-intents.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/social-intents.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-social-intents-title" translate="no">Social Intents</h2>
           <span class="product-tag" id="product-card-social-intents-tag">Chat web y bandeja de entrada compartida</span>
@@ -778,7 +778,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/quso-ai/"
       aria-labelledby="product-card-quso-ai-title" aria-describedby="product-card-quso-ai-tag product-card-quso-ai-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/quso-ai.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/quso-ai.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-quso-ai-title" translate="no">quso.ai</h2>
           <span class="product-tag" id="product-card-quso-ai-tag">Clips y subtítulos de vídeo con IA</span>
@@ -799,7 +799,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/castos/"
       aria-labelledby="product-card-castos-title" aria-describedby="product-card-castos-tag product-card-castos-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/castos.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/castos.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-castos-title" translate="no">Castos</h2>
           <span class="product-tag" id="product-card-castos-tag">Alojamiento de podcasts</span>
@@ -820,7 +820,7 @@
     <a class="product-card-link" data-card-tooltip-link href="/es/products/sked-social/"
       aria-labelledby="product-card-sked-social-title" aria-describedby="product-card-sked-social-tag product-card-sked-social-summary">
       <div class="card-top">
-        <img class="product-mark product-mark-image" src="/assets/product-icons/sked-social.png" alt="" width="48" height="48">
+        <img class="product-mark product-mark-image" src="/assets/product-icons/sked-social.png" alt="" width="48" height="48" loading="lazy" decoding="async">
         <div class="card-identity">
           <h2 id="product-card-sked-social-title" translate="no">Sked Social</h2>
           <span class="product-tag" id="product-card-sked-social-tag">Programación social y aprobación de clientes</span>

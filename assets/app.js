@@ -21,15 +21,13 @@ async function setupCatalog() {
   if (!catalog && !hasSaveControls) return;
 
   const catalogComponents = catalog?.querySelector('[data-filter-menu]') ? ['input', 'dropdown'] : ['input'];
+  const [savedModule, catalogModule] = await Promise.all([
+    hasSaveControls ? import('./interactions/saved.js') : null,
+    catalog ? import('./interactions/catalog.js') : null,
+  ]);
+  const saved = savedModule?.initSavedProducts();
+  catalogModule?.initCatalog(catalog, saved);
   await register('button', ...(catalog ? catalogComponents : []));
-  const saved = hasSaveControls
-    ? (await import('./interactions/saved.js')).initSavedProducts()
-    : undefined;
-
-  if (catalog) {
-    const { initCatalog } = await import('./interactions/catalog.js');
-    initCatalog(catalog, saved);
-  }
 }
 
 async function setupProductMedia() {
@@ -47,4 +45,4 @@ async function setupCardTooltips() {
   await register('tooltip');
 }
 
-await Promise.allSettled([setupLanguage(), setupCatalog(), setupProductMedia(), setupCardTooltips()]);
+await Promise.allSettled([setupCatalog(), setupLanguage(), setupProductMedia(), setupCardTooltips()]);
