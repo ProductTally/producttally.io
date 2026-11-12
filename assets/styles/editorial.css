@@ -128,6 +128,15 @@
 .product-identity .product-mark { flex: none; inline-size: 3.5rem; }
 .product-identity h1 { font: 600 clamp(1.85rem, 4vw, 3rem)/1.14 var(--body); }
 .product-summary .lead { color: var(--ink); }
+.affiliate-disclosure,
+.prose p.affiliate-disclosure {
+  margin-block: .375rem;
+  color: var(--muted);
+  font-size: .8125rem;
+  line-height: 1.5;
+}
+.affiliate-disclosure + .product-evidence { margin-block-start: .375rem; }
+
 .product-action-row { display: flex; align-items: center; flex-wrap: wrap; gap: .6rem; }
 .product-action-row .action { text-align: start; max-inline-size: 100%; }
 .product-hero-figure, .product-media figure { min-inline-size: 0; margin: 0; }

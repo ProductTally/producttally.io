@@ -464,6 +464,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/magnific/creative-vs-precision-upscaling",
+      "url": "/guides/magnific/creative-vs-precision-upscaling/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
       "route": "guides/flowlu/map-a-client-project",
       "url": "/guides/flowlu/map-a-client-project/",
       "lastmod": "2026-11-11"
@@ -987,6 +993,12 @@
       "route": "guides/gamma/export-to-powerpoint",
       "url": "/zh/guides/gamma/export-to-powerpoint/",
       "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/magnific/creative-vs-precision-upscaling",
+      "url": "/zh/guides/magnific/creative-vs-precision-upscaling/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "zh",
@@ -1516,6 +1528,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/magnific/creative-vs-precision-upscaling",
+      "url": "/es/guides/magnific/creative-vs-precision-upscaling/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
       "route": "guides/flowlu/map-a-client-project",
       "url": "/es/guides/flowlu/map-a-client-project/",
       "lastmod": "2026-11-11"
@@ -2039,6 +2057,12 @@
       "route": "guides/gamma/export-to-powerpoint",
       "url": "/ja/guides/gamma/export-to-powerpoint/",
       "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/magnific/creative-vs-precision-upscaling",
+      "url": "/ja/guides/magnific/creative-vs-precision-upscaling/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "ja",
