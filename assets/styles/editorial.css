@@ -198,6 +198,20 @@
 }
 .product-media h2 { font: 600 clamp(1.3rem, 2.2vw, 1.7rem)/1.35 var(--body); margin-block-end: 1rem; }
 .product-media figure { max-inline-size: 46rem; }
+.product-faq-list {
+  max-inline-size: 62rem;
+  margin-block-start: .7rem;
+}
+.product-faq-item {
+  padding-block: 1rem;
+  border-block-end: 1px solid var(--line);
+  scroll-margin-block-start: 1.5rem;
+}
+.product-faq-item:last-child { border-block-end: 0; padding-block-end: 0; }
+.product-faq-item h3 { font: 650 clamp(1rem, 1.65vw, 1.15rem)/1.45 var(--body); }
+.product-faq-item p { max-inline-size: 78ch; margin-block-start: .35rem; line-height: 1.65; }
+.product-faq-item .text-link { color: var(--muted); font-size: .84rem; font-weight: 600; }
+.product-faq-item .text-link:hover { color: var(--accent); }
 .product-reading-list {
   display: grid;
   gap: .75rem;
@@ -212,7 +226,7 @@
 .product-reading-panel h3 { margin-block-end: .45rem; font: 650 1.1rem/1.4 var(--body); }
 .product-reading-panel p { max-inline-size: 78ch; line-height: 1.7; }
 .product-reading-panel .text-link { font-size: .87rem; margin-block-start: .25rem; }
-.product-reading-panel time { color: var(--muted); font-size: .82rem; }
+.product-review-byline { display: flex; flex-wrap: wrap; gap: .15rem .7rem; margin-block: 0 .55rem; color: var(--muted); font-size: .84rem; }
 .product-benefits-list { display: grid; gap: .9rem; }
 .product-benefits-list h3 { font: 650 1rem/1.45 var(--body); margin-block-end: .25rem; }
 .product-image-frame, .product-video { display: block; inline-size: 100%; aspect-ratio: 16 / 10; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--surface); }
