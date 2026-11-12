@@ -218,6 +218,12 @@
     },
     {
       "lang": "en",
+      "route": "products/udemy",
+      "url": "/products/udemy/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-12"
@@ -554,6 +560,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/udemy/creator-course-choice",
+      "url": "/guides/udemy/creator-course-choice/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -770,6 +782,12 @@
       "lang": "zh",
       "route": "products/magnific",
       "url": "/zh/products/magnific/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "products/udemy",
+      "url": "/zh/products/udemy/",
       "lastmod": "2026-11-12"
     },
     {
@@ -1110,6 +1128,12 @@
     },
     {
       "lang": "zh",
+      "route": "guides/udemy/creator-course-choice",
+      "url": "/zh/guides/udemy/creator-course-choice/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1326,6 +1350,12 @@
       "lang": "es",
       "route": "products/magnific",
       "url": "/es/products/magnific/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
+      "route": "products/udemy",
+      "url": "/es/products/udemy/",
       "lastmod": "2026-11-12"
     },
     {
@@ -1666,6 +1696,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/udemy/creator-course-choice",
+      "url": "/es/guides/udemy/creator-course-choice/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1882,6 +1918,12 @@
       "lang": "ja",
       "route": "products/magnific",
       "url": "/ja/products/magnific/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "products/udemy",
+      "url": "/ja/products/udemy/",
       "lastmod": "2026-11-12"
     },
     {
@@ -2219,6 +2261,12 @@
       "route": "guides/seopress/check-wordpress-noindex",
       "url": "/ja/guides/seopress/check-wordpress-noindex/",
       "lastmod": "2026-11-11"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/udemy/creator-course-choice",
+      "url": "/ja/guides/udemy/creator-course-choice/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "ja",
