@@ -164,8 +164,7 @@
   color: var(--forest);
 }
 .product-audience h2, .product-reading-section h2 { font: 600 clamp(1.2rem, 2.2vw, 1.65rem)/1.35 var(--body); }
-.product-audience p:first-child { font-weight: 650; }
-.product-audience p + p { margin-block-start: .35rem; }
+.product-audience-source { margin-block-start: .65rem; font-size: .9rem; }
 .product-review {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
