@@ -224,21 +224,21 @@
     },
     {
       "lang": "en",
-      "route": "guides/ai-video-production",
-      "url": "/guides/ai-video-production/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
       "route": "guides/ai-workflow-automation",
       "url": "/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "en",
       "route": "guides/ai-search-visibility",
       "url": "/guides/ai-search-visibility/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-video-production",
+      "url": "/guides/ai-video-production/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "en",
@@ -251,6 +251,30 @@
       "route": "guides/youtube-search-discovery",
       "url": "/guides/youtube-search-discovery/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-workflow-automation/claude-sheets-vs-excel",
+      "url": "/guides/ai-workflow-automation/claude-sheets-vs-excel/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt",
+      "url": "/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page",
+      "url": "/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-video-production/gemini-omni-15-second-reference-video",
+      "url": "/guides/ai-video-production/gemini-omni-15-second-reference-video/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "en",
@@ -756,21 +780,21 @@
     },
     {
       "lang": "zh",
-      "route": "guides/ai-video-production",
-      "url": "/zh/guides/ai-video-production/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
       "route": "guides/ai-workflow-automation",
       "url": "/zh/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "zh",
       "route": "guides/ai-search-visibility",
       "url": "/zh/guides/ai-search-visibility/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-video-production",
+      "url": "/zh/guides/ai-video-production/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "zh",
@@ -783,6 +807,30 @@
       "route": "guides/youtube-search-discovery",
       "url": "/zh/guides/youtube-search-discovery/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-workflow-automation/claude-sheets-vs-excel",
+      "url": "/zh/guides/ai-workflow-automation/claude-sheets-vs-excel/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt",
+      "url": "/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page",
+      "url": "/zh/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-video-production/gemini-omni-15-second-reference-video",
+      "url": "/zh/guides/ai-video-production/gemini-omni-15-second-reference-video/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "zh",
@@ -1288,21 +1336,21 @@
     },
     {
       "lang": "es",
-      "route": "guides/ai-video-production",
-      "url": "/es/guides/ai-video-production/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
       "route": "guides/ai-workflow-automation",
       "url": "/es/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "es",
       "route": "guides/ai-search-visibility",
       "url": "/es/guides/ai-search-visibility/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-video-production",
+      "url": "/es/guides/ai-video-production/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "es",
@@ -1315,6 +1363,30 @@
       "route": "guides/youtube-search-discovery",
       "url": "/es/guides/youtube-search-discovery/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-workflow-automation/claude-sheets-vs-excel",
+      "url": "/es/guides/ai-workflow-automation/claude-sheets-vs-excel/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt",
+      "url": "/es/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page",
+      "url": "/es/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-video-production/gemini-omni-15-second-reference-video",
+      "url": "/es/guides/ai-video-production/gemini-omni-15-second-reference-video/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "es",
@@ -1820,21 +1892,21 @@
     },
     {
       "lang": "ja",
-      "route": "guides/ai-video-production",
-      "url": "/ja/guides/ai-video-production/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
       "route": "guides/ai-workflow-automation",
       "url": "/ja/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "ja",
       "route": "guides/ai-search-visibility",
       "url": "/ja/guides/ai-search-visibility/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-video-production",
+      "url": "/ja/guides/ai-video-production/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "ja",
@@ -1847,6 +1919,30 @@
       "route": "guides/youtube-search-discovery",
       "url": "/ja/guides/youtube-search-discovery/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-workflow-automation/claude-sheets-vs-excel",
+      "url": "/ja/guides/ai-workflow-automation/claude-sheets-vs-excel/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt",
+      "url": "/ja/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page",
+      "url": "/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-video-production/gemini-omni-15-second-reference-video",
+      "url": "/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/",
+      "lastmod": "2026-11-12"
     },
     {
       "lang": "ja",

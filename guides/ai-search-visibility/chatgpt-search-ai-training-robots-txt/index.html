@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatGPT search and AI training in robots.txt: which settings control each? — ProductTally</title>
+  <meta name="description" content="Check OAI-SearchBot and GPTBot separately, and see where the proposed shared training preference fits.">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="ChatGPT search and AI training in robots.txt: which settings control each? — ProductTally">
+  <meta property="og:description" content="Check OAI-SearchBot and GPTBot separately, and see where the proposed shared training preference fits.">
+  <meta property="og:url" content="https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp">
+  <meta property="og:image:alt" content="A website splitting into separate search and training paths.">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ChatGPT search and AI training in robots.txt: which settings control each? — ProductTally">
+  <meta name="twitter:description" content="Check OAI-SearchBot and GPTBot separately, and see where the proposed shared training preference fits.">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp">
+  <meta name="twitter:image:alt" content="A website splitting into separate search and training paths.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#webpage","name":"ChatGPT search and AI training in robots.txt: which settings control each?","description":"Check OAI-SearchBot and GPTBot separately, and see where the proposed shared training preference fits.","url":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/","inLanguage":"en","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#article-image"},"breadcrumb":{"@id":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#article","headline":"ChatGPT search and AI training in robots.txt: which settings control each?","description":"Check OAI-SearchBot and GPTBot separately, and see where the proposed shared training preference fits.","url":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/","inLanguage":"en","mainEntityOfPage":{"@id":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#article-image","url":"https://producttally.com/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp","contentUrl":"https://producttally.com/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp","width":1200,"height":800,"caption":"A website splitting into separate search and training paths."},"dateModified":"2026-11-12","citation":["https://developers.openai.com/api/docs/bots","https://openai.com/index/helping-websites-express-ai-training-preferences/","https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://producttally.com/"},{"@type":"ListItem","position":2,"name":"Guide Library","item":"https://producttally.com/guides/"},{"@type":"ListItem","position":3,"name":"AI search visibility","item":"https://producttally.com/guides/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"ChatGPT search and AI training in robots.txt: which settings control each?","item":"https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-68d61cdb2f69.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="en" data-save-label="Save product" data-unsave-label="Unsave product" data-save-toast="Saved to your shortlist" data-unsave-toast="Removed from your shortlist" data-storage-error="Your browser could not save this change.">
+  <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <div class="primary-links"><a href="/">Products</a><a href="/guides/" aria-current="location">Guide directory</a><a href="/pricing/">Review service</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Language <span translate="no">English</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">English</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="en" translate="no" aria-current="page">
+      English
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="Language"><a href="/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="Breadcrumbs">
+    <ol><li><a href="/">Home</a></li><li><a href="/guides/">Guide Library</a></li><li><a href="/guides/ai-search-visibility/">AI search visibility</a></li><li><span aria-current="page">ChatGPT search and AI training in robots.txt: which settings control each?</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">Writing · 4 min read</p>
+        <h1>ChatGPT search and AI training in robots.txt: which settings control each?</h1>
+        <p class="lead">Check OAI-SearchBot and GPTBot separately, and see where the proposed shared training preference fits.</p>
+        <p class="byline">By <a href="/about/">Evan</a>
+          · Updated <time datetime="2026-11-12">Nov 12, 2026</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp"
+    srcset="/assets/articles/chatgpt-search-ai-training-robots-txt/cover-small.webp 640w, /assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="A website splitting into separate search and training paths."
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="On this page">
+        <p class="eyebrow">On this page</p>
+        <ol><li><a href="#quick-answer">Quick answer</a></li><li><a href="#section-0">Decide what you want each crawler to do</a></li><li><a href="#section-1">Read the file your site actually serves</a></li><li><a href="#section-2">Keep the draft and the live controls separate</a></li><li><a href="#section-3">Keep a small audit record</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>Quick answer</h2><p>OpenAI documents separate controls for search and potential foundation-model training. OAI-SearchBot controls crawling for ChatGPT search. GPTBot handles crawling for potential training use. The common training signal announced October 30 was a future implementation commitment. Use current bot controls for decisions today.</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>Decide what you want each crawler to do</h2><p>For a public editorial site that wants search eligibility but declines training crawling, the two groups express different choices. In the OAI-SearchBot group allow the intended public paths. In the GPTBot group disallow the paths you wish to exclude from training crawling. Keep those decisions separate for each production hostname. Search crawl permission only establishes one condition for eligibility.</p>
+        </section><section id="section-1">
+          <h2>Read the file your site actually serves</h2><p>Open /robots.txt at the canonical hostname and confirm it is the intended file, reachable without sign-in. Review the named groups, any wildcard group, and the rules for one public guide and one restricted path. Check that the CDN or firewall does not block the verified search crawler if you want it to fetch public pages. Private content needs access controls regardless of crawler preferences.</p>
+        </section><figure class="article-figure"><img src="/assets/articles/chatgpt-search-ai-training-robots-txt/workflow.webp" width="1200" height="600"
+          alt="Conceptual diagram separating public search discovery from a site’s training preference." loading="lazy" decoding="async"><figcaption>Conceptual diagram separating public search discovery from a site’s training preference.</figcaption></figure><section id="section-2">
+          <h2>Keep the draft and the live controls separate</h2><p>OpenAI said it intends to honor a common voluntary signal and would share implementation details later. The IETF document is an Internet-Draft. Keep your existing bot-specific controls and treat any common syntax as pending until the provider documents that it honors it. Record the version of the guidance so you can review changes later.</p>
+        </section><section id="section-3">
+          <h2>Keep a small audit record</h2><p>Record the host, intended search and training policies, two sample paths, and the checked date. After deploying a change, recheck the public file and any available crawler logs. Crawling, inclusion in search, and citations are separate observations.</p>
+        </section>
+        
+        <section aria-labelledby="related-guides">
+          <h2 id="related-guides">Related guides</h2>
+          <ul><li><a href="/guides/ai-search-visibility/ai-search-visibility-checklist/">AI SEO for small websites: a practical GEO checklist</a></li><li><a href="/guides/ai-search-visibility/bing-ai-performance-topic-gaps/">How to find GEO content gaps with Bing AI Performance</a></li><li><a href="/guides/ai-search-visibility/google-multimodal-search-console/">Google Search Console multimodal search: a visual SEO checklist</a></li><li><a href="/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">How to track AI traffic in GA4 with the AI Assistant channel</a></li></ul>
+        </section>
+        <section><h2>Official references</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://developers.openai.com/api/docs/bots">OpenAI crawler documentation</a></cite></li><li><cite><a data-source-citation="true" href="https://openai.com/index/helping-websites-express-ai-training-preferences/">OpenAI’s October 30 training-preference announcement</a></cite></li><li><cite><a data-source-citation="true" href="https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/">IETF Internet-Draft on the shared signal</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>A quieter corner of the internet for better products.</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="/">Products</a>
+        <a href="/guides/">Guide directory</a>
+        <a href="/about/">About the project</a>
+        <a href="/pricing/">Review service</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>An independent notebook by Evan.</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

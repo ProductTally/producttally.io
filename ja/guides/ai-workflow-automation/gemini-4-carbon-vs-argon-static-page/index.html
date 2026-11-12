@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>静的サイト制作でGemini 4 CarbonとArgonを比較する方法 — ProductTally</title>
+  <meta name="description" content="同じ要件で2つのモデルを試し、スマホ表示、要件達成、修正、実際の使用量を比較します。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="静的サイト制作でGemini 4 CarbonとArgonを比較する方法 — ProductTally">
+  <meta property="og:description" content="同じ要件で2つのモデルを試し、スマホ表示、要件達成、修正、実際の使用量を比較します。">
+  <meta property="og:url" content="https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/gemini-4-carbon-vs-argon-static-page/cover.webp">
+  <meta property="og:image:alt" content="一つの制作要件から分岐する二つのモバイル画面。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="静的サイト制作でGemini 4 CarbonとArgonを比較する方法 — ProductTally">
+  <meta name="twitter:description" content="同じ要件で2つのモデルを試し、スマホ表示、要件達成、修正、実際の使用量を比較します。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/gemini-4-carbon-vs-argon-static-page/cover.webp">
+  <meta name="twitter:image:alt" content="一つの制作要件から分岐する二つのモバイル画面。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/#webpage","name":"静的サイト制作でGemini 4 CarbonとArgonを比較する方法","description":"同じ要件で2つのモデルを試し、スマホ表示、要件達成、修正、実際の使用量を比較します。","url":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/#article","headline":"静的サイト制作でGemini 4 CarbonとArgonを比較する方法","description":"同じ要件で2つのモデルを試し、スマホ表示、要件達成、修正、実際の使用量を比較します。","url":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/#article-image","url":"https://producttally.com/assets/articles/gemini-4-carbon-vs-argon-static-page/cover.webp","contentUrl":"https://producttally.com/assets/articles/gemini-4-carbon-vs-argon-static-page/cover.webp","width":1200,"height":800,"caption":"一つの制作要件から分岐する二つのモバイル画面。"},"dateModified":"2026-11-12","citation":["https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/","https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/","https://ai.google.dev/gemini-api/docs/pricing"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ガイド一覧","item":"https://producttally.com/ja/guides/"},{"@type":"ListItem","position":3,"name":"AIワークフロー自動化","item":"https://producttally.com/ja/guides/ai-workflow-automation/"},{"@type":"ListItem","position":4,"name":"静的サイト制作でGemini 4 CarbonとArgonを比較する方法","item":"https://producttally.com/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-68d61cdb2f69.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/guides/" aria-current="location">ガイド広場</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/guides/">ガイド一覧</a></li><li><a href="/ja/guides/ai-workflow-automation/">AIワークフロー自動化</a></li><li><span aria-current="page">静的サイト制作でGemini 4 CarbonとArgonを比較する方法</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">ウェブとフォーム · 4 最小読み取り</p>
+        <h1>静的サイト制作でGemini 4 CarbonとArgonを比較する方法</h1>
+        <p class="lead">同じ要件で2つのモデルを試し、スマホ表示、要件達成、修正、実際の使用量を比較します。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-12">2026/11/12</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/gemini-4-carbon-vs-argon-static-page/cover.webp"
+    srcset="/assets/articles/gemini-4-carbon-vs-argon-static-page/cover-small.webp 640w, /assets/articles/gemini-4-carbon-vs-argon-static-page/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="一つの制作要件から分岐する二つのモバイル画面。"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="この記事の目次">
+        <p class="eyebrow">この記事の目次</p>
+        <ol><li><a href="#quick-answer">結論</a></li><li><a href="#section-0">計測できる同じ要件を渡す</a></li><li><a href="#section-1">修正前の出力を照合する</a></li><li><a href="#section-2">合格した1ページのコストを測る</a></li><li><a href="#section-3">別のページでも試す</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>結論</h2><p>小さな静的ページならArgonを基準にし、複数の制約を満たせず修正が増える場合にCarbonを試します。Googleは2026年11月10日に有料APIでのCarbon提供を発表し、Google AI Ultra向けには別に展開を進めています。</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>計測できる同じ要件を渡す</h2><p>架空のワークショップページをHTMLとCSS各1ファイルで依頼します。タイトル、開催時刻2件、登壇者3人を渡し、申込URLの保持、見出し順、キーボードフォーカス、外部ランタイム不要を指定します。未提供の登壇者情報は空欄にします。</p>
+        </section><section id="section-1">
+          <h2>修正前の出力を照合する</h2><p>390pxと1440pxで開き、横スクロール、フォーカスの表示、申込リンクを確かめます。名前と時刻を照合し、未提供の欄も確認します。修正を頼む前に各項目の合否を記録し、同じ指示で一度だけ直して改善と退行を確認します。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/gemini-4-carbon-vs-argon-static-page/workflow.webp" width="1200" height="600"
+          alt="同じ要件と合格基準で2つの出力を比較する図。" loading="lazy" decoding="async"><figcaption>同じ要件と合格基準で2つの出力を比較する図。</figcaption></figure><section id="section-2">
+          <h2>合格した1ページのコストを測る</h2><p>モデルID、設定、実際のトークン、レビューや修正にかかった時間を残します。当日のAPI料金と、使った場合のキャッシュやツールの料金を確認します。合格までの全試行を足します。アプリの契約とAPI従量料金は別に扱います。</p>
+        </section><section id="section-3">
+          <h2>別のページでも試す</h2><p>基準のモデルが要件を満たすなら、その結果を採用できます。要件の組み合わせを繰り返し取りこぼすならCarbonを試します。この手順は比較の設計であり、独自の実測結果ではありません。別のページでも再現するか確認します。</p>
+        </section>
+        
+        <section aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/guides/ai-workflow-automation/choose-your-first-ai-automation/">AI業務自動化：安全な最初のプロセスを選ぶ</a></li><li><a href="/ja/guides/ai-workflow-automation/claude-sheets-vs-excel/">Claude SheetsとExcelを比較。小規模チームの編集カレンダーにはどちらが向くか</a></li><li><a href="/ja/guides/ai-workflow-automation/n8n-nod-first-task/">n8n Nodとは？小規模チーム向けデスクトップAIアシスタントの選び方</a></li></ul>
+        </section>
+        <section><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/">GoogleのGemini 4 Carbon発表</a></cite></li><li><cite><a data-source-citation="true" href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/">開発者向けCarbonガイド</a></cite></li><li><cite><a data-source-citation="true" href="https://ai.google.dev/gemini-api/docs/pricing">Gemini APIの料金</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/guides/">ガイド広場</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

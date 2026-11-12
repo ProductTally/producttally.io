@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gemini Omni 1.2 Flashで参照画像から15秒動画を作る方法 — ProductTally</title>
+  <meta name="description" content="自分の参照画像と3つの場面を用意し、生成や修正後に製品の形や色を確認します。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-video-production/gemini-omni-15-second-reference-video/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-video-production/gemini-omni-15-second-reference-video/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-video-production/gemini-omni-15-second-reference-video/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-video-production/gemini-omni-15-second-reference-video/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Gemini Omni 1.2 Flashで参照画像から15秒動画を作る方法 — ProductTally">
+  <meta property="og:description" content="自分の参照画像と3つの場面を用意し、生成や修正後に製品の形や色を確認します。">
+  <meta property="og:url" content="https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/gemini-omni-15-second-reference-video/cover.webp">
+  <meta property="og:image:alt" content="製品写真と3カットの絵コンテ。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gemini Omni 1.2 Flashで参照画像から15秒動画を作る方法 — ProductTally">
+  <meta name="twitter:description" content="自分の参照画像と3つの場面を用意し、生成や修正後に製品の形や色を確認します。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/gemini-omni-15-second-reference-video/cover.webp">
+  <meta name="twitter:image:alt" content="製品写真と3カットの絵コンテ。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/#webpage","name":"Gemini Omni 1.2 Flashで参照画像から15秒動画を作る方法","description":"自分の参照画像と3つの場面を用意し、生成や修正後に製品の形や色を確認します。","url":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/#article","headline":"Gemini Omni 1.2 Flashで参照画像から15秒動画を作る方法","description":"自分の参照画像と3つの場面を用意し、生成や修正後に製品の形や色を確認します。","url":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/#article-image","url":"https://producttally.com/assets/articles/gemini-omni-15-second-reference-video/cover.webp","contentUrl":"https://producttally.com/assets/articles/gemini-omni-15-second-reference-video/cover.webp","width":1200,"height":800,"caption":"製品写真と3カットの絵コンテ。"},"dateModified":"2026-11-12","citation":["https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/","https://ai.google.dev/gemini-api/docs/pricing"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ガイド一覧","item":"https://producttally.com/ja/guides/"},{"@type":"ListItem","position":3,"name":"AI動画制作","item":"https://producttally.com/ja/guides/ai-video-production/"},{"@type":"ListItem","position":4,"name":"Gemini Omni 1.2 Flashで参照画像から15秒動画を作る方法","item":"https://producttally.com/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-68d61cdb2f69.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/guides/" aria-current="location">ガイド広場</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-video-production/gemini-omni-15-second-reference-video/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-video-production/gemini-omni-15-second-reference-video/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-video-production/gemini-omni-15-second-reference-video/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/guides/ai-video-production/gemini-omni-15-second-reference-video/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-video-production/gemini-omni-15-second-reference-video/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/guides/ai-video-production/gemini-omni-15-second-reference-video/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/guides/">ガイド一覧</a></li><li><a href="/ja/guides/ai-video-production/">AI動画制作</a></li><li><span aria-current="page">Gemini Omni 1.2 Flashで参照画像から15秒動画を作る方法</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">ビデオ · 4 最小読み取り</p>
+        <h1>Gemini Omni 1.2 Flashで参照画像から15秒動画を作る方法</h1>
+        <p class="lead">自分の参照画像と3つの場面を用意し、生成や修正後に製品の形や色を確認します。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-12">2026/11/12</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/gemini-omni-15-second-reference-video/cover.webp"
+    srcset="/assets/articles/gemini-omni-15-second-reference-video/cover-small.webp 640w, /assets/articles/gemini-omni-15-second-reference-video/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="製品写真と3カットの絵コンテ。"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="この記事の目次">
+        <p class="eyebrow">この記事の目次</p>
+        <ol><li><a href="#quick-answer">結論</a></li><li><a href="#section-0">生成前に3つの場面を決める</a></li><li><a href="#section-1">変更は一度に一つだけ頼む</a></li><li><a href="#section-2">4フレームと音声を確認する</a></li><li><a href="#section-3">採用できる1本の費用を見積もる</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>結論</h2><p>Googleの11月5日発表によると、Gemini Omni 1.2 Flashは最大15秒の動画生成と対話での修正に対応します。利用できる画像で3つの場面を考え、要所で元画像と見比べます。制作前にアカウントの利用可否と設定を確認します。</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>生成前に3つの場面を決める</h2><p>自分で撮った無地のノートなどを使います。最初の5秒で全体を見せ、次の5秒で表紙に寄り、最後の5秒で安定した画面にします。縦横比と照明を指定し、表紙の色、角、リング位置を保つよう伝えます。</p>
+        </section><section id="section-1">
+          <h2>変更は一度に一つだけ頼む</h2><p>製品は正しいのに画角が違うなら、中央の場面だけもう少し寄るよう指定します。前後の動画を同じ時刻で比較します。正確な表記が必要な文字や字幕は別の編集ソフトで加えます。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/gemini-omni-15-second-reference-video/workflow.webp" width="1200" height="600"
+          alt="冒頭、寄りのカット、最後の画面を参照画像と照合する図。" loading="lazy" decoding="async"><figcaption>冒頭、寄りのカット、最後の画面を参照画像と照合する図。</figcaption></figure><section id="section-2">
+          <h2>4フレームと音声を確認する</h2><p>最初、約5秒、約10秒、最後のフレームを調べます。形の変化、文字の誤り、色ずれ、終わり方を確認します。音ありでも再生し、不要な音が入っていないか聞きます。参照画像、指示、版、見送り理由を保存します。</p>
+        </section><section id="section-3">
+          <h2>採用できる1本の費用を見積もる</h2><p>下書きの生成、修正、アップスケールを別々に数えます。APIを使う場合は尺と解像度の料金を確認します。この手順は検証例です。製品の忠実さは採用前に元画像と見比べて確認します。</p>
+        </section>
+        
+        <section aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/guides/ai-video-production/ai-video-workflow-for-small-teams/">小規模チームのAI動画制作：企画、生成、編集、確認</a></li></ul>
+        </section>
+        <section><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">GoogleのOmni 1.2 Flash発表とデモ</a></cite></li><li><cite><a data-source-citation="true" href="https://ai.google.dev/gemini-api/docs/pricing">Gemini APIの動画料金</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/guides/">ガイド広場</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

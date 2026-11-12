@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>robots.txt 如何分别管理 ChatGPT 搜索抓取和 AI 训练偏好？ — ProductTally</title>
+  <meta name="description" content="对照 OAI-SearchBot 和 GPTBot 的现行规则，再看 OpenAI 宣布支持的统一训练信号到了哪一步。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="robots.txt 如何分别管理 ChatGPT 搜索抓取和 AI 训练偏好？ — ProductTally">
+  <meta property="og:description" content="对照 OAI-SearchBot 和 GPTBot 的现行规则，再看 OpenAI 宣布支持的统一训练信号到了哪一步。">
+  <meta property="og:url" content="https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp">
+  <meta property="og:image:alt" content="一个站点分别连向搜索抓取与训练用途。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="robots.txt 如何分别管理 ChatGPT 搜索抓取和 AI 训练偏好？ — ProductTally">
+  <meta name="twitter:description" content="对照 OAI-SearchBot 和 GPTBot 的现行规则，再看 OpenAI 宣布支持的统一训练信号到了哪一步。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp">
+  <meta name="twitter:image:alt" content="一个站点分别连向搜索抓取与训练用途。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#webpage","name":"robots.txt 如何分别管理 ChatGPT 搜索抓取和 AI 训练偏好？","description":"对照 OAI-SearchBot 和 GPTBot 的现行规则，再看 OpenAI 宣布支持的统一训练信号到了哪一步。","url":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#article","headline":"robots.txt 如何分别管理 ChatGPT 搜索抓取和 AI 训练偏好？","description":"对照 OAI-SearchBot 和 GPTBot 的现行规则，再看 OpenAI 宣布支持的统一训练信号到了哪一步。","url":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#article-image","url":"https://producttally.com/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp","contentUrl":"https://producttally.com/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp","width":1200,"height":800,"caption":"一个站点分别连向搜索抓取与训练用途。"},"dateModified":"2026-11-12","citation":["https://developers.openai.com/api/docs/bots","https://openai.com/index/helping-websites-express-ai-training-preferences/","https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"AI 搜索可见度","item":"https://producttally.com/zh/guides/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"robots.txt 如何分别管理 ChatGPT 搜索抓取和 AI 训练偏好？","item":"https://producttally.com/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-68d61cdb2f69.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/guides/" aria-current="location">指南广场</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/guides/ai-search-visibility/">AI 搜索可见度</a></li><li><span aria-current="page">robots.txt 如何分别管理 ChatGPT 搜索抓取和 AI 训练偏好？</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">写作 · 4 分钟阅读</p>
+        <h1>robots.txt 如何分别管理 ChatGPT 搜索抓取和 AI 训练偏好？</h1>
+        <p class="lead">对照 OAI-SearchBot 和 GPTBot 的现行规则，再看 OpenAI 宣布支持的统一训练信号到了哪一步。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-12">2026年11月12日</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp"
+    srcset="/assets/articles/chatgpt-search-ai-training-robots-txt/cover-small.webp 640w, /assets/articles/chatgpt-search-ai-training-robots-txt/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="一个站点分别连向搜索抓取与训练用途。"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="本文目录">
+        <p class="eyebrow">本文目录</p>
+        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">按用途决定各爬虫能访问哪些页面</a></li><li><a href="#section-1">检查线上域名实际返回的文件</a></li><li><a href="#section-2">把统一信号提案和现行规则分开</a></li><li><a href="#section-3">记录一次可重复的核验</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>先看结论</h2><p>ChatGPT 搜索抓取和潜在训练用途可以分别管理。OAI-SearchBot 用于 ChatGPT 搜索，GPTBot 抓取的内容可能用于训练基础模型。OpenAI 10 月 30 日公告里的统一信号仍是计划实施的功能，当前应参考已公开的爬虫规则。</p>
+          
+        </section>
+        <section id="section-0">
+          <h2>按用途决定各爬虫能访问哪些页面</h2><p>如果公开指南希望被 ChatGPT 搜索发现，同时希望拒绝用于训练的抓取，可以在 OAI-SearchBot 分组允许相应公开路径，在 GPTBot 分组禁止希望排除的路径。逐个生产主机核对。允许抓取只是进入搜索的条件之一。</p>
+        </section><section id="section-1">
+          <h2>检查线上域名实际返回的文件</h2><p>打开正式主机的 /robots.txt，确认无需登录且内容正确。对照具名分组和通配分组，分别挑一个公开指南和一个限制路径核对。如果需要搜索爬虫访问，检查 CDN 或防火墙是否允许经过核实的爬虫请求。私密内容应由访问权限控制。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/chatgpt-search-ai-training-robots-txt/workflow.webp" width="1200" height="600"
+          alt="把 ChatGPT 搜索发现与网站的 AI 训练偏好分开核对的示意图。" loading="lazy" decoding="async"><figcaption>把 ChatGPT 搜索发现与网站的 AI 训练偏好分开核对的示意图。</figcaption></figure><section id="section-2">
+          <h2>把统一信号提案和现行规则分开</h2><p>OpenAI 表示将支持统一的自愿训练偏好信号，并会另行公布实施细节。IETF 文件仍是草案。供应商正式说明已经支持之前，继续使用当前各爬虫的官方配置，并记下核查的是哪个版本。</p>
+        </section><section id="section-3">
+          <h2>记录一次可重复的核验</h2><p>记录主机、搜索和训练的预期设置、两条样例路径以及核查日期。更新后再次读取公开文件，能访问日志时核对抓取记录。抓取、出现在搜索答案和获得引用是三项独立观察。</p>
+        </section>
+        
+        <section aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/guides/ai-search-visibility/ai-search-visibility-checklist/">小型网站 AI SEO 实用指南：兼顾 GEO 的检查清单</a></li><li><a href="/zh/guides/ai-search-visibility/bing-ai-performance-topic-gaps/">如何用 Bing AI Performance 找到 GEO 内容缺口</a></li><li><a href="/zh/guides/ai-search-visibility/google-multimodal-search-console/">Google Search Console 多模态搜索报告：视觉 SEO 检查清单</a></li><li><a href="/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/">如何用 GA4 的 AI Assistant 渠道追踪 AI 访问</a></li></ul>
+        </section>
+        <section><h2>官方参考资料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://developers.openai.com/api/docs/bots">OpenAI 爬虫官方文档</a></cite></li><li><cite><a data-source-citation="true" href="https://openai.com/index/helping-websites-express-ai-training-preferences/">OpenAI 10 月 30 日训练偏好公告</a></cite></li><li><cite><a data-source-citation="true" href="https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/">IETF 统一信号草案</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/guides/">指南广场</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>
