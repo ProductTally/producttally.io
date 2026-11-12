@@ -224,6 +224,18 @@
     },
     {
       "lang": "en",
+      "route": "products/joggai",
+      "url": "/products/joggai/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
+      "route": "products/pcloud",
+      "url": "/products/pcloud/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-12"
@@ -806,6 +818,18 @@
       "lang": "zh",
       "route": "products/udemy",
       "url": "/zh/products/udemy/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "products/joggai",
+      "url": "/zh/products/joggai/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "products/pcloud",
+      "url": "/zh/products/pcloud/",
       "lastmod": "2026-11-12"
     },
     {
@@ -1396,6 +1420,18 @@
     },
     {
       "lang": "es",
+      "route": "products/joggai",
+      "url": "/es/products/joggai/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
+      "route": "products/pcloud",
+      "url": "/es/products/pcloud/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-12"
@@ -1978,6 +2014,18 @@
       "lang": "ja",
       "route": "products/udemy",
       "url": "/ja/products/udemy/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "products/joggai",
+      "url": "/ja/products/joggai/",
+      "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "products/pcloud",
+      "url": "/ja/products/pcloud/",
       "lastmod": "2026-11-12"
     },
     {
