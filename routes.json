@@ -12,13 +12,13 @@
       "lang": "en",
       "route": "",
       "url": "/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-12",
+      "lastmod": "2026-11-13",
       "canonicalRoute": ""
     },
     {
@@ -236,9 +236,15 @@
     },
     {
       "lang": "en",
+      "route": "products/mailbluster",
+      "url": "/products/mailbluster/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "en",
@@ -610,13 +616,13 @@
       "lang": "zh",
       "route": "",
       "url": "/zh/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-12",
+      "lastmod": "2026-11-13",
       "canonicalRoute": ""
     },
     {
@@ -834,9 +840,15 @@
     },
     {
       "lang": "zh",
+      "route": "products/mailbluster",
+      "url": "/zh/products/mailbluster/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "zh",
@@ -1208,13 +1220,13 @@
       "lang": "es",
       "route": "",
       "url": "/es/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-12",
+      "lastmod": "2026-11-13",
       "canonicalRoute": ""
     },
     {
@@ -1432,9 +1444,15 @@
     },
     {
       "lang": "es",
+      "route": "products/mailbluster",
+      "url": "/es/products/mailbluster/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "es",
@@ -1806,13 +1824,13 @@
       "lang": "ja",
       "route": "",
       "url": "/ja/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-12",
+      "lastmod": "2026-11-13",
       "canonicalRoute": ""
     },
     {
@@ -2030,9 +2048,15 @@
     },
     {
       "lang": "ja",
+      "route": "products/mailbluster",
+      "url": "/ja/products/mailbluster/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "ja",
