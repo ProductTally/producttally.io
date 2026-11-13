@@ -584,6 +584,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/udemy/ga4-course-campaign-report",
+      "url": "/guides/udemy/ga4-course-campaign-report/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
       "route": "guides/udemy/excel-pivot-table-content-report",
       "url": "/guides/udemy/excel-pivot-table-content-report/",
       "lastmod": "2026-11-12"
@@ -1185,6 +1191,12 @@
       "route": "guides/udemy/creator-course-choice",
       "url": "/zh/guides/udemy/creator-course-choice/",
       "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/udemy/ga4-course-campaign-report",
+      "url": "/zh/guides/udemy/ga4-course-campaign-report/",
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "zh",
@@ -1792,6 +1804,12 @@
     },
     {
       "lang": "es",
+      "route": "guides/udemy/ga4-course-campaign-report",
+      "url": "/es/guides/udemy/ga4-course-campaign-report/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
       "route": "guides/udemy/excel-pivot-table-content-report",
       "url": "/es/guides/udemy/excel-pivot-table-content-report/",
       "lastmod": "2026-11-12"
@@ -2393,6 +2411,12 @@
       "route": "guides/udemy/creator-course-choice",
       "url": "/ja/guides/udemy/creator-course-choice/",
       "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/udemy/ga4-course-campaign-report",
+      "url": "/ja/guides/udemy/ga4-course-campaign-report/",
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "ja",
