@@ -242,6 +242,12 @@
     },
     {
       "lang": "en",
+      "route": "products/movavi-video-editor",
+      "url": "/products/movavi-video-editor/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-13"
@@ -926,6 +932,12 @@
       "lang": "zh",
       "route": "products/mailbluster",
       "url": "/zh/products/mailbluster/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "products/movavi-video-editor",
+      "url": "/zh/products/movavi-video-editor/",
       "lastmod": "2026-11-13"
     },
     {
@@ -1618,6 +1630,12 @@
     },
     {
       "lang": "es",
+      "route": "products/movavi-video-editor",
+      "url": "/es/products/movavi-video-editor/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-13"
@@ -2302,6 +2320,12 @@
       "lang": "ja",
       "route": "products/mailbluster",
       "url": "/ja/products/mailbluster/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "products/movavi-video-editor",
+      "url": "/ja/products/movavi-video-editor/",
       "lastmod": "2026-11-13"
     },
     {
