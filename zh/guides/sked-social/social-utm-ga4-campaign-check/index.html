@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sked Social 怎么给帖子加 UTM，并用 GA4 核对活动流量？ — ProductTally</title>
+  <meta name="description" content="统一活动命名、检查真实点击入口，再在 GA4 核对会话来源。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/guides/sked-social/social-utm-ga4-campaign-check/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/guides/sked-social/social-utm-ga4-campaign-check/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/guides/sked-social/social-utm-ga4-campaign-check/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/sked-social/social-utm-ga4-campaign-check/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Sked Social 怎么给帖子加 UTM，并用 GA4 核对活动流量？ — ProductTally">
+  <meta property="og:description" content="统一活动命名、检查真实点击入口，再在 GA4 核对会话来源。">
+  <meta property="og:url" content="https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/social-utm-ga4-campaign-check/cover.webp">
+  <meta property="og:image:alt" content="产品配图：Sked Social">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="800">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sked Social 怎么给帖子加 UTM，并用 GA4 核对活动流量？ — ProductTally">
+  <meta name="twitter:description" content="统一活动命名、检查真实点击入口，再在 GA4 核对会话来源。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/social-utm-ga4-campaign-check/cover.webp">
+  <meta name="twitter:image:alt" content="产品配图：Sked Social">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/#webpage","name":"Sked Social 怎么给帖子加 UTM，并用 GA4 核对活动流量？","description":"统一活动命名、检查真实点击入口，再在 GA4 核对会话来源。","url":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/#article","headline":"Sked Social 怎么给帖子加 UTM，并用 GA4 核对活动流量？","description":"统一活动命名、检查真实点击入口，再在 GA4 核对会话来源。","url":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/#article-image","url":"https://producttally.com/assets/articles/social-utm-ga4-campaign-check/cover.webp","contentUrl":"https://producttally.com/assets/articles/social-utm-ga4-campaign-check/cover.webp","width":1200,"height":800,"caption":"产品配图：Sked Social"},"about":[{"@id":"https://producttally.com/products/sked-social/#software"}],"dateModified":"2026-11-13","citation":["https://help.skedsocial.com/what-are-utm-tags","https://support.google.com/analytics/answer/10917952"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/sked-social/#software","name":"Sked Social","url":"https://skedsocial.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Sked Social","item":"https://producttally.com/zh/products/sked-social/"},{"@type":"ListItem","position":4,"name":"Sked Social 怎么给帖子加 UTM，并用 GA4 核对活动流量？","item":"https://producttally.com/zh/guides/sked-social/social-utm-ga4-campaign-check/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-3ef485bc05ea.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/guides/" aria-current="location">指南广场</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/guides/sked-social/social-utm-ga4-campaign-check/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/guides/sked-social/social-utm-ga4-campaign-check/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/guides/sked-social/social-utm-ga4-campaign-check/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/guides/sked-social/social-utm-ga4-campaign-check/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/guides/sked-social/social-utm-ga4-campaign-check/" lang="en" hreflang="en" translate="no">English</a><a href="/es/guides/sked-social/social-utm-ga4-campaign-check/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/guides/sked-social/social-utm-ga4-campaign-check/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/guides/sked-social/social-utm-ga4-campaign-check/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/products/sked-social/">Sked Social</a></li><li><span aria-current="page">Sked Social 怎么给帖子加 UTM，并用 GA4 核对活动流量？</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">营销与社媒 · 3 分钟阅读</p>
+        <h1>Sked Social 怎么给帖子加 UTM，并用 GA4 核对活动流量？</h1>
+        <p class="lead">统一活动命名、检查真实点击入口，再在 GA4 核对会话来源。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-13">2026年11月13日</time></p>
+      </div>
+      <div class="article-cover"><img class="article-image"
+    src="/assets/articles/social-utm-ga4-campaign-check/cover.webp"
+    srcset="/assets/articles/social-utm-ga4-campaign-check/cover-small.webp 640w, /assets/articles/social-utm-ga4-campaign-check/cover.webp 1200w"
+    sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="800" alt="产品配图：Sked Social"
+    loading="eager" decoding="async"></div>
+    </header>
+    <div class="article-grid">
+      <nav class="article-toc" aria-label="本文目录">
+        <p class="eyebrow">本文目录</p>
+        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">统一活动命名</a></li><li><a href="#section-1">打开真实发布入口</a></li><li><a href="#section-2">在 GA4 验收会话</a></li></ol>
+      </nav>
+      <div class="prose">
+        <section class="article-answer" id="quick-answer">
+          <h2>先看结论</h2><p>把目标网址放进 Sked Social 的 URL 字段，约定一套 UTM 命名。检查读者实际能点到的链接，再到 GA4 核对会话来源和广告系列。</p>
+          <a class="text-link" href="/zh/products/sked-social/">Sked Social 评测</a>
+        </section>
+        <section id="section-0">
+          <h2>统一活动命名</h2><p>假设做一次内容发布，Instagram 入口可设 utm_source=instagram、utm_medium=social、utm_campaign=november_launch。跨平台保留同一个活动名，调整 source，使用 utm_content 区分不同帖子。大小写也保持一致。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/social-utm-ga4-campaign-check/workflow.webp" width="1200" height="600"
+          alt="带标签的链接、落地页检查和流量获取报告。" loading="lazy" decoding="async"><figcaption>带标签的链接、落地页检查和流量获取报告。</figcaption></figure><section id="section-1">
+          <h2>打开真实发布入口</h2><p>Sked 官方说明会给 URL 字段里的网址添加默认标签，也会保留已有标签。发布后从读者能点到的位置打开，检查跳转后参数是否还在。如果平台不支持在正文里点击网址，就检查简介链接等可点击入口。</p>
+        </section><section id="section-2">
+          <h2>在 GA4 验收会话</h2><p>在已同意测量的新会话里点击，先看实时活动，等处理后再到流量获取报告核对「会话来源／媒介」和「会话广告系列」。看不到时检查同意状态、浏览器拦截、跳转和报表延迟。这里的 UTM 用于网站流量分析，佣金成交归因仍看联盟后台。</p>
+        </section>
+        <section><h2>访问官方网站</h2>
+          <ul><li><p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><a class="text-link" href="https://skedsocial.com?via=evan-ca7008" data-affiliate-product="sked-social" data-affiliate-click="sked-social" data-affiliate-link-type="primary" target="_blank" rel="noopener">
+    <span><span translate="no">Sked Social</span> · 访问官方网站</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a></li></ul>
+        </section>
+        <section aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/guides/sked-social/plan-a-client-approval/">用 Sked Social 规划一条客户审稿流程</a></li></ul>
+        </section>
+        <section><h2>官方参考资料</h2>
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><ul><li><cite><a data-source-citation="true" href="https://help.skedsocial.com/what-are-utm-tags?via=evan-ca7008" data-affiliate-click="sked-social" data-affiliate-link-type="citation" target="_blank" rel="noopener">Sked Social UTM 设置</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/10917952">Google Analytics 广告系列网址</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/guides/">指南广场</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

@@ -608,6 +608,84 @@
     },
     {
       "lang": "en",
+      "route": "guides/payhip/sell-canva-templates",
+      "url": "/guides/payhip/sell-canva-templates/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/cal-com/round-robin-team-booking",
+      "url": "/guides/cal-com/round-robin-team-booking/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/pombo/onboarding-email-stop-on-activation",
+      "url": "/guides/pombo/onboarding-email-stop-on-activation/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/signaturely/pdf-signing-order-audit-trail",
+      "url": "/guides/signaturely/pdf-signing-order-audit-trail/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/n8n/error-trigger-not-firing",
+      "url": "/guides/n8n/error-trigger-not-firing/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/gamma/publish-one-page-portfolio",
+      "url": "/guides/gamma/publish-one-page-portfolio/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/pcloud/black-friday-2026-lifetime-storage",
+      "url": "/guides/pcloud/black-friday-2026-lifetime-storage/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/joggai/url-to-video-15-second-product-ad",
+      "url": "/guides/joggai/url-to-video-15-second-product-ad/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/mailbluster/amazon-ses-first-newsletter",
+      "url": "/guides/mailbluster/amazon-ses-first-newsletter/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/payhip/one-time-digital-product-bundle",
+      "url": "/guides/payhip/one-time-digital-product-bundle/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/oh-dear/ssl-certificate-expiry-monitoring",
+      "url": "/guides/oh-dear/ssl-certificate-expiry-monitoring/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/sked-social/social-utm-ga4-campaign-check",
+      "url": "/guides/sked-social/social-utm-ga4-campaign-check/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
+      "route": "guides/seopress/wordpress-301-redirect",
+      "url": "/guides/seopress/wordpress-301-redirect/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1215,6 +1293,84 @@
       "route": "guides/udemy/premiere-pro-first-vertical-edit",
       "url": "/zh/guides/udemy/premiere-pro-first-vertical-edit/",
       "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/payhip/sell-canva-templates",
+      "url": "/zh/guides/payhip/sell-canva-templates/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/cal-com/round-robin-team-booking",
+      "url": "/zh/guides/cal-com/round-robin-team-booking/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/pombo/onboarding-email-stop-on-activation",
+      "url": "/zh/guides/pombo/onboarding-email-stop-on-activation/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/signaturely/pdf-signing-order-audit-trail",
+      "url": "/zh/guides/signaturely/pdf-signing-order-audit-trail/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/n8n/error-trigger-not-firing",
+      "url": "/zh/guides/n8n/error-trigger-not-firing/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/gamma/publish-one-page-portfolio",
+      "url": "/zh/guides/gamma/publish-one-page-portfolio/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/pcloud/black-friday-2026-lifetime-storage",
+      "url": "/zh/guides/pcloud/black-friday-2026-lifetime-storage/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/joggai/url-to-video-15-second-product-ad",
+      "url": "/zh/guides/joggai/url-to-video-15-second-product-ad/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/mailbluster/amazon-ses-first-newsletter",
+      "url": "/zh/guides/mailbluster/amazon-ses-first-newsletter/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/payhip/one-time-digital-product-bundle",
+      "url": "/zh/guides/payhip/one-time-digital-product-bundle/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/oh-dear/ssl-certificate-expiry-monitoring",
+      "url": "/zh/guides/oh-dear/ssl-certificate-expiry-monitoring/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/sked-social/social-utm-ga4-campaign-check",
+      "url": "/zh/guides/sked-social/social-utm-ga4-campaign-check/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/seopress/wordpress-301-redirect",
+      "url": "/zh/guides/seopress/wordpress-301-redirect/",
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "zh",
@@ -1828,6 +1984,84 @@
     },
     {
       "lang": "es",
+      "route": "guides/payhip/sell-canva-templates",
+      "url": "/es/guides/payhip/sell-canva-templates/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/cal-com/round-robin-team-booking",
+      "url": "/es/guides/cal-com/round-robin-team-booking/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/pombo/onboarding-email-stop-on-activation",
+      "url": "/es/guides/pombo/onboarding-email-stop-on-activation/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/signaturely/pdf-signing-order-audit-trail",
+      "url": "/es/guides/signaturely/pdf-signing-order-audit-trail/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/n8n/error-trigger-not-firing",
+      "url": "/es/guides/n8n/error-trigger-not-firing/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/gamma/publish-one-page-portfolio",
+      "url": "/es/guides/gamma/publish-one-page-portfolio/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/pcloud/black-friday-2026-lifetime-storage",
+      "url": "/es/guides/pcloud/black-friday-2026-lifetime-storage/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/joggai/url-to-video-15-second-product-ad",
+      "url": "/es/guides/joggai/url-to-video-15-second-product-ad/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/mailbluster/amazon-ses-first-newsletter",
+      "url": "/es/guides/mailbluster/amazon-ses-first-newsletter/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/payhip/one-time-digital-product-bundle",
+      "url": "/es/guides/payhip/one-time-digital-product-bundle/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/oh-dear/ssl-certificate-expiry-monitoring",
+      "url": "/es/guides/oh-dear/ssl-certificate-expiry-monitoring/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/sked-social/social-utm-ga4-campaign-check",
+      "url": "/es/guides/sked-social/social-utm-ga4-campaign-check/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
+      "route": "guides/seopress/wordpress-301-redirect",
+      "url": "/es/guides/seopress/wordpress-301-redirect/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -2435,6 +2669,84 @@
       "route": "guides/udemy/premiere-pro-first-vertical-edit",
       "url": "/ja/guides/udemy/premiere-pro-first-vertical-edit/",
       "lastmod": "2026-11-12"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/payhip/sell-canva-templates",
+      "url": "/ja/guides/payhip/sell-canva-templates/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/cal-com/round-robin-team-booking",
+      "url": "/ja/guides/cal-com/round-robin-team-booking/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/pombo/onboarding-email-stop-on-activation",
+      "url": "/ja/guides/pombo/onboarding-email-stop-on-activation/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/signaturely/pdf-signing-order-audit-trail",
+      "url": "/ja/guides/signaturely/pdf-signing-order-audit-trail/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/n8n/error-trigger-not-firing",
+      "url": "/ja/guides/n8n/error-trigger-not-firing/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/gamma/publish-one-page-portfolio",
+      "url": "/ja/guides/gamma/publish-one-page-portfolio/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/pcloud/black-friday-2026-lifetime-storage",
+      "url": "/ja/guides/pcloud/black-friday-2026-lifetime-storage/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/joggai/url-to-video-15-second-product-ad",
+      "url": "/ja/guides/joggai/url-to-video-15-second-product-ad/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/mailbluster/amazon-ses-first-newsletter",
+      "url": "/ja/guides/mailbluster/amazon-ses-first-newsletter/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/payhip/one-time-digital-product-bundle",
+      "url": "/ja/guides/payhip/one-time-digital-product-bundle/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/oh-dear/ssl-certificate-expiry-monitoring",
+      "url": "/ja/guides/oh-dear/ssl-certificate-expiry-monitoring/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/sked-social/social-utm-ga4-campaign-check",
+      "url": "/ja/guides/sked-social/social-utm-ga4-campaign-check/",
+      "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/seopress/wordpress-301-redirect",
+      "url": "/ja/guides/seopress/wordpress-301-redirect/",
+      "lastmod": "2026-11-13"
     },
     {
       "lang": "ja",
