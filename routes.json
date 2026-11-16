@@ -746,6 +746,24 @@
     },
     {
       "lang": "en",
+      "route": "guides/printful/printful-first-sample-order",
+      "url": "/guides/printful/printful-first-sample-order/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
+      "route": "guides/predis-ai/predis-ai-product-launch-carousel",
+      "url": "/guides/predis-ai/predis-ai-product-launch-carousel/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
+      "route": "guides/adguard/adguard-browser-extension-vs-desktop",
+      "url": "/guides/adguard/adguard-browser-extension-vs-desktop/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
       "route": "guides/teachable/starter-vs-builder-course-sales",
       "url": "/guides/teachable/starter-vs-builder-course-sales/",
       "lastmod": "2026-11-16"
@@ -1514,6 +1532,24 @@
       "lang": "zh",
       "route": "guides/cal-com/routing-forms-sales-support-fallback",
       "url": "/zh/guides/cal-com/routing-forms-sales-support-fallback/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/printful/printful-first-sample-order",
+      "url": "/zh/guides/printful/printful-first-sample-order/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/predis-ai/predis-ai-product-launch-carousel",
+      "url": "/zh/guides/predis-ai/predis-ai-product-launch-carousel/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/adguard/adguard-browser-extension-vs-desktop",
+      "url": "/zh/guides/adguard/adguard-browser-extension-vs-desktop/",
       "lastmod": "2026-11-16"
     },
     {
@@ -2290,6 +2326,24 @@
     },
     {
       "lang": "es",
+      "route": "guides/printful/printful-first-sample-order",
+      "url": "/es/guides/printful/printful-first-sample-order/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
+      "route": "guides/predis-ai/predis-ai-product-launch-carousel",
+      "url": "/es/guides/predis-ai/predis-ai-product-launch-carousel/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
+      "route": "guides/adguard/adguard-browser-extension-vs-desktop",
+      "url": "/es/guides/adguard/adguard-browser-extension-vs-desktop/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
       "route": "guides/teachable/starter-vs-builder-course-sales",
       "url": "/es/guides/teachable/starter-vs-builder-course-sales/",
       "lastmod": "2026-11-16"
@@ -3058,6 +3112,24 @@
       "lang": "ja",
       "route": "guides/cal-com/routing-forms-sales-support-fallback",
       "url": "/ja/guides/cal-com/routing-forms-sales-support-fallback/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/printful/printful-first-sample-order",
+      "url": "/ja/guides/printful/printful-first-sample-order/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/predis-ai/predis-ai-product-launch-carousel",
+      "url": "/ja/guides/predis-ai/predis-ai-product-launch-carousel/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/adguard/adguard-browser-extension-vs-desktop",
+      "url": "/ja/guides/adguard/adguard-browser-extension-vs-desktop/",
       "lastmod": "2026-11-16"
     },
     {
