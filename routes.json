@@ -290,6 +290,12 @@
     },
     {
       "lang": "en",
+      "route": "guides/agentic-commerce",
+      "url": "/guides/agentic-commerce/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-workflow-automation/claude-sheets-vs-excel",
       "url": "/guides/ai-workflow-automation/claude-sheets-vs-excel/",
       "lastmod": "2026-11-12"
@@ -698,6 +704,30 @@
     },
     {
       "lang": "en",
+      "route": "guides/agentic-commerce/chatgpt-wallet-merchant-checkout",
+      "url": "/guides/agentic-commerce/chatgpt-wallet-merchant-checkout/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
+      "route": "guides/udemy/udemy-black-friday-ai-workflow-courses",
+      "url": "/guides/udemy/udemy-black-friday-ai-workflow-courses/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
+      "route": "guides/teachable/presell-your-first-course",
+      "url": "/guides/teachable/presell-your-first-course/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
+      "route": "guides/cal-com/routing-forms-sales-support-fallback",
+      "url": "/guides/cal-com/routing-forms-sales-support-fallback/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
       "route": "guides/teachable/starter-vs-builder-course-sales",
       "url": "/guides/teachable/starter-vs-builder-course-sales/",
       "lastmod": "2026-11-16"
@@ -1011,6 +1041,12 @@
       "route": "guides/youtube-search-discovery",
       "url": "/zh/guides/youtube-search-discovery/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/agentic-commerce",
+      "url": "/zh/guides/agentic-commerce/",
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "zh",
@@ -1422,6 +1458,30 @@
     },
     {
       "lang": "zh",
+      "route": "guides/agentic-commerce/chatgpt-wallet-merchant-checkout",
+      "url": "/zh/guides/agentic-commerce/chatgpt-wallet-merchant-checkout/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/udemy/udemy-black-friday-ai-workflow-courses",
+      "url": "/zh/guides/udemy/udemy-black-friday-ai-workflow-courses/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/teachable/presell-your-first-course",
+      "url": "/zh/guides/teachable/presell-your-first-course/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/cal-com/routing-forms-sales-support-fallback",
+      "url": "/zh/guides/cal-com/routing-forms-sales-support-fallback/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
       "route": "guides/teachable/starter-vs-builder-course-sales",
       "url": "/zh/guides/teachable/starter-vs-builder-course-sales/",
       "lastmod": "2026-11-16"
@@ -1735,6 +1795,12 @@
       "route": "guides/youtube-search-discovery",
       "url": "/es/guides/youtube-search-discovery/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "es",
+      "route": "guides/agentic-commerce",
+      "url": "/es/guides/agentic-commerce/",
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "es",
@@ -2146,6 +2212,30 @@
     },
     {
       "lang": "es",
+      "route": "guides/agentic-commerce/chatgpt-wallet-merchant-checkout",
+      "url": "/es/guides/agentic-commerce/chatgpt-wallet-merchant-checkout/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
+      "route": "guides/udemy/udemy-black-friday-ai-workflow-courses",
+      "url": "/es/guides/udemy/udemy-black-friday-ai-workflow-courses/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
+      "route": "guides/teachable/presell-your-first-course",
+      "url": "/es/guides/teachable/presell-your-first-course/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
+      "route": "guides/cal-com/routing-forms-sales-support-fallback",
+      "url": "/es/guides/cal-com/routing-forms-sales-support-fallback/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
       "route": "guides/teachable/starter-vs-builder-course-sales",
       "url": "/es/guides/teachable/starter-vs-builder-course-sales/",
       "lastmod": "2026-11-16"
@@ -2459,6 +2549,12 @@
       "route": "guides/youtube-search-discovery",
       "url": "/ja/guides/youtube-search-discovery/",
       "lastmod": "2026-11-10"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/agentic-commerce",
+      "url": "/ja/guides/agentic-commerce/",
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "ja",
@@ -2867,6 +2963,30 @@
       "route": "guides/seopress/wordpress-301-redirect",
       "url": "/ja/guides/seopress/wordpress-301-redirect/",
       "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/agentic-commerce/chatgpt-wallet-merchant-checkout",
+      "url": "/ja/guides/agentic-commerce/chatgpt-wallet-merchant-checkout/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/udemy/udemy-black-friday-ai-workflow-courses",
+      "url": "/ja/guides/udemy/udemy-black-friday-ai-workflow-courses/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/teachable/presell-your-first-course",
+      "url": "/ja/guides/teachable/presell-your-first-course/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/cal-com/routing-forms-sales-support-fallback",
+      "url": "/ja/guides/cal-com/routing-forms-sales-support-fallback/",
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "ja",
