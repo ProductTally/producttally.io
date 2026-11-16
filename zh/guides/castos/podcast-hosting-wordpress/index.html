@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>用 Castos 和 WordPress 做播客：托管音频与发布第一集 — ProductTally</title>
-  <meta name="description" content="选定发布入口，配置公开或私密 RSS，再用听众的视角确认第一集是否能正常收听。">
+  <title>用 Castos 和 WordPress 发布第一集播客：核对页面、RSS 和音频 — ProductTally</title>
+  <meta name="description" content="选定编辑入口和分发地址，拿一段预告走完单集页面、RSS 条目和实际收听三项检查。">
   <meta name="theme-color" content="#FBF8F3">
   
   <link rel="canonical" href="https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/castos/podcast-hosting-wordpress/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ProductTally">
-  <meta property="og:title" content="用 Castos 和 WordPress 做播客：托管音频与发布第一集 — ProductTally">
-  <meta property="og:description" content="选定发布入口，配置公开或私密 RSS，再用听众的视角确认第一集是否能正常收听。">
+  <meta property="og:title" content="用 Castos 和 WordPress 发布第一集播客：核对页面、RSS 和音频 — ProductTally">
+  <meta property="og:description" content="选定编辑入口和分发地址，拿一段预告走完单集页面、RSS 条目和实际收听三项检查。">
   <meta property="og:url" content="https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/">
   <meta property="og:image" content="https://producttally.com/assets/articles/podcast-hosting-wordpress/cover.webp">
   <meta property="og:image:alt" content="Castos · 播客托管与分发">
@@ -29,11 +29,11 @@
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:locale:alternate" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="用 Castos 和 WordPress 做播客：托管音频与发布第一集 — ProductTally">
-  <meta name="twitter:description" content="选定发布入口，配置公开或私密 RSS，再用听众的视角确认第一集是否能正常收听。">
+  <meta name="twitter:title" content="用 Castos 和 WordPress 发布第一集播客：核对页面、RSS 和音频 — ProductTally">
+  <meta name="twitter:description" content="选定编辑入口和分发地址，拿一段预告走完单集页面、RSS 条目和实际收听三项检查。">
   <meta name="twitter:image" content="https://producttally.com/assets/articles/podcast-hosting-wordpress/cover.webp">
   <meta name="twitter:image:alt" content="Castos · 播客托管与分发">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#webpage","name":"用 Castos 和 WordPress 做播客：托管音频与发布第一集","description":"选定发布入口，配置公开或私密 RSS，再用听众的视角确认第一集是否能正常收听。","url":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#article","headline":"用 Castos 和 WordPress 做播客：托管音频与发布第一集","description":"选定发布入口，配置公开或私密 RSS，再用听众的视角确认第一集是否能正常收听。","url":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#article-image","url":"https://producttally.com/assets/articles/podcast-hosting-wordpress/cover.webp","contentUrl":"https://producttally.com/assets/articles/podcast-hosting-wordpress/cover.webp","width":1200,"height":630,"caption":"Castos · 播客托管与分发"},"about":[{"@id":"https://producttally.com/products/castos/#software"}],"dateModified":"2026-11-11","citation":["https://castos.com/pricing/","https://support.castos.com/article/262-quickstart-guide-set-up-your-podcast-in-castos-and-add-your-first-episode","https://support.castos.com/article/494-quickstart-guide-seriously-simple-podcasting-and-castos","https://support.castos.com/article/465-podcast-visibility-options","https://support.castos.com/article/45-set-up-youtube-republishing-in-castos","https://www.youtube.com/watch?v=UnQe3LB555U","https://www.reddit.com/r/podcasting/comments/1sf3ret/castos_podbean_or_spreaker/","https://www.reddit.com/r/podcasting/comments/1r6iapk/castos_errors_with_2_podcasts/","https://support.castos.com/article/101-castos-or-wordpress-where-should-i-publish-my-podcast","https://www.g2.com/products/castos/reviews"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/castos/#software","name":"Castos","url":"https://castos.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Castos","item":"https://producttally.com/zh/products/castos/"},{"@type":"ListItem","position":4,"name":"用 Castos 和 WordPress 做播客：托管音频与发布第一集","item":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/"}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#webpage","name":"用 Castos 和 WordPress 发布第一集播客：核对页面、RSS 和音频","description":"选定编辑入口和分发地址，拿一段预告走完单集页面、RSS 条目和实际收听三项检查。","url":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#article","headline":"用 Castos 和 WordPress 发布第一集播客：核对页面、RSS 和音频","description":"选定编辑入口和分发地址，拿一段预告走完单集页面、RSS 条目和实际收听三项检查。","url":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#article-image","url":"https://producttally.com/assets/articles/podcast-hosting-wordpress/cover.webp","contentUrl":"https://producttally.com/assets/articles/podcast-hosting-wordpress/cover.webp","width":1200,"height":630,"caption":"Castos · 播客托管与分发"},"about":[{"@id":"https://producttally.com/products/castos/#software"}],"dateModified":"2026-11-16","citation":["https://castos.com/pricing/","https://support.castos.com/article/494-quickstart-guide-seriously-simple-podcasting-and-castos","https://support.castos.com/article/493-understanding-rss-feeds","https://support.castos.com/article/465-podcast-visibility-options","https://support.castos.com/article/246-add-and-manage-private-podcast-subscribers","https://audience.castos.com/episodes/honoring-a-legacy-with-joe-skinner","https://feeds.castos.com/z1nq","https://support.castos.com/article/101-castos-or-wordpress-where-should-i-publish-my-podcast","https://www.g2.com/products/castos/reviews"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/castos/#software","name":"Castos","url":"https://castos.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Castos","item":"https://producttally.com/zh/products/castos/"},{"@type":"ListItem","position":4,"name":"用 Castos 和 WordPress 发布第一集播客：核对页面、RSS 和音频","item":"https://producttally.com/zh/guides/castos/podcast-hosting-wordpress/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-3ef485bc05ea.css">
@@ -74,15 +74,15 @@
       </div>
     </header>
   <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
-    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/products/castos/">Castos</a></li><li><span aria-current="page">用 Castos 和 WordPress 做播客：托管音频与发布第一集</span></li></ol>
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/products/castos/">Castos</a></li><li><span aria-current="page">用 Castos 和 WordPress 发布第一集播客：核对页面、RSS 和音频</span></li></ol>
   </nav><article class="wrap detail guide-article">
     <header class="detail-header article-header">
       <div class="article-intro">
-        <p class="eyebrow">音频与播客 · 4 分钟阅读</p>
-        <h1>用 Castos 和 WordPress 做播客：托管音频与发布第一集</h1>
-        <p class="lead">选定发布入口，配置公开或私密 RSS，再用听众的视角确认第一集是否能正常收听。</p>
+        <p class="eyebrow">音频与播客 · 5 分钟阅读</p>
+        <h1>用 Castos 和 WordPress 发布第一集播客：核对页面、RSS 和音频</h1>
+        <p class="lead">选定编辑入口和分发地址，拿一段预告走完单集页面、RSS 条目和实际收听三项检查。</p>
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
-          · 更新于 <time datetime="2026-11-11">2026年11月11日</time></p>
+          · 更新于 <time datetime="2026-11-16">2026年11月16日</time></p>
       </div>
       <div class="article-cover"><img class="article-image article-image-contain"
     src="/assets/articles/podcast-hosting-wordpress/cover.webp"
@@ -94,40 +94,37 @@
     <div class="article-grid">
       <nav class="article-toc" aria-label="本文目录">
         <p class="eyebrow">本文目录</p>
-        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">Castos 能帮你做什么？</a></li><li><a href="#section-1">使用 WordPress，先确定发布入口</a></li><li><a href="#section-2">第一集发布前，准备好这几样</a></li><li><a href="#section-3">按实际流程选套餐</a></li><li><a href="#section-4">YouTube 转发，不等于原生视频托管</a></li><li><a href="#section-5">社区反馈提醒了什么？</a></li><li><a href="#section-6">迁移节目之前，先决定在哪编辑每一集</a></li></ol>
+        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">先定下来以后在哪改每一集</a></li><li><a href="#section-1">只对外分发一个 RSS</a></li><li><a href="#section-2">打开页面、查条目、播放和拖动进度</a></li><li><a href="#section-3">确认目录提交和套餐条件</a></li><li><a href="#section-4">迁移节目之前，先决定在哪编辑每一集</a></li></ol>
       </nav>
       <div class="prose">
         <section class="article-answer" id="quick-answer">
-          <h2>先看结论</h2><p>如果节目页面已经在 WordPress 上，你又想把音频托管和 RSS 分发交给专门的平台，Castos 值得考虑。 录完节目之后，音频放哪里、RSS 怎么发、WordPress 从哪里更新？Castos 将这些环节放进同一套播客发布流程，适合有网站或私密听众社群的创作者参考。本文基于官网、官方文档、YouTube 教程及社区反馈研究，不是亲测评测。</p>
+          <h2>先看结论</h2><p>如果单集页面由 WordPress 管理，可以用 Seriously Simple Podcasting 发布，让 Castos 托管音频。对播客目录只提交一个 RSS 地址。提交前确认单集页面、RSS 里的音频附件和播放器打开的是同一集。</p>
           <a class="text-link" href="/zh/products/castos/">Castos 评测</a>
         </section>
         <section id="section-0">
-          <h2>Castos 能帮你做什么？</h2><p>Castos 提供播客媒体托管及用于分发的 RSS，支持公开、私密和混合可见性。若以后需要撤销某位听众的访问权限，应选择独立订阅者 RSS；官方文档说明，通用私密 RSS 分享后不能单独撤销。</p>
-        </section><section id="section-1">
-          <h2>使用 WordPress，先确定发布入口</h2><p>Seriously Simple Podcasting 插件连接 WordPress 与 Castos。最新文档要求在插件内管理节目及大多数 RSS 设置：直接修改 Castos 后台，不会自动同步回 WordPress。多个网站共用账号的团队，应在迁移前确认账号与站点的连接方案。</p>
-        </section><section id="section-2">
-          <h2>第一集发布前，准备好这几样</h2><p>准备节目名称、介绍、方形封面及 MP3，按官方入门文档创建节目、上传单集，再立即发布或定时发布。在 Distribution 设置中复制 RSS 地址。播客平台的提交与审核仍需另行处理，不能承诺发布后立即出现在所有平台。</p>
+          <h2>先定下来以后在哪改每一集</h2><p>准备节目名、方形封面和一段短预告 MP3。按官方快速入门在 WordPress 接入 Seriously Simple Podcasting，连到要发布的 Castos 节目。之后在 WordPress 维护单集，再同步到 Castos。官方说明直接在 Castos 后台改内容不会反向写回 WordPress。如果团队更想在 Castos 编辑，可以从后台发布，再把播放器嵌到 WordPress。</p>
         </section><figure class="article-figure"><img src="/assets/articles/podcast-hosting-wordpress/official-body.webp" width="1200" height="872"
-          alt="Castos · 播客托管与分发" loading="lazy" decoding="async"><figcaption>Castos · 播客托管与分发</figcaption></figure><section id="section-3">
-          <h2>按实际流程选套餐</h2><p>月付／整年付：Essentials $19／$190，Growth $49／$490，Pro $99／$990，Premium 起价 $499／$4,990。年付数字为整年付款额。转录和私密订阅者有套餐额度；AI Assistant 另加 $10／月。官网显示 $，结账前确认结算币种、税费及试用取消规则。价格核查于 2026 年 11 月 10 日。</p>
+          alt="Castos 官方的播客分发示意图。" loading="lazy" decoding="async"><figcaption>Castos 官方的播客分发示意图。</figcaption></figure><section id="section-1">
+          <h2>只对外分发一个 RSS</h2><p>插件和 Castos 都能提供订阅源，先选定要提交给播客目录的那个，更换托管或分发设置后再复核。Castos 建议多数新节目用托管版订阅源。已有节目换托管前，先记下旧地址和重定向方案。只有打算公开时才发布公开预告；私密源交给受邀听众。</p>
+        </section><section id="section-2">
+          <h2>打开页面、查条目、播放和拖动进度</h2><p>退出登录打开单集页，将标题对照 RSS 的对应条目，再查 GUID 和 HTTPS 音频附件地址、类型与长度。然后播放并向前拖动。11 月 10 日我们用 Castos 的公开节目 Audience 做了只读检查：目标条目有 audio/mpeg 附件，播放器可播放和跳转。同一份订阅源的其他条目发现重复 GUID。检查自己的节目时，确认各集 ID 不重复，新增第二集后再验证一次。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/podcast-hosting-wordpress/rss-episode-check.webp" width="1200" height="650"
+          alt="11 月 10 日查验公开节目 Audience。单集标题在 RSS 里能对上，附件为 audio/mpeg，公开播放器可播放和拖动进度。" loading="lazy" decoding="async"><figcaption>11 月 10 日查验公开节目 Audience。单集标题在 RSS 里能对上，附件为 audio/mpeg，公开播放器可播放和拖动进度。</figcaption></figure><section id="section-3">
+          <h2>确认目录提交和套餐条件</h2><p>发布单集以后，还要单独提交公开 RSS，并明确谁负责维护目录账号。公开样例只能证明该集可收听，自己的上传或私密听众权限还得验证。创作者账号试用流程走到绑卡页面就停了。开通前核对实际套餐和付款条款。</p>
         </section><section id="section-4">
-          <h2>YouTube 转发，不等于原生视频托管</h2><p>Growth 包含将音频转成视频后发布到 YouTube，Pro 增加视频文件托管；连接频道需要授权。2022 年官方入门视频可辅助理解流程，界面和分发渠道以最新文档为准。已核对视频索引中的标题、频道、日期和章节，未完整观看视频。</p>
-        </section><section id="section-5">
-          <h2>社区反馈提醒了什么？</h2><p>一位 Reddit 用户喜欢其清晰界面，但认为入门套餐的分析能力有限；另一位用户反映两个 WordPress 网站共用账号时遇到分发问题。这些是个案，不能推断故障率或统一限制。以 WordPress 为主的节目，先确认同步入口和多站点方案；只做音频时，先比较入门套餐是否够用。</p>
-        </section><section id="section-6">
           <h2>迁移节目之前，先决定在哪编辑每一集</h2><p>Castos 官方文档列出两条发布路径：直接使用 Castos 后台，或通过 Seriously Simple Podcasting 在 WordPress 发布。一位 G2 用户喜欢从 WordPress 发布后自动同步到 Castos，另一位则希望迁移时能带走原平台的统计。换托管平台之前，先确定今后在哪编辑单集，备份历史数据，并确认 RSS 重定向怎么做。如果做的是私密播客，还要验证受邀听众能否用自己的订阅地址收听。</p>
         </section>
         <section><h2>访问官方网站</h2>
-          <ul><li><a class="text-link" href="https://castos.com?via=evan" data-affiliate-product="castos" data-affiliate-click="castos" data-affiliate-link-type="primary" target="_blank" rel="noopener">
+          <ul><li><p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><a class="text-link" href="https://castos.com?via=evan" data-affiliate-product="castos" data-affiliate-click="castos" data-affiliate-link-type="primary" target="_blank" rel="noopener">
     <span><span translate="no">Castos</span> · 访问官方网站</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
   </a></li></ul>
         </section>
         <section aria-labelledby="related-guides">
           <h2 id="related-guides">相关指南</h2>
-          <ul><li><a href="/zh/guides/castos/castos-podcast-hosting/">Castos 是什么？WordPress 播客与私密节目托管指南</a></li></ul>
+          <ul><li><a href="/zh/guides/castos/castos-podcast-hosting/">Castos 是什么？WordPress 播客和私密订阅怎么选</a></li></ul>
         </section>
         <section><h2>资料来源与用户评价</h2>
-          <ul><li><cite><a data-source-citation="true" href="https://castos.com/pricing/?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">按实际流程选套餐 · castos.com</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/262-quickstart-guide-set-up-your-podcast-in-castos-and-add-your-first-episode?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">第一集发布前，准备好这几样 · support.castos.com</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/494-quickstart-guide-seriously-simple-podcasting-and-castos?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">使用 WordPress，先确定发布入口 · support.castos.com</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/465-podcast-visibility-options?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Castos 能帮你做什么？ · support.castos.com</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/45-set-up-youtube-republishing-in-castos?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">YouTube 转发，不等于原生视频托管 · support.castos.com</a></cite></li><li><cite><a data-source-citation="true" href="https://www.youtube.com/watch?v=UnQe3LB555U">YouTube 转发，不等于原生视频托管 · www.youtube.com</a></cite></li><li><cite><a data-source-citation="true" href="https://www.reddit.com/r/podcasting/comments/1sf3ret/castos_podbean_or_spreaker/">社区反馈提醒了什么？ · www.reddit.com</a></cite></li><li><cite><a data-source-citation="true" href="https://www.reddit.com/r/podcasting/comments/1r6iapk/castos_errors_with_2_podcasts/">社区反馈提醒了什么？ · www.reddit.com</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/101-castos-or-wordpress-where-should-i-publish-my-podcast?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Castos：如何选择后台发布或 WordPress 发布</a></cite></li><li><cite><a data-source-citation="true" href="https://www.g2.com/products/castos/reviews">G2：Castos 用户对 WordPress 同步与迁移的评价</a></cite></li></ul>
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><ul><li><cite><a data-source-citation="true" href="https://castos.com/pricing/?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Castos 套餐与试用条款</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/494-quickstart-guide-seriously-simple-podcasting-and-castos?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Seriously Simple Podcasting 的 WordPress 入门</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/493-understanding-rss-feeds?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Castos RSS 与音频附件说明</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/465-podcast-visibility-options?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Castos 公开、私密和混合可见性</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/246-add-and-manage-private-podcast-subscribers?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Castos 私密订阅者权限</a></cite></li><li><cite><a data-source-citation="true" href="https://audience.castos.com/episodes/honoring-a-legacy-with-joe-skinner?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Audience 公开单集与播放器</a></cite></li><li><cite><a data-source-citation="true" href="https://feeds.castos.com/z1nq?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Audience 的示例 RSS</a></cite></li><li><cite><a data-source-citation="true" href="https://support.castos.com/article/101-castos-or-wordpress-where-should-i-publish-my-podcast?via=evan" data-affiliate-click="castos" data-affiliate-link-type="citation" target="_blank" rel="noopener">Castos：如何选择后台发布或 WordPress 发布</a></cite></li><li><cite><a data-source-citation="true" href="https://www.g2.com/products/castos/reviews">G2：Castos 用户对 WordPress 同步与迁移的评价</a></cite></li></ul>
         </section>
       </div>
     </div>

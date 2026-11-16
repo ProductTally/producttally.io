@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>用 Windsor.ai 同步报表前，怎么核对字段和日期？ — ProductTally</title>
-  <meta name="description" content="从一个连接器开始，先与原始报表核对预览，再选一个测试目的地。">
+  <title>用 Windsor.ai 同步 GA4 前，怎么对账和查缺失日期 — ProductTally</title>
+  <meta name="description" content="选同一个 GA4 媒体资源和已结束的日期窗口，从缺哪一行开始排查差异。">
   <meta name="theme-color" content="#FBF8F3">
   
   <link rel="canonical" href="https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/windsor-ai/check-report-source-settings/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ProductTally">
-  <meta property="og:title" content="用 Windsor.ai 同步报表前，怎么核对字段和日期？ — ProductTally">
-  <meta property="og:description" content="从一个连接器开始，先与原始报表核对预览，再选一个测试目的地。">
+  <meta property="og:title" content="用 Windsor.ai 同步 GA4 前，怎么对账和查缺失日期 — ProductTally">
+  <meta property="og:description" content="选同一个 GA4 媒体资源和已结束的日期窗口，从缺哪一行开始排查差异。">
   <meta property="og:url" content="https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/">
   <meta property="og:image" content="https://producttally.com/assets/articles/check-report-source-settings/cover.webp">
   <meta property="og:image:alt" content="Windsor.ai · 官方产品图">
@@ -29,11 +29,11 @@
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:locale:alternate" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="用 Windsor.ai 同步报表前，怎么核对字段和日期？ — ProductTally">
-  <meta name="twitter:description" content="从一个连接器开始，先与原始报表核对预览，再选一个测试目的地。">
+  <meta name="twitter:title" content="用 Windsor.ai 同步 GA4 前，怎么对账和查缺失日期 — ProductTally">
+  <meta name="twitter:description" content="选同一个 GA4 媒体资源和已结束的日期窗口，从缺哪一行开始排查差异。">
   <meta name="twitter:image" content="https://producttally.com/assets/articles/check-report-source-settings/cover.webp">
   <meta name="twitter:image:alt" content="Windsor.ai · 官方产品图">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#webpage","name":"用 Windsor.ai 同步报表前，怎么核对字段和日期？","description":"从一个连接器开始，先与原始报表核对预览，再选一个测试目的地。","url":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#article","headline":"用 Windsor.ai 同步报表前，怎么核对字段和日期？","description":"从一个连接器开始，先与原始报表核对预览，再选一个测试目的地。","url":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#article-image","url":"https://producttally.com/assets/articles/check-report-source-settings/cover.webp","contentUrl":"https://producttally.com/assets/articles/check-report-source-settings/cover.webp","width":1200,"height":676,"caption":"Windsor.ai · 官方产品图"},"about":[{"@id":"https://producttally.com/products/windsor-ai/#software"}],"dateModified":"2026-11-11","citation":["https://windsor.ai/","https://windsor.ai/documentation/how-to-fix-data-mismatch-issues-in-google-sheets","https://windsor.ai/pricing/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/windsor-ai/#software","name":"Windsor.ai","url":"https://windsor.ai/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Windsor.ai","item":"https://producttally.com/zh/products/windsor-ai/"},{"@type":"ListItem","position":4,"name":"用 Windsor.ai 同步报表前，怎么核对字段和日期？","item":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/"}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#webpage","name":"用 Windsor.ai 同步 GA4 前，怎么对账和查缺失日期","description":"选同一个 GA4 媒体资源和已结束的日期窗口，从缺哪一行开始排查差异。","url":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#article","headline":"用 Windsor.ai 同步 GA4 前，怎么对账和查缺失日期","description":"选同一个 GA4 媒体资源和已结束的日期窗口，从缺哪一行开始排查差异。","url":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#article-image","url":"https://producttally.com/assets/articles/check-report-source-settings/cover.webp","contentUrl":"https://producttally.com/assets/articles/check-report-source-settings/cover.webp","width":1200,"height":676,"caption":"Windsor.ai · 官方产品图"},"about":[{"@id":"https://producttally.com/products/windsor-ai/#software"}],"dateModified":"2026-11-16","citation":["https://windsor.ai/","https://windsor.ai/documentation/how-to-fix-data-mismatch-issues-in-google-sheets","https://windsor.ai/pricing/","https://windsor.ai/documentation/core-concepts/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/windsor-ai/#software","name":"Windsor.ai","url":"https://windsor.ai/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Windsor.ai","item":"https://producttally.com/zh/products/windsor-ai/"},{"@type":"ListItem","position":4,"name":"用 Windsor.ai 同步 GA4 前，怎么对账和查缺失日期","item":"https://producttally.com/zh/guides/windsor-ai/check-report-source-settings/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-3ef485bc05ea.css">
@@ -74,15 +74,15 @@
       </div>
     </header>
   <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
-    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/products/windsor-ai/">Windsor.ai</a></li><li><span aria-current="page">用 Windsor.ai 同步报表前，怎么核对字段和日期？</span></li></ol>
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/products/windsor-ai/">Windsor.ai</a></li><li><span aria-current="page">用 Windsor.ai 同步 GA4 前，怎么对账和查缺失日期</span></li></ol>
   </nav><article class="wrap detail guide-article">
     <header class="detail-header article-header">
       <div class="article-intro">
-        <p class="eyebrow">数据与分析 · 2 分钟阅读</p>
-        <h1>用 Windsor.ai 同步报表前，怎么核对字段和日期？</h1>
-        <p class="lead">从一个连接器开始，先与原始报表核对预览，再选一个测试目的地。</p>
+        <p class="eyebrow">数据与分析 · 4 分钟阅读</p>
+        <h1>用 Windsor.ai 同步 GA4 前，怎么对账和查缺失日期</h1>
+        <p class="lead">选同一个 GA4 媒体资源和已结束的日期窗口，从缺哪一行开始排查差异。</p>
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
-          · 更新于 <time datetime="2026-11-11">2026年11月11日</time></p>
+          · 更新于 <time datetime="2026-11-16">2026年11月16日</time></p>
       </div>
       <div class="article-cover"><img class="article-image article-image-contain"
     src="/assets/articles/check-report-source-settings/cover.webp"
@@ -94,19 +94,22 @@
     <div class="article-grid">
       <nav class="article-toc" aria-label="本文目录">
         <p class="eyebrow">本文目录</p>
-        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">从一个来源和较短的日期范围开始</a></li><li><a href="#section-1">预览核对后再选择目的地</a></li></ol>
+        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">先找一个能重复核对的小窗口</a></li><li><a href="#section-1">先查日期有没有少，再看总数</a></li><li><a href="#section-2">确认写到表格里的数据也能对上</a></li></ol>
       </nav>
       <div class="prose">
         <section class="article-answer" id="quick-answer">
-          <h2>先看结论</h2><p>Windsor.ai 官方文档介绍了选字段、选日期再预览的流程。2026 年 11 月 11 日，我们进入了 Add data 页面，未授权连接真实数据源。下列步骤依据官方文档整理。</p>
+          <h2>先看结论</h2><p>安排 Windsor.ai 定时同步前，先用一个 GA4 媒体资源，只比较日期和会话数。源报表和预览要用同样的时间范围、时区和筛选。11 月 11 日实测只打开了 Add data，未授权连接器，文中的对账数字是示例。</p>
           <a class="text-link" href="/zh/products/windsor-ai/">Windsor.ai 评测</a>
         </section>
         <section id="section-0">
-          <h2>从一个来源和较短的日期范围开始</h2><p>选一个可以手动核对的来源，只选一个账号、一小段时间和报表必要字段。记录原始报表的日期及筛选条件，便于逐项对照。</p>
+          <h2>先找一个能重复核对的小窗口</h2><p>选一个 GA4 媒体资源，固定三个已结束的日期，不含当天，只保留「日期」和「会话数」。记下媒体资源时区、细分和筛选条件。拿同条件的源报表核对。每日总数对上以后，再加渠道、国家或广告系列。</p>
         </section><figure class="article-figure"><img src="/assets/articles/check-report-source-settings/workflow.webp" width="1280" height="664"
           alt="Windsor.ai · 官方操作界面示意" loading="lazy" decoding="async"><figcaption>Windsor.ai · 官方操作界面示意</figcaption></figure><section id="section-1">
-          <h2>预览核对后再选择目的地</h2><p>数值不一致时，先比较账号、日期、筛选和汇总粒度。核对后再选独立的测试表格或其他目标。官网列出的 Forever Free 在试用结束后包含一位用户、一个数据源和一个账号。</p>
-        </section>
+          <h2>先查日期有没有少，再看总数</h2><p>用一组假设数字：连续三天为 18、22、12 次会话，合计 52；预览只显示前两天，合计 40。先找少的是哪一天，再核对起止日期、媒体资源和筛选条件。如果日期还在但数值是 0，记录为零值并回源核对。</p>
+        </section><section id="section-2">
+          <h2>确认写到表格里的数据也能对上</h2><p>把小窗口先写到一张测试表，核对三天的日期、表头和会话列。如果预览对得上而表格对不上，查日期解析、列顺序以及现有公式或筛选。源报表、预览和表格一致后，再开定时。此次没实测同步或实际流量数据。</p>
+        </section><figure class="article-figure"><img src="/assets/articles/check-report-source-settings/report-reconciliation.webp" width="1200" height="650"
+          alt="对账算例。源报表 3 天合计 52；预览缺第三天，只剩 40。" loading="lazy" decoding="async"><figcaption>对账算例。源报表 3 天合计 52；预览缺第三天，只剩 40。</figcaption></figure>
         <section><h2>访问官方网站</h2>
           <ul><li><p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><a class="text-link" href="https://windsor.ai/?fpr=evan-f390ad" data-affiliate-product="windsor-ai" data-affiliate-click="windsor-ai" data-affiliate-link-type="primary" target="_blank" rel="noopener">
     <span><span translate="no">Windsor.ai</span> · 访问官方网站</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
@@ -114,7 +117,7 @@
         </section>
         
         <section><h2>官方参考资料</h2>
-          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><ul><li><cite><a data-source-citation="true" href="https://windsor.ai/?fpr=evan-f390ad" data-affiliate-click="windsor-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener">产品概览</a></cite></li><li><cite><a data-source-citation="true" href="https://windsor.ai/documentation/how-to-fix-data-mismatch-issues-in-google-sheets?fpr=evan-f390ad" data-affiliate-click="windsor-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener">官方操作说明</a></cite></li><li><cite><a data-source-citation="true" href="https://windsor.ai/pricing/?fpr=evan-f390ad" data-affiliate-click="windsor-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener">官方套餐</a></cite></li></ul>
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><ul><li><cite><a data-source-citation="true" href="https://windsor.ai/?fpr=evan-f390ad" data-affiliate-click="windsor-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener">产品概览</a></cite></li><li><cite><a data-source-citation="true" href="https://windsor.ai/documentation/how-to-fix-data-mismatch-issues-in-google-sheets?fpr=evan-f390ad" data-affiliate-click="windsor-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener">官方操作说明</a></cite></li><li><cite><a data-source-citation="true" href="https://windsor.ai/pricing/?fpr=evan-f390ad" data-affiliate-click="windsor-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener">官方套餐</a></cite></li><li><cite><a data-source-citation="true" href="https://windsor.ai/documentation/core-concepts/?fpr=evan-f390ad" data-affiliate-click="windsor-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener">Windsor.ai 数据源、字段与预览</a></cite></li></ul>
         </section>
       </div>
     </div>

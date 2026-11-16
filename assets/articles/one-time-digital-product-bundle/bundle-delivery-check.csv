@@ -1,0 +1,4 @@
+item,expected_filename,expected_contents,confirmed_from_receipt
+Launch Planner,launch-planner.xlsx,Workbook opens and contains the launch plan tab,
+Launch Checklist,launch-checklist.pdf,PDF opens and includes prelaunch checks,
+Launch Graphics,launch-graphics.zip,Archive extracts and contains three PNGs,

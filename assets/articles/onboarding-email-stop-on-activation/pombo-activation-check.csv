@@ -1,0 +1,4 @@
+checkpoint_utc,event,contact_a_expected,contact_b_expected,observed_a,observed_b
+Day 0 09:00,user.created,Welcome eligible,Welcome eligible,,
+Day 0 13:00,first_report_created,Goal reached and sequence stops,No goal event,,
+Day 1 09:00,reminder_due,No reminder,Reminder eligible,,

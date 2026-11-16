@@ -1,0 +1,3 @@
+session_campaign,session_source,session_medium,expected_sessions,expected_sign_up_key_events
+nov_workshop,newsletter,email,1,1
+nov_workshop,instagram,social,1,0

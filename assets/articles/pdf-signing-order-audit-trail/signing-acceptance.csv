@@ -1,0 +1,5 @@
+checkpoint,expected_evidence,observed_timestamp_or_result
+Before first signature,Client can sign and internal approver has not been prompted,
+After first signature,Internal approver can sign their own block,
+After second signature,Request shows completed and both signatures are in the correct blocks,
+Archive,Completed PDF and matching attached or separate audit record saved,

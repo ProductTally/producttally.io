@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Correos de bienvenida con Pombo: cómo detenerlos al activarse un usuario — ProductTally</title>
-  <meta name="description" content="Configura el evento de registro, el objetivo de activación y dos casos de comprobación antes de habilitar el envío.">
+  <title>Pombo: comprueba qué recordatorio se omite tras la activación — ProductTally</title>
+  <meta name="description" content="Usa dos contactos de prueba y un evento de activación para verificar el recordatorio del día siguiente.">
   <meta name="theme-color" content="#FBF8F3">
   
   <link rel="canonical" href="https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/pombo/onboarding-email-stop-on-activation/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ProductTally">
-  <meta property="og:title" content="Correos de bienvenida con Pombo: cómo detenerlos al activarse un usuario — ProductTally">
-  <meta property="og:description" content="Configura el evento de registro, el objetivo de activación y dos casos de comprobación antes de habilitar el envío.">
+  <meta property="og:title" content="Pombo: comprueba qué recordatorio se omite tras la activación — ProductTally">
+  <meta property="og:description" content="Usa dos contactos de prueba y un evento de activación para verificar el recordatorio del día siguiente.">
   <meta property="og:url" content="https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/">
   <meta property="og:image" content="https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp">
   <meta property="og:image:alt" content="Imagen de Pombo">
@@ -29,11 +29,11 @@
   <meta property="og:locale:alternate" content="zh_CN">
   <meta property="og:locale:alternate" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Correos de bienvenida con Pombo: cómo detenerlos al activarse un usuario — ProductTally">
-  <meta name="twitter:description" content="Configura el evento de registro, el objetivo de activación y dos casos de comprobación antes de habilitar el envío.">
+  <meta name="twitter:title" content="Pombo: comprueba qué recordatorio se omite tras la activación — ProductTally">
+  <meta name="twitter:description" content="Usa dos contactos de prueba y un evento de activación para verificar el recordatorio del día siguiente.">
   <meta name="twitter:image" content="https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp">
   <meta name="twitter:image:alt" content="Imagen de Pombo">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#webpage","name":"Correos de bienvenida con Pombo: cómo detenerlos al activarse un usuario","description":"Configura el evento de registro, el objetivo de activación y dos casos de comprobación antes de habilitar el envío.","url":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/","inLanguage":"es","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#article-image"},"breadcrumb":{"@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#article","headline":"Correos de bienvenida con Pombo: cómo detenerlos al activarse un usuario","description":"Configura el evento de registro, el objetivo de activación y dos casos de comprobación antes de habilitar el envío.","url":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/","inLanguage":"es","mainEntityOfPage":{"@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#article-image","url":"https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp","contentUrl":"https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp","width":1200,"height":800,"caption":"Imagen de Pombo"},"about":[{"@id":"https://producttally.com/products/pombo/#software"}],"dateModified":"2026-11-13","citation":["https://flypombo.com/docs/guides/build-a-welcome-sequence","https://flypombo.com/docs/goals","https://flypombo.com/docs/simulation","https://flypombo.com/docs/sending-gates"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/pombo/#software","name":"Pombo","url":"https://flypombo.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://producttally.com/es/"},{"@type":"ListItem","position":2,"name":"Biblioteca de guías","item":"https://producttally.com/es/guides/"},{"@type":"ListItem","position":3,"name":"Pombo","item":"https://producttally.com/es/products/pombo/"},{"@type":"ListItem","position":4,"name":"Correos de bienvenida con Pombo: cómo detenerlos al activarse un usuario","item":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/"}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#webpage","name":"Pombo: comprueba qué recordatorio se omite tras la activación","description":"Usa dos contactos de prueba y un evento de activación para verificar el recordatorio del día siguiente.","url":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/","inLanguage":"es","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#article-image"},"breadcrumb":{"@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#article","headline":"Pombo: comprueba qué recordatorio se omite tras la activación","description":"Usa dos contactos de prueba y un evento de activación para verificar el recordatorio del día siguiente.","url":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/","inLanguage":"es","mainEntityOfPage":{"@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#article-image","url":"https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp","contentUrl":"https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp","width":1200,"height":800,"caption":"Imagen de Pombo"},"about":[{"@id":"https://producttally.com/products/pombo/#software"}],"dateModified":"2026-11-16","citation":["https://flypombo.com/docs/guides/build-a-welcome-sequence","https://flypombo.com/docs/goals","https://flypombo.com/docs/simulation","https://flypombo.com/docs/sending-gates"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/pombo/#software","name":"Pombo","url":"https://flypombo.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://producttally.com/es/"},{"@type":"ListItem","position":2,"name":"Biblioteca de guías","item":"https://producttally.com/es/guides/"},{"@type":"ListItem","position":3,"name":"Pombo","item":"https://producttally.com/es/products/pombo/"},{"@type":"ListItem","position":4,"name":"Pombo: comprueba qué recordatorio se omite tras la activación","item":"https://producttally.com/es/guides/pombo/onboarding-email-stop-on-activation/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-3ef485bc05ea.css">
@@ -74,15 +74,15 @@
       </div>
     </header>
   <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="Ruta de navegación">
-    <ol><li><a href="/es/">Inicio</a></li><li><a href="/es/guides/">Biblioteca de guías</a></li><li><a href="/es/products/pombo/">Pombo</a></li><li><span aria-current="page">Correos de bienvenida con Pombo: cómo detenerlos al activarse un usuario</span></li></ol>
+    <ol><li><a href="/es/">Inicio</a></li><li><a href="/es/guides/">Biblioteca de guías</a></li><li><a href="/es/products/pombo/">Pombo</a></li><li><span aria-current="page">Pombo: comprueba qué recordatorio se omite tras la activación</span></li></ol>
   </nav><article class="wrap detail guide-article">
     <header class="detail-header article-header">
       <div class="article-intro">
         <p class="eyebrow">Marketing y redes · 3 min de lectura</p>
-        <h1>Correos de bienvenida con Pombo: cómo detenerlos al activarse un usuario</h1>
-        <p class="lead">Configura el evento de registro, el objetivo de activación y dos casos de comprobación antes de habilitar el envío.</p>
+        <h1>Pombo: comprueba qué recordatorio se omite tras la activación</h1>
+        <p class="lead">Usa dos contactos de prueba y un evento de activación para verificar el recordatorio del día siguiente.</p>
         <p class="byline">Por <a href="/es/about/">Evan</a>
-          · Actualizado <time datetime="2026-11-13">13 nov 2026</time></p>
+          · Actualizado <time datetime="2026-11-16">16 nov 2026</time></p>
       </div>
       <div class="article-cover"><img class="article-image"
     src="/assets/articles/onboarding-email-stop-on-activation/cover.webp"
@@ -94,20 +94,21 @@
     <div class="article-grid">
       <nav class="article-toc" aria-label="En esta página">
         <p class="eyebrow">En esta página</p>
-        <ol><li><a href="#quick-answer">Respuesta rápida</a></li><li><a href="#section-0">Elige un evento que demuestre progreso</a></li><li><a href="#section-1">Comprueba dos recorridos</a></li><li><a href="#section-2">Verifica los requisitos antes del envío</a></li></ol>
+        <ol><li><a href="#quick-answer">Respuesta rápida</a></li><li><a href="#section-0">Define dos eventos y la espera</a></li><li><a href="#section-1">Verifica el recorrido antes del envío</a></li><li><a href="#section-2">Investiga por qué un contacto activado sigue elegible</a></li></ol>
       </nav>
       <div class="prose">
         <section class="article-answer" id="quick-answer">
-          <h2>Respuesta rápida</h2><p>En Pombo, inicia la secuencia con un evento de registro y usa otro evento como objetivo. Activa la opción que detiene la secuencia cuando se alcanza el objetivo. Así puedes comprobar, antes de enviar, qué correos recibiría cada contacto.</p>
+          <h2>Respuesta rápida</h2><p>Activa la secuencia al registrarse y usa first_report_created como objetivo con la opción de parar habilitada. Ambos contactos pueden recibir la bienvenida. Solo quien aún no creó un informe debe seguir siendo elegible para el recordatorio.</p>
+          <p><a class="text-link" href="/assets/articles/onboarding-email-stop-on-activation/pombo-activation-check.csv" download>Descargar la lista de comprobación para dos contactos</a></p>
           <a class="text-link" href="/es/products/pombo/">Reseña de Pombo</a>
         </section>
         <section id="section-0">
-          <h2>Elige un evento que demuestre progreso</h2><p>En una aplicación ficticia de informes, usa `user.created` para el registro y `first_report_created` para la activación. Asocia los dos eventos al mismo correo. El primer recordatorio puede pedir una sola acción, crear un informe de ejemplo. Abrir un correo no demuestra que el informe se haya creado.</p>
+          <h2>Define dos eventos y la espera</h2><p>Envía user.created para A y B el día 0 a las 09:00 UTC. A guarda su primer informe a las 13:00, por lo que la aplicación envía first_report_created con la misma identidad. B no activa. Programa el recordatorio 24 horas después de la bienvenida.</p>
         </section><figure class="article-figure"><img src="/assets/articles/onboarding-email-stop-on-activation/workflow.webp" width="1200" height="600"
-          alt="Correo de bienvenida, comprobación de activación y salida de la secuencia." loading="lazy" decoding="async"><figcaption>Correo de bienvenida, comprobación de activación y salida de la secuencia.</figcaption></figure><section id="section-1">
-          <h2>Comprueba dos recorridos</h2><p>Usa contactos de prueba que controles. Ambos deben entrar en el paso de bienvenida. A alcanza el objetivo antes del recordatorio y debe omitir lo que queda con la opción de parada activa. B sigue siendo apto para recibirlo. Usa la simulación para revisar destinatarios, tiempos y enlaces. Comprueba el envío del evento desde tu producto por separado si la simulación no reproduce ese paso.</p>
+          alt="Cronograma de prueba en UTC. A se activa antes del recordatorio y sale; B sigue siendo elegible." loading="lazy" decoding="async"><figcaption>Cronograma de prueba en UTC. A se activa antes del recordatorio y sale; B sigue siendo elegible.</figcaption></figure><section id="section-1">
+          <h2>Verifica el recorrido antes del envío</h2><p>En borrador, utiliza Simulate para revisar destinatarios, contenido y ramificación. El día 1 a las 09:00 UTC A debería estar fuera de la secuencia y B seguir elegible. Registra el resultado en el CSV. La simulación no envía ni inscribe. Para comprobar la integración en marcha, usa contactos de prueba que controles y que hayan dado permiso cuando el envío esté habilitado.</p>
         </section><section id="section-2">
-          <h2>Verifica los requisitos antes del envío</h2><p>La simulación no envía correos ni inscribe contactos. Para la primera prueba real, revisa la aprobación de la cuenta, el permiso de los destinatarios, el dominio autenticado y el límite de envío. Comprueba con un grupo controlado que el objetivo registrado coincide con los eventos del producto.</p>
+          <h2>Investiga por qué un contacto activado sigue elegible</h2><p>Revisa nombre del evento, identidad, hora y la opción de detener al alcanzar el objetivo. Si ninguno puede recibir mensajes, comprueba aprobación, dominio autenticado y límites por separado. Es un ensayo propuesto; no activamos una campaña.</p>
         </section>
         <section><h2>Visitar la web oficial</h2>
           <ul><li><p class="affiliate-disclosure">ProductTally puede recibir una comisión si compras a través de estos enlaces.</p><a class="text-link" href="https://flypombo.com?fpr=evan-e5cdc2" data-affiliate-product="pombo" data-affiliate-click="pombo" data-affiliate-link-type="primary" target="_blank" rel="noopener">

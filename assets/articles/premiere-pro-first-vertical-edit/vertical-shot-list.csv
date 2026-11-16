@@ -1,0 +1,6 @@
+start_seconds,end_seconds,shot,check
+0,5,Show the tangled cable,Cable and desk edge are visible
+5,12,Show the clip opening,Hands and latch stay in frame
+12,21,Place and secure the cable,Cable is visible under the clip
+21,27,Show the cleared desk,Before-after angle matches
+27,30,Hold the end frame,Caption is readable on a phone

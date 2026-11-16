@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>用 Pombo 做 SaaS 欢迎邮件：用户激活后自动停止跟进 — ProductTally</title>
-  <meta name="description" content="设置注册触发与激活目标，用两条样例路径检查 Pombo 会给谁发送后续提醒。">
+  <title>Pombo 欢迎邮件怎么在用户激活后停止？用两个联系人验收 — ProductTally</title>
+  <meta name="description" content="用两位测试联系人和一次产品激活事件，核对第二天的提醒应该发给谁。">
   <meta name="theme-color" content="#FBF8F3">
   
   <link rel="canonical" href="https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/">
@@ -16,8 +16,8 @@
   <link rel="alternate" hreflang="x-default" href="https://producttally.com/guides/pombo/onboarding-email-stop-on-activation/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ProductTally">
-  <meta property="og:title" content="用 Pombo 做 SaaS 欢迎邮件：用户激活后自动停止跟进 — ProductTally">
-  <meta property="og:description" content="设置注册触发与激活目标，用两条样例路径检查 Pombo 会给谁发送后续提醒。">
+  <meta property="og:title" content="Pombo 欢迎邮件怎么在用户激活后停止？用两个联系人验收 — ProductTally">
+  <meta property="og:description" content="用两位测试联系人和一次产品激活事件，核对第二天的提醒应该发给谁。">
   <meta property="og:url" content="https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/">
   <meta property="og:image" content="https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp">
   <meta property="og:image:alt" content="产品配图：Pombo">
@@ -29,11 +29,11 @@
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:locale:alternate" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="用 Pombo 做 SaaS 欢迎邮件：用户激活后自动停止跟进 — ProductTally">
-  <meta name="twitter:description" content="设置注册触发与激活目标，用两条样例路径检查 Pombo 会给谁发送后续提醒。">
+  <meta name="twitter:title" content="Pombo 欢迎邮件怎么在用户激活后停止？用两个联系人验收 — ProductTally">
+  <meta name="twitter:description" content="用两位测试联系人和一次产品激活事件，核对第二天的提醒应该发给谁。">
   <meta name="twitter:image" content="https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp">
   <meta name="twitter:image:alt" content="产品配图：Pombo">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#webpage","name":"用 Pombo 做 SaaS 欢迎邮件：用户激活后自动停止跟进","description":"设置注册触发与激活目标，用两条样例路径检查 Pombo 会给谁发送后续提醒。","url":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#article","headline":"用 Pombo 做 SaaS 欢迎邮件：用户激活后自动停止跟进","description":"设置注册触发与激活目标，用两条样例路径检查 Pombo 会给谁发送后续提醒。","url":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#article-image","url":"https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp","contentUrl":"https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp","width":1200,"height":800,"caption":"产品配图：Pombo"},"about":[{"@id":"https://producttally.com/products/pombo/#software"}],"dateModified":"2026-11-13","citation":["https://flypombo.com/docs/guides/build-a-welcome-sequence","https://flypombo.com/docs/goals","https://flypombo.com/docs/simulation","https://flypombo.com/docs/sending-gates"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/pombo/#software","name":"Pombo","url":"https://flypombo.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Pombo","item":"https://producttally.com/zh/products/pombo/"},{"@type":"ListItem","position":4,"name":"用 Pombo 做 SaaS 欢迎邮件：用户激活后自动停止跟进","item":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/"}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#webpage","name":"Pombo 欢迎邮件怎么在用户激活后停止？用两个联系人验收","description":"用两位测试联系人和一次产品激活事件，核对第二天的提醒应该发给谁。","url":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#article","headline":"Pombo 欢迎邮件怎么在用户激活后停止？用两个联系人验收","description":"用两位测试联系人和一次产品激活事件，核对第二天的提醒应该发给谁。","url":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#article-image","url":"https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp","contentUrl":"https://producttally.com/assets/articles/onboarding-email-stop-on-activation/cover.webp","width":1200,"height":800,"caption":"产品配图：Pombo"},"about":[{"@id":"https://producttally.com/products/pombo/#software"}],"dateModified":"2026-11-16","citation":["https://flypombo.com/docs/guides/build-a-welcome-sequence","https://flypombo.com/docs/goals","https://flypombo.com/docs/simulation","https://flypombo.com/docs/sending-gates"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/pombo/#software","name":"Pombo","url":"https://flypombo.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"指南广场","item":"https://producttally.com/zh/guides/"},{"@type":"ListItem","position":3,"name":"Pombo","item":"https://producttally.com/zh/products/pombo/"},{"@type":"ListItem","position":4,"name":"Pombo 欢迎邮件怎么在用户激活后停止？用两个联系人验收","item":"https://producttally.com/zh/guides/pombo/onboarding-email-stop-on-activation/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-3ef485bc05ea.css">
@@ -74,15 +74,15 @@
       </div>
     </header>
   <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
-    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/products/pombo/">Pombo</a></li><li><span aria-current="page">用 Pombo 做 SaaS 欢迎邮件：用户激活后自动停止跟进</span></li></ol>
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/guides/">指南广场</a></li><li><a href="/zh/products/pombo/">Pombo</a></li><li><span aria-current="page">Pombo 欢迎邮件怎么在用户激活后停止？用两个联系人验收</span></li></ol>
   </nav><article class="wrap detail guide-article">
     <header class="detail-header article-header">
       <div class="article-intro">
         <p class="eyebrow">营销与社媒 · 3 分钟阅读</p>
-        <h1>用 Pombo 做 SaaS 欢迎邮件：用户激活后自动停止跟进</h1>
-        <p class="lead">设置注册触发与激活目标，用两条样例路径检查 Pombo 会给谁发送后续提醒。</p>
+        <h1>Pombo 欢迎邮件怎么在用户激活后停止？用两个联系人验收</h1>
+        <p class="lead">用两位测试联系人和一次产品激活事件，核对第二天的提醒应该发给谁。</p>
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
-          · 更新于 <time datetime="2026-11-13">2026年11月13日</time></p>
+          · 更新于 <time datetime="2026-11-16">2026年11月16日</time></p>
       </div>
       <div class="article-cover"><img class="article-image"
     src="/assets/articles/onboarding-email-stop-on-activation/cover.webp"
@@ -94,20 +94,21 @@
     <div class="article-grid">
       <nav class="article-toc" aria-label="本文目录">
         <p class="eyebrow">本文目录</p>
-        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">选一个能代表激活的事件</a></li><li><a href="#section-1">用两条路径验收</a></li><li><a href="#section-2">确认正式发送条件</a></li></ol>
+        <ol><li><a href="#quick-answer">先看结论</a></li><li><a href="#section-0">先定义两件事和一个提醒时间</a></li><li><a href="#section-1">发送前确认两条路径</a></li><li><a href="#section-2">激活后提醒还在，就查事件与队列</a></li></ol>
       </nav>
       <div class="prose">
         <section class="article-answer" id="quick-answer">
-          <h2>先看结论</h2><p>在 Pombo 里，让注册事件触发欢迎邮件序列，再把一个代表激活的事件设为目标。开启「达成目标后停止」后，已经激活的用户会退出后续提醒。先用模拟查看匹配对象和邮件内容，再考虑正式发送。</p>
+          <h2>先看结论</h2><p>在 Pombo 用注册事件启动欢迎序列，把 first_report_created 设为目标并开启达标后停止。示例里两位联系人都符合欢迎邮件条件。下一封提醒只应发给还没创建报告的人。</p>
+          <p><a class="text-link" href="/assets/articles/onboarding-email-stop-on-activation/pombo-activation-check.csv" download>下载双联系人验收清单</a></p>
           <a class="text-link" href="/zh/products/pombo/">Pombo 评测</a>
         </section>
         <section id="section-0">
-          <h2>选一个能代表激活的事件</h2><p>以报表 SaaS 为例，把 `user.created` 作为注册事件，把 `first_report_created` 作为激活事件。两个事件关联同一个联系邮箱。首封提醒只引导用户完成一件事，例如创建样例报表。打开邮件本身不能说明报表已创建。</p>
+          <h2>先定义两件事和一个提醒时间</h2><p>以报表工具为例，假设第 0 天 09:00 UTC 收到 A 和 B 的 user.created。A 在 13:00 保存首份报告时，再发 first_report_created。两次事件要用同一联系人身份。B 不发激活事件。把下一封提醒排在欢迎邮件 24 小时后。</p>
         </section><figure class="article-figure"><img src="/assets/articles/onboarding-email-stop-on-activation/workflow.webp" width="1200" height="600"
-          alt="欢迎邮件、激活检查和退出序列。" loading="lazy" decoding="async"><figcaption>欢迎邮件、激活检查和退出序列。</figcaption></figure><section id="section-1">
-          <h2>用两条路径验收</h2><p>用自己控制的测试联系人。甲和乙都进入欢迎步骤。甲在首次提醒前创建报表，开启目标退出后应跳过剩余步骤。乙没有创建报表，应保留提醒资格。模拟时检查匹配对象、等待时间和邮件里的链接。若模拟无法证明应用在正确时点发出了事件，再单独验证从应用到 Pombo 的事件记录。</p>
+          alt="UTC 演练时间线。A 在提醒前激活后退出，B 仍符合发送条件。" loading="lazy" decoding="async"><figcaption>UTC 演练时间线。A 在提醒前激活后退出，B 仍符合发送条件。</figcaption></figure><section id="section-1">
+          <h2>发送前确认两条路径</h2><p>在草稿里用 Simulate 查收件人、邮件内容和走到哪条分支。第 1 天 09:00 UTC，A 应已停止，B 仍符合提醒条件。把观察结果填进 CSV。模拟不会发信或创建实际入组。要验收产品事件接入，先满足发信条件，再用两个你能控制且已同意的测试联系人核对应用事件和 Pombo 结果。</p>
         </section><section id="section-2">
-          <h2>确认正式发送条件</h2><p>模拟不会发邮件或创建实际入组。真正发送前核对账户审批、收件人许可、发信域名认证和发送额度。先用受控的小组验证报表事件是否与 Pombo 记录的目标达成和提醒资格一致。</p>
+          <h2>激活后提醒还在，就查事件与队列</h2><p>如果 A 仍符合发信条件，先查事件名、联系人身份、事件发生时间和目标达成后停止选项。如果两位都发不出去，另查账号审批、域名认证和发信额度。文中是建议的验收步骤，本轮未启用邮件活动。</p>
         </section>
         <section><h2>访问官方网站</h2>
           <ul><li><p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><a class="text-link" href="https://flypombo.com?fpr=evan-e5cdc2" data-affiliate-product="pombo" data-affiliate-click="pombo" data-affiliate-link-type="primary" target="_blank" rel="noopener">

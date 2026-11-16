@@ -1,0 +1,4 @@
+purchase_type,what_to_open,what_to_verify,local_price,observed_access
+Single course,Exact course page,Title and language and one-time price and access terms,,
+Personal Plan,Each course page in your account,Exact courses included and renewal date and cost,,
+Udemy Business Team,Team plan and business catalog,Seat count and exact courses and admin features and annual total,,
