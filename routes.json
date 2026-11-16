@@ -254,6 +254,12 @@
     },
     {
       "lang": "en",
+      "route": "products/adguard",
+      "url": "/products/adguard/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-16"
@@ -1004,6 +1010,12 @@
       "lang": "zh",
       "route": "products/teachable",
       "url": "/zh/products/teachable/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "products/adguard",
+      "url": "/zh/products/adguard/",
       "lastmod": "2026-11-16"
     },
     {
@@ -1762,6 +1774,12 @@
     },
     {
       "lang": "es",
+      "route": "products/adguard",
+      "url": "/es/products/adguard/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-16"
@@ -2512,6 +2530,12 @@
       "lang": "ja",
       "route": "products/teachable",
       "url": "/ja/products/teachable/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "products/adguard",
+      "url": "/ja/products/adguard/",
       "lastmod": "2026-11-16"
     },
     {
