@@ -268,7 +268,7 @@
       "lang": "en",
       "route": "guides/ai-search-visibility",
       "url": "/guides/ai-search-visibility/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "en",
@@ -280,7 +280,7 @@
       "lang": "en",
       "route": "guides/ai-image-creation",
       "url": "/guides/ai-image-creation/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "en",
@@ -698,6 +698,30 @@
     },
     {
       "lang": "en",
+      "route": "guides/teachable/starter-vs-builder-course-sales",
+      "url": "/guides/teachable/starter-vs-builder-course-sales/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-image-creation/canva-craft-bilingual-event-poster",
+      "url": "/guides/ai-image-creation/canva-craft-bilingual-event-poster/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
+      "route": "guides/movavi-video-editor/remove-silence-talking-head-video",
+      "url": "/guides/movavi-video-editor/remove-silence-talking-head-video/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
+      "route": "guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions",
+      "url": "/guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -968,7 +992,7 @@
       "lang": "zh",
       "route": "guides/ai-search-visibility",
       "url": "/zh/guides/ai-search-visibility/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "zh",
@@ -980,7 +1004,7 @@
       "lang": "zh",
       "route": "guides/ai-image-creation",
       "url": "/zh/guides/ai-image-creation/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "zh",
@@ -1398,6 +1422,30 @@
     },
     {
       "lang": "zh",
+      "route": "guides/teachable/starter-vs-builder-course-sales",
+      "url": "/zh/guides/teachable/starter-vs-builder-course-sales/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-image-creation/canva-craft-bilingual-event-poster",
+      "url": "/zh/guides/ai-image-creation/canva-craft-bilingual-event-poster/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/movavi-video-editor/remove-silence-talking-head-video",
+      "url": "/zh/guides/movavi-video-editor/remove-silence-talking-head-video/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions",
+      "url": "/zh/guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -1668,7 +1716,7 @@
       "lang": "es",
       "route": "guides/ai-search-visibility",
       "url": "/es/guides/ai-search-visibility/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "es",
@@ -1680,7 +1728,7 @@
       "lang": "es",
       "route": "guides/ai-image-creation",
       "url": "/es/guides/ai-image-creation/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "es",
@@ -2098,6 +2146,30 @@
     },
     {
       "lang": "es",
+      "route": "guides/teachable/starter-vs-builder-course-sales",
+      "url": "/es/guides/teachable/starter-vs-builder-course-sales/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-image-creation/canva-craft-bilingual-event-poster",
+      "url": "/es/guides/ai-image-creation/canva-craft-bilingual-event-poster/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
+      "route": "guides/movavi-video-editor/remove-silence-talking-head-video",
+      "url": "/es/guides/movavi-video-editor/remove-silence-talking-head-video/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
+      "route": "guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions",
+      "url": "/es/guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
       "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
       "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
       "lastmod": "2026-11-11"
@@ -2368,7 +2440,7 @@
       "lang": "ja",
       "route": "guides/ai-search-visibility",
       "url": "/ja/guides/ai-search-visibility/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "ja",
@@ -2380,7 +2452,7 @@
       "lang": "ja",
       "route": "guides/ai-image-creation",
       "url": "/ja/guides/ai-image-creation/",
-      "lastmod": "2026-11-11"
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "ja",
@@ -2795,6 +2867,30 @@
       "route": "guides/seopress/wordpress-301-redirect",
       "url": "/ja/guides/seopress/wordpress-301-redirect/",
       "lastmod": "2026-11-13"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/teachable/starter-vs-builder-course-sales",
+      "url": "/ja/guides/teachable/starter-vs-builder-course-sales/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-image-creation/canva-craft-bilingual-event-poster",
+      "url": "/ja/guides/ai-image-creation/canva-craft-bilingual-event-poster/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/movavi-video-editor/remove-silence-talking-head-video",
+      "url": "/ja/guides/movavi-video-editor/remove-silence-talking-head-video/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions",
+      "url": "/ja/guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions/",
+      "lastmod": "2026-11-16"
     },
     {
       "lang": "ja",
