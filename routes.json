@@ -260,6 +260,12 @@
     },
     {
       "lang": "en",
+      "route": "products/predis-ai",
+      "url": "/products/predis-ai/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-16"
@@ -1016,6 +1022,12 @@
       "lang": "zh",
       "route": "products/adguard",
       "url": "/zh/products/adguard/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "products/predis-ai",
+      "url": "/zh/products/predis-ai/",
       "lastmod": "2026-11-16"
     },
     {
@@ -1780,6 +1792,12 @@
     },
     {
       "lang": "es",
+      "route": "products/predis-ai",
+      "url": "/es/products/predis-ai/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-16"
@@ -2536,6 +2554,12 @@
       "lang": "ja",
       "route": "products/adguard",
       "url": "/ja/products/adguard/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "products/predis-ai",
+      "url": "/ja/products/predis-ai/",
       "lastmod": "2026-11-16"
     },
     {
