@@ -266,6 +266,12 @@
     },
     {
       "lang": "en",
+      "route": "products/printful",
+      "url": "/products/printful/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-16"
@@ -1028,6 +1034,12 @@
       "lang": "zh",
       "route": "products/predis-ai",
       "url": "/zh/products/predis-ai/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "products/printful",
+      "url": "/zh/products/printful/",
       "lastmod": "2026-11-16"
     },
     {
@@ -1798,6 +1810,12 @@
     },
     {
       "lang": "es",
+      "route": "products/printful",
+      "url": "/es/products/printful/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-16"
@@ -2560,6 +2578,12 @@
       "lang": "ja",
       "route": "products/predis-ai",
       "url": "/ja/products/predis-ai/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "products/printful",
+      "url": "/ja/products/printful/",
       "lastmod": "2026-11-16"
     },
     {
