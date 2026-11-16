@@ -272,6 +272,18 @@
     },
     {
       "lang": "en",
+      "route": "products/streamyard",
+      "url": "/products/streamyard/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
+      "route": "products/restream",
+      "url": "/products/restream/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-16"
@@ -1058,6 +1070,18 @@
       "lang": "zh",
       "route": "products/printful",
       "url": "/zh/products/printful/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "products/streamyard",
+      "url": "/zh/products/streamyard/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "products/restream",
+      "url": "/zh/products/restream/",
       "lastmod": "2026-11-16"
     },
     {
@@ -1852,6 +1876,18 @@
     },
     {
       "lang": "es",
+      "route": "products/streamyard",
+      "url": "/es/products/streamyard/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
+      "route": "products/restream",
+      "url": "/es/products/restream/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-16"
@@ -2638,6 +2674,18 @@
       "lang": "ja",
       "route": "products/printful",
       "url": "/ja/products/printful/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "products/streamyard",
+      "url": "/ja/products/streamyard/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "products/restream",
+      "url": "/ja/products/restream/",
       "lastmod": "2026-11-16"
     },
     {
