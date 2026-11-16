@@ -284,6 +284,12 @@
     },
     {
       "lang": "en",
+      "route": "products/printify",
+      "url": "/products/printify/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
       "lastmod": "2026-11-16"
@@ -1082,6 +1088,12 @@
       "lang": "zh",
       "route": "products/restream",
       "url": "/zh/products/restream/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "products/printify",
+      "url": "/zh/products/printify/",
       "lastmod": "2026-11-16"
     },
     {
@@ -1888,6 +1900,12 @@
     },
     {
       "lang": "es",
+      "route": "products/printify",
+      "url": "/es/products/printify/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
       "lastmod": "2026-11-16"
@@ -2686,6 +2704,12 @@
       "lang": "ja",
       "route": "products/restream",
       "url": "/ja/products/restream/",
+      "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "products/printify",
+      "url": "/ja/products/printify/",
       "lastmod": "2026-11-16"
     },
     {
