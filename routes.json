@@ -302,531 +302,39 @@
     },
     {
       "lang": "en",
-      "route": "guides",
-      "url": "/guides/",
+      "route": "blog",
+      "url": "/blog/",
       "lastmod": "2026-11-17"
     },
     {
       "lang": "en",
-      "route": "guides/ai-workflow-automation",
-      "url": "/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-12"
+      "route": "blog/streamyard/guest-led-product-demo",
+      "url": "/blog/streamyard/guest-led-product-demo/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "en",
-      "route": "guides/ai-search-visibility",
-      "url": "/guides/ai-search-visibility/",
-      "lastmod": "2026-11-16"
+      "route": "blog/payhip/free-template-paid-bundle",
+      "url": "/blog/payhip/free-template-paid-bundle/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "en",
-      "route": "guides/ai-video-production",
-      "url": "/guides/ai-video-production/",
-      "lastmod": "2026-11-12"
+      "route": "blog/sembly-ai/client-call-to-project-handoff",
+      "url": "/blog/sembly-ai/client-call-to-project-handoff/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "en",
-      "route": "guides/ai-image-creation",
-      "url": "/guides/ai-image-creation/",
-      "lastmod": "2026-11-16"
+      "route": "blog/predis-ai/customer-questions-to-social-posts",
+      "url": "/blog/predis-ai/customer-questions-to-social-posts/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "en",
-      "route": "guides/youtube-search-discovery",
-      "url": "/guides/youtube-search-discovery/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "en",
-      "route": "guides/agentic-commerce",
-      "url": "/guides/agentic-commerce/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-workflow-automation/claude-sheets-vs-excel",
-      "url": "/guides/ai-workflow-automation/claude-sheets-vs-excel/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt",
-      "url": "/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page",
-      "url": "/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-video-production/gemini-omni-15-second-reference-video",
-      "url": "/guides/ai-video-production/gemini-omni-15-second-reference-video/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "en",
-      "route": "guides/anydo/anydo-daily-planner",
-      "url": "/guides/anydo/anydo-daily-planner/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/anydo/plan-a-publishing-week",
-      "url": "/guides/anydo/plan-a-publishing-week/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/submagic/submagic-short-form-editor",
-      "url": "/guides/submagic/submagic-short-form-editor/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/guides/submagic/short-video-captions/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
-      "url": "/guides/ai-video-production/ai-video-workflow-for-small-teams/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
-      "url": "/guides/ai-workflow-automation/choose-your-first-ai-automation/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
-      "url": "/guides/ai-search-visibility/ai-search-visibility-checklist/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
-      "url": "/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-search-visibility/google-multimodal-search-console",
-      "url": "/guides/ai-search-visibility/google-multimodal-search-console/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
-      "url": "/guides/ai-image-creation/gpt-image-26-creator-workflow/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
-      "url": "/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "en",
-      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
-      "url": "/guides/youtube-search-discovery/youtube-seo-for-creators/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "en",
-      "route": "guides/nifty/nifty-project-management",
-      "url": "/guides/nifty/nifty-project-management/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/nifty/content-launch-project",
-      "url": "/guides/nifty/content-launch-project/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/oh-dear/oh-dear-website-monitoring",
-      "url": "/guides/oh-dear/oh-dear-website-monitoring/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/oh-dear/website-monitoring-404",
-      "url": "/guides/oh-dear/website-monitoring-404/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/castos/castos-podcast-hosting",
-      "url": "/guides/castos/castos-podcast-hosting/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/castos/podcast-hosting-wordpress",
-      "url": "/guides/castos/podcast-hosting-wordpress/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/frase/frase-content-research",
-      "url": "/guides/frase/frase-content-research/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/frase/research-brief-draft",
-      "url": "/guides/frase/research-brief-draft/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/publer/publer-social-scheduling",
-      "url": "/guides/publer/publer-social-scheduling/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/publer/private-social-drafts",
-      "url": "/guides/publer/private-social-drafts/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/mangools/mangools-keyword-research",
-      "url": "/guides/mangools/mangools-keyword-research/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/mangools/keyword-shortlist",
-      "url": "/guides/mangools/keyword-shortlist/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/systeme-io/systeme-io-sales-funnels",
-      "url": "/guides/systeme-io/systeme-io-sales-funnels/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/systeme-io/preview-a-funnel-page",
-      "url": "/guides/systeme-io/preview-a-funnel-page/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/capcut/capcut-video-editor",
-      "url": "/guides/capcut/capcut-video-editor/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/capcut/auto-captions-export",
-      "url": "/guides/capcut/auto-captions-export/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/gemini-notebook/notebooklm-source-citations",
-      "url": "/guides/gemini-notebook/notebooklm-source-citations/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/deepl/translate-word-formatting",
-      "url": "/guides/deepl/translate-word-formatting/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-workflow-automation/n8n-nod-first-task",
-      "url": "/guides/ai-workflow-automation/n8n-nod-first-task/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/n8n/multilingual-draft-routing",
-      "url": "/guides/n8n/multilingual-draft-routing/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/quso-ai/check-video-credits",
-      "url": "/guides/quso-ai/check-video-credits/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/elevenlabs/multilingual-voiceover",
-      "url": "/guides/elevenlabs/multilingual-voiceover/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/gamma/export-to-powerpoint",
-      "url": "/guides/gamma/export-to-powerpoint/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/magnific/creative-vs-precision-upscaling",
-      "url": "/guides/magnific/creative-vs-precision-upscaling/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/flowlu/map-a-client-project",
-      "url": "/guides/flowlu/map-a-client-project/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/windsor-ai/check-report-source-settings",
-      "url": "/guides/windsor-ai/check-report-source-settings/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/social-intents/preview-a-chat-widget",
-      "url": "/guides/social-intents/preview-a-chat-widget/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/answerthis/check-a-reference-year",
-      "url": "/guides/answerthis/check-a-reference-year/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/sked-social/plan-a-client-approval",
-      "url": "/guides/sked-social/plan-a-client-approval/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/coupler-io/sync-ga4-weekly-report",
-      "url": "/guides/coupler-io/sync-ga4-weekly-report/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/videogen/script-to-narrated-short",
-      "url": "/guides/videogen/script-to-narrated-short/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/cal-com/check-guest-time-zone",
-      "url": "/guides/cal-com/check-guest-time-zone/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/pdf2go/merge-workshop-pdfs",
-      "url": "/guides/pdf2go/merge-workshop-pdfs/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/seopress/check-wordpress-noindex",
-      "url": "/guides/seopress/check-wordpress-noindex/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/udemy/creator-course-choice",
-      "url": "/guides/udemy/creator-course-choice/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/udemy/ga4-course-campaign-report",
-      "url": "/guides/udemy/ga4-course-campaign-report/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/udemy/excel-pivot-table-content-report",
-      "url": "/guides/udemy/excel-pivot-table-content-report/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/udemy/python-csv-automation-course",
-      "url": "/guides/udemy/python-csv-automation-course/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/udemy/premiere-pro-first-vertical-edit",
-      "url": "/guides/udemy/premiere-pro-first-vertical-edit/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/payhip/sell-canva-templates",
-      "url": "/guides/payhip/sell-canva-templates/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/cal-com/round-robin-team-booking",
-      "url": "/guides/cal-com/round-robin-team-booking/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/pombo/onboarding-email-stop-on-activation",
-      "url": "/guides/pombo/onboarding-email-stop-on-activation/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/signaturely/pdf-signing-order-audit-trail",
-      "url": "/guides/signaturely/pdf-signing-order-audit-trail/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/n8n/error-trigger-not-firing",
-      "url": "/guides/n8n/error-trigger-not-firing/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "en",
-      "route": "guides/gamma/publish-one-page-portfolio",
-      "url": "/guides/gamma/publish-one-page-portfolio/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "en",
-      "route": "guides/pcloud/black-friday-2026-lifetime-storage",
-      "url": "/guides/pcloud/black-friday-2026-lifetime-storage/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/joggai/url-to-video-15-second-product-ad",
-      "url": "/guides/joggai/url-to-video-15-second-product-ad/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/mailbluster/amazon-ses-first-newsletter",
-      "url": "/guides/mailbluster/amazon-ses-first-newsletter/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "en",
-      "route": "guides/payhip/one-time-digital-product-bundle",
-      "url": "/guides/payhip/one-time-digital-product-bundle/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/oh-dear/ssl-certificate-expiry-monitoring",
-      "url": "/guides/oh-dear/ssl-certificate-expiry-monitoring/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/sked-social/social-utm-ga4-campaign-check",
-      "url": "/guides/sked-social/social-utm-ga4-campaign-check/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/seopress/wordpress-301-redirect",
-      "url": "/guides/seopress/wordpress-301-redirect/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/agentic-commerce/chatgpt-wallet-merchant-checkout",
-      "url": "/guides/agentic-commerce/chatgpt-wallet-merchant-checkout/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/udemy/udemy-black-friday-ai-workflow-courses",
-      "url": "/guides/udemy/udemy-black-friday-ai-workflow-courses/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/teachable/presell-your-first-course",
-      "url": "/guides/teachable/presell-your-first-course/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/cal-com/routing-forms-sales-support-fallback",
-      "url": "/guides/cal-com/routing-forms-sales-support-fallback/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/printful/printful-first-sample-order",
-      "url": "/guides/printful/printful-first-sample-order/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/predis-ai/predis-ai-product-launch-carousel",
-      "url": "/guides/predis-ai/predis-ai-product-launch-carousel/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/adguard/adguard-browser-extension-vs-desktop",
-      "url": "/guides/adguard/adguard-browser-extension-vs-desktop/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/teachable/starter-vs-builder-course-sales",
-      "url": "/guides/teachable/starter-vs-builder-course-sales/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-image-creation/canva-craft-bilingual-event-poster",
-      "url": "/guides/ai-image-creation/canva-craft-bilingual-event-poster/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/movavi-video-editor/remove-silence-talking-head-video",
-      "url": "/guides/movavi-video-editor/remove-silence-talking-head-video/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions",
-      "url": "/guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
-      "url": "/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "en",
-      "route": "guides/ai-image-creation/firefly-creative-agent-graph-workflow",
-      "url": "/guides/ai-image-creation/firefly-creative-agent-graph-workflow/",
-      "lastmod": "2026-11-11"
+      "route": "blog/printful/printful-first-sample-order",
+      "url": "/blog/printful/printful-first-sample-order/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "zh",
@@ -1122,531 +630,39 @@
     },
     {
       "lang": "zh",
-      "route": "guides",
-      "url": "/zh/guides/",
+      "route": "blog",
+      "url": "/zh/blog/",
       "lastmod": "2026-11-17"
     },
     {
       "lang": "zh",
-      "route": "guides/ai-workflow-automation",
-      "url": "/zh/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-12"
+      "route": "blog/streamyard/guest-led-product-demo",
+      "url": "/zh/blog/streamyard/guest-led-product-demo/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "zh",
-      "route": "guides/ai-search-visibility",
-      "url": "/zh/guides/ai-search-visibility/",
-      "lastmod": "2026-11-16"
+      "route": "blog/payhip/free-template-paid-bundle",
+      "url": "/zh/blog/payhip/free-template-paid-bundle/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "zh",
-      "route": "guides/ai-video-production",
-      "url": "/zh/guides/ai-video-production/",
-      "lastmod": "2026-11-12"
+      "route": "blog/sembly-ai/client-call-to-project-handoff",
+      "url": "/zh/blog/sembly-ai/client-call-to-project-handoff/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "zh",
-      "route": "guides/ai-image-creation",
-      "url": "/zh/guides/ai-image-creation/",
-      "lastmod": "2026-11-16"
+      "route": "blog/predis-ai/customer-questions-to-social-posts",
+      "url": "/zh/blog/predis-ai/customer-questions-to-social-posts/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "zh",
-      "route": "guides/youtube-search-discovery",
-      "url": "/zh/guides/youtube-search-discovery/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/agentic-commerce",
-      "url": "/zh/guides/agentic-commerce/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-workflow-automation/claude-sheets-vs-excel",
-      "url": "/zh/guides/ai-workflow-automation/claude-sheets-vs-excel/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt",
-      "url": "/zh/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page",
-      "url": "/zh/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-video-production/gemini-omni-15-second-reference-video",
-      "url": "/zh/guides/ai-video-production/gemini-omni-15-second-reference-video/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/anydo/anydo-daily-planner",
-      "url": "/zh/guides/anydo/anydo-daily-planner/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/anydo/plan-a-publishing-week",
-      "url": "/zh/guides/anydo/plan-a-publishing-week/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/submagic/submagic-short-form-editor",
-      "url": "/zh/guides/submagic/submagic-short-form-editor/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/zh/guides/submagic/short-video-captions/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
-      "url": "/zh/guides/ai-video-production/ai-video-workflow-for-small-teams/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
-      "url": "/zh/guides/ai-workflow-automation/choose-your-first-ai-automation/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
-      "url": "/zh/guides/ai-search-visibility/ai-search-visibility-checklist/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
-      "url": "/zh/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-search-visibility/google-multimodal-search-console",
-      "url": "/zh/guides/ai-search-visibility/google-multimodal-search-console/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
-      "url": "/zh/guides/ai-image-creation/gpt-image-26-creator-workflow/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
-      "url": "/zh/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
-      "url": "/zh/guides/youtube-search-discovery/youtube-seo-for-creators/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/nifty/nifty-project-management",
-      "url": "/zh/guides/nifty/nifty-project-management/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/nifty/content-launch-project",
-      "url": "/zh/guides/nifty/content-launch-project/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/oh-dear/oh-dear-website-monitoring",
-      "url": "/zh/guides/oh-dear/oh-dear-website-monitoring/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/oh-dear/website-monitoring-404",
-      "url": "/zh/guides/oh-dear/website-monitoring-404/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/castos/castos-podcast-hosting",
-      "url": "/zh/guides/castos/castos-podcast-hosting/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/castos/podcast-hosting-wordpress",
-      "url": "/zh/guides/castos/podcast-hosting-wordpress/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/frase/frase-content-research",
-      "url": "/zh/guides/frase/frase-content-research/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/frase/research-brief-draft",
-      "url": "/zh/guides/frase/research-brief-draft/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/publer/publer-social-scheduling",
-      "url": "/zh/guides/publer/publer-social-scheduling/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/publer/private-social-drafts",
-      "url": "/zh/guides/publer/private-social-drafts/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/mangools/mangools-keyword-research",
-      "url": "/zh/guides/mangools/mangools-keyword-research/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/mangools/keyword-shortlist",
-      "url": "/zh/guides/mangools/keyword-shortlist/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/systeme-io/systeme-io-sales-funnels",
-      "url": "/zh/guides/systeme-io/systeme-io-sales-funnels/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/systeme-io/preview-a-funnel-page",
-      "url": "/zh/guides/systeme-io/preview-a-funnel-page/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/capcut/capcut-video-editor",
-      "url": "/zh/guides/capcut/capcut-video-editor/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/capcut/auto-captions-export",
-      "url": "/zh/guides/capcut/auto-captions-export/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/gemini-notebook/notebooklm-source-citations",
-      "url": "/zh/guides/gemini-notebook/notebooklm-source-citations/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/deepl/translate-word-formatting",
-      "url": "/zh/guides/deepl/translate-word-formatting/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-workflow-automation/n8n-nod-first-task",
-      "url": "/zh/guides/ai-workflow-automation/n8n-nod-first-task/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/n8n/multilingual-draft-routing",
-      "url": "/zh/guides/n8n/multilingual-draft-routing/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/quso-ai/check-video-credits",
-      "url": "/zh/guides/quso-ai/check-video-credits/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/elevenlabs/multilingual-voiceover",
-      "url": "/zh/guides/elevenlabs/multilingual-voiceover/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/gamma/export-to-powerpoint",
-      "url": "/zh/guides/gamma/export-to-powerpoint/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/magnific/creative-vs-precision-upscaling",
-      "url": "/zh/guides/magnific/creative-vs-precision-upscaling/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/flowlu/map-a-client-project",
-      "url": "/zh/guides/flowlu/map-a-client-project/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/windsor-ai/check-report-source-settings",
-      "url": "/zh/guides/windsor-ai/check-report-source-settings/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/social-intents/preview-a-chat-widget",
-      "url": "/zh/guides/social-intents/preview-a-chat-widget/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/answerthis/check-a-reference-year",
-      "url": "/zh/guides/answerthis/check-a-reference-year/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/sked-social/plan-a-client-approval",
-      "url": "/zh/guides/sked-social/plan-a-client-approval/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/coupler-io/sync-ga4-weekly-report",
-      "url": "/zh/guides/coupler-io/sync-ga4-weekly-report/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/videogen/script-to-narrated-short",
-      "url": "/zh/guides/videogen/script-to-narrated-short/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/cal-com/check-guest-time-zone",
-      "url": "/zh/guides/cal-com/check-guest-time-zone/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/pdf2go/merge-workshop-pdfs",
-      "url": "/zh/guides/pdf2go/merge-workshop-pdfs/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/seopress/check-wordpress-noindex",
-      "url": "/zh/guides/seopress/check-wordpress-noindex/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/udemy/creator-course-choice",
-      "url": "/zh/guides/udemy/creator-course-choice/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/udemy/ga4-course-campaign-report",
-      "url": "/zh/guides/udemy/ga4-course-campaign-report/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/udemy/excel-pivot-table-content-report",
-      "url": "/zh/guides/udemy/excel-pivot-table-content-report/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/udemy/python-csv-automation-course",
-      "url": "/zh/guides/udemy/python-csv-automation-course/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/udemy/premiere-pro-first-vertical-edit",
-      "url": "/zh/guides/udemy/premiere-pro-first-vertical-edit/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/payhip/sell-canva-templates",
-      "url": "/zh/guides/payhip/sell-canva-templates/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/cal-com/round-robin-team-booking",
-      "url": "/zh/guides/cal-com/round-robin-team-booking/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/pombo/onboarding-email-stop-on-activation",
-      "url": "/zh/guides/pombo/onboarding-email-stop-on-activation/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/signaturely/pdf-signing-order-audit-trail",
-      "url": "/zh/guides/signaturely/pdf-signing-order-audit-trail/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/n8n/error-trigger-not-firing",
-      "url": "/zh/guides/n8n/error-trigger-not-firing/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/gamma/publish-one-page-portfolio",
-      "url": "/zh/guides/gamma/publish-one-page-portfolio/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/pcloud/black-friday-2026-lifetime-storage",
-      "url": "/zh/guides/pcloud/black-friday-2026-lifetime-storage/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/joggai/url-to-video-15-second-product-ad",
-      "url": "/zh/guides/joggai/url-to-video-15-second-product-ad/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/mailbluster/amazon-ses-first-newsletter",
-      "url": "/zh/guides/mailbluster/amazon-ses-first-newsletter/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/payhip/one-time-digital-product-bundle",
-      "url": "/zh/guides/payhip/one-time-digital-product-bundle/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/oh-dear/ssl-certificate-expiry-monitoring",
-      "url": "/zh/guides/oh-dear/ssl-certificate-expiry-monitoring/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/sked-social/social-utm-ga4-campaign-check",
-      "url": "/zh/guides/sked-social/social-utm-ga4-campaign-check/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/seopress/wordpress-301-redirect",
-      "url": "/zh/guides/seopress/wordpress-301-redirect/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/agentic-commerce/chatgpt-wallet-merchant-checkout",
-      "url": "/zh/guides/agentic-commerce/chatgpt-wallet-merchant-checkout/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/udemy/udemy-black-friday-ai-workflow-courses",
-      "url": "/zh/guides/udemy/udemy-black-friday-ai-workflow-courses/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/teachable/presell-your-first-course",
-      "url": "/zh/guides/teachable/presell-your-first-course/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/cal-com/routing-forms-sales-support-fallback",
-      "url": "/zh/guides/cal-com/routing-forms-sales-support-fallback/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/printful/printful-first-sample-order",
-      "url": "/zh/guides/printful/printful-first-sample-order/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/predis-ai/predis-ai-product-launch-carousel",
-      "url": "/zh/guides/predis-ai/predis-ai-product-launch-carousel/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/adguard/adguard-browser-extension-vs-desktop",
-      "url": "/zh/guides/adguard/adguard-browser-extension-vs-desktop/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/teachable/starter-vs-builder-course-sales",
-      "url": "/zh/guides/teachable/starter-vs-builder-course-sales/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-image-creation/canva-craft-bilingual-event-poster",
-      "url": "/zh/guides/ai-image-creation/canva-craft-bilingual-event-poster/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/movavi-video-editor/remove-silence-talking-head-video",
-      "url": "/zh/guides/movavi-video-editor/remove-silence-talking-head-video/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions",
-      "url": "/zh/guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
-      "url": "/zh/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "zh",
-      "route": "guides/ai-image-creation/firefly-creative-agent-graph-workflow",
-      "url": "/zh/guides/ai-image-creation/firefly-creative-agent-graph-workflow/",
-      "lastmod": "2026-11-11"
+      "route": "blog/printful/printful-first-sample-order",
+      "url": "/zh/blog/printful/printful-first-sample-order/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "es",
@@ -1942,531 +958,39 @@
     },
     {
       "lang": "es",
-      "route": "guides",
-      "url": "/es/guides/",
+      "route": "blog",
+      "url": "/es/blog/",
       "lastmod": "2026-11-17"
     },
     {
       "lang": "es",
-      "route": "guides/ai-workflow-automation",
-      "url": "/es/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-12"
+      "route": "blog/streamyard/guest-led-product-demo",
+      "url": "/es/blog/streamyard/guest-led-product-demo/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "es",
-      "route": "guides/ai-search-visibility",
-      "url": "/es/guides/ai-search-visibility/",
-      "lastmod": "2026-11-16"
+      "route": "blog/payhip/free-template-paid-bundle",
+      "url": "/es/blog/payhip/free-template-paid-bundle/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "es",
-      "route": "guides/ai-video-production",
-      "url": "/es/guides/ai-video-production/",
-      "lastmod": "2026-11-12"
+      "route": "blog/sembly-ai/client-call-to-project-handoff",
+      "url": "/es/blog/sembly-ai/client-call-to-project-handoff/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "es",
-      "route": "guides/ai-image-creation",
-      "url": "/es/guides/ai-image-creation/",
-      "lastmod": "2026-11-16"
+      "route": "blog/predis-ai/customer-questions-to-social-posts",
+      "url": "/es/blog/predis-ai/customer-questions-to-social-posts/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "es",
-      "route": "guides/youtube-search-discovery",
-      "url": "/es/guides/youtube-search-discovery/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "es",
-      "route": "guides/agentic-commerce",
-      "url": "/es/guides/agentic-commerce/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-workflow-automation/claude-sheets-vs-excel",
-      "url": "/es/guides/ai-workflow-automation/claude-sheets-vs-excel/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt",
-      "url": "/es/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page",
-      "url": "/es/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-video-production/gemini-omni-15-second-reference-video",
-      "url": "/es/guides/ai-video-production/gemini-omni-15-second-reference-video/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "es",
-      "route": "guides/anydo/anydo-daily-planner",
-      "url": "/es/guides/anydo/anydo-daily-planner/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/anydo/plan-a-publishing-week",
-      "url": "/es/guides/anydo/plan-a-publishing-week/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/submagic/submagic-short-form-editor",
-      "url": "/es/guides/submagic/submagic-short-form-editor/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/es/guides/submagic/short-video-captions/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
-      "url": "/es/guides/ai-video-production/ai-video-workflow-for-small-teams/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
-      "url": "/es/guides/ai-workflow-automation/choose-your-first-ai-automation/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
-      "url": "/es/guides/ai-search-visibility/ai-search-visibility-checklist/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
-      "url": "/es/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-search-visibility/google-multimodal-search-console",
-      "url": "/es/guides/ai-search-visibility/google-multimodal-search-console/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
-      "url": "/es/guides/ai-image-creation/gpt-image-26-creator-workflow/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
-      "url": "/es/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "es",
-      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
-      "url": "/es/guides/youtube-search-discovery/youtube-seo-for-creators/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "es",
-      "route": "guides/nifty/nifty-project-management",
-      "url": "/es/guides/nifty/nifty-project-management/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/nifty/content-launch-project",
-      "url": "/es/guides/nifty/content-launch-project/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/oh-dear/oh-dear-website-monitoring",
-      "url": "/es/guides/oh-dear/oh-dear-website-monitoring/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/oh-dear/website-monitoring-404",
-      "url": "/es/guides/oh-dear/website-monitoring-404/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/castos/castos-podcast-hosting",
-      "url": "/es/guides/castos/castos-podcast-hosting/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/castos/podcast-hosting-wordpress",
-      "url": "/es/guides/castos/podcast-hosting-wordpress/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/frase/frase-content-research",
-      "url": "/es/guides/frase/frase-content-research/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/frase/research-brief-draft",
-      "url": "/es/guides/frase/research-brief-draft/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/publer/publer-social-scheduling",
-      "url": "/es/guides/publer/publer-social-scheduling/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/publer/private-social-drafts",
-      "url": "/es/guides/publer/private-social-drafts/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/mangools/mangools-keyword-research",
-      "url": "/es/guides/mangools/mangools-keyword-research/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/mangools/keyword-shortlist",
-      "url": "/es/guides/mangools/keyword-shortlist/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/systeme-io/systeme-io-sales-funnels",
-      "url": "/es/guides/systeme-io/systeme-io-sales-funnels/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/systeme-io/preview-a-funnel-page",
-      "url": "/es/guides/systeme-io/preview-a-funnel-page/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/capcut/capcut-video-editor",
-      "url": "/es/guides/capcut/capcut-video-editor/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/capcut/auto-captions-export",
-      "url": "/es/guides/capcut/auto-captions-export/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/gemini-notebook/notebooklm-source-citations",
-      "url": "/es/guides/gemini-notebook/notebooklm-source-citations/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/deepl/translate-word-formatting",
-      "url": "/es/guides/deepl/translate-word-formatting/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-workflow-automation/n8n-nod-first-task",
-      "url": "/es/guides/ai-workflow-automation/n8n-nod-first-task/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/n8n/multilingual-draft-routing",
-      "url": "/es/guides/n8n/multilingual-draft-routing/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/quso-ai/check-video-credits",
-      "url": "/es/guides/quso-ai/check-video-credits/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/elevenlabs/multilingual-voiceover",
-      "url": "/es/guides/elevenlabs/multilingual-voiceover/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/gamma/export-to-powerpoint",
-      "url": "/es/guides/gamma/export-to-powerpoint/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/magnific/creative-vs-precision-upscaling",
-      "url": "/es/guides/magnific/creative-vs-precision-upscaling/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/flowlu/map-a-client-project",
-      "url": "/es/guides/flowlu/map-a-client-project/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/windsor-ai/check-report-source-settings",
-      "url": "/es/guides/windsor-ai/check-report-source-settings/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/social-intents/preview-a-chat-widget",
-      "url": "/es/guides/social-intents/preview-a-chat-widget/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/answerthis/check-a-reference-year",
-      "url": "/es/guides/answerthis/check-a-reference-year/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/sked-social/plan-a-client-approval",
-      "url": "/es/guides/sked-social/plan-a-client-approval/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/coupler-io/sync-ga4-weekly-report",
-      "url": "/es/guides/coupler-io/sync-ga4-weekly-report/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/videogen/script-to-narrated-short",
-      "url": "/es/guides/videogen/script-to-narrated-short/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/cal-com/check-guest-time-zone",
-      "url": "/es/guides/cal-com/check-guest-time-zone/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/pdf2go/merge-workshop-pdfs",
-      "url": "/es/guides/pdf2go/merge-workshop-pdfs/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/seopress/check-wordpress-noindex",
-      "url": "/es/guides/seopress/check-wordpress-noindex/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/udemy/creator-course-choice",
-      "url": "/es/guides/udemy/creator-course-choice/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/udemy/ga4-course-campaign-report",
-      "url": "/es/guides/udemy/ga4-course-campaign-report/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/udemy/excel-pivot-table-content-report",
-      "url": "/es/guides/udemy/excel-pivot-table-content-report/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/udemy/python-csv-automation-course",
-      "url": "/es/guides/udemy/python-csv-automation-course/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/udemy/premiere-pro-first-vertical-edit",
-      "url": "/es/guides/udemy/premiere-pro-first-vertical-edit/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/payhip/sell-canva-templates",
-      "url": "/es/guides/payhip/sell-canva-templates/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/cal-com/round-robin-team-booking",
-      "url": "/es/guides/cal-com/round-robin-team-booking/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/pombo/onboarding-email-stop-on-activation",
-      "url": "/es/guides/pombo/onboarding-email-stop-on-activation/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/signaturely/pdf-signing-order-audit-trail",
-      "url": "/es/guides/signaturely/pdf-signing-order-audit-trail/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/n8n/error-trigger-not-firing",
-      "url": "/es/guides/n8n/error-trigger-not-firing/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "es",
-      "route": "guides/gamma/publish-one-page-portfolio",
-      "url": "/es/guides/gamma/publish-one-page-portfolio/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "es",
-      "route": "guides/pcloud/black-friday-2026-lifetime-storage",
-      "url": "/es/guides/pcloud/black-friday-2026-lifetime-storage/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/joggai/url-to-video-15-second-product-ad",
-      "url": "/es/guides/joggai/url-to-video-15-second-product-ad/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/mailbluster/amazon-ses-first-newsletter",
-      "url": "/es/guides/mailbluster/amazon-ses-first-newsletter/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "es",
-      "route": "guides/payhip/one-time-digital-product-bundle",
-      "url": "/es/guides/payhip/one-time-digital-product-bundle/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/oh-dear/ssl-certificate-expiry-monitoring",
-      "url": "/es/guides/oh-dear/ssl-certificate-expiry-monitoring/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/sked-social/social-utm-ga4-campaign-check",
-      "url": "/es/guides/sked-social/social-utm-ga4-campaign-check/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/seopress/wordpress-301-redirect",
-      "url": "/es/guides/seopress/wordpress-301-redirect/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/agentic-commerce/chatgpt-wallet-merchant-checkout",
-      "url": "/es/guides/agentic-commerce/chatgpt-wallet-merchant-checkout/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/udemy/udemy-black-friday-ai-workflow-courses",
-      "url": "/es/guides/udemy/udemy-black-friday-ai-workflow-courses/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/teachable/presell-your-first-course",
-      "url": "/es/guides/teachable/presell-your-first-course/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/cal-com/routing-forms-sales-support-fallback",
-      "url": "/es/guides/cal-com/routing-forms-sales-support-fallback/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/printful/printful-first-sample-order",
-      "url": "/es/guides/printful/printful-first-sample-order/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/predis-ai/predis-ai-product-launch-carousel",
-      "url": "/es/guides/predis-ai/predis-ai-product-launch-carousel/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/adguard/adguard-browser-extension-vs-desktop",
-      "url": "/es/guides/adguard/adguard-browser-extension-vs-desktop/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/teachable/starter-vs-builder-course-sales",
-      "url": "/es/guides/teachable/starter-vs-builder-course-sales/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-image-creation/canva-craft-bilingual-event-poster",
-      "url": "/es/guides/ai-image-creation/canva-craft-bilingual-event-poster/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/movavi-video-editor/remove-silence-talking-head-video",
-      "url": "/es/guides/movavi-video-editor/remove-silence-talking-head-video/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions",
-      "url": "/es/guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
-      "url": "/es/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "es",
-      "route": "guides/ai-image-creation/firefly-creative-agent-graph-workflow",
-      "url": "/es/guides/ai-image-creation/firefly-creative-agent-graph-workflow/",
-      "lastmod": "2026-11-11"
+      "route": "blog/printful/printful-first-sample-order",
+      "url": "/es/blog/printful/printful-first-sample-order/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "ja",
@@ -2762,532 +1286,137 @@
     },
     {
       "lang": "ja",
-      "route": "guides",
-      "url": "/ja/guides/",
+      "route": "blog",
+      "url": "/ja/blog/",
       "lastmod": "2026-11-17"
     },
     {
       "lang": "ja",
-      "route": "guides/ai-workflow-automation",
-      "url": "/ja/guides/ai-workflow-automation/",
-      "lastmod": "2026-11-12"
+      "route": "blog/streamyard/guest-led-product-demo",
+      "url": "/ja/blog/streamyard/guest-led-product-demo/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "ja",
-      "route": "guides/ai-search-visibility",
-      "url": "/ja/guides/ai-search-visibility/",
-      "lastmod": "2026-11-16"
+      "route": "blog/payhip/free-template-paid-bundle",
+      "url": "/ja/blog/payhip/free-template-paid-bundle/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "ja",
-      "route": "guides/ai-video-production",
-      "url": "/ja/guides/ai-video-production/",
-      "lastmod": "2026-11-12"
+      "route": "blog/sembly-ai/client-call-to-project-handoff",
+      "url": "/ja/blog/sembly-ai/client-call-to-project-handoff/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "ja",
-      "route": "guides/ai-image-creation",
-      "url": "/ja/guides/ai-image-creation/",
-      "lastmod": "2026-11-16"
+      "route": "blog/predis-ai/customer-questions-to-social-posts",
+      "url": "/ja/blog/predis-ai/customer-questions-to-social-posts/",
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "ja",
-      "route": "guides/youtube-search-discovery",
-      "url": "/ja/guides/youtube-search-discovery/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/agentic-commerce",
-      "url": "/ja/guides/agentic-commerce/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-workflow-automation/claude-sheets-vs-excel",
-      "url": "/ja/guides/ai-workflow-automation/claude-sheets-vs-excel/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt",
-      "url": "/ja/guides/ai-search-visibility/chatgpt-search-ai-training-robots-txt/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page",
-      "url": "/ja/guides/ai-workflow-automation/gemini-4-carbon-vs-argon-static-page/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-video-production/gemini-omni-15-second-reference-video",
-      "url": "/ja/guides/ai-video-production/gemini-omni-15-second-reference-video/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/anydo/anydo-daily-planner",
-      "url": "/ja/guides/anydo/anydo-daily-planner/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/anydo/plan-a-publishing-week",
-      "url": "/ja/guides/anydo/plan-a-publishing-week/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/submagic/submagic-short-form-editor",
-      "url": "/ja/guides/submagic/submagic-short-form-editor/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/submagic/short-video-captions",
-      "url": "/ja/guides/submagic/short-video-captions/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-video-production/ai-video-workflow-for-small-teams",
-      "url": "/ja/guides/ai-video-production/ai-video-workflow-for-small-teams/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-workflow-automation/choose-your-first-ai-automation",
-      "url": "/ja/guides/ai-workflow-automation/choose-your-first-ai-automation/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-search-visibility/ai-search-visibility-checklist",
-      "url": "/ja/guides/ai-search-visibility/ai-search-visibility-checklist/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-search-visibility/bing-ai-performance-topic-gaps",
-      "url": "/ja/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-search-visibility/google-multimodal-search-console",
-      "url": "/ja/guides/ai-search-visibility/google-multimodal-search-console/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-image-creation/gpt-image-26-creator-workflow",
-      "url": "/ja/guides/ai-image-creation/gpt-image-26-creator-workflow/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-search-visibility/track-ai-assistant-traffic-ga4",
-      "url": "/ja/guides/ai-search-visibility/track-ai-assistant-traffic-ga4/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/youtube-search-discovery/youtube-seo-for-creators",
-      "url": "/ja/guides/youtube-search-discovery/youtube-seo-for-creators/",
-      "lastmod": "2026-11-10"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/nifty/nifty-project-management",
-      "url": "/ja/guides/nifty/nifty-project-management/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/nifty/content-launch-project",
-      "url": "/ja/guides/nifty/content-launch-project/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/oh-dear/oh-dear-website-monitoring",
-      "url": "/ja/guides/oh-dear/oh-dear-website-monitoring/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/oh-dear/website-monitoring-404",
-      "url": "/ja/guides/oh-dear/website-monitoring-404/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/castos/castos-podcast-hosting",
-      "url": "/ja/guides/castos/castos-podcast-hosting/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/castos/podcast-hosting-wordpress",
-      "url": "/ja/guides/castos/podcast-hosting-wordpress/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/frase/frase-content-research",
-      "url": "/ja/guides/frase/frase-content-research/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/frase/research-brief-draft",
-      "url": "/ja/guides/frase/research-brief-draft/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/publer/publer-social-scheduling",
-      "url": "/ja/guides/publer/publer-social-scheduling/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/publer/private-social-drafts",
-      "url": "/ja/guides/publer/private-social-drafts/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/mangools/mangools-keyword-research",
-      "url": "/ja/guides/mangools/mangools-keyword-research/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/mangools/keyword-shortlist",
-      "url": "/ja/guides/mangools/keyword-shortlist/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/systeme-io/systeme-io-sales-funnels",
-      "url": "/ja/guides/systeme-io/systeme-io-sales-funnels/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/systeme-io/preview-a-funnel-page",
-      "url": "/ja/guides/systeme-io/preview-a-funnel-page/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/capcut/capcut-video-editor",
-      "url": "/ja/guides/capcut/capcut-video-editor/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/capcut/auto-captions-export",
-      "url": "/ja/guides/capcut/auto-captions-export/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/gemini-notebook/notebooklm-source-citations",
-      "url": "/ja/guides/gemini-notebook/notebooklm-source-citations/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/deepl/translate-word-formatting",
-      "url": "/ja/guides/deepl/translate-word-formatting/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-workflow-automation/n8n-nod-first-task",
-      "url": "/ja/guides/ai-workflow-automation/n8n-nod-first-task/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/n8n/multilingual-draft-routing",
-      "url": "/ja/guides/n8n/multilingual-draft-routing/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/quso-ai/check-video-credits",
-      "url": "/ja/guides/quso-ai/check-video-credits/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/elevenlabs/multilingual-voiceover",
-      "url": "/ja/guides/elevenlabs/multilingual-voiceover/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/gamma/export-to-powerpoint",
-      "url": "/ja/guides/gamma/export-to-powerpoint/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/magnific/creative-vs-precision-upscaling",
-      "url": "/ja/guides/magnific/creative-vs-precision-upscaling/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/flowlu/map-a-client-project",
-      "url": "/ja/guides/flowlu/map-a-client-project/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/windsor-ai/check-report-source-settings",
-      "url": "/ja/guides/windsor-ai/check-report-source-settings/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/social-intents/preview-a-chat-widget",
-      "url": "/ja/guides/social-intents/preview-a-chat-widget/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/answerthis/check-a-reference-year",
-      "url": "/ja/guides/answerthis/check-a-reference-year/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/sked-social/plan-a-client-approval",
-      "url": "/ja/guides/sked-social/plan-a-client-approval/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/coupler-io/sync-ga4-weekly-report",
-      "url": "/ja/guides/coupler-io/sync-ga4-weekly-report/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/videogen/script-to-narrated-short",
-      "url": "/ja/guides/videogen/script-to-narrated-short/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/cal-com/check-guest-time-zone",
-      "url": "/ja/guides/cal-com/check-guest-time-zone/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/pdf2go/merge-workshop-pdfs",
-      "url": "/ja/guides/pdf2go/merge-workshop-pdfs/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/seopress/check-wordpress-noindex",
-      "url": "/ja/guides/seopress/check-wordpress-noindex/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/udemy/creator-course-choice",
-      "url": "/ja/guides/udemy/creator-course-choice/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/udemy/ga4-course-campaign-report",
-      "url": "/ja/guides/udemy/ga4-course-campaign-report/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/udemy/excel-pivot-table-content-report",
-      "url": "/ja/guides/udemy/excel-pivot-table-content-report/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/udemy/python-csv-automation-course",
-      "url": "/ja/guides/udemy/python-csv-automation-course/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/udemy/premiere-pro-first-vertical-edit",
-      "url": "/ja/guides/udemy/premiere-pro-first-vertical-edit/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/payhip/sell-canva-templates",
-      "url": "/ja/guides/payhip/sell-canva-templates/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/cal-com/round-robin-team-booking",
-      "url": "/ja/guides/cal-com/round-robin-team-booking/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/pombo/onboarding-email-stop-on-activation",
-      "url": "/ja/guides/pombo/onboarding-email-stop-on-activation/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/signaturely/pdf-signing-order-audit-trail",
-      "url": "/ja/guides/signaturely/pdf-signing-order-audit-trail/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/n8n/error-trigger-not-firing",
-      "url": "/ja/guides/n8n/error-trigger-not-firing/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/gamma/publish-one-page-portfolio",
-      "url": "/ja/guides/gamma/publish-one-page-portfolio/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/pcloud/black-friday-2026-lifetime-storage",
-      "url": "/ja/guides/pcloud/black-friday-2026-lifetime-storage/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/joggai/url-to-video-15-second-product-ad",
-      "url": "/ja/guides/joggai/url-to-video-15-second-product-ad/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/mailbluster/amazon-ses-first-newsletter",
-      "url": "/ja/guides/mailbluster/amazon-ses-first-newsletter/",
-      "lastmod": "2026-11-13"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/payhip/one-time-digital-product-bundle",
-      "url": "/ja/guides/payhip/one-time-digital-product-bundle/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/oh-dear/ssl-certificate-expiry-monitoring",
-      "url": "/ja/guides/oh-dear/ssl-certificate-expiry-monitoring/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/sked-social/social-utm-ga4-campaign-check",
-      "url": "/ja/guides/sked-social/social-utm-ga4-campaign-check/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/seopress/wordpress-301-redirect",
-      "url": "/ja/guides/seopress/wordpress-301-redirect/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/agentic-commerce/chatgpt-wallet-merchant-checkout",
-      "url": "/ja/guides/agentic-commerce/chatgpt-wallet-merchant-checkout/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/udemy/udemy-black-friday-ai-workflow-courses",
-      "url": "/ja/guides/udemy/udemy-black-friday-ai-workflow-courses/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/teachable/presell-your-first-course",
-      "url": "/ja/guides/teachable/presell-your-first-course/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/cal-com/routing-forms-sales-support-fallback",
-      "url": "/ja/guides/cal-com/routing-forms-sales-support-fallback/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/printful/printful-first-sample-order",
-      "url": "/ja/guides/printful/printful-first-sample-order/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/predis-ai/predis-ai-product-launch-carousel",
-      "url": "/ja/guides/predis-ai/predis-ai-product-launch-carousel/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/adguard/adguard-browser-extension-vs-desktop",
-      "url": "/ja/guides/adguard/adguard-browser-extension-vs-desktop/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/teachable/starter-vs-builder-course-sales",
-      "url": "/ja/guides/teachable/starter-vs-builder-course-sales/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-image-creation/canva-craft-bilingual-event-poster",
-      "url": "/ja/guides/ai-image-creation/canva-craft-bilingual-event-poster/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/movavi-video-editor/remove-silence-talking-head-video",
-      "url": "/ja/guides/movavi-video-editor/remove-silence-talking-head-video/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions",
-      "url": "/ja/guides/ai-search-visibility/search-console-clicks-vs-ga4-sessions/",
-      "lastmod": "2026-11-16"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks",
-      "url": "/ja/guides/ai-search-visibility/chatgpt-business-hub-mentions-clicks/",
-      "lastmod": "2026-11-11"
-    },
-    {
-      "lang": "ja",
-      "route": "guides/ai-image-creation/firefly-creative-agent-graph-workflow",
-      "url": "/ja/guides/ai-image-creation/firefly-creative-agent-graph-workflow/",
-      "lastmod": "2026-11-11"
+      "route": "blog/printful/printful-first-sample-order",
+      "url": "/ja/blog/printful/printful-first-sample-order/",
+      "lastmod": "2026-11-17"
     }
   ],
-  "redirects": []
+  "redirects": [
+    {
+      "url": "/guides/",
+      "target": "/blog/"
+    },
+    {
+      "url": "/guides/streamyard/guest-led-product-demo/",
+      "target": "/blog/streamyard/guest-led-product-demo/"
+    },
+    {
+      "url": "/guides/payhip/free-template-paid-bundle/",
+      "target": "/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/guides/sembly-ai/client-call-to-project-handoff/",
+      "target": "/blog/sembly-ai/client-call-to-project-handoff/"
+    },
+    {
+      "url": "/guides/predis-ai/customer-questions-to-social-posts/",
+      "target": "/blog/predis-ai/customer-questions-to-social-posts/"
+    },
+    {
+      "url": "/guides/printful/printful-first-sample-order/",
+      "target": "/blog/printful/printful-first-sample-order/"
+    },
+    {
+      "url": "/zh/guides/",
+      "target": "/zh/blog/"
+    },
+    {
+      "url": "/zh/guides/streamyard/guest-led-product-demo/",
+      "target": "/zh/blog/streamyard/guest-led-product-demo/"
+    },
+    {
+      "url": "/zh/guides/payhip/free-template-paid-bundle/",
+      "target": "/zh/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/zh/guides/sembly-ai/client-call-to-project-handoff/",
+      "target": "/zh/blog/sembly-ai/client-call-to-project-handoff/"
+    },
+    {
+      "url": "/zh/guides/predis-ai/customer-questions-to-social-posts/",
+      "target": "/zh/blog/predis-ai/customer-questions-to-social-posts/"
+    },
+    {
+      "url": "/zh/guides/printful/printful-first-sample-order/",
+      "target": "/zh/blog/printful/printful-first-sample-order/"
+    },
+    {
+      "url": "/es/guides/",
+      "target": "/es/blog/"
+    },
+    {
+      "url": "/es/guides/streamyard/guest-led-product-demo/",
+      "target": "/es/blog/streamyard/guest-led-product-demo/"
+    },
+    {
+      "url": "/es/guides/payhip/free-template-paid-bundle/",
+      "target": "/es/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/es/guides/sembly-ai/client-call-to-project-handoff/",
+      "target": "/es/blog/sembly-ai/client-call-to-project-handoff/"
+    },
+    {
+      "url": "/es/guides/predis-ai/customer-questions-to-social-posts/",
+      "target": "/es/blog/predis-ai/customer-questions-to-social-posts/"
+    },
+    {
+      "url": "/es/guides/printful/printful-first-sample-order/",
+      "target": "/es/blog/printful/printful-first-sample-order/"
+    },
+    {
+      "url": "/ja/guides/",
+      "target": "/ja/blog/"
+    },
+    {
+      "url": "/ja/guides/streamyard/guest-led-product-demo/",
+      "target": "/ja/blog/streamyard/guest-led-product-demo/"
+    },
+    {
+      "url": "/ja/guides/payhip/free-template-paid-bundle/",
+      "target": "/ja/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/ja/guides/sembly-ai/client-call-to-project-handoff/",
+      "target": "/ja/blog/sembly-ai/client-call-to-project-handoff/"
+    },
+    {
+      "url": "/ja/guides/predis-ai/customer-questions-to-social-posts/",
+      "target": "/ja/blog/predis-ai/customer-questions-to-social-posts/"
+    },
+    {
+      "url": "/ja/guides/printful/printful-first-sample-order/",
+      "target": "/ja/blog/printful/printful-first-sample-order/"
+    }
+  ]
 }
