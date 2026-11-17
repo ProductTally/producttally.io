@@ -12,13 +12,13 @@
       "lang": "en",
       "route": "",
       "url": "/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-16",
+      "lastmod": "2026-11-17",
       "canonicalRoute": ""
     },
     {
@@ -290,9 +290,21 @@
     },
     {
       "lang": "en",
+      "route": "products/sembly-ai",
+      "url": "/products/sembly-ai/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "products/helpcrunch",
+      "url": "/products/helpcrunch/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
       "route": "guides",
       "url": "/guides/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "en",
@@ -820,13 +832,13 @@
       "lang": "zh",
       "route": "",
       "url": "/zh/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-16",
+      "lastmod": "2026-11-17",
       "canonicalRoute": ""
     },
     {
@@ -1098,9 +1110,21 @@
     },
     {
       "lang": "zh",
+      "route": "products/sembly-ai",
+      "url": "/zh/products/sembly-ai/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "products/helpcrunch",
+      "url": "/zh/products/helpcrunch/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
       "route": "guides",
       "url": "/zh/guides/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "zh",
@@ -1628,13 +1652,13 @@
       "lang": "es",
       "route": "",
       "url": "/es/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-16",
+      "lastmod": "2026-11-17",
       "canonicalRoute": ""
     },
     {
@@ -1906,9 +1930,21 @@
     },
     {
       "lang": "es",
+      "route": "products/sembly-ai",
+      "url": "/es/products/sembly-ai/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "products/helpcrunch",
+      "url": "/es/products/helpcrunch/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
       "route": "guides",
       "url": "/es/guides/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "es",
@@ -2436,13 +2472,13 @@
       "lang": "ja",
       "route": "",
       "url": "/ja/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-16",
+      "lastmod": "2026-11-17",
       "canonicalRoute": ""
     },
     {
@@ -2714,9 +2750,21 @@
     },
     {
       "lang": "ja",
+      "route": "products/sembly-ai",
+      "url": "/ja/products/sembly-ai/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "products/helpcrunch",
+      "url": "/ja/products/helpcrunch/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
       "route": "guides",
       "url": "/ja/guides/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-17"
     },
     {
       "lang": "ja",
