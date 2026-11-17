@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Consoleの生成AIレポートで小規模サイトは何を確認できる？ — ProductTally</title>
+  <meta name="description" content="AIで表示されたページ、表示回数、サイト訪問を分けて確認する方法を、三つの例で説明します。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/ai-search-measurement/google-search-console-generative-ai-report/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/ai-search-measurement/google-search-console-generative-ai-report/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/ai-search-measurement/google-search-console-generative-ai-report/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Search Consoleの生成AIレポートで小規模サイトは何を確認できる？ — ProductTally">
+  <meta property="og:description" content="AIで表示されたページ、表示回数、サイト訪問を分けて確認する方法を、三つの例で説明します。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/google-search-console-generative-ai-report/cover.webp">
+  <meta property="og:image:alt" content="Google公式のSearch Console画面例。example.comの表示回数と、ページ、国、デバイス、日付のタブが表示されています。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Search Consoleの生成AIレポートで小規模サイトは何を確認できる？ — ProductTally">
+  <meta name="twitter:description" content="AIで表示されたページ、表示回数、サイト訪問を分けて確認する方法を、三つの例で説明します。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/google-search-console-generative-ai-report/cover.webp">
+  <meta name="twitter:image:alt" content="Google公式のSearch Console画面例。example.comの表示回数と、ページ、国、デバイス、日付のタブが表示されています。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/#webpage","name":"Search Consoleの生成AIレポートで小規模サイトは何を確認できる？","description":"AIで表示されたページ、表示回数、サイト訪問を分けて確認する方法を、三つの例で説明します。","url":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/#article","headline":"Search Consoleの生成AIレポートで小規模サイトは何を確認できる？","description":"AIで表示されたページ、表示回数、サイト訪問を分けて確認する方法を、三つの例で説明します。","url":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/#article-image","url":"https://producttally.com/assets/articles/google-search-console-generative-ai-report/cover.webp","contentUrl":"https://producttally.com/assets/articles/google-search-console-generative-ai-report/cover.webp","width":1200,"height":675,"caption":"Google公式のSearch Console画面例。example.comの表示回数と、ページ、国、デバイス、日付のタブが表示されています。"},"dateModified":"2026-11-17","citation":["https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports","https://support.google.com/webmasters/answer/16984139","https://support.google.com/webmasters/answer/16983858"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"AI検索の計測","item":"https://producttally.com/ja/blog/ai-search-measurement/"},{"@type":"ListItem","position":4,"name":"Search Consoleの生成AIレポートで、小規模サイトは何が分かる？","item":"https://producttally.com/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-f1fe9c5c38e2.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/ai-search-measurement/google-search-console-generative-ai-report/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/ai-search-measurement/google-search-console-generative-ai-report/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/ai-search-measurement/google-search-console-generative-ai-report/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/ai-search-measurement/google-search-console-generative-ai-report/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">ブログ</a></li><li><a href="/ja/blog/ai-search-measurement/">AI検索の計測</a></li><li><span aria-current="page">Search Consoleの生成AIレポートで、小規模サイトは何が分かる？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">SEO · 4 最小読み取り</p>
+        <h1>Search Consoleの生成AIレポートで、小規模サイトは何が分かる？</h1>
+        <p class="lead">AIで表示されたページ、表示回数、サイト訪問を分けて確認する方法を、三つの例で説明します。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-17">2026/11/17</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/google-search-console-generative-ai-report/cover.webp" srcset="/assets/articles/google-search-console-generative-ai-report/cover-small.webp 640w, /assets/articles/google-search-console-generative-ai-report/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="Google公式のSearch Console画面例。example.comの表示回数と、ページ、国、デバイス、日付のタブが表示されています。"
+    loading="eager" decoding="async"></div>
+    <figcaption>Google公式のSearch Console画面例。example.comの表示回数と、ページ、国、デバイス、日付のタブが表示されています。</figcaption>
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>Googleの生成AI機能でどのページが表示されたか、どの国で見られたか、表示回数がどう変わったかを確認できます。Googleは2026年6月に検索とDiscoverのレポートを発表し、8月31日時点で世界中のウェブサイトに展開したと追記しました。表示される項目や値はプロパティのレポートで確認します。</p>
+        </div>
+        <section id="section-0">
+          <h2>知りたいことに合わせて見る項目を選ぶ</h2><p>Search Consoleのパフォーマンスで、「検索結果」または「Discover」の下にある生成AIレポートを開きます。Googleのヘルプによると、検索で対象となる表示回数が十分にない場合、レポートが表示されないことがあります。その場合、比較に使えるレポートの合計値はありません。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports">Googleの公式発表</a></li><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16984139">Google検索の生成AIパフォーマンス レポート</a></li><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16983858">Discoverの生成AIパフォーマンス レポート</a></li></ul><div class="article-table"><table>
+    <caption>AI検索の計測</caption>
+    <thead><tr><th scope="col">知りたいこと</th><th scope="col">確認する項目</th></tr></thead>
+    <tbody><tr><th scope="row">どの記事が表示された？</th><td>同じ期間のページと表示回数を比較し、URLと言語が合っているか確認する。</td></tr><tr><th scope="row">どの市場で変化した？</th><td>国と日付を比較する。同時期の更新やほかの変化も記録する。</td></tr><tr><th scope="row">その後サイトへの訪問はあった？</th><td>同じ期間とURLで、表示回数の推移と別のアクセス解析を並べる。流入元が確定できない場合はそのまま記録する。</td></tr></tbody>
+  </table></div><p>検索とDiscoverは別々に記録します。検索ではデバイスや検索タイプで絞り込めます。週ごとに比較する前に、使った表示範囲と条件を記録してください。全体レポートにすでに含まれる表示回数を再度足す必要はありません。</p>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/google-search-console-generative-ai-report/google-ai-report.webp" width="1600" height="1227"
+          alt="Google公式のSearch Console画面例。example.comの表示回数と、ページ、国、デバイス、日付のタブが表示されています。" loading="lazy" decoding="async"><figcaption>Google公式のSearch Console画面例。example.comの表示回数と、ページ、国、デバイス、日付のタブが表示されています。</figcaption></figure><section id="section-1">
+          <h2>後から照合できる事実を残す</h2><p>例えば、予約ガイドに1週間で30回の表示があったとします。URL、レポートの種類、国、期間、値を記録します。この数字だけで、個々の質問、回答文、クリックの有無までは分かりません。回答内容が必要なら、日付、国、言語をそろえた別の調査を行います。</p><p>まずサイトにとって重要な数本を選び、AIでの表示回数、訪問、外部へのプロモーションリンクのクリックを毎月別々に記録します。表示回数が増えても訪問がほぼ同じなら、記事を編集する前に同じURLと期間で確認し直します。</p>
+        </section>
+        
+        
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports">Googleの公式発表</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16984139">Google検索の生成AIパフォーマンス レポート</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16983858">Discoverの生成AIパフォーマンス レポート</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

@@ -308,6 +308,24 @@
     },
     {
       "lang": "en",
+      "route": "blog/ai-search-visibility",
+      "url": "/blog/ai-search-visibility/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/multilingual-seo",
+      "url": "/blog/multilingual-seo/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-search-measurement",
+      "url": "/blog/ai-search-measurement/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
       "route": "blog/cal-com/consultation-booking-buffer",
       "url": "/blog/cal-com/consultation-booking-buffer/",
       "lastmod": "2026-11-17"
@@ -338,6 +356,12 @@
     },
     {
       "lang": "en",
+      "route": "blog/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/blog/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
       "route": "blog/streamyard/guest-led-product-demo",
       "url": "/blog/streamyard/guest-led-product-demo/",
       "lastmod": "2026-11-17"
@@ -358,6 +382,132 @@
       "lang": "en",
       "route": "blog/predis-ai/customer-questions-to-social-posts",
       "url": "/blog/predis-ai/customer-questions-to-social-posts/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/payhip/update-files-for-existing-buyers",
+      "url": "/blog/payhip/update-files-for-existing-buyers/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/streamyard/local-tracks-vs-live-replay",
+      "url": "/blog/streamyard/local-tracks-vs-live-replay/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/n8n/human-approval-timeout",
+      "url": "/blog/n8n/human-approval-timeout/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/sked-social/client-instagram-post-approval",
+      "url": "/blog/sked-social/client-instagram-post-approval/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/multilingual-seo/audit-low-impressions-one-language",
+      "url": "/blog/multilingual-seo/audit-low-impressions-one-language/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-search-measurement/google-search-console-generative-ai-report",
+      "url": "/blog/ai-search-measurement/google-search-console-generative-ai-report/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/mangools/keyword-overlap-one-page-or-two",
+      "url": "/blog/mangools/keyword-overlap-one-page-or-two/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/printify/printify-sample-order-check",
+      "url": "/blog/printify/printify-sample-order-check/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/printful/etsy-shipping-profiles-multi-region",
+      "url": "/blog/printful/etsy-shipping-profiles-multi-region/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/printful/document-off-centre-print-claim",
+      "url": "/blog/printful/document-off-centre-print-claim/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/payhip/pdf-individual-and-team-license-variants",
+      "url": "/blog/payhip/pdf-individual-and-team-license-variants/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/payhip/choose-pay-what-you-want-minimum",
+      "url": "/blog/payhip/choose-pay-what-you-want-minimum/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/payhip/troubleshoot-paid-digital-download",
+      "url": "/blog/payhip/troubleshoot-paid-digital-download/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/teachable/private-assignment-submission-and-revisions",
+      "url": "/blog/teachable/private-assignment-submission-and-revisions/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/teachable/deliver-video-pdf-downloads-in-a-lesson",
+      "url": "/blog/teachable/deliver-video-pdf-downloads-in-a-lesson/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/teachable/sell-course-to-ten-company-learners",
+      "url": "/blog/teachable/sell-course-to-ten-company-learners/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/choose-ai-course-by-project-deliverable",
+      "url": "/blog/udemy/choose-ai-course-by-project-deliverable/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/turn-course-exercise-into-a-portfolio-project",
+      "url": "/blog/udemy/turn-course-exercise-into-a-portfolio-project/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/teachable/separate-instructor-assistant-operator-access",
+      "url": "/blog/teachable/separate-instructor-assistant-operator-access/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/restream/route-chat-across-youtube-and-twitch",
+      "url": "/blog/restream/route-chat-across-youtube-and-twitch/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/restream/restream-two-person-interview-rehearsal",
+      "url": "/blog/restream/restream-two-person-interview-rehearsal/",
       "lastmod": "2026-11-17"
     },
     {
@@ -666,6 +816,24 @@
     },
     {
       "lang": "zh",
+      "route": "blog/ai-search-visibility",
+      "url": "/zh/blog/ai-search-visibility/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/multilingual-seo",
+      "url": "/zh/blog/multilingual-seo/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-search-measurement",
+      "url": "/zh/blog/ai-search-measurement/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
       "route": "blog/cal-com/consultation-booking-buffer",
       "url": "/zh/blog/cal-com/consultation-booking-buffer/",
       "lastmod": "2026-11-17"
@@ -696,6 +864,12 @@
     },
     {
       "lang": "zh",
+      "route": "blog/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/zh/blog/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
       "route": "blog/streamyard/guest-led-product-demo",
       "url": "/zh/blog/streamyard/guest-led-product-demo/",
       "lastmod": "2026-11-17"
@@ -716,6 +890,132 @@
       "lang": "zh",
       "route": "blog/predis-ai/customer-questions-to-social-posts",
       "url": "/zh/blog/predis-ai/customer-questions-to-social-posts/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/payhip/update-files-for-existing-buyers",
+      "url": "/zh/blog/payhip/update-files-for-existing-buyers/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/streamyard/local-tracks-vs-live-replay",
+      "url": "/zh/blog/streamyard/local-tracks-vs-live-replay/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/n8n/human-approval-timeout",
+      "url": "/zh/blog/n8n/human-approval-timeout/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/sked-social/client-instagram-post-approval",
+      "url": "/zh/blog/sked-social/client-instagram-post-approval/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/multilingual-seo/audit-low-impressions-one-language",
+      "url": "/zh/blog/multilingual-seo/audit-low-impressions-one-language/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-search-measurement/google-search-console-generative-ai-report",
+      "url": "/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/mangools/keyword-overlap-one-page-or-two",
+      "url": "/zh/blog/mangools/keyword-overlap-one-page-or-two/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/printify/printify-sample-order-check",
+      "url": "/zh/blog/printify/printify-sample-order-check/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/printful/etsy-shipping-profiles-multi-region",
+      "url": "/zh/blog/printful/etsy-shipping-profiles-multi-region/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/printful/document-off-centre-print-claim",
+      "url": "/zh/blog/printful/document-off-centre-print-claim/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/payhip/pdf-individual-and-team-license-variants",
+      "url": "/zh/blog/payhip/pdf-individual-and-team-license-variants/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/payhip/choose-pay-what-you-want-minimum",
+      "url": "/zh/blog/payhip/choose-pay-what-you-want-minimum/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/payhip/troubleshoot-paid-digital-download",
+      "url": "/zh/blog/payhip/troubleshoot-paid-digital-download/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/teachable/private-assignment-submission-and-revisions",
+      "url": "/zh/blog/teachable/private-assignment-submission-and-revisions/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/teachable/deliver-video-pdf-downloads-in-a-lesson",
+      "url": "/zh/blog/teachable/deliver-video-pdf-downloads-in-a-lesson/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/teachable/sell-course-to-ten-company-learners",
+      "url": "/zh/blog/teachable/sell-course-to-ten-company-learners/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/choose-ai-course-by-project-deliverable",
+      "url": "/zh/blog/udemy/choose-ai-course-by-project-deliverable/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/turn-course-exercise-into-a-portfolio-project",
+      "url": "/zh/blog/udemy/turn-course-exercise-into-a-portfolio-project/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/teachable/separate-instructor-assistant-operator-access",
+      "url": "/zh/blog/teachable/separate-instructor-assistant-operator-access/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/restream/route-chat-across-youtube-and-twitch",
+      "url": "/zh/blog/restream/route-chat-across-youtube-and-twitch/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/restream/restream-two-person-interview-rehearsal",
+      "url": "/zh/blog/restream/restream-two-person-interview-rehearsal/",
       "lastmod": "2026-11-17"
     },
     {
@@ -1024,6 +1324,24 @@
     },
     {
       "lang": "es",
+      "route": "blog/ai-search-visibility",
+      "url": "/es/blog/ai-search-visibility/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/multilingual-seo",
+      "url": "/es/blog/multilingual-seo/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-search-measurement",
+      "url": "/es/blog/ai-search-measurement/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
       "route": "blog/cal-com/consultation-booking-buffer",
       "url": "/es/blog/cal-com/consultation-booking-buffer/",
       "lastmod": "2026-11-17"
@@ -1054,6 +1372,12 @@
     },
     {
       "lang": "es",
+      "route": "blog/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/es/blog/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
       "route": "blog/streamyard/guest-led-product-demo",
       "url": "/es/blog/streamyard/guest-led-product-demo/",
       "lastmod": "2026-11-17"
@@ -1074,6 +1398,132 @@
       "lang": "es",
       "route": "blog/predis-ai/customer-questions-to-social-posts",
       "url": "/es/blog/predis-ai/customer-questions-to-social-posts/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/payhip/update-files-for-existing-buyers",
+      "url": "/es/blog/payhip/update-files-for-existing-buyers/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/streamyard/local-tracks-vs-live-replay",
+      "url": "/es/blog/streamyard/local-tracks-vs-live-replay/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/n8n/human-approval-timeout",
+      "url": "/es/blog/n8n/human-approval-timeout/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/sked-social/client-instagram-post-approval",
+      "url": "/es/blog/sked-social/client-instagram-post-approval/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/multilingual-seo/audit-low-impressions-one-language",
+      "url": "/es/blog/multilingual-seo/audit-low-impressions-one-language/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-search-measurement/google-search-console-generative-ai-report",
+      "url": "/es/blog/ai-search-measurement/google-search-console-generative-ai-report/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/mangools/keyword-overlap-one-page-or-two",
+      "url": "/es/blog/mangools/keyword-overlap-one-page-or-two/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/printify/printify-sample-order-check",
+      "url": "/es/blog/printify/printify-sample-order-check/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/printful/etsy-shipping-profiles-multi-region",
+      "url": "/es/blog/printful/etsy-shipping-profiles-multi-region/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/printful/document-off-centre-print-claim",
+      "url": "/es/blog/printful/document-off-centre-print-claim/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/payhip/pdf-individual-and-team-license-variants",
+      "url": "/es/blog/payhip/pdf-individual-and-team-license-variants/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/payhip/choose-pay-what-you-want-minimum",
+      "url": "/es/blog/payhip/choose-pay-what-you-want-minimum/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/payhip/troubleshoot-paid-digital-download",
+      "url": "/es/blog/payhip/troubleshoot-paid-digital-download/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/teachable/private-assignment-submission-and-revisions",
+      "url": "/es/blog/teachable/private-assignment-submission-and-revisions/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/teachable/deliver-video-pdf-downloads-in-a-lesson",
+      "url": "/es/blog/teachable/deliver-video-pdf-downloads-in-a-lesson/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/teachable/sell-course-to-ten-company-learners",
+      "url": "/es/blog/teachable/sell-course-to-ten-company-learners/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/choose-ai-course-by-project-deliverable",
+      "url": "/es/blog/udemy/choose-ai-course-by-project-deliverable/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/turn-course-exercise-into-a-portfolio-project",
+      "url": "/es/blog/udemy/turn-course-exercise-into-a-portfolio-project/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/teachable/separate-instructor-assistant-operator-access",
+      "url": "/es/blog/teachable/separate-instructor-assistant-operator-access/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/restream/route-chat-across-youtube-and-twitch",
+      "url": "/es/blog/restream/route-chat-across-youtube-and-twitch/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/restream/restream-two-person-interview-rehearsal",
+      "url": "/es/blog/restream/restream-two-person-interview-rehearsal/",
       "lastmod": "2026-11-17"
     },
     {
@@ -1382,6 +1832,24 @@
     },
     {
       "lang": "ja",
+      "route": "blog/ai-search-visibility",
+      "url": "/ja/blog/ai-search-visibility/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/multilingual-seo",
+      "url": "/ja/blog/multilingual-seo/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-search-measurement",
+      "url": "/ja/blog/ai-search-measurement/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
       "route": "blog/cal-com/consultation-booking-buffer",
       "url": "/ja/blog/cal-com/consultation-booking-buffer/",
       "lastmod": "2026-11-17"
@@ -1412,6 +1880,12 @@
     },
     {
       "lang": "ja",
+      "route": "blog/ai-search-visibility/bing-ai-performance-topic-gaps",
+      "url": "/ja/blog/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
       "route": "blog/streamyard/guest-led-product-demo",
       "url": "/ja/blog/streamyard/guest-led-product-demo/",
       "lastmod": "2026-11-17"
@@ -1436,6 +1910,132 @@
     },
     {
       "lang": "ja",
+      "route": "blog/payhip/update-files-for-existing-buyers",
+      "url": "/ja/blog/payhip/update-files-for-existing-buyers/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/streamyard/local-tracks-vs-live-replay",
+      "url": "/ja/blog/streamyard/local-tracks-vs-live-replay/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/n8n/human-approval-timeout",
+      "url": "/ja/blog/n8n/human-approval-timeout/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/sked-social/client-instagram-post-approval",
+      "url": "/ja/blog/sked-social/client-instagram-post-approval/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/multilingual-seo/audit-low-impressions-one-language",
+      "url": "/ja/blog/multilingual-seo/audit-low-impressions-one-language/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-search-measurement/google-search-console-generative-ai-report",
+      "url": "/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/mangools/keyword-overlap-one-page-or-two",
+      "url": "/ja/blog/mangools/keyword-overlap-one-page-or-two/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/printify/printify-sample-order-check",
+      "url": "/ja/blog/printify/printify-sample-order-check/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/printful/etsy-shipping-profiles-multi-region",
+      "url": "/ja/blog/printful/etsy-shipping-profiles-multi-region/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/printful/document-off-centre-print-claim",
+      "url": "/ja/blog/printful/document-off-centre-print-claim/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/payhip/pdf-individual-and-team-license-variants",
+      "url": "/ja/blog/payhip/pdf-individual-and-team-license-variants/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/payhip/choose-pay-what-you-want-minimum",
+      "url": "/ja/blog/payhip/choose-pay-what-you-want-minimum/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/payhip/troubleshoot-paid-digital-download",
+      "url": "/ja/blog/payhip/troubleshoot-paid-digital-download/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/teachable/private-assignment-submission-and-revisions",
+      "url": "/ja/blog/teachable/private-assignment-submission-and-revisions/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/teachable/deliver-video-pdf-downloads-in-a-lesson",
+      "url": "/ja/blog/teachable/deliver-video-pdf-downloads-in-a-lesson/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/teachable/sell-course-to-ten-company-learners",
+      "url": "/ja/blog/teachable/sell-course-to-ten-company-learners/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/choose-ai-course-by-project-deliverable",
+      "url": "/ja/blog/udemy/choose-ai-course-by-project-deliverable/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/turn-course-exercise-into-a-portfolio-project",
+      "url": "/ja/blog/udemy/turn-course-exercise-into-a-portfolio-project/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/teachable/separate-instructor-assistant-operator-access",
+      "url": "/ja/blog/teachable/separate-instructor-assistant-operator-access/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/restream/route-chat-across-youtube-and-twitch",
+      "url": "/ja/blog/restream/route-chat-across-youtube-and-twitch/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/restream/restream-two-person-interview-rehearsal",
+      "url": "/ja/blog/restream/restream-two-person-interview-rehearsal/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
       "route": "blog/printful/printful-first-sample-order",
       "url": "/ja/blog/printful/printful-first-sample-order/",
       "lastmod": "2026-11-17"
@@ -1445,6 +2045,18 @@
     {
       "url": "/guides/",
       "target": "/blog/"
+    },
+    {
+      "url": "/guides/ai-search-visibility/",
+      "target": "/blog/ai-search-visibility/"
+    },
+    {
+      "url": "/guides/multilingual-seo/",
+      "target": "/blog/multilingual-seo/"
+    },
+    {
+      "url": "/guides/ai-search-measurement/",
+      "target": "/blog/ai-search-measurement/"
     },
     {
       "url": "/guides/cal-com/consultation-booking-buffer/",
@@ -1467,6 +2079,10 @@
       "target": "/blog/helpcrunch/after-hours-chat-messages/"
     },
     {
+      "url": "/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "target": "/blog/ai-search-visibility/bing-ai-performance-topic-gaps/"
+    },
+    {
       "url": "/guides/streamyard/guest-led-product-demo/",
       "target": "/blog/streamyard/guest-led-product-demo/"
     },
@@ -1483,12 +2099,108 @@
       "target": "/blog/predis-ai/customer-questions-to-social-posts/"
     },
     {
+      "url": "/guides/payhip/update-files-for-existing-buyers/",
+      "target": "/blog/payhip/update-files-for-existing-buyers/"
+    },
+    {
+      "url": "/guides/streamyard/local-tracks-vs-live-replay/",
+      "target": "/blog/streamyard/local-tracks-vs-live-replay/"
+    },
+    {
+      "url": "/guides/n8n/human-approval-timeout/",
+      "target": "/blog/n8n/human-approval-timeout/"
+    },
+    {
+      "url": "/guides/sked-social/client-instagram-post-approval/",
+      "target": "/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/guides/multilingual-seo/audit-low-impressions-one-language/",
+      "target": "/blog/multilingual-seo/audit-low-impressions-one-language/"
+    },
+    {
+      "url": "/guides/ai-search-measurement/google-search-console-generative-ai-report/",
+      "target": "/blog/ai-search-measurement/google-search-console-generative-ai-report/"
+    },
+    {
+      "url": "/guides/mangools/keyword-overlap-one-page-or-two/",
+      "target": "/blog/mangools/keyword-overlap-one-page-or-two/"
+    },
+    {
+      "url": "/guides/printify/printify-sample-order-check/",
+      "target": "/blog/printify/printify-sample-order-check/"
+    },
+    {
+      "url": "/guides/printful/etsy-shipping-profiles-multi-region/",
+      "target": "/blog/printful/etsy-shipping-profiles-multi-region/"
+    },
+    {
+      "url": "/guides/printful/document-off-centre-print-claim/",
+      "target": "/blog/printful/document-off-centre-print-claim/"
+    },
+    {
+      "url": "/guides/payhip/pdf-individual-and-team-license-variants/",
+      "target": "/blog/payhip/pdf-individual-and-team-license-variants/"
+    },
+    {
+      "url": "/guides/payhip/choose-pay-what-you-want-minimum/",
+      "target": "/blog/payhip/choose-pay-what-you-want-minimum/"
+    },
+    {
+      "url": "/guides/payhip/troubleshoot-paid-digital-download/",
+      "target": "/blog/payhip/troubleshoot-paid-digital-download/"
+    },
+    {
+      "url": "/guides/teachable/private-assignment-submission-and-revisions/",
+      "target": "/blog/teachable/private-assignment-submission-and-revisions/"
+    },
+    {
+      "url": "/guides/teachable/deliver-video-pdf-downloads-in-a-lesson/",
+      "target": "/blog/teachable/deliver-video-pdf-downloads-in-a-lesson/"
+    },
+    {
+      "url": "/guides/teachable/sell-course-to-ten-company-learners/",
+      "target": "/blog/teachable/sell-course-to-ten-company-learners/"
+    },
+    {
+      "url": "/guides/udemy/choose-ai-course-by-project-deliverable/",
+      "target": "/blog/udemy/choose-ai-course-by-project-deliverable/"
+    },
+    {
+      "url": "/guides/udemy/turn-course-exercise-into-a-portfolio-project/",
+      "target": "/blog/udemy/turn-course-exercise-into-a-portfolio-project/"
+    },
+    {
+      "url": "/guides/teachable/separate-instructor-assistant-operator-access/",
+      "target": "/blog/teachable/separate-instructor-assistant-operator-access/"
+    },
+    {
+      "url": "/guides/restream/route-chat-across-youtube-and-twitch/",
+      "target": "/blog/restream/route-chat-across-youtube-and-twitch/"
+    },
+    {
+      "url": "/guides/restream/restream-two-person-interview-rehearsal/",
+      "target": "/blog/restream/restream-two-person-interview-rehearsal/"
+    },
+    {
       "url": "/guides/printful/printful-first-sample-order/",
       "target": "/blog/printful/printful-first-sample-order/"
     },
     {
       "url": "/zh/guides/",
       "target": "/zh/blog/"
+    },
+    {
+      "url": "/zh/guides/ai-search-visibility/",
+      "target": "/zh/blog/ai-search-visibility/"
+    },
+    {
+      "url": "/zh/guides/multilingual-seo/",
+      "target": "/zh/blog/multilingual-seo/"
+    },
+    {
+      "url": "/zh/guides/ai-search-measurement/",
+      "target": "/zh/blog/ai-search-measurement/"
     },
     {
       "url": "/zh/guides/cal-com/consultation-booking-buffer/",
@@ -1511,6 +2223,10 @@
       "target": "/zh/blog/helpcrunch/after-hours-chat-messages/"
     },
     {
+      "url": "/zh/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "target": "/zh/blog/ai-search-visibility/bing-ai-performance-topic-gaps/"
+    },
+    {
       "url": "/zh/guides/streamyard/guest-led-product-demo/",
       "target": "/zh/blog/streamyard/guest-led-product-demo/"
     },
@@ -1527,12 +2243,108 @@
       "target": "/zh/blog/predis-ai/customer-questions-to-social-posts/"
     },
     {
+      "url": "/zh/guides/payhip/update-files-for-existing-buyers/",
+      "target": "/zh/blog/payhip/update-files-for-existing-buyers/"
+    },
+    {
+      "url": "/zh/guides/streamyard/local-tracks-vs-live-replay/",
+      "target": "/zh/blog/streamyard/local-tracks-vs-live-replay/"
+    },
+    {
+      "url": "/zh/guides/n8n/human-approval-timeout/",
+      "target": "/zh/blog/n8n/human-approval-timeout/"
+    },
+    {
+      "url": "/zh/guides/sked-social/client-instagram-post-approval/",
+      "target": "/zh/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/zh/guides/multilingual-seo/audit-low-impressions-one-language/",
+      "target": "/zh/blog/multilingual-seo/audit-low-impressions-one-language/"
+    },
+    {
+      "url": "/zh/guides/ai-search-measurement/google-search-console-generative-ai-report/",
+      "target": "/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/"
+    },
+    {
+      "url": "/zh/guides/mangools/keyword-overlap-one-page-or-two/",
+      "target": "/zh/blog/mangools/keyword-overlap-one-page-or-two/"
+    },
+    {
+      "url": "/zh/guides/printify/printify-sample-order-check/",
+      "target": "/zh/blog/printify/printify-sample-order-check/"
+    },
+    {
+      "url": "/zh/guides/printful/etsy-shipping-profiles-multi-region/",
+      "target": "/zh/blog/printful/etsy-shipping-profiles-multi-region/"
+    },
+    {
+      "url": "/zh/guides/printful/document-off-centre-print-claim/",
+      "target": "/zh/blog/printful/document-off-centre-print-claim/"
+    },
+    {
+      "url": "/zh/guides/payhip/pdf-individual-and-team-license-variants/",
+      "target": "/zh/blog/payhip/pdf-individual-and-team-license-variants/"
+    },
+    {
+      "url": "/zh/guides/payhip/choose-pay-what-you-want-minimum/",
+      "target": "/zh/blog/payhip/choose-pay-what-you-want-minimum/"
+    },
+    {
+      "url": "/zh/guides/payhip/troubleshoot-paid-digital-download/",
+      "target": "/zh/blog/payhip/troubleshoot-paid-digital-download/"
+    },
+    {
+      "url": "/zh/guides/teachable/private-assignment-submission-and-revisions/",
+      "target": "/zh/blog/teachable/private-assignment-submission-and-revisions/"
+    },
+    {
+      "url": "/zh/guides/teachable/deliver-video-pdf-downloads-in-a-lesson/",
+      "target": "/zh/blog/teachable/deliver-video-pdf-downloads-in-a-lesson/"
+    },
+    {
+      "url": "/zh/guides/teachable/sell-course-to-ten-company-learners/",
+      "target": "/zh/blog/teachable/sell-course-to-ten-company-learners/"
+    },
+    {
+      "url": "/zh/guides/udemy/choose-ai-course-by-project-deliverable/",
+      "target": "/zh/blog/udemy/choose-ai-course-by-project-deliverable/"
+    },
+    {
+      "url": "/zh/guides/udemy/turn-course-exercise-into-a-portfolio-project/",
+      "target": "/zh/blog/udemy/turn-course-exercise-into-a-portfolio-project/"
+    },
+    {
+      "url": "/zh/guides/teachable/separate-instructor-assistant-operator-access/",
+      "target": "/zh/blog/teachable/separate-instructor-assistant-operator-access/"
+    },
+    {
+      "url": "/zh/guides/restream/route-chat-across-youtube-and-twitch/",
+      "target": "/zh/blog/restream/route-chat-across-youtube-and-twitch/"
+    },
+    {
+      "url": "/zh/guides/restream/restream-two-person-interview-rehearsal/",
+      "target": "/zh/blog/restream/restream-two-person-interview-rehearsal/"
+    },
+    {
       "url": "/zh/guides/printful/printful-first-sample-order/",
       "target": "/zh/blog/printful/printful-first-sample-order/"
     },
     {
       "url": "/es/guides/",
       "target": "/es/blog/"
+    },
+    {
+      "url": "/es/guides/ai-search-visibility/",
+      "target": "/es/blog/ai-search-visibility/"
+    },
+    {
+      "url": "/es/guides/multilingual-seo/",
+      "target": "/es/blog/multilingual-seo/"
+    },
+    {
+      "url": "/es/guides/ai-search-measurement/",
+      "target": "/es/blog/ai-search-measurement/"
     },
     {
       "url": "/es/guides/cal-com/consultation-booking-buffer/",
@@ -1555,6 +2367,10 @@
       "target": "/es/blog/helpcrunch/after-hours-chat-messages/"
     },
     {
+      "url": "/es/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "target": "/es/blog/ai-search-visibility/bing-ai-performance-topic-gaps/"
+    },
+    {
       "url": "/es/guides/streamyard/guest-led-product-demo/",
       "target": "/es/blog/streamyard/guest-led-product-demo/"
     },
@@ -1571,12 +2387,108 @@
       "target": "/es/blog/predis-ai/customer-questions-to-social-posts/"
     },
     {
+      "url": "/es/guides/payhip/update-files-for-existing-buyers/",
+      "target": "/es/blog/payhip/update-files-for-existing-buyers/"
+    },
+    {
+      "url": "/es/guides/streamyard/local-tracks-vs-live-replay/",
+      "target": "/es/blog/streamyard/local-tracks-vs-live-replay/"
+    },
+    {
+      "url": "/es/guides/n8n/human-approval-timeout/",
+      "target": "/es/blog/n8n/human-approval-timeout/"
+    },
+    {
+      "url": "/es/guides/sked-social/client-instagram-post-approval/",
+      "target": "/es/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/es/guides/multilingual-seo/audit-low-impressions-one-language/",
+      "target": "/es/blog/multilingual-seo/audit-low-impressions-one-language/"
+    },
+    {
+      "url": "/es/guides/ai-search-measurement/google-search-console-generative-ai-report/",
+      "target": "/es/blog/ai-search-measurement/google-search-console-generative-ai-report/"
+    },
+    {
+      "url": "/es/guides/mangools/keyword-overlap-one-page-or-two/",
+      "target": "/es/blog/mangools/keyword-overlap-one-page-or-two/"
+    },
+    {
+      "url": "/es/guides/printify/printify-sample-order-check/",
+      "target": "/es/blog/printify/printify-sample-order-check/"
+    },
+    {
+      "url": "/es/guides/printful/etsy-shipping-profiles-multi-region/",
+      "target": "/es/blog/printful/etsy-shipping-profiles-multi-region/"
+    },
+    {
+      "url": "/es/guides/printful/document-off-centre-print-claim/",
+      "target": "/es/blog/printful/document-off-centre-print-claim/"
+    },
+    {
+      "url": "/es/guides/payhip/pdf-individual-and-team-license-variants/",
+      "target": "/es/blog/payhip/pdf-individual-and-team-license-variants/"
+    },
+    {
+      "url": "/es/guides/payhip/choose-pay-what-you-want-minimum/",
+      "target": "/es/blog/payhip/choose-pay-what-you-want-minimum/"
+    },
+    {
+      "url": "/es/guides/payhip/troubleshoot-paid-digital-download/",
+      "target": "/es/blog/payhip/troubleshoot-paid-digital-download/"
+    },
+    {
+      "url": "/es/guides/teachable/private-assignment-submission-and-revisions/",
+      "target": "/es/blog/teachable/private-assignment-submission-and-revisions/"
+    },
+    {
+      "url": "/es/guides/teachable/deliver-video-pdf-downloads-in-a-lesson/",
+      "target": "/es/blog/teachable/deliver-video-pdf-downloads-in-a-lesson/"
+    },
+    {
+      "url": "/es/guides/teachable/sell-course-to-ten-company-learners/",
+      "target": "/es/blog/teachable/sell-course-to-ten-company-learners/"
+    },
+    {
+      "url": "/es/guides/udemy/choose-ai-course-by-project-deliverable/",
+      "target": "/es/blog/udemy/choose-ai-course-by-project-deliverable/"
+    },
+    {
+      "url": "/es/guides/udemy/turn-course-exercise-into-a-portfolio-project/",
+      "target": "/es/blog/udemy/turn-course-exercise-into-a-portfolio-project/"
+    },
+    {
+      "url": "/es/guides/teachable/separate-instructor-assistant-operator-access/",
+      "target": "/es/blog/teachable/separate-instructor-assistant-operator-access/"
+    },
+    {
+      "url": "/es/guides/restream/route-chat-across-youtube-and-twitch/",
+      "target": "/es/blog/restream/route-chat-across-youtube-and-twitch/"
+    },
+    {
+      "url": "/es/guides/restream/restream-two-person-interview-rehearsal/",
+      "target": "/es/blog/restream/restream-two-person-interview-rehearsal/"
+    },
+    {
       "url": "/es/guides/printful/printful-first-sample-order/",
       "target": "/es/blog/printful/printful-first-sample-order/"
     },
     {
       "url": "/ja/guides/",
       "target": "/ja/blog/"
+    },
+    {
+      "url": "/ja/guides/ai-search-visibility/",
+      "target": "/ja/blog/ai-search-visibility/"
+    },
+    {
+      "url": "/ja/guides/multilingual-seo/",
+      "target": "/ja/blog/multilingual-seo/"
+    },
+    {
+      "url": "/ja/guides/ai-search-measurement/",
+      "target": "/ja/blog/ai-search-measurement/"
     },
     {
       "url": "/ja/guides/cal-com/consultation-booking-buffer/",
@@ -1599,6 +2511,10 @@
       "target": "/ja/blog/helpcrunch/after-hours-chat-messages/"
     },
     {
+      "url": "/ja/guides/ai-search-visibility/bing-ai-performance-topic-gaps/",
+      "target": "/ja/blog/ai-search-visibility/bing-ai-performance-topic-gaps/"
+    },
+    {
       "url": "/ja/guides/streamyard/guest-led-product-demo/",
       "target": "/ja/blog/streamyard/guest-led-product-demo/"
     },
@@ -1613,6 +2529,90 @@
     {
       "url": "/ja/guides/predis-ai/customer-questions-to-social-posts/",
       "target": "/ja/blog/predis-ai/customer-questions-to-social-posts/"
+    },
+    {
+      "url": "/ja/guides/payhip/update-files-for-existing-buyers/",
+      "target": "/ja/blog/payhip/update-files-for-existing-buyers/"
+    },
+    {
+      "url": "/ja/guides/streamyard/local-tracks-vs-live-replay/",
+      "target": "/ja/blog/streamyard/local-tracks-vs-live-replay/"
+    },
+    {
+      "url": "/ja/guides/n8n/human-approval-timeout/",
+      "target": "/ja/blog/n8n/human-approval-timeout/"
+    },
+    {
+      "url": "/ja/guides/sked-social/client-instagram-post-approval/",
+      "target": "/ja/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/ja/guides/multilingual-seo/audit-low-impressions-one-language/",
+      "target": "/ja/blog/multilingual-seo/audit-low-impressions-one-language/"
+    },
+    {
+      "url": "/ja/guides/ai-search-measurement/google-search-console-generative-ai-report/",
+      "target": "/ja/blog/ai-search-measurement/google-search-console-generative-ai-report/"
+    },
+    {
+      "url": "/ja/guides/mangools/keyword-overlap-one-page-or-two/",
+      "target": "/ja/blog/mangools/keyword-overlap-one-page-or-two/"
+    },
+    {
+      "url": "/ja/guides/printify/printify-sample-order-check/",
+      "target": "/ja/blog/printify/printify-sample-order-check/"
+    },
+    {
+      "url": "/ja/guides/printful/etsy-shipping-profiles-multi-region/",
+      "target": "/ja/blog/printful/etsy-shipping-profiles-multi-region/"
+    },
+    {
+      "url": "/ja/guides/printful/document-off-centre-print-claim/",
+      "target": "/ja/blog/printful/document-off-centre-print-claim/"
+    },
+    {
+      "url": "/ja/guides/payhip/pdf-individual-and-team-license-variants/",
+      "target": "/ja/blog/payhip/pdf-individual-and-team-license-variants/"
+    },
+    {
+      "url": "/ja/guides/payhip/choose-pay-what-you-want-minimum/",
+      "target": "/ja/blog/payhip/choose-pay-what-you-want-minimum/"
+    },
+    {
+      "url": "/ja/guides/payhip/troubleshoot-paid-digital-download/",
+      "target": "/ja/blog/payhip/troubleshoot-paid-digital-download/"
+    },
+    {
+      "url": "/ja/guides/teachable/private-assignment-submission-and-revisions/",
+      "target": "/ja/blog/teachable/private-assignment-submission-and-revisions/"
+    },
+    {
+      "url": "/ja/guides/teachable/deliver-video-pdf-downloads-in-a-lesson/",
+      "target": "/ja/blog/teachable/deliver-video-pdf-downloads-in-a-lesson/"
+    },
+    {
+      "url": "/ja/guides/teachable/sell-course-to-ten-company-learners/",
+      "target": "/ja/blog/teachable/sell-course-to-ten-company-learners/"
+    },
+    {
+      "url": "/ja/guides/udemy/choose-ai-course-by-project-deliverable/",
+      "target": "/ja/blog/udemy/choose-ai-course-by-project-deliverable/"
+    },
+    {
+      "url": "/ja/guides/udemy/turn-course-exercise-into-a-portfolio-project/",
+      "target": "/ja/blog/udemy/turn-course-exercise-into-a-portfolio-project/"
+    },
+    {
+      "url": "/ja/guides/teachable/separate-instructor-assistant-operator-access/",
+      "target": "/ja/blog/teachable/separate-instructor-assistant-operator-access/"
+    },
+    {
+      "url": "/ja/guides/restream/route-chat-across-youtube-and-twitch/",
+      "target": "/ja/blog/restream/route-chat-across-youtube-and-twitch/"
+    },
+    {
+      "url": "/ja/guides/restream/restream-two-person-interview-rehearsal/",
+      "target": "/ja/blog/restream/restream-two-person-interview-rehearsal/"
     },
     {
       "url": "/ja/guides/printful/printful-first-sample-order/",
