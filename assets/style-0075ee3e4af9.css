@@ -564,7 +564,10 @@ section[id] { scroll-margin-block-start: 1.25rem; }
 .product-guides-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 1.5rem; margin-block-end: 1rem; }
 .product-guides-heading h2 { font: 600 clamp(1.3rem, 2.2vw, 1.7rem)/1.35 var(--body); }
 .product-guides-heading p { color: var(--muted); margin-block-start: .35rem; }
+.guide-topic-page .note-grid,
 .product-guides .note-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); }
+.guide-topic-page :is(.note-title, .note-summary) { display: block; overflow: visible; overflow-wrap: anywhere; }
+.guide-topic-page .note-title { line-height: 1.25; }
 .product-guides .note-copy h3 { font: 600 clamp(1.1rem, 1.8vw, 1.25rem)/1.4 var(--body); }
 
 @media (max-width: 48rem) {
