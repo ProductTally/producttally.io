@@ -308,6 +308,36 @@
     },
     {
       "lang": "en",
+      "route": "blog/cal-com/consultation-booking-buffer",
+      "url": "/blog/cal-com/consultation-booking-buffer/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/gamma/client-proposal-review-link",
+      "url": "/blog/gamma/client-proposal-review-link/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/teachable/drip-course-schedule",
+      "url": "/blog/teachable/drip-course-schedule/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/publer/republish-evergreen-posts",
+      "url": "/blog/publer/republish-evergreen-posts/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/helpcrunch/after-hours-chat-messages",
+      "url": "/blog/helpcrunch/after-hours-chat-messages/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
       "route": "blog/streamyard/guest-led-product-demo",
       "url": "/blog/streamyard/guest-led-product-demo/",
       "lastmod": "2026-11-17"
@@ -632,6 +662,36 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/cal-com/consultation-booking-buffer",
+      "url": "/zh/blog/cal-com/consultation-booking-buffer/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/gamma/client-proposal-review-link",
+      "url": "/zh/blog/gamma/client-proposal-review-link/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/teachable/drip-course-schedule",
+      "url": "/zh/blog/teachable/drip-course-schedule/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/publer/republish-evergreen-posts",
+      "url": "/zh/blog/publer/republish-evergreen-posts/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/helpcrunch/after-hours-chat-messages",
+      "url": "/zh/blog/helpcrunch/after-hours-chat-messages/",
       "lastmod": "2026-11-17"
     },
     {
@@ -964,6 +1024,36 @@
     },
     {
       "lang": "es",
+      "route": "blog/cal-com/consultation-booking-buffer",
+      "url": "/es/blog/cal-com/consultation-booking-buffer/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/gamma/client-proposal-review-link",
+      "url": "/es/blog/gamma/client-proposal-review-link/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/teachable/drip-course-schedule",
+      "url": "/es/blog/teachable/drip-course-schedule/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/publer/republish-evergreen-posts",
+      "url": "/es/blog/publer/republish-evergreen-posts/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/helpcrunch/after-hours-chat-messages",
+      "url": "/es/blog/helpcrunch/after-hours-chat-messages/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
       "route": "blog/streamyard/guest-led-product-demo",
       "url": "/es/blog/streamyard/guest-led-product-demo/",
       "lastmod": "2026-11-17"
@@ -1292,6 +1382,36 @@
     },
     {
       "lang": "ja",
+      "route": "blog/cal-com/consultation-booking-buffer",
+      "url": "/ja/blog/cal-com/consultation-booking-buffer/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/gamma/client-proposal-review-link",
+      "url": "/ja/blog/gamma/client-proposal-review-link/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/teachable/drip-course-schedule",
+      "url": "/ja/blog/teachable/drip-course-schedule/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/publer/republish-evergreen-posts",
+      "url": "/ja/blog/publer/republish-evergreen-posts/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/helpcrunch/after-hours-chat-messages",
+      "url": "/ja/blog/helpcrunch/after-hours-chat-messages/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
       "route": "blog/streamyard/guest-led-product-demo",
       "url": "/ja/blog/streamyard/guest-led-product-demo/",
       "lastmod": "2026-11-17"
@@ -1327,6 +1447,26 @@
       "target": "/blog/"
     },
     {
+      "url": "/guides/cal-com/consultation-booking-buffer/",
+      "target": "/blog/cal-com/consultation-booking-buffer/"
+    },
+    {
+      "url": "/guides/gamma/client-proposal-review-link/",
+      "target": "/blog/gamma/client-proposal-review-link/"
+    },
+    {
+      "url": "/guides/teachable/drip-course-schedule/",
+      "target": "/blog/teachable/drip-course-schedule/"
+    },
+    {
+      "url": "/guides/publer/republish-evergreen-posts/",
+      "target": "/blog/publer/republish-evergreen-posts/"
+    },
+    {
+      "url": "/guides/helpcrunch/after-hours-chat-messages/",
+      "target": "/blog/helpcrunch/after-hours-chat-messages/"
+    },
+    {
       "url": "/guides/streamyard/guest-led-product-demo/",
       "target": "/blog/streamyard/guest-led-product-demo/"
     },
@@ -1349,6 +1489,26 @@
     {
       "url": "/zh/guides/",
       "target": "/zh/blog/"
+    },
+    {
+      "url": "/zh/guides/cal-com/consultation-booking-buffer/",
+      "target": "/zh/blog/cal-com/consultation-booking-buffer/"
+    },
+    {
+      "url": "/zh/guides/gamma/client-proposal-review-link/",
+      "target": "/zh/blog/gamma/client-proposal-review-link/"
+    },
+    {
+      "url": "/zh/guides/teachable/drip-course-schedule/",
+      "target": "/zh/blog/teachable/drip-course-schedule/"
+    },
+    {
+      "url": "/zh/guides/publer/republish-evergreen-posts/",
+      "target": "/zh/blog/publer/republish-evergreen-posts/"
+    },
+    {
+      "url": "/zh/guides/helpcrunch/after-hours-chat-messages/",
+      "target": "/zh/blog/helpcrunch/after-hours-chat-messages/"
     },
     {
       "url": "/zh/guides/streamyard/guest-led-product-demo/",
@@ -1375,6 +1535,26 @@
       "target": "/es/blog/"
     },
     {
+      "url": "/es/guides/cal-com/consultation-booking-buffer/",
+      "target": "/es/blog/cal-com/consultation-booking-buffer/"
+    },
+    {
+      "url": "/es/guides/gamma/client-proposal-review-link/",
+      "target": "/es/blog/gamma/client-proposal-review-link/"
+    },
+    {
+      "url": "/es/guides/teachable/drip-course-schedule/",
+      "target": "/es/blog/teachable/drip-course-schedule/"
+    },
+    {
+      "url": "/es/guides/publer/republish-evergreen-posts/",
+      "target": "/es/blog/publer/republish-evergreen-posts/"
+    },
+    {
+      "url": "/es/guides/helpcrunch/after-hours-chat-messages/",
+      "target": "/es/blog/helpcrunch/after-hours-chat-messages/"
+    },
+    {
       "url": "/es/guides/streamyard/guest-led-product-demo/",
       "target": "/es/blog/streamyard/guest-led-product-demo/"
     },
@@ -1397,6 +1577,26 @@
     {
       "url": "/ja/guides/",
       "target": "/ja/blog/"
+    },
+    {
+      "url": "/ja/guides/cal-com/consultation-booking-buffer/",
+      "target": "/ja/blog/cal-com/consultation-booking-buffer/"
+    },
+    {
+      "url": "/ja/guides/gamma/client-proposal-review-link/",
+      "target": "/ja/blog/gamma/client-proposal-review-link/"
+    },
+    {
+      "url": "/ja/guides/teachable/drip-course-schedule/",
+      "target": "/ja/blog/teachable/drip-course-schedule/"
+    },
+    {
+      "url": "/ja/guides/publer/republish-evergreen-posts/",
+      "target": "/ja/blog/publer/republish-evergreen-posts/"
+    },
+    {
+      "url": "/ja/guides/helpcrunch/after-hours-chat-messages/",
+      "target": "/ja/blog/helpcrunch/after-hours-chat-messages/"
     },
     {
       "url": "/ja/guides/streamyard/guest-led-product-demo/",
