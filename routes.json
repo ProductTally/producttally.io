@@ -296,6 +296,12 @@
     },
     {
       "lang": "en",
+      "route": "products/vizard",
+      "url": "/products/vizard/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
       "route": "products/sembly-ai",
       "url": "/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -1268,6 +1274,12 @@
       "lang": "zh",
       "route": "products/higgsfield",
       "url": "/zh/products/higgsfield/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "products/vizard",
+      "url": "/zh/products/vizard/",
       "lastmod": "2026-11-18"
     },
     {
@@ -2248,6 +2260,12 @@
     },
     {
       "lang": "es",
+      "route": "products/vizard",
+      "url": "/es/products/vizard/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
       "route": "products/sembly-ai",
       "url": "/es/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -3220,6 +3238,12 @@
       "lang": "ja",
       "route": "products/higgsfield",
       "url": "/ja/products/higgsfield/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "products/vizard",
+      "url": "/ja/products/vizard/",
       "lastmod": "2026-11-18"
     },
     {
