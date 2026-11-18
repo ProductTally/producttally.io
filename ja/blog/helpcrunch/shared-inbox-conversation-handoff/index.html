@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HelpCrunchでチャットを引き継ぐ方法：担当者と非公開メモ — ProductTally</title>
+  <meta name="description" content="決済後もプランが変わらない問い合わせを技術担当へ引き継ぎ、顧客に見える返信を確認します。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/helpcrunch/shared-inbox-conversation-handoff/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/helpcrunch/shared-inbox-conversation-handoff/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/helpcrunch/shared-inbox-conversation-handoff/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/helpcrunch/shared-inbox-conversation-handoff/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="HelpCrunchでチャットを引き継ぐ方法：担当者と非公開メモ — ProductTally">
+  <meta property="og:description" content="決済後もプランが変わらない問い合わせを技術担当へ引き継ぎ、顧客に見える返信を確認します。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/shared-inbox-conversation-handoff/cover.webp">
+  <meta property="og:image:alt" content="社内メモと顧客への返信を分けたサポート引き継ぎ例。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="520">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HelpCrunchでチャットを引き継ぐ方法：担当者と非公開メモ — ProductTally">
+  <meta name="twitter:description" content="決済後もプランが変わらない問い合わせを技術担当へ引き継ぎ、顧客に見える返信を確認します。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/shared-inbox-conversation-handoff/cover.webp">
+  <meta name="twitter:image:alt" content="社内メモと顧客への返信を分けたサポート引き継ぎ例。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/#webpage","name":"HelpCrunchでチャットを引き継ぐ方法：担当者と非公開メモ","description":"決済後もプランが変わらない問い合わせを技術担当へ引き継ぎ、顧客に見える返信を確認します。","url":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/#article","headline":"HelpCrunchでチャットを引き継ぐ方法：担当者と非公開メモ","description":"決済後もプランが変わらない問い合わせを技術担当へ引き継ぎ、顧客に見える返信を確認します。","url":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/#article-image","url":"https://producttally.com/assets/articles/shared-inbox-conversation-handoff/cover.webp","contentUrl":"https://producttally.com/assets/articles/shared-inbox-conversation-handoff/cover.webp","width":1180,"height":520,"caption":"社内メモと顧客への返信を分けたサポート引き継ぎ例。"},"about":[{"@id":"https://producttally.com/products/helpcrunch/#software"}],"dateModified":"2026-11-18","citation":["https://helpcrunch.com/shared-inbox.html","https://docs.helpcrunch.com/en/inbox/chat-assignment"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/helpcrunch/#software","name":"HelpCrunch","url":"https://helpcrunch.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"HelpCrunch","item":"https://producttally.com/ja/products/helpcrunch/"},{"@type":"ListItem","position":4,"name":"HelpCrunchでチャットを引き継いだ後、誰が顧客に返信する？","item":"https://producttally.com/ja/blog/helpcrunch/shared-inbox-conversation-handoff/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/helpcrunch/shared-inbox-conversation-handoff/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/helpcrunch/shared-inbox-conversation-handoff/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/helpcrunch/shared-inbox-conversation-handoff/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/helpcrunch/shared-inbox-conversation-handoff/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/helpcrunch/shared-inbox-conversation-handoff/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/helpcrunch/shared-inbox-conversation-handoff/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/helpcrunch/shared-inbox-conversation-handoff/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/helpcrunch/shared-inbox-conversation-handoff/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">ブログ</a></li><li><a href="/ja/products/helpcrunch/">HelpCrunch</a></li><li><span aria-current="page">HelpCrunchでチャットを引き継いだ後、誰が顧客に返信する？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">ウェブとフォーム · 3 最小読み取り</p>
+        <h1>HelpCrunchでチャットを引き継いだ後、誰が顧客に返信する？</h1>
+        <p class="lead">決済後もプランが変わらない問い合わせを技術担当へ引き継ぎ、顧客に見える返信を確認します。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-18">2026/11/18</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/shared-inbox-conversation-handoff/cover.webp" srcset="/assets/articles/shared-inbox-conversation-handoff/cover-small.webp 640w, /assets/articles/shared-inbox-conversation-handoff/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="520" alt="社内メモと顧客への返信を分けたサポート引き継ぎ例。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>顧客は支払いを終えたのに、アカウントには以前のプランが表示されています。一次対応の担当者が確認できた範囲を調べ、技術担当の助けが必要になりました。HelpCrunchの共有受信箱では、会話を割り当て、チーム内に非公開メモを残せます。引き継ぐ担当者と確認済みの点を明記し、顧客向けの連絡は相手が見られる場所に送ります。</p>
+        </div>
+        <section id="section-0">
+          <h2>次に調べることをメモに書く</h2><p>架空の例であれば「顧客は決済完了画面を確認済み。画面のプランは以前のまま。一次対応で決済時刻を確認。技術担当は注文とアカウントの紐付けを調べる」と書けます。決済情報の全文やパスワードは載せません。調査に時間がかかる場合、実際に連絡できる時刻を顧客に伝えます。</p><p>HelpCrunchの手動割り当てでは、新しいチャットは未割り当てで、最初に返信した担当者に自動で割り当てられます。別の人が引き継ぐときは、会話を改めて割り当てます。社内メモはNoteに残し、利用者への連絡は別途返信します。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://helpcrunch.com/shared-inbox.html?utm_medium=affiliate&amp;utm_campaign=affiliates_v1&amp;fp_ref=evan-340fb1" data-affiliate-click="helpcrunch" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">HelpCrunchの共有受信箱</a></li><li><a data-source-citation="true" href="https://docs.helpcrunch.com/en/inbox/chat-assignment?utm_medium=affiliate&amp;utm_campaign=affiliates_v1&amp;fp_ref=evan-340fb1" data-affiliate-click="helpcrunch" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">HelpCrunchのチャット割り当て</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/shared-inbox-conversation-handoff/details.webp" width="1180" height="520"
+          alt="架空の会話です。社内メモには確認内容と次の担当者を書き、顧客への返信には次回の連絡時刻を伝えます。" loading="lazy" decoding="async"><figcaption>架空の会話です。社内メモには確認内容と次の担当者を書き、顧客への返信には次回の連絡時刻を伝えます。</figcaption></figure><section id="section-1">
+          <h2>顧客と同じ画面で確認する</h2><p>テスト用チャットから架空の質問を送り、2人のチームメンバーの画面で担当者とメモを確認します。最後に訪問者画面へ戻り、どの返信が表示されるかを見ます。新しい担当者に届いたか、メモが社内だけに見えるか、顧客が公開返信を読めるかを確認しましょう。権限を検証できない場合は記録し、別の担当者に確認してもらいます。実際の引き継ぎでも、担当者、調査済みの内容、次の連絡予定を残します。</p>
+        </section>
+        <section class="article-next"><h2>公式ウェブサイトにアクセス</h2>
+          <ul><li><p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><a class="text-link" href="https://helpcrunch.com/?utm_medium=affiliate&amp;utm_campaign=affiliates_v1&amp;fp_ref=evan-340fb1" data-affiliate-product="helpcrunch" data-affiliate-click="helpcrunch" data-affiliate-link-type="primary" target="_blank" rel="noopener nofollow">
+    <span><span translate="no">HelpCrunch</span> · 公式ウェブサイトにアクセス</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a></li></ul>
+          <a class="text-link" href="/ja/products/helpcrunch/">製品の詳細を見る</a>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/blog/helpcrunch/after-hours-chat-messages/">HelpCrunchで営業時間外の問い合わせを受け付ける方法</a></li><li><a href="/ja/blog/helpcrunch/helpcrunch-continue-website-chat-by-email/">訪問者がチャットを閉じたら、HelpCrunchの同じチケットでどうメールを送る？</a></li><li><a href="/ja/blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/">同じ質問が10件。ヘルプを書く？ それともページを直す？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><ul><li><cite><a data-source-citation="true" href="https://helpcrunch.com/shared-inbox.html?utm_medium=affiliate&amp;utm_campaign=affiliates_v1&amp;fp_ref=evan-340fb1" data-affiliate-click="helpcrunch" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">HelpCrunchの共有受信箱</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.helpcrunch.com/en/inbox/chat-assignment?utm_medium=affiliate&amp;utm_campaign=affiliates_v1&amp;fp_ref=evan-340fb1" data-affiliate-click="helpcrunch" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">HelpCrunchのチャット割り当て</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

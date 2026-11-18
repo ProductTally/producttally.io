@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google 搜索结果还显示旧标题？按三层检查 — ProductTally</title>
+  <meta name="description" content="对照页面 HTML、Search Console 的已索引与实时状态，以及 Google 实际生成的标题链接。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/search-troubleshooting/google-search-shows-old-page-title/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/search-troubleshooting/google-search-shows-old-page-title/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/search-troubleshooting/google-search-shows-old-page-title/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Google 搜索结果还显示旧标题？按三层检查 — ProductTally">
+  <meta property="og:description" content="对照页面 HTML、Search Console 的已索引与实时状态，以及 Google 实际生成的标题链接。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/google-search-shows-old-page-title/cover.webp">
+  <meta property="og:image:alt" content="虚构标题变更示例。分别记录当前 HTML 标题、上次抓取时间和实际展示的搜索结果标题。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="520">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Google 搜索结果还显示旧标题？按三层检查 — ProductTally">
+  <meta name="twitter:description" content="对照页面 HTML、Search Console 的已索引与实时状态，以及 Google 实际生成的标题链接。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/google-search-shows-old-page-title/cover.webp">
+  <meta name="twitter:image:alt" content="虚构标题变更示例。分别记录当前 HTML 标题、上次抓取时间和实际展示的搜索结果标题。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#webpage","name":"Google 搜索结果还显示旧标题？按三层检查","description":"对照页面 HTML、Search Console 的已索引与实时状态，以及 Google 实际生成的标题链接。","url":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#article","headline":"Google 搜索结果还显示旧标题？按三层检查","description":"对照页面 HTML、Search Console 的已索引与实时状态，以及 Google 实际生成的标题链接。","url":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#article-image","url":"https://producttally.com/assets/articles/google-search-shows-old-page-title/cover.webp","contentUrl":"https://producttally.com/assets/articles/google-search-shows-old-page-title/cover.webp","width":1180,"height":520,"caption":"虚构标题变更示例。分别记录当前 HTML 标题、上次抓取时间和实际展示的搜索结果标题。"},"dateModified":"2026-11-18","citation":["https://developers.google.com/search/docs/appearance/title-link","https://support.google.com/webmasters/answer/12482179","https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"搜索排查","item":"https://producttally.com/zh/blog/search-troubleshooting/"},{"@type":"ListItem","position":4,"name":"网页标题已经改了，Google 怎么还显示旧的？","item":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/search-troubleshooting/google-search-shows-old-page-title/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/search-troubleshooting/google-search-shows-old-page-title/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/search-troubleshooting/google-search-shows-old-page-title/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/search-troubleshooting/google-search-shows-old-page-title/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/search-troubleshooting/google-search-shows-old-page-title/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/search-troubleshooting/google-search-shows-old-page-title/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/search-troubleshooting/google-search-shows-old-page-title/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/search-troubleshooting/google-search-shows-old-page-title/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">博客</a></li><li><a href="/zh/blog/search-troubleshooting/">搜索排查</a></li><li><span aria-current="page">网页标题已经改了，Google 怎么还显示旧的？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">写作与研究 · 4 分钟阅读</p>
+        <h1>网页标题已经改了，Google 怎么还显示旧的？</h1>
+        <p class="lead">对照页面 HTML、Search Console 的已索引与实时状态，以及 Google 实际生成的标题链接。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-18">2026年11月18日</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/google-search-shows-old-page-title/cover.webp" srcset="/assets/articles/google-search-shows-old-page-title/cover-small.webp 640w, /assets/articles/google-search-shows-old-page-title/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="520" alt="虚构标题变更示例。分别记录当前 HTML 标题、上次抓取时间和实际展示的搜索结果标题。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>先确定旧字样在哪出现。还在网页 HTML 里，检查部署和模板。Search Console 的上次抓取早于改版，可能需要等待重新处理。已经抓到新页面却显示不同标题时，再检查可见主标题、其他醒目文字和链接文字。Google 会从多个来源自动生成标题链接。</p>
+        </div>
+        <section id="section-0">
+          <h2>依次核对实际 HTML、网址检查和结果标题</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.google.com/search/docs/appearance/title-link">Google 搜索标题链接说明</a></li></ul><p>假设 /blog/workshop-guide/ 周一从「活动发布指南」改为「小团队工作坊排期指南」，到周三搜索结果仍显示旧标题。</p><ol><li>实际 HTML：用无登录设备打开正确的网址，核对返回的 &lt;title&gt;、第一个醒目标题和 canonical。再查手机页面和站内卡片有没有还用旧称呼。若页面本身还旧，解决构建或缓存后再继续。</li><li>已索引与实时检查：在 Search Console 打开 URL Inspection。看已索引版本的最近抓取，再单独跑实时测试。实时测试能看到变更，不等于已索引版本或显示已更新。有权限且确有变化，可以请求重新编入索引。重复提交不会保证更快处理。</li><li>实际结果：记录同一语言、地区和查询出现的标题。已经重抓仍不同，就比较页面主标题、站内锚文本和近似页面的 canonical，看 Google 是否展示了别的地址或选了另一行文字。</li></ol><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">Search Console 的已索引与实时视图</a></li><li><a data-source-citation="true" href="https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl">请求重新抓取</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/google-search-shows-old-page-title/details.webp" width="1180" height="520"
+          alt="虚构标题变更示例。分别记录当前 HTML 标题、上次抓取时间和实际展示的搜索结果标题。" loading="lazy" decoding="async"><figcaption>虚构标题变更示例。分别记录当前 HTML 标题、上次抓取时间和实际展示的搜索结果标题。</figcaption></figure><section id="section-1">
+          <h2>记录标题和抓取时间</h2><p>修改到前台后，留一份日期和前后 HTML。过几天再观察时，先看抓取是否变化，再判断调整有没有到搜索结果。一个查询里的标题变化不足以说明其他查询也同步了。</p>
+        </section>
+        
+        
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://developers.google.com/search/docs/appearance/title-link">Google 搜索标题链接说明</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">Search Console 的已索引与实时视图</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl">请求重新抓取</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

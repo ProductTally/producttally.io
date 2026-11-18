@@ -25,8 +25,7 @@ ProductTally product pages explain product positioning, supported features, prac
 - [プロジェクトについて](https://producttally.com/ja/about/)
 
 ## Editorial principles
-- Separate observed results from features not tested.
-- Prefer official product documentation as a source.
+- Articles use official product documentation and cite documented vendor examples where available.
 - Product links lead to official vendor destinations.
 
 ## Site maps

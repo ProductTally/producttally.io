@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Windsor.aiで広告と注文データをまとめ、売上の二重計上を防ぐ — ProductTally</title>
+  <meta name="description" content="架空の2件を使い、注文売上と媒体の重複した貢献計上を分けます。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Windsor.aiで広告と注文データをまとめ、売上の二重計上を防ぐ — ProductTally">
+  <meta property="og:description" content="架空の2件を使い、注文売上と媒体の重複した貢献計上を分けます。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/windsor-ai-blend-marketing-data-without-double-counting/cover.webp">
+  <meta property="og:image:alt" content="架空の例です。2つの広告媒体がA001を計上し、広告側は合計210、店舗の2件の注文は合計130です。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="520">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Windsor.aiで広告と注文データをまとめ、売上の二重計上を防ぐ — ProductTally">
+  <meta name="twitter:description" content="架空の2件を使い、注文売上と媒体の重複した貢献計上を分けます。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/windsor-ai-blend-marketing-data-without-double-counting/cover.webp">
+  <meta name="twitter:image:alt" content="架空の例です。2つの広告媒体がA001を計上し、広告側は合計210、店舗の2件の注文は合計130です。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/#webpage","name":"Windsor.aiで広告と注文データをまとめ、売上の二重計上を防ぐ","description":"架空の2件を使い、注文売上と媒体の重複した貢献計上を分けます。","url":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/#article","headline":"Windsor.aiで広告と注文データをまとめ、売上の二重計上を防ぐ","description":"架空の2件を使い、注文売上と媒体の重複した貢献計上を分けます。","url":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/#article-image","url":"https://producttally.com/assets/articles/windsor-ai-blend-marketing-data-without-double-counting/cover.webp","contentUrl":"https://producttally.com/assets/articles/windsor-ai-blend-marketing-data-without-double-counting/cover.webp","width":1180,"height":520,"caption":"架空の例です。2つの広告媒体がA001を計上し、広告側は合計210、店舗の2件の注文は合計130です。"},"about":[{"@id":"https://producttally.com/products/windsor-ai/#software"}],"dateModified":"2026-11-18","citation":["https://windsor.ai/data-field/all/","https://support.google.com/analytics/answer/12313109"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/windsor-ai/#software","name":"Windsor.ai","url":"https://windsor.ai/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"Windsor.ai","item":"https://producttally.com/ja/products/windsor-ai/"},{"@type":"ListItem","position":4,"name":"広告媒体の売上を足したら、店の売上より大きくなるのはなぜ？","item":"https://producttally.com/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">ブログ</a></li><li><a href="/ja/products/windsor-ai/">Windsor.ai</a></li><li><span aria-current="page">広告媒体の売上を足したら、店の売上より大きくなるのはなぜ？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">生産性 · 4 最小読み取り</p>
+        <h1>Windsor.ai: 広告媒体の売上を足したら、店の売上より大きくなるのはなぜ？</h1>
+        <p class="lead">架空の2件を使い、注文売上と媒体の重複した貢献計上を分けます。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-18">2026/11/18</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/windsor-ai-blend-marketing-data-without-double-counting/cover.webp" srcset="/assets/articles/windsor-ai-blend-marketing-data-without-double-counting/cover-small.webp 640w, /assets/articles/windsor-ai-blend-marketing-data-without-double-counting/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="520" alt="架空の例です。2つの広告媒体がA001を計上し、広告側は合計210、店舗の2件の注文は合計130です。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>店舗の注文売上と、広告媒体が計上した成果を分けます。Windsor.aiのBlended Dataでは、接続済みのデータソースを一つの入口から取得できます。各行が注文、媒体ごとの日次集計、媒体が計上したコンバージョンのどれかを決めます。同じ購入を複数の媒体が成果とみなし、計測期間も異なる場合があります。</p>
+        </div>
+        <section id="section-0">
+          <h2>例の2件の注文で金額を照合する</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://windsor.ai/data-field/all/?fpr=evan-f390ad" data-affiliate-click="windsor-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener">Windsor.aiのBlended Data</a></li></ul><p>Blended Dataの出力では日付や金額にsourceを残し、行ごとに元のコネクターを特定できるようにします。結合を設計する前に、各ソースが注文IDを提供するか確認します。</p><div class="article-table"><table>
+    <caption>例の2件の注文で金額を照合する</caption>
+    <thead><tr><th scope="col">注文</th><th scope="col">店舗の金額</th><th scope="col">媒体A</th><th scope="col">媒体B</th></tr></thead>
+    <tbody><tr><th scope="row">A001</th><td>80</td><td>80</td><td>80</td></tr><tr><th scope="row">A002</th><td>50</td><td>—</td><td>50</td></tr><tr><th scope="row">合計</th><td>130</td><td>80</td><td>130</td></tr></tbody>
+  </table></div><p>架空の例では、媒体の合計は210で店舗は130です。A001が両方に計上されています。注文単位で集計できるなら、店舗と注文IDを組み合わせて識別し、商品明細、返品、通貨を整理してから合計します。短い注文番号は店舗間で重なることがあります。GA4は一意の取引IDで購入イベントの重複を減らせます。別媒体の報告を照合する作業は別途必要です。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/analytics/answer/12313109">Google Analyticsの取引ID</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/windsor-ai-blend-marketing-data-without-double-counting/details.webp" width="1180" height="520"
+          alt="架空の例です。2つの広告媒体がA001を計上し、広告側は合計210、店舗の2件の注文は合計130です。" loading="lazy" decoding="async"><figcaption>架空の例です。2つの広告媒体がA001を計上し、広告側は合計210、店舗の2件の注文は合計130です。</figcaption></figure><section id="section-1">
+          <h2>日別集計は広告媒体ごとに表示する</h2><p>共通の注文IDがなければ、日付、媒体、アカウント、通貨、計測期間ごとに表示します。媒体が計上した売上と店舗の売上を別の列にし、ROASでどの値を使うか明記します。注文と広告費を同じ粒度でそれぞれ集計してから結合し、金額が複数行に増えないか確かめます。公開前に、分かっている重複注文、返品、タイムゾーンを照合します。</p>
+        </section>
+        <section class="article-next"><h2>公式ウェブサイトにアクセス</h2>
+          <ul><li><p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><a class="text-link" href="https://windsor.ai/?fpr=evan-f390ad" data-affiliate-product="windsor-ai" data-affiliate-click="windsor-ai" data-affiliate-link-type="primary" target="_blank" rel="noopener">
+    <span><span translate="no">Windsor.ai</span> · 公式ウェブサイトにアクセス</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a></li></ul>
+          <a class="text-link" href="/ja/products/windsor-ai/">製品の詳細を見る</a>
+        </section>
+        
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><ul><li><cite><a data-source-citation="true" href="https://windsor.ai/data-field/all/?fpr=evan-f390ad" data-affiliate-click="windsor-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener">Windsor.aiのBlended Data</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/12313109">Google Analyticsの取引ID</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ポッドキャストの音量をそろえるには？LUFSとトゥルーピークの確認 — ProductTally</title>
+  <meta name="description" content="話者の音量をそろえ、Apple Podcastsの公式ラウドネスとトゥルーピークの目安で確認してから書き出します。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/podcast-production/check-podcast-loudness-before-export/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="ポッドキャストの音量をそろえるには？LUFSとトゥルーピークの確認 — ProductTally">
+  <meta property="og:description" content="話者の音量をそろえ、Apple Podcastsの公式ラウドネスとトゥルーピークの目安で確認してから書き出します。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp">
+  <meta property="og:image:alt" content="エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="520">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ポッドキャストの音量をそろえるには？LUFSとトゥルーピークの確認 — ProductTally">
+  <meta name="twitter:description" content="話者の音量をそろえ、Apple Podcastsの公式ラウドネスとトゥルーピークの目安で確認してから書き出します。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp">
+  <meta name="twitter:image:alt" content="エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#webpage","name":"ポッドキャストの音量をそろえるには？LUFSとトゥルーピークの確認","description":"話者の音量をそろえ、Apple Podcastsの公式ラウドネスとトゥルーピークの目安で確認してから書き出します。","url":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#article","headline":"ポッドキャストの音量をそろえるには？LUFSとトゥルーピークの確認","description":"話者の音量をそろえ、Apple Podcastsの公式ラウドネスとトゥルーピークの目安で確認してから書き出します。","url":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#article-image","url":"https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp","contentUrl":"https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp","width":1180,"height":520,"caption":"エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。"},"dateModified":"2026-11-18","citation":["https://ffmpeg.org/ffmpeg-filters.html#loudnorm","https://podcasters.apple.com/support/893-audio-requirements"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"ポッドキャスト制作","item":"https://producttally.com/ja/blog/podcast-production/"},{"@type":"ListItem","position":4,"name":"ポッドキャストの回ごとの音量をそろえるには？","item":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/podcast-production/check-podcast-loudness-before-export/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/podcast-production/check-podcast-loudness-before-export/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/podcast-production/check-podcast-loudness-before-export/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/podcast-production/check-podcast-loudness-before-export/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/podcast-production/check-podcast-loudness-before-export/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/podcast-production/check-podcast-loudness-before-export/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/podcast-production/check-podcast-loudness-before-export/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/podcast-production/check-podcast-loudness-before-export/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">ブログ</a></li><li><a href="/ja/blog/podcast-production/">ポッドキャスト制作</a></li><li><span aria-current="page">ポッドキャストの回ごとの音量をそろえるには？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">音声とポッドキャスト · 4 最小読み取り</p>
+        <h1>ポッドキャストの回ごとの音量をそろえるには？</h1>
+        <p class="lead">話者の音量をそろえ、Apple Podcastsの公式ラウドネスとトゥルーピークの目安で確認してから書き出します。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-18">2026/11/18</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/check-podcast-loudness-before-export/cover.webp" srcset="/assets/articles/check-podcast-loudness-before-export/cover-small.webp 640w, /assets/articles/check-podcast-loudness-before-export/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="520" alt="エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>まず、同じ回に出る人どうしの声の大きさを調整します。そのあと、書き出した全編で統合ラウドネスとトゥルーピークを測ります。話者の音量を整えると聞き取りやすくなり、全編の測定では回全体の水準とピークの余裕が分かります。同じ再生音量で冒頭、末尾、話者が交代する箇所を聞いてみてください。</p>
+        </div>
+        <section id="section-0">
+          <h2>書き出したミックスを確認する前に声の音量を整える</h2><p>FFmpegの公式文書は統合ラウドネスとトゥルーピークを指定できるloudnormを案内しています。配信先の目標を選び、同じ再生音量で話者の切り替わりを確認します。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">FFmpegのloudnormフィルター</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/check-podcast-loudness-before-export/details.webp" width="1180" height="520"
+          alt="エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。" loading="lazy" decoding="async"><figcaption>エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。</figcaption></figure><section id="section-1">
+          <h2>配信先の推奨値を確認する</h2><p>Apple Podcastsは、エンコード前の全体を約−16 dB LKFS、許容範囲を±1 dB、トゥルーピークを−1 dB FS以下とするよう推奨しています。配信先と、モノラルかステレオかを記録します。各トラックを整えて全体を測ったあと、特に非可逆形式で書き出すときは、実際の納品ファイルのピークと聞き取りやすさも確認してください。</p><p>AppleはRSS配信の音声にMP3またはAACを受け付けます。Apple Podcasts Connectに購読者向けのWAVまたはFLACを納品する場合は2チャンネルが必要で、モノラル音源は左右に同じ信号を入れます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://podcasters.apple.com/support/893-audio-requirements">Apple Podcastsの音声要件</a></li></ul>
+        </section>
+        
+        
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">FFmpegのloudnormフィルター</a></cite></li><li><cite><a data-source-citation="true" href="https://podcasters.apple.com/support/893-audio-requirements">Apple Podcastsの音声要件</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

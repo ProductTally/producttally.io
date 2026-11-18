@@ -20,7 +20,7 @@
   <meta property="og:description" content="架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。">
   <meta property="og:url" content="https://producttally.com/ja/blog/n8n/human-approval-timeout/">
   <meta property="og:image" content="https://producttally.com/assets/articles/human-approval-timeout/cover.webp">
-  <meta property="og:image:alt" content="見積もりQ-104 v2の図。60秒のうち46秒で承認され、テスト送信を1回記録します。">
+  <meta property="og:image:alt" content="見積もりが承認、修正、期限切れに分かれる例。">
   <meta property="og:image:width" content="1100">
   <meta property="og:image:height" content="560">
   <meta property="og:image:type" content="image/webp">
@@ -32,11 +32,11 @@
   <meta name="twitter:title" content="n8nのWaitノードで承認の期限切れを処理する方法 — ProductTally">
   <meta name="twitter:description" content="架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。">
   <meta name="twitter:image" content="https://producttally.com/assets/articles/human-approval-timeout/cover.webp">
-  <meta name="twitter:image:alt" content="見積もりQ-104 v2の図。60秒のうち46秒で承認され、テスト送信を1回記録します。">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#webpage","name":"n8nのWaitノードで承認の期限切れを処理する方法","description":"架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。","url":"https://producttally.com/ja/blog/n8n/human-approval-timeout/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article","headline":"n8nのWaitノードで承認の期限切れを処理する方法","description":"架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。","url":"https://producttally.com/ja/blog/n8n/human-approval-timeout/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article-image","url":"https://producttally.com/assets/articles/human-approval-timeout/cover.webp","contentUrl":"https://producttally.com/assets/articles/human-approval-timeout/cover.webp","width":1100,"height":560,"caption":"見積もりQ-104 v2の図。60秒のうち46秒で承認され、テスト送信を1回記録します。"},"about":[{"@id":"https://producttally.com/products/n8n/#software"}],"dateModified":"2026-11-17","citation":["https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.wait/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/n8n/#software","name":"n8n","url":"https://n8n.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"n8n","item":"https://producttally.com/ja/products/n8n/"},{"@type":"ListItem","position":4,"name":"n8nで担当者の承認が期限切れになったら、次に何をする？","item":"https://producttally.com/ja/blog/n8n/human-approval-timeout/"}]}]}</script>
+  <meta name="twitter:image:alt" content="見積もりが承認、修正、期限切れに分かれる例。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#webpage","name":"n8nのWaitノードで承認の期限切れを処理する方法","description":"架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。","url":"https://producttally.com/ja/blog/n8n/human-approval-timeout/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article","headline":"n8nのWaitノードで承認の期限切れを処理する方法","description":"架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。","url":"https://producttally.com/ja/blog/n8n/human-approval-timeout/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article-image","url":"https://producttally.com/assets/articles/human-approval-timeout/cover.webp","contentUrl":"https://producttally.com/assets/articles/human-approval-timeout/cover.webp","width":1100,"height":560,"caption":"見積もりが承認、修正、期限切れに分かれる例。"},"about":[{"@id":"https://producttally.com/products/n8n/#software"}],"dateModified":"2026-11-18","citation":["https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.wait/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/n8n/#software","name":"n8n","url":"https://n8n.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"n8n","item":"https://producttally.com/ja/products/n8n/"},{"@type":"ListItem","position":4,"name":"n8nで担当者の承認が期限切れになったら、次に何をする？","item":"https://producttally.com/ja/blog/n8n/human-approval-timeout/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-0075ee3e4af9.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
@@ -82,14 +82,14 @@
         <h1>n8nで担当者の承認が期限切れになったら、次に何をする？</h1>
         <p class="lead">架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。</p>
         <p class="byline">によって <a href="/ja/about/">Evan</a>
-          · 更新日 <time datetime="2026-11-17">2026/11/17</time></p>
+          · 更新日 <time datetime="2026-11-18">2026/11/18</time></p>
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
     src="/assets/articles/human-approval-timeout/cover.webp" srcset="/assets/articles/human-approval-timeout/cover-small.webp 640w, /assets/articles/human-approval-timeout/cover.webp 1100w" sizes="(max-width: 51rem) 100vw, 49rem"
-    width="1100" height="560" alt="見積もりQ-104 v2の図。60秒のうち46秒で承認され、テスト送信を1回記録します。"
+    width="1100" height="560" alt="見積もりが承認、修正、期限切れに分かれる例。"
     loading="eager" decoding="async"></div>
-    <figcaption>見積もりQ-104 v2の図。60秒のうち46秒で承認され、テスト送信を1回記録します。</figcaption>
+    <figcaption>見積もりが承認、修正、期限切れに分かれる例。</figcaption>
   </figure>
     </header>
     <div class="article-grid">
@@ -107,16 +107,19 @@
     <tbody><tr><th scope="row">現在の版に明示的な承認がある</th><td>送信前の最終確認に進み、承認者と日時を記録する。</td></tr><tr><th scope="row">修正の指示がある</th><td>見積もりを差し戻し、まだ送っていない状態を維持する。</td></tr><tr><th scope="row">期限を過ぎても判断がない</th><td>期限切れとして記録し、責任者に知らせて再申請を待つ。</td></tr></tbody>
   </table></div><p>返事が遅れて届いたら、見積もりが変わっていないか確認します。前の回の承認で新しい版を送ることはできません。誰が、どの版に、いつ判断したか分かる記録を残します。宛先、金額、承認記録が一致してから、本番の送信を接続します。</p>
         </section><section id="section-2">
-          <h2>遅れた返答と重複をログで試す</h2><p>架空の見積もりで三つの結果を試し、遅れた返事と重複送信も確認します。送信処理はテストログに置き換え、後続の動作が何回起きたかを見ます。表は受け入れ条件の例です。実際に使うバージョンで、ノードの出力と期限切れ・承認が重なった場合の処理を確かめてください。</p><p>ローカルの模擬実行では期限を60秒にしました。Q-104は46秒で承認、Q-105は37秒で差し戻し、Q-106は期限切れでした。Q-107の61秒での承認、Q-108の2回目の承認、Q-109のv1への承認は無視され、Q-104とQ-108だけがテスト送信を1回ずつ記録しました。ここで確かめたのは提案したルールです。n8nでの動作は別途確認します。</p>
-        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/human-approval-timeout/approval-simulation.webp" width="1040" height="490"
-          alt="v2の見積もり6件のローカル模擬実行。✓承認、↩差し戻し、!期限切れ、×無視。右列はテスト送信数です。" loading="lazy" decoding="async"><figcaption>v2の見積もり6件のローカル模擬実行。✓承認、↩差し戻し、!期限切れ、×無視。右列はテスト送信数です。</figcaption></figure>
+          <h2>遅れた返答と重複をログで試す</h2><p>架空の見積もりで三つの結果を試し、遅れた返事と重複送信も確認します。送信処理はテストログに置き換え、後続の動作が何回起きたかを見ます。表は受け入れ条件の例です。実際に使うバージョンで、ノードの出力と期限切れ・承認が重なった場合の処理を確かめてください。</p>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/human-approval-timeout/approval-workflow.webp" width="1040" height="490"
+          alt="見積もりが承認、修正、期限切れに分かれる例。" loading="lazy" decoding="async"><figcaption>見積もりが承認、修正、期限切れに分かれる例。</figcaption></figure>
         <section class="article-next"><h2>公式ウェブサイトにアクセス</h2>
           <ul><li><a class="text-link" href="https://n8n.io/" data-editorial-product="n8n">
     <span><span translate="no">n8n</span> · 公式ウェブサイトにアクセス</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
   </a></li></ul>
           <a class="text-link" href="/ja/products/n8n/">製品の詳細を見る</a>
         </section>
-        
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/blog/n8n/prevent-duplicate-form-submissions-with-n8n/">フォームが再送されてもn8nの登録を1件に保つには？</a></li><li><a href="/ja/blog/n8n/n8n-sub-workflow-address-input-output-example/">n8nの二つのワークフローで、住所チェックを共通化するなら？</a></li></ul>
+        </section>
         <section class="article-resources"><h2>公式参考資料</h2>
           <ul><li><cite><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.wait/">n8n公式のWaitノードの説明</a></cite></li></ul>
         </section>

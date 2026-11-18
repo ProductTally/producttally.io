@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>播客音量怎么统一？用 LUFS 与真峰值检查同一段录音 — ProductTally</title>
+  <meta name="description" content="先平衡各位说话人的音量，再按 Apple Podcasts 官方响度与真峰值要求检查导出。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/podcast-production/check-podcast-loudness-before-export/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="播客音量怎么统一？用 LUFS 与真峰值检查同一段录音 — ProductTally">
+  <meta property="og:description" content="先平衡各位说话人的音量，再按 Apple Podcasts 官方响度与真峰值要求检查导出。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp">
+  <meta property="og:image:alt" content="Apple Podcasts 官方编码前综合响度和真峰值建议。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="520">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="播客音量怎么统一？用 LUFS 与真峰值检查同一段录音 — ProductTally">
+  <meta name="twitter:description" content="先平衡各位说话人的音量，再按 Apple Podcasts 官方响度与真峰值要求检查导出。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp">
+  <meta name="twitter:image:alt" content="Apple Podcasts 官方编码前综合响度和真峰值建议。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#webpage","name":"播客音量怎么统一？用 LUFS 与真峰值检查同一段录音","description":"先平衡各位说话人的音量，再按 Apple Podcasts 官方响度与真峰值要求检查导出。","url":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#article","headline":"播客音量怎么统一？用 LUFS 与真峰值检查同一段录音","description":"先平衡各位说话人的音量，再按 Apple Podcasts 官方响度与真峰值要求检查导出。","url":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#article-image","url":"https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp","contentUrl":"https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp","width":1180,"height":520,"caption":"Apple Podcasts 官方编码前综合响度和真峰值建议。"},"dateModified":"2026-11-18","citation":["https://ffmpeg.org/ffmpeg-filters.html#loudnorm","https://podcasters.apple.com/support/893-audio-requirements"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"播客制作","item":"https://producttally.com/zh/blog/podcast-production/"},{"@type":"ListItem","position":4,"name":"每期播客音量都不一样，剪辑前怎么统一检查？","item":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/podcast-production/check-podcast-loudness-before-export/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/podcast-production/check-podcast-loudness-before-export/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/podcast-production/check-podcast-loudness-before-export/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/podcast-production/check-podcast-loudness-before-export/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/podcast-production/check-podcast-loudness-before-export/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/podcast-production/check-podcast-loudness-before-export/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/podcast-production/check-podcast-loudness-before-export/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/podcast-production/check-podcast-loudness-before-export/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">博客</a></li><li><a href="/zh/blog/podcast-production/">播客制作</a></li><li><span aria-current="page">每期播客音量都不一样，剪辑前怎么统一检查？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">音频与播客 · 4 分钟阅读</p>
+        <h1>每期播客音量都不一样，剪辑前怎么统一检查？</h1>
+        <p class="lead">先平衡各位说话人的音量，再按 Apple Podcasts 官方响度与真峰值要求检查导出。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-18">2026年11月18日</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/check-podcast-loudness-before-export/cover.webp" srcset="/assets/articles/check-podcast-loudness-before-export/cover-small.webp 640w, /assets/articles/check-podcast-loudness-before-export/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="520" alt="Apple Podcasts 官方编码前综合响度和真峰值建议。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>先把同一集里的人声调得相对均衡，再测整集导出文件的综合响度和真峰值。前者帮你听清不同人说话，后者帮你看每集的总体音量和峰值余量。两段录音峰值一样，听起来也可能一大一小。做完单轨调整后，以同一个播放音量回听各人开头、结尾和换人处。</p>
+        </div>
+        <section id="section-0">
+          <h2>先平衡人声，再核对导出的混音</h2><p>FFmpeg 官方文档介绍了可指定综合响度和真峰值的 loudnorm。先确定交付平台目标，再用同一个播放音量听说话人之间的衔接，调整到清楚自然。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">FFmpeg loudnorm 滤镜</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/check-podcast-loudness-before-export/details.webp" width="1180" height="520"
+          alt="Apple Podcasts 官方编码前综合响度和真峰值建议。" loading="lazy" decoding="async"><figcaption>Apple Podcasts 官方编码前综合响度和真峰值建议。</figcaption></figure><section id="section-1">
+          <h2>交付前看目标平台的具体口径</h2><p>以 Apple Podcasts 为例，它给出的建议是编码前的整体响度约 −16 dB LKFS，允许 ±1 dB，真峰值不应超过 −1 dB FS。引用这个目标时注明平台，并写清自己的节目是单声道还是立体声。实际工作中先处理各轨、再测最终成品。需要最后转成有损格式时，也检查导出件的峰值和听感。</p><p>Apple 对 RSS 音频接受 MP3 或 AAC。如果通过 Apple Podcasts Connect 提交订阅专享音频，WAV 或 FLAC 要使用双声道，单声道素材应复制至左右两声道。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://podcasters.apple.com/support/893-audio-requirements">Apple Podcasts 音频要求</a></li></ul>
+        </section>
+        
+        
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">FFmpeg loudnorm 滤镜</a></cite></li><li><cite><a data-source-citation="true" href="https://podcasters.apple.com/support/893-audio-requirements">Apple Podcasts 音频要求</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

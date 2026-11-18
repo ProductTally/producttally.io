@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ライブのアーカイブ字幕を校正する：固有名詞・金額・表示時刻 — ProductTally</title>
+  <meta name="description" content="音声と3つの例文を照合し、焼き込み字幕と別ファイルのSRTを使い分けます。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="ライブのアーカイブ字幕を校正する：固有名詞・金額・表示時刻 — ProductTally">
+  <meta property="og:description" content="音声と3つの例文を照合し、焼き込み字幕と別ファイルのSRTを使い分けます。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/proofread-names-numbers-and-timing-in-replay-captions/cover.webp">
+  <meta property="og:image:alt" content="名前、価格、発話中の時刻を確認する架空の字幕校正例。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="520">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ライブのアーカイブ字幕を校正する：固有名詞・金額・表示時刻 — ProductTally">
+  <meta name="twitter:description" content="音声と3つの例文を照合し、焼き込み字幕と別ファイルのSRTを使い分けます。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/proofread-names-numbers-and-timing-in-replay-captions/cover.webp">
+  <meta name="twitter:image:alt" content="名前、価格、発話中の時刻を確認する架空の字幕校正例。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/#webpage","name":"ライブのアーカイブ字幕を校正する：固有名詞・金額・表示時刻","description":"音声と3つの例文を照合し、焼き込み字幕と別ファイルのSRTを使い分けます。","url":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/#article","headline":"ライブのアーカイブ字幕を校正する：固有名詞・金額・表示時刻","description":"音声と3つの例文を照合し、焼き込み字幕と別ファイルのSRTを使い分けます。","url":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/#article-image","url":"https://producttally.com/assets/articles/proofread-names-numbers-and-timing-in-replay-captions/cover.webp","contentUrl":"https://producttally.com/assets/articles/proofread-names-numbers-and-timing-in-replay-captions/cover.webp","width":1180,"height":520,"caption":"名前、価格、発話中の時刻を確認する架空の字幕校正例。"},"about":[{"@id":"https://producttally.com/products/submagic/#software"}],"dateModified":"2026-11-18","citation":["https://www.submagic.co/add-subtitles-to-video","https://support.google.com/youtube/answer/2734796?hl=en"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/submagic/#software","name":"Submagic","url":"https://www.submagic.co/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"Submagic","item":"https://producttally.com/ja/products/submagic/"},{"@type":"ListItem","position":4,"name":"ライブの見逃し配信に字幕を付ける前に、何を確認する？","item":"https://producttally.com/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">ブログ</a></li><li><a href="/ja/products/submagic/">Submagic</a></li><li><span aria-current="page">ライブの見逃し配信に字幕を付ける前に、何を確認する？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">動画 · 4 最小読み取り</p>
+        <h1>Submagic: ライブの見逃し配信に字幕を付ける前に、何を確認する？</h1>
+        <p class="lead">音声と3つの例文を照合し、焼き込み字幕と別ファイルのSRTを使い分けます。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-18">2026/11/18</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/proofread-names-numbers-and-timing-in-replay-captions/cover.webp" srcset="/assets/articles/proofread-names-numbers-and-timing-in-replay-captions/cover-small.webp 640w, /assets/articles/proofread-names-numbers-and-timing-in-replay-captions/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="520" alt="名前、価格、発話中の時刻を確認する架空の字幕校正例。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>名前、価格や単位、字幕の表示時刻を確認します。Submagicでは編集後に字幕を映像に焼き込むか、SRTで出力できます。ライブ中の字幕は校正後のアーカイブとは別の版として扱います。</p>
+        </div>
+        <section id="section-0">
+          <h2>音声と字幕を照合する</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.submagic.co/add-subtitles-to-video?via=evan-fa1c68" data-affiliate-click="submagic" data-affiliate-link-type="citation" target="_blank" rel="noopener">Submagicの焼き込み字幕とSRT</a></li></ul><p>練習用の短い音声を録り、例の時刻はそのファイルの字幕時刻に置き換えます。</p><div class="article-table"><table>
+    <caption>架空の字幕で確認する三点</caption>
+    <thead><tr><th scope="col">架空のセリフ</th><th scope="col">確認点</th></tr></thead>
+    <tbody><tr><th scope="row">「ゲストはZoë Chenさんです」</th><td>アクセント記号、表記、出現箇所ごとの一致</td></tr><tr><th scope="row">「19.90米ドルで、199米ドルではありません」</th><td>小数点、通貨、否定と改行後の意味</td></tr><tr><th scope="row">「02:15で表に切り替えます」</th><td>発話中の時刻と字幕が出る時刻を別々に確認</td></tr></tbody>
+  </table></div>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/proofread-names-numbers-and-timing-in-replay-captions/details.webp" width="1180" height="520"
+          alt="名前、価格、発話中の時刻を確認する架空の字幕校正例。" loading="lazy" decoding="async"><figcaption>名前、価格、発話中の時刻を確認する架空の字幕校正例。</figcaption></figure><section id="section-1">
+          <h2>字幕の公開方法を選ぶ</h2><p>元の音声を残し、通常速度で再生しながら、間、発話の重なり、数字が続く箇所を見直します。YouTubeに別の字幕を添える場合は、動画の字幕設定で言語とファイルを選びます。必要な場合を除き、焼き込みに同じ言語の字幕を重ねません。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/youtube/answer/2734796?hl=en">YouTubeに字幕を追加する</a></li></ul>
+        </section>
+        <section class="article-next"><h2>公式ウェブサイトにアクセス</h2>
+          <ul><li><p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><a class="text-link" href="https://submagic.co/?via=evan-fa1c68" data-affiliate-product="submagic" data-affiliate-click="submagic" data-affiliate-link-type="primary" target="_blank" rel="noopener">
+    <span><span translate="no">Submagic</span> · 公式ウェブサイトにアクセス</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a></li></ul>
+          <a class="text-link" href="/ja/products/submagic/">製品の詳細を見る</a>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/blog/submagic/place-two-language-captions-without-covering-demo/">2言語の字幕で製品デモが隠れないようにするには？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><ul><li><cite><a data-source-citation="true" href="https://www.submagic.co/add-subtitles-to-video?via=evan-fa1c68" data-affiliate-click="submagic" data-affiliate-link-type="citation" target="_blank" rel="noopener">Submagicの焼き込み字幕とSRT</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/youtube/answer/2734796?hl=en">YouTubeに字幕を追加する</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

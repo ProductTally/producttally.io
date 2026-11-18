@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entradas y salidas de un subflujo de n8n con un ejemplo de direcciones — ProductTally</title>
+  <meta name="description" content="Reutiliza una comprobación de campos de dirección y devuelve al flujo principal un resultado que pueda usar.">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/n8n/n8n-sub-workflow-address-input-output-example/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/n8n/n8n-sub-workflow-address-input-output-example/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/n8n/n8n-sub-workflow-address-input-output-example/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/n8n/n8n-sub-workflow-address-input-output-example/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Entradas y salidas de un subflujo de n8n con un ejemplo de direcciones — ProductTally">
+  <meta property="og:description" content="Reutiliza una comprobación de campos de dirección y devuelve al flujo principal un resultado que pueda usar.">
+  <meta property="og:url" content="https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/n8n-sub-workflow-address-input-output-example/cover.webp">
+  <meta property="og:image:alt" content="Dos flujos llaman a una sola comprobación de dirección.">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="520">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Entradas y salidas de un subflujo de n8n con un ejemplo de direcciones — ProductTally">
+  <meta name="twitter:description" content="Reutiliza una comprobación de campos de dirección y devuelve al flujo principal un resultado que pueda usar.">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/n8n-sub-workflow-address-input-output-example/cover.webp">
+  <meta name="twitter:image:alt" content="Dos flujos llaman a una sola comprobación de dirección.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/#webpage","name":"Entradas y salidas de un subflujo de n8n con un ejemplo de direcciones","description":"Reutiliza una comprobación de campos de dirección y devuelve al flujo principal un resultado que pueda usar.","url":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/","inLanguage":"es","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/#article-image"},"breadcrumb":{"@id":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/#article","headline":"Entradas y salidas de un subflujo de n8n con un ejemplo de direcciones","description":"Reutiliza una comprobación de campos de dirección y devuelve al flujo principal un resultado que pueda usar.","url":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/","inLanguage":"es","mainEntityOfPage":{"@id":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/#article-image","url":"https://producttally.com/assets/articles/n8n-sub-workflow-address-input-output-example/cover.webp","contentUrl":"https://producttally.com/assets/articles/n8n-sub-workflow-address-input-output-example/cover.webp","width":1180,"height":520,"caption":"Dos flujos llaman a una sola comprobación de dirección."},"about":[{"@id":"https://producttally.com/products/n8n/#software"}],"dateModified":"2026-11-18","citation":["https://docs.n8n.io/build/flow-logic/break-workflows-into-smaller-parts","https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/n8n/#software","name":"n8n","url":"https://n8n.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://producttally.com/es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://producttally.com/es/blog/"},{"@type":"ListItem","position":3,"name":"n8n","item":"https://producttally.com/es/products/n8n/"},{"@type":"ListItem","position":4,"name":"¿Cuándo conviene compartir una comprobación de direcciones entre dos flujos de n8n?","item":"https://producttally.com/es/blog/n8n/n8n-sub-workflow-address-input-output-example/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="es" data-save-label="Guardar producto" data-unsave-label="Quitar de guardados" data-save-toast="Añadido a la selección" data-unsave-toast="Eliminado de la selección" data-storage-error="Tu navegador no pudo guardar el cambio.">
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/es/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="Navegación principal">
+          <div class="primary-links"><a href="/es/">Productos</a><a href="/es/blog/" aria-current="location">Blog</a><a href="/es/pricing/">Reseñas por encargo</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Idioma <span translate="no">Español</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">Español</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/n8n/n8n-sub-workflow-address-input-output-example/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/n8n/n8n-sub-workflow-address-input-output-example/" lang="es" translate="no" aria-current="page">
+      Español
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/n8n/n8n-sub-workflow-address-input-output-example/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/n8n/n8n-sub-workflow-address-input-output-example/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="Idioma"><a href="/blog/n8n/n8n-sub-workflow-address-input-output-example/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/n8n/n8n-sub-workflow-address-input-output-example/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/n8n/n8n-sub-workflow-address-input-output-example/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/n8n/n8n-sub-workflow-address-input-output-example/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="Ruta de navegación">
+    <ol><li><a href="/es/">Inicio</a></li><li><a href="/es/blog/">Blog</a></li><li><a href="/es/products/n8n/">n8n</a></li><li><span aria-current="page">¿Cuándo conviene compartir una comprobación de direcciones entre dos flujos de n8n?</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">Automatización de flujos de trabajo · 4 min de lectura</p>
+        <h1>¿Cuándo conviene compartir una comprobación de direcciones entre dos flujos de n8n?</h1>
+        <p class="lead">Reutiliza una comprobación de campos de dirección y devuelve al flujo principal un resultado que pueda usar.</p>
+        <p class="byline">Por <a href="/es/about/">Evan</a>
+          · Actualizado <time datetime="2026-11-18">18 nov 2026</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/n8n-sub-workflow-address-input-output-example/cover.webp" srcset="/assets/articles/n8n-sub-workflow-address-input-output-example/cover-small.webp 640w, /assets/articles/n8n-sub-workflow-address-input-output-example/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="520" alt="Dos flujos llaman a una sola comprobación de dirección."
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>Un formulario web y una herramienta de soporte pueden necesitar los mismos campos de dirección. Extrae la comprobación a un subflujo de n8n. Cada flujo principal puede decidir si continúa, pide que se complete un dato o guarda el pedido. Si solo hay un flujo que usa la comprobación, suele ser más fácil mantenerla allí.</p>
+        </div>
+        <section id="section-0">
+          <h2>Define qué significa el resultado</h2><p>Pasa requestId, countryCode, city y line1. Quita los espacios al principio y al final y devuelve requestId, status y missingFields. Que los campos estén presentes no garantiza que el transportista pueda entregar un paquete. Los demás datos del pedido pueden quedarse en el flujo principal.</p><div class="article-table"><table>
+    <caption>Define qué significa el resultado</caption>
+    <thead><tr><th scope="col">Entrada de ejemplo</th><th scope="col">Salida esperada</th></tr></thead>
+    <tbody><tr><th scope="row">A01, JP, Tokyo, primera línea presente</th><td>A01, `fields_present`, lista vacía</td></tr><tr><th scope="row">A02, JP, ciudad formada solo por espacios, primera línea presente</th><td>A02, `needs_input`, lista con `city</td></tr></tbody>
+  </table></div><p>Define las entradas en Execute Sub-workflow Trigger. En el flujo principal, selecciona el subflujo guardado en Execute Sub-workflow y asigna los cuatro valores. Activa Wait for Sub-Workflow Completion si el flujo principal necesita el resultado. n8n devuelve los datos del último nodo del subflujo. Ejecuta ambos ejemplos y confirma que las dos ramas devuelven los mismos campos.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.n8n.io/build/flow-logic/break-workflows-into-smaller-parts">Guía de subflujos de n8n</a></li><li><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow">Nodo Execute Sub-workflow</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/n8n-sub-workflow-address-input-output-example/details.webp" width="1180" height="520"
+          alt="Ejemplos de entrada y salida. El caso completo devuelve fields_present. Un valor nulo o solo espacios en la ciudad devuelve needs_input con city en missingFields." loading="lazy" decoding="async"><figcaption>Ejemplos de entrada y salida. El caso completo devuelve fields_present. Un valor nulo o solo espacios en la ciudad devuelve needs_input con city en missingFields.</figcaption></figure><section id="section-1">
+          <h2>Distingue los campos ausentes de los errores de ejecución</h2><p>Si falta la ciudad, puedes pedir al usuario que la complete o crear una tarea para soporte. Si falla un nodo o faltan permisos, conserva el error de ejecución para investigar. Cuando otro flujo necesite verificar que se puede entregar en esa dirección, añade una comprobación aparte con una fuente adecuada.</p><p>Prueba también un valor nulo. Una entrada sin asignar puede llegar como null. Trata tanto null como una cadena de solo espacios como un campo ausente y devuelve las mismas claves. Si falta requestId, registra un error de entrada, ya que el flujo principal no puede reconciliar la respuesta.</p>
+        </section>
+        <section class="article-next"><h2>Visitar la web oficial</h2>
+          <ul><li><a class="text-link" href="https://n8n.io/" data-editorial-product="n8n">
+    <span><span translate="no">n8n</span> · Visitar la web oficial</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a></li></ul>
+          <a class="text-link" href="/es/products/n8n/">Ver detalles del producto</a>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">Guías relacionadas</h2>
+          <ul><li><a href="/es/blog/n8n/prevent-duplicate-form-submissions-with-n8n/">Cómo impedir que un reintento del formulario cree dos filas en n8n</a></li><li><a href="/es/blog/n8n/human-approval-timeout/">¿Qué debe hacer un flujo de n8n cuando vence una aprobación?</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>Referencias oficiales</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://docs.n8n.io/build/flow-logic/break-workflows-into-smaller-parts">Guía de subflujos de n8n</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow">Nodo Execute Sub-workflow</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/es/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>Un rincón tranquilo de internet para encontrar mejores productos.</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Escribir a Evan</a>
+      </div>
+      <nav aria-label="Navegación del pie de página">
+        <a href="/es/">Productos</a>
+        <a href="/es/blog/">Blog</a>
+        <a href="/es/about/">Sobre el proyecto</a>
+        <a href="/es/pricing/">Reseñas por encargo</a>
+        <a href="/es/privacy/">Privacidad</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Un cuaderno independiente de Evan.</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

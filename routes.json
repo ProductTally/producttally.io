@@ -12,13 +12,13 @@
       "lang": "en",
       "route": "",
       "url": "/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-17",
+      "lastmod": "2026-11-18",
       "canonicalRoute": ""
     },
     {
@@ -304,13 +304,61 @@
       "lang": "en",
       "route": "blog",
       "url": "/blog/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "en",
       "route": "blog/ai-search-visibility",
       "url": "/blog/ai-search-visibility/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/visual-content",
+      "url": "/blog/visual-content/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-troubleshooting",
+      "url": "/blog/search-troubleshooting/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/affiliate-attribution",
+      "url": "/blog/affiliate-attribution/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/content-maintenance",
+      "url": "/blog/content-maintenance/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/buying-guides",
+      "url": "/blog/buying-guides/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/multilingual-editing",
+      "url": "/blog/multilingual-editing/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/product-testing",
+      "url": "/blog/product-testing/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/podcast-production",
+      "url": "/blog/podcast-production/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "en",
@@ -398,9 +446,411 @@
     },
     {
       "lang": "en",
+      "route": "blog/castos/migrate-a-podcast-and-verify-rss-redirect",
+      "url": "/blog/castos/migrate-a-podcast-and-verify-rss-redirect/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/castos/grant-and-revoke-private-podcast-access",
+      "url": "/blog/castos/grant-and-revoke-private-podcast-access/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/streamyard/handle-a-guest-disconnect-and-recover-tracks",
+      "url": "/blog/streamyard/handle-a-guest-disconnect-and-recover-tracks/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/castos/turn-a-podcast-transcript-into-searchable-show-notes",
+      "url": "/blog/castos/turn-a-podcast-transcript-into-searchable-show-notes/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/submagic/proofread-names-numbers-and-timing-in-replay-captions",
+      "url": "/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/streamyard/assign-host-cohost-and-guest-stage-permissions",
+      "url": "/blog/streamyard/assign-host-cohost-and-guest-stage-permissions/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/quso-ai/cut-three-distinct-shorts-from-one-interview",
+      "url": "/blog/quso-ai/cut-three-distinct-shorts-from-one-interview/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/capcut/when-to-manually-reframe-two-speakers",
+      "url": "/blog/capcut/when-to-manually-reframe-two-speakers/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue",
+      "url": "/blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/submagic/place-two-language-captions-without-covering-demo",
+      "url": "/blog/submagic/place-two-language-captions-without-covering-demo/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/videogen/decide-when-a-demo-needs-real-screen-recording",
+      "url": "/blog/videogen/decide-when-a-demo-needs-real-screen-recording/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/joggai/check-brand-names-in-multilingual-product-videos",
+      "url": "/blog/joggai/check-brand-names-in-multilingual-product-videos/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/videogen/test-three-opening-shots-for-one-saas-ad",
+      "url": "/blog/videogen/test-three-opening-shots-for-one-saas-ad/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/capcut/reuse-vertical-edits-for-a-horizontal-cut",
+      "url": "/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/elevenlabs/build-a-brand-pronunciation-list-before-recording",
+      "url": "/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo",
+      "url": "/blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms",
+      "url": "/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/sked-social/reschedule-campaign-social-posts-after-date-change",
+      "url": "/blog/sked-social/reschedule-campaign-social-posts-after-date-change/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/sked-social/prepare-posts-for-bulk-social-scheduling",
+      "url": "/blog/sked-social/prepare-posts-for-bulk-social-scheduling/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/systeme-io/systeme-workshop-signup-source-tags",
+      "url": "/blog/systeme-io/systeme-workshop-signup-source-tags/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce",
+      "url": "/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/n8n/prevent-duplicate-form-submissions-with-n8n",
+      "url": "/blog/n8n/prevent-duplicate-form-submissions-with-n8n/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/n8n/n8n-sub-workflow-address-input-output-example",
+      "url": "/blog/n8n/n8n-sub-workflow-address-input-output-example/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/cal-com/cal-com-reschedule-cancellation-notifications",
+      "url": "/blog/cal-com/cal-com-reschedule-cancellation-notifications/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/cal-com/cal-com-collective-booking-mutual-availability",
+      "url": "/blog/cal-com/cal-com-collective-booking-mutual-availability/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/cal-com/cal-com-prevent-double-booking-across-calendars",
+      "url": "/blog/cal-com/cal-com-prevent-double-booking-across-calendars/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/pcloud/pcloud-shared-link-vs-folder-invite",
+      "url": "/blog/pcloud/pcloud-shared-link-vs-folder-invite/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/pcloud/pcloud-update-shared-file-version-client-link",
+      "url": "/blog/pcloud/pcloud-update-shared-file-version-client-link/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/publer/publer-failed-post-notification-retry",
+      "url": "/blog/publer/publer-failed-post-notification-retry/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/printful/etsy-personalized-order-review",
+      "url": "/blog/printful/etsy-personalized-order-review/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/sembly-ai/sembly-share-client-meeting-notes-safely",
+      "url": "/blog/sembly-ai/sembly-share-client-meeting-notes-safely/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/anydo/anydo-family-calendar-separate-work-tasks",
+      "url": "/blog/anydo/anydo-family-calendar-separate-work-tasks/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/flowlu/flowlu-client-portal-project-delay-update",
+      "url": "/blog/flowlu/flowlu-client-portal-project-delay-update/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/helpcrunch/shared-inbox-conversation-handoff",
+      "url": "/blog/helpcrunch/shared-inbox-conversation-handoff/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/helpcrunch/helpcrunch-continue-website-chat-by-email",
+      "url": "/blog/helpcrunch/helpcrunch-continue-website-chat-by-email/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation",
+      "url": "/blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base",
+      "url": "/blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/signaturely/signaturely-signing-invitation-not-received",
+      "url": "/blog/signaturely/signaturely-signing-invitation-not-received/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/signaturely/signaturely-reusable-signing-template-fields",
+      "url": "/blog/signaturely/signaturely-reusable-signing-template-fields/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible",
+      "url": "/blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers",
+      "url": "/blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/frase/frase-serp-outline-content-gap-analysis",
+      "url": "/blog/frase/frase-serp-outline-content-gap-analysis/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/frase/frase-content-score-improve-direct-answer",
+      "url": "/blog/frase/frase-content-score-improve-direct-answer/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations",
+      "url": "/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/answerthis/answerthis-literature-review-verify-citation-claims",
+      "url": "/blog/answerthis/answerthis-literature-review-verify-citation-claims/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/deepl/deepl-website-localization-glossary",
+      "url": "/blog/deepl/deepl-website-localization-glossary/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/deepl/deepl-japanese-customer-support-email-tone",
+      "url": "/blog/deepl/deepl-japanese-customer-support-email-tone/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/gamma/gamma-reusable-weekly-project-update-template",
+      "url": "/blog/gamma/gamma-reusable-weekly-project-update-template/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/gamma/gamma-turn-research-report-into-six-source-backed-slides",
+      "url": "/blog/gamma/gamma-turn-research-report-into-six-source-backed-slides/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/visual-content/redact-customer-data-in-saas-product-screenshots",
+      "url": "/blog/visual-content/redact-customer-data-in-saas-product-screenshots/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/mangools/mangools-competitor-keywords-find-underserved-queries",
+      "url": "/blog/mangools/mangools-competitor-keywords-find-underserved-queries/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/seopress/seopress-canonical-url-similar-wordpress-pages",
+      "url": "/blog/seopress/seopress-canonical-url-similar-wordpress-pages/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap",
+      "url": "/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/oh-dear/oh-dear-monitor-checkout-application-health",
+      "url": "/blog/oh-dear/oh-dear-monitor-checkout-application-health/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/oh-dear/oh-dear-uptime-response-time-multiple-locations",
+      "url": "/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/oh-dear/oh-dear-maintenance-window-status-notifications",
+      "url": "/blog/oh-dear/oh-dear-maintenance-window-status-notifications/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-troubleshooting/google-search-shows-old-page-title",
+      "url": "/blog/search-troubleshooting/google-search-shows-old-page-title/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation",
+      "url": "/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting",
+      "url": "/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits",
+      "url": "/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations",
+      "url": "/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/buying-guides/compare-saas-prices-per-seat-vs-usage",
+      "url": "/blog/buying-guides/compare-saas-prices-per-seat-vs-usage/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/multilingual-editing/multilingual-content-evidence-update-workflow",
+      "url": "/blog/multilingual-editing/multilingual-content-evidence-update-workflow/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/product-testing/reproducible-saas-product-review-methodology",
+      "url": "/blog/product-testing/reproducible-saas-product-review-methodology/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-search-visibility/track-ai-citations-monthly-test-protocol",
+      "url": "/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/magnific/creative-vs-precision-upscaling",
+      "url": "/blog/magnific/creative-vs-precision-upscaling/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/podcast-production/check-podcast-loudness-before-export",
+      "url": "/blog/podcast-production/check-podcast-loudness-before-export/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
       "route": "blog/n8n/human-approval-timeout",
       "url": "/blog/n8n/human-approval-timeout/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "en",
@@ -443,6 +893,18 @@
       "route": "blog/printful/document-off-centre-print-claim",
       "url": "/blog/printful/document-off-centre-print-claim/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/printful/replace-design-on-synced-product",
+      "url": "/blog/printful/replace-design-on-synced-product/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
+      "route": "blog/printful/shopify-order-not-in-production",
+      "url": "/blog/printful/shopify-order-not-in-production/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "en",
@@ -490,7 +952,7 @@
       "lang": "en",
       "route": "blog/udemy/turn-course-exercise-into-a-portfolio-project",
       "url": "/blog/udemy/turn-course-exercise-into-a-portfolio-project/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "en",
@@ -520,13 +982,13 @@
       "lang": "zh",
       "route": "",
       "url": "/zh/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-17",
+      "lastmod": "2026-11-18",
       "canonicalRoute": ""
     },
     {
@@ -812,13 +1274,61 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "zh",
       "route": "blog/ai-search-visibility",
       "url": "/zh/blog/ai-search-visibility/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/visual-content",
+      "url": "/zh/blog/visual-content/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-troubleshooting",
+      "url": "/zh/blog/search-troubleshooting/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/affiliate-attribution",
+      "url": "/zh/blog/affiliate-attribution/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/content-maintenance",
+      "url": "/zh/blog/content-maintenance/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/buying-guides",
+      "url": "/zh/blog/buying-guides/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/multilingual-editing",
+      "url": "/zh/blog/multilingual-editing/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/product-testing",
+      "url": "/zh/blog/product-testing/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/podcast-production",
+      "url": "/zh/blog/podcast-production/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "zh",
@@ -906,9 +1416,411 @@
     },
     {
       "lang": "zh",
+      "route": "blog/castos/migrate-a-podcast-and-verify-rss-redirect",
+      "url": "/zh/blog/castos/migrate-a-podcast-and-verify-rss-redirect/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/castos/grant-and-revoke-private-podcast-access",
+      "url": "/zh/blog/castos/grant-and-revoke-private-podcast-access/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/streamyard/handle-a-guest-disconnect-and-recover-tracks",
+      "url": "/zh/blog/streamyard/handle-a-guest-disconnect-and-recover-tracks/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/castos/turn-a-podcast-transcript-into-searchable-show-notes",
+      "url": "/zh/blog/castos/turn-a-podcast-transcript-into-searchable-show-notes/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/submagic/proofread-names-numbers-and-timing-in-replay-captions",
+      "url": "/zh/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/streamyard/assign-host-cohost-and-guest-stage-permissions",
+      "url": "/zh/blog/streamyard/assign-host-cohost-and-guest-stage-permissions/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/quso-ai/cut-three-distinct-shorts-from-one-interview",
+      "url": "/zh/blog/quso-ai/cut-three-distinct-shorts-from-one-interview/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/capcut/when-to-manually-reframe-two-speakers",
+      "url": "/zh/blog/capcut/when-to-manually-reframe-two-speakers/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue",
+      "url": "/zh/blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/submagic/place-two-language-captions-without-covering-demo",
+      "url": "/zh/blog/submagic/place-two-language-captions-without-covering-demo/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/videogen/decide-when-a-demo-needs-real-screen-recording",
+      "url": "/zh/blog/videogen/decide-when-a-demo-needs-real-screen-recording/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/joggai/check-brand-names-in-multilingual-product-videos",
+      "url": "/zh/blog/joggai/check-brand-names-in-multilingual-product-videos/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/videogen/test-three-opening-shots-for-one-saas-ad",
+      "url": "/zh/blog/videogen/test-three-opening-shots-for-one-saas-ad/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/capcut/reuse-vertical-edits-for-a-horizontal-cut",
+      "url": "/zh/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/elevenlabs/build-a-brand-pronunciation-list-before-recording",
+      "url": "/zh/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo",
+      "url": "/zh/blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms",
+      "url": "/zh/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/sked-social/reschedule-campaign-social-posts-after-date-change",
+      "url": "/zh/blog/sked-social/reschedule-campaign-social-posts-after-date-change/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/sked-social/prepare-posts-for-bulk-social-scheduling",
+      "url": "/zh/blog/sked-social/prepare-posts-for-bulk-social-scheduling/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/systeme-io/systeme-workshop-signup-source-tags",
+      "url": "/zh/blog/systeme-io/systeme-workshop-signup-source-tags/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce",
+      "url": "/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/n8n/prevent-duplicate-form-submissions-with-n8n",
+      "url": "/zh/blog/n8n/prevent-duplicate-form-submissions-with-n8n/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/n8n/n8n-sub-workflow-address-input-output-example",
+      "url": "/zh/blog/n8n/n8n-sub-workflow-address-input-output-example/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/cal-com/cal-com-reschedule-cancellation-notifications",
+      "url": "/zh/blog/cal-com/cal-com-reschedule-cancellation-notifications/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/cal-com/cal-com-collective-booking-mutual-availability",
+      "url": "/zh/blog/cal-com/cal-com-collective-booking-mutual-availability/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/cal-com/cal-com-prevent-double-booking-across-calendars",
+      "url": "/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/pcloud/pcloud-shared-link-vs-folder-invite",
+      "url": "/zh/blog/pcloud/pcloud-shared-link-vs-folder-invite/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/pcloud/pcloud-update-shared-file-version-client-link",
+      "url": "/zh/blog/pcloud/pcloud-update-shared-file-version-client-link/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/publer/publer-failed-post-notification-retry",
+      "url": "/zh/blog/publer/publer-failed-post-notification-retry/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/printful/etsy-personalized-order-review",
+      "url": "/zh/blog/printful/etsy-personalized-order-review/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/sembly-ai/sembly-share-client-meeting-notes-safely",
+      "url": "/zh/blog/sembly-ai/sembly-share-client-meeting-notes-safely/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/anydo/anydo-family-calendar-separate-work-tasks",
+      "url": "/zh/blog/anydo/anydo-family-calendar-separate-work-tasks/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/flowlu/flowlu-client-portal-project-delay-update",
+      "url": "/zh/blog/flowlu/flowlu-client-portal-project-delay-update/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/helpcrunch/shared-inbox-conversation-handoff",
+      "url": "/zh/blog/helpcrunch/shared-inbox-conversation-handoff/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/helpcrunch/helpcrunch-continue-website-chat-by-email",
+      "url": "/zh/blog/helpcrunch/helpcrunch-continue-website-chat-by-email/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation",
+      "url": "/zh/blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base",
+      "url": "/zh/blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/signaturely/signaturely-signing-invitation-not-received",
+      "url": "/zh/blog/signaturely/signaturely-signing-invitation-not-received/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/signaturely/signaturely-reusable-signing-template-fields",
+      "url": "/zh/blog/signaturely/signaturely-reusable-signing-template-fields/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible",
+      "url": "/zh/blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers",
+      "url": "/zh/blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/frase/frase-serp-outline-content-gap-analysis",
+      "url": "/zh/blog/frase/frase-serp-outline-content-gap-analysis/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/frase/frase-content-score-improve-direct-answer",
+      "url": "/zh/blog/frase/frase-content-score-improve-direct-answer/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations",
+      "url": "/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/answerthis/answerthis-literature-review-verify-citation-claims",
+      "url": "/zh/blog/answerthis/answerthis-literature-review-verify-citation-claims/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/deepl/deepl-website-localization-glossary",
+      "url": "/zh/blog/deepl/deepl-website-localization-glossary/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/deepl/deepl-japanese-customer-support-email-tone",
+      "url": "/zh/blog/deepl/deepl-japanese-customer-support-email-tone/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/gamma/gamma-reusable-weekly-project-update-template",
+      "url": "/zh/blog/gamma/gamma-reusable-weekly-project-update-template/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/gamma/gamma-turn-research-report-into-six-source-backed-slides",
+      "url": "/zh/blog/gamma/gamma-turn-research-report-into-six-source-backed-slides/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/visual-content/redact-customer-data-in-saas-product-screenshots",
+      "url": "/zh/blog/visual-content/redact-customer-data-in-saas-product-screenshots/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/mangools/mangools-competitor-keywords-find-underserved-queries",
+      "url": "/zh/blog/mangools/mangools-competitor-keywords-find-underserved-queries/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/seopress/seopress-canonical-url-similar-wordpress-pages",
+      "url": "/zh/blog/seopress/seopress-canonical-url-similar-wordpress-pages/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap",
+      "url": "/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/oh-dear/oh-dear-monitor-checkout-application-health",
+      "url": "/zh/blog/oh-dear/oh-dear-monitor-checkout-application-health/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/oh-dear/oh-dear-uptime-response-time-multiple-locations",
+      "url": "/zh/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/oh-dear/oh-dear-maintenance-window-status-notifications",
+      "url": "/zh/blog/oh-dear/oh-dear-maintenance-window-status-notifications/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-troubleshooting/google-search-shows-old-page-title",
+      "url": "/zh/blog/search-troubleshooting/google-search-shows-old-page-title/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation",
+      "url": "/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting",
+      "url": "/zh/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits",
+      "url": "/zh/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations",
+      "url": "/zh/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/buying-guides/compare-saas-prices-per-seat-vs-usage",
+      "url": "/zh/blog/buying-guides/compare-saas-prices-per-seat-vs-usage/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/multilingual-editing/multilingual-content-evidence-update-workflow",
+      "url": "/zh/blog/multilingual-editing/multilingual-content-evidence-update-workflow/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/product-testing/reproducible-saas-product-review-methodology",
+      "url": "/zh/blog/product-testing/reproducible-saas-product-review-methodology/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-search-visibility/track-ai-citations-monthly-test-protocol",
+      "url": "/zh/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/magnific/creative-vs-precision-upscaling",
+      "url": "/zh/blog/magnific/creative-vs-precision-upscaling/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/podcast-production/check-podcast-loudness-before-export",
+      "url": "/zh/blog/podcast-production/check-podcast-loudness-before-export/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
       "route": "blog/n8n/human-approval-timeout",
       "url": "/zh/blog/n8n/human-approval-timeout/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "zh",
@@ -951,6 +1863,18 @@
       "route": "blog/printful/document-off-centre-print-claim",
       "url": "/zh/blog/printful/document-off-centre-print-claim/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/printful/replace-design-on-synced-product",
+      "url": "/zh/blog/printful/replace-design-on-synced-product/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/printful/shopify-order-not-in-production",
+      "url": "/zh/blog/printful/shopify-order-not-in-production/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "zh",
@@ -998,7 +1922,7 @@
       "lang": "zh",
       "route": "blog/udemy/turn-course-exercise-into-a-portfolio-project",
       "url": "/zh/blog/udemy/turn-course-exercise-into-a-portfolio-project/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "zh",
@@ -1028,13 +1952,13 @@
       "lang": "es",
       "route": "",
       "url": "/es/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-17",
+      "lastmod": "2026-11-18",
       "canonicalRoute": ""
     },
     {
@@ -1320,13 +2244,61 @@
       "lang": "es",
       "route": "blog",
       "url": "/es/blog/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "es",
       "route": "blog/ai-search-visibility",
       "url": "/es/blog/ai-search-visibility/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/visual-content",
+      "url": "/es/blog/visual-content/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-troubleshooting",
+      "url": "/es/blog/search-troubleshooting/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/affiliate-attribution",
+      "url": "/es/blog/affiliate-attribution/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/content-maintenance",
+      "url": "/es/blog/content-maintenance/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/buying-guides",
+      "url": "/es/blog/buying-guides/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/multilingual-editing",
+      "url": "/es/blog/multilingual-editing/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/product-testing",
+      "url": "/es/blog/product-testing/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/podcast-production",
+      "url": "/es/blog/podcast-production/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "es",
@@ -1414,9 +2386,411 @@
     },
     {
       "lang": "es",
+      "route": "blog/castos/migrate-a-podcast-and-verify-rss-redirect",
+      "url": "/es/blog/castos/migrate-a-podcast-and-verify-rss-redirect/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/castos/grant-and-revoke-private-podcast-access",
+      "url": "/es/blog/castos/grant-and-revoke-private-podcast-access/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/streamyard/handle-a-guest-disconnect-and-recover-tracks",
+      "url": "/es/blog/streamyard/handle-a-guest-disconnect-and-recover-tracks/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/castos/turn-a-podcast-transcript-into-searchable-show-notes",
+      "url": "/es/blog/castos/turn-a-podcast-transcript-into-searchable-show-notes/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/submagic/proofread-names-numbers-and-timing-in-replay-captions",
+      "url": "/es/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/streamyard/assign-host-cohost-and-guest-stage-permissions",
+      "url": "/es/blog/streamyard/assign-host-cohost-and-guest-stage-permissions/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/quso-ai/cut-three-distinct-shorts-from-one-interview",
+      "url": "/es/blog/quso-ai/cut-three-distinct-shorts-from-one-interview/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/capcut/when-to-manually-reframe-two-speakers",
+      "url": "/es/blog/capcut/when-to-manually-reframe-two-speakers/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue",
+      "url": "/es/blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/submagic/place-two-language-captions-without-covering-demo",
+      "url": "/es/blog/submagic/place-two-language-captions-without-covering-demo/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/videogen/decide-when-a-demo-needs-real-screen-recording",
+      "url": "/es/blog/videogen/decide-when-a-demo-needs-real-screen-recording/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/joggai/check-brand-names-in-multilingual-product-videos",
+      "url": "/es/blog/joggai/check-brand-names-in-multilingual-product-videos/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/videogen/test-three-opening-shots-for-one-saas-ad",
+      "url": "/es/blog/videogen/test-three-opening-shots-for-one-saas-ad/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/capcut/reuse-vertical-edits-for-a-horizontal-cut",
+      "url": "/es/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/elevenlabs/build-a-brand-pronunciation-list-before-recording",
+      "url": "/es/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo",
+      "url": "/es/blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms",
+      "url": "/es/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/sked-social/reschedule-campaign-social-posts-after-date-change",
+      "url": "/es/blog/sked-social/reschedule-campaign-social-posts-after-date-change/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/sked-social/prepare-posts-for-bulk-social-scheduling",
+      "url": "/es/blog/sked-social/prepare-posts-for-bulk-social-scheduling/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/systeme-io/systeme-workshop-signup-source-tags",
+      "url": "/es/blog/systeme-io/systeme-workshop-signup-source-tags/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce",
+      "url": "/es/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/n8n/prevent-duplicate-form-submissions-with-n8n",
+      "url": "/es/blog/n8n/prevent-duplicate-form-submissions-with-n8n/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/n8n/n8n-sub-workflow-address-input-output-example",
+      "url": "/es/blog/n8n/n8n-sub-workflow-address-input-output-example/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/cal-com/cal-com-reschedule-cancellation-notifications",
+      "url": "/es/blog/cal-com/cal-com-reschedule-cancellation-notifications/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/cal-com/cal-com-collective-booking-mutual-availability",
+      "url": "/es/blog/cal-com/cal-com-collective-booking-mutual-availability/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/cal-com/cal-com-prevent-double-booking-across-calendars",
+      "url": "/es/blog/cal-com/cal-com-prevent-double-booking-across-calendars/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/pcloud/pcloud-shared-link-vs-folder-invite",
+      "url": "/es/blog/pcloud/pcloud-shared-link-vs-folder-invite/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/pcloud/pcloud-update-shared-file-version-client-link",
+      "url": "/es/blog/pcloud/pcloud-update-shared-file-version-client-link/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/publer/publer-failed-post-notification-retry",
+      "url": "/es/blog/publer/publer-failed-post-notification-retry/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/printful/etsy-personalized-order-review",
+      "url": "/es/blog/printful/etsy-personalized-order-review/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/sembly-ai/sembly-share-client-meeting-notes-safely",
+      "url": "/es/blog/sembly-ai/sembly-share-client-meeting-notes-safely/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/anydo/anydo-family-calendar-separate-work-tasks",
+      "url": "/es/blog/anydo/anydo-family-calendar-separate-work-tasks/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/flowlu/flowlu-client-portal-project-delay-update",
+      "url": "/es/blog/flowlu/flowlu-client-portal-project-delay-update/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/helpcrunch/shared-inbox-conversation-handoff",
+      "url": "/es/blog/helpcrunch/shared-inbox-conversation-handoff/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/helpcrunch/helpcrunch-continue-website-chat-by-email",
+      "url": "/es/blog/helpcrunch/helpcrunch-continue-website-chat-by-email/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation",
+      "url": "/es/blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base",
+      "url": "/es/blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/signaturely/signaturely-signing-invitation-not-received",
+      "url": "/es/blog/signaturely/signaturely-signing-invitation-not-received/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/signaturely/signaturely-reusable-signing-template-fields",
+      "url": "/es/blog/signaturely/signaturely-reusable-signing-template-fields/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible",
+      "url": "/es/blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers",
+      "url": "/es/blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/frase/frase-serp-outline-content-gap-analysis",
+      "url": "/es/blog/frase/frase-serp-outline-content-gap-analysis/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/frase/frase-content-score-improve-direct-answer",
+      "url": "/es/blog/frase/frase-content-score-improve-direct-answer/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations",
+      "url": "/es/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/answerthis/answerthis-literature-review-verify-citation-claims",
+      "url": "/es/blog/answerthis/answerthis-literature-review-verify-citation-claims/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/deepl/deepl-website-localization-glossary",
+      "url": "/es/blog/deepl/deepl-website-localization-glossary/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/deepl/deepl-japanese-customer-support-email-tone",
+      "url": "/es/blog/deepl/deepl-japanese-customer-support-email-tone/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/gamma/gamma-reusable-weekly-project-update-template",
+      "url": "/es/blog/gamma/gamma-reusable-weekly-project-update-template/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/gamma/gamma-turn-research-report-into-six-source-backed-slides",
+      "url": "/es/blog/gamma/gamma-turn-research-report-into-six-source-backed-slides/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/visual-content/redact-customer-data-in-saas-product-screenshots",
+      "url": "/es/blog/visual-content/redact-customer-data-in-saas-product-screenshots/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/mangools/mangools-competitor-keywords-find-underserved-queries",
+      "url": "/es/blog/mangools/mangools-competitor-keywords-find-underserved-queries/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/seopress/seopress-canonical-url-similar-wordpress-pages",
+      "url": "/es/blog/seopress/seopress-canonical-url-similar-wordpress-pages/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap",
+      "url": "/es/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/oh-dear/oh-dear-monitor-checkout-application-health",
+      "url": "/es/blog/oh-dear/oh-dear-monitor-checkout-application-health/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/oh-dear/oh-dear-uptime-response-time-multiple-locations",
+      "url": "/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/oh-dear/oh-dear-maintenance-window-status-notifications",
+      "url": "/es/blog/oh-dear/oh-dear-maintenance-window-status-notifications/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-troubleshooting/google-search-shows-old-page-title",
+      "url": "/es/blog/search-troubleshooting/google-search-shows-old-page-title/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation",
+      "url": "/es/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting",
+      "url": "/es/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits",
+      "url": "/es/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations",
+      "url": "/es/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/buying-guides/compare-saas-prices-per-seat-vs-usage",
+      "url": "/es/blog/buying-guides/compare-saas-prices-per-seat-vs-usage/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/multilingual-editing/multilingual-content-evidence-update-workflow",
+      "url": "/es/blog/multilingual-editing/multilingual-content-evidence-update-workflow/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/product-testing/reproducible-saas-product-review-methodology",
+      "url": "/es/blog/product-testing/reproducible-saas-product-review-methodology/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-search-visibility/track-ai-citations-monthly-test-protocol",
+      "url": "/es/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/magnific/creative-vs-precision-upscaling",
+      "url": "/es/blog/magnific/creative-vs-precision-upscaling/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/podcast-production/check-podcast-loudness-before-export",
+      "url": "/es/blog/podcast-production/check-podcast-loudness-before-export/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
       "route": "blog/n8n/human-approval-timeout",
       "url": "/es/blog/n8n/human-approval-timeout/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "es",
@@ -1459,6 +2833,18 @@
       "route": "blog/printful/document-off-centre-print-claim",
       "url": "/es/blog/printful/document-off-centre-print-claim/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/printful/replace-design-on-synced-product",
+      "url": "/es/blog/printful/replace-design-on-synced-product/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
+      "route": "blog/printful/shopify-order-not-in-production",
+      "url": "/es/blog/printful/shopify-order-not-in-production/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "es",
@@ -1506,7 +2892,7 @@
       "lang": "es",
       "route": "blog/udemy/turn-course-exercise-into-a-portfolio-project",
       "url": "/es/blog/udemy/turn-course-exercise-into-a-portfolio-project/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "es",
@@ -1536,13 +2922,13 @@
       "lang": "ja",
       "route": "",
       "url": "/ja/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-17",
+      "lastmod": "2026-11-18",
       "canonicalRoute": ""
     },
     {
@@ -1828,13 +3214,61 @@
       "lang": "ja",
       "route": "blog",
       "url": "/ja/blog/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "ja",
       "route": "blog/ai-search-visibility",
       "url": "/ja/blog/ai-search-visibility/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/visual-content",
+      "url": "/ja/blog/visual-content/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-troubleshooting",
+      "url": "/ja/blog/search-troubleshooting/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/affiliate-attribution",
+      "url": "/ja/blog/affiliate-attribution/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/content-maintenance",
+      "url": "/ja/blog/content-maintenance/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/buying-guides",
+      "url": "/ja/blog/buying-guides/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/multilingual-editing",
+      "url": "/ja/blog/multilingual-editing/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/product-testing",
+      "url": "/ja/blog/product-testing/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/podcast-production",
+      "url": "/ja/blog/podcast-production/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "ja",
@@ -1922,9 +3356,411 @@
     },
     {
       "lang": "ja",
+      "route": "blog/castos/migrate-a-podcast-and-verify-rss-redirect",
+      "url": "/ja/blog/castos/migrate-a-podcast-and-verify-rss-redirect/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/castos/grant-and-revoke-private-podcast-access",
+      "url": "/ja/blog/castos/grant-and-revoke-private-podcast-access/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/streamyard/handle-a-guest-disconnect-and-recover-tracks",
+      "url": "/ja/blog/streamyard/handle-a-guest-disconnect-and-recover-tracks/",
+      "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/castos/turn-a-podcast-transcript-into-searchable-show-notes",
+      "url": "/ja/blog/castos/turn-a-podcast-transcript-into-searchable-show-notes/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/submagic/proofread-names-numbers-and-timing-in-replay-captions",
+      "url": "/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/streamyard/assign-host-cohost-and-guest-stage-permissions",
+      "url": "/ja/blog/streamyard/assign-host-cohost-and-guest-stage-permissions/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/quso-ai/cut-three-distinct-shorts-from-one-interview",
+      "url": "/ja/blog/quso-ai/cut-three-distinct-shorts-from-one-interview/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/capcut/when-to-manually-reframe-two-speakers",
+      "url": "/ja/blog/capcut/when-to-manually-reframe-two-speakers/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue",
+      "url": "/ja/blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/submagic/place-two-language-captions-without-covering-demo",
+      "url": "/ja/blog/submagic/place-two-language-captions-without-covering-demo/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/videogen/decide-when-a-demo-needs-real-screen-recording",
+      "url": "/ja/blog/videogen/decide-when-a-demo-needs-real-screen-recording/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/joggai/check-brand-names-in-multilingual-product-videos",
+      "url": "/ja/blog/joggai/check-brand-names-in-multilingual-product-videos/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/videogen/test-three-opening-shots-for-one-saas-ad",
+      "url": "/ja/blog/videogen/test-three-opening-shots-for-one-saas-ad/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/capcut/reuse-vertical-edits-for-a-horizontal-cut",
+      "url": "/ja/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/elevenlabs/build-a-brand-pronunciation-list-before-recording",
+      "url": "/ja/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo",
+      "url": "/ja/blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms",
+      "url": "/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/sked-social/reschedule-campaign-social-posts-after-date-change",
+      "url": "/ja/blog/sked-social/reschedule-campaign-social-posts-after-date-change/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/sked-social/prepare-posts-for-bulk-social-scheduling",
+      "url": "/ja/blog/sked-social/prepare-posts-for-bulk-social-scheduling/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/systeme-io/systeme-workshop-signup-source-tags",
+      "url": "/ja/blog/systeme-io/systeme-workshop-signup-source-tags/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce",
+      "url": "/ja/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/n8n/prevent-duplicate-form-submissions-with-n8n",
+      "url": "/ja/blog/n8n/prevent-duplicate-form-submissions-with-n8n/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/n8n/n8n-sub-workflow-address-input-output-example",
+      "url": "/ja/blog/n8n/n8n-sub-workflow-address-input-output-example/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/cal-com/cal-com-reschedule-cancellation-notifications",
+      "url": "/ja/blog/cal-com/cal-com-reschedule-cancellation-notifications/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/cal-com/cal-com-collective-booking-mutual-availability",
+      "url": "/ja/blog/cal-com/cal-com-collective-booking-mutual-availability/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/cal-com/cal-com-prevent-double-booking-across-calendars",
+      "url": "/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/pcloud/pcloud-shared-link-vs-folder-invite",
+      "url": "/ja/blog/pcloud/pcloud-shared-link-vs-folder-invite/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/pcloud/pcloud-update-shared-file-version-client-link",
+      "url": "/ja/blog/pcloud/pcloud-update-shared-file-version-client-link/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/publer/publer-failed-post-notification-retry",
+      "url": "/ja/blog/publer/publer-failed-post-notification-retry/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/printful/etsy-personalized-order-review",
+      "url": "/ja/blog/printful/etsy-personalized-order-review/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/sembly-ai/sembly-share-client-meeting-notes-safely",
+      "url": "/ja/blog/sembly-ai/sembly-share-client-meeting-notes-safely/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/anydo/anydo-family-calendar-separate-work-tasks",
+      "url": "/ja/blog/anydo/anydo-family-calendar-separate-work-tasks/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/flowlu/flowlu-client-portal-project-delay-update",
+      "url": "/ja/blog/flowlu/flowlu-client-portal-project-delay-update/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/helpcrunch/shared-inbox-conversation-handoff",
+      "url": "/ja/blog/helpcrunch/shared-inbox-conversation-handoff/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/helpcrunch/helpcrunch-continue-website-chat-by-email",
+      "url": "/ja/blog/helpcrunch/helpcrunch-continue-website-chat-by-email/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation",
+      "url": "/ja/blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base",
+      "url": "/ja/blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/signaturely/signaturely-signing-invitation-not-received",
+      "url": "/ja/blog/signaturely/signaturely-signing-invitation-not-received/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/signaturely/signaturely-reusable-signing-template-fields",
+      "url": "/ja/blog/signaturely/signaturely-reusable-signing-template-fields/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible",
+      "url": "/ja/blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers",
+      "url": "/ja/blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/frase/frase-serp-outline-content-gap-analysis",
+      "url": "/ja/blog/frase/frase-serp-outline-content-gap-analysis/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/frase/frase-content-score-improve-direct-answer",
+      "url": "/ja/blog/frase/frase-content-score-improve-direct-answer/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations",
+      "url": "/ja/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/answerthis/answerthis-literature-review-verify-citation-claims",
+      "url": "/ja/blog/answerthis/answerthis-literature-review-verify-citation-claims/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/deepl/deepl-website-localization-glossary",
+      "url": "/ja/blog/deepl/deepl-website-localization-glossary/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/deepl/deepl-japanese-customer-support-email-tone",
+      "url": "/ja/blog/deepl/deepl-japanese-customer-support-email-tone/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/gamma/gamma-reusable-weekly-project-update-template",
+      "url": "/ja/blog/gamma/gamma-reusable-weekly-project-update-template/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/gamma/gamma-turn-research-report-into-six-source-backed-slides",
+      "url": "/ja/blog/gamma/gamma-turn-research-report-into-six-source-backed-slides/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/visual-content/redact-customer-data-in-saas-product-screenshots",
+      "url": "/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/mangools/mangools-competitor-keywords-find-underserved-queries",
+      "url": "/ja/blog/mangools/mangools-competitor-keywords-find-underserved-queries/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/seopress/seopress-canonical-url-similar-wordpress-pages",
+      "url": "/ja/blog/seopress/seopress-canonical-url-similar-wordpress-pages/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap",
+      "url": "/ja/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/oh-dear/oh-dear-monitor-checkout-application-health",
+      "url": "/ja/blog/oh-dear/oh-dear-monitor-checkout-application-health/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/oh-dear/oh-dear-uptime-response-time-multiple-locations",
+      "url": "/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/oh-dear/oh-dear-maintenance-window-status-notifications",
+      "url": "/ja/blog/oh-dear/oh-dear-maintenance-window-status-notifications/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-troubleshooting/google-search-shows-old-page-title",
+      "url": "/ja/blog/search-troubleshooting/google-search-shows-old-page-title/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation",
+      "url": "/ja/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting",
+      "url": "/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits",
+      "url": "/ja/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations",
+      "url": "/ja/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/buying-guides/compare-saas-prices-per-seat-vs-usage",
+      "url": "/ja/blog/buying-guides/compare-saas-prices-per-seat-vs-usage/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/multilingual-editing/multilingual-content-evidence-update-workflow",
+      "url": "/ja/blog/multilingual-editing/multilingual-content-evidence-update-workflow/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/product-testing/reproducible-saas-product-review-methodology",
+      "url": "/ja/blog/product-testing/reproducible-saas-product-review-methodology/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-search-visibility/track-ai-citations-monthly-test-protocol",
+      "url": "/ja/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/magnific/creative-vs-precision-upscaling",
+      "url": "/ja/blog/magnific/creative-vs-precision-upscaling/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/podcast-production/check-podcast-loudness-before-export",
+      "url": "/ja/blog/podcast-production/check-podcast-loudness-before-export/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
       "route": "blog/n8n/human-approval-timeout",
       "url": "/ja/blog/n8n/human-approval-timeout/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "ja",
@@ -1967,6 +3803,18 @@
       "route": "blog/printful/document-off-centre-print-claim",
       "url": "/ja/blog/printful/document-off-centre-print-claim/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/printful/replace-design-on-synced-product",
+      "url": "/ja/blog/printful/replace-design-on-synced-product/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/printful/shopify-order-not-in-production",
+      "url": "/ja/blog/printful/shopify-order-not-in-production/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "ja",
@@ -2014,7 +3862,7 @@
       "lang": "ja",
       "route": "blog/udemy/turn-course-exercise-into-a-portfolio-project",
       "url": "/ja/blog/udemy/turn-course-exercise-into-a-portfolio-project/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "ja",
@@ -2049,6 +3897,38 @@
     {
       "url": "/guides/ai-search-visibility/",
       "target": "/blog/ai-search-visibility/"
+    },
+    {
+      "url": "/guides/visual-content/",
+      "target": "/blog/visual-content/"
+    },
+    {
+      "url": "/guides/search-troubleshooting/",
+      "target": "/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/guides/affiliate-attribution/",
+      "target": "/blog/affiliate-attribution/"
+    },
+    {
+      "url": "/guides/content-maintenance/",
+      "target": "/blog/content-maintenance/"
+    },
+    {
+      "url": "/guides/buying-guides/",
+      "target": "/blog/buying-guides/"
+    },
+    {
+      "url": "/guides/multilingual-editing/",
+      "target": "/blog/multilingual-editing/"
+    },
+    {
+      "url": "/guides/product-testing/",
+      "target": "/blog/product-testing/"
+    },
+    {
+      "url": "/guides/podcast-production/",
+      "target": "/blog/podcast-production/"
     },
     {
       "url": "/guides/multilingual-seo/",
@@ -2107,6 +3987,274 @@
       "target": "/blog/streamyard/local-tracks-vs-live-replay/"
     },
     {
+      "url": "/guides/castos/migrate-a-podcast-and-verify-rss-redirect/",
+      "target": "/blog/castos/migrate-a-podcast-and-verify-rss-redirect/"
+    },
+    {
+      "url": "/guides/castos/grant-and-revoke-private-podcast-access/",
+      "target": "/blog/castos/grant-and-revoke-private-podcast-access/"
+    },
+    {
+      "url": "/guides/streamyard/handle-a-guest-disconnect-and-recover-tracks/",
+      "target": "/blog/streamyard/handle-a-guest-disconnect-and-recover-tracks/"
+    },
+    {
+      "url": "/guides/castos/turn-a-podcast-transcript-into-searchable-show-notes/",
+      "target": "/blog/castos/turn-a-podcast-transcript-into-searchable-show-notes/"
+    },
+    {
+      "url": "/guides/submagic/proofread-names-numbers-and-timing-in-replay-captions/",
+      "target": "/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/guides/streamyard/assign-host-cohost-and-guest-stage-permissions/",
+      "target": "/blog/streamyard/assign-host-cohost-and-guest-stage-permissions/"
+    },
+    {
+      "url": "/guides/quso-ai/cut-three-distinct-shorts-from-one-interview/",
+      "target": "/blog/quso-ai/cut-three-distinct-shorts-from-one-interview/"
+    },
+    {
+      "url": "/guides/capcut/when-to-manually-reframe-two-speakers/",
+      "target": "/blog/capcut/when-to-manually-reframe-two-speakers/"
+    },
+    {
+      "url": "/guides/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/",
+      "target": "/blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/"
+    },
+    {
+      "url": "/guides/submagic/place-two-language-captions-without-covering-demo/",
+      "target": "/blog/submagic/place-two-language-captions-without-covering-demo/"
+    },
+    {
+      "url": "/guides/videogen/decide-when-a-demo-needs-real-screen-recording/",
+      "target": "/blog/videogen/decide-when-a-demo-needs-real-screen-recording/"
+    },
+    {
+      "url": "/guides/joggai/check-brand-names-in-multilingual-product-videos/",
+      "target": "/blog/joggai/check-brand-names-in-multilingual-product-videos/"
+    },
+    {
+      "url": "/guides/videogen/test-three-opening-shots-for-one-saas-ad/",
+      "target": "/blog/videogen/test-three-opening-shots-for-one-saas-ad/"
+    },
+    {
+      "url": "/guides/capcut/reuse-vertical-edits-for-a-horizontal-cut/",
+      "target": "/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/"
+    },
+    {
+      "url": "/guides/elevenlabs/build-a-brand-pronunciation-list-before-recording/",
+      "target": "/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/guides/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/",
+      "target": "/blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/"
+    },
+    {
+      "url": "/guides/predis-ai/predis-ai-adapt-one-product-post-across-platforms/",
+      "target": "/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/"
+    },
+    {
+      "url": "/guides/sked-social/reschedule-campaign-social-posts-after-date-change/",
+      "target": "/blog/sked-social/reschedule-campaign-social-posts-after-date-change/"
+    },
+    {
+      "url": "/guides/sked-social/prepare-posts-for-bulk-social-scheduling/",
+      "target": "/blog/sked-social/prepare-posts-for-bulk-social-scheduling/"
+    },
+    {
+      "url": "/guides/systeme-io/systeme-workshop-signup-source-tags/",
+      "target": "/blog/systeme-io/systeme-workshop-signup-source-tags/"
+    },
+    {
+      "url": "/guides/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/",
+      "target": "/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/"
+    },
+    {
+      "url": "/guides/n8n/prevent-duplicate-form-submissions-with-n8n/",
+      "target": "/blog/n8n/prevent-duplicate-form-submissions-with-n8n/"
+    },
+    {
+      "url": "/guides/n8n/n8n-sub-workflow-address-input-output-example/",
+      "target": "/blog/n8n/n8n-sub-workflow-address-input-output-example/"
+    },
+    {
+      "url": "/guides/cal-com/cal-com-reschedule-cancellation-notifications/",
+      "target": "/blog/cal-com/cal-com-reschedule-cancellation-notifications/"
+    },
+    {
+      "url": "/guides/cal-com/cal-com-collective-booking-mutual-availability/",
+      "target": "/blog/cal-com/cal-com-collective-booking-mutual-availability/"
+    },
+    {
+      "url": "/guides/cal-com/cal-com-prevent-double-booking-across-calendars/",
+      "target": "/blog/cal-com/cal-com-prevent-double-booking-across-calendars/"
+    },
+    {
+      "url": "/guides/pcloud/pcloud-shared-link-vs-folder-invite/",
+      "target": "/blog/pcloud/pcloud-shared-link-vs-folder-invite/"
+    },
+    {
+      "url": "/guides/pcloud/pcloud-update-shared-file-version-client-link/",
+      "target": "/blog/pcloud/pcloud-update-shared-file-version-client-link/"
+    },
+    {
+      "url": "/guides/publer/publer-failed-post-notification-retry/",
+      "target": "/blog/publer/publer-failed-post-notification-retry/"
+    },
+    {
+      "url": "/guides/printful/etsy-personalized-order-review/",
+      "target": "/blog/printful/etsy-personalized-order-review/"
+    },
+    {
+      "url": "/guides/sembly-ai/sembly-share-client-meeting-notes-safely/",
+      "target": "/blog/sembly-ai/sembly-share-client-meeting-notes-safely/"
+    },
+    {
+      "url": "/guides/anydo/anydo-family-calendar-separate-work-tasks/",
+      "target": "/blog/anydo/anydo-family-calendar-separate-work-tasks/"
+    },
+    {
+      "url": "/guides/flowlu/flowlu-client-portal-project-delay-update/",
+      "target": "/blog/flowlu/flowlu-client-portal-project-delay-update/"
+    },
+    {
+      "url": "/guides/helpcrunch/shared-inbox-conversation-handoff/",
+      "target": "/blog/helpcrunch/shared-inbox-conversation-handoff/"
+    },
+    {
+      "url": "/guides/helpcrunch/helpcrunch-continue-website-chat-by-email/",
+      "target": "/blog/helpcrunch/helpcrunch-continue-website-chat-by-email/"
+    },
+    {
+      "url": "/guides/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/",
+      "target": "/blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/"
+    },
+    {
+      "url": "/guides/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/",
+      "target": "/blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/"
+    },
+    {
+      "url": "/guides/signaturely/signaturely-signing-invitation-not-received/",
+      "target": "/blog/signaturely/signaturely-signing-invitation-not-received/"
+    },
+    {
+      "url": "/guides/signaturely/signaturely-reusable-signing-template-fields/",
+      "target": "/blog/signaturely/signaturely-reusable-signing-template-fields/"
+    },
+    {
+      "url": "/guides/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/",
+      "target": "/blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/"
+    },
+    {
+      "url": "/guides/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/",
+      "target": "/blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/"
+    },
+    {
+      "url": "/guides/frase/frase-serp-outline-content-gap-analysis/",
+      "target": "/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/guides/frase/frase-content-score-improve-direct-answer/",
+      "target": "/blog/frase/frase-content-score-improve-direct-answer/"
+    },
+    {
+      "url": "/guides/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
+      "target": "/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/guides/answerthis/answerthis-literature-review-verify-citation-claims/",
+      "target": "/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/guides/deepl/deepl-website-localization-glossary/",
+      "target": "/blog/deepl/deepl-website-localization-glossary/"
+    },
+    {
+      "url": "/guides/deepl/deepl-japanese-customer-support-email-tone/",
+      "target": "/blog/deepl/deepl-japanese-customer-support-email-tone/"
+    },
+    {
+      "url": "/guides/gamma/gamma-reusable-weekly-project-update-template/",
+      "target": "/blog/gamma/gamma-reusable-weekly-project-update-template/"
+    },
+    {
+      "url": "/guides/gamma/gamma-turn-research-report-into-six-source-backed-slides/",
+      "target": "/blog/gamma/gamma-turn-research-report-into-six-source-backed-slides/"
+    },
+    {
+      "url": "/guides/visual-content/redact-customer-data-in-saas-product-screenshots/",
+      "target": "/blog/visual-content/redact-customer-data-in-saas-product-screenshots/"
+    },
+    {
+      "url": "/guides/mangools/mangools-competitor-keywords-find-underserved-queries/",
+      "target": "/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/guides/seopress/seopress-canonical-url-similar-wordpress-pages/",
+      "target": "/blog/seopress/seopress-canonical-url-similar-wordpress-pages/"
+    },
+    {
+      "url": "/guides/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/",
+      "target": "/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/"
+    },
+    {
+      "url": "/guides/oh-dear/oh-dear-monitor-checkout-application-health/",
+      "target": "/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/guides/oh-dear/oh-dear-uptime-response-time-multiple-locations/",
+      "target": "/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/"
+    },
+    {
+      "url": "/guides/oh-dear/oh-dear-maintenance-window-status-notifications/",
+      "target": "/blog/oh-dear/oh-dear-maintenance-window-status-notifications/"
+    },
+    {
+      "url": "/guides/search-troubleshooting/google-search-shows-old-page-title/",
+      "target": "/blog/search-troubleshooting/google-search-shows-old-page-title/"
+    },
+    {
+      "url": "/guides/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/",
+      "target": "/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/"
+    },
+    {
+      "url": "/guides/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/",
+      "target": "/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/"
+    },
+    {
+      "url": "/guides/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/",
+      "target": "/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/"
+    },
+    {
+      "url": "/guides/content-maintenance/fix-outdated-pricing-in-ai-search-citations/",
+      "target": "/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/"
+    },
+    {
+      "url": "/guides/buying-guides/compare-saas-prices-per-seat-vs-usage/",
+      "target": "/blog/buying-guides/compare-saas-prices-per-seat-vs-usage/"
+    },
+    {
+      "url": "/guides/multilingual-editing/multilingual-content-evidence-update-workflow/",
+      "target": "/blog/multilingual-editing/multilingual-content-evidence-update-workflow/"
+    },
+    {
+      "url": "/guides/product-testing/reproducible-saas-product-review-methodology/",
+      "target": "/blog/product-testing/reproducible-saas-product-review-methodology/"
+    },
+    {
+      "url": "/guides/ai-search-visibility/track-ai-citations-monthly-test-protocol/",
+      "target": "/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/"
+    },
+    {
+      "url": "/guides/magnific/creative-vs-precision-upscaling/",
+      "target": "/blog/magnific/creative-vs-precision-upscaling/"
+    },
+    {
+      "url": "/guides/podcast-production/check-podcast-loudness-before-export/",
+      "target": "/blog/podcast-production/check-podcast-loudness-before-export/"
+    },
+    {
       "url": "/guides/n8n/human-approval-timeout/",
       "target": "/blog/n8n/human-approval-timeout/"
     },
@@ -2137,6 +4285,14 @@
     {
       "url": "/guides/printful/document-off-centre-print-claim/",
       "target": "/blog/printful/document-off-centre-print-claim/"
+    },
+    {
+      "url": "/guides/printful/replace-design-on-synced-product/",
+      "target": "/blog/printful/replace-design-on-synced-product/"
+    },
+    {
+      "url": "/guides/printful/shopify-order-not-in-production/",
+      "target": "/blog/printful/shopify-order-not-in-production/"
     },
     {
       "url": "/guides/payhip/pdf-individual-and-team-license-variants/",
@@ -2195,6 +4351,38 @@
       "target": "/zh/blog/ai-search-visibility/"
     },
     {
+      "url": "/zh/guides/visual-content/",
+      "target": "/zh/blog/visual-content/"
+    },
+    {
+      "url": "/zh/guides/search-troubleshooting/",
+      "target": "/zh/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/zh/guides/affiliate-attribution/",
+      "target": "/zh/blog/affiliate-attribution/"
+    },
+    {
+      "url": "/zh/guides/content-maintenance/",
+      "target": "/zh/blog/content-maintenance/"
+    },
+    {
+      "url": "/zh/guides/buying-guides/",
+      "target": "/zh/blog/buying-guides/"
+    },
+    {
+      "url": "/zh/guides/multilingual-editing/",
+      "target": "/zh/blog/multilingual-editing/"
+    },
+    {
+      "url": "/zh/guides/product-testing/",
+      "target": "/zh/blog/product-testing/"
+    },
+    {
+      "url": "/zh/guides/podcast-production/",
+      "target": "/zh/blog/podcast-production/"
+    },
+    {
       "url": "/zh/guides/multilingual-seo/",
       "target": "/zh/blog/multilingual-seo/"
     },
@@ -2251,6 +4439,274 @@
       "target": "/zh/blog/streamyard/local-tracks-vs-live-replay/"
     },
     {
+      "url": "/zh/guides/castos/migrate-a-podcast-and-verify-rss-redirect/",
+      "target": "/zh/blog/castos/migrate-a-podcast-and-verify-rss-redirect/"
+    },
+    {
+      "url": "/zh/guides/castos/grant-and-revoke-private-podcast-access/",
+      "target": "/zh/blog/castos/grant-and-revoke-private-podcast-access/"
+    },
+    {
+      "url": "/zh/guides/streamyard/handle-a-guest-disconnect-and-recover-tracks/",
+      "target": "/zh/blog/streamyard/handle-a-guest-disconnect-and-recover-tracks/"
+    },
+    {
+      "url": "/zh/guides/castos/turn-a-podcast-transcript-into-searchable-show-notes/",
+      "target": "/zh/blog/castos/turn-a-podcast-transcript-into-searchable-show-notes/"
+    },
+    {
+      "url": "/zh/guides/submagic/proofread-names-numbers-and-timing-in-replay-captions/",
+      "target": "/zh/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/zh/guides/streamyard/assign-host-cohost-and-guest-stage-permissions/",
+      "target": "/zh/blog/streamyard/assign-host-cohost-and-guest-stage-permissions/"
+    },
+    {
+      "url": "/zh/guides/quso-ai/cut-three-distinct-shorts-from-one-interview/",
+      "target": "/zh/blog/quso-ai/cut-three-distinct-shorts-from-one-interview/"
+    },
+    {
+      "url": "/zh/guides/capcut/when-to-manually-reframe-two-speakers/",
+      "target": "/zh/blog/capcut/when-to-manually-reframe-two-speakers/"
+    },
+    {
+      "url": "/zh/guides/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/",
+      "target": "/zh/blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/"
+    },
+    {
+      "url": "/zh/guides/submagic/place-two-language-captions-without-covering-demo/",
+      "target": "/zh/blog/submagic/place-two-language-captions-without-covering-demo/"
+    },
+    {
+      "url": "/zh/guides/videogen/decide-when-a-demo-needs-real-screen-recording/",
+      "target": "/zh/blog/videogen/decide-when-a-demo-needs-real-screen-recording/"
+    },
+    {
+      "url": "/zh/guides/joggai/check-brand-names-in-multilingual-product-videos/",
+      "target": "/zh/blog/joggai/check-brand-names-in-multilingual-product-videos/"
+    },
+    {
+      "url": "/zh/guides/videogen/test-three-opening-shots-for-one-saas-ad/",
+      "target": "/zh/blog/videogen/test-three-opening-shots-for-one-saas-ad/"
+    },
+    {
+      "url": "/zh/guides/capcut/reuse-vertical-edits-for-a-horizontal-cut/",
+      "target": "/zh/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/"
+    },
+    {
+      "url": "/zh/guides/elevenlabs/build-a-brand-pronunciation-list-before-recording/",
+      "target": "/zh/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/zh/guides/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/",
+      "target": "/zh/blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/"
+    },
+    {
+      "url": "/zh/guides/predis-ai/predis-ai-adapt-one-product-post-across-platforms/",
+      "target": "/zh/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/"
+    },
+    {
+      "url": "/zh/guides/sked-social/reschedule-campaign-social-posts-after-date-change/",
+      "target": "/zh/blog/sked-social/reschedule-campaign-social-posts-after-date-change/"
+    },
+    {
+      "url": "/zh/guides/sked-social/prepare-posts-for-bulk-social-scheduling/",
+      "target": "/zh/blog/sked-social/prepare-posts-for-bulk-social-scheduling/"
+    },
+    {
+      "url": "/zh/guides/systeme-io/systeme-workshop-signup-source-tags/",
+      "target": "/zh/blog/systeme-io/systeme-workshop-signup-source-tags/"
+    },
+    {
+      "url": "/zh/guides/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/",
+      "target": "/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/"
+    },
+    {
+      "url": "/zh/guides/n8n/prevent-duplicate-form-submissions-with-n8n/",
+      "target": "/zh/blog/n8n/prevent-duplicate-form-submissions-with-n8n/"
+    },
+    {
+      "url": "/zh/guides/n8n/n8n-sub-workflow-address-input-output-example/",
+      "target": "/zh/blog/n8n/n8n-sub-workflow-address-input-output-example/"
+    },
+    {
+      "url": "/zh/guides/cal-com/cal-com-reschedule-cancellation-notifications/",
+      "target": "/zh/blog/cal-com/cal-com-reschedule-cancellation-notifications/"
+    },
+    {
+      "url": "/zh/guides/cal-com/cal-com-collective-booking-mutual-availability/",
+      "target": "/zh/blog/cal-com/cal-com-collective-booking-mutual-availability/"
+    },
+    {
+      "url": "/zh/guides/cal-com/cal-com-prevent-double-booking-across-calendars/",
+      "target": "/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/"
+    },
+    {
+      "url": "/zh/guides/pcloud/pcloud-shared-link-vs-folder-invite/",
+      "target": "/zh/blog/pcloud/pcloud-shared-link-vs-folder-invite/"
+    },
+    {
+      "url": "/zh/guides/pcloud/pcloud-update-shared-file-version-client-link/",
+      "target": "/zh/blog/pcloud/pcloud-update-shared-file-version-client-link/"
+    },
+    {
+      "url": "/zh/guides/publer/publer-failed-post-notification-retry/",
+      "target": "/zh/blog/publer/publer-failed-post-notification-retry/"
+    },
+    {
+      "url": "/zh/guides/printful/etsy-personalized-order-review/",
+      "target": "/zh/blog/printful/etsy-personalized-order-review/"
+    },
+    {
+      "url": "/zh/guides/sembly-ai/sembly-share-client-meeting-notes-safely/",
+      "target": "/zh/blog/sembly-ai/sembly-share-client-meeting-notes-safely/"
+    },
+    {
+      "url": "/zh/guides/anydo/anydo-family-calendar-separate-work-tasks/",
+      "target": "/zh/blog/anydo/anydo-family-calendar-separate-work-tasks/"
+    },
+    {
+      "url": "/zh/guides/flowlu/flowlu-client-portal-project-delay-update/",
+      "target": "/zh/blog/flowlu/flowlu-client-portal-project-delay-update/"
+    },
+    {
+      "url": "/zh/guides/helpcrunch/shared-inbox-conversation-handoff/",
+      "target": "/zh/blog/helpcrunch/shared-inbox-conversation-handoff/"
+    },
+    {
+      "url": "/zh/guides/helpcrunch/helpcrunch-continue-website-chat-by-email/",
+      "target": "/zh/blog/helpcrunch/helpcrunch-continue-website-chat-by-email/"
+    },
+    {
+      "url": "/zh/guides/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/",
+      "target": "/zh/blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/"
+    },
+    {
+      "url": "/zh/guides/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/",
+      "target": "/zh/blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/"
+    },
+    {
+      "url": "/zh/guides/signaturely/signaturely-signing-invitation-not-received/",
+      "target": "/zh/blog/signaturely/signaturely-signing-invitation-not-received/"
+    },
+    {
+      "url": "/zh/guides/signaturely/signaturely-reusable-signing-template-fields/",
+      "target": "/zh/blog/signaturely/signaturely-reusable-signing-template-fields/"
+    },
+    {
+      "url": "/zh/guides/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/",
+      "target": "/zh/blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/"
+    },
+    {
+      "url": "/zh/guides/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/",
+      "target": "/zh/blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/"
+    },
+    {
+      "url": "/zh/guides/frase/frase-serp-outline-content-gap-analysis/",
+      "target": "/zh/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/zh/guides/frase/frase-content-score-improve-direct-answer/",
+      "target": "/zh/blog/frase/frase-content-score-improve-direct-answer/"
+    },
+    {
+      "url": "/zh/guides/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
+      "target": "/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/zh/guides/answerthis/answerthis-literature-review-verify-citation-claims/",
+      "target": "/zh/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/zh/guides/deepl/deepl-website-localization-glossary/",
+      "target": "/zh/blog/deepl/deepl-website-localization-glossary/"
+    },
+    {
+      "url": "/zh/guides/deepl/deepl-japanese-customer-support-email-tone/",
+      "target": "/zh/blog/deepl/deepl-japanese-customer-support-email-tone/"
+    },
+    {
+      "url": "/zh/guides/gamma/gamma-reusable-weekly-project-update-template/",
+      "target": "/zh/blog/gamma/gamma-reusable-weekly-project-update-template/"
+    },
+    {
+      "url": "/zh/guides/gamma/gamma-turn-research-report-into-six-source-backed-slides/",
+      "target": "/zh/blog/gamma/gamma-turn-research-report-into-six-source-backed-slides/"
+    },
+    {
+      "url": "/zh/guides/visual-content/redact-customer-data-in-saas-product-screenshots/",
+      "target": "/zh/blog/visual-content/redact-customer-data-in-saas-product-screenshots/"
+    },
+    {
+      "url": "/zh/guides/mangools/mangools-competitor-keywords-find-underserved-queries/",
+      "target": "/zh/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/zh/guides/seopress/seopress-canonical-url-similar-wordpress-pages/",
+      "target": "/zh/blog/seopress/seopress-canonical-url-similar-wordpress-pages/"
+    },
+    {
+      "url": "/zh/guides/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/",
+      "target": "/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/"
+    },
+    {
+      "url": "/zh/guides/oh-dear/oh-dear-monitor-checkout-application-health/",
+      "target": "/zh/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/zh/guides/oh-dear/oh-dear-uptime-response-time-multiple-locations/",
+      "target": "/zh/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/"
+    },
+    {
+      "url": "/zh/guides/oh-dear/oh-dear-maintenance-window-status-notifications/",
+      "target": "/zh/blog/oh-dear/oh-dear-maintenance-window-status-notifications/"
+    },
+    {
+      "url": "/zh/guides/search-troubleshooting/google-search-shows-old-page-title/",
+      "target": "/zh/blog/search-troubleshooting/google-search-shows-old-page-title/"
+    },
+    {
+      "url": "/zh/guides/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/",
+      "target": "/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/"
+    },
+    {
+      "url": "/zh/guides/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/",
+      "target": "/zh/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/"
+    },
+    {
+      "url": "/zh/guides/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/",
+      "target": "/zh/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/"
+    },
+    {
+      "url": "/zh/guides/content-maintenance/fix-outdated-pricing-in-ai-search-citations/",
+      "target": "/zh/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/"
+    },
+    {
+      "url": "/zh/guides/buying-guides/compare-saas-prices-per-seat-vs-usage/",
+      "target": "/zh/blog/buying-guides/compare-saas-prices-per-seat-vs-usage/"
+    },
+    {
+      "url": "/zh/guides/multilingual-editing/multilingual-content-evidence-update-workflow/",
+      "target": "/zh/blog/multilingual-editing/multilingual-content-evidence-update-workflow/"
+    },
+    {
+      "url": "/zh/guides/product-testing/reproducible-saas-product-review-methodology/",
+      "target": "/zh/blog/product-testing/reproducible-saas-product-review-methodology/"
+    },
+    {
+      "url": "/zh/guides/ai-search-visibility/track-ai-citations-monthly-test-protocol/",
+      "target": "/zh/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/"
+    },
+    {
+      "url": "/zh/guides/magnific/creative-vs-precision-upscaling/",
+      "target": "/zh/blog/magnific/creative-vs-precision-upscaling/"
+    },
+    {
+      "url": "/zh/guides/podcast-production/check-podcast-loudness-before-export/",
+      "target": "/zh/blog/podcast-production/check-podcast-loudness-before-export/"
+    },
+    {
       "url": "/zh/guides/n8n/human-approval-timeout/",
       "target": "/zh/blog/n8n/human-approval-timeout/"
     },
@@ -2281,6 +4737,14 @@
     {
       "url": "/zh/guides/printful/document-off-centre-print-claim/",
       "target": "/zh/blog/printful/document-off-centre-print-claim/"
+    },
+    {
+      "url": "/zh/guides/printful/replace-design-on-synced-product/",
+      "target": "/zh/blog/printful/replace-design-on-synced-product/"
+    },
+    {
+      "url": "/zh/guides/printful/shopify-order-not-in-production/",
+      "target": "/zh/blog/printful/shopify-order-not-in-production/"
     },
     {
       "url": "/zh/guides/payhip/pdf-individual-and-team-license-variants/",
@@ -2339,6 +4803,38 @@
       "target": "/es/blog/ai-search-visibility/"
     },
     {
+      "url": "/es/guides/visual-content/",
+      "target": "/es/blog/visual-content/"
+    },
+    {
+      "url": "/es/guides/search-troubleshooting/",
+      "target": "/es/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/es/guides/affiliate-attribution/",
+      "target": "/es/blog/affiliate-attribution/"
+    },
+    {
+      "url": "/es/guides/content-maintenance/",
+      "target": "/es/blog/content-maintenance/"
+    },
+    {
+      "url": "/es/guides/buying-guides/",
+      "target": "/es/blog/buying-guides/"
+    },
+    {
+      "url": "/es/guides/multilingual-editing/",
+      "target": "/es/blog/multilingual-editing/"
+    },
+    {
+      "url": "/es/guides/product-testing/",
+      "target": "/es/blog/product-testing/"
+    },
+    {
+      "url": "/es/guides/podcast-production/",
+      "target": "/es/blog/podcast-production/"
+    },
+    {
       "url": "/es/guides/multilingual-seo/",
       "target": "/es/blog/multilingual-seo/"
     },
@@ -2395,6 +4891,274 @@
       "target": "/es/blog/streamyard/local-tracks-vs-live-replay/"
     },
     {
+      "url": "/es/guides/castos/migrate-a-podcast-and-verify-rss-redirect/",
+      "target": "/es/blog/castos/migrate-a-podcast-and-verify-rss-redirect/"
+    },
+    {
+      "url": "/es/guides/castos/grant-and-revoke-private-podcast-access/",
+      "target": "/es/blog/castos/grant-and-revoke-private-podcast-access/"
+    },
+    {
+      "url": "/es/guides/streamyard/handle-a-guest-disconnect-and-recover-tracks/",
+      "target": "/es/blog/streamyard/handle-a-guest-disconnect-and-recover-tracks/"
+    },
+    {
+      "url": "/es/guides/castos/turn-a-podcast-transcript-into-searchable-show-notes/",
+      "target": "/es/blog/castos/turn-a-podcast-transcript-into-searchable-show-notes/"
+    },
+    {
+      "url": "/es/guides/submagic/proofread-names-numbers-and-timing-in-replay-captions/",
+      "target": "/es/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/es/guides/streamyard/assign-host-cohost-and-guest-stage-permissions/",
+      "target": "/es/blog/streamyard/assign-host-cohost-and-guest-stage-permissions/"
+    },
+    {
+      "url": "/es/guides/quso-ai/cut-three-distinct-shorts-from-one-interview/",
+      "target": "/es/blog/quso-ai/cut-three-distinct-shorts-from-one-interview/"
+    },
+    {
+      "url": "/es/guides/capcut/when-to-manually-reframe-two-speakers/",
+      "target": "/es/blog/capcut/when-to-manually-reframe-two-speakers/"
+    },
+    {
+      "url": "/es/guides/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/",
+      "target": "/es/blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/"
+    },
+    {
+      "url": "/es/guides/submagic/place-two-language-captions-without-covering-demo/",
+      "target": "/es/blog/submagic/place-two-language-captions-without-covering-demo/"
+    },
+    {
+      "url": "/es/guides/videogen/decide-when-a-demo-needs-real-screen-recording/",
+      "target": "/es/blog/videogen/decide-when-a-demo-needs-real-screen-recording/"
+    },
+    {
+      "url": "/es/guides/joggai/check-brand-names-in-multilingual-product-videos/",
+      "target": "/es/blog/joggai/check-brand-names-in-multilingual-product-videos/"
+    },
+    {
+      "url": "/es/guides/videogen/test-three-opening-shots-for-one-saas-ad/",
+      "target": "/es/blog/videogen/test-three-opening-shots-for-one-saas-ad/"
+    },
+    {
+      "url": "/es/guides/capcut/reuse-vertical-edits-for-a-horizontal-cut/",
+      "target": "/es/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/"
+    },
+    {
+      "url": "/es/guides/elevenlabs/build-a-brand-pronunciation-list-before-recording/",
+      "target": "/es/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/es/guides/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/",
+      "target": "/es/blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/"
+    },
+    {
+      "url": "/es/guides/predis-ai/predis-ai-adapt-one-product-post-across-platforms/",
+      "target": "/es/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/"
+    },
+    {
+      "url": "/es/guides/sked-social/reschedule-campaign-social-posts-after-date-change/",
+      "target": "/es/blog/sked-social/reschedule-campaign-social-posts-after-date-change/"
+    },
+    {
+      "url": "/es/guides/sked-social/prepare-posts-for-bulk-social-scheduling/",
+      "target": "/es/blog/sked-social/prepare-posts-for-bulk-social-scheduling/"
+    },
+    {
+      "url": "/es/guides/systeme-io/systeme-workshop-signup-source-tags/",
+      "target": "/es/blog/systeme-io/systeme-workshop-signup-source-tags/"
+    },
+    {
+      "url": "/es/guides/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/",
+      "target": "/es/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/"
+    },
+    {
+      "url": "/es/guides/n8n/prevent-duplicate-form-submissions-with-n8n/",
+      "target": "/es/blog/n8n/prevent-duplicate-form-submissions-with-n8n/"
+    },
+    {
+      "url": "/es/guides/n8n/n8n-sub-workflow-address-input-output-example/",
+      "target": "/es/blog/n8n/n8n-sub-workflow-address-input-output-example/"
+    },
+    {
+      "url": "/es/guides/cal-com/cal-com-reschedule-cancellation-notifications/",
+      "target": "/es/blog/cal-com/cal-com-reschedule-cancellation-notifications/"
+    },
+    {
+      "url": "/es/guides/cal-com/cal-com-collective-booking-mutual-availability/",
+      "target": "/es/blog/cal-com/cal-com-collective-booking-mutual-availability/"
+    },
+    {
+      "url": "/es/guides/cal-com/cal-com-prevent-double-booking-across-calendars/",
+      "target": "/es/blog/cal-com/cal-com-prevent-double-booking-across-calendars/"
+    },
+    {
+      "url": "/es/guides/pcloud/pcloud-shared-link-vs-folder-invite/",
+      "target": "/es/blog/pcloud/pcloud-shared-link-vs-folder-invite/"
+    },
+    {
+      "url": "/es/guides/pcloud/pcloud-update-shared-file-version-client-link/",
+      "target": "/es/blog/pcloud/pcloud-update-shared-file-version-client-link/"
+    },
+    {
+      "url": "/es/guides/publer/publer-failed-post-notification-retry/",
+      "target": "/es/blog/publer/publer-failed-post-notification-retry/"
+    },
+    {
+      "url": "/es/guides/printful/etsy-personalized-order-review/",
+      "target": "/es/blog/printful/etsy-personalized-order-review/"
+    },
+    {
+      "url": "/es/guides/sembly-ai/sembly-share-client-meeting-notes-safely/",
+      "target": "/es/blog/sembly-ai/sembly-share-client-meeting-notes-safely/"
+    },
+    {
+      "url": "/es/guides/anydo/anydo-family-calendar-separate-work-tasks/",
+      "target": "/es/blog/anydo/anydo-family-calendar-separate-work-tasks/"
+    },
+    {
+      "url": "/es/guides/flowlu/flowlu-client-portal-project-delay-update/",
+      "target": "/es/blog/flowlu/flowlu-client-portal-project-delay-update/"
+    },
+    {
+      "url": "/es/guides/helpcrunch/shared-inbox-conversation-handoff/",
+      "target": "/es/blog/helpcrunch/shared-inbox-conversation-handoff/"
+    },
+    {
+      "url": "/es/guides/helpcrunch/helpcrunch-continue-website-chat-by-email/",
+      "target": "/es/blog/helpcrunch/helpcrunch-continue-website-chat-by-email/"
+    },
+    {
+      "url": "/es/guides/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/",
+      "target": "/es/blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/"
+    },
+    {
+      "url": "/es/guides/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/",
+      "target": "/es/blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/"
+    },
+    {
+      "url": "/es/guides/signaturely/signaturely-signing-invitation-not-received/",
+      "target": "/es/blog/signaturely/signaturely-signing-invitation-not-received/"
+    },
+    {
+      "url": "/es/guides/signaturely/signaturely-reusable-signing-template-fields/",
+      "target": "/es/blog/signaturely/signaturely-reusable-signing-template-fields/"
+    },
+    {
+      "url": "/es/guides/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/",
+      "target": "/es/blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/"
+    },
+    {
+      "url": "/es/guides/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/",
+      "target": "/es/blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/"
+    },
+    {
+      "url": "/es/guides/frase/frase-serp-outline-content-gap-analysis/",
+      "target": "/es/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/es/guides/frase/frase-content-score-improve-direct-answer/",
+      "target": "/es/blog/frase/frase-content-score-improve-direct-answer/"
+    },
+    {
+      "url": "/es/guides/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
+      "target": "/es/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/es/guides/answerthis/answerthis-literature-review-verify-citation-claims/",
+      "target": "/es/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/es/guides/deepl/deepl-website-localization-glossary/",
+      "target": "/es/blog/deepl/deepl-website-localization-glossary/"
+    },
+    {
+      "url": "/es/guides/deepl/deepl-japanese-customer-support-email-tone/",
+      "target": "/es/blog/deepl/deepl-japanese-customer-support-email-tone/"
+    },
+    {
+      "url": "/es/guides/gamma/gamma-reusable-weekly-project-update-template/",
+      "target": "/es/blog/gamma/gamma-reusable-weekly-project-update-template/"
+    },
+    {
+      "url": "/es/guides/gamma/gamma-turn-research-report-into-six-source-backed-slides/",
+      "target": "/es/blog/gamma/gamma-turn-research-report-into-six-source-backed-slides/"
+    },
+    {
+      "url": "/es/guides/visual-content/redact-customer-data-in-saas-product-screenshots/",
+      "target": "/es/blog/visual-content/redact-customer-data-in-saas-product-screenshots/"
+    },
+    {
+      "url": "/es/guides/mangools/mangools-competitor-keywords-find-underserved-queries/",
+      "target": "/es/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/es/guides/seopress/seopress-canonical-url-similar-wordpress-pages/",
+      "target": "/es/blog/seopress/seopress-canonical-url-similar-wordpress-pages/"
+    },
+    {
+      "url": "/es/guides/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/",
+      "target": "/es/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/"
+    },
+    {
+      "url": "/es/guides/oh-dear/oh-dear-monitor-checkout-application-health/",
+      "target": "/es/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/es/guides/oh-dear/oh-dear-uptime-response-time-multiple-locations/",
+      "target": "/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/"
+    },
+    {
+      "url": "/es/guides/oh-dear/oh-dear-maintenance-window-status-notifications/",
+      "target": "/es/blog/oh-dear/oh-dear-maintenance-window-status-notifications/"
+    },
+    {
+      "url": "/es/guides/search-troubleshooting/google-search-shows-old-page-title/",
+      "target": "/es/blog/search-troubleshooting/google-search-shows-old-page-title/"
+    },
+    {
+      "url": "/es/guides/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/",
+      "target": "/es/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/"
+    },
+    {
+      "url": "/es/guides/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/",
+      "target": "/es/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/"
+    },
+    {
+      "url": "/es/guides/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/",
+      "target": "/es/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/"
+    },
+    {
+      "url": "/es/guides/content-maintenance/fix-outdated-pricing-in-ai-search-citations/",
+      "target": "/es/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/"
+    },
+    {
+      "url": "/es/guides/buying-guides/compare-saas-prices-per-seat-vs-usage/",
+      "target": "/es/blog/buying-guides/compare-saas-prices-per-seat-vs-usage/"
+    },
+    {
+      "url": "/es/guides/multilingual-editing/multilingual-content-evidence-update-workflow/",
+      "target": "/es/blog/multilingual-editing/multilingual-content-evidence-update-workflow/"
+    },
+    {
+      "url": "/es/guides/product-testing/reproducible-saas-product-review-methodology/",
+      "target": "/es/blog/product-testing/reproducible-saas-product-review-methodology/"
+    },
+    {
+      "url": "/es/guides/ai-search-visibility/track-ai-citations-monthly-test-protocol/",
+      "target": "/es/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/"
+    },
+    {
+      "url": "/es/guides/magnific/creative-vs-precision-upscaling/",
+      "target": "/es/blog/magnific/creative-vs-precision-upscaling/"
+    },
+    {
+      "url": "/es/guides/podcast-production/check-podcast-loudness-before-export/",
+      "target": "/es/blog/podcast-production/check-podcast-loudness-before-export/"
+    },
+    {
       "url": "/es/guides/n8n/human-approval-timeout/",
       "target": "/es/blog/n8n/human-approval-timeout/"
     },
@@ -2425,6 +5189,14 @@
     {
       "url": "/es/guides/printful/document-off-centre-print-claim/",
       "target": "/es/blog/printful/document-off-centre-print-claim/"
+    },
+    {
+      "url": "/es/guides/printful/replace-design-on-synced-product/",
+      "target": "/es/blog/printful/replace-design-on-synced-product/"
+    },
+    {
+      "url": "/es/guides/printful/shopify-order-not-in-production/",
+      "target": "/es/blog/printful/shopify-order-not-in-production/"
     },
     {
       "url": "/es/guides/payhip/pdf-individual-and-team-license-variants/",
@@ -2483,6 +5255,38 @@
       "target": "/ja/blog/ai-search-visibility/"
     },
     {
+      "url": "/ja/guides/visual-content/",
+      "target": "/ja/blog/visual-content/"
+    },
+    {
+      "url": "/ja/guides/search-troubleshooting/",
+      "target": "/ja/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/ja/guides/affiliate-attribution/",
+      "target": "/ja/blog/affiliate-attribution/"
+    },
+    {
+      "url": "/ja/guides/content-maintenance/",
+      "target": "/ja/blog/content-maintenance/"
+    },
+    {
+      "url": "/ja/guides/buying-guides/",
+      "target": "/ja/blog/buying-guides/"
+    },
+    {
+      "url": "/ja/guides/multilingual-editing/",
+      "target": "/ja/blog/multilingual-editing/"
+    },
+    {
+      "url": "/ja/guides/product-testing/",
+      "target": "/ja/blog/product-testing/"
+    },
+    {
+      "url": "/ja/guides/podcast-production/",
+      "target": "/ja/blog/podcast-production/"
+    },
+    {
       "url": "/ja/guides/multilingual-seo/",
       "target": "/ja/blog/multilingual-seo/"
     },
@@ -2539,6 +5343,274 @@
       "target": "/ja/blog/streamyard/local-tracks-vs-live-replay/"
     },
     {
+      "url": "/ja/guides/castos/migrate-a-podcast-and-verify-rss-redirect/",
+      "target": "/ja/blog/castos/migrate-a-podcast-and-verify-rss-redirect/"
+    },
+    {
+      "url": "/ja/guides/castos/grant-and-revoke-private-podcast-access/",
+      "target": "/ja/blog/castos/grant-and-revoke-private-podcast-access/"
+    },
+    {
+      "url": "/ja/guides/streamyard/handle-a-guest-disconnect-and-recover-tracks/",
+      "target": "/ja/blog/streamyard/handle-a-guest-disconnect-and-recover-tracks/"
+    },
+    {
+      "url": "/ja/guides/castos/turn-a-podcast-transcript-into-searchable-show-notes/",
+      "target": "/ja/blog/castos/turn-a-podcast-transcript-into-searchable-show-notes/"
+    },
+    {
+      "url": "/ja/guides/submagic/proofread-names-numbers-and-timing-in-replay-captions/",
+      "target": "/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/ja/guides/streamyard/assign-host-cohost-and-guest-stage-permissions/",
+      "target": "/ja/blog/streamyard/assign-host-cohost-and-guest-stage-permissions/"
+    },
+    {
+      "url": "/ja/guides/quso-ai/cut-three-distinct-shorts-from-one-interview/",
+      "target": "/ja/blog/quso-ai/cut-three-distinct-shorts-from-one-interview/"
+    },
+    {
+      "url": "/ja/guides/capcut/when-to-manually-reframe-two-speakers/",
+      "target": "/ja/blog/capcut/when-to-manually-reframe-two-speakers/"
+    },
+    {
+      "url": "/ja/guides/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/",
+      "target": "/ja/blog/movavi-video-editor/set-noise-reduction-with-before-after-dialogue/"
+    },
+    {
+      "url": "/ja/guides/submagic/place-two-language-captions-without-covering-demo/",
+      "target": "/ja/blog/submagic/place-two-language-captions-without-covering-demo/"
+    },
+    {
+      "url": "/ja/guides/videogen/decide-when-a-demo-needs-real-screen-recording/",
+      "target": "/ja/blog/videogen/decide-when-a-demo-needs-real-screen-recording/"
+    },
+    {
+      "url": "/ja/guides/joggai/check-brand-names-in-multilingual-product-videos/",
+      "target": "/ja/blog/joggai/check-brand-names-in-multilingual-product-videos/"
+    },
+    {
+      "url": "/ja/guides/videogen/test-three-opening-shots-for-one-saas-ad/",
+      "target": "/ja/blog/videogen/test-three-opening-shots-for-one-saas-ad/"
+    },
+    {
+      "url": "/ja/guides/capcut/reuse-vertical-edits-for-a-horizontal-cut/",
+      "target": "/ja/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/"
+    },
+    {
+      "url": "/ja/guides/elevenlabs/build-a-brand-pronunciation-list-before-recording/",
+      "target": "/ja/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/ja/guides/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/",
+      "target": "/ja/blog/elevenlabs/fit-ai-narration-to-a-sixty-second-demo/"
+    },
+    {
+      "url": "/ja/guides/predis-ai/predis-ai-adapt-one-product-post-across-platforms/",
+      "target": "/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/"
+    },
+    {
+      "url": "/ja/guides/sked-social/reschedule-campaign-social-posts-after-date-change/",
+      "target": "/ja/blog/sked-social/reschedule-campaign-social-posts-after-date-change/"
+    },
+    {
+      "url": "/ja/guides/sked-social/prepare-posts-for-bulk-social-scheduling/",
+      "target": "/ja/blog/sked-social/prepare-posts-for-bulk-social-scheduling/"
+    },
+    {
+      "url": "/ja/guides/systeme-io/systeme-workshop-signup-source-tags/",
+      "target": "/ja/blog/systeme-io/systeme-workshop-signup-source-tags/"
+    },
+    {
+      "url": "/ja/guides/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/",
+      "target": "/ja/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/"
+    },
+    {
+      "url": "/ja/guides/n8n/prevent-duplicate-form-submissions-with-n8n/",
+      "target": "/ja/blog/n8n/prevent-duplicate-form-submissions-with-n8n/"
+    },
+    {
+      "url": "/ja/guides/n8n/n8n-sub-workflow-address-input-output-example/",
+      "target": "/ja/blog/n8n/n8n-sub-workflow-address-input-output-example/"
+    },
+    {
+      "url": "/ja/guides/cal-com/cal-com-reschedule-cancellation-notifications/",
+      "target": "/ja/blog/cal-com/cal-com-reschedule-cancellation-notifications/"
+    },
+    {
+      "url": "/ja/guides/cal-com/cal-com-collective-booking-mutual-availability/",
+      "target": "/ja/blog/cal-com/cal-com-collective-booking-mutual-availability/"
+    },
+    {
+      "url": "/ja/guides/cal-com/cal-com-prevent-double-booking-across-calendars/",
+      "target": "/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/"
+    },
+    {
+      "url": "/ja/guides/pcloud/pcloud-shared-link-vs-folder-invite/",
+      "target": "/ja/blog/pcloud/pcloud-shared-link-vs-folder-invite/"
+    },
+    {
+      "url": "/ja/guides/pcloud/pcloud-update-shared-file-version-client-link/",
+      "target": "/ja/blog/pcloud/pcloud-update-shared-file-version-client-link/"
+    },
+    {
+      "url": "/ja/guides/publer/publer-failed-post-notification-retry/",
+      "target": "/ja/blog/publer/publer-failed-post-notification-retry/"
+    },
+    {
+      "url": "/ja/guides/printful/etsy-personalized-order-review/",
+      "target": "/ja/blog/printful/etsy-personalized-order-review/"
+    },
+    {
+      "url": "/ja/guides/sembly-ai/sembly-share-client-meeting-notes-safely/",
+      "target": "/ja/blog/sembly-ai/sembly-share-client-meeting-notes-safely/"
+    },
+    {
+      "url": "/ja/guides/anydo/anydo-family-calendar-separate-work-tasks/",
+      "target": "/ja/blog/anydo/anydo-family-calendar-separate-work-tasks/"
+    },
+    {
+      "url": "/ja/guides/flowlu/flowlu-client-portal-project-delay-update/",
+      "target": "/ja/blog/flowlu/flowlu-client-portal-project-delay-update/"
+    },
+    {
+      "url": "/ja/guides/helpcrunch/shared-inbox-conversation-handoff/",
+      "target": "/ja/blog/helpcrunch/shared-inbox-conversation-handoff/"
+    },
+    {
+      "url": "/ja/guides/helpcrunch/helpcrunch-continue-website-chat-by-email/",
+      "target": "/ja/blog/helpcrunch/helpcrunch-continue-website-chat-by-email/"
+    },
+    {
+      "url": "/ja/guides/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/",
+      "target": "/ja/blog/social-intents/social-intents-teams-live-chat-avoid-wrong-conversation/"
+    },
+    {
+      "url": "/ja/guides/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/",
+      "target": "/ja/blog/helpcrunch/helpcrunch-turn-support-chats-into-knowledge-base/"
+    },
+    {
+      "url": "/ja/guides/signaturely/signaturely-signing-invitation-not-received/",
+      "target": "/ja/blog/signaturely/signaturely-signing-invitation-not-received/"
+    },
+    {
+      "url": "/ja/guides/signaturely/signaturely-reusable-signing-template-fields/",
+      "target": "/ja/blog/signaturely/signaturely-reusable-signing-template-fields/"
+    },
+    {
+      "url": "/ja/guides/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/",
+      "target": "/ja/blog/pdf2go/pdf2go-compress-pdf-keep-small-text-legible/"
+    },
+    {
+      "url": "/ja/guides/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/",
+      "target": "/ja/blog/pdf2go/pdf2go-ocr-scanned-pdf-verify-dates-and-numbers/"
+    },
+    {
+      "url": "/ja/guides/frase/frase-serp-outline-content-gap-analysis/",
+      "target": "/ja/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/ja/guides/frase/frase-content-score-improve-direct-answer/",
+      "target": "/ja/blog/frase/frase-content-score-improve-direct-answer/"
+    },
+    {
+      "url": "/ja/guides/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
+      "target": "/ja/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/ja/guides/answerthis/answerthis-literature-review-verify-citation-claims/",
+      "target": "/ja/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/ja/guides/deepl/deepl-website-localization-glossary/",
+      "target": "/ja/blog/deepl/deepl-website-localization-glossary/"
+    },
+    {
+      "url": "/ja/guides/deepl/deepl-japanese-customer-support-email-tone/",
+      "target": "/ja/blog/deepl/deepl-japanese-customer-support-email-tone/"
+    },
+    {
+      "url": "/ja/guides/gamma/gamma-reusable-weekly-project-update-template/",
+      "target": "/ja/blog/gamma/gamma-reusable-weekly-project-update-template/"
+    },
+    {
+      "url": "/ja/guides/gamma/gamma-turn-research-report-into-six-source-backed-slides/",
+      "target": "/ja/blog/gamma/gamma-turn-research-report-into-six-source-backed-slides/"
+    },
+    {
+      "url": "/ja/guides/visual-content/redact-customer-data-in-saas-product-screenshots/",
+      "target": "/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/"
+    },
+    {
+      "url": "/ja/guides/mangools/mangools-competitor-keywords-find-underserved-queries/",
+      "target": "/ja/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/ja/guides/seopress/seopress-canonical-url-similar-wordpress-pages/",
+      "target": "/ja/blog/seopress/seopress-canonical-url-similar-wordpress-pages/"
+    },
+    {
+      "url": "/ja/guides/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/",
+      "target": "/ja/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/"
+    },
+    {
+      "url": "/ja/guides/oh-dear/oh-dear-monitor-checkout-application-health/",
+      "target": "/ja/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/ja/guides/oh-dear/oh-dear-uptime-response-time-multiple-locations/",
+      "target": "/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/"
+    },
+    {
+      "url": "/ja/guides/oh-dear/oh-dear-maintenance-window-status-notifications/",
+      "target": "/ja/blog/oh-dear/oh-dear-maintenance-window-status-notifications/"
+    },
+    {
+      "url": "/ja/guides/search-troubleshooting/google-search-shows-old-page-title/",
+      "target": "/ja/blog/search-troubleshooting/google-search-shows-old-page-title/"
+    },
+    {
+      "url": "/ja/guides/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/",
+      "target": "/ja/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/"
+    },
+    {
+      "url": "/ja/guides/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/",
+      "target": "/ja/blog/windsor-ai/windsor-ai-blend-marketing-data-without-double-counting/"
+    },
+    {
+      "url": "/ja/guides/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/",
+      "target": "/ja/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/"
+    },
+    {
+      "url": "/ja/guides/content-maintenance/fix-outdated-pricing-in-ai-search-citations/",
+      "target": "/ja/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/"
+    },
+    {
+      "url": "/ja/guides/buying-guides/compare-saas-prices-per-seat-vs-usage/",
+      "target": "/ja/blog/buying-guides/compare-saas-prices-per-seat-vs-usage/"
+    },
+    {
+      "url": "/ja/guides/multilingual-editing/multilingual-content-evidence-update-workflow/",
+      "target": "/ja/blog/multilingual-editing/multilingual-content-evidence-update-workflow/"
+    },
+    {
+      "url": "/ja/guides/product-testing/reproducible-saas-product-review-methodology/",
+      "target": "/ja/blog/product-testing/reproducible-saas-product-review-methodology/"
+    },
+    {
+      "url": "/ja/guides/ai-search-visibility/track-ai-citations-monthly-test-protocol/",
+      "target": "/ja/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/"
+    },
+    {
+      "url": "/ja/guides/magnific/creative-vs-precision-upscaling/",
+      "target": "/ja/blog/magnific/creative-vs-precision-upscaling/"
+    },
+    {
+      "url": "/ja/guides/podcast-production/check-podcast-loudness-before-export/",
+      "target": "/ja/blog/podcast-production/check-podcast-loudness-before-export/"
+    },
+    {
       "url": "/ja/guides/n8n/human-approval-timeout/",
       "target": "/ja/blog/n8n/human-approval-timeout/"
     },
@@ -2569,6 +5641,14 @@
     {
       "url": "/ja/guides/printful/document-off-centre-print-claim/",
       "target": "/ja/blog/printful/document-off-centre-print-claim/"
+    },
+    {
+      "url": "/ja/guides/printful/replace-design-on-synced-product/",
+      "target": "/ja/blog/printful/replace-design-on-synced-product/"
+    },
+    {
+      "url": "/ja/guides/printful/shopify-order-not-in-production/",
+      "target": "/ja/blog/printful/shopify-order-not-in-production/"
     },
     {
       "url": "/ja/guides/payhip/pdf-individual-and-team-license-variants/",

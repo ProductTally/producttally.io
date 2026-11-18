@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Predis.aiで商品写真をInstagram・LinkedIn向けに使い分ける — ProductTally</title>
+  <meta name="description" content="同じ商品情報から、動きを見せる短い動画と、チームの引き継ぎを助ける投稿を作ります。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Predis.aiで商品写真をInstagram・LinkedIn向けに使い分ける — ProductTally">
+  <meta property="og:description" content="同じ商品情報から、動きを見せる短い動画と、チームの引き継ぎを助ける投稿を作ります。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/predis-ai-adapt-one-product-post-across-platforms/cover.webp">
+  <meta property="og:image:alt" content="3列の卓上ボードで付箋を隣の列に移す場面。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="520">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Predis.aiで商品写真をInstagram・LinkedIn向けに使い分ける — ProductTally">
+  <meta name="twitter:description" content="同じ商品情報から、動きを見せる短い動画と、チームの引き継ぎを助ける投稿を作ります。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/predis-ai-adapt-one-product-post-across-platforms/cover.webp">
+  <meta name="twitter:image:alt" content="3列の卓上ボードで付箋を隣の列に移す場面。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/#webpage","name":"Predis.aiで商品写真をInstagram・LinkedIn向けに使い分ける","description":"同じ商品情報から、動きを見せる短い動画と、チームの引き継ぎを助ける投稿を作ります。","url":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/#article","headline":"Predis.aiで商品写真をInstagram・LinkedIn向けに使い分ける","description":"同じ商品情報から、動きを見せる短い動画と、チームの引き継ぎを助ける投稿を作ります。","url":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/#article-image","url":"https://producttally.com/assets/articles/predis-ai-adapt-one-product-post-across-platforms/cover.webp","contentUrl":"https://producttally.com/assets/articles/predis-ai-adapt-one-product-post-across-platforms/cover.webp","width":1180,"height":520,"caption":"3列の卓上ボードで付箋を隣の列に移す場面。"},"about":[{"@id":"https://producttally.com/products/predis-ai/#software"}],"dateModified":"2026-11-18","citation":["https://help.predis.ai/knowledgebase/en/article/how-to-create-a-short-ad-video-using-a-product-image"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/predis-ai/#software","name":"Predis.ai","url":"https://predis.ai/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"Predis.ai","item":"https://producttally.com/ja/products/predis-ai/"},{"@type":"ListItem","position":4,"name":"商品写真1枚からInstagramとLinkedIn向けの投稿を作るには？","item":"https://producttally.com/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/predis-ai/predis-ai-adapt-one-product-post-across-platforms/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">ブログ</a></li><li><a href="/ja/products/predis-ai/">Predis.ai</a></li><li><span aria-current="page">商品写真1枚からInstagramとLinkedIn向けの投稿を作るには？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">マーケティングとSNS · 4 最小読み取り</p>
+        <h1>Predis.ai: 商品写真1枚からInstagramとLinkedIn向けの投稿を作るには？</h1>
+        <p class="lead">同じ商品情報から、動きを見せる短い動画と、チームの引き継ぎを助ける投稿を作ります。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-18">2026/11/18</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/predis-ai-adapt-one-product-post-across-platforms/cover.webp" srcset="/assets/articles/predis-ai-adapt-one-product-post-across-platforms/cover-small.webp 640w, /assets/articles/predis-ai-adapt-one-product-post-across-platforms/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="520" alt="3列の卓上ボードで付箋を隣の列に移す場面。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>Predis.aiで商品写真からInstagram用の短い広告の下書きを作ります。LinkedInの原稿はチームの判断を軸に別に書き、どちらも確認済みの商品情報と照合します。実際の操作を伝える箇所は実物を撮影します。</p>
+        </div>
+        <section id="section-0">
+          <h2>同じボードを使って、別の場面を描く</h2><p>3列の書き消しできる卓上ボードを例にします。Instagramでは、付箋を「作業中」から「確認待ち」へ移す手元を撮影します。「明日公開の記事が止まっていたら、確認待ちに移して担当者名を書きましょう」という文面が使えます。付箋がどう貼り付くかを伝えるなら、本物のボードで撮ります。</p><p>LinkedInでは真上から撮った写真を使い、「次の短い会議で、右端の各項目は誰の確認を待っているか聞いてみませんか」と提案します。会議時間の短縮を数字で示すには、別途根拠が必要です。</p>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/predis-ai-adapt-one-product-post-across-platforms/details.webp" width="1180" height="520"
+          alt="説明用のイラストです。引き継ぎは真上からの写真で説明し、付箋の動きを見せる場合は実物を撮ります。" loading="lazy" decoding="async"><figcaption>説明用のイラストです。引き継ぎは真上からの写真で説明し、付箋の動きを見せる場合は実物を撮ります。</figcaption></figure><section id="section-1">
+          <h2>Predis.aiに渡す情報を決める</h2><p>Product Ad Videoで画像をアップロードし、3列であることや表面を拭き取れることなど、確かめた内容を説明欄に入れます。追加指示に必要なカットを書き、書き出す前に下書きを確認します。LinkedInの文章は別に整えます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://help.predis.ai/knowledgebase/en/article/how-to-create-a-short-ad-video-using-a-product-image?ref=evan-b1f6e9" data-affiliate-click="predis-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Predis.ai公式ヘルプ：商品画像から短い広告を作る</a></li></ul><p>元画像と商品ページに照らして、生成された付属品や割引の記述を取り除きます。スマートフォンで動作が見えるか確認し、LinkedInでは冒頭だけ読んでも、何の判断を誰が引き継ぐのか伝わるようにします。</p>
+        </section>
+        <section class="article-next"><h2>公式ウェブサイトにアクセス</h2>
+          <ul><li><p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><a class="text-link" href="https://predis.ai?ref=evan-b1f6e9" data-affiliate-product="predis-ai" data-affiliate-click="predis-ai" data-affiliate-link-type="primary" target="_blank" rel="noopener nofollow">
+    <span><span translate="no">Predis.ai</span> · 公式ウェブサイトにアクセス</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a></li></ul>
+          <a class="text-link" href="/ja/products/predis-ai/">製品の詳細を見る</a>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/blog/predis-ai/customer-questions-to-social-posts/">よくある商品質問をPredis.aiで一つのSNS投稿にする</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><ul><li><cite><a data-source-citation="true" href="https://help.predis.ai/knowledgebase/en/article/how-to-create-a-short-ad-video-using-a-product-image?ref=evan-b1f6e9" data-affiliate-click="predis-ai" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Predis.ai公式ヘルプ：商品画像から短い広告を作る</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

@@ -177,6 +177,18 @@
 .guide-article-linear .article-resources cite { font-style: normal; }
 .article-opening { margin-block-end: 1.75rem; }
 .article-opening .text-link { display: inline-block; margin-block-start: .5rem; }
+.article-code {
+  margin-block: 1.25rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: .65rem;
+  background: var(--surface);
+  font-size: .875rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  tab-size: 2;
+}
 .article-table { margin-block: 1.25rem; }
 .article-table table { width: 100%; border-collapse: collapse; text-align: start; font-size: .95em; }
 .article-table caption { margin-block-end: .5rem; text-align: start; font-weight: 650; }
@@ -201,8 +213,8 @@
 .affiliate-disclosure,
 .prose p.affiliate-disclosure {
   margin-block: .375rem;
-  color: var(--muted);
-  font-size: .8125rem;
+  color: var(--disclosure-ink);
+  font-size: .75rem;
   line-height: 1.5;
 }
 .affiliate-disclosure + .product-evidence { margin-block-start: .375rem; }
