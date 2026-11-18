@@ -290,6 +290,12 @@
     },
     {
       "lang": "en",
+      "route": "products/higgsfield",
+      "url": "/products/higgsfield/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "en",
       "route": "products/sembly-ai",
       "url": "/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -1257,6 +1263,12 @@
       "route": "products/printify",
       "url": "/zh/products/printify/",
       "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "zh",
+      "route": "products/higgsfield",
+      "url": "/zh/products/higgsfield/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "zh",
@@ -2230,6 +2242,12 @@
     },
     {
       "lang": "es",
+      "route": "products/higgsfield",
+      "url": "/es/products/higgsfield/",
+      "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "es",
       "route": "products/sembly-ai",
       "url": "/es/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -3197,6 +3215,12 @@
       "route": "products/printify",
       "url": "/ja/products/printify/",
       "lastmod": "2026-11-16"
+    },
+    {
+      "lang": "ja",
+      "route": "products/higgsfield",
+      "url": "/ja/products/higgsfield/",
+      "lastmod": "2026-11-18"
     },
     {
       "lang": "ja",
