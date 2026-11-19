@@ -21,15 +21,14 @@
     ad_user_data: 'denied',
     ad_personalization: 'denied'
   });
+  gtag('set', context);
   gtag('js', new Date());
   gtag('config', measurementId, {
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
-    send_page_view: false,
     page_location: window.location.origin + window.location.pathname,
     page_referrer: document.referrer ? new URL(document.referrer).origin : ''
   });
-  gtag('event', 'page_view', { send_to: measurementId, ...context });
 
   if (pageType === 'product' && productId) {
     gtag('event', 'product_detail_view', { send_to: measurementId, ...context });
