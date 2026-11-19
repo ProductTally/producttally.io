@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google 搜索生成式 AI 控制、nosnippet 和 noindex 的用法 — ProductTally</title>
+  <meta name="description" content="区分整个资源退出指定 AI 功能、限制某段摘要和整页退出搜索这三种需求。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Google 搜索生成式 AI 控制、nosnippet 和 noindex 的用法 — ProductTally">
+  <meta property="og:description" content="区分整个资源退出指定 AI 功能、限制某段摘要和整页退出搜索这三种需求。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/google-search-generative-ai-inclusion-control/cover.webp">
+  <meta property="og:image:alt" content="三个控制范围示意：整个资源、一段文字与单个页面。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="660">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Google 搜索生成式 AI 控制、nosnippet 和 noindex 的用法 — ProductTally">
+  <meta name="twitter:description" content="区分整个资源退出指定 AI 功能、限制某段摘要和整页退出搜索这三种需求。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/google-search-generative-ai-inclusion-control/cover.webp">
+  <meta name="twitter:image:alt" content="三个控制范围示意：整个资源、一段文字与单个页面。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#webpage","name":"Google 搜索生成式 AI 控制、nosnippet 和 noindex 的用法","description":"区分整个资源退出指定 AI 功能、限制某段摘要和整页退出搜索这三种需求。","url":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#article","headline":"Google 搜索生成式 AI 控制、nosnippet 和 noindex 的用法","description":"区分整个资源退出指定 AI 功能、限制某段摘要和整页退出搜索这三种需求。","url":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#article-image","url":"https://producttally.com/assets/articles/google-search-generative-ai-inclusion-control/cover.webp","contentUrl":"https://producttally.com/assets/articles/google-search-generative-ai-inclusion-control/cover.webp","width":1180,"height":660,"caption":"三个控制范围示意：整个资源、一段文字与单个页面。"},"dateModified":"2026-11-19","citation":["https://support.google.com/webmasters/answer/16908024?hl=en","https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"AI 搜索可见度","item":"https://producttally.com/zh/blog/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"保留 Google 普通搜索可见性，怎么调整 AI 展示？","item":"https://producttally.com/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">博客</a></li><li><a href="/zh/blog/ai-search-visibility/">AI 搜索可见度</a></li><li><span aria-current="page">保留 Google 普通搜索可见性，怎么调整 AI 展示？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">搜索优化 · 3 分钟阅读</p>
+        <h1>保留 Google 普通搜索可见性，怎么调整 AI 展示？</h1>
+        <p class="lead">区分整个资源退出指定 AI 功能、限制某段摘要和整页退出搜索这三种需求。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-19">2026年11月19日</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/google-search-generative-ai-inclusion-control/cover.webp" srcset="/assets/articles/google-search-generative-ai-inclusion-control/cover-small.webp 640w, /assets/articles/google-search-generative-ai-inclusion-control/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="660" alt="三个控制范围示意：整个资源、一段文字与单个页面。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>Google 搜索生成式 AI 控制作用于 Search Console 资源。官方列出的范围包括 AI 概览、AI 模式和 Discover 内的生成式 AI 功能。整个资源要采用统一政策，同时保留其他搜索面的资格时，可以用这项设置。只限制某段文字时查摘要控制。整页要退出 Google 搜索时，查看 noindex。</p>
+        </div>
+        <section id="section-0">
+          <h2>全站政策从资源选择器开始</h2><p>进 Search Console 的「设置」，找到搜索生成式 AI 控制。核对选中的是网域资源还是网址前缀资源，以及是否继承父级设置。比如你同时维护帮助中心和博客，要动网域设置之前，先确认帮助中心归哪个资源管。操作前记下资源范围和选项。Google 说明，缓存可能让部分内容较晚反映变化。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16908024?hl=en">搜索生成式 AI 控制</a></li></ul>
+        </section><section id="section-1">
+          <h2>只限制一段，就从该段的 HTML 下手</h2><p>假设一篇公开文章还想被搜到，但其中一段不希望被用进摘要。可以把 data-nosnippet 加在包住那段文字的 div 等受支持元素上。要限制整页预览，可以查看 nosnippet 或 max-snippet。打开实际渲染结果，核对控制属性是否套在正确的文字上。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag">robots meta 与摘要控制</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/google-search-generative-ai-inclusion-control/details.webp" width="1180" height="580"
+          alt="三个控制范围示意：整个资源、一段文字与单个页面。" loading="lazy" decoding="async"><figcaption>三个控制范围示意：整个资源、一段文字与单个页面。</figcaption></figure><section id="section-2">
+          <h2>整页撤出搜索，需要针对网址处理</h2><p>公开页面要从 Google 搜索中排除时，让 Google 爬虫能读取 noindex。若同时用 robots.txt 阻挡该地址，爬虫可能看不到指令。如果内容需要保密，应在取到页面前要求身份验证。最后按实际范围选做法：一段文字、一条公开网址，还是整个资源在指定 AI 功能中的展示。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16908024?hl=en">搜索生成式 AI 控制</a></li><li><a data-source-citation="true" href="https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag">robots meta 与摘要控制</a></li></ul>
+        </section>
+        
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/blog/ai-search-visibility/bing-ai-performance-topic-gaps/">同一个 Bing AI 主题出现两篇文章，需要合并吗？</a></li><li><a href="/zh/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/">Bing 的 AI 引用翻倍，网站访问为什么没涨？</a></li><li><a href="/zh/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/">哪些文章被 AI 引用了？每月用同一组问题复测</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16908024?hl=en">搜索生成式 AI 控制</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag">robots meta 与摘要控制</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

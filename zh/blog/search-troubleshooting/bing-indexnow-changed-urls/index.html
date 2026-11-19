@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bing IndexNow 怎么提交新增、更新和移除的网址 — ProductTally</title>
+  <meta name="description" content="根据发布差异选出需要通知的地址，并核对 Bing 的接收状态。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/search-troubleshooting/bing-indexnow-changed-urls/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/search-troubleshooting/bing-indexnow-changed-urls/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/search-troubleshooting/bing-indexnow-changed-urls/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/search-troubleshooting/bing-indexnow-changed-urls/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Bing IndexNow 怎么提交新增、更新和移除的网址 — ProductTally">
+  <meta property="og:description" content="根据发布差异选出需要通知的地址，并核对 Bing 的接收状态。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/bing-indexnow-changed-urls/cover.webp">
+  <meta property="og:image:alt" content="发布差异示意：通知新增、变更、撤下的地址；站点地图保留规范网址。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="660">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bing IndexNow 怎么提交新增、更新和移除的网址 — ProductTally">
+  <meta name="twitter:description" content="根据发布差异选出需要通知的地址，并核对 Bing 的接收状态。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/bing-indexnow-changed-urls/cover.webp">
+  <meta name="twitter:image:alt" content="发布差异示意：通知新增、变更、撤下的地址；站点地图保留规范网址。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#webpage","name":"Bing IndexNow 怎么提交新增、更新和移除的网址","description":"根据发布差异选出需要通知的地址，并核对 Bing 的接收状态。","url":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#article","headline":"Bing IndexNow 怎么提交新增、更新和移除的网址","description":"根据发布差异选出需要通知的地址，并核对 Bing 的接收状态。","url":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#article-image","url":"https://producttally.com/assets/articles/bing-indexnow-changed-urls/cover.webp","contentUrl":"https://producttally.com/assets/articles/bing-indexnow-changed-urls/cover.webp","width":1180,"height":660,"caption":"发布差异示意：通知新增、变更、撤下的地址；站点地图保留规范网址。"},"dateModified":"2026-11-19","citation":["https://www.indexnow.org/documentation","https://www.bing.com/indexnow/getstarted","https://www.bing.com/webmasters/help/content-removal-cb6c294d"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"搜索排查","item":"https://producttally.com/zh/blog/search-troubleshooting/"},{"@type":"ListItem","position":4,"name":"上线后用 Bing IndexNow，应该提交哪些地址？","item":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/search-troubleshooting/bing-indexnow-changed-urls/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/search-troubleshooting/bing-indexnow-changed-urls/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/search-troubleshooting/bing-indexnow-changed-urls/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/search-troubleshooting/bing-indexnow-changed-urls/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/search-troubleshooting/bing-indexnow-changed-urls/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/search-troubleshooting/bing-indexnow-changed-urls/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">博客</a></li><li><a href="/zh/blog/search-troubleshooting/">搜索排查</a></li><li><span aria-current="page">上线后用 Bing IndexNow，应该提交哪些地址？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">搜索优化 · 3 分钟阅读</p>
+        <h1>上线后用 Bing IndexNow，应该提交哪些地址？</h1>
+        <p class="lead">根据发布差异选出需要通知的地址，并核对 Bing 的接收状态。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-19">2026年11月19日</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/bing-indexnow-changed-urls/cover.webp" srcset="/assets/articles/bing-indexnow-changed-urls/cover-small.webp 640w, /assets/articles/bing-indexnow-changed-urls/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="660" alt="发布差异示意：通知新增、变更、撤下的地址；站点地图保留规范网址。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>IndexNow 用来通知参与的搜索引擎：某个准确的网址新增、变更或移除了。站点地图可以继续提供规范网址供日常发现。等线上页面达到预期状态再通知，并记下服务返回的结果。</p>
+        </div>
+        <section id="section-0">
+          <h2>从本轮真正变化的地址整理批次</h2><p>假设本轮新增一篇指南、更新一个价格页，同时撤下一则公告。把新指南和价格页加入通知。先检查旧公告地址：有合适的新页时设重定向，内容确实移除时确认返回合适的 404 或 410。通知时也带上这条已发生变化的旧地址。使用同一已验证主机下的完整网址。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.indexnow.org/documentation">IndexNow 协议</a></li><li><a data-source-citation="true" href="https://www.bing.com/indexnow/getstarted">Bing IndexNow 接入说明</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/bing-indexnow-changed-urls/details.webp" width="1180" height="580"
+          alt="发布差异示意：通知新增、变更、撤下的地址；站点地图保留规范网址。" loading="lazy" decoding="async"><figcaption>发布差异示意：通知新增、变更、撤下的地址；站点地图保留规范网址。</figcaption></figure><section id="section-1">
+          <h2>看到 200 或 202，下一步不同</h2><p>Bing 的接入说明使用密钥文件验证站点。协议里的 200 表示通知提交成功，202 表示已收到网址，仍在等待密钥验证。主机或密钥不匹配可能返回 422，429 表示请求过多。先记录响应并处理问题，再决定是否重试。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.indexnow.org/documentation">IndexNow 协议</a></li><li><a data-source-citation="true" href="https://www.bing.com/indexnow/getstarted">Bing IndexNow 接入说明</a></li></ul>
+        </section><section id="section-2">
+          <h2>接收结果写进发布记录</h2><p>记下变动地址、实际 HTTP 状态和 IndexNow 的响应。从 XML 地图里去掉已经撤下的规范地址。Bing 可以通过地图发现变化，也可以从网址本身读到新的响应。如果要知道新地址有没有进入 Bing 索引，用网址检查另查。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.bing.com/webmasters/help/content-removal-cb6c294d">Bing 内容移除指南</a></li></ul>
+        </section>
+        
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">站点地图显示「成功」，为什么还有页面搜不到？</a></li><li><a href="/zh/blog/search-troubleshooting/google-video-isnt-on-watch-page/">Google 提示「视频不在观看页面上」，要单独做一页吗？</a></li><li><a href="/zh/blog/search-troubleshooting/google-search-shows-old-page-title/">网页标题已经改了，Google 怎么还显示旧的？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://www.indexnow.org/documentation">IndexNow 协议</a></cite></li><li><cite><a data-source-citation="true" href="https://www.bing.com/indexnow/getstarted">Bing IndexNow 接入说明</a></cite></li><li><cite><a data-source-citation="true" href="https://www.bing.com/webmasters/help/content-removal-cb6c294d">Bing 内容移除指南</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

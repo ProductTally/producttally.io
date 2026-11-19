@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Consoleのサイトマップ成功とインデックス登録の違い — ProductTally</title>
+  <meta name="description" content="サイトマップの最終読み込み、検出数、個別URLの登録状況を順に確認します。">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Search Consoleのサイトマップ成功とインデックス登録の違い — ProductTally">
+  <meta property="og:description" content="サイトマップの最終読み込み、検出数、個別URLの登録状況を順に確認します。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp">
+  <meta property="og:image:alt" content="公開XML、サイトマップレポート、個別URL検査を確認する流れ。">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="660">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Search Consoleのサイトマップ成功とインデックス登録の違い — ProductTally">
+  <meta name="twitter:description" content="サイトマップの最終読み込み、検出数、個別URLの登録状況を順に確認します。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp">
+  <meta name="twitter:image:alt" content="公開XML、サイトマップレポート、個別URL検査を確認する流れ。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#webpage","name":"Search Consoleのサイトマップ成功とインデックス登録の違い","description":"サイトマップの最終読み込み、検出数、個別URLの登録状況を順に確認します。","url":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article","headline":"Search Consoleのサイトマップ成功とインデックス登録の違い","description":"サイトマップの最終読み込み、検出数、個別URLの登録状況を順に確認します。","url":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article-image","url":"https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp","contentUrl":"https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp","width":1180,"height":660,"caption":"公開XML、サイトマップレポート、個別URL検査を確認する流れ。"},"dateModified":"2026-11-19","citation":["https://support.google.com/webmasters/answer/7451001","https://support.google.com/webmasters/answer/12482179"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"検索トラブルの診断","item":"https://producttally.com/ja/blog/search-troubleshooting/"},{"@type":"ListItem","position":4,"name":"サイトマップが「成功」でも、検索に出ないページはどう確認する？","item":"https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">ブログ</a></li><li><a href="/ja/blog/search-troubleshooting/">検索トラブルの診断</a></li><li><span aria-current="page">サイトマップが「成功」でも、検索に出ないページはどう確認する？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">SEO · 3 最小読み取り</p>
+        <h1>サイトマップが「成功」でも、検索に出ないページはどう確認する？</h1>
+        <p class="lead">サイトマップの最終読み込み、検出数、個別URLの登録状況を順に確認します。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 更新日 <time datetime="2026-11-19">2026/11/19</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp" srcset="/assets/articles/search-console-sitemap-discovered-vs-indexed/cover-small.webp 640w, /assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="660" alt="公開XML、サイトマップレポート、個別URL検査を確認する流れ。"
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>Search Consoleのサイトマップレポートに出る「成功」は、マップの読み込みと処理の結果です。「検出されたページ」はマップから解析できたURLを数えます。記事が登録済みかを知るには、正規URLをURL検査に入れ、登録状況を確認します。</p>
+        </div>
+        <section id="section-0">
+          <h2>3つの日付を並べる</h2><p>公開後に、デプロイ日時、マップの送信日時、最後に読み込まれた日時を控えます。現在の公開XMLを開いて、新しい正規URLを探します。XMLにURLがあり、最終読み込みがデプロイ前なら、確認している版が違うとわかります。マップのURLは維持し、Googleが読み込んだ後に再確認します。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/7451001">サイトマップレポート</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/search-console-sitemap-discovered-vs-indexed/details.webp" width="1180" height="580"
+          alt="公開XML、サイトマップレポート、個別URL検査を確認する流れ。" loading="lazy" decoding="async"><figcaption>公開XML、サイトマップレポート、個別URL検査を確認する流れ。</figcaption></figure><section id="section-1">
+          <h2>ひとつのURLを2つのレポートで追う</h2><p>新しいスペイン語の記事がXMLに入っているとします。ページのインデックス登録レポートをマップで絞り、URL検査で記事のアドレスを直接確認します。登録状況、前回のクロール、取得できればGoogleが選んだ正規URLを確認します。別ページが選ばれた場合は両方を見比べ、内部リンクとXMLが意図した主要ページを指しているか確認します。直した後は公開URLのテストで現在の状態を見ます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/7451001">サイトマップレポート</a></li><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">URL検査</a></li></ul>
+        </section><section id="section-2">
+          <h2>公開メモには2つの結果を残す</h2><p>マップに加えたURLと、個別に検査したURLの登録状況を分けて控えます。公開URLのテストは今のページを、登録状況はGoogleが把握している版を示します。両方を記録しておくと次回どこを追えばよいかわかります。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">URL検査</a></li></ul>
+        </section>
+        
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/blog/search-troubleshooting/google-video-isnt-on-watch-page/">動画が再生ページにないとGoogleに表示されたら、専用ページを作る？</a></li><li><a href="/ja/blog/search-troubleshooting/bing-indexnow-changed-urls/">BingのIndexNowには公開後どのURLを送る？</a></li><li><a href="/ja/blog/search-troubleshooting/google-search-shows-old-page-title/">ページのタイトルを変えたのに、なぜGoogle検索では古いまま？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/7451001">サイトマップレポート</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">URL検査</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">レビュー依頼</a>
+        <a href="/ja/privacy/">プライバシー</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

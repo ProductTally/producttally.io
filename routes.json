@@ -12,13 +12,13 @@
       "lang": "en",
       "route": "",
       "url": "/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-18",
+      "lastmod": "2026-11-19",
       "canonicalRoute": ""
     },
     {
@@ -316,13 +316,37 @@
       "lang": "en",
       "route": "blog",
       "url": "/blog/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/keyword-research",
+      "url": "/blog/keyword-research/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-troubleshooting",
+      "url": "/blog/search-troubleshooting/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/content-maintenance",
+      "url": "/blog/content-maintenance/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-data",
+      "url": "/blog/search-data/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "en",
       "route": "blog/ai-search-visibility",
       "url": "/blog/ai-search-visibility/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "en",
@@ -332,20 +356,8 @@
     },
     {
       "lang": "en",
-      "route": "blog/search-troubleshooting",
-      "url": "/blog/search-troubleshooting/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "lang": "en",
       "route": "blog/affiliate-attribution",
       "url": "/blog/affiliate-attribution/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "lang": "en",
-      "route": "blog/content-maintenance",
-      "url": "/blog/content-maintenance/",
       "lastmod": "2026-11-18"
     },
     {
@@ -383,6 +395,66 @@
       "route": "blog/ai-search-measurement",
       "url": "/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/vizard/vizard-ai-clipping-credit-budget",
+      "url": "/blog/vizard/vizard-ai-clipping-credit-budget/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/vizard/vizard-webinar-screen-share-clips",
+      "url": "/blog/vizard/vizard-webinar-screen-share-clips/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/higgsfield/higgsfield-cinema-studio-product-reveal",
+      "url": "/blog/higgsfield/higgsfield-cinema-studio-product-reveal/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/keyword-research/google-trends-zero-search-interest",
+      "url": "/blog/keyword-research/google-trends-zero-search-interest/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed",
+      "url": "/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/content-maintenance/sitemap-lastmod-content-updates",
+      "url": "/blog/content-maintenance/sitemap-lastmod-content-updates/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-data/search-console-bigquery-aggregate-url-rows",
+      "url": "/blog/search-data/search-console-bigquery-aggregate-url-rows/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-troubleshooting/google-video-isnt-on-watch-page",
+      "url": "/blog/search-troubleshooting/google-video-isnt-on-watch-page/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-troubleshooting/bing-indexnow-changed-urls",
+      "url": "/blog/search-troubleshooting/bing-indexnow-changed-urls/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-search-visibility/google-search-generative-ai-inclusion-control",
+      "url": "/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "en",
@@ -994,13 +1066,13 @@
       "lang": "zh",
       "route": "",
       "url": "/zh/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-18",
+      "lastmod": "2026-11-19",
       "canonicalRoute": ""
     },
     {
@@ -1298,13 +1370,37 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/keyword-research",
+      "url": "/zh/blog/keyword-research/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-troubleshooting",
+      "url": "/zh/blog/search-troubleshooting/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/content-maintenance",
+      "url": "/zh/blog/content-maintenance/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-data",
+      "url": "/zh/blog/search-data/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
       "route": "blog/ai-search-visibility",
       "url": "/zh/blog/ai-search-visibility/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
@@ -1314,20 +1410,8 @@
     },
     {
       "lang": "zh",
-      "route": "blog/search-troubleshooting",
-      "url": "/zh/blog/search-troubleshooting/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "lang": "zh",
       "route": "blog/affiliate-attribution",
       "url": "/zh/blog/affiliate-attribution/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "lang": "zh",
-      "route": "blog/content-maintenance",
-      "url": "/zh/blog/content-maintenance/",
       "lastmod": "2026-11-18"
     },
     {
@@ -1365,6 +1449,66 @@
       "route": "blog/ai-search-measurement",
       "url": "/zh/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/vizard/vizard-ai-clipping-credit-budget",
+      "url": "/zh/blog/vizard/vizard-ai-clipping-credit-budget/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/vizard/vizard-webinar-screen-share-clips",
+      "url": "/zh/blog/vizard/vizard-webinar-screen-share-clips/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/higgsfield/higgsfield-cinema-studio-product-reveal",
+      "url": "/zh/blog/higgsfield/higgsfield-cinema-studio-product-reveal/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/keyword-research/google-trends-zero-search-interest",
+      "url": "/zh/blog/keyword-research/google-trends-zero-search-interest/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed",
+      "url": "/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/content-maintenance/sitemap-lastmod-content-updates",
+      "url": "/zh/blog/content-maintenance/sitemap-lastmod-content-updates/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-data/search-console-bigquery-aggregate-url-rows",
+      "url": "/zh/blog/search-data/search-console-bigquery-aggregate-url-rows/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-troubleshooting/google-video-isnt-on-watch-page",
+      "url": "/zh/blog/search-troubleshooting/google-video-isnt-on-watch-page/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-troubleshooting/bing-indexnow-changed-urls",
+      "url": "/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-search-visibility/google-search-generative-ai-inclusion-control",
+      "url": "/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
@@ -1976,13 +2120,13 @@
       "lang": "es",
       "route": "",
       "url": "/es/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-18",
+      "lastmod": "2026-11-19",
       "canonicalRoute": ""
     },
     {
@@ -2280,13 +2424,37 @@
       "lang": "es",
       "route": "blog",
       "url": "/es/blog/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/keyword-research",
+      "url": "/es/blog/keyword-research/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-troubleshooting",
+      "url": "/es/blog/search-troubleshooting/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/content-maintenance",
+      "url": "/es/blog/content-maintenance/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-data",
+      "url": "/es/blog/search-data/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "es",
       "route": "blog/ai-search-visibility",
       "url": "/es/blog/ai-search-visibility/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "es",
@@ -2296,20 +2464,8 @@
     },
     {
       "lang": "es",
-      "route": "blog/search-troubleshooting",
-      "url": "/es/blog/search-troubleshooting/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "lang": "es",
       "route": "blog/affiliate-attribution",
       "url": "/es/blog/affiliate-attribution/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "lang": "es",
-      "route": "blog/content-maintenance",
-      "url": "/es/blog/content-maintenance/",
       "lastmod": "2026-11-18"
     },
     {
@@ -2347,6 +2503,66 @@
       "route": "blog/ai-search-measurement",
       "url": "/es/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/vizard/vizard-ai-clipping-credit-budget",
+      "url": "/es/blog/vizard/vizard-ai-clipping-credit-budget/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/vizard/vizard-webinar-screen-share-clips",
+      "url": "/es/blog/vizard/vizard-webinar-screen-share-clips/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/higgsfield/higgsfield-cinema-studio-product-reveal",
+      "url": "/es/blog/higgsfield/higgsfield-cinema-studio-product-reveal/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/keyword-research/google-trends-zero-search-interest",
+      "url": "/es/blog/keyword-research/google-trends-zero-search-interest/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed",
+      "url": "/es/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/content-maintenance/sitemap-lastmod-content-updates",
+      "url": "/es/blog/content-maintenance/sitemap-lastmod-content-updates/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-data/search-console-bigquery-aggregate-url-rows",
+      "url": "/es/blog/search-data/search-console-bigquery-aggregate-url-rows/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-troubleshooting/google-video-isnt-on-watch-page",
+      "url": "/es/blog/search-troubleshooting/google-video-isnt-on-watch-page/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-troubleshooting/bing-indexnow-changed-urls",
+      "url": "/es/blog/search-troubleshooting/bing-indexnow-changed-urls/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-search-visibility/google-search-generative-ai-inclusion-control",
+      "url": "/es/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "es",
@@ -2958,13 +3174,13 @@
       "lang": "ja",
       "route": "",
       "url": "/ja/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-18",
+      "lastmod": "2026-11-19",
       "canonicalRoute": ""
     },
     {
@@ -3262,13 +3478,37 @@
       "lang": "ja",
       "route": "blog",
       "url": "/ja/blog/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/keyword-research",
+      "url": "/ja/blog/keyword-research/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-troubleshooting",
+      "url": "/ja/blog/search-troubleshooting/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/content-maintenance",
+      "url": "/ja/blog/content-maintenance/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-data",
+      "url": "/ja/blog/search-data/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
       "route": "blog/ai-search-visibility",
       "url": "/ja/blog/ai-search-visibility/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
@@ -3278,20 +3518,8 @@
     },
     {
       "lang": "ja",
-      "route": "blog/search-troubleshooting",
-      "url": "/ja/blog/search-troubleshooting/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "lang": "ja",
       "route": "blog/affiliate-attribution",
       "url": "/ja/blog/affiliate-attribution/",
-      "lastmod": "2026-11-18"
-    },
-    {
-      "lang": "ja",
-      "route": "blog/content-maintenance",
-      "url": "/ja/blog/content-maintenance/",
       "lastmod": "2026-11-18"
     },
     {
@@ -3329,6 +3557,66 @@
       "route": "blog/ai-search-measurement",
       "url": "/ja/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/vizard/vizard-ai-clipping-credit-budget",
+      "url": "/ja/blog/vizard/vizard-ai-clipping-credit-budget/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/vizard/vizard-webinar-screen-share-clips",
+      "url": "/ja/blog/vizard/vizard-webinar-screen-share-clips/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/higgsfield/higgsfield-cinema-studio-product-reveal",
+      "url": "/ja/blog/higgsfield/higgsfield-cinema-studio-product-reveal/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/keyword-research/google-trends-zero-search-interest",
+      "url": "/ja/blog/keyword-research/google-trends-zero-search-interest/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed",
+      "url": "/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/content-maintenance/sitemap-lastmod-content-updates",
+      "url": "/ja/blog/content-maintenance/sitemap-lastmod-content-updates/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-data/search-console-bigquery-aggregate-url-rows",
+      "url": "/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-troubleshooting/google-video-isnt-on-watch-page",
+      "url": "/ja/blog/search-troubleshooting/google-video-isnt-on-watch-page/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-troubleshooting/bing-indexnow-changed-urls",
+      "url": "/ja/blog/search-troubleshooting/bing-indexnow-changed-urls/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-search-visibility/google-search-generative-ai-inclusion-control",
+      "url": "/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
@@ -3943,6 +4231,22 @@
       "target": "/blog/"
     },
     {
+      "url": "/guides/keyword-research/",
+      "target": "/blog/keyword-research/"
+    },
+    {
+      "url": "/guides/search-troubleshooting/",
+      "target": "/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/guides/content-maintenance/",
+      "target": "/blog/content-maintenance/"
+    },
+    {
+      "url": "/guides/search-data/",
+      "target": "/blog/search-data/"
+    },
+    {
       "url": "/guides/ai-search-visibility/",
       "target": "/blog/ai-search-visibility/"
     },
@@ -3951,16 +4255,8 @@
       "target": "/blog/visual-content/"
     },
     {
-      "url": "/guides/search-troubleshooting/",
-      "target": "/blog/search-troubleshooting/"
-    },
-    {
       "url": "/guides/affiliate-attribution/",
       "target": "/blog/affiliate-attribution/"
-    },
-    {
-      "url": "/guides/content-maintenance/",
-      "target": "/blog/content-maintenance/"
     },
     {
       "url": "/guides/buying-guides/",
@@ -3985,6 +4281,46 @@
     {
       "url": "/guides/ai-search-measurement/",
       "target": "/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/guides/vizard/vizard-ai-clipping-credit-budget/",
+      "target": "/blog/vizard/vizard-ai-clipping-credit-budget/"
+    },
+    {
+      "url": "/guides/vizard/vizard-webinar-screen-share-clips/",
+      "target": "/blog/vizard/vizard-webinar-screen-share-clips/"
+    },
+    {
+      "url": "/guides/higgsfield/higgsfield-cinema-studio-product-reveal/",
+      "target": "/blog/higgsfield/higgsfield-cinema-studio-product-reveal/"
+    },
+    {
+      "url": "/guides/keyword-research/google-trends-zero-search-interest/",
+      "target": "/blog/keyword-research/google-trends-zero-search-interest/"
+    },
+    {
+      "url": "/guides/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/",
+      "target": "/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/"
+    },
+    {
+      "url": "/guides/content-maintenance/sitemap-lastmod-content-updates/",
+      "target": "/blog/content-maintenance/sitemap-lastmod-content-updates/"
+    },
+    {
+      "url": "/guides/search-data/search-console-bigquery-aggregate-url-rows/",
+      "target": "/blog/search-data/search-console-bigquery-aggregate-url-rows/"
+    },
+    {
+      "url": "/guides/search-troubleshooting/google-video-isnt-on-watch-page/",
+      "target": "/blog/search-troubleshooting/google-video-isnt-on-watch-page/"
+    },
+    {
+      "url": "/guides/search-troubleshooting/bing-indexnow-changed-urls/",
+      "target": "/blog/search-troubleshooting/bing-indexnow-changed-urls/"
+    },
+    {
+      "url": "/guides/ai-search-visibility/google-search-generative-ai-inclusion-control/",
+      "target": "/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/"
     },
     {
       "url": "/guides/cal-com/consultation-booking-buffer/",
@@ -4395,6 +4731,22 @@
       "target": "/zh/blog/"
     },
     {
+      "url": "/zh/guides/keyword-research/",
+      "target": "/zh/blog/keyword-research/"
+    },
+    {
+      "url": "/zh/guides/search-troubleshooting/",
+      "target": "/zh/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/zh/guides/content-maintenance/",
+      "target": "/zh/blog/content-maintenance/"
+    },
+    {
+      "url": "/zh/guides/search-data/",
+      "target": "/zh/blog/search-data/"
+    },
+    {
       "url": "/zh/guides/ai-search-visibility/",
       "target": "/zh/blog/ai-search-visibility/"
     },
@@ -4403,16 +4755,8 @@
       "target": "/zh/blog/visual-content/"
     },
     {
-      "url": "/zh/guides/search-troubleshooting/",
-      "target": "/zh/blog/search-troubleshooting/"
-    },
-    {
       "url": "/zh/guides/affiliate-attribution/",
       "target": "/zh/blog/affiliate-attribution/"
-    },
-    {
-      "url": "/zh/guides/content-maintenance/",
-      "target": "/zh/blog/content-maintenance/"
     },
     {
       "url": "/zh/guides/buying-guides/",
@@ -4437,6 +4781,46 @@
     {
       "url": "/zh/guides/ai-search-measurement/",
       "target": "/zh/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/zh/guides/vizard/vizard-ai-clipping-credit-budget/",
+      "target": "/zh/blog/vizard/vizard-ai-clipping-credit-budget/"
+    },
+    {
+      "url": "/zh/guides/vizard/vizard-webinar-screen-share-clips/",
+      "target": "/zh/blog/vizard/vizard-webinar-screen-share-clips/"
+    },
+    {
+      "url": "/zh/guides/higgsfield/higgsfield-cinema-studio-product-reveal/",
+      "target": "/zh/blog/higgsfield/higgsfield-cinema-studio-product-reveal/"
+    },
+    {
+      "url": "/zh/guides/keyword-research/google-trends-zero-search-interest/",
+      "target": "/zh/blog/keyword-research/google-trends-zero-search-interest/"
+    },
+    {
+      "url": "/zh/guides/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/",
+      "target": "/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/"
+    },
+    {
+      "url": "/zh/guides/content-maintenance/sitemap-lastmod-content-updates/",
+      "target": "/zh/blog/content-maintenance/sitemap-lastmod-content-updates/"
+    },
+    {
+      "url": "/zh/guides/search-data/search-console-bigquery-aggregate-url-rows/",
+      "target": "/zh/blog/search-data/search-console-bigquery-aggregate-url-rows/"
+    },
+    {
+      "url": "/zh/guides/search-troubleshooting/google-video-isnt-on-watch-page/",
+      "target": "/zh/blog/search-troubleshooting/google-video-isnt-on-watch-page/"
+    },
+    {
+      "url": "/zh/guides/search-troubleshooting/bing-indexnow-changed-urls/",
+      "target": "/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/"
+    },
+    {
+      "url": "/zh/guides/ai-search-visibility/google-search-generative-ai-inclusion-control/",
+      "target": "/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/"
     },
     {
       "url": "/zh/guides/cal-com/consultation-booking-buffer/",
@@ -4847,6 +5231,22 @@
       "target": "/es/blog/"
     },
     {
+      "url": "/es/guides/keyword-research/",
+      "target": "/es/blog/keyword-research/"
+    },
+    {
+      "url": "/es/guides/search-troubleshooting/",
+      "target": "/es/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/es/guides/content-maintenance/",
+      "target": "/es/blog/content-maintenance/"
+    },
+    {
+      "url": "/es/guides/search-data/",
+      "target": "/es/blog/search-data/"
+    },
+    {
       "url": "/es/guides/ai-search-visibility/",
       "target": "/es/blog/ai-search-visibility/"
     },
@@ -4855,16 +5255,8 @@
       "target": "/es/blog/visual-content/"
     },
     {
-      "url": "/es/guides/search-troubleshooting/",
-      "target": "/es/blog/search-troubleshooting/"
-    },
-    {
       "url": "/es/guides/affiliate-attribution/",
       "target": "/es/blog/affiliate-attribution/"
-    },
-    {
-      "url": "/es/guides/content-maintenance/",
-      "target": "/es/blog/content-maintenance/"
     },
     {
       "url": "/es/guides/buying-guides/",
@@ -4889,6 +5281,46 @@
     {
       "url": "/es/guides/ai-search-measurement/",
       "target": "/es/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/es/guides/vizard/vizard-ai-clipping-credit-budget/",
+      "target": "/es/blog/vizard/vizard-ai-clipping-credit-budget/"
+    },
+    {
+      "url": "/es/guides/vizard/vizard-webinar-screen-share-clips/",
+      "target": "/es/blog/vizard/vizard-webinar-screen-share-clips/"
+    },
+    {
+      "url": "/es/guides/higgsfield/higgsfield-cinema-studio-product-reveal/",
+      "target": "/es/blog/higgsfield/higgsfield-cinema-studio-product-reveal/"
+    },
+    {
+      "url": "/es/guides/keyword-research/google-trends-zero-search-interest/",
+      "target": "/es/blog/keyword-research/google-trends-zero-search-interest/"
+    },
+    {
+      "url": "/es/guides/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/",
+      "target": "/es/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/"
+    },
+    {
+      "url": "/es/guides/content-maintenance/sitemap-lastmod-content-updates/",
+      "target": "/es/blog/content-maintenance/sitemap-lastmod-content-updates/"
+    },
+    {
+      "url": "/es/guides/search-data/search-console-bigquery-aggregate-url-rows/",
+      "target": "/es/blog/search-data/search-console-bigquery-aggregate-url-rows/"
+    },
+    {
+      "url": "/es/guides/search-troubleshooting/google-video-isnt-on-watch-page/",
+      "target": "/es/blog/search-troubleshooting/google-video-isnt-on-watch-page/"
+    },
+    {
+      "url": "/es/guides/search-troubleshooting/bing-indexnow-changed-urls/",
+      "target": "/es/blog/search-troubleshooting/bing-indexnow-changed-urls/"
+    },
+    {
+      "url": "/es/guides/ai-search-visibility/google-search-generative-ai-inclusion-control/",
+      "target": "/es/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/"
     },
     {
       "url": "/es/guides/cal-com/consultation-booking-buffer/",
@@ -5299,6 +5731,22 @@
       "target": "/ja/blog/"
     },
     {
+      "url": "/ja/guides/keyword-research/",
+      "target": "/ja/blog/keyword-research/"
+    },
+    {
+      "url": "/ja/guides/search-troubleshooting/",
+      "target": "/ja/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/ja/guides/content-maintenance/",
+      "target": "/ja/blog/content-maintenance/"
+    },
+    {
+      "url": "/ja/guides/search-data/",
+      "target": "/ja/blog/search-data/"
+    },
+    {
       "url": "/ja/guides/ai-search-visibility/",
       "target": "/ja/blog/ai-search-visibility/"
     },
@@ -5307,16 +5755,8 @@
       "target": "/ja/blog/visual-content/"
     },
     {
-      "url": "/ja/guides/search-troubleshooting/",
-      "target": "/ja/blog/search-troubleshooting/"
-    },
-    {
       "url": "/ja/guides/affiliate-attribution/",
       "target": "/ja/blog/affiliate-attribution/"
-    },
-    {
-      "url": "/ja/guides/content-maintenance/",
-      "target": "/ja/blog/content-maintenance/"
     },
     {
       "url": "/ja/guides/buying-guides/",
@@ -5341,6 +5781,46 @@
     {
       "url": "/ja/guides/ai-search-measurement/",
       "target": "/ja/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/ja/guides/vizard/vizard-ai-clipping-credit-budget/",
+      "target": "/ja/blog/vizard/vizard-ai-clipping-credit-budget/"
+    },
+    {
+      "url": "/ja/guides/vizard/vizard-webinar-screen-share-clips/",
+      "target": "/ja/blog/vizard/vizard-webinar-screen-share-clips/"
+    },
+    {
+      "url": "/ja/guides/higgsfield/higgsfield-cinema-studio-product-reveal/",
+      "target": "/ja/blog/higgsfield/higgsfield-cinema-studio-product-reveal/"
+    },
+    {
+      "url": "/ja/guides/keyword-research/google-trends-zero-search-interest/",
+      "target": "/ja/blog/keyword-research/google-trends-zero-search-interest/"
+    },
+    {
+      "url": "/ja/guides/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/",
+      "target": "/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/"
+    },
+    {
+      "url": "/ja/guides/content-maintenance/sitemap-lastmod-content-updates/",
+      "target": "/ja/blog/content-maintenance/sitemap-lastmod-content-updates/"
+    },
+    {
+      "url": "/ja/guides/search-data/search-console-bigquery-aggregate-url-rows/",
+      "target": "/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/"
+    },
+    {
+      "url": "/ja/guides/search-troubleshooting/google-video-isnt-on-watch-page/",
+      "target": "/ja/blog/search-troubleshooting/google-video-isnt-on-watch-page/"
+    },
+    {
+      "url": "/ja/guides/search-troubleshooting/bing-indexnow-changed-urls/",
+      "target": "/ja/blog/search-troubleshooting/bing-indexnow-changed-urls/"
+    },
+    {
+      "url": "/ja/guides/ai-search-visibility/google-search-generative-ai-inclusion-control/",
+      "target": "/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/"
     },
     {
       "url": "/ja/guides/cal-com/consultation-booking-buffer/",

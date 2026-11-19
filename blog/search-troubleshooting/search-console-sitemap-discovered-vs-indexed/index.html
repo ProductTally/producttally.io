@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Search Console Sitemap Success vs Indexed URLs — ProductTally</title>
+  <meta name="description" content="Check when Google last read the sitemap, what it discovered, and what URL Inspection says about one missing page.">
+  <meta name="theme-color" content="#FBF8F3">
+  
+  <link rel="canonical" href="https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Google Search Console Sitemap Success vs Indexed URLs — ProductTally">
+  <meta property="og:description" content="Check when Google last read the sitemap, what it discovered, and what URL Inspection says about one missing page.">
+  <meta property="og:url" content="https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp">
+  <meta property="og:image:alt" content="Illustration of three checks: the public XML, the sitemap report and individual URL inspection.">
+  <meta property="og:image:width" content="1180">
+  <meta property="og:image:height" content="660">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Google Search Console Sitemap Success vs Indexed URLs — ProductTally">
+  <meta name="twitter:description" content="Check when Google last read the sitemap, what it discovered, and what URL Inspection says about one missing page.">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp">
+  <meta name="twitter:image:alt" content="Illustration of three checks: the public XML, the sitemap report and individual URL inspection.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#webpage","name":"Google Search Console Sitemap Success vs Indexed URLs","description":"Check when Google last read the sitemap, what it discovered, and what URL Inspection says about one missing page.","url":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/","inLanguage":"en","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article-image"},"breadcrumb":{"@id":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article","headline":"Google Search Console Sitemap Success vs Indexed URLs","description":"Check when Google last read the sitemap, what it discovered, and what URL Inspection says about one missing page.","url":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/","inLanguage":"en","mainEntityOfPage":{"@id":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article-image","url":"https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp","contentUrl":"https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp","width":1180,"height":660,"caption":"Illustration of three checks: the public XML, the sitemap report and individual URL inspection."},"dateModified":"2026-11-19","citation":["https://support.google.com/webmasters/answer/7451001","https://support.google.com/webmasters/answer/12482179"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://producttally.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://producttally.com/blog/"},{"@type":"ListItem","position":3,"name":"Search troubleshooting","item":"https://producttally.com/blog/search-troubleshooting/"},{"@type":"ListItem","position":4,"name":"Your sitemap says Success. Where are the missing pages?","item":"https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+</head>
+<body data-lang="en" data-save-label="Save product" data-unsave-label="Unsave product" data-save-toast="Saved to your shortlist" data-unsave-toast="Removed from your shortlist" data-storage-error="Your browser could not save this change.">
+  <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <div class="primary-links"><a href="/">Products</a><a href="/blog/" aria-current="location">Blog</a><a href="/pricing/">Review service</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Language <span translate="no">English</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">English</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="en" translate="no" aria-current="page">
+      English
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="Language"><a href="/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="Breadcrumbs">
+    <ol><li><a href="/">Home</a></li><li><a href="/blog/">Blog</a></li><li><a href="/blog/search-troubleshooting/">Search troubleshooting</a></li><li><span aria-current="page">Your sitemap says Success. Where are the missing pages?</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">SEO · 3 min read</p>
+        <h1>Your sitemap says Success. Where are the missing pages?</h1>
+        <p class="lead">Check when Google last read the sitemap, what it discovered, and what URL Inspection says about one missing page.</p>
+        <p class="byline">By <a href="/about/">Evan</a>
+          · Updated <time datetime="2026-11-19">Nov 19, 2026</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp" srcset="/assets/articles/search-console-sitemap-discovered-vs-indexed/cover-small.webp 640w, /assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1180" height="660" alt="Illustration of three checks: the public XML, the sitemap report and individual URL inspection."
+    loading="eager" decoding="async"></div>
+    
+  </figure>
+    </header>
+    <div class="article-grid">
+      
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>Success in Search Console’s Sitemaps report refers to reading and processing the sitemap. Discovered pages are addresses parsed from it. To answer whether an individual article is indexed, open URL Inspection and look at the indexed view for its canonical address.</p>
+        </div>
+        <section id="section-0">
+          <h2>Put three dates on the same line</h2><p>After a release, note the deployment date, the sitemap submission date and Last read. Open the current public XML and look for one newly published canonical address. If the file contains it and Last read predates the deployment, you have identified a timing difference. Keep the current sitemap URL stable and check the report again after Google reads the file.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/7451001">Search Console Sitemaps report</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/search-console-sitemap-discovered-vs-indexed/details.webp" width="1180" height="580"
+          alt="Illustration of three checks: the public XML, the sitemap report and individual URL inspection." loading="lazy" decoding="async"><figcaption>Illustration of three checks: the public XML, the sitemap report and individual URL inspection.</figcaption></figure><section id="section-1">
+          <h2>Follow one missing page through both reports</h2><p>Suppose you published a Spanish article and its URL appears in the XML. In Page indexing, use the sitemap filter to view its group. Then inspect that exact URL. Check the indexed result, last crawl and Google-selected canonical where available. If you see a different canonical, compare the two pages and verify that internal links and the XML refer to the intended primary version. Use the live test after a fix to check current eligibility.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/7451001">Search Console Sitemaps report</a></li><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">Inspect and troubleshoot a URL</a></li></ul>
+        </section><section id="section-2">
+          <h2>Write the release note in two lines</h2><p>Record which new URLs are in the sitemap, then record the index status of the few URLs you inspected. A live test speaks to the current page. The indexed view describes the version Google knows. Keep both in the release note so the next check starts with the right evidence.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">Inspect and troubleshoot a URL</a></li></ul>
+        </section>
+        
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">Related guides</h2>
+          <ul><li><a href="/blog/search-troubleshooting/google-video-isnt-on-watch-page/">Google says your video isn’t on a watch page. Should you make one?</a></li><li><a href="/blog/search-troubleshooting/bing-indexnow-changed-urls/">Bing IndexNow after a release: which URLs should you send?</a></li><li><a href="/blog/search-troubleshooting/google-search-shows-old-page-title/">You changed the page title. Why does Google still show the old one?</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>Official references</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/7451001">Search Console Sitemaps report</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">Inspect and troubleshoot a URL</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>A quieter corner of the internet for better products.</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="/">Products</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about/">About the project</a>
+        <a href="/pricing/">Review service</a>
+        <a href="/privacy/">Privacy</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>An independent notebook by Evan.</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>
