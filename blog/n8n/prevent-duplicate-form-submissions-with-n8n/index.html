@@ -2,12 +2,12 @@
 <html lang="en" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Deduplicate n8n Form Submissions with PostgreSQL — ProductTally</title>
   <meta name="description" content="Use a stable submission ID and a parameterized insert to keep webhook retries from creating duplicate records.">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/n8n/prevent-duplicate-form-submissions-with-n8n/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/prevent-duplicate-form-submissions-with-n8n/cover.webp">
   <meta name="twitter:image:alt" content="Illustration of routing a new record and a repeated submission by submission ID.">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/#webpage","name":"Deduplicate n8n Form Submissions with PostgreSQL","description":"Use a stable submission ID and a parameterized insert to keep webhook retries from creating duplicate records.","url":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/","inLanguage":"en","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/#article-image"},"breadcrumb":{"@id":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/#article","headline":"Deduplicate n8n Form Submissions with PostgreSQL","description":"Use a stable submission ID and a parameterized insert to keep webhook retries from creating duplicate records.","url":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/","inLanguage":"en","mainEntityOfPage":{"@id":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/#article-image","url":"https://producttally.com/assets/articles/prevent-duplicate-form-submissions-with-n8n/cover.webp","contentUrl":"https://producttally.com/assets/articles/prevent-duplicate-form-submissions-with-n8n/cover.webp","width":1180,"height":520,"caption":"Illustration of routing a new record and a repeated submission by submission ID."},"about":[{"@id":"https://producttally.com/products/n8n/#software"}],"dateModified":"2026-11-18","citation":["https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.postgres","https://www.postgresql.org/docs/current/sql-insert.html"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/n8n/#software","name":"n8n","url":"https://n8n.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://producttally.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://producttally.com/blog/"},{"@type":"ListItem","position":3,"name":"n8n","item":"https://producttally.com/products/n8n/"},{"@type":"ListItem","position":4,"name":"How to keep a retried form submission from creating two rows in n8n","item":"https://producttally.com/blog/n8n/prevent-duplicate-form-submissions-with-n8n/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="Primary navigation">
-          <div class="primary-links"><a href="/">Products</a><a href="/blog/" aria-current="location">Blog</a><a href="/pricing/">Review service</a></div>
+          <div class="primary-links"><a href="/">Products</a><a href="/blog/" aria-current="location">Blog</a><a href="/news/">SaaS News</a><a href="/pricing/">Review service</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/prevent-duplicate-form-submissions-with-n8n/cover.webp" srcset="/assets/articles/prevent-duplicate-form-submissions-with-n8n/cover-small.webp 640w, /assets/articles/prevent-duplicate-form-submissions-with-n8n/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="520" alt="Illustration of routing a new record and a repeated submission by submission ID."
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>Have the form provider reuse the original submission ID on retries and make it a unique key in PostgreSQL. A webhook can arrive twice when the sender times out, even if the first write succeeded. Use n8n&#39;s Postgres node to run a parameterized insert so both deliveries follow the same database rule.</p>
@@ -137,6 +137,7 @@ SELECT EXISTS (SELECT 1 FROM inserted) AS created;</code></pre><p>A new row retu
       <nav aria-label="Footer navigation">
         <a href="/">Products</a>
         <a href="/blog/">Blog</a>
+        <a href="/news/">SaaS News</a>
         <a href="/about/">About the project</a>
         <a href="/pricing/">Review service</a>
         <a href="/privacy/">Privacy</a>

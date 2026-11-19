@@ -2,12 +2,12 @@
 <html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SaaSのレビューを読者が再現できる形で記録する — ProductTally</title>
   <meta name="description" content="3件の架空注文で時刻の境界を検証し、入力、期待値、結果、失敗条件を残します。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/product-testing/reproducible-saas-product-review-methodology/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/product-testing/reproducible-saas-product-review-methodology/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/reproducible-saas-product-review-methodology/cover.webp">
   <meta name="twitter:image:alt" content="東京の日付を条件にした架空のエクスポート例。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/#webpage","name":"SaaSのレビューを読者が再現できる形で記録する","description":"3件の架空注文で時刻の境界を検証し、入力、期待値、結果、失敗条件を残します。","url":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/#article","headline":"SaaSのレビューを読者が再現できる形で記録する","description":"3件の架空注文で時刻の境界を検証し、入力、期待値、結果、失敗条件を残します。","url":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/#article-image","url":"https://producttally.com/assets/articles/reproducible-saas-product-review-methodology/cover.webp","contentUrl":"https://producttally.com/assets/articles/reproducible-saas-product-review-methodology/cover.webp","width":1180,"height":520,"caption":"東京の日付を条件にした架空のエクスポート例。"},"dateModified":"2026-11-18","citation":["https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews","https://docs.python.org/3/library/zoneinfo.html"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"製品テスト","item":"https://producttally.com/ja/blog/product-testing/"},{"@type":"ListItem","position":4,"name":"「エクスポートできた」を、読者が確認できるようにどう書く？","item":"https://producttally.com/ja/blog/product-testing/reproducible-saas-product-review-methodology/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="プライマリナビゲーション">
-          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/news/">SaaS製品ニュース</a><a href="/ja/pricing/">レビュー依頼</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/reproducible-saas-product-review-methodology/cover.webp" srcset="/assets/articles/reproducible-saas-product-review-methodology/cover-small.webp 640w, /assets/articles/reproducible-saas-product-review-methodology/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="520" alt="東京の日付を条件にした架空のエクスポート例。"
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>公式例、必要な設定、期待する出力を示します。対象プランと適用範囲を書き、読者が自分のアカウントで使えるか判断できるようにします。</p>
@@ -108,8 +108,8 @@
           alt="東京の日付を条件にした架空のエクスポート例。" loading="lazy" decoding="async"><figcaption>東京の日付を条件にした架空のエクスポート例。</figcaption></figure><section id="section-1">
           <h2>別のレビュアーが確認できる証拠を残す</h2><p>公式例の対象日、プラン、権限、言語を記録します。提供元の手順を引用し、架空の項目は明示します。独自の確認結果や元データは編集資料で管理します。</p>
         </section>
-        
-        
+
+
         <section class="article-resources"><h2>公式参考資料</h2>
           <ul><li><cite><a data-source-citation="true" href="https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews">Googleのレビュー作成ガイド</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.python.org/3/library/zoneinfo.html">Pythonのzoneinfo文書</a></cite></li></ul>
         </section>
@@ -127,6 +127,7 @@
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>
         <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/news/">SaaS製品ニュース</a>
         <a href="/ja/about/">プロジェクトについて</a>
         <a href="/ja/pricing/">レビュー依頼</a>
         <a href="/ja/privacy/">プライバシー</a>

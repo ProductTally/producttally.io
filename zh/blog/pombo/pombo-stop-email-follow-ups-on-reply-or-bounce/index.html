@@ -2,12 +2,12 @@
 <html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pombo 邮件序列该何时停止？判断回复、退订和退信 — ProductTally</title>
   <meta name="description" content="用三种收件人状态判断是否继续后续邮件，核对 Pombo 的发送门槛、暂停与已配置退出条件。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/pombo-stop-email-follow-ups-on-reply-or-bounce/cover.webp">
   <meta name="twitter:image:alt" content="演示预约达到目标后退出跟进序列的示意。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/#webpage","name":"Pombo 邮件序列该何时停止？判断回复、退订和退信","description":"用三种收件人状态判断是否继续后续邮件，核对 Pombo 的发送门槛、暂停与已配置退出条件。","url":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/#article","headline":"Pombo 邮件序列该何时停止？判断回复、退订和退信","description":"用三种收件人状态判断是否继续后续邮件，核对 Pombo 的发送门槛、暂停与已配置退出条件。","url":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/#article-image","url":"https://producttally.com/assets/articles/pombo-stop-email-follow-ups-on-reply-or-bounce/cover.webp","contentUrl":"https://producttally.com/assets/articles/pombo-stop-email-follow-ups-on-reply-or-bounce/cover.webp","width":1180,"height":520,"caption":"演示预约达到目标后退出跟进序列的示意。"},"about":[{"@id":"https://producttally.com/products/pombo/#software"}],"dateModified":"2026-11-18","citation":["https://flypombo.com/docs/building-a-sequence","https://flypombo.com/docs/goals","https://flypombo.com/docs/suppression","https://flypombo.com/docs/sending-gates"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/pombo/#software","name":"Pombo","url":"https://flypombo.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"Pombo","item":"https://producttally.com/zh/products/pombo/"},{"@type":"ListItem","position":4,"name":"有人回信了，Pombo 的下一封跟进还会发吗？","item":"https://producttally.com/zh/blog/pombo/pombo-stop-email-follow-ups-on-reply-or-bounce/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="主导航">
-          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">评测合作</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/pombo-stop-email-follow-ups-on-reply-or-bounce/cover.webp" srcset="/assets/articles/pombo-stop-email-follow-ups-on-reply-or-bounce/cover-small.webp 640w, /assets/articles/pombo-stop-email-follow-ups-on-reply-or-bounce/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="520" alt="演示预约达到目标后退出跟进序列的示意。"
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>Pombo 可以在联系人达成已配置的事件或分组目标后停止跟进。普通邮件回复是否停止，需要在实际设置里验证。恢复前先用可控邮箱查看下一条还在不在队列里。</p>
@@ -114,7 +114,7 @@
   </a></li></ul>
           <a class="text-link" href="/zh/products/pombo/">查看产品详情</a>
         </section>
-        
+
         <section class="article-resources"><h2>官方参考资料</h2>
           <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><ul><li><cite><a data-source-citation="true" href="https://flypombo.com/docs/building-a-sequence?fpr=evan-e5cdc2" data-affiliate-click="pombo" data-affiliate-link-type="citation" target="_blank" rel="noopener">Pombo 序列设置</a></cite></li><li><cite><a data-source-citation="true" href="https://flypombo.com/docs/goals?fpr=evan-e5cdc2" data-affiliate-click="pombo" data-affiliate-link-type="citation" target="_blank" rel="noopener">Pombo 目标与退出条件</a></cite></li><li><cite><a data-source-citation="true" href="https://flypombo.com/docs/suppression?fpr=evan-e5cdc2" data-affiliate-click="pombo" data-affiliate-link-type="citation" target="_blank" rel="noopener">Pombo 退订与抑制</a></cite></li><li><cite><a data-source-citation="true" href="https://flypombo.com/docs/sending-gates?fpr=evan-e5cdc2" data-affiliate-click="pombo" data-affiliate-link-type="citation" target="_blank" rel="noopener">Pombo 发送门槛</a></cite></li></ul>
         </section>
@@ -132,6 +132,7 @@
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>
         <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
         <a href="/zh/about/">关于这个项目</a>
         <a href="/zh/pricing/">评测合作</a>
         <a href="/zh/privacy/">隐私说明</a>

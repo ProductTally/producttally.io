@@ -2,12 +2,12 @@
 <html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GA4 有推广点击，联盟没转化时怎么对账？ — ProductTally</title>
   <meta name="description" content="对齐页面、计划、时区和事件口径，再分别查看站内出站点击、联盟点击、待确认和获批交易。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/ga4-affiliate-click-tracking-reconciliation/cover.webp">
   <meta name="twitter:image:alt" content="同一虚构周期：GA4 事件 120 次，网络点击 95 次，交易 4 笔。两类点击计数相差 25，约占 GA4 的 20.8%。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/#webpage","name":"GA4 有推广点击，联盟没转化时怎么对账？","description":"对齐页面、计划、时区和事件口径，再分别查看站内出站点击、联盟点击、待确认和获批交易。","url":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/#article","headline":"GA4 有推广点击，联盟没转化时怎么对账？","description":"对齐页面、计划、时区和事件口径，再分别查看站内出站点击、联盟点击、待确认和获批交易。","url":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/#article-image","url":"https://producttally.com/assets/articles/ga4-affiliate-click-tracking-reconciliation/cover.webp","contentUrl":"https://producttally.com/assets/articles/ga4-affiliate-click-tracking-reconciliation/cover.webp","width":1180,"height":520,"caption":"同一虚构周期：GA4 事件 120 次，网络点击 95 次，交易 4 笔。两类点击计数相差 25，约占 GA4 的 20.8%。"},"dateModified":"2026-11-18","citation":["https://support.google.com/analytics/answer/13566436","https://help.awin.com/apidocs/returns-a-list-of-transactions-for-a-given-publisher","https://help.awin.com/apidocs/get-program-information-details-for-publisher","https://support.google.com/analytics/answer/9216061"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"推广归因","item":"https://producttally.com/zh/blog/affiliate-attribution/"},{"@type":"ListItem","position":4,"name":"GA4 记到推广链接有人点，联盟后台怎么还是空的？","item":"https://producttally.com/zh/blog/affiliate-attribution/ga4-affiliate-click-tracking-reconciliation/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="主导航">
-          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">评测合作</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/ga4-affiliate-click-tracking-reconciliation/cover.webp" srcset="/assets/articles/ga4-affiliate-click-tracking-reconciliation/cover-small.webp 640w, /assets/articles/ga4-affiliate-click-tracking-reconciliation/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="520" alt="同一虚构周期：GA4 事件 120 次，网络点击 95 次，交易 4 笔。两类点击计数相差 25，约占 GA4 的 20.8%。"
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>先看联盟后台是没有点击，还是没有交易，再把两个系统放进同一个时区和完成的时间窗。GA4 增强型衡量的出站点击来自站内事件；联盟的点击和交易口径则由该网络和项目定义。对账先看最终渲染的推广链接与规则，再判断两个系统分别拿到了哪一步。</p>
@@ -108,8 +108,8 @@
           alt="同一虚构周期：GA4 事件 120 次，网络点击 95 次，交易 4 笔。两类点击计数相差 25，约占 GA4 的 20.8%。" loading="lazy" decoding="async"><figcaption>同一虚构周期：GA4 事件 120 次，网络点击 95 次，交易 4 笔。两类点击计数相差 25，约占 GA4 的 20.8%。</figcaption></figure><section id="section-1">
           <h2>跟进一个页面和一条链接</h2><p>以某个具体页面和推广链接为单位，检查带归因的最终 HTML 与浏览器落地地址。同一按钮装了手动事件和增强型衡量时，先查两者是否把一次操作都记录了。联盟支持合法测试时，用按项目约定可识别的试点和时间记录，再问客服能否定位。核对项目计划、国家站点、报表时区、点击日期、交易日期与确认状态。只有把对比范围对齐，才能决定该修站内埋点、链接实现还是数据解释。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://help.awin.com/apidocs/get-program-information-details-for-publisher">Awin 发布者项目与确认周期字段</a></li></ul><p>加总前先核对事件名和 link_url。增强型衡量可能记录 click，自定义标签也可能发一次出站事件，报表要选定一种事件口径。配置成 GA4 跨网域衡量的目标不会触发这条自动出站事件。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/analytics/answer/9216061">GA4 增强型衡量说明</a></li></ul>
         </section>
-        
-        
+
+
         <section class="article-resources"><h2>官方参考资料</h2>
           <ul><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/13566436">Google GA4 出站点击</a></cite></li><li><cite><a data-source-citation="true" href="https://help.awin.com/apidocs/returns-a-list-of-transactions-for-a-given-publisher">Awin 发布者交易字段</a></cite></li><li><cite><a data-source-citation="true" href="https://help.awin.com/apidocs/get-program-information-details-for-publisher">Awin 发布者项目与确认周期字段</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/9216061">GA4 增强型衡量说明</a></cite></li></ul>
         </section>
@@ -127,6 +127,7 @@
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>
         <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
         <a href="/zh/about/">关于这个项目</a>
         <a href="/zh/pricing/">评测合作</a>
         <a href="/zh/privacy/">隐私说明</a>

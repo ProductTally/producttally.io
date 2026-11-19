@@ -2,12 +2,12 @@
 <html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Google Search Console 站点地图成功与页面收录的区别 — ProductTally</title>
   <meta name="description" content="对照站点地图上次读取时间、已发现网页数，以及单条网址的索引状态。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp">
   <meta name="twitter:image:alt" content="三处检查示意：公开 XML、站点地图报告和单条网址检查。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#webpage","name":"Google Search Console 站点地图成功与页面收录的区别","description":"对照站点地图上次读取时间、已发现网页数，以及单条网址的索引状态。","url":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article","headline":"Google Search Console 站点地图成功与页面收录的区别","description":"对照站点地图上次读取时间、已发现网页数，以及单条网址的索引状态。","url":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#article-image","url":"https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp","contentUrl":"https://producttally.com/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp","width":1180,"height":660,"caption":"三处检查示意：公开 XML、站点地图报告和单条网址检查。"},"dateModified":"2026-11-19","citation":["https://support.google.com/webmasters/answer/7451001","https://support.google.com/webmasters/answer/12482179"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"搜索排查","item":"https://producttally.com/zh/blog/search-troubleshooting/"},{"@type":"ListItem","position":4,"name":"站点地图显示「成功」，为什么还有页面搜不到？","item":"https://producttally.com/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="主导航">
-          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">评测合作</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp" srcset="/assets/articles/search-console-sitemap-discovered-vs-indexed/cover-small.webp 640w, /assets/articles/search-console-sitemap-discovered-vs-indexed/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="660" alt="三处检查示意：公开 XML、站点地图报告和单条网址检查。"
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>Search Console 的站点地图「成功」指地图已被读取和处理。「已发现的网页」数的是从地图里解析出的地址。要查某篇文章有没有收录，用网址检查打开它的规范地址，查看已索引版本。</p>
@@ -106,7 +106,7 @@
         </section><section id="section-2">
           <h2>发布记录分两行写</h2><p>第一行记哪些新地址已经进入地图，第二行记抽查过的地址是否已收录。实时测试针对当前线上版本，已索引视图反映 Google 现有记录。把两个状态保留下来，下次复核就知道该追哪一层。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">网址检查与排查</a></li></ul>
         </section>
-        
+
         <section class="article-resources" aria-labelledby="related-guides">
           <h2 id="related-guides">相关指南</h2>
           <ul><li><a href="/zh/blog/search-troubleshooting/google-video-isnt-on-watch-page/">Google 提示「视频不在观看页面上」，要单独做一页吗？</a></li><li><a href="/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/">上线后用 Bing IndexNow，应该提交哪些地址？</a></li><li><a href="/zh/blog/search-troubleshooting/google-search-shows-old-page-title/">网页标题已经改了，Google 怎么还显示旧的？</a></li></ul>
@@ -128,6 +128,7 @@
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>
         <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
         <a href="/zh/about/">关于这个项目</a>
         <a href="/zh/pricing/">评测合作</a>
         <a href="/zh/privacy/">隐私说明</a>

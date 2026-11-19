@@ -2,12 +2,12 @@
 <html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bing IndexNow 怎么提交新增、更新和移除的网址 — ProductTally</title>
   <meta name="description" content="根据发布差异选出需要通知的地址，并核对 Bing 的接收状态。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/search-troubleshooting/bing-indexnow-changed-urls/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/bing-indexnow-changed-urls/cover.webp">
   <meta name="twitter:image:alt" content="发布差异示意：通知新增、变更、撤下的地址；站点地图保留规范网址。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#webpage","name":"Bing IndexNow 怎么提交新增、更新和移除的网址","description":"根据发布差异选出需要通知的地址，并核对 Bing 的接收状态。","url":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#article","headline":"Bing IndexNow 怎么提交新增、更新和移除的网址","description":"根据发布差异选出需要通知的地址，并核对 Bing 的接收状态。","url":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#article-image","url":"https://producttally.com/assets/articles/bing-indexnow-changed-urls/cover.webp","contentUrl":"https://producttally.com/assets/articles/bing-indexnow-changed-urls/cover.webp","width":1180,"height":660,"caption":"发布差异示意：通知新增、变更、撤下的地址；站点地图保留规范网址。"},"dateModified":"2026-11-19","citation":["https://www.indexnow.org/documentation","https://www.bing.com/indexnow/getstarted","https://www.bing.com/webmasters/help/content-removal-cb6c294d"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"搜索排查","item":"https://producttally.com/zh/blog/search-troubleshooting/"},{"@type":"ListItem","position":4,"name":"上线后用 Bing IndexNow，应该提交哪些地址？","item":"https://producttally.com/zh/blog/search-troubleshooting/bing-indexnow-changed-urls/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="主导航">
-          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">评测合作</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/bing-indexnow-changed-urls/cover.webp" srcset="/assets/articles/bing-indexnow-changed-urls/cover-small.webp 640w, /assets/articles/bing-indexnow-changed-urls/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="660" alt="发布差异示意：通知新增、变更、撤下的地址；站点地图保留规范网址。"
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>IndexNow 用来通知参与的搜索引擎：某个准确的网址新增、变更或移除了。站点地图可以继续提供规范网址供日常发现。等线上页面达到预期状态再通知，并记下服务返回的结果。</p>
@@ -106,7 +106,7 @@
         </section><section id="section-2">
           <h2>接收结果写进发布记录</h2><p>记下变动地址、实际 HTTP 状态和 IndexNow 的响应。从 XML 地图里去掉已经撤下的规范地址。Bing 可以通过地图发现变化，也可以从网址本身读到新的响应。如果要知道新地址有没有进入 Bing 索引，用网址检查另查。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.bing.com/webmasters/help/content-removal-cb6c294d">Bing 内容移除指南</a></li></ul>
         </section>
-        
+
         <section class="article-resources" aria-labelledby="related-guides">
           <h2 id="related-guides">相关指南</h2>
           <ul><li><a href="/zh/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">站点地图显示「成功」，为什么还有页面搜不到？</a></li><li><a href="/zh/blog/search-troubleshooting/google-video-isnt-on-watch-page/">Google 提示「视频不在观看页面上」，要单独做一页吗？</a></li><li><a href="/zh/blog/search-troubleshooting/google-search-shows-old-page-title/">网页标题已经改了，Google 怎么还显示旧的？</a></li></ul>
@@ -128,6 +128,7 @@
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>
         <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
         <a href="/zh/about/">关于这个项目</a>
         <a href="/zh/pricing/">评测合作</a>
         <a href="/zh/privacy/">隐私说明</a>

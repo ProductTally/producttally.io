@@ -2,12 +2,12 @@
 <html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cal.comで複数のGoogleカレンダーの二重予約を防ぐ — ProductTally</title>
   <meta name="description" content="重複を確認するカレンダーと書き込み先を設定し、2本の予約リンクで空き枠を確認します。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/cal-com/cal-com-prevent-double-booking-across-calendars/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/cal-com-prevent-double-booking-across-calendars/cover.webp">
   <meta name="twitter:image:alt" content="2つの予約リンクが同じ空き状況を確認します。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#webpage","name":"Cal.comで複数のGoogleカレンダーの二重予約を防ぐ","description":"重複を確認するカレンダーと書き込み先を設定し、2本の予約リンクで空き枠を確認します。","url":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#article","headline":"Cal.comで複数のGoogleカレンダーの二重予約を防ぐ","description":"重複を確認するカレンダーと書き込み先を設定し、2本の予約リンクで空き枠を確認します。","url":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#article-image","url":"https://producttally.com/assets/articles/cal-com-prevent-double-booking-across-calendars/cover.webp","contentUrl":"https://producttally.com/assets/articles/cal-com-prevent-double-booking-across-calendars/cover.webp","width":1180,"height":520,"caption":"2つの予約リンクが同じ空き状況を確認します。"},"about":[{"@id":"https://producttally.com/products/cal-com/#software"}],"dateModified":"2026-11-18","citation":["https://github.com/calcom/help/blob/5ae07a6d29140179eafbea8a70e77cd90f532735/my-account/calendars-and-conferencing.mdx","https://github.com/calcom/help/blob/5ae07a6d29140179eafbea8a70e77cd90f532735/event-types/eventtype-specific-checking-for-conflicts.mdx","https://developers.google.com/workspace/calendar/api/v3/reference/events"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/cal-com/#software","name":"Cal.com","url":"https://cal.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"Cal.com","item":"https://producttally.com/ja/products/cal-com/"},{"@type":"ListItem","position":4,"name":"Cal.comで予約リンクが2本あるとき、同じ時間の予約をどう防ぐ？","item":"https://producttally.com/ja/blog/cal-com/cal-com-prevent-double-booking-across-calendars/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="プライマリナビゲーション">
-          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/news/">SaaS製品ニュース</a><a href="/ja/pricing/">レビュー依頼</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/cal-com-prevent-double-booking-across-calendars/cover.webp" srcset="/assets/articles/cal-com-prevent-double-booking-across-calendars/cover-small.webp 640w, /assets/articles/cal-com-prevent-double-booking-across-calendars/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="520" alt="2つの予約リンクが同じ空き状況を確認します。"
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>Cal.comでは、予定の重複を確認するカレンダーと新規予約の書き込み先を別々に設定します。Googleカレンダーを接続したら、Settings → Calendars の Check for conflicts で確認対象を選び、Add events to で保存先を選びます。イベントタイプの詳細設定でも書き込み先を変更できます。保存先を選んだ後は、もう一方のリンクでも重複を確認できるか試します。  この例では2つの個人リンクを使います。アカウントの重複確認設定を上書きしているリンクでは、そのリンクのカレンダー一覧も確認します。</p>
@@ -135,6 +135,7 @@
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>
         <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/news/">SaaS製品ニュース</a>
         <a href="/ja/about/">プロジェクトについて</a>
         <a href="/ja/pricing/">レビュー依頼</a>
         <a href="/ja/privacy/">プライバシー</a>

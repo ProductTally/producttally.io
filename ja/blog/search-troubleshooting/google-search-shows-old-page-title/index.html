@@ -2,12 +2,12 @@
 <html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Google検索に古いタイトルが出るときに確認する3か所 — ProductTally</title>
   <meta name="description" content="公開HTML、Search Consoleのインデックス版と公開URLテスト、実際の検索結果を見比べます。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/search-troubleshooting/google-search-shows-old-page-title/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/google-search-shows-old-page-title/cover.webp">
   <meta name="twitter:image:alt" content="架空のタイトル変更例です。公開HTMLのタイトル、最終クロール日時、検索結果の表示タイトルを記録します。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/#webpage","name":"Google検索に古いタイトルが出るときに確認する3か所","description":"公開HTML、Search Consoleのインデックス版と公開URLテスト、実際の検索結果を見比べます。","url":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/#article","headline":"Google検索に古いタイトルが出るときに確認する3か所","description":"公開HTML、Search Consoleのインデックス版と公開URLテスト、実際の検索結果を見比べます。","url":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/#article-image","url":"https://producttally.com/assets/articles/google-search-shows-old-page-title/cover.webp","contentUrl":"https://producttally.com/assets/articles/google-search-shows-old-page-title/cover.webp","width":1180,"height":520,"caption":"架空のタイトル変更例です。公開HTMLのタイトル、最終クロール日時、検索結果の表示タイトルを記録します。"},"dateModified":"2026-11-18","citation":["https://developers.google.com/search/docs/appearance/title-link","https://support.google.com/webmasters/answer/12482179","https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"検索トラブルの診断","item":"https://producttally.com/ja/blog/search-troubleshooting/"},{"@type":"ListItem","position":4,"name":"ページのタイトルを変えたのに、なぜGoogle検索では古いまま？","item":"https://producttally.com/ja/blog/search-troubleshooting/google-search-shows-old-page-title/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="プライマリナビゲーション">
-          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/news/">SaaS製品ニュース</a><a href="/ja/pricing/">レビュー依頼</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/google-search-shows-old-page-title/cover.webp" srcset="/assets/articles/google-search-shows-old-page-title/cover-small.webp 640w, /assets/articles/google-search-shows-old-page-title/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="520" alt="架空のタイトル変更例です。公開HTMLのタイトル、最終クロール日時、検索結果の表示タイトルを記録します。"
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>古い文言が残っている場所を特定します。公開HTMLに残っていれば、デプロイやテンプレートを確認します。Search Consoleの最終クロールが変更前なら、新しい内容の処理を待つ必要があるかもしれません。再クロール後も異なる文言が出る場合は、目立つ見出しやリンクの文言を確認します。Googleは複数の情報から検索結果のタイトルリンクを自動で生成します。</p>
@@ -104,7 +104,7 @@
           alt="架空のタイトル変更例です。公開HTMLのタイトル、最終クロール日時、検索結果の表示タイトルを記録します。" loading="lazy" decoding="async"><figcaption>架空のタイトル変更例です。公開HTMLのタイトル、最終クロール日時、検索結果の表示タイトルを記録します。</figcaption></figure><section id="section-1">
           <h2>変わった箇所と時刻を記録する</h2><p>変更日時と前後のHTMLを残しておきます。次に確認するときは、新しいクロールがあったかを先に調べ、タイトルに変化があれば該当するクエリを記録します。</p>
         </section>
-        
+
         <section class="article-resources" aria-labelledby="related-guides">
           <h2 id="related-guides">関連ガイド</h2>
           <ul><li><a href="/ja/blog/search-troubleshooting/search-console-sitemap-discovered-vs-indexed/">サイトマップが「成功」でも、検索に出ないページはどう確認する？</a></li><li><a href="/ja/blog/search-troubleshooting/google-video-isnt-on-watch-page/">動画が再生ページにないとGoogleに表示されたら、専用ページを作る？</a></li><li><a href="/ja/blog/search-troubleshooting/bing-indexnow-changed-urls/">BingのIndexNowには公開後どのURLを送る？</a></li></ul>
@@ -126,6 +126,7 @@
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>
         <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/news/">SaaS製品ニュース</a>
         <a href="/ja/about/">プロジェクトについて</a>
         <a href="/ja/pricing/">レビュー依頼</a>
         <a href="/ja/privacy/">プライバシー</a>

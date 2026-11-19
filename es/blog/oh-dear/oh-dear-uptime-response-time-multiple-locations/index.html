@@ -2,12 +2,12 @@
 <html lang="es" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Interpretar la disponibilidad y la latencia regional en Oh Dear — ProductTally</title>
   <meta name="description" content="Compara ubicación, tiempos de petición y carga visible al usuario en la misma ventana UTC.">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/oh-dear-uptime-response-time-multiple-locations/cover.webp">
   <meta name="twitter:image:alt" content="Incidente ficticio. Las 09:10 UTC+08:00 son las 01:10 UTC. El primer byte del monitor y el renderizado del navegador miden fases distintas.">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#webpage","name":"Interpretar la disponibilidad y la latencia regional en Oh Dear","description":"Compara ubicación, tiempos de petición y carga visible al usuario en la misma ventana UTC.","url":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/","inLanguage":"es","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#article-image"},"breadcrumb":{"@id":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#article","headline":"Interpretar la disponibilidad y la latencia regional en Oh Dear","description":"Compara ubicación, tiempos de petición y carga visible al usuario en la misma ventana UTC.","url":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/","inLanguage":"es","mainEntityOfPage":{"@id":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#article-image","url":"https://producttally.com/assets/articles/oh-dear-uptime-response-time-multiple-locations/cover.webp","contentUrl":"https://producttally.com/assets/articles/oh-dear-uptime-response-time-multiple-locations/cover.webp","width":1180,"height":520,"caption":"Incidente ficticio. Las 09:10 UTC+08:00 son las 01:10 UTC. El primer byte del monitor y el renderizado del navegador miden fases distintas."},"about":[{"@id":"https://producttally.com/products/oh-dear/#software"}],"dateModified":"2026-11-18","citation":["https://ohdear.app/docs/features/uptime-and-performance-monitoring","https://ohdear.app/features/performance-monitoring"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/oh-dear/#software","name":"Oh Dear","url":"https://ohdear.app/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://producttally.com/es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://producttally.com/es/blog/"},{"@type":"ListItem","position":3,"name":"Oh Dear","item":"https://producttally.com/es/products/oh-dear/"},{"@type":"ListItem","position":4,"name":"Oh Dear dice que la web está disponible. ¿Por qué va lenta en una región?","item":"https://producttally.com/es/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="Navegación principal">
-          <div class="primary-links"><a href="/es/">Productos</a><a href="/es/blog/" aria-current="location">Blog</a><a href="/es/pricing/">Reseñas por encargo</a></div>
+          <div class="primary-links"><a href="/es/">Productos</a><a href="/es/blog/" aria-current="location">Blog</a><a href="/es/news/">Novedades SaaS</a><a href="/es/pricing/">Reseñas por encargo</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/oh-dear-uptime-response-time-multiple-locations/cover.webp" srcset="/assets/articles/oh-dear-uptime-response-time-multiple-locations/cover-small.webp 640w, /assets/articles/oh-dear-uptime-response-time-multiple-locations/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="520" alt="Incidente ficticio. Las 09:10 UTC+08:00 son las 01:10 UTC. El primer byte del monitor y el renderizado del navegador miden fases distintas."
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>Comprueba desde dónde se hizo cada medición y qué medía. Oh Dear ejecuta el control desde una ubicación principal y verifica un fallo desde una secundaria. Los tiempos de la petición ayudan a separar DNS, conexión, TLS y respuesta. El usuario también depende de su dispositivo, red, scripts y renderizado.</p>
@@ -135,6 +135,7 @@
       <nav aria-label="Navegación del pie de página">
         <a href="/es/">Productos</a>
         <a href="/es/blog/">Blog</a>
+        <a href="/es/news/">Novedades SaaS</a>
         <a href="/es/about/">Sobre el proyecto</a>
         <a href="/es/pricing/">Reseñas por encargo</a>
         <a href="/es/privacy/">Privacidad</a>

@@ -2,12 +2,12 @@
 <html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ポッドキャストの音量をそろえるには？LUFSとトゥルーピークの確認 — ProductTally</title>
   <meta name="description" content="話者の音量をそろえ、Apple Podcastsの公式ラウドネスとトゥルーピークの目安で確認してから書き出します。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/podcast-production/check-podcast-loudness-before-export/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp">
   <meta name="twitter:image:alt" content="エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#webpage","name":"ポッドキャストの音量をそろえるには？LUFSとトゥルーピークの確認","description":"話者の音量をそろえ、Apple Podcastsの公式ラウドネスとトゥルーピークの目安で確認してから書き出します。","url":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#article","headline":"ポッドキャストの音量をそろえるには？LUFSとトゥルーピークの確認","description":"話者の音量をそろえ、Apple Podcastsの公式ラウドネスとトゥルーピークの目安で確認してから書き出します。","url":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#article-image","url":"https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp","contentUrl":"https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp","width":1180,"height":520,"caption":"エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。"},"dateModified":"2026-11-18","citation":["https://ffmpeg.org/ffmpeg-filters.html#loudnorm","https://podcasters.apple.com/support/893-audio-requirements"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"ポッドキャスト制作","item":"https://producttally.com/ja/blog/podcast-production/"},{"@type":"ListItem","position":4,"name":"ポッドキャストの回ごとの音量をそろえるには？","item":"https://producttally.com/ja/blog/podcast-production/check-podcast-loudness-before-export/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="プライマリナビゲーション">
-          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/pricing/">レビュー依頼</a></div>
+          <div class="primary-links"><a href="/ja/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/news/">SaaS製品ニュース</a><a href="/ja/pricing/">レビュー依頼</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/check-podcast-loudness-before-export/cover.webp" srcset="/assets/articles/check-podcast-loudness-before-export/cover-small.webp 640w, /assets/articles/check-podcast-loudness-before-export/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="520" alt="エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。"
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>まず、同じ回に出る人どうしの声の大きさを調整します。そのあと、書き出した全編で統合ラウドネスとトゥルーピークを測ります。話者の音量を整えると聞き取りやすくなり、全編の測定では回全体の水準とピークの余裕が分かります。同じ再生音量で冒頭、末尾、話者が交代する箇所を聞いてみてください。</p>
@@ -104,8 +104,8 @@
           alt="エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。" loading="lazy" decoding="async"><figcaption>エンコード前の統合ラウドネスとトゥルーピークに関するApple Podcastsの公式目安。</figcaption></figure><section id="section-1">
           <h2>配信先の推奨値を確認する</h2><p>Apple Podcastsは、エンコード前の全体を約−16 dB LKFS、許容範囲を±1 dB、トゥルーピークを−1 dB FS以下とするよう推奨しています。配信先と、モノラルかステレオかを記録します。各トラックを整えて全体を測ったあと、特に非可逆形式で書き出すときは、実際の納品ファイルのピークと聞き取りやすさも確認してください。</p><p>AppleはRSS配信の音声にMP3またはAACを受け付けます。Apple Podcasts Connectに購読者向けのWAVまたはFLACを納品する場合は2チャンネルが必要で、モノラル音源は左右に同じ信号を入れます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://podcasters.apple.com/support/893-audio-requirements">Apple Podcastsの音声要件</a></li></ul>
         </section>
-        
-        
+
+
         <section class="article-resources"><h2>公式参考資料</h2>
           <ul><li><cite><a data-source-citation="true" href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">FFmpegのloudnormフィルター</a></cite></li><li><cite><a data-source-citation="true" href="https://podcasters.apple.com/support/893-audio-requirements">Apple Podcastsの音声要件</a></cite></li></ul>
         </section>
@@ -123,6 +123,7 @@
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>
         <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/news/">SaaS製品ニュース</a>
         <a href="/ja/about/">プロジェクトについて</a>
         <a href="/ja/pricing/">レビュー依頼</a>
         <a href="/ja/privacy/">プライバシー</a>

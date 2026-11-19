@@ -2,12 +2,12 @@
 <html lang="es" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cómo hacer reproducible una reseña de SaaS — ProductTally</title>
   <meta name="description" content="Documenta entrada, zona horaria, resultado esperado y errores con tres pedidos ficticios.">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/product-testing/reproducible-saas-product-review-methodology/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/product-testing/reproducible-saas-product-review-methodology/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/reproducible-saas-product-review-methodology/cover.webp">
   <meta name="twitter:image:alt" content="Ejemplo hipotético de una exportación por fecha local de Tokio.">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/#webpage","name":"Cómo hacer reproducible una reseña de SaaS","description":"Documenta entrada, zona horaria, resultado esperado y errores con tres pedidos ficticios.","url":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/","inLanguage":"es","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/#article-image"},"breadcrumb":{"@id":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/#article","headline":"Cómo hacer reproducible una reseña de SaaS","description":"Documenta entrada, zona horaria, resultado esperado y errores con tres pedidos ficticios.","url":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/","inLanguage":"es","mainEntityOfPage":{"@id":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/#article-image","url":"https://producttally.com/assets/articles/reproducible-saas-product-review-methodology/cover.webp","contentUrl":"https://producttally.com/assets/articles/reproducible-saas-product-review-methodology/cover.webp","width":1180,"height":520,"caption":"Ejemplo hipotético de una exportación por fecha local de Tokio."},"dateModified":"2026-11-18","citation":["https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews","https://docs.python.org/3/library/zoneinfo.html"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://producttally.com/es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://producttally.com/es/blog/"},{"@type":"ListItem","position":3,"name":"Pruebas de producto","item":"https://producttally.com/es/blog/product-testing/"},{"@type":"ListItem","position":4,"name":"¿Qué debería decir «la exportación funcionó» para que alguien pueda comprobarlo?","item":"https://producttally.com/es/blog/product-testing/reproducible-saas-product-review-methodology/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="Navegación principal">
-          <div class="primary-links"><a href="/es/">Productos</a><a href="/es/blog/" aria-current="location">Blog</a><a href="/es/pricing/">Reseñas por encargo</a></div>
+          <div class="primary-links"><a href="/es/">Productos</a><a href="/es/blog/" aria-current="location">Blog</a><a href="/es/news/">Novedades SaaS</a><a href="/es/pricing/">Reseñas por encargo</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -89,11 +89,11 @@
     src="/assets/articles/reproducible-saas-product-review-methodology/cover.webp" srcset="/assets/articles/reproducible-saas-product-review-methodology/cover-small.webp 640w, /assets/articles/reproducible-saas-product-review-methodology/cover.webp 1180w" sizes="(max-width: 51rem) 100vw, 49rem"
     width="1180" height="520" alt="Ejemplo hipotético de una exportación por fecha local de Tokio."
     loading="eager" decoding="async"></div>
-    
+
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>Describe el ejemplo oficial, su configuración y el resultado esperado. Indica el plan y el alcance para que el lector pueda aplicarlo a su cuenta.</p>
@@ -108,8 +108,8 @@
           alt="Ejemplo hipotético de una exportación por fecha local de Tokio." loading="lazy" decoding="async"><figcaption>Ejemplo hipotético de una exportación por fecha local de Tokio.</figcaption></figure><section id="section-1">
           <h2>Guarda lo necesario para repetir la prueba</h2><p>Anota la fecha, el plan, el rol y el idioma del ejemplo oficial. Cita las instrucciones originales del proveedor e identifica los registros ilustrativos. Guarda la verificación propia en el expediente editorial.</p>
         </section>
-        
-        
+
+
         <section class="article-resources"><h2>Referencias oficiales</h2>
           <ul><li><cite><a data-source-citation="true" href="https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews">Guía de Google para reseñas</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.python.org/3/library/zoneinfo.html">Documentación de zoneinfo</a></cite></li></ul>
         </section>
@@ -127,6 +127,7 @@
       <nav aria-label="Navegación del pie de página">
         <a href="/es/">Productos</a>
         <a href="/es/blog/">Blog</a>
+        <a href="/es/news/">Novedades SaaS</a>
         <a href="/es/about/">Sobre el proyecto</a>
         <a href="/es/pricing/">Reseñas por encargo</a>
         <a href="/es/privacy/">Privacidad</a>

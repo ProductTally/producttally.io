@@ -2,12 +2,12 @@
 <html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Google Search Console 生成式 AI 报告怎么看？ — ProductTally</title>
   <meta name="description" content="分清 AI 搜索展示、出现过的页面和访问行为。用三种小站场景解释 Search Console 报告能回答哪些问题。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/ai-search-measurement/google-search-console-generative-ai-report/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/google-search-console-generative-ai-report/cover.webp">
   <meta name="twitter:image:alt" content="Google 官方 Search Console 示意图，使用 example.com 展示总展示次数与页面、国家、设备和日期标签。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/#webpage","name":"Google Search Console 生成式 AI 报告怎么看？","description":"分清 AI 搜索展示、出现过的页面和访问行为。用三种小站场景解释 Search Console 报告能回答哪些问题。","url":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/#article","headline":"Google Search Console 生成式 AI 报告怎么看？","description":"分清 AI 搜索展示、出现过的页面和访问行为。用三种小站场景解释 Search Console 报告能回答哪些问题。","url":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/#article-image","url":"https://producttally.com/assets/articles/google-search-console-generative-ai-report/cover.webp","contentUrl":"https://producttally.com/assets/articles/google-search-console-generative-ai-report/cover.webp","width":1200,"height":675,"caption":"Google 官方 Search Console 示意图，使用 example.com 展示总展示次数与页面、国家、设备和日期标签。"},"dateModified":"2026-11-17","citation":["https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports","https://support.google.com/webmasters/answer/16984139","https://support.google.com/webmasters/answer/16983858"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"AI 搜索衡量","item":"https://producttally.com/zh/blog/ai-search-measurement/"},{"@type":"ListItem","position":4,"name":"Google Search Console 的 AI 搜索报告，小站能回答哪些问题？","item":"https://producttally.com/zh/blog/ai-search-measurement/google-search-console-generative-ai-report/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="主导航">
-          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">评测合作</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -93,7 +93,7 @@
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>你的某个工具教程可能出现在 Google 的生成式 AI 搜索功能里。Search Console 的生成式 AI 表现报告能帮你查哪些 URL 出现过、在哪些国家可见、展示如何变化。Google 在 2026 年 6 月发布公告，并在同一公告中更新称于 8 月 31 日将这类数据推广至全球网站。实际能看到哪些图表和数据，以站点属性与报告为准。</p>
@@ -108,8 +108,8 @@
           alt="Google 官方 Search Console 示意图，使用 example.com 展示总展示次数与页面、国家、设备和日期标签。" loading="lazy" decoding="async"><figcaption>Google 官方 Search Console 示意图，使用 example.com 展示总展示次数与页面、国家、设备和日期标签。</figcaption></figure><section id="section-1">
           <h2>先记下你能复查的事实</h2><p>假设一篇预约教程在某一周出现了 30 次展示。你可以记这篇 URL、报告类型、国家、时段与显示值。仅凭这 30 次展示，不能还原每次具体问法、回答里出现的文字或访客有没有点击。若要核对某个回答的真实内容，可以另做带日期、国家和语言的样本测试，将结果作为另一条证据。</p><p>每月可以从几篇业务最相关的文章开始。分别记录 AI 展示、页面访问和站内推广点击。展示新增而访问波动不明显时，先按同一页面和日期范围复核，等有可解释的变化再改文章，别把同一周的两个指标当作因果关系。</p>
         </section>
-        
-        
+
+
         <section class="article-resources"><h2>官方参考资料</h2>
           <ul><li><cite><a data-source-citation="true" href="https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports">Google 官方发布公告</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16984139">Google Search 的 AI 表现报告</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16983858">Google Discover 的 AI 表现报告</a></cite></li></ul>
         </section>
@@ -127,6 +127,7 @@
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>
         <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
         <a href="/zh/about/">关于这个项目</a>
         <a href="/zh/pricing/">评测合作</a>
         <a href="/zh/privacy/">隐私说明</a>

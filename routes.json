@@ -28,6 +28,12 @@
     },
     {
       "lang": "en",
+      "route": "news",
+      "url": "/news/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
       "route": "about",
       "url": "/about/"
     },
@@ -1069,6 +1075,30 @@
       "lastmod": "2026-11-17"
     },
     {
+      "lang": "en",
+      "route": "news/dropbox-ai-agent-cloud-product-shift",
+      "url": "/news/dropbox-ai-agent-cloud-product-shift/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "news/bigcommerce-shopping-agent-storefront-launch",
+      "url": "/news/bigcommerce-shopping-agent-storefront-launch/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "news/google-vids-omni-12-15-second-video-update",
+      "url": "/news/google-vids-omni-12-15-second-video-update/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "news/jira-autumn-2026-agents-and-workflows",
+      "url": "/news/jira-autumn-2026-agents-and-workflows/",
+      "lastmod": "2026-11-19"
+    },
+    {
       "lang": "zh",
       "route": "",
       "url": "/zh/",
@@ -1085,6 +1115,12 @@
       "lang": "zh",
       "route": "pricing",
       "url": "/zh/pricing/"
+    },
+    {
+      "lang": "zh",
+      "route": "news",
+      "url": "/zh/news/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
@@ -2129,6 +2165,30 @@
       "lastmod": "2026-11-17"
     },
     {
+      "lang": "zh",
+      "route": "news/dropbox-ai-agent-cloud-product-shift",
+      "url": "/zh/news/dropbox-ai-agent-cloud-product-shift/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "news/bigcommerce-shopping-agent-storefront-launch",
+      "url": "/zh/news/bigcommerce-shopping-agent-storefront-launch/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "news/google-vids-omni-12-15-second-video-update",
+      "url": "/zh/news/google-vids-omni-12-15-second-video-update/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "news/jira-autumn-2026-agents-and-workflows",
+      "url": "/zh/news/jira-autumn-2026-agents-and-workflows/",
+      "lastmod": "2026-11-19"
+    },
+    {
       "lang": "es",
       "route": "",
       "url": "/es/",
@@ -2145,6 +2205,12 @@
       "lang": "es",
       "route": "pricing",
       "url": "/es/pricing/"
+    },
+    {
+      "lang": "es",
+      "route": "news",
+      "url": "/es/news/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "es",
@@ -3189,6 +3255,30 @@
       "lastmod": "2026-11-17"
     },
     {
+      "lang": "es",
+      "route": "news/dropbox-ai-agent-cloud-product-shift",
+      "url": "/es/news/dropbox-ai-agent-cloud-product-shift/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "news/bigcommerce-shopping-agent-storefront-launch",
+      "url": "/es/news/bigcommerce-shopping-agent-storefront-launch/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "news/google-vids-omni-12-15-second-video-update",
+      "url": "/es/news/google-vids-omni-12-15-second-video-update/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "news/jira-autumn-2026-agents-and-workflows",
+      "url": "/es/news/jira-autumn-2026-agents-and-workflows/",
+      "lastmod": "2026-11-19"
+    },
+    {
       "lang": "ja",
       "route": "",
       "url": "/ja/",
@@ -3205,6 +3295,12 @@
       "lang": "ja",
       "route": "pricing",
       "url": "/ja/pricing/"
+    },
+    {
+      "lang": "ja",
+      "route": "news",
+      "url": "/ja/news/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
@@ -4247,6 +4343,30 @@
       "route": "blog/printful/printful-first-sample-order",
       "url": "/ja/blog/printful/printful-first-sample-order/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "news/dropbox-ai-agent-cloud-product-shift",
+      "url": "/ja/news/dropbox-ai-agent-cloud-product-shift/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "news/bigcommerce-shopping-agent-storefront-launch",
+      "url": "/ja/news/bigcommerce-shopping-agent-storefront-launch/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "news/google-vids-omni-12-15-second-video-update",
+      "url": "/ja/news/google-vids-omni-12-15-second-video-update/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "news/jira-autumn-2026-agents-and-workflows",
+      "url": "/ja/news/jira-autumn-2026-agents-and-workflows/",
+      "lastmod": "2026-11-19"
     }
   ],
   "redirects": [

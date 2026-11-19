@@ -2,12 +2,12 @@
 <html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
 <head>
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Castos 私人播客怎么发放和撤销订阅权限？ — ProductTally</title>
   <meta name="description" content="用开通、换设备和取消三个案例说明唯一 RSS、播放器条件和续费自动化规则。">
   <meta name="theme-color" content="#FBF8F3">
-  
+
   <link rel="canonical" href="https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/">
   <link rel="alternate" hreflang="en" href="https://producttally.com/blog/castos/grant-and-revoke-private-podcast-access/">
   <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/">
@@ -34,7 +34,7 @@
   <meta name="twitter:image" content="https://producttally.com/assets/articles/grant-and-revoke-private-podcast-access/cover.webp">
   <meta name="twitter:image:alt" content="分享个人 RSS 前，先核对听众权限。">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/#webpage","name":"Castos 私人播客怎么发放和撤销订阅权限？","description":"用开通、换设备和取消三个案例说明唯一 RSS、播放器条件和续费自动化规则。","url":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/#article","headline":"Castos 私人播客怎么发放和撤销订阅权限？","description":"用开通、换设备和取消三个案例说明唯一 RSS、播放器条件和续费自动化规则。","url":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/#article-image","url":"https://producttally.com/assets/articles/grant-and-revoke-private-podcast-access/cover.webp","contentUrl":"https://producttally.com/assets/articles/grant-and-revoke-private-podcast-access/cover.webp","width":1180,"height":520,"caption":"分享个人 RSS 前，先核对听众权限。"},"about":[{"@id":"https://producttally.com/products/castos/#software"}],"dateModified":"2026-11-17","citation":["https://support.castos.com/article/246-add-and-manage-private-podcast-subscribers","https://support.castos.com/article/245-add-a-private-podcast-to-a-podcast-app","https://support.castos.com/article/56-setting-up-the-stripe-integration-for-private-podcasting"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/castos/#software","name":"Castos","url":"https://castos.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"Castos","item":"https://producttally.com/zh/products/castos/"},{"@type":"ListItem","position":4,"name":"付费会员播客用 Castos，怎样发放和撤销订阅？","item":"https://producttally.com/zh/blog/castos/grant-and-revoke-private-podcast-access/"}]}]}</script>
-  <link rel="icon" href="/assets/producttally-icon.png" type="image/png">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
@@ -50,7 +50,7 @@
     <span>Product<span class="brand-light">Tally</span></span>
   </a>
         <nav class="primary-nav" aria-label="主导航">
-          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/pricing/">评测合作</a></div>
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">评测合作</a></div>
         </nav>
         <div class="language-control">
           <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
@@ -93,7 +93,7 @@
   </figure>
     </header>
     <div class="article-grid">
-      
+
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>会员会加入、退出或换设备时，给每位听众单独发私人 RSS。在 Castos 可以添加听众并撤销此人的访问。通用私人 RSS 适合成员不变的固定小组，Castos 文档说明，通用地址一旦共享就无法撤销或停用，因此不能靠它管理逐个听众的去留。付费节目不要把同一通用地址放进所有人的欢迎信。</p>
@@ -135,6 +135,7 @@
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>
         <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
         <a href="/zh/about/">关于这个项目</a>
         <a href="/zh/pricing/">评测合作</a>
         <a href="/zh/privacy/">隐私说明</a>
