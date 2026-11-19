@@ -46,7 +46,7 @@
       "lang": "en",
       "route": "products/anydo",
       "url": "/products/anydo/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "en",
@@ -58,7 +58,7 @@
       "lang": "en",
       "route": "products/nifty",
       "url": "/products/nifty/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "en",
@@ -106,7 +106,7 @@
       "lang": "en",
       "route": "products/gemini-notebook",
       "url": "/products/gemini-notebook/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "en",
@@ -1136,7 +1136,7 @@
       "lang": "zh",
       "route": "products/anydo",
       "url": "/zh/products/anydo/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
@@ -1148,7 +1148,7 @@
       "lang": "zh",
       "route": "products/nifty",
       "url": "/zh/products/nifty/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
@@ -1196,7 +1196,7 @@
       "lang": "zh",
       "route": "products/gemini-notebook",
       "url": "/zh/products/gemini-notebook/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
@@ -2226,7 +2226,7 @@
       "lang": "es",
       "route": "products/anydo",
       "url": "/es/products/anydo/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "es",
@@ -2238,7 +2238,7 @@
       "lang": "es",
       "route": "products/nifty",
       "url": "/es/products/nifty/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "es",
@@ -2286,7 +2286,7 @@
       "lang": "es",
       "route": "products/gemini-notebook",
       "url": "/es/products/gemini-notebook/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "es",
@@ -3316,7 +3316,7 @@
       "lang": "ja",
       "route": "products/anydo",
       "url": "/ja/products/anydo/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
@@ -3328,7 +3328,7 @@
       "lang": "ja",
       "route": "products/nifty",
       "url": "/ja/products/nifty/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
@@ -3376,7 +3376,7 @@
       "lang": "ja",
       "route": "products/gemini-notebook",
       "url": "/ja/products/gemini-notebook/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
@@ -4871,6 +4871,14 @@
       "target": "/blog/printful/printful-first-sample-order/"
     },
     {
+      "url": "/guides/anydo/",
+      "target": "/products/anydo/"
+    },
+    {
+      "url": "/blog/anydo/",
+      "target": "/products/anydo/"
+    },
+    {
       "url": "/guides/anydo/anydo-daily-planner/",
       "target": "/products/anydo/"
     },
@@ -5801,6 +5809,14 @@
     {
       "url": "/zh/guides/printful/printful-first-sample-order/",
       "target": "/zh/blog/printful/printful-first-sample-order/"
+    },
+    {
+      "url": "/zh/guides/anydo/",
+      "target": "/zh/products/anydo/"
+    },
+    {
+      "url": "/zh/blog/anydo/",
+      "target": "/zh/products/anydo/"
     },
     {
       "url": "/zh/guides/anydo/anydo-daily-planner/",
@@ -6735,6 +6751,14 @@
       "target": "/es/blog/printful/printful-first-sample-order/"
     },
     {
+      "url": "/es/guides/anydo/",
+      "target": "/es/products/anydo/"
+    },
+    {
+      "url": "/es/blog/anydo/",
+      "target": "/es/products/anydo/"
+    },
+    {
       "url": "/es/guides/anydo/anydo-daily-planner/",
       "target": "/es/products/anydo/"
     },
@@ -7667,6 +7691,14 @@
       "target": "/ja/blog/printful/printful-first-sample-order/"
     },
     {
+      "url": "/ja/guides/anydo/",
+      "target": "/ja/products/anydo/"
+    },
+    {
+      "url": "/ja/blog/anydo/",
+      "target": "/ja/products/anydo/"
+    },
+    {
       "url": "/ja/guides/anydo/anydo-daily-planner/",
       "target": "/ja/products/anydo/"
     },
@@ -8097,6 +8129,22 @@
     {
       "url": "/ja/blog/movavi-video-editor/remove-silence-talking-head-video/",
       "target": "/ja/products/movavi-video-editor/"
+    },
+    {
+      "url": "/it/products/nifty/",
+      "target": "/products/nifty/"
+    },
+    {
+      "url": "/de/guides/anydo/",
+      "target": "/products/anydo/"
+    },
+    {
+      "url": "/it/guides/anydo/",
+      "target": "/products/anydo/"
+    },
+    {
+      "url": "/it/guides/anydo/plan-a-publishing-week/",
+      "target": "/products/anydo/"
     }
   ]
 }
