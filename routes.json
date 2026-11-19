@@ -302,6 +302,12 @@
     },
     {
       "lang": "en",
+      "route": "products/gravity-forms",
+      "url": "/products/gravity-forms/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
       "route": "products/sembly-ai",
       "url": "/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -1353,6 +1359,12 @@
       "route": "products/vizard",
       "url": "/zh/products/vizard/",
       "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "zh",
+      "route": "products/gravity-forms",
+      "url": "/zh/products/gravity-forms/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
@@ -2410,6 +2422,12 @@
     },
     {
       "lang": "es",
+      "route": "products/gravity-forms",
+      "url": "/es/products/gravity-forms/",
+      "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
       "route": "products/sembly-ai",
       "url": "/es/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -3461,6 +3479,12 @@
       "route": "products/vizard",
       "url": "/ja/products/vizard/",
       "lastmod": "2026-11-18"
+    },
+    {
+      "lang": "ja",
+      "route": "products/gravity-forms",
+      "url": "/ja/products/gravity-forms/",
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
