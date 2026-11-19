@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">From notebook sources to an interactive site</title>
+  <desc id="desc">A conceptual workflow from a curated set of source documents through a site request to an interactive output that is checked against those sources.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#faf7f0"/><stop offset="1" stop-color="#e4f0e9"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#263c36" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="1080" cy="106" r="90" fill="#cadfd1" opacity=".55"/><circle cx="110" cy="620" r="120" fill="#f2d1b1" opacity=".48"/>
+  <g filter="url(#shadow)">
+    <rect x="76" y="167" width="270" height="390" rx="28" fill="#fffdfa" stroke="#decec0" stroke-width="3"/>
+    <rect x="464" y="215" width="272" height="290" rx="28" fill="#fffdfa" stroke="#decec0" stroke-width="3"/>
+    <rect x="854" y="130" width="270" height="462" rx="28" fill="#fffdfa" stroke="#decec0" stroke-width="3"/>
+  </g>
+  <g fill="#f4eadf" stroke="#d9c8b9" stroke-width="3">
+    <rect x="117" y="211" width="190" height="88" rx="16"/><rect x="117" y="320" width="190" height="88" rx="16"/><rect x="117" y="429" width="190" height="88" rx="16"/>
+  </g>
+  <g fill="#9b6f5a"><path d="M143 235h31v39h-31zM188 240h91v8h-91zM188 258h72v7h-72z"/><path d="M143 344h31v39h-31zM188 349h91v8h-91zM188 367h72v7h-72z"/><path d="M143 453h31v39h-31zM188 458h91v8h-91zM188 476h72v7h-72z"/></g>
+  <path d="M350 358h92" stroke="#718e7d" stroke-width="7" stroke-linecap="round"/><path d="m420 341 22 17-22 17" fill="none" stroke="#718e7d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="502" y="255" width="196" height="72" rx="22" fill="#eaf1ec"/><circle cx="535" cy="291" r="12" fill="#668d77"/><path d="M561 282h111M561 300h81" stroke="#779282" stroke-width="7" stroke-linecap="round"/>
+  <rect x="502" y="350" width="196" height="112" rx="18" fill="#faf3e9"/><path d="M527 380h146M527 403h125M527 426h96" stroke="#bb8a70" stroke-width="7" stroke-linecap="round"/>
+  <path d="M740 358h91" stroke="#718e7d" stroke-width="7" stroke-linecap="round"/><path d="m809 341 22 17-22 17" fill="none" stroke="#718e7d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="890" y="168" width="198" height="38" rx="12" fill="#eaf1ec"/><circle cx="914" cy="187" r="7" fill="#718e7d"/><circle cx="937" cy="187" r="7" fill="#d9945f"/><circle cx="960" cy="187" r="7" fill="#a4bd9c"/>
+  <rect x="887" y="230" width="202" height="150" rx="14" fill="#f7efdf" stroke="#e2d5c7" stroke-width="2"/><path d="M909 350V312l34-24 31 19 39-45 53 88z" fill="#b9cead"/><circle cx="1034" cy="274" r="11" fill="#dd9a61"/>
+  <rect x="887" y="404" width="92" height="116" rx="14" fill="#e8efeb"/><rect x="993" y="404" width="96" height="116" rx="14" fill="#f6e8dc"/><path d="M906 432h53M906 452h42M906 474h50M1011 432h57M1011 452h48M1011 474h52" stroke="#789180" stroke-width="6" stroke-linecap="round"/>
+  <path d="M914 542h162" stroke="#dd9a61" stroke-width="7" stroke-linecap="round"/><circle cx="890" cy="542" r="8" fill="#dd9a61"/>
+  <text x="600" y="642" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#65766d">Editorial workflow · check the generated content against its notebook sources</text>
+</svg>

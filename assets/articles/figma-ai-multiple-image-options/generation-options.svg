@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Figma AI image generation choices</title>
+  <desc id="desc">An editorial diagram comparing multiple options from one model with one result from each of up to three models.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fff9f2"/><stop offset="1" stop-color="#f1e4f5"/></linearGradient>
+    <linearGradient id="tile1" x2="1" y2="1"><stop stop-color="#f9a2c8"/><stop offset="1" stop-color="#f6cb77"/></linearGradient>
+    <linearGradient id="tile2" x2="1" y2="1"><stop stop-color="#a9dcce"/><stop offset="1" stop-color="#86a7ef"/></linearGradient>
+    <linearGradient id="tile3" x2="1" y2="1"><stop stop-color="#f3bd79"/><stop offset="1" stop-color="#ee8a70"/></linearGradient>
+    <linearGradient id="tile4" x2="1" y2="1"><stop stop-color="#b9a7ee"/><stop offset="1" stop-color="#8ad4d0"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#472d3e" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="1060" cy="108" r="96" fill="#e8c5ea" opacity=".38"/><circle cx="142" cy="620" r="124" fill="#f4c891" opacity=".32"/>
+  <rect x="82" y="85" width="1036" height="550" rx="30" fill="#fffdfa" stroke="#e4d2c4" stroke-width="3" filter="url(#shadow)"/>
+  <rect x="116" y="121" width="968" height="70" rx="20" fill="#f8efe5"/>
+  <rect x="142" y="141" width="42" height="30" rx="15" fill="#f05b45"/><rect x="192" y="141" width="42" height="30" rx="15" fill="#9a64dc"/><rect x="242" y="141" width="42" height="30" rx="15" fill="#1b9ee3"/>
+  <path d="M350 156h123" stroke="#bfae9d" stroke-width="6" stroke-linecap="round"/><circle cx="499" cy="156" r="8" fill="#bfae9d"/>
+  <text x="146" y="254" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#432e37">One model · multiple options</text>
+  <text x="656" y="254" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#432e37">Compare model outputs</text>
+  <g filter="url(#shadow)">
+    <rect x="138" y="284" width="460" height="270" rx="24" fill="#fbf6fb" stroke="#eadbd1" stroke-width="2"/>
+    <rect x="628" y="284" width="430" height="270" rx="24" fill="#fbf6fb" stroke="#eadbd1" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="162" y="312" width="112" height="134" rx="18" fill="url(#tile1)"/><circle cx="218" cy="366" r="28" fill="#fff4d4" opacity=".9"/><path d="M179 421c18-37 49-35 78 0" fill="#b15e70" opacity=".76"/>
+    <rect x="291" y="312" width="112" height="134" rx="18" fill="url(#tile2)"/><circle cx="347" cy="366" r="28" fill="#fff4d4" opacity=".9"/><path d="M308 421c18-37 49-35 78 0" fill="#486b99" opacity=".76"/>
+    <rect x="420" y="312" width="112" height="134" rx="18" fill="url(#tile3)"/><circle cx="476" cy="366" r="28" fill="#fff4d4" opacity=".9"/><path d="M437 421c18-37 49-35 78 0" fill="#a54e40" opacity=".76"/>
+    <rect x="190" y="462" width="76" height="62" rx="20" fill="#efe4f5"/><rect x="313" y="462" width="76" height="62" rx="20" fill="#e5eee5"/><rect x="436" y="462" width="76" height="62" rx="20" fill="#f8e7dc"/>
+    <text x="228" y="503" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#432e37">2</text>
+    <text x="351" y="503" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#432e37">4</text>
+    <text x="474" y="503" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#432e37">6</text>
+  </g>
+  <g>
+    <rect x="654" y="315" width="112" height="124" rx="18" fill="url(#tile1)"/><rect x="787" y="315" width="112" height="124" rx="18" fill="url(#tile2)"/><rect x="920" y="315" width="112" height="124" rx="18" fill="url(#tile4)"/>
+    <circle cx="710" cy="363" r="25" fill="#fff4d4"/><circle cx="843" cy="363" r="25" fill="#fff4d4"/><circle cx="976" cy="363" r="25" fill="#fff4d4"/>
+    <path d="M674 420c18-30 44-28 72 0M807 420c18-30 44-28 72 0M940 420c18-30 44-28 72 0" fill="#486b99" opacity=".68"/>
+    <circle cx="710" cy="490" r="25" fill="#f05b45"/><circle cx="843" cy="490" r="25" fill="#9a64dc"/><circle cx="976" cy="490" r="25" fill="#1b9ee3"/>
+    <path d="M710 464v-22M843 464v-22M976 464v-22" stroke="#bfae9d" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <path d="M596 419h28" stroke="#c6b4a8" stroke-width="6" stroke-linecap="round"/><path d="m614 407 13 12-13 12" fill="none" stroke="#c6b4a8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="600" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#76665f">Editorial diagram · generated images are options to review</text>
+</svg>
