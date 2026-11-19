@@ -25,10 +25,11 @@
   gtag('config', measurementId, {
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
-    ...context,
+    send_page_view: false,
     page_location: window.location.origin + window.location.pathname,
     page_referrer: document.referrer ? new URL(document.referrer).origin : ''
   });
+  gtag('event', 'page_view', { send_to: measurementId, ...context });
 
   if (pageType === 'product' && productId) {
     gtag('event', 'product_detail_view', { send_to: measurementId, ...context });
@@ -41,9 +42,23 @@
     const location = link.dataset.productLinkLocation ?? link.dataset.affiliateLinkType ?? 'navigation';
     if (link.origin === window.location.origin) {
       const product = link.pathname.match(/\/products\/([a-z0-9-]+)\/$/);
-      if (product) gtag('event', 'product_detail_click', {
-        send_to: measurementId, ...context, product_id: product[1], link_location: location
-      });
+      if (product) {
+        const parameters = { send_to: measurementId, ...context, product_id: product[1], link_location: location };
+        if (event.button === 0 && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey
+          && (!link.target || link.target === '_self') && !link.hasAttribute('download')) {
+          let followed = false;
+          const follow = () => {
+            if (followed) return;
+            followed = true;
+            window.location.assign(link.href);
+          };
+          event.preventDefault();
+          parameters.event_callback = follow;
+          parameters.event_timeout = 200;
+          setTimeout(follow, 200);
+        }
+        gtag('event', 'product_detail_click', parameters);
+      }
       return;
     }
     if (!link.dataset.affiliateClick || link.protocol !== 'https:') return;
