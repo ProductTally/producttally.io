@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
-  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="cal-com-reschedule-cancellation-notifications" data-product-id="cal-com"></script>
 </head>
 <body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
   <a class="skip-link" href="#main">跳到正文</a>
@@ -97,6 +97,7 @@
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>先打开 Cal.com 的原预约。在 Bookings 或原确认邮件里找改期和取消入口。如果有人在 Gmail 拒绝邀请，或从日历删掉了活动，先到 Cal.com 核对预约是否仍有效，再告诉参会人会议是否取消。</p>
+          <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/cal-com/">Cal.com · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
         </div>
         <section id="section-0">
           <h2>用两边的时间确认这次改期</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://github.com/calcom/help/blob/5ae07a6d29140179eafbea8a70e77cd90f532735/bookings/manage-a-booking.mdx">Cal.com 官方预约管理说明</a></li></ul><p>顾问在纽约，客户在巴黎。虚构预约从 2026 年 11 月 24 日 10:00 纽约时间改到 11 月 25 日 11:30。客户原来看到 11 月 24 日 16:00，新邀请应是 11 月 25 日 17:30。把两边的日期和时间都写进核对消息，避免对方只看到「改晚一个半小时」却仍以为是同一天。</p><ol><li>打开原预约，核对参会人。已有新时段时用「改期预约」直接选择。Cal.com 的公开源码里，「请求改期」会把旧预约标为已取消，并给参会人发送重选时段的链接。等参会人选完，再回来确认新预约。</li><li>在组织者的 Bookings 列表核对生效时刻、状态和参会人。从客户可控的测试邮箱确认实际收到的通知，再看客户的日历事件显示。</li><li>对方使用曾手动导入或转发的日历副本时，打开那一份对照，以确定是否还保留旧事件。旧事件因客户端或导入方式未更新时，告诉对方哪一份邀请有效。</li></ol><ul class="article-section-sources"><li><a data-source-citation="true" href="https://github.com/calcom/cal.diy/blob/ae027bb70e694e2d2c44569f398d6cbcee0389b1/packages/trpc/server/routers/viewer/bookings/requestReschedule.handler.ts#L72-L86">Cal.com 源码：更新旧预约状态</a></li><li><a data-source-citation="true" href="https://github.com/calcom/cal.diy/blob/ae027bb70e694e2d2c44569f398d6cbcee0389b1/packages/trpc/server/routers/viewer/bookings/requestReschedule.handler.ts#L203-L212">Cal.com 源码：发送改期链接</a></li></ul>
@@ -108,7 +109,7 @@
           <ul><li><p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><a class="text-link" href="https://refer.cal.com/evan-7hupjh-g7oy" data-affiliate-product="cal-com" data-affiliate-click="cal-com" data-affiliate-link-type="primary" target="_blank" rel="noopener">
     <span><span translate="no">Cal.com</span> · 访问官方网站</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
   </a></li></ul>
-          <a class="text-link" href="/zh/products/cal-com/">查看产品详情</a>
+          <a class="text-link" data-product-link-location="article-footer" href="/zh/products/cal-com/">查看产品详情</a>
         </section>
         <section class="article-resources" aria-labelledby="related-guides">
           <h2 id="related-guides">相关指南</h2>

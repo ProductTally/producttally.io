@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
-  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="n8n-sub-workflow-address-input-output-example" data-product-id="n8n"></script>
 </head>
 <body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
   <a class="skip-link" href="#main">跳到正文</a>
@@ -97,6 +97,7 @@
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>网站提交和客服补单需要同样的地址字段检查。把「去空格、检查必填字段、把结果交回去」拆成子工作流，父工作流继续决定要不要受理、提示谁补填以及是否写入订单。只有一个流程用这几步时，先放在当前流程通常更容易看懂。第二个入口真的需要同一套输入和输出时，再提取出来。</p>
+          <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/n8n/">n8n · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
         </div>
         <section id="section-0">
           <h2>先约定子流程说得清的事实</h2><p>示例仅核对国家代码、城市和地址第一行是否存在。它只告诉父流程哪些字段可继续处理，无法保证承运商可以送达。父流程传入 requestId、countryCode、city 和 line1，子流程返回 requestId、status 和 missingFields。上游发来的交易资料不必连同地址一起传给它。</p><div class="article-table"><table>
@@ -112,7 +113,7 @@
           <ul><li><a class="text-link" href="https://n8n.io/" data-editorial-product="n8n">
     <span><span translate="no">n8n</span> · 访问官方网站</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
   </a></li></ul>
-          <a class="text-link" href="/zh/products/n8n/">查看产品详情</a>
+          <a class="text-link" data-product-link-location="article-footer" href="/zh/products/n8n/">查看产品详情</a>
         </section>
         <section class="article-resources" aria-labelledby="related-guides">
           <h2 id="related-guides">相关指南</h2>

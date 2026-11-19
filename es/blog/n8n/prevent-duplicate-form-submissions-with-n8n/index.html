@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
-  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="es" data-article-id="prevent-duplicate-form-submissions-with-n8n" data-product-id="n8n"></script>
 </head>
 <body data-lang="es" data-save-label="Guardar producto" data-unsave-label="Quitar de guardados" data-save-toast="Añadido a la selección" data-unsave-toast="Eliminado de la selección" data-storage-error="Tu navegador no pudo guardar el cambio.">
   <a class="skip-link" href="#main">Saltar al contenido</a>
@@ -97,6 +97,7 @@
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>Configura el servicio de formularios para reutilizar el ID original cuando repita un envío y usa ese ID como clave única en PostgreSQL. Si el remitente agota el tiempo de espera, el webhook puede llegar dos veces, incluso si la primera escritura ya se completó. Ejecuta la inserción parametrizada con el nodo Postgres de n8n.</p>
+          <p><a class="text-link" data-product-link-location="article-intro" href="/es/products/n8n/">n8n · Ver detalles del producto <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
         </div>
         <section id="section-0">
           <h2>Deja que la base decida si hay una fila nueva</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.postgres">Nodo Postgres de n8n</a></li><li><a data-source-citation="true" href="https://www.postgresql.org/docs/current/sql-insert.html">Referencia de INSERT en PostgreSQL</a></li></ul><p>En una tabla de prueba, define submission_id como clave primaria de texto. Pasa el ID y el nombre en Query Parameters, en el orden de $1 y $2. Si varias fuentes pueden asignar el mismo ID, combina el origen y el identificador en la clave. Un mismo correo puede corresponder a dos solicitudes válidas. Si falta el ID, deriva la solicitud a una rama de rechazo antes de escribir.</p><pre class="article-code" dir="ltr"><code translate="no">WITH inserted AS (
@@ -114,7 +115,7 @@ SELECT EXISTS (SELECT 1 FROM inserted) AS created;</code></pre><p>La primera ins
           <ul><li><a class="text-link" href="https://n8n.io/" data-editorial-product="n8n">
     <span><span translate="no">n8n</span> · Visitar la web oficial</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
   </a></li></ul>
-          <a class="text-link" href="/es/products/n8n/">Ver detalles del producto</a>
+          <a class="text-link" data-product-link-location="article-footer" href="/es/products/n8n/">Ver detalles del producto</a>
         </section>
         <section class="article-resources" aria-labelledby="related-guides">
           <h2 id="related-guides">Guías relacionadas</h2>

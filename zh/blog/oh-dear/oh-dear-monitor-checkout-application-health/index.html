@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
-  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="oh-dear-monitor-checkout-application-health" data-product-id="oh-dear"></script>
 </head>
 <body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
   <a class="skip-link" href="#main">跳到正文</a>
@@ -97,6 +97,7 @@
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>把首页可达和结账依赖分开监控。首页请求可能命中 CDN 缓存并返回 200，购物车依赖的后端此时仍可能无法工作。Oh Dear 的 Application Health 可以读取应用自己报告的 JSON 状态，配置中可填写探测路由和请求秘密。它不会进你的系统替你检查数据库、队列或付款。（当前套餐和支持能力可查其说明。）</p>
+          <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/oh-dear/">Oh Dear · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
         </div>
         <section id="section-0">
           <h2>分别检查首页与购物车依赖</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/application-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">Oh Dear 应用健康监控</a></li><li><a data-source-citation="true" href="https://ohdear.app/pricing?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">Oh Dear 套餐</a></li></ul><p>Oh Dear 的官方示例用 finishedAt 记录检查时间，用 checkResults 分别列出依赖状态。监控读取时，时间戳要在最近十分钟以内。</p><div class="article-table"><table>
@@ -112,7 +113,7 @@
           <ul><li><p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><a class="text-link" href="https://ohdear.app?via=evan" data-affiliate-product="oh-dear" data-affiliate-click="oh-dear" data-affiliate-link-type="primary" target="_blank" rel="noopener">
     <span><span translate="no">Oh Dear</span> · 访问官方网站</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
   </a></li></ul>
-          <a class="text-link" href="/zh/products/oh-dear/">查看产品详情</a>
+          <a class="text-link" data-product-link-location="article-footer" href="/zh/products/oh-dear/">查看产品详情</a>
         </section>
         <section class="article-resources" aria-labelledby="related-guides">
           <h2 id="related-guides">相关指南</h2>

@@ -802,7 +802,7 @@
       "lang": "en",
       "route": "blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations",
       "url": "/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "en",
@@ -1892,7 +1892,7 @@
       "lang": "zh",
       "route": "blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations",
       "url": "/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "zh",
@@ -2982,7 +2982,7 @@
       "lang": "es",
       "route": "blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations",
       "url": "/es/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "es",
@@ -4072,7 +4072,7 @@
       "lang": "ja",
       "route": "blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations",
       "url": "/ja/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-19"
     },
     {
       "lang": "ja",
@@ -4871,6 +4871,438 @@
       "target": "/blog/printful/printful-first-sample-order/"
     },
     {
+      "url": "/guides/anydo/anydo-daily-planner/",
+      "target": "/products/anydo/"
+    },
+    {
+      "url": "/blog/anydo/anydo-daily-planner/",
+      "target": "/products/anydo/"
+    },
+    {
+      "url": "/guides/anydo/plan-a-publishing-week/",
+      "target": "/products/anydo/"
+    },
+    {
+      "url": "/blog/anydo/plan-a-publishing-week/",
+      "target": "/products/anydo/"
+    },
+    {
+      "url": "/guides/submagic/submagic-short-form-editor/",
+      "target": "/products/submagic/"
+    },
+    {
+      "url": "/blog/submagic/submagic-short-form-editor/",
+      "target": "/products/submagic/"
+    },
+    {
+      "url": "/guides/submagic/short-video-captions/",
+      "target": "/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/blog/submagic/short-video-captions/",
+      "target": "/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/guides/nifty/nifty-project-management/",
+      "target": "/products/nifty/"
+    },
+    {
+      "url": "/blog/nifty/nifty-project-management/",
+      "target": "/products/nifty/"
+    },
+    {
+      "url": "/guides/nifty/content-launch-project/",
+      "target": "/products/nifty/"
+    },
+    {
+      "url": "/blog/nifty/content-launch-project/",
+      "target": "/products/nifty/"
+    },
+    {
+      "url": "/guides/oh-dear/oh-dear-website-monitoring/",
+      "target": "/products/oh-dear/"
+    },
+    {
+      "url": "/blog/oh-dear/oh-dear-website-monitoring/",
+      "target": "/products/oh-dear/"
+    },
+    {
+      "url": "/guides/oh-dear/website-monitoring-404/",
+      "target": "/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/blog/oh-dear/website-monitoring-404/",
+      "target": "/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/guides/castos/castos-podcast-hosting/",
+      "target": "/products/castos/"
+    },
+    {
+      "url": "/blog/castos/castos-podcast-hosting/",
+      "target": "/products/castos/"
+    },
+    {
+      "url": "/guides/castos/podcast-hosting-wordpress/",
+      "target": "/products/castos/"
+    },
+    {
+      "url": "/blog/castos/podcast-hosting-wordpress/",
+      "target": "/products/castos/"
+    },
+    {
+      "url": "/guides/frase/frase-content-research/",
+      "target": "/products/frase/"
+    },
+    {
+      "url": "/blog/frase/frase-content-research/",
+      "target": "/products/frase/"
+    },
+    {
+      "url": "/guides/frase/research-brief-draft/",
+      "target": "/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/blog/frase/research-brief-draft/",
+      "target": "/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/guides/publer/publer-social-scheduling/",
+      "target": "/products/publer/"
+    },
+    {
+      "url": "/blog/publer/publer-social-scheduling/",
+      "target": "/products/publer/"
+    },
+    {
+      "url": "/guides/publer/private-social-drafts/",
+      "target": "/products/publer/"
+    },
+    {
+      "url": "/blog/publer/private-social-drafts/",
+      "target": "/products/publer/"
+    },
+    {
+      "url": "/guides/mangools/mangools-keyword-research/",
+      "target": "/products/mangools/"
+    },
+    {
+      "url": "/blog/mangools/mangools-keyword-research/",
+      "target": "/products/mangools/"
+    },
+    {
+      "url": "/guides/mangools/keyword-shortlist/",
+      "target": "/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/blog/mangools/keyword-shortlist/",
+      "target": "/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/guides/systeme-io/systeme-io-sales-funnels/",
+      "target": "/products/systeme-io/"
+    },
+    {
+      "url": "/blog/systeme-io/systeme-io-sales-funnels/",
+      "target": "/products/systeme-io/"
+    },
+    {
+      "url": "/guides/systeme-io/preview-a-funnel-page/",
+      "target": "/products/systeme-io/"
+    },
+    {
+      "url": "/blog/systeme-io/preview-a-funnel-page/",
+      "target": "/products/systeme-io/"
+    },
+    {
+      "url": "/guides/capcut/capcut-video-editor/",
+      "target": "/products/capcut/"
+    },
+    {
+      "url": "/blog/capcut/capcut-video-editor/",
+      "target": "/products/capcut/"
+    },
+    {
+      "url": "/guides/capcut/auto-captions-export/",
+      "target": "/products/capcut/"
+    },
+    {
+      "url": "/blog/capcut/auto-captions-export/",
+      "target": "/products/capcut/"
+    },
+    {
+      "url": "/guides/gemini-notebook/notebooklm-source-citations/",
+      "target": "/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/blog/gemini-notebook/notebooklm-source-citations/",
+      "target": "/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/guides/deepl/translate-word-formatting/",
+      "target": "/products/deepl/"
+    },
+    {
+      "url": "/blog/deepl/translate-word-formatting/",
+      "target": "/products/deepl/"
+    },
+    {
+      "url": "/guides/ai-workflow-automation/n8n-nod-first-task/",
+      "target": "/products/n8n/"
+    },
+    {
+      "url": "/blog/ai-workflow-automation/n8n-nod-first-task/",
+      "target": "/products/n8n/"
+    },
+    {
+      "url": "/guides/n8n/multilingual-draft-routing/",
+      "target": "/products/n8n/"
+    },
+    {
+      "url": "/blog/n8n/multilingual-draft-routing/",
+      "target": "/products/n8n/"
+    },
+    {
+      "url": "/guides/quso-ai/check-video-credits/",
+      "target": "/products/quso-ai/"
+    },
+    {
+      "url": "/blog/quso-ai/check-video-credits/",
+      "target": "/products/quso-ai/"
+    },
+    {
+      "url": "/guides/elevenlabs/multilingual-voiceover/",
+      "target": "/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/blog/elevenlabs/multilingual-voiceover/",
+      "target": "/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/guides/gamma/export-to-powerpoint/",
+      "target": "/products/gamma/"
+    },
+    {
+      "url": "/blog/gamma/export-to-powerpoint/",
+      "target": "/products/gamma/"
+    },
+    {
+      "url": "/guides/flowlu/map-a-client-project/",
+      "target": "/products/flowlu/"
+    },
+    {
+      "url": "/blog/flowlu/map-a-client-project/",
+      "target": "/products/flowlu/"
+    },
+    {
+      "url": "/guides/windsor-ai/check-report-source-settings/",
+      "target": "/products/windsor-ai/"
+    },
+    {
+      "url": "/blog/windsor-ai/check-report-source-settings/",
+      "target": "/products/windsor-ai/"
+    },
+    {
+      "url": "/guides/social-intents/preview-a-chat-widget/",
+      "target": "/products/social-intents/"
+    },
+    {
+      "url": "/blog/social-intents/preview-a-chat-widget/",
+      "target": "/products/social-intents/"
+    },
+    {
+      "url": "/guides/answerthis/check-a-reference-year/",
+      "target": "/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/blog/answerthis/check-a-reference-year/",
+      "target": "/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/guides/sked-social/plan-a-client-approval/",
+      "target": "/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/blog/sked-social/plan-a-client-approval/",
+      "target": "/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/guides/coupler-io/sync-ga4-weekly-report/",
+      "target": "/products/coupler-io/"
+    },
+    {
+      "url": "/blog/coupler-io/sync-ga4-weekly-report/",
+      "target": "/products/coupler-io/"
+    },
+    {
+      "url": "/guides/videogen/script-to-narrated-short/",
+      "target": "/products/videogen/"
+    },
+    {
+      "url": "/blog/videogen/script-to-narrated-short/",
+      "target": "/products/videogen/"
+    },
+    {
+      "url": "/guides/cal-com/check-guest-time-zone/",
+      "target": "/products/cal-com/"
+    },
+    {
+      "url": "/blog/cal-com/check-guest-time-zone/",
+      "target": "/products/cal-com/"
+    },
+    {
+      "url": "/guides/pdf2go/merge-workshop-pdfs/",
+      "target": "/products/pdf2go/"
+    },
+    {
+      "url": "/blog/pdf2go/merge-workshop-pdfs/",
+      "target": "/products/pdf2go/"
+    },
+    {
+      "url": "/guides/seopress/check-wordpress-noindex/",
+      "target": "/products/seopress/"
+    },
+    {
+      "url": "/blog/seopress/check-wordpress-noindex/",
+      "target": "/products/seopress/"
+    },
+    {
+      "url": "/guides/udemy/creator-course-choice/",
+      "target": "/products/udemy/"
+    },
+    {
+      "url": "/blog/udemy/creator-course-choice/",
+      "target": "/products/udemy/"
+    },
+    {
+      "url": "/guides/payhip/sell-canva-templates/",
+      "target": "/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/blog/payhip/sell-canva-templates/",
+      "target": "/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/guides/cal-com/round-robin-team-booking/",
+      "target": "/products/cal-com/"
+    },
+    {
+      "url": "/blog/cal-com/round-robin-team-booking/",
+      "target": "/products/cal-com/"
+    },
+    {
+      "url": "/guides/pombo/onboarding-email-stop-on-activation/",
+      "target": "/products/pombo/"
+    },
+    {
+      "url": "/blog/pombo/onboarding-email-stop-on-activation/",
+      "target": "/products/pombo/"
+    },
+    {
+      "url": "/guides/signaturely/pdf-signing-order-audit-trail/",
+      "target": "/products/signaturely/"
+    },
+    {
+      "url": "/blog/signaturely/pdf-signing-order-audit-trail/",
+      "target": "/products/signaturely/"
+    },
+    {
+      "url": "/guides/gamma/publish-one-page-portfolio/",
+      "target": "/products/gamma/"
+    },
+    {
+      "url": "/blog/gamma/publish-one-page-portfolio/",
+      "target": "/products/gamma/"
+    },
+    {
+      "url": "/guides/joggai/url-to-video-15-second-product-ad/",
+      "target": "/products/joggai/"
+    },
+    {
+      "url": "/blog/joggai/url-to-video-15-second-product-ad/",
+      "target": "/products/joggai/"
+    },
+    {
+      "url": "/guides/mailbluster/amazon-ses-first-newsletter/",
+      "target": "/products/mailbluster/"
+    },
+    {
+      "url": "/blog/mailbluster/amazon-ses-first-newsletter/",
+      "target": "/products/mailbluster/"
+    },
+    {
+      "url": "/guides/payhip/one-time-digital-product-bundle/",
+      "target": "/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/blog/payhip/one-time-digital-product-bundle/",
+      "target": "/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/guides/oh-dear/ssl-certificate-expiry-monitoring/",
+      "target": "/products/oh-dear/"
+    },
+    {
+      "url": "/blog/oh-dear/ssl-certificate-expiry-monitoring/",
+      "target": "/products/oh-dear/"
+    },
+    {
+      "url": "/guides/seopress/wordpress-301-redirect/",
+      "target": "/products/seopress/"
+    },
+    {
+      "url": "/blog/seopress/wordpress-301-redirect/",
+      "target": "/products/seopress/"
+    },
+    {
+      "url": "/guides/teachable/presell-your-first-course/",
+      "target": "/products/teachable/"
+    },
+    {
+      "url": "/blog/teachable/presell-your-first-course/",
+      "target": "/products/teachable/"
+    },
+    {
+      "url": "/guides/cal-com/routing-forms-sales-support-fallback/",
+      "target": "/products/cal-com/"
+    },
+    {
+      "url": "/blog/cal-com/routing-forms-sales-support-fallback/",
+      "target": "/products/cal-com/"
+    },
+    {
+      "url": "/guides/predis-ai/predis-ai-product-launch-carousel/",
+      "target": "/products/predis-ai/"
+    },
+    {
+      "url": "/blog/predis-ai/predis-ai-product-launch-carousel/",
+      "target": "/products/predis-ai/"
+    },
+    {
+      "url": "/guides/adguard/adguard-browser-extension-vs-desktop/",
+      "target": "/products/adguard/"
+    },
+    {
+      "url": "/blog/adguard/adguard-browser-extension-vs-desktop/",
+      "target": "/products/adguard/"
+    },
+    {
+      "url": "/guides/teachable/starter-vs-builder-course-sales/",
+      "target": "/products/teachable/"
+    },
+    {
+      "url": "/blog/teachable/starter-vs-builder-course-sales/",
+      "target": "/products/teachable/"
+    },
+    {
+      "url": "/guides/movavi-video-editor/remove-silence-talking-head-video/",
+      "target": "/products/movavi-video-editor/"
+    },
+    {
+      "url": "/blog/movavi-video-editor/remove-silence-talking-head-video/",
+      "target": "/products/movavi-video-editor/"
+    },
+    {
       "url": "/zh/guides/",
       "target": "/zh/blog/"
     },
@@ -5369,6 +5801,438 @@
     {
       "url": "/zh/guides/printful/printful-first-sample-order/",
       "target": "/zh/blog/printful/printful-first-sample-order/"
+    },
+    {
+      "url": "/zh/guides/anydo/anydo-daily-planner/",
+      "target": "/zh/products/anydo/"
+    },
+    {
+      "url": "/zh/blog/anydo/anydo-daily-planner/",
+      "target": "/zh/products/anydo/"
+    },
+    {
+      "url": "/zh/guides/anydo/plan-a-publishing-week/",
+      "target": "/zh/products/anydo/"
+    },
+    {
+      "url": "/zh/blog/anydo/plan-a-publishing-week/",
+      "target": "/zh/products/anydo/"
+    },
+    {
+      "url": "/zh/guides/submagic/submagic-short-form-editor/",
+      "target": "/zh/products/submagic/"
+    },
+    {
+      "url": "/zh/blog/submagic/submagic-short-form-editor/",
+      "target": "/zh/products/submagic/"
+    },
+    {
+      "url": "/zh/guides/submagic/short-video-captions/",
+      "target": "/zh/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/zh/blog/submagic/short-video-captions/",
+      "target": "/zh/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/zh/guides/nifty/nifty-project-management/",
+      "target": "/zh/products/nifty/"
+    },
+    {
+      "url": "/zh/blog/nifty/nifty-project-management/",
+      "target": "/zh/products/nifty/"
+    },
+    {
+      "url": "/zh/guides/nifty/content-launch-project/",
+      "target": "/zh/products/nifty/"
+    },
+    {
+      "url": "/zh/blog/nifty/content-launch-project/",
+      "target": "/zh/products/nifty/"
+    },
+    {
+      "url": "/zh/guides/oh-dear/oh-dear-website-monitoring/",
+      "target": "/zh/products/oh-dear/"
+    },
+    {
+      "url": "/zh/blog/oh-dear/oh-dear-website-monitoring/",
+      "target": "/zh/products/oh-dear/"
+    },
+    {
+      "url": "/zh/guides/oh-dear/website-monitoring-404/",
+      "target": "/zh/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/zh/blog/oh-dear/website-monitoring-404/",
+      "target": "/zh/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/zh/guides/castos/castos-podcast-hosting/",
+      "target": "/zh/products/castos/"
+    },
+    {
+      "url": "/zh/blog/castos/castos-podcast-hosting/",
+      "target": "/zh/products/castos/"
+    },
+    {
+      "url": "/zh/guides/castos/podcast-hosting-wordpress/",
+      "target": "/zh/products/castos/"
+    },
+    {
+      "url": "/zh/blog/castos/podcast-hosting-wordpress/",
+      "target": "/zh/products/castos/"
+    },
+    {
+      "url": "/zh/guides/frase/frase-content-research/",
+      "target": "/zh/products/frase/"
+    },
+    {
+      "url": "/zh/blog/frase/frase-content-research/",
+      "target": "/zh/products/frase/"
+    },
+    {
+      "url": "/zh/guides/frase/research-brief-draft/",
+      "target": "/zh/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/zh/blog/frase/research-brief-draft/",
+      "target": "/zh/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/zh/guides/publer/publer-social-scheduling/",
+      "target": "/zh/products/publer/"
+    },
+    {
+      "url": "/zh/blog/publer/publer-social-scheduling/",
+      "target": "/zh/products/publer/"
+    },
+    {
+      "url": "/zh/guides/publer/private-social-drafts/",
+      "target": "/zh/products/publer/"
+    },
+    {
+      "url": "/zh/blog/publer/private-social-drafts/",
+      "target": "/zh/products/publer/"
+    },
+    {
+      "url": "/zh/guides/mangools/mangools-keyword-research/",
+      "target": "/zh/products/mangools/"
+    },
+    {
+      "url": "/zh/blog/mangools/mangools-keyword-research/",
+      "target": "/zh/products/mangools/"
+    },
+    {
+      "url": "/zh/guides/mangools/keyword-shortlist/",
+      "target": "/zh/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/zh/blog/mangools/keyword-shortlist/",
+      "target": "/zh/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/zh/guides/systeme-io/systeme-io-sales-funnels/",
+      "target": "/zh/products/systeme-io/"
+    },
+    {
+      "url": "/zh/blog/systeme-io/systeme-io-sales-funnels/",
+      "target": "/zh/products/systeme-io/"
+    },
+    {
+      "url": "/zh/guides/systeme-io/preview-a-funnel-page/",
+      "target": "/zh/products/systeme-io/"
+    },
+    {
+      "url": "/zh/blog/systeme-io/preview-a-funnel-page/",
+      "target": "/zh/products/systeme-io/"
+    },
+    {
+      "url": "/zh/guides/capcut/capcut-video-editor/",
+      "target": "/zh/products/capcut/"
+    },
+    {
+      "url": "/zh/blog/capcut/capcut-video-editor/",
+      "target": "/zh/products/capcut/"
+    },
+    {
+      "url": "/zh/guides/capcut/auto-captions-export/",
+      "target": "/zh/products/capcut/"
+    },
+    {
+      "url": "/zh/blog/capcut/auto-captions-export/",
+      "target": "/zh/products/capcut/"
+    },
+    {
+      "url": "/zh/guides/gemini-notebook/notebooklm-source-citations/",
+      "target": "/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/zh/blog/gemini-notebook/notebooklm-source-citations/",
+      "target": "/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/zh/guides/deepl/translate-word-formatting/",
+      "target": "/zh/products/deepl/"
+    },
+    {
+      "url": "/zh/blog/deepl/translate-word-formatting/",
+      "target": "/zh/products/deepl/"
+    },
+    {
+      "url": "/zh/guides/ai-workflow-automation/n8n-nod-first-task/",
+      "target": "/zh/products/n8n/"
+    },
+    {
+      "url": "/zh/blog/ai-workflow-automation/n8n-nod-first-task/",
+      "target": "/zh/products/n8n/"
+    },
+    {
+      "url": "/zh/guides/n8n/multilingual-draft-routing/",
+      "target": "/zh/products/n8n/"
+    },
+    {
+      "url": "/zh/blog/n8n/multilingual-draft-routing/",
+      "target": "/zh/products/n8n/"
+    },
+    {
+      "url": "/zh/guides/quso-ai/check-video-credits/",
+      "target": "/zh/products/quso-ai/"
+    },
+    {
+      "url": "/zh/blog/quso-ai/check-video-credits/",
+      "target": "/zh/products/quso-ai/"
+    },
+    {
+      "url": "/zh/guides/elevenlabs/multilingual-voiceover/",
+      "target": "/zh/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/zh/blog/elevenlabs/multilingual-voiceover/",
+      "target": "/zh/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/zh/guides/gamma/export-to-powerpoint/",
+      "target": "/zh/products/gamma/"
+    },
+    {
+      "url": "/zh/blog/gamma/export-to-powerpoint/",
+      "target": "/zh/products/gamma/"
+    },
+    {
+      "url": "/zh/guides/flowlu/map-a-client-project/",
+      "target": "/zh/products/flowlu/"
+    },
+    {
+      "url": "/zh/blog/flowlu/map-a-client-project/",
+      "target": "/zh/products/flowlu/"
+    },
+    {
+      "url": "/zh/guides/windsor-ai/check-report-source-settings/",
+      "target": "/zh/products/windsor-ai/"
+    },
+    {
+      "url": "/zh/blog/windsor-ai/check-report-source-settings/",
+      "target": "/zh/products/windsor-ai/"
+    },
+    {
+      "url": "/zh/guides/social-intents/preview-a-chat-widget/",
+      "target": "/zh/products/social-intents/"
+    },
+    {
+      "url": "/zh/blog/social-intents/preview-a-chat-widget/",
+      "target": "/zh/products/social-intents/"
+    },
+    {
+      "url": "/zh/guides/answerthis/check-a-reference-year/",
+      "target": "/zh/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/zh/blog/answerthis/check-a-reference-year/",
+      "target": "/zh/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/zh/guides/sked-social/plan-a-client-approval/",
+      "target": "/zh/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/zh/blog/sked-social/plan-a-client-approval/",
+      "target": "/zh/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/zh/guides/coupler-io/sync-ga4-weekly-report/",
+      "target": "/zh/products/coupler-io/"
+    },
+    {
+      "url": "/zh/blog/coupler-io/sync-ga4-weekly-report/",
+      "target": "/zh/products/coupler-io/"
+    },
+    {
+      "url": "/zh/guides/videogen/script-to-narrated-short/",
+      "target": "/zh/products/videogen/"
+    },
+    {
+      "url": "/zh/blog/videogen/script-to-narrated-short/",
+      "target": "/zh/products/videogen/"
+    },
+    {
+      "url": "/zh/guides/cal-com/check-guest-time-zone/",
+      "target": "/zh/products/cal-com/"
+    },
+    {
+      "url": "/zh/blog/cal-com/check-guest-time-zone/",
+      "target": "/zh/products/cal-com/"
+    },
+    {
+      "url": "/zh/guides/pdf2go/merge-workshop-pdfs/",
+      "target": "/zh/products/pdf2go/"
+    },
+    {
+      "url": "/zh/blog/pdf2go/merge-workshop-pdfs/",
+      "target": "/zh/products/pdf2go/"
+    },
+    {
+      "url": "/zh/guides/seopress/check-wordpress-noindex/",
+      "target": "/zh/products/seopress/"
+    },
+    {
+      "url": "/zh/blog/seopress/check-wordpress-noindex/",
+      "target": "/zh/products/seopress/"
+    },
+    {
+      "url": "/zh/guides/udemy/creator-course-choice/",
+      "target": "/zh/products/udemy/"
+    },
+    {
+      "url": "/zh/blog/udemy/creator-course-choice/",
+      "target": "/zh/products/udemy/"
+    },
+    {
+      "url": "/zh/guides/payhip/sell-canva-templates/",
+      "target": "/zh/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/zh/blog/payhip/sell-canva-templates/",
+      "target": "/zh/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/zh/guides/cal-com/round-robin-team-booking/",
+      "target": "/zh/products/cal-com/"
+    },
+    {
+      "url": "/zh/blog/cal-com/round-robin-team-booking/",
+      "target": "/zh/products/cal-com/"
+    },
+    {
+      "url": "/zh/guides/pombo/onboarding-email-stop-on-activation/",
+      "target": "/zh/products/pombo/"
+    },
+    {
+      "url": "/zh/blog/pombo/onboarding-email-stop-on-activation/",
+      "target": "/zh/products/pombo/"
+    },
+    {
+      "url": "/zh/guides/signaturely/pdf-signing-order-audit-trail/",
+      "target": "/zh/products/signaturely/"
+    },
+    {
+      "url": "/zh/blog/signaturely/pdf-signing-order-audit-trail/",
+      "target": "/zh/products/signaturely/"
+    },
+    {
+      "url": "/zh/guides/gamma/publish-one-page-portfolio/",
+      "target": "/zh/products/gamma/"
+    },
+    {
+      "url": "/zh/blog/gamma/publish-one-page-portfolio/",
+      "target": "/zh/products/gamma/"
+    },
+    {
+      "url": "/zh/guides/joggai/url-to-video-15-second-product-ad/",
+      "target": "/zh/products/joggai/"
+    },
+    {
+      "url": "/zh/blog/joggai/url-to-video-15-second-product-ad/",
+      "target": "/zh/products/joggai/"
+    },
+    {
+      "url": "/zh/guides/mailbluster/amazon-ses-first-newsletter/",
+      "target": "/zh/products/mailbluster/"
+    },
+    {
+      "url": "/zh/blog/mailbluster/amazon-ses-first-newsletter/",
+      "target": "/zh/products/mailbluster/"
+    },
+    {
+      "url": "/zh/guides/payhip/one-time-digital-product-bundle/",
+      "target": "/zh/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/zh/blog/payhip/one-time-digital-product-bundle/",
+      "target": "/zh/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/zh/guides/oh-dear/ssl-certificate-expiry-monitoring/",
+      "target": "/zh/products/oh-dear/"
+    },
+    {
+      "url": "/zh/blog/oh-dear/ssl-certificate-expiry-monitoring/",
+      "target": "/zh/products/oh-dear/"
+    },
+    {
+      "url": "/zh/guides/seopress/wordpress-301-redirect/",
+      "target": "/zh/products/seopress/"
+    },
+    {
+      "url": "/zh/blog/seopress/wordpress-301-redirect/",
+      "target": "/zh/products/seopress/"
+    },
+    {
+      "url": "/zh/guides/teachable/presell-your-first-course/",
+      "target": "/zh/products/teachable/"
+    },
+    {
+      "url": "/zh/blog/teachable/presell-your-first-course/",
+      "target": "/zh/products/teachable/"
+    },
+    {
+      "url": "/zh/guides/cal-com/routing-forms-sales-support-fallback/",
+      "target": "/zh/products/cal-com/"
+    },
+    {
+      "url": "/zh/blog/cal-com/routing-forms-sales-support-fallback/",
+      "target": "/zh/products/cal-com/"
+    },
+    {
+      "url": "/zh/guides/predis-ai/predis-ai-product-launch-carousel/",
+      "target": "/zh/products/predis-ai/"
+    },
+    {
+      "url": "/zh/blog/predis-ai/predis-ai-product-launch-carousel/",
+      "target": "/zh/products/predis-ai/"
+    },
+    {
+      "url": "/zh/guides/adguard/adguard-browser-extension-vs-desktop/",
+      "target": "/zh/products/adguard/"
+    },
+    {
+      "url": "/zh/blog/adguard/adguard-browser-extension-vs-desktop/",
+      "target": "/zh/products/adguard/"
+    },
+    {
+      "url": "/zh/guides/teachable/starter-vs-builder-course-sales/",
+      "target": "/zh/products/teachable/"
+    },
+    {
+      "url": "/zh/blog/teachable/starter-vs-builder-course-sales/",
+      "target": "/zh/products/teachable/"
+    },
+    {
+      "url": "/zh/guides/movavi-video-editor/remove-silence-talking-head-video/",
+      "target": "/zh/products/movavi-video-editor/"
+    },
+    {
+      "url": "/zh/blog/movavi-video-editor/remove-silence-talking-head-video/",
+      "target": "/zh/products/movavi-video-editor/"
     },
     {
       "url": "/es/guides/",
@@ -5871,6 +6735,438 @@
       "target": "/es/blog/printful/printful-first-sample-order/"
     },
     {
+      "url": "/es/guides/anydo/anydo-daily-planner/",
+      "target": "/es/products/anydo/"
+    },
+    {
+      "url": "/es/blog/anydo/anydo-daily-planner/",
+      "target": "/es/products/anydo/"
+    },
+    {
+      "url": "/es/guides/anydo/plan-a-publishing-week/",
+      "target": "/es/products/anydo/"
+    },
+    {
+      "url": "/es/blog/anydo/plan-a-publishing-week/",
+      "target": "/es/products/anydo/"
+    },
+    {
+      "url": "/es/guides/submagic/submagic-short-form-editor/",
+      "target": "/es/products/submagic/"
+    },
+    {
+      "url": "/es/blog/submagic/submagic-short-form-editor/",
+      "target": "/es/products/submagic/"
+    },
+    {
+      "url": "/es/guides/submagic/short-video-captions/",
+      "target": "/es/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/es/blog/submagic/short-video-captions/",
+      "target": "/es/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/es/guides/nifty/nifty-project-management/",
+      "target": "/es/products/nifty/"
+    },
+    {
+      "url": "/es/blog/nifty/nifty-project-management/",
+      "target": "/es/products/nifty/"
+    },
+    {
+      "url": "/es/guides/nifty/content-launch-project/",
+      "target": "/es/products/nifty/"
+    },
+    {
+      "url": "/es/blog/nifty/content-launch-project/",
+      "target": "/es/products/nifty/"
+    },
+    {
+      "url": "/es/guides/oh-dear/oh-dear-website-monitoring/",
+      "target": "/es/products/oh-dear/"
+    },
+    {
+      "url": "/es/blog/oh-dear/oh-dear-website-monitoring/",
+      "target": "/es/products/oh-dear/"
+    },
+    {
+      "url": "/es/guides/oh-dear/website-monitoring-404/",
+      "target": "/es/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/es/blog/oh-dear/website-monitoring-404/",
+      "target": "/es/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/es/guides/castos/castos-podcast-hosting/",
+      "target": "/es/products/castos/"
+    },
+    {
+      "url": "/es/blog/castos/castos-podcast-hosting/",
+      "target": "/es/products/castos/"
+    },
+    {
+      "url": "/es/guides/castos/podcast-hosting-wordpress/",
+      "target": "/es/products/castos/"
+    },
+    {
+      "url": "/es/blog/castos/podcast-hosting-wordpress/",
+      "target": "/es/products/castos/"
+    },
+    {
+      "url": "/es/guides/frase/frase-content-research/",
+      "target": "/es/products/frase/"
+    },
+    {
+      "url": "/es/blog/frase/frase-content-research/",
+      "target": "/es/products/frase/"
+    },
+    {
+      "url": "/es/guides/frase/research-brief-draft/",
+      "target": "/es/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/es/blog/frase/research-brief-draft/",
+      "target": "/es/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/es/guides/publer/publer-social-scheduling/",
+      "target": "/es/products/publer/"
+    },
+    {
+      "url": "/es/blog/publer/publer-social-scheduling/",
+      "target": "/es/products/publer/"
+    },
+    {
+      "url": "/es/guides/publer/private-social-drafts/",
+      "target": "/es/products/publer/"
+    },
+    {
+      "url": "/es/blog/publer/private-social-drafts/",
+      "target": "/es/products/publer/"
+    },
+    {
+      "url": "/es/guides/mangools/mangools-keyword-research/",
+      "target": "/es/products/mangools/"
+    },
+    {
+      "url": "/es/blog/mangools/mangools-keyword-research/",
+      "target": "/es/products/mangools/"
+    },
+    {
+      "url": "/es/guides/mangools/keyword-shortlist/",
+      "target": "/es/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/es/blog/mangools/keyword-shortlist/",
+      "target": "/es/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/es/guides/systeme-io/systeme-io-sales-funnels/",
+      "target": "/es/products/systeme-io/"
+    },
+    {
+      "url": "/es/blog/systeme-io/systeme-io-sales-funnels/",
+      "target": "/es/products/systeme-io/"
+    },
+    {
+      "url": "/es/guides/systeme-io/preview-a-funnel-page/",
+      "target": "/es/products/systeme-io/"
+    },
+    {
+      "url": "/es/blog/systeme-io/preview-a-funnel-page/",
+      "target": "/es/products/systeme-io/"
+    },
+    {
+      "url": "/es/guides/capcut/capcut-video-editor/",
+      "target": "/es/products/capcut/"
+    },
+    {
+      "url": "/es/blog/capcut/capcut-video-editor/",
+      "target": "/es/products/capcut/"
+    },
+    {
+      "url": "/es/guides/capcut/auto-captions-export/",
+      "target": "/es/products/capcut/"
+    },
+    {
+      "url": "/es/blog/capcut/auto-captions-export/",
+      "target": "/es/products/capcut/"
+    },
+    {
+      "url": "/es/guides/gemini-notebook/notebooklm-source-citations/",
+      "target": "/es/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/es/blog/gemini-notebook/notebooklm-source-citations/",
+      "target": "/es/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/es/guides/deepl/translate-word-formatting/",
+      "target": "/es/products/deepl/"
+    },
+    {
+      "url": "/es/blog/deepl/translate-word-formatting/",
+      "target": "/es/products/deepl/"
+    },
+    {
+      "url": "/es/guides/ai-workflow-automation/n8n-nod-first-task/",
+      "target": "/es/products/n8n/"
+    },
+    {
+      "url": "/es/blog/ai-workflow-automation/n8n-nod-first-task/",
+      "target": "/es/products/n8n/"
+    },
+    {
+      "url": "/es/guides/n8n/multilingual-draft-routing/",
+      "target": "/es/products/n8n/"
+    },
+    {
+      "url": "/es/blog/n8n/multilingual-draft-routing/",
+      "target": "/es/products/n8n/"
+    },
+    {
+      "url": "/es/guides/quso-ai/check-video-credits/",
+      "target": "/es/products/quso-ai/"
+    },
+    {
+      "url": "/es/blog/quso-ai/check-video-credits/",
+      "target": "/es/products/quso-ai/"
+    },
+    {
+      "url": "/es/guides/elevenlabs/multilingual-voiceover/",
+      "target": "/es/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/es/blog/elevenlabs/multilingual-voiceover/",
+      "target": "/es/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/es/guides/gamma/export-to-powerpoint/",
+      "target": "/es/products/gamma/"
+    },
+    {
+      "url": "/es/blog/gamma/export-to-powerpoint/",
+      "target": "/es/products/gamma/"
+    },
+    {
+      "url": "/es/guides/flowlu/map-a-client-project/",
+      "target": "/es/products/flowlu/"
+    },
+    {
+      "url": "/es/blog/flowlu/map-a-client-project/",
+      "target": "/es/products/flowlu/"
+    },
+    {
+      "url": "/es/guides/windsor-ai/check-report-source-settings/",
+      "target": "/es/products/windsor-ai/"
+    },
+    {
+      "url": "/es/blog/windsor-ai/check-report-source-settings/",
+      "target": "/es/products/windsor-ai/"
+    },
+    {
+      "url": "/es/guides/social-intents/preview-a-chat-widget/",
+      "target": "/es/products/social-intents/"
+    },
+    {
+      "url": "/es/blog/social-intents/preview-a-chat-widget/",
+      "target": "/es/products/social-intents/"
+    },
+    {
+      "url": "/es/guides/answerthis/check-a-reference-year/",
+      "target": "/es/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/es/blog/answerthis/check-a-reference-year/",
+      "target": "/es/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/es/guides/sked-social/plan-a-client-approval/",
+      "target": "/es/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/es/blog/sked-social/plan-a-client-approval/",
+      "target": "/es/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/es/guides/coupler-io/sync-ga4-weekly-report/",
+      "target": "/es/products/coupler-io/"
+    },
+    {
+      "url": "/es/blog/coupler-io/sync-ga4-weekly-report/",
+      "target": "/es/products/coupler-io/"
+    },
+    {
+      "url": "/es/guides/videogen/script-to-narrated-short/",
+      "target": "/es/products/videogen/"
+    },
+    {
+      "url": "/es/blog/videogen/script-to-narrated-short/",
+      "target": "/es/products/videogen/"
+    },
+    {
+      "url": "/es/guides/cal-com/check-guest-time-zone/",
+      "target": "/es/products/cal-com/"
+    },
+    {
+      "url": "/es/blog/cal-com/check-guest-time-zone/",
+      "target": "/es/products/cal-com/"
+    },
+    {
+      "url": "/es/guides/pdf2go/merge-workshop-pdfs/",
+      "target": "/es/products/pdf2go/"
+    },
+    {
+      "url": "/es/blog/pdf2go/merge-workshop-pdfs/",
+      "target": "/es/products/pdf2go/"
+    },
+    {
+      "url": "/es/guides/seopress/check-wordpress-noindex/",
+      "target": "/es/products/seopress/"
+    },
+    {
+      "url": "/es/blog/seopress/check-wordpress-noindex/",
+      "target": "/es/products/seopress/"
+    },
+    {
+      "url": "/es/guides/udemy/creator-course-choice/",
+      "target": "/es/products/udemy/"
+    },
+    {
+      "url": "/es/blog/udemy/creator-course-choice/",
+      "target": "/es/products/udemy/"
+    },
+    {
+      "url": "/es/guides/payhip/sell-canva-templates/",
+      "target": "/es/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/es/blog/payhip/sell-canva-templates/",
+      "target": "/es/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/es/guides/cal-com/round-robin-team-booking/",
+      "target": "/es/products/cal-com/"
+    },
+    {
+      "url": "/es/blog/cal-com/round-robin-team-booking/",
+      "target": "/es/products/cal-com/"
+    },
+    {
+      "url": "/es/guides/pombo/onboarding-email-stop-on-activation/",
+      "target": "/es/products/pombo/"
+    },
+    {
+      "url": "/es/blog/pombo/onboarding-email-stop-on-activation/",
+      "target": "/es/products/pombo/"
+    },
+    {
+      "url": "/es/guides/signaturely/pdf-signing-order-audit-trail/",
+      "target": "/es/products/signaturely/"
+    },
+    {
+      "url": "/es/blog/signaturely/pdf-signing-order-audit-trail/",
+      "target": "/es/products/signaturely/"
+    },
+    {
+      "url": "/es/guides/gamma/publish-one-page-portfolio/",
+      "target": "/es/products/gamma/"
+    },
+    {
+      "url": "/es/blog/gamma/publish-one-page-portfolio/",
+      "target": "/es/products/gamma/"
+    },
+    {
+      "url": "/es/guides/joggai/url-to-video-15-second-product-ad/",
+      "target": "/es/products/joggai/"
+    },
+    {
+      "url": "/es/blog/joggai/url-to-video-15-second-product-ad/",
+      "target": "/es/products/joggai/"
+    },
+    {
+      "url": "/es/guides/mailbluster/amazon-ses-first-newsletter/",
+      "target": "/es/products/mailbluster/"
+    },
+    {
+      "url": "/es/blog/mailbluster/amazon-ses-first-newsletter/",
+      "target": "/es/products/mailbluster/"
+    },
+    {
+      "url": "/es/guides/payhip/one-time-digital-product-bundle/",
+      "target": "/es/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/es/blog/payhip/one-time-digital-product-bundle/",
+      "target": "/es/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/es/guides/oh-dear/ssl-certificate-expiry-monitoring/",
+      "target": "/es/products/oh-dear/"
+    },
+    {
+      "url": "/es/blog/oh-dear/ssl-certificate-expiry-monitoring/",
+      "target": "/es/products/oh-dear/"
+    },
+    {
+      "url": "/es/guides/seopress/wordpress-301-redirect/",
+      "target": "/es/products/seopress/"
+    },
+    {
+      "url": "/es/blog/seopress/wordpress-301-redirect/",
+      "target": "/es/products/seopress/"
+    },
+    {
+      "url": "/es/guides/teachable/presell-your-first-course/",
+      "target": "/es/products/teachable/"
+    },
+    {
+      "url": "/es/blog/teachable/presell-your-first-course/",
+      "target": "/es/products/teachable/"
+    },
+    {
+      "url": "/es/guides/cal-com/routing-forms-sales-support-fallback/",
+      "target": "/es/products/cal-com/"
+    },
+    {
+      "url": "/es/blog/cal-com/routing-forms-sales-support-fallback/",
+      "target": "/es/products/cal-com/"
+    },
+    {
+      "url": "/es/guides/predis-ai/predis-ai-product-launch-carousel/",
+      "target": "/es/products/predis-ai/"
+    },
+    {
+      "url": "/es/blog/predis-ai/predis-ai-product-launch-carousel/",
+      "target": "/es/products/predis-ai/"
+    },
+    {
+      "url": "/es/guides/adguard/adguard-browser-extension-vs-desktop/",
+      "target": "/es/products/adguard/"
+    },
+    {
+      "url": "/es/blog/adguard/adguard-browser-extension-vs-desktop/",
+      "target": "/es/products/adguard/"
+    },
+    {
+      "url": "/es/guides/teachable/starter-vs-builder-course-sales/",
+      "target": "/es/products/teachable/"
+    },
+    {
+      "url": "/es/blog/teachable/starter-vs-builder-course-sales/",
+      "target": "/es/products/teachable/"
+    },
+    {
+      "url": "/es/guides/movavi-video-editor/remove-silence-talking-head-video/",
+      "target": "/es/products/movavi-video-editor/"
+    },
+    {
+      "url": "/es/blog/movavi-video-editor/remove-silence-talking-head-video/",
+      "target": "/es/products/movavi-video-editor/"
+    },
+    {
       "url": "/ja/guides/",
       "target": "/ja/blog/"
     },
@@ -6369,6 +7665,438 @@
     {
       "url": "/ja/guides/printful/printful-first-sample-order/",
       "target": "/ja/blog/printful/printful-first-sample-order/"
+    },
+    {
+      "url": "/ja/guides/anydo/anydo-daily-planner/",
+      "target": "/ja/products/anydo/"
+    },
+    {
+      "url": "/ja/blog/anydo/anydo-daily-planner/",
+      "target": "/ja/products/anydo/"
+    },
+    {
+      "url": "/ja/guides/anydo/plan-a-publishing-week/",
+      "target": "/ja/products/anydo/"
+    },
+    {
+      "url": "/ja/blog/anydo/plan-a-publishing-week/",
+      "target": "/ja/products/anydo/"
+    },
+    {
+      "url": "/ja/guides/submagic/submagic-short-form-editor/",
+      "target": "/ja/products/submagic/"
+    },
+    {
+      "url": "/ja/blog/submagic/submagic-short-form-editor/",
+      "target": "/ja/products/submagic/"
+    },
+    {
+      "url": "/ja/guides/submagic/short-video-captions/",
+      "target": "/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/ja/blog/submagic/short-video-captions/",
+      "target": "/ja/blog/submagic/proofread-names-numbers-and-timing-in-replay-captions/"
+    },
+    {
+      "url": "/ja/guides/nifty/nifty-project-management/",
+      "target": "/ja/products/nifty/"
+    },
+    {
+      "url": "/ja/blog/nifty/nifty-project-management/",
+      "target": "/ja/products/nifty/"
+    },
+    {
+      "url": "/ja/guides/nifty/content-launch-project/",
+      "target": "/ja/products/nifty/"
+    },
+    {
+      "url": "/ja/blog/nifty/content-launch-project/",
+      "target": "/ja/products/nifty/"
+    },
+    {
+      "url": "/ja/guides/oh-dear/oh-dear-website-monitoring/",
+      "target": "/ja/products/oh-dear/"
+    },
+    {
+      "url": "/ja/blog/oh-dear/oh-dear-website-monitoring/",
+      "target": "/ja/products/oh-dear/"
+    },
+    {
+      "url": "/ja/guides/oh-dear/website-monitoring-404/",
+      "target": "/ja/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/ja/blog/oh-dear/website-monitoring-404/",
+      "target": "/ja/blog/oh-dear/oh-dear-monitor-checkout-application-health/"
+    },
+    {
+      "url": "/ja/guides/castos/castos-podcast-hosting/",
+      "target": "/ja/products/castos/"
+    },
+    {
+      "url": "/ja/blog/castos/castos-podcast-hosting/",
+      "target": "/ja/products/castos/"
+    },
+    {
+      "url": "/ja/guides/castos/podcast-hosting-wordpress/",
+      "target": "/ja/products/castos/"
+    },
+    {
+      "url": "/ja/blog/castos/podcast-hosting-wordpress/",
+      "target": "/ja/products/castos/"
+    },
+    {
+      "url": "/ja/guides/frase/frase-content-research/",
+      "target": "/ja/products/frase/"
+    },
+    {
+      "url": "/ja/blog/frase/frase-content-research/",
+      "target": "/ja/products/frase/"
+    },
+    {
+      "url": "/ja/guides/frase/research-brief-draft/",
+      "target": "/ja/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/ja/blog/frase/research-brief-draft/",
+      "target": "/ja/blog/frase/frase-serp-outline-content-gap-analysis/"
+    },
+    {
+      "url": "/ja/guides/publer/publer-social-scheduling/",
+      "target": "/ja/products/publer/"
+    },
+    {
+      "url": "/ja/blog/publer/publer-social-scheduling/",
+      "target": "/ja/products/publer/"
+    },
+    {
+      "url": "/ja/guides/publer/private-social-drafts/",
+      "target": "/ja/products/publer/"
+    },
+    {
+      "url": "/ja/blog/publer/private-social-drafts/",
+      "target": "/ja/products/publer/"
+    },
+    {
+      "url": "/ja/guides/mangools/mangools-keyword-research/",
+      "target": "/ja/products/mangools/"
+    },
+    {
+      "url": "/ja/blog/mangools/mangools-keyword-research/",
+      "target": "/ja/products/mangools/"
+    },
+    {
+      "url": "/ja/guides/mangools/keyword-shortlist/",
+      "target": "/ja/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/ja/blog/mangools/keyword-shortlist/",
+      "target": "/ja/blog/mangools/mangools-competitor-keywords-find-underserved-queries/"
+    },
+    {
+      "url": "/ja/guides/systeme-io/systeme-io-sales-funnels/",
+      "target": "/ja/products/systeme-io/"
+    },
+    {
+      "url": "/ja/blog/systeme-io/systeme-io-sales-funnels/",
+      "target": "/ja/products/systeme-io/"
+    },
+    {
+      "url": "/ja/guides/systeme-io/preview-a-funnel-page/",
+      "target": "/ja/products/systeme-io/"
+    },
+    {
+      "url": "/ja/blog/systeme-io/preview-a-funnel-page/",
+      "target": "/ja/products/systeme-io/"
+    },
+    {
+      "url": "/ja/guides/capcut/capcut-video-editor/",
+      "target": "/ja/products/capcut/"
+    },
+    {
+      "url": "/ja/blog/capcut/capcut-video-editor/",
+      "target": "/ja/products/capcut/"
+    },
+    {
+      "url": "/ja/guides/capcut/auto-captions-export/",
+      "target": "/ja/products/capcut/"
+    },
+    {
+      "url": "/ja/blog/capcut/auto-captions-export/",
+      "target": "/ja/products/capcut/"
+    },
+    {
+      "url": "/ja/guides/gemini-notebook/notebooklm-source-citations/",
+      "target": "/ja/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/ja/blog/gemini-notebook/notebooklm-source-citations/",
+      "target": "/ja/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+    },
+    {
+      "url": "/ja/guides/deepl/translate-word-formatting/",
+      "target": "/ja/products/deepl/"
+    },
+    {
+      "url": "/ja/blog/deepl/translate-word-formatting/",
+      "target": "/ja/products/deepl/"
+    },
+    {
+      "url": "/ja/guides/ai-workflow-automation/n8n-nod-first-task/",
+      "target": "/ja/products/n8n/"
+    },
+    {
+      "url": "/ja/blog/ai-workflow-automation/n8n-nod-first-task/",
+      "target": "/ja/products/n8n/"
+    },
+    {
+      "url": "/ja/guides/n8n/multilingual-draft-routing/",
+      "target": "/ja/products/n8n/"
+    },
+    {
+      "url": "/ja/blog/n8n/multilingual-draft-routing/",
+      "target": "/ja/products/n8n/"
+    },
+    {
+      "url": "/ja/guides/quso-ai/check-video-credits/",
+      "target": "/ja/products/quso-ai/"
+    },
+    {
+      "url": "/ja/blog/quso-ai/check-video-credits/",
+      "target": "/ja/products/quso-ai/"
+    },
+    {
+      "url": "/ja/guides/elevenlabs/multilingual-voiceover/",
+      "target": "/ja/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/ja/blog/elevenlabs/multilingual-voiceover/",
+      "target": "/ja/blog/elevenlabs/build-a-brand-pronunciation-list-before-recording/"
+    },
+    {
+      "url": "/ja/guides/gamma/export-to-powerpoint/",
+      "target": "/ja/products/gamma/"
+    },
+    {
+      "url": "/ja/blog/gamma/export-to-powerpoint/",
+      "target": "/ja/products/gamma/"
+    },
+    {
+      "url": "/ja/guides/flowlu/map-a-client-project/",
+      "target": "/ja/products/flowlu/"
+    },
+    {
+      "url": "/ja/blog/flowlu/map-a-client-project/",
+      "target": "/ja/products/flowlu/"
+    },
+    {
+      "url": "/ja/guides/windsor-ai/check-report-source-settings/",
+      "target": "/ja/products/windsor-ai/"
+    },
+    {
+      "url": "/ja/blog/windsor-ai/check-report-source-settings/",
+      "target": "/ja/products/windsor-ai/"
+    },
+    {
+      "url": "/ja/guides/social-intents/preview-a-chat-widget/",
+      "target": "/ja/products/social-intents/"
+    },
+    {
+      "url": "/ja/blog/social-intents/preview-a-chat-widget/",
+      "target": "/ja/products/social-intents/"
+    },
+    {
+      "url": "/ja/guides/answerthis/check-a-reference-year/",
+      "target": "/ja/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/ja/blog/answerthis/check-a-reference-year/",
+      "target": "/ja/blog/answerthis/answerthis-literature-review-verify-citation-claims/"
+    },
+    {
+      "url": "/ja/guides/sked-social/plan-a-client-approval/",
+      "target": "/ja/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/ja/blog/sked-social/plan-a-client-approval/",
+      "target": "/ja/blog/sked-social/client-instagram-post-approval/"
+    },
+    {
+      "url": "/ja/guides/coupler-io/sync-ga4-weekly-report/",
+      "target": "/ja/products/coupler-io/"
+    },
+    {
+      "url": "/ja/blog/coupler-io/sync-ga4-weekly-report/",
+      "target": "/ja/products/coupler-io/"
+    },
+    {
+      "url": "/ja/guides/videogen/script-to-narrated-short/",
+      "target": "/ja/products/videogen/"
+    },
+    {
+      "url": "/ja/blog/videogen/script-to-narrated-short/",
+      "target": "/ja/products/videogen/"
+    },
+    {
+      "url": "/ja/guides/cal-com/check-guest-time-zone/",
+      "target": "/ja/products/cal-com/"
+    },
+    {
+      "url": "/ja/blog/cal-com/check-guest-time-zone/",
+      "target": "/ja/products/cal-com/"
+    },
+    {
+      "url": "/ja/guides/pdf2go/merge-workshop-pdfs/",
+      "target": "/ja/products/pdf2go/"
+    },
+    {
+      "url": "/ja/blog/pdf2go/merge-workshop-pdfs/",
+      "target": "/ja/products/pdf2go/"
+    },
+    {
+      "url": "/ja/guides/seopress/check-wordpress-noindex/",
+      "target": "/ja/products/seopress/"
+    },
+    {
+      "url": "/ja/blog/seopress/check-wordpress-noindex/",
+      "target": "/ja/products/seopress/"
+    },
+    {
+      "url": "/ja/guides/udemy/creator-course-choice/",
+      "target": "/ja/products/udemy/"
+    },
+    {
+      "url": "/ja/blog/udemy/creator-course-choice/",
+      "target": "/ja/products/udemy/"
+    },
+    {
+      "url": "/ja/guides/payhip/sell-canva-templates/",
+      "target": "/ja/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/ja/blog/payhip/sell-canva-templates/",
+      "target": "/ja/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/ja/guides/cal-com/round-robin-team-booking/",
+      "target": "/ja/products/cal-com/"
+    },
+    {
+      "url": "/ja/blog/cal-com/round-robin-team-booking/",
+      "target": "/ja/products/cal-com/"
+    },
+    {
+      "url": "/ja/guides/pombo/onboarding-email-stop-on-activation/",
+      "target": "/ja/products/pombo/"
+    },
+    {
+      "url": "/ja/blog/pombo/onboarding-email-stop-on-activation/",
+      "target": "/ja/products/pombo/"
+    },
+    {
+      "url": "/ja/guides/signaturely/pdf-signing-order-audit-trail/",
+      "target": "/ja/products/signaturely/"
+    },
+    {
+      "url": "/ja/blog/signaturely/pdf-signing-order-audit-trail/",
+      "target": "/ja/products/signaturely/"
+    },
+    {
+      "url": "/ja/guides/gamma/publish-one-page-portfolio/",
+      "target": "/ja/products/gamma/"
+    },
+    {
+      "url": "/ja/blog/gamma/publish-one-page-portfolio/",
+      "target": "/ja/products/gamma/"
+    },
+    {
+      "url": "/ja/guides/joggai/url-to-video-15-second-product-ad/",
+      "target": "/ja/products/joggai/"
+    },
+    {
+      "url": "/ja/blog/joggai/url-to-video-15-second-product-ad/",
+      "target": "/ja/products/joggai/"
+    },
+    {
+      "url": "/ja/guides/mailbluster/amazon-ses-first-newsletter/",
+      "target": "/ja/products/mailbluster/"
+    },
+    {
+      "url": "/ja/blog/mailbluster/amazon-ses-first-newsletter/",
+      "target": "/ja/products/mailbluster/"
+    },
+    {
+      "url": "/ja/guides/payhip/one-time-digital-product-bundle/",
+      "target": "/ja/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/ja/blog/payhip/one-time-digital-product-bundle/",
+      "target": "/ja/blog/payhip/free-template-paid-bundle/"
+    },
+    {
+      "url": "/ja/guides/oh-dear/ssl-certificate-expiry-monitoring/",
+      "target": "/ja/products/oh-dear/"
+    },
+    {
+      "url": "/ja/blog/oh-dear/ssl-certificate-expiry-monitoring/",
+      "target": "/ja/products/oh-dear/"
+    },
+    {
+      "url": "/ja/guides/seopress/wordpress-301-redirect/",
+      "target": "/ja/products/seopress/"
+    },
+    {
+      "url": "/ja/blog/seopress/wordpress-301-redirect/",
+      "target": "/ja/products/seopress/"
+    },
+    {
+      "url": "/ja/guides/teachable/presell-your-first-course/",
+      "target": "/ja/products/teachable/"
+    },
+    {
+      "url": "/ja/blog/teachable/presell-your-first-course/",
+      "target": "/ja/products/teachable/"
+    },
+    {
+      "url": "/ja/guides/cal-com/routing-forms-sales-support-fallback/",
+      "target": "/ja/products/cal-com/"
+    },
+    {
+      "url": "/ja/blog/cal-com/routing-forms-sales-support-fallback/",
+      "target": "/ja/products/cal-com/"
+    },
+    {
+      "url": "/ja/guides/predis-ai/predis-ai-product-launch-carousel/",
+      "target": "/ja/products/predis-ai/"
+    },
+    {
+      "url": "/ja/blog/predis-ai/predis-ai-product-launch-carousel/",
+      "target": "/ja/products/predis-ai/"
+    },
+    {
+      "url": "/ja/guides/adguard/adguard-browser-extension-vs-desktop/",
+      "target": "/ja/products/adguard/"
+    },
+    {
+      "url": "/ja/blog/adguard/adguard-browser-extension-vs-desktop/",
+      "target": "/ja/products/adguard/"
+    },
+    {
+      "url": "/ja/guides/teachable/starter-vs-builder-course-sales/",
+      "target": "/ja/products/teachable/"
+    },
+    {
+      "url": "/ja/blog/teachable/starter-vs-builder-course-sales/",
+      "target": "/ja/products/teachable/"
+    },
+    {
+      "url": "/ja/guides/movavi-video-editor/remove-silence-talking-head-video/",
+      "target": "/ja/products/movavi-video-editor/"
+    },
+    {
+      "url": "/ja/blog/movavi-video-editor/remove-silence-talking-head-video/",
+      "target": "/ja/products/movavi-video-editor/"
     }
   ]
 }

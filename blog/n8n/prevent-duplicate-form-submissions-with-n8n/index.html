@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
-  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="en" data-article-id="prevent-duplicate-form-submissions-with-n8n" data-product-id="n8n"></script>
 </head>
 <body data-lang="en" data-save-label="Save product" data-unsave-label="Unsave product" data-save-toast="Saved to your shortlist" data-unsave-toast="Removed from your shortlist" data-storage-error="Your browser could not save this change.">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -97,6 +97,7 @@
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>Have the form provider reuse the original submission ID on retries and make it a unique key in PostgreSQL. A webhook can arrive twice when the sender times out, even if the first write succeeded. Use n8n&#39;s Postgres node to run a parameterized insert so both deliveries follow the same database rule.</p>
+          <p><a class="text-link" data-product-link-location="article-intro" href="/products/n8n/">n8n · View product details <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
         </div>
         <section id="section-0">
           <h2>Let the insert decide whether the record is new</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.postgres">n8n Postgres node</a></li><li><a data-source-citation="true" href="https://www.postgresql.org/docs/current/sql-insert.html">PostgreSQL INSERT reference</a></li></ul><p>In a test table, use a text primary key called submission_id. Pass the ID and name as Query Parameters in the order used by $1 and $2. If multiple form providers can issue the same ID, key the row on the source and ID together. An email address can belong to two valid submissions. Route missing IDs to a rejection branch before attempting the write.</p><pre class="article-code" dir="ltr"><code translate="no">WITH inserted AS (
@@ -114,7 +115,7 @@ SELECT EXISTS (SELECT 1 FROM inserted) AS created;</code></pre><p>A new row retu
           <ul><li><a class="text-link" href="https://n8n.io/" data-editorial-product="n8n">
     <span><span translate="no">n8n</span> · Visit official website</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
   </a></li></ul>
-          <a class="text-link" href="/products/n8n/">View product details</a>
+          <a class="text-link" data-product-link-location="article-footer" href="/products/n8n/">View product details</a>
         </section>
         <section class="article-resources" aria-labelledby="related-guides">
           <h2 id="related-guides">Related guides</h2>

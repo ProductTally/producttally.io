@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
-  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="human-approval-timeout" data-product-id="n8n"></script>
 </head>
 <body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
   <a class="skip-link" href="#main">跳到正文</a>
@@ -97,6 +97,7 @@
       <div class="prose">
         <div class="article-opening" id="quick-answer">
           <p>自动生成一份报价后，你可以用 n8n 的 Wait 节点暂停，等待审批表单或回调。为等待设置上限后，超时也会恢复执行。因此后续动作要根据你保存的审批记录来分流。只有存在对应报价版本的明确批准记录，才进入发送步骤。</p>
+          <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/n8n/">n8n · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
         </div>
         <section id="section-0">
           <h2>先给需要审批的对象留一条记录</h2><p>假设报价号是 Q-104，版本为 v2，等待时长为两个工作日。练习环境可以用更短的固定窗口。先存报价号、版本、截止时间和待审批状态。审批人看到报价版本和截止时间，选择批准或退回，并可留下备注。真正接入时，应把审批入口放到已有身份验证的环境，限制谁能提交，并核验报价号和版本。n8n 的回调恢复地址按执行生成，官方文档列有多种认证方法。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.wait/">n8n Wait 节点官方文档</a></li></ul>
@@ -114,7 +115,7 @@
           <ul><li><a class="text-link" href="https://n8n.io/" data-editorial-product="n8n">
     <span><span translate="no">n8n</span> · 访问官方网站</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
   </a></li></ul>
-          <a class="text-link" href="/zh/products/n8n/">查看产品详情</a>
+          <a class="text-link" data-product-link-location="article-footer" href="/zh/products/n8n/">查看产品详情</a>
         </section>
         <section class="article-resources" aria-labelledby="related-guides">
           <h2 id="related-guides">相关指南</h2>
