@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Task context and agent updates in one thread</title>
+  <desc id="desc">A conceptual diagram of connected tools, an access-scoped channel, and one task thread containing context, progress, and a result.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf3"/>
+      <stop offset="1" stop-color="#e7eee6"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M2 2 9 6 2 10" fill="none" stroke="#b74224" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" rx="34" fill="url(#paper)"/>
+  <rect x="36" y="36" width="1208" height="648" rx="26" fill="#fffdf9" stroke="#e7d4c3" stroke-width="3"/>
+  <g fill="none" stroke="#b74224" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M296 255 C370 255 370 304 448 304"/>
+    <path d="M296 465 C370 465 370 416 448 416"/>
+    <path d="M832 360 H946"/>
+  </g>
+  <g>
+    <rect x="92" y="188" width="204" height="134" rx="22" fill="#f8eee4" stroke="#e7d4c3" stroke-width="3"/>
+    <circle cx="155" cy="255" r="31" fill="#3f6656"/>
+    <path d="M141 250h28M141 260h20" stroke="#fffdf9" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="236" cy="255" r="31" fill="#e6a158"/>
+    <path d="M224 255h24m-8-9 9 9-9 9" fill="none" stroke="#fffdf9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="92" y="398" width="204" height="134" rx="22" fill="#f8eee4" stroke="#e7d4c3" stroke-width="3"/>
+    <circle cx="155" cy="465" r="31" fill="#59483f"/>
+    <path d="M139 462c0-9 8-16 16-16s16 7 16 16v16h-32z" fill="none" stroke="#fffdf9" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="236" cy="465" r="31" fill="#7d92c4"/>
+    <path d="M221 465h30m-15-15v30" stroke="#fffdf9" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="448" y="132" width="384" height="456" rx="28" fill="#f6eee5" stroke="#d6bfae" stroke-width="3"/>
+    <rect x="476" y="160" width="328" height="66" rx="18" fill="#3f6656"/>
+    <circle cx="510" cy="193" r="9" fill="#d8e8dc"/>
+    <path d="M535 187h224M535 202h176" stroke="#eaf2eb" stroke-width="7" stroke-linecap="round"/>
+    <path d="M506 268v232" stroke="#b6c9b8" stroke-width="5" stroke-linecap="round" stroke-dasharray="4 14"/>
+    <circle cx="506" cy="286" r="13" fill="#b74224"/>
+    <circle cx="506" cy="382" r="13" fill="#b74224"/>
+    <circle cx="506" cy="478" r="13" fill="#b74224"/>
+    <rect x="534" y="250" width="232" height="70" rx="16" fill="#fffdf9" stroke="#e7d4c3" stroke-width="2"/>
+    <rect x="534" y="346" width="232" height="70" rx="16" fill="#fffdf9" stroke="#e7d4c3" stroke-width="2"/>
+    <rect x="534" y="442" width="232" height="70" rx="16" fill="#fffdf9" stroke="#e7d4c3" stroke-width="2"/>
+    <path d="M558 276h172M558 292h118M558 372h148M558 388h176M558 468h160M558 484h130" stroke="#9d8979" stroke-width="8" stroke-linecap="round" opacity=".68"/>
+  </g>
+  <g>
+    <rect x="946" y="264" width="234" height="192" rx="24" fill="#fffdf9" stroke="#d6bfae" stroke-width="3"/>
+    <path d="M1000 322h126M1000 346h92M1000 404h126" stroke="#9d8979" stroke-width="9" stroke-linecap="round" opacity=".68"/>
+    <rect x="1101" y="369" width="43" height="43" rx="13" fill="#e4efe6"/>
+    <path d="m1113 390 9 9 14-18" fill="none" stroke="#3f6656" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <circle cx="178" cy="113" r="8" fill="#b74224" opacity=".5"/>
+  <circle cx="1100" cy="562" r="13" fill="#e6a158" opacity=".65"/>
+  <path d="M110 590c40-30 78-30 118 0M1036 147c40 24 82 24 122 0" fill="none" stroke="#a9bba7" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 13"/>
+</svg>
