@@ -12,13 +12,13 @@
       "lang": "en",
       "route": "",
       "url": "/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-19",
+      "lastmod": "2026-11-20",
       "canonicalRoute": ""
     },
     {
@@ -328,18 +328,18 @@
       "lang": "en",
       "route": "blog",
       "url": "/blog/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "en",
-      "route": "blog/keyword-research",
-      "url": "/blog/keyword-research/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "en",
       "route": "blog/search-troubleshooting",
       "url": "/blog/search-troubleshooting/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "en",
+      "route": "blog/keyword-research",
+      "url": "/blog/keyword-research/",
       "lastmod": "2026-11-19"
     },
     {
@@ -407,6 +407,54 @@
       "route": "blog/ai-search-measurement",
       "url": "/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/n8n/n8n-error-workflow-actionable-alerts",
+      "url": "/blog/n8n/n8n-error-workflow-actionable-alerts/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "en",
+      "route": "blog/n8n/n8n-schedule-trigger-timezone",
+      "url": "/blog/n8n/n8n-schedule-trigger-timezone/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "en",
+      "route": "blog/cal-com/cal-com-cap-weekly-consultations",
+      "url": "/blog/cal-com/cal-com-cap-weekly-consultations/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "en",
+      "route": "blog/gemini-notebook/gemini-notebook-audio-overview-team-brief",
+      "url": "/blog/gemini-notebook/gemini-notebook-audio-overview-team-brief/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "en",
+      "route": "blog/gamma/gamma-project-styles-workspace-theme",
+      "url": "/blog/gamma/gamma-project-styles-workspace-theme/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "en",
+      "route": "blog/vizard/vizard-import-approved-srt",
+      "url": "/blog/vizard/vizard-import-approved-srt/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "en",
+      "route": "blog/seopress/seopress-redirect-renamed-wordpress-post",
+      "url": "/blog/seopress/seopress-redirect-renamed-wordpress-post/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-troubleshooting/google-pagination-canonical-blog-archive",
+      "url": "/blog/search-troubleshooting/google-pagination-canonical-blog-archive/",
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "en",
@@ -1120,13 +1168,13 @@
       "lang": "zh",
       "route": "",
       "url": "/zh/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-19",
+      "lastmod": "2026-11-20",
       "canonicalRoute": ""
     },
     {
@@ -1436,18 +1484,18 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "zh",
-      "route": "blog/keyword-research",
-      "url": "/zh/blog/keyword-research/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "zh",
       "route": "blog/search-troubleshooting",
       "url": "/zh/blog/search-troubleshooting/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/keyword-research",
+      "url": "/zh/blog/keyword-research/",
       "lastmod": "2026-11-19"
     },
     {
@@ -1515,6 +1563,54 @@
       "route": "blog/ai-search-measurement",
       "url": "/zh/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/n8n/n8n-error-workflow-actionable-alerts",
+      "url": "/zh/blog/n8n/n8n-error-workflow-actionable-alerts/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/n8n/n8n-schedule-trigger-timezone",
+      "url": "/zh/blog/n8n/n8n-schedule-trigger-timezone/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/cal-com/cal-com-cap-weekly-consultations",
+      "url": "/zh/blog/cal-com/cal-com-cap-weekly-consultations/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/gemini-notebook/gemini-notebook-audio-overview-team-brief",
+      "url": "/zh/blog/gemini-notebook/gemini-notebook-audio-overview-team-brief/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/gamma/gamma-project-styles-workspace-theme",
+      "url": "/zh/blog/gamma/gamma-project-styles-workspace-theme/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/vizard/vizard-import-approved-srt",
+      "url": "/zh/blog/vizard/vizard-import-approved-srt/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/seopress/seopress-redirect-renamed-wordpress-post",
+      "url": "/zh/blog/seopress/seopress-redirect-renamed-wordpress-post/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-troubleshooting/google-pagination-canonical-blog-archive",
+      "url": "/zh/blog/search-troubleshooting/google-pagination-canonical-blog-archive/",
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "zh",
@@ -2228,13 +2324,13 @@
       "lang": "es",
       "route": "",
       "url": "/es/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-19",
+      "lastmod": "2026-11-20",
       "canonicalRoute": ""
     },
     {
@@ -2544,18 +2640,18 @@
       "lang": "es",
       "route": "blog",
       "url": "/es/blog/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "es",
-      "route": "blog/keyword-research",
-      "url": "/es/blog/keyword-research/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "es",
       "route": "blog/search-troubleshooting",
       "url": "/es/blog/search-troubleshooting/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "es",
+      "route": "blog/keyword-research",
+      "url": "/es/blog/keyword-research/",
       "lastmod": "2026-11-19"
     },
     {
@@ -2623,6 +2719,54 @@
       "route": "blog/ai-search-measurement",
       "url": "/es/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/n8n/n8n-error-workflow-actionable-alerts",
+      "url": "/es/blog/n8n/n8n-error-workflow-actionable-alerts/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "es",
+      "route": "blog/n8n/n8n-schedule-trigger-timezone",
+      "url": "/es/blog/n8n/n8n-schedule-trigger-timezone/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "es",
+      "route": "blog/cal-com/cal-com-cap-weekly-consultations",
+      "url": "/es/blog/cal-com/cal-com-cap-weekly-consultations/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "es",
+      "route": "blog/gemini-notebook/gemini-notebook-audio-overview-team-brief",
+      "url": "/es/blog/gemini-notebook/gemini-notebook-audio-overview-team-brief/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "es",
+      "route": "blog/gamma/gamma-project-styles-workspace-theme",
+      "url": "/es/blog/gamma/gamma-project-styles-workspace-theme/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "es",
+      "route": "blog/vizard/vizard-import-approved-srt",
+      "url": "/es/blog/vizard/vizard-import-approved-srt/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "es",
+      "route": "blog/seopress/seopress-redirect-renamed-wordpress-post",
+      "url": "/es/blog/seopress/seopress-redirect-renamed-wordpress-post/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-troubleshooting/google-pagination-canonical-blog-archive",
+      "url": "/es/blog/search-troubleshooting/google-pagination-canonical-blog-archive/",
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "es",
@@ -3336,13 +3480,13 @@
       "lang": "ja",
       "route": "",
       "url": "/ja/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-19",
+      "lastmod": "2026-11-20",
       "canonicalRoute": ""
     },
     {
@@ -3652,18 +3796,18 @@
       "lang": "ja",
       "route": "blog",
       "url": "/ja/blog/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "ja",
-      "route": "blog/keyword-research",
-      "url": "/ja/blog/keyword-research/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "ja",
       "route": "blog/search-troubleshooting",
       "url": "/ja/blog/search-troubleshooting/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/keyword-research",
+      "url": "/ja/blog/keyword-research/",
       "lastmod": "2026-11-19"
     },
     {
@@ -3731,6 +3875,54 @@
       "route": "blog/ai-search-measurement",
       "url": "/ja/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/n8n/n8n-error-workflow-actionable-alerts",
+      "url": "/ja/blog/n8n/n8n-error-workflow-actionable-alerts/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/n8n/n8n-schedule-trigger-timezone",
+      "url": "/ja/blog/n8n/n8n-schedule-trigger-timezone/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/cal-com/cal-com-cap-weekly-consultations",
+      "url": "/ja/blog/cal-com/cal-com-cap-weekly-consultations/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/gemini-notebook/gemini-notebook-audio-overview-team-brief",
+      "url": "/ja/blog/gemini-notebook/gemini-notebook-audio-overview-team-brief/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/gamma/gamma-project-styles-workspace-theme",
+      "url": "/ja/blog/gamma/gamma-project-styles-workspace-theme/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/vizard/vizard-import-approved-srt",
+      "url": "/ja/blog/vizard/vizard-import-approved-srt/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/seopress/seopress-redirect-renamed-wordpress-post",
+      "url": "/ja/blog/seopress/seopress-redirect-renamed-wordpress-post/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-troubleshooting/google-pagination-canonical-blog-archive",
+      "url": "/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/",
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "ja",
@@ -4447,12 +4639,12 @@
       "target": "/blog/"
     },
     {
-      "url": "/guides/keyword-research/",
-      "target": "/blog/keyword-research/"
-    },
-    {
       "url": "/guides/search-troubleshooting/",
       "target": "/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/guides/keyword-research/",
+      "target": "/blog/keyword-research/"
     },
     {
       "url": "/guides/content-maintenance/",
@@ -4497,6 +4689,38 @@
     {
       "url": "/guides/ai-search-measurement/",
       "target": "/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/guides/n8n/n8n-error-workflow-actionable-alerts/",
+      "target": "/blog/n8n/n8n-error-workflow-actionable-alerts/"
+    },
+    {
+      "url": "/guides/n8n/n8n-schedule-trigger-timezone/",
+      "target": "/blog/n8n/n8n-schedule-trigger-timezone/"
+    },
+    {
+      "url": "/guides/cal-com/cal-com-cap-weekly-consultations/",
+      "target": "/blog/cal-com/cal-com-cap-weekly-consultations/"
+    },
+    {
+      "url": "/guides/gemini-notebook/gemini-notebook-audio-overview-team-brief/",
+      "target": "/blog/gemini-notebook/gemini-notebook-audio-overview-team-brief/"
+    },
+    {
+      "url": "/guides/gamma/gamma-project-styles-workspace-theme/",
+      "target": "/blog/gamma/gamma-project-styles-workspace-theme/"
+    },
+    {
+      "url": "/guides/vizard/vizard-import-approved-srt/",
+      "target": "/blog/vizard/vizard-import-approved-srt/"
+    },
+    {
+      "url": "/guides/seopress/seopress-redirect-renamed-wordpress-post/",
+      "target": "/blog/seopress/seopress-redirect-renamed-wordpress-post/"
+    },
+    {
+      "url": "/guides/search-troubleshooting/google-pagination-canonical-blog-archive/",
+      "target": "/blog/search-troubleshooting/google-pagination-canonical-blog-archive/"
     },
     {
       "url": "/guides/vizard/vizard-ai-clipping-credit-budget/",
@@ -5387,12 +5611,12 @@
       "target": "/zh/blog/"
     },
     {
-      "url": "/zh/guides/keyword-research/",
-      "target": "/zh/blog/keyword-research/"
-    },
-    {
       "url": "/zh/guides/search-troubleshooting/",
       "target": "/zh/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/zh/guides/keyword-research/",
+      "target": "/zh/blog/keyword-research/"
     },
     {
       "url": "/zh/guides/content-maintenance/",
@@ -5437,6 +5661,38 @@
     {
       "url": "/zh/guides/ai-search-measurement/",
       "target": "/zh/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/zh/guides/n8n/n8n-error-workflow-actionable-alerts/",
+      "target": "/zh/blog/n8n/n8n-error-workflow-actionable-alerts/"
+    },
+    {
+      "url": "/zh/guides/n8n/n8n-schedule-trigger-timezone/",
+      "target": "/zh/blog/n8n/n8n-schedule-trigger-timezone/"
+    },
+    {
+      "url": "/zh/guides/cal-com/cal-com-cap-weekly-consultations/",
+      "target": "/zh/blog/cal-com/cal-com-cap-weekly-consultations/"
+    },
+    {
+      "url": "/zh/guides/gemini-notebook/gemini-notebook-audio-overview-team-brief/",
+      "target": "/zh/blog/gemini-notebook/gemini-notebook-audio-overview-team-brief/"
+    },
+    {
+      "url": "/zh/guides/gamma/gamma-project-styles-workspace-theme/",
+      "target": "/zh/blog/gamma/gamma-project-styles-workspace-theme/"
+    },
+    {
+      "url": "/zh/guides/vizard/vizard-import-approved-srt/",
+      "target": "/zh/blog/vizard/vizard-import-approved-srt/"
+    },
+    {
+      "url": "/zh/guides/seopress/seopress-redirect-renamed-wordpress-post/",
+      "target": "/zh/blog/seopress/seopress-redirect-renamed-wordpress-post/"
+    },
+    {
+      "url": "/zh/guides/search-troubleshooting/google-pagination-canonical-blog-archive/",
+      "target": "/zh/blog/search-troubleshooting/google-pagination-canonical-blog-archive/"
     },
     {
       "url": "/zh/guides/vizard/vizard-ai-clipping-credit-budget/",
@@ -6327,12 +6583,12 @@
       "target": "/es/blog/"
     },
     {
-      "url": "/es/guides/keyword-research/",
-      "target": "/es/blog/keyword-research/"
-    },
-    {
       "url": "/es/guides/search-troubleshooting/",
       "target": "/es/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/es/guides/keyword-research/",
+      "target": "/es/blog/keyword-research/"
     },
     {
       "url": "/es/guides/content-maintenance/",
@@ -6377,6 +6633,38 @@
     {
       "url": "/es/guides/ai-search-measurement/",
       "target": "/es/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/es/guides/n8n/n8n-error-workflow-actionable-alerts/",
+      "target": "/es/blog/n8n/n8n-error-workflow-actionable-alerts/"
+    },
+    {
+      "url": "/es/guides/n8n/n8n-schedule-trigger-timezone/",
+      "target": "/es/blog/n8n/n8n-schedule-trigger-timezone/"
+    },
+    {
+      "url": "/es/guides/cal-com/cal-com-cap-weekly-consultations/",
+      "target": "/es/blog/cal-com/cal-com-cap-weekly-consultations/"
+    },
+    {
+      "url": "/es/guides/gemini-notebook/gemini-notebook-audio-overview-team-brief/",
+      "target": "/es/blog/gemini-notebook/gemini-notebook-audio-overview-team-brief/"
+    },
+    {
+      "url": "/es/guides/gamma/gamma-project-styles-workspace-theme/",
+      "target": "/es/blog/gamma/gamma-project-styles-workspace-theme/"
+    },
+    {
+      "url": "/es/guides/vizard/vizard-import-approved-srt/",
+      "target": "/es/blog/vizard/vizard-import-approved-srt/"
+    },
+    {
+      "url": "/es/guides/seopress/seopress-redirect-renamed-wordpress-post/",
+      "target": "/es/blog/seopress/seopress-redirect-renamed-wordpress-post/"
+    },
+    {
+      "url": "/es/guides/search-troubleshooting/google-pagination-canonical-blog-archive/",
+      "target": "/es/blog/search-troubleshooting/google-pagination-canonical-blog-archive/"
     },
     {
       "url": "/es/guides/vizard/vizard-ai-clipping-credit-budget/",
@@ -7267,12 +7555,12 @@
       "target": "/ja/blog/"
     },
     {
-      "url": "/ja/guides/keyword-research/",
-      "target": "/ja/blog/keyword-research/"
-    },
-    {
       "url": "/ja/guides/search-troubleshooting/",
       "target": "/ja/blog/search-troubleshooting/"
+    },
+    {
+      "url": "/ja/guides/keyword-research/",
+      "target": "/ja/blog/keyword-research/"
     },
     {
       "url": "/ja/guides/content-maintenance/",
@@ -7317,6 +7605,38 @@
     {
       "url": "/ja/guides/ai-search-measurement/",
       "target": "/ja/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/ja/guides/n8n/n8n-error-workflow-actionable-alerts/",
+      "target": "/ja/blog/n8n/n8n-error-workflow-actionable-alerts/"
+    },
+    {
+      "url": "/ja/guides/n8n/n8n-schedule-trigger-timezone/",
+      "target": "/ja/blog/n8n/n8n-schedule-trigger-timezone/"
+    },
+    {
+      "url": "/ja/guides/cal-com/cal-com-cap-weekly-consultations/",
+      "target": "/ja/blog/cal-com/cal-com-cap-weekly-consultations/"
+    },
+    {
+      "url": "/ja/guides/gemini-notebook/gemini-notebook-audio-overview-team-brief/",
+      "target": "/ja/blog/gemini-notebook/gemini-notebook-audio-overview-team-brief/"
+    },
+    {
+      "url": "/ja/guides/gamma/gamma-project-styles-workspace-theme/",
+      "target": "/ja/blog/gamma/gamma-project-styles-workspace-theme/"
+    },
+    {
+      "url": "/ja/guides/vizard/vizard-import-approved-srt/",
+      "target": "/ja/blog/vizard/vizard-import-approved-srt/"
+    },
+    {
+      "url": "/ja/guides/seopress/seopress-redirect-renamed-wordpress-post/",
+      "target": "/ja/blog/seopress/seopress-redirect-renamed-wordpress-post/"
+    },
+    {
+      "url": "/ja/guides/search-troubleshooting/google-pagination-canonical-blog-archive/",
+      "target": "/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/"
     },
     {
       "url": "/ja/guides/vizard/vizard-ai-clipping-credit-budget/",
