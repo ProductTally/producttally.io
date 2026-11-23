@@ -428,6 +428,36 @@
     },
     {
       "lang": "en",
+      "route": "blog/udemy/black-friday-course-coupon-checkout",
+      "url": "/blog/udemy/black-friday-course-coupon-checkout/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/python-course-batch-rename-files",
+      "url": "/blog/udemy/python-course-batch-rename-files/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/pmp-2026-course-checklist",
+      "url": "/blog/udemy/pmp-2026-course-checklist/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/excel-xlookup-course-order-price-list",
+      "url": "/blog/udemy/excel-xlookup-course-order-price-list/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
+      "url": "/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
       "route": "blog/payhip/black-friday-coupon-usage-expiry",
       "url": "/blog/payhip/black-friday-coupon-usage-expiry/",
       "lastmod": "2026-11-23"
@@ -1671,6 +1701,36 @@
       "route": "blog/ai-search-measurement",
       "url": "/zh/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/black-friday-course-coupon-checkout",
+      "url": "/zh/blog/udemy/black-friday-course-coupon-checkout/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/python-course-batch-rename-files",
+      "url": "/zh/blog/udemy/python-course-batch-rename-files/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/pmp-2026-course-checklist",
+      "url": "/zh/blog/udemy/pmp-2026-course-checklist/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/excel-xlookup-course-order-price-list",
+      "url": "/zh/blog/udemy/excel-xlookup-course-order-price-list/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
+      "url": "/zh/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -2920,6 +2980,36 @@
     },
     {
       "lang": "es",
+      "route": "blog/udemy/black-friday-course-coupon-checkout",
+      "url": "/es/blog/udemy/black-friday-course-coupon-checkout/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/python-course-batch-rename-files",
+      "url": "/es/blog/udemy/python-course-batch-rename-files/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/pmp-2026-course-checklist",
+      "url": "/es/blog/udemy/pmp-2026-course-checklist/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/excel-xlookup-course-order-price-list",
+      "url": "/es/blog/udemy/excel-xlookup-course-order-price-list/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
+      "url": "/es/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
       "route": "blog/payhip/black-friday-coupon-usage-expiry",
       "url": "/es/blog/payhip/black-friday-coupon-usage-expiry/",
       "lastmod": "2026-11-23"
@@ -4166,6 +4256,36 @@
     },
     {
       "lang": "ja",
+      "route": "blog/udemy/black-friday-course-coupon-checkout",
+      "url": "/ja/blog/udemy/black-friday-course-coupon-checkout/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/python-course-batch-rename-files",
+      "url": "/ja/blog/udemy/python-course-batch-rename-files/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/pmp-2026-course-checklist",
+      "url": "/ja/blog/udemy/pmp-2026-course-checklist/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/excel-xlookup-course-order-price-list",
+      "url": "/ja/blog/udemy/excel-xlookup-course-order-price-list/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
+      "url": "/ja/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
       "route": "blog/payhip/black-friday-coupon-usage-expiry",
       "url": "/ja/blog/payhip/black-friday-coupon-usage-expiry/",
       "lastmod": "2026-11-23"
@@ -5057,6 +5177,26 @@
     {
       "url": "/guides/ai-search-measurement/",
       "target": "/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/guides/udemy/black-friday-course-coupon-checkout/",
+      "target": "/blog/udemy/black-friday-course-coupon-checkout/"
+    },
+    {
+      "url": "/guides/udemy/python-course-batch-rename-files/",
+      "target": "/blog/udemy/python-course-batch-rename-files/"
+    },
+    {
+      "url": "/guides/udemy/pmp-2026-course-checklist/",
+      "target": "/blog/udemy/pmp-2026-course-checklist/"
+    },
+    {
+      "url": "/guides/udemy/excel-xlookup-course-order-price-list/",
+      "target": "/blog/udemy/excel-xlookup-course-order-price-list/"
+    },
+    {
+      "url": "/guides/udemy/sql-bootcamp-monthly-repeat-buyers/",
+      "target": "/blog/udemy/sql-bootcamp-monthly-repeat-buyers/"
     },
     {
       "url": "/guides/payhip/black-friday-coupon-usage-expiry/",
@@ -6075,6 +6215,26 @@
       "target": "/zh/blog/ai-search-measurement/"
     },
     {
+      "url": "/zh/guides/udemy/black-friday-course-coupon-checkout/",
+      "target": "/zh/blog/udemy/black-friday-course-coupon-checkout/"
+    },
+    {
+      "url": "/zh/guides/udemy/python-course-batch-rename-files/",
+      "target": "/zh/blog/udemy/python-course-batch-rename-files/"
+    },
+    {
+      "url": "/zh/guides/udemy/pmp-2026-course-checklist/",
+      "target": "/zh/blog/udemy/pmp-2026-course-checklist/"
+    },
+    {
+      "url": "/zh/guides/udemy/excel-xlookup-course-order-price-list/",
+      "target": "/zh/blog/udemy/excel-xlookup-course-order-price-list/"
+    },
+    {
+      "url": "/zh/guides/udemy/sql-bootcamp-monthly-repeat-buyers/",
+      "target": "/zh/blog/udemy/sql-bootcamp-monthly-repeat-buyers/"
+    },
+    {
       "url": "/zh/guides/payhip/black-friday-coupon-usage-expiry/",
       "target": "/zh/blog/payhip/black-friday-coupon-usage-expiry/"
     },
@@ -7091,6 +7251,26 @@
       "target": "/es/blog/ai-search-measurement/"
     },
     {
+      "url": "/es/guides/udemy/black-friday-course-coupon-checkout/",
+      "target": "/es/blog/udemy/black-friday-course-coupon-checkout/"
+    },
+    {
+      "url": "/es/guides/udemy/python-course-batch-rename-files/",
+      "target": "/es/blog/udemy/python-course-batch-rename-files/"
+    },
+    {
+      "url": "/es/guides/udemy/pmp-2026-course-checklist/",
+      "target": "/es/blog/udemy/pmp-2026-course-checklist/"
+    },
+    {
+      "url": "/es/guides/udemy/excel-xlookup-course-order-price-list/",
+      "target": "/es/blog/udemy/excel-xlookup-course-order-price-list/"
+    },
+    {
+      "url": "/es/guides/udemy/sql-bootcamp-monthly-repeat-buyers/",
+      "target": "/es/blog/udemy/sql-bootcamp-monthly-repeat-buyers/"
+    },
+    {
       "url": "/es/guides/payhip/black-friday-coupon-usage-expiry/",
       "target": "/es/blog/payhip/black-friday-coupon-usage-expiry/"
     },
@@ -8105,6 +8285,26 @@
     {
       "url": "/ja/guides/ai-search-measurement/",
       "target": "/ja/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/ja/guides/udemy/black-friday-course-coupon-checkout/",
+      "target": "/ja/blog/udemy/black-friday-course-coupon-checkout/"
+    },
+    {
+      "url": "/ja/guides/udemy/python-course-batch-rename-files/",
+      "target": "/ja/blog/udemy/python-course-batch-rename-files/"
+    },
+    {
+      "url": "/ja/guides/udemy/pmp-2026-course-checklist/",
+      "target": "/ja/blog/udemy/pmp-2026-course-checklist/"
+    },
+    {
+      "url": "/ja/guides/udemy/excel-xlookup-course-order-price-list/",
+      "target": "/ja/blog/udemy/excel-xlookup-course-order-price-list/"
+    },
+    {
+      "url": "/ja/guides/udemy/sql-bootcamp-monthly-repeat-buyers/",
+      "target": "/ja/blog/udemy/sql-bootcamp-monthly-repeat-buyers/"
     },
     {
       "url": "/ja/guides/payhip/black-friday-coupon-usage-expiry/",
