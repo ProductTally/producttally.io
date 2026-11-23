@@ -187,6 +187,12 @@
     },
     {
       "lang": "en",
+      "route": "products/coupler-io",
+      "url": "/products/coupler-io/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
       "route": "products/videogen",
       "url": "/products/videogen/",
       "lastmod": "2026-11-23"
@@ -237,6 +243,12 @@
       "lang": "en",
       "route": "products/pcloud",
       "url": "/products/pcloud/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "products/mailbluster",
+      "url": "/products/mailbluster/",
       "lastmod": "2026-11-23"
     },
     {
@@ -1456,6 +1468,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/coupler-io",
+      "url": "/zh/products/coupler-io/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
       "route": "products/videogen",
       "url": "/zh/products/videogen/",
       "lastmod": "2026-11-23"
@@ -1506,6 +1524,12 @@
       "lang": "zh",
       "route": "products/pcloud",
       "url": "/zh/products/pcloud/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "products/mailbluster",
+      "url": "/zh/products/mailbluster/",
       "lastmod": "2026-11-23"
     },
     {
@@ -2725,6 +2749,12 @@
     },
     {
       "lang": "es",
+      "route": "products/coupler-io",
+      "url": "/es/products/coupler-io/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
       "route": "products/videogen",
       "url": "/es/products/videogen/",
       "lastmod": "2026-11-23"
@@ -2775,6 +2805,12 @@
       "lang": "es",
       "route": "products/pcloud",
       "url": "/es/products/pcloud/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "products/mailbluster",
+      "url": "/es/products/mailbluster/",
       "lastmod": "2026-11-23"
     },
     {
@@ -3994,6 +4030,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/coupler-io",
+      "url": "/ja/products/coupler-io/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
       "route": "products/videogen",
       "url": "/ja/products/videogen/",
       "lastmod": "2026-11-23"
@@ -4044,6 +4086,12 @@
       "lang": "ja",
       "route": "products/pcloud",
       "url": "/ja/products/pcloud/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "products/mailbluster",
+      "url": "/ja/products/mailbluster/",
       "lastmod": "2026-11-23"
     },
     {
