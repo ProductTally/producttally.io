@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操 — ProductTally</title>
+  <meta name="description" content="用两个服务理解端口、服务名和数据卷，再重建数据库容器，确认原来的记录仍能读取。">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/udemy/docker-compose-course-app-postgres/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/udemy/docker-compose-course-app-postgres/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/udemy/docker-compose-course-app-postgres/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/udemy/docker-compose-course-app-postgres/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操 — ProductTally">
+  <meta property="og:description" content="用两个服务理解端口、服务名和数据卷，再重建数据库容器，确认原来的记录仍能读取。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/docker-compose-course-app-postgres-zh.jpg">
+  <meta property="og:image:alt" content="Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操 — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操 — ProductTally">
+  <meta name="twitter:description" content="用两个服务理解端口、服务名和数据卷，再重建数据库容器，确认原来的记录仍能读取。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/docker-compose-course-app-postgres-zh.jpg">
+  <meta name="twitter:image:alt" content="Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操 — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/#webpage","name":"Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操","description":"用两个服务理解端口、服务名和数据卷，再重建数据库容器，确认原来的记录仍能读取。","url":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/#article","headline":"Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操","description":"用两个服务理解端口、服务名和数据卷，再重建数据库容器，确认原来的记录仍能读取。","url":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/#article-image","url":"https://producttally.com/assets/articles/docker-compose-course-app-postgres/cover.webp","contentUrl":"https://producttally.com/assets/articles/docker-compose-course-app-postgres/cover.webp","width":1200,"height":675,"caption":"本地练习中的浏览器界面、数据库容器和持久化存储。"},"about":[{"@id":"https://producttally.com/products/udemy/#software"}],"dateModified":"2026-11-23","citation":["https://www.udemy.com/course/docker-mastery/","https://docs.docker.com/compose/gettingstarted/","https://hub.docker.com/_/postgres","https://docs.docker.com/engine/storage/volumes/","https://hub.docker.com/_/adminer","https://docs.docker.com/reference/cli/docker/compose/up/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/udemy/#software","name":"Udemy","url":"https://www.udemy.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"Udemy","item":"https://producttally.com/zh/products/udemy/"},{"@type":"ListItem","position":4,"name":"Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操","item":"https://producttally.com/zh/blog/udemy/docker-compose-course-app-postgres/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-70a62a047308.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="docker-compose-course-app-postgres" data-product-id="udemy"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">首页</a><a href="/zh/products/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/udemy/docker-compose-course-app-postgres/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/udemy/docker-compose-course-app-postgres/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/udemy/docker-compose-course-app-postgres/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/udemy/docker-compose-course-app-postgres/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/udemy/docker-compose-course-app-postgres/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/udemy/docker-compose-course-app-postgres/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/udemy/docker-compose-course-app-postgres/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/udemy/docker-compose-course-app-postgres/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">博客</a></li><li><a href="/zh/products/udemy/">Udemy</a></li><li><span aria-current="page">Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操</span></li></ol>
+  </nav><article class="wrap detail guide-article">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">工作流自动化 · 4 分钟阅读</p>
+        <h1>Udemy Docker Compose 课怎么选？应用与 PostgreSQL 实操</h1>
+        <p class="lead">用两个服务理解端口、服务名和数据卷，再重建数据库容器，确认原来的记录仍能读取。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-23">2026年11月23日</time></p>
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/docker-compose-course-app-postgres/cover.webp" srcset="/assets/articles/docker-compose-course-app-postgres/cover-small.webp 640w, /assets/articles/docker-compose-course-app-postgres/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 20rem"
+    width="1200" height="675" alt="本地练习中的浏览器界面、数据库容器和持久化存储。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid has-contents">
+      <nav class="article-toc" aria-label="本文目录">
+        <p class="eyebrow">本文目录</p>
+        <ol><li><a href="#section-0">两个容器都启动了，应用为什么还是连不上数据库？</a></li><li><a href="#section-1">把访问地址和数据存放位置分开理解</a></li><li><a href="#section-2">最后一关是把原来的记录查出来</a></li><li><a href="#section-3">可复制的 Compose 练习配置</a></li></ol>
+      </nav>
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>在 Udemy 选 Docker Compose 课，优先找要求你把应用和数据库连起来的章节。做到「浏览器能打开」以后，再确认数据在更换数据库容器后仍保留。这样选课，你能从一个项目里弄清服务名、端口和数据卷各自管什么。</p>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/udemy/">Udemy · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
+        <section id="section-0">
+          <h2>两个容器都启动了，应用为什么还是连不上数据库？</h2><p>假设你接到一个小团队的原型，交接只写着「开启 Docker」。可以用 Adminer 作为本机网页界面，把 PostgreSQL 服务命名为 db。浏览器从本机回环端口访问 Adminer，例如 127.0.0.1:8080。Adminer 的数据库地址填 db，这个练习无需把数据库端口映射到宿主机。Compose 默认网络中的服务可以通过服务名找到彼此。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.docker.com/compose/gettingstarted/">Docker Compose 入门</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/docker-compose-course-app-postgres/details.webp" width="1200" height="640"
+          alt="浏览器通过回环端口访问 Adminer，Adminer 通过服务名 db 访问 PostgreSQL。" loading="lazy" decoding="async"><figcaption>浏览器通过回环端口访问 Adminer，Adminer 通过服务名 db 访问 PostgreSQL。</figcaption></figure><section id="section-1">
+          <h2>把访问地址和数据存放位置分开理解</h2><div class="article-table"><table>
+    <caption>本机访问与存储</caption>
+    <thead><tr><th scope="col">要设置的内容</th><th scope="col">做法</th><th scope="col">看到什么算对</th></tr></thead>
+    <tbody><tr><th scope="row">网页入口</th><td>端口只绑定到 127.0.0.1</td><td>本机浏览器能打开 Adminer</td></tr><tr><th scope="row">数据库连接</th><td>PostgreSQL 服务取名 db</td><td>Adminer 连的是 db，不是它自己容器里的 localhost</td></tr><tr><th scope="row">数据保留</th><td>把命名数据卷挂到镜像对应的数据目录</td><td>更换数据库容器后，原来的练习记录还在</td></tr></tbody>
+  </table></div><p>只用独立的本地练习项目。选 PostgreSQL 17 官方镜像时，数据卷目标是 /var/lib/postgresql/data。换大版本前再确认镜像文档。Adminer 页面能打开、数据库暂时连不上时，先确认数据库是否已就绪。练习账号和密码只用于本地配置。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://hub.docker.com/_/postgres">PostgreSQL 官方镜像</a></li><li><a data-source-citation="true" href="https://docs.docker.com/engine/storage/volumes/">Docker 数据卷</a></li></ul>
+        </section><section id="section-2">
+          <h2>最后一关是把原来的记录查出来</h2><p>在练习库建 notes 表，放一个文本字段 body，写入 demo entry。用 docker compose up -d --force-recreate db 重建数据库容器，保留命名数据卷。等数据库就绪后重新连上，执行 SELECT body FROM notes;，预期仍只返回一条 demo entry。如果换成了空数据卷，那是在验证另一件事。</p><p>Udemy 的 *Docker Mastery* 目录中有 Compose V2 命令、Drupal 与 PostgreSQL 的双服务作业，还有独立的镜像构建作业。当前目标是把小项目在本机跑起来，可以先看 Compose 章节。本文的 Adminer 示例是同类架构的简化练习。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://trk.udemy.com/c/8189052/3193860/39854?u=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fdocker-mastery%2F" data-affiliate-click="udemy" data-affiliate-link-type="citation" target="_blank" rel="noopener">查看 Udemy 的 Docker Mastery 课程大纲</a></li><li><a data-source-citation="true" href="https://hub.docker.com/_/postgres">PostgreSQL 官方镜像</a></li><li><a data-source-citation="true" href="https://docs.docker.com/engine/storage/volumes/">Docker 数据卷</a></li></ul>
+        </section><section id="section-3">
+          <h2>可复制的 Compose 练习配置</h2><pre class="article-code" dir="ltr"><code translate="no">services:
+  ui:
+    image: adminer
+    ports:
+      - &quot;127.0.0.1:8080:8080&quot;
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: practice
+      POSTGRES_USER: learner
+      POSTGRES_PASSWORD: ${PRACTICE_DB_PASSWORD:?Set a local practice password}
+    volumes:
+      - notes-data:/var/lib/postgresql/data
+
+volumes:
+  notes-data:</code></pre><p>在练习目录的 .env 中设 PRACTICE_DB_PASSWORD，再运行 docker compose up -d。打开 http://127.0.0.1:8080，选择 PostgreSQL，服务器填 db、数据库填 practice、用户填 learner，密码用本地设置的值。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://hub.docker.com/_/adminer">Adminer 官方镜像</a></li><li><a data-source-citation="true" href="https://docs.docker.com/reference/cli/docker/compose/up/">Docker Compose up 命令</a></li></ul>
+        </section>
+        <section class="article-next" aria-label="查看 Udemy 的 Docker Mastery 课程大纲">
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p>
+          <div class="article-next-links"><a class="action" href="https://trk.udemy.com/c/8189052/3193860/39854?u=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fdocker-mastery%2F" data-product-destination="udemy" data-affiliate-click="udemy" data-affiliate-link-type="deep_link" target="_blank" rel="noopener">
+    <span>Udemy · 查看 Udemy 的 Docker Mastery 课程大纲</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a><a class="text-link" data-product-link-location="article-footer" href="/zh/products/udemy/">查看产品详情</a></div>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/blog/udemy/photoshop-layer-mask-product-photo/">Udemy Photoshop 课怎么选？用图层蒙版给商品图去背景</a></li><li><a href="/zh/blog/udemy/aws-cloud-practitioner-clf-c02-course/">AWS Cloud Practitioner 怎么备考？按 CLF-C02 考纲选 Udemy 课</a></li><li><a href="/zh/blog/udemy/pl-300-power-bi-sales-model-course/">Udemy PL-300 课怎么选？用 Power BI 做一个销售数据模型</a></li><li><a href="/zh/blog/udemy/wordpress-staging-site-redesign-course/">WordPress 改版前怎么建测试站？用首页改版选 Udemy 课程</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><ul><li><cite><a data-source-citation="true" href="https://trk.udemy.com/c/8189052/3193860/39854?u=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fdocker-mastery%2F" data-affiliate-click="udemy" data-affiliate-link-type="citation" target="_blank" rel="noopener">查看 Udemy 的 Docker Mastery 课程大纲</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.docker.com/compose/gettingstarted/">Docker Compose 入门</a></cite></li><li><cite><a data-source-citation="true" href="https://hub.docker.com/_/postgres">PostgreSQL 官方镜像</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.docker.com/engine/storage/volumes/">Docker 数据卷</a></cite></li><li><cite><a data-source-citation="true" href="https://hub.docker.com/_/adminer">Adminer 官方镜像</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.docker.com/reference/cli/docker/compose/up/">Docker Compose up 命令</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>为创作者和小团队寻找值得用的数字产品。</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/products/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/for-agents/">站点资料</a>
+        <a href="/zh/privacy/">隐私说明</a>
+        <a href="/zh/disclaimer/">免责声明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立产品刊物 · Evan 编辑</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

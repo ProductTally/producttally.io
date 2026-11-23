@@ -444,6 +444,42 @@
     },
     {
       "lang": "en",
+      "route": "blog/udemy/docker-compose-course-app-postgres",
+      "url": "/blog/udemy/docker-compose-course-app-postgres/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/photoshop-layer-mask-product-photo",
+      "url": "/blog/udemy/photoshop-layer-mask-product-photo/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/aws-cloud-practitioner-clf-c02-course",
+      "url": "/blog/udemy/aws-cloud-practitioner-clf-c02-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/pl-300-power-bi-sales-model-course",
+      "url": "/blog/udemy/pl-300-power-bi-sales-model-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/wordpress-staging-site-redesign-course",
+      "url": "/blog/udemy/wordpress-staging-site-redesign-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/udemy/git-merge-conflict-readme-course",
+      "url": "/blog/udemy/git-merge-conflict-readme-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
       "route": "blog/udemy/black-friday-course-coupon-checkout",
       "url": "/blog/udemy/black-friday-course-coupon-checkout/",
       "lastmod": "2026-11-23"
@@ -1733,6 +1769,42 @@
       "route": "blog/ai-search-measurement",
       "url": "/zh/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/docker-compose-course-app-postgres",
+      "url": "/zh/blog/udemy/docker-compose-course-app-postgres/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/photoshop-layer-mask-product-photo",
+      "url": "/zh/blog/udemy/photoshop-layer-mask-product-photo/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/aws-cloud-practitioner-clf-c02-course",
+      "url": "/zh/blog/udemy/aws-cloud-practitioner-clf-c02-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/pl-300-power-bi-sales-model-course",
+      "url": "/zh/blog/udemy/pl-300-power-bi-sales-model-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/wordpress-staging-site-redesign-course",
+      "url": "/zh/blog/udemy/wordpress-staging-site-redesign-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/git-merge-conflict-readme-course",
+      "url": "/zh/blog/udemy/git-merge-conflict-readme-course/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -3028,6 +3100,42 @@
     },
     {
       "lang": "es",
+      "route": "blog/udemy/docker-compose-course-app-postgres",
+      "url": "/es/blog/udemy/docker-compose-course-app-postgres/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/photoshop-layer-mask-product-photo",
+      "url": "/es/blog/udemy/photoshop-layer-mask-product-photo/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/aws-cloud-practitioner-clf-c02-course",
+      "url": "/es/blog/udemy/aws-cloud-practitioner-clf-c02-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/pl-300-power-bi-sales-model-course",
+      "url": "/es/blog/udemy/pl-300-power-bi-sales-model-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/wordpress-staging-site-redesign-course",
+      "url": "/es/blog/udemy/wordpress-staging-site-redesign-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/udemy/git-merge-conflict-readme-course",
+      "url": "/es/blog/udemy/git-merge-conflict-readme-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
       "route": "blog/udemy/black-friday-course-coupon-checkout",
       "url": "/es/blog/udemy/black-friday-course-coupon-checkout/",
       "lastmod": "2026-11-23"
@@ -4317,6 +4425,42 @@
       "route": "blog/ai-search-measurement",
       "url": "/ja/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/docker-compose-course-app-postgres",
+      "url": "/ja/blog/udemy/docker-compose-course-app-postgres/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/photoshop-layer-mask-product-photo",
+      "url": "/ja/blog/udemy/photoshop-layer-mask-product-photo/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/aws-cloud-practitioner-clf-c02-course",
+      "url": "/ja/blog/udemy/aws-cloud-practitioner-clf-c02-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/pl-300-power-bi-sales-model-course",
+      "url": "/ja/blog/udemy/pl-300-power-bi-sales-model-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/wordpress-staging-site-redesign-course",
+      "url": "/ja/blog/udemy/wordpress-staging-site-redesign-course/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/git-merge-conflict-readme-course",
+      "url": "/ja/blog/udemy/git-merge-conflict-readme-course/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
