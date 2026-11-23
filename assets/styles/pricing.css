@@ -1,11 +1,7 @@
-.pricing-notice {
-  margin-block-end: 1.25rem;
-  color: var(--muted);
-  font-size: .9rem;
-}
 .pricing-card {
-  display: grid;
-  max-inline-size: 46rem;
+  display: flex;
+  flex-direction: column;
+  min-inline-size: 0;
   gap: .75rem;
   padding: clamp(1.15rem, 3vw, 2.15rem);
   background: var(--surface);
@@ -17,7 +13,7 @@
   align-items: center;
   gap: .75rem;
 }
-.pricing-card h2 { font-size: clamp(1.4rem, 3vw, 2.1rem); }
+.pricing-card h2 { font-size: clamp(1.3rem, 2vw, 1.8rem); }
 .pricing-icon {
   display: grid;
   place-items: center;
@@ -30,12 +26,24 @@
 }
 .pricing-card > p, .pricing-policy { color: var(--muted); }
 .pricing-offer { padding-block: .5rem; }
-.pricing-amount { display: flex; align-items: baseline; flex-wrap: wrap; gap: .45rem; font: 600 clamp(2.5rem, 7vw, 3.5rem)/1.15 var(--body); color: var(--ink); }
+.pricing-amount { display: flex; align-items: baseline; gap: .2rem; font: 600 clamp(2.5rem, 7vw, 3.5rem)/1.15 var(--body); color: var(--ink); }
 .pricing-amount > span { font: 500 1.1rem/1.4 var(--body); }
 .pricing-offer > p + p { color: var(--muted); margin-block-start: .4rem; }
-.pricing-email { justify-self: start; margin-block-start: .5rem; max-inline-size: 100%; text-align: center; }
-.pricing-process { max-inline-size: 46rem; margin-block-start: 1.75rem; }
-.pricing-process h2 { font: 600 clamp(1.2rem, 2vw, 1.5rem)/1.4 var(--body); }
+.pricing-card .pricing-delivery {
+  padding: .75rem;
+  background: var(--wash);
+  color: var(--ink);
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+.pricing-card .pricing-quote { padding-block: .5rem; color: var(--ink); font-size: 1.35rem; font-weight: 600; }
+.pricing-email { align-self: flex-start; margin-block-start: auto; max-inline-size: 100%; text-align: center; white-space: normal; }
+.pricing-email .icon { flex: none; }
+.pricing-process, .pricing-faq, .pricing-review { max-inline-size: 54rem; margin-block-start: 1.75rem; }
+.pricing-process h2, .pricing-faq h2 { font: 600 clamp(1.2rem, 2vw, 1.5rem)/1.4 var(--body); }
+.pricing-faq > div { margin-block-start: .9rem; }
+.pricing-faq h3 { font: 600 1.05rem/1.5 var(--body); }
+.pricing-faq p { margin-block-start: .25rem; color: var(--muted); }
 .pricing-process ol { padding-inline-start: 1.3rem; margin-block-start: .7rem; color: var(--muted); }
 .pricing-process li + li { margin-block-start: .55rem; }
 .pricing-card ul {
@@ -51,30 +59,17 @@
   gap: .55rem;
   align-items: baseline;
 }
-.pricing-card li .icon { color: var(--forest); align-self: center; }
+.pricing-card li .icon { color: var(--forest); flex: none; }
 .pricing-contact { margin-block-start: 1.25rem; }
 .pricing-contact a { color: var(--accent-dark); }
 .pricing-policy { margin-block-start: .75rem; max-inline-size: 76ch; font-size: .9rem; }
 
 .pricing-layout {
   display: grid;
-  gap: clamp(1.5rem, 4vw, 3rem);
-  align-items: start;
+  gap: clamp(1rem, 2vw, 1.5rem);
 }
-.pricing-summary { min-inline-size: 0; }
-.pricing-illustration {
-  display: block;
-  inline-size: min(100%, 26rem);
-  block-size: auto;
-  justify-self: center;
-  border-radius: var(--radius);
-}
-@media (min-width: 64rem) {
-  .pricing-layout { grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); }
-  .pricing-illustration {
-    inline-size: 100%;
-    margin-block-start: clamp(2rem, 6vw, 5rem);
-  }
+@media (min-width: 52rem) {
+  .pricing-layout { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 .pricing-payment {

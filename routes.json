@@ -29,7 +29,8 @@
     {
       "lang": "en",
       "route": "pricing",
-      "url": "/pricing/"
+      "url": "/pricing/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
@@ -1357,7 +1358,8 @@
     {
       "lang": "zh",
       "route": "pricing",
-      "url": "/zh/pricing/"
+      "url": "/zh/pricing/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -2685,7 +2687,8 @@
     {
       "lang": "es",
       "route": "pricing",
-      "url": "/es/pricing/"
+      "url": "/es/pricing/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
@@ -4013,7 +4016,8 @@
     {
       "lang": "ja",
       "route": "pricing",
-      "url": "/ja/pricing/"
+      "url": "/ja/pricing/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",

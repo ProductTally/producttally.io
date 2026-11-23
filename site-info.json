@@ -16,6 +16,27 @@
     "billing": "One-time per product",
     "url": "https://producttally.com/pricing/"
   },
+  "seoGeoService": {
+    "name": "Single-page SEO & GEO report",
+    "description": "ProductTally audits one product detail page or ecommerce listing for search and AI visibility. You receive a prioritized plan with copy you can apply to the page.",
+    "price": 66,
+    "priceCurrency": "USD",
+    "billing": "One-time per page, paid after report delivery",
+    "delivery": "We email the report within 3 days of confirming the page URL. You pay after receiving it.",
+    "url": "https://producttally.com/pricing/#seo-geo-audit"
+  },
+  "customService": {
+    "name": "Custom web and content services",
+    "description": "Work directly with ProductTally to get a custom web page or content asset for your product.",
+    "deliverables": [
+      "HTML pages or sections for your site",
+      "Product visuals and other web images",
+      "Page copy, product descriptions or marketing text"
+    ],
+    "pricing": "Request a quote",
+    "contact": "Email us what you need, any reference materials and your desired deadline. We’ll confirm the deliverables, price and schedule by email.",
+    "url": "https://producttally.com/pricing/#custom-service"
+  },
   "locales": [
     {
       "language": "en",
