@@ -41,7 +41,7 @@
   "locales": [
     {
       "language": "en",
-      "description": "ProductTally is an independent product journal edited by Evan for creators and small teams. Find SaaS reviews, digital product profiles and practical software guides based on official sources.",
+      "description": "ProductTally helps creators and small teams choose software. Read independent SaaS reviews, sourced pricing and practical guides for your next task.",
       "facts": [
         {
           "label": "Publisher",
@@ -107,7 +107,7 @@
     },
     {
       "language": "zh-CN",
-      "description": "ProductTally 是由 Evan 编辑、面向创作者和小团队的独立产品刊物。我们依据官方资料，提供 SaaS 评测、数字产品介绍与软件实用指南。",
+      "description": "ProductTally 帮创作者和小团队选软件。通过独立 SaaS 测评和实用指南，了解工具适合谁、要花多少钱，以及如何开始。",
       "facts": [
         {
           "label": "编辑与发布",
@@ -173,7 +173,7 @@
     },
     {
       "language": "es",
-      "description": "ProductTally es una publicación independiente editada por Evan para creadores y equipos pequeños. Ofrece reseñas SaaS, perfiles de productos digitales y guías prácticas de software basadas en fuentes oficiales.",
+      "description": "ProductTally ayuda a creadores y equipos pequeños a elegir software con reseñas SaaS independientes, precios documentados y guías prácticas.",
       "facts": [
         {
           "label": "Editor",
@@ -239,7 +239,7 @@
     },
     {
       "language": "ja",
-      "description": "ProductTally は、Evan が編集するクリエイターと小規模チーム向けの独立した製品メディアです。公式情報に基づき、SaaSレビュー、デジタル製品紹介、ソフトウェア実用ガイドを掲載します。",
+      "description": "クリエイターと小規模チームのための独立したSaaSレビューと実用ガイド。製品を選ぶ前に、用途、料金、使い始め方を確認できます。",
       "facts": [
         {
           "label": "編集・公開",
