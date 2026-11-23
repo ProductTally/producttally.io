@@ -30,7 +30,7 @@
       "lang": "en",
       "route": "news",
       "url": "/news/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
@@ -1196,6 +1196,12 @@
     },
     {
       "lang": "en",
+      "route": "news/chatgpt-space-plus-collaboration",
+      "url": "/news/chatgpt-space-plus-collaboration/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
       "route": "news/dropbox-ai-agent-cloud-product-shift",
       "url": "/news/dropbox-ai-agent-cloud-product-shift/",
       "lastmod": "2026-11-19"
@@ -1270,7 +1276,7 @@
       "lang": "zh",
       "route": "news",
       "url": "/zh/news/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -2436,6 +2442,12 @@
     },
     {
       "lang": "zh",
+      "route": "news/chatgpt-space-plus-collaboration",
+      "url": "/zh/news/chatgpt-space-plus-collaboration/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
       "route": "news/dropbox-ai-agent-cloud-product-shift",
       "url": "/zh/news/dropbox-ai-agent-cloud-product-shift/",
       "lastmod": "2026-11-19"
@@ -2510,7 +2522,7 @@
       "lang": "es",
       "route": "news",
       "url": "/es/news/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
@@ -3676,6 +3688,12 @@
     },
     {
       "lang": "es",
+      "route": "news/chatgpt-space-plus-collaboration",
+      "url": "/es/news/chatgpt-space-plus-collaboration/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
       "route": "news/dropbox-ai-agent-cloud-product-shift",
       "url": "/es/news/dropbox-ai-agent-cloud-product-shift/",
       "lastmod": "2026-11-19"
@@ -3750,7 +3768,7 @@
       "lang": "ja",
       "route": "news",
       "url": "/ja/news/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
@@ -4913,6 +4931,12 @@
       "route": "blog/printful/printful-first-sample-order",
       "url": "/ja/blog/printful/printful-first-sample-order/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "news/chatgpt-space-plus-collaboration",
+      "url": "/ja/news/chatgpt-space-plus-collaboration/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
