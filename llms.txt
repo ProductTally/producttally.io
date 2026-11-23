@@ -1,37 +1,83 @@
 # ProductTally
 
-> Independent, evidence-led notes on SaaS, software, and digital products for creators and small teams.
+> ProductTally helps creators and small teams choose SaaS and digital products through sourced product profiles and practical guides. We also help product makers explain what they have built through commissioned editorial coverage.
 
-ProductTally product pages explain product positioning, supported features, practical uses, advantages, and relevant plan conditions, with official evidence, product imagery, demonstrations, and related guides. Guides provide practical workflows and evidence-led recommendations.
+Edited by Evan. Official website: https://producttally.com/. Updated: 2026-11-23.
+
+## Cooperation
+Product research and review: USD 99, one-time per product. Scope includes a product detail page and a practical guide adapted for the four published languages. Confirm scope and payment details by email; a payment link is provided by email. Commissioned coverage is identified and editorial conclusions remain independent. [Current scope and pricing](https://producttally.com/pricing/). Contact: support@producttally.com.
 
 ## English
-- [Back to home](https://producttally.com/)
-- [Blog](https://producttally.com/blog/)
-- [SaaS News](https://producttally.com/news/)
-- [About the project](https://producttally.com/about/)
+ProductTally helps creators and small teams choose SaaS and digital products through sourced product profiles and practical guides. We also help product makers explain what they have built through commissioned editorial coverage.
+
+- [About ProductTally](https://producttally.com/)
+- [Product directory](https://producttally.com/products/)
+- [Practical guides](https://producttally.com/blog/)
+- [SaaS news](https://producttally.com/news/)
+- [Review service & pricing](https://producttally.com/pricing/)
+- [About the editor](https://producttally.com/about/)
+- [Site facts](https://producttally.com/for-agents/)
+
+### See what we publish.
+- [What to give away when you sell templates on Payhip](https://producttally.com/blog/payhip/free-template-paid-bundle/): Help readers finish one quote for free, then give them a paid pack to manage deposits, balances, and changes.
+- [How to turn a vertical CapCut edit into a horizontal video](https://producttally.com/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/): Keep the existing timing and replace only shots that need wider source footage or new subtitles.
+- [How to check NotebookLM citations against the original PDF](https://producttally.com/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/): Compare conflicting sources in Gemini Notebook, formerly NotebookLM. Follow citations and check dates, units and scope using two public FCC reports.
 
 ## 简体中文
-- [回到首页](https://producttally.com/zh/)
-- [博客](https://producttally.com/zh/blog/)
+ProductTally 通过有来源的产品介绍和实用指南，帮助创作者与小团队选择 SaaS 和数字产品；也通过受委托的专题内容，帮助产品创作者讲清产品价值与使用场景。
+
+- [ProductTally 首页](https://producttally.com/zh/)
+- [产品广场](https://producttally.com/zh/products/)
+- [实用指南与博客](https://producttally.com/zh/blog/)
 - [SaaS 产品动态](https://producttally.com/zh/news/)
-- [关于这个项目](https://producttally.com/zh/about/)
+- [内容合作与价格](https://producttally.com/zh/pricing/)
+- [关于编辑](https://producttally.com/zh/about/)
+- [站点资料](https://producttally.com/zh/for-agents/)
+
+### 看看我们如何介绍产品。
+- [用 Payhip 卖模板，免费版该留什么？](https://producttally.com/zh/blog/payhip/free-template-paid-bundle/): 用一张报价表吸引有需求的读者，再把订金、尾款和变更管理做成付费项目包。
+- [CapCut 竖屏转横屏：保留剪辑节奏，调整必要镜头](https://producttally.com/zh/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/): 按三种易出错镜头检查素材、画面重构和字幕，保留已剪好的内容节奏。
+- [如何回到 PDF 原文核对 NotebookLM 的引用？](https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/): 用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。
 
 ## Español
-- [Volver al inicio](https://producttally.com/es/)
-- [Blog](https://producttally.com/es/blog/)
-- [Novedades SaaS](https://producttally.com/es/news/)
-- [Sobre el proyecto](https://producttally.com/es/about/)
+ProductTally ayuda a creadores y equipos pequeños a elegir SaaS y productos digitales con perfiles documentados y guías prácticas. También presenta productos mediante contenido editorial por encargo.
+
+- [Inicio de ProductTally](https://producttally.com/es/)
+- [Directorio de productos](https://producttally.com/es/products/)
+- [Guías prácticas](https://producttally.com/es/blog/)
+- [Noticias SaaS](https://producttally.com/es/news/)
+- [Servicio editorial y precio](https://producttally.com/es/pricing/)
+- [Sobre el editor](https://producttally.com/es/about/)
+- [Sobre el sitio](https://producttally.com/es/for-agents/)
+
+### Mira cómo presentamos productos.
+- [Qué regalar cuando vendes plantillas en Payhip](https://producttally.com/es/blog/payhip/free-template-paid-bundle/): Ayuda a tus lectores a cerrar un presupuesto y ofrece un pack de pago para gestionar anticipos, saldos y cambios.
+- [Cómo pasar un montaje de CapCut de vertical a horizontal](https://producttally.com/es/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/): Conserva la línea de tiempo y cambia solo los planos que requieren material más ancho o subtítulos nuevos.
+- [Cómo verificar las citas de NotebookLM en el PDF original](https://producttally.com/es/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/): Compara fuentes contradictorias en Gemini Notebook, antes NotebookLM. Revisa citas, fechas y unidades con dos informes públicos de la FCC.
 
 ## 日本語
-- [家に戻る](https://producttally.com/ja/)
-- [ブログ](https://producttally.com/ja/blog/)
-- [SaaS製品ニュース](https://producttally.com/ja/news/)
-- [プロジェクトについて](https://producttally.com/ja/about/)
+ProductTallyは、出典のある製品紹介と実用ガイドでクリエイターや小規模チームのSaaS・デジタル製品選びを支援します。製品開発者向けに、依頼に基づく紹介記事も制作します。
 
-## Editorial principles
-- Articles use official product documentation and cite documented vendor examples where available.
-- Product links lead to official vendor destinations.
+- [ProductTallyホーム](https://producttally.com/ja/)
+- [製品一覧](https://producttally.com/ja/products/)
+- [実用ガイドとブログ](https://producttally.com/ja/blog/)
+- [SaaSニュース](https://producttally.com/ja/news/)
+- [記事制作サービスと料金](https://producttally.com/ja/pricing/)
+- [編集者について](https://producttally.com/ja/about/)
+- [サイト情報](https://producttally.com/ja/for-agents/)
 
-## Site maps
-- [XML sitemap](https://producttally.com/sitemap.xml)
+### 私たちの製品紹介をご覧ください。
+- [Payhipでテンプレートを売るなら、無料版に何を入れる？](https://producttally.com/ja/blog/payhip/free-template-paid-bundle/): 無料の見積表で一件の見積もりを仕上げ、有料版で着手金や残金、変更依頼まで管理できるようにします。
+- [CapCutで縦動画を横動画に：編集を残して構図を調整](https://producttally.com/ja/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/): タイムラインを残し、元の広い素材や字幕の配置が必要なカットだけ編集し直します。
+- [NotebookLMの引用をPDF原文で確認する方法](https://producttally.com/ja/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/): Gemini Notebook（旧NotebookLM）で食い違う資料を比較。FCCの公開報告書2件を例に、引用元の日付・単位・対象範囲を確かめます。
+
+## Content and sources
+- Product profiles explain positioning, supported features, practical uses, plan conditions and official sources.
+- Guides connect products to specific tasks; examples of coverage are linked on the homepage.
+- SaaS news covers official releases and product changes.
+- ProductTally publishes editorial content; it is not the software vendor. Product conditions belong to the linked official sources.
+
+## Public resources
+- [Site facts JSON](https://producttally.com/site-info.json)
+- [Canonical XML sitemap](https://producttally.com/sitemap.xml)
 - [Robots policy](https://producttally.com/robots.txt)

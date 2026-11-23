@@ -248,3 +248,10 @@
   .directory-glyph { display: none; }
   .catalog-controls .search { max-inline-size: none; }
 }
+
+.product-directory-heading .directory-help { display: inline-flex; gap: .4rem; align-items: center; margin-block-start: .6rem; font-size: .85rem; }
+.product-selection-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 2rem; min-inline-size: 0; }
+.product-selection-grid h3 { font: 600 1rem/1.5 var(--body); margin-block-end: .5rem; }
+.product-selection-grid p { color: var(--muted); }
+.product-selection-grid .product-next-guide { grid-column: 1 / -1; padding-block-start: .5rem; border-block-start: 1px solid var(--line); }
+@media (max-width: 48rem) { .product-selection-grid { grid-template-columns: minmax(0, 1fr); } }

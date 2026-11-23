@@ -1,0 +1,285 @@
+{
+  "name": "ProductTally",
+  "url": "https://producttally.com/",
+  "updatedAt": "2026-11-23",
+  "editor": "Evan",
+  "contactEmail": "support@producttally.com",
+  "officialProfiles": {
+    "GitHub": "https://github.com/ProductTally",
+    "X": "https://x.com/Evanvkoi",
+    "YouTube": "https://www.youtube.com/@ProductTally"
+  },
+  "service": {
+    "name": "Product research and review",
+    "price": 99,
+    "priceCurrency": "USD",
+    "billing": "One-time per product",
+    "url": "https://producttally.com/pricing/"
+  },
+  "locales": [
+    {
+      "language": "en",
+      "description": "ProductTally helps creators and small teams choose SaaS and digital products through sourced product profiles and practical guides. We also help product makers explain what they have built through commissioned editorial coverage.",
+      "facts": [
+        {
+          "label": "Publisher",
+          "value": "ProductTally · Edited by Evan"
+        },
+        {
+          "label": "Audience",
+          "value": "Creators, small teams and product makers"
+        },
+        {
+          "label": "Content",
+          "value": "Product profiles, practical guides and SaaS news"
+        },
+        {
+          "label": "Languages",
+          "value": "English, Spanish, Japanese and Simplified Chinese"
+        }
+      ],
+      "pages": [
+        {
+          "name": "About ProductTally",
+          "url": "https://producttally.com/"
+        },
+        {
+          "name": "Product directory",
+          "url": "https://producttally.com/products/"
+        },
+        {
+          "name": "Practical guides",
+          "url": "https://producttally.com/blog/"
+        },
+        {
+          "name": "SaaS news",
+          "url": "https://producttally.com/news/"
+        },
+        {
+          "name": "Review service & pricing",
+          "url": "https://producttally.com/pricing/"
+        },
+        {
+          "name": "About the editor",
+          "url": "https://producttally.com/about/"
+        }
+      ],
+      "examples": [
+        {
+          "title": "What to give away when you sell templates on Payhip",
+          "description": "Help readers finish one quote for free, then give them a paid pack to manage deposits, balances, and changes.",
+          "url": "https://producttally.com/blog/payhip/free-template-paid-bundle/"
+        },
+        {
+          "title": "How to turn a vertical CapCut edit into a horizontal video",
+          "description": "Keep the existing timing and replace only shots that need wider source footage or new subtitles.",
+          "url": "https://producttally.com/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/"
+        },
+        {
+          "title": "How to check NotebookLM citations against the original PDF",
+          "description": "Compare conflicting sources in Gemini Notebook, formerly NotebookLM. Follow citations and check dates, units and scope using two public FCC reports.",
+          "url": "https://producttally.com/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+        }
+      ],
+      "reference": "https://producttally.com/for-agents/"
+    },
+    {
+      "language": "zh-CN",
+      "description": "ProductTally 通过有来源的产品介绍和实用指南，帮助创作者与小团队选择 SaaS 和数字产品；也通过受委托的专题内容，帮助产品创作者讲清产品价值与使用场景。",
+      "facts": [
+        {
+          "label": "编辑与发布",
+          "value": "ProductTally · 由 Evan 编辑"
+        },
+        {
+          "label": "面向人群",
+          "value": "创作者、小团队与产品创作者"
+        },
+        {
+          "label": "内容类型",
+          "value": "产品介绍、实用指南与 SaaS 动态"
+        },
+        {
+          "label": "支持语言",
+          "value": "英语、西班牙语、日语与简体中文"
+        }
+      ],
+      "pages": [
+        {
+          "name": "ProductTally 首页",
+          "url": "https://producttally.com/zh/"
+        },
+        {
+          "name": "产品广场",
+          "url": "https://producttally.com/zh/products/"
+        },
+        {
+          "name": "实用指南与博客",
+          "url": "https://producttally.com/zh/blog/"
+        },
+        {
+          "name": "SaaS 产品动态",
+          "url": "https://producttally.com/zh/news/"
+        },
+        {
+          "name": "内容合作与价格",
+          "url": "https://producttally.com/zh/pricing/"
+        },
+        {
+          "name": "关于编辑",
+          "url": "https://producttally.com/zh/about/"
+        }
+      ],
+      "examples": [
+        {
+          "title": "用 Payhip 卖模板，免费版该留什么？",
+          "description": "用一张报价表吸引有需求的读者，再把订金、尾款和变更管理做成付费项目包。",
+          "url": "https://producttally.com/zh/blog/payhip/free-template-paid-bundle/"
+        },
+        {
+          "title": "CapCut 竖屏转横屏：保留剪辑节奏，调整必要镜头",
+          "description": "按三种易出错镜头检查素材、画面重构和字幕，保留已剪好的内容节奏。",
+          "url": "https://producttally.com/zh/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/"
+        },
+        {
+          "title": "如何回到 PDF 原文核对 NotebookLM 的引用？",
+          "description": "用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。",
+          "url": "https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+        }
+      ],
+      "reference": "https://producttally.com/zh/for-agents/"
+    },
+    {
+      "language": "es",
+      "description": "ProductTally ayuda a creadores y equipos pequeños a elegir SaaS y productos digitales con perfiles documentados y guías prácticas. También presenta productos mediante contenido editorial por encargo.",
+      "facts": [
+        {
+          "label": "Editor",
+          "value": "ProductTally · Editado por Evan"
+        },
+        {
+          "label": "Público",
+          "value": "Creadores, equipos pequeños y desarrolladores de productos"
+        },
+        {
+          "label": "Contenido",
+          "value": "Perfiles, guías prácticas y noticias SaaS"
+        },
+        {
+          "label": "Idiomas",
+          "value": "Inglés, español, japonés y chino simplificado"
+        }
+      ],
+      "pages": [
+        {
+          "name": "Inicio de ProductTally",
+          "url": "https://producttally.com/es/"
+        },
+        {
+          "name": "Directorio de productos",
+          "url": "https://producttally.com/es/products/"
+        },
+        {
+          "name": "Guías prácticas",
+          "url": "https://producttally.com/es/blog/"
+        },
+        {
+          "name": "Noticias SaaS",
+          "url": "https://producttally.com/es/news/"
+        },
+        {
+          "name": "Servicio editorial y precio",
+          "url": "https://producttally.com/es/pricing/"
+        },
+        {
+          "name": "Sobre el editor",
+          "url": "https://producttally.com/es/about/"
+        }
+      ],
+      "examples": [
+        {
+          "title": "Qué regalar cuando vendes plantillas en Payhip",
+          "description": "Ayuda a tus lectores a cerrar un presupuesto y ofrece un pack de pago para gestionar anticipos, saldos y cambios.",
+          "url": "https://producttally.com/es/blog/payhip/free-template-paid-bundle/"
+        },
+        {
+          "title": "Cómo pasar un montaje de CapCut de vertical a horizontal",
+          "description": "Conserva la línea de tiempo y cambia solo los planos que requieren material más ancho o subtítulos nuevos.",
+          "url": "https://producttally.com/es/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/"
+        },
+        {
+          "title": "Cómo verificar las citas de NotebookLM en el PDF original",
+          "description": "Compara fuentes contradictorias en Gemini Notebook, antes NotebookLM. Revisa citas, fechas y unidades con dos informes públicos de la FCC.",
+          "url": "https://producttally.com/es/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+        }
+      ],
+      "reference": "https://producttally.com/es/for-agents/"
+    },
+    {
+      "language": "ja",
+      "description": "ProductTallyは、出典のある製品紹介と実用ガイドでクリエイターや小規模チームのSaaS・デジタル製品選びを支援します。製品開発者向けに、依頼に基づく紹介記事も制作します。",
+      "facts": [
+        {
+          "label": "編集・公開",
+          "value": "ProductTally · 編集 Evan"
+        },
+        {
+          "label": "対象読者",
+          "value": "クリエイター、小規模チーム、製品開発者"
+        },
+        {
+          "label": "コンテンツ",
+          "value": "製品紹介、実用ガイド、SaaSニュース"
+        },
+        {
+          "label": "対応言語",
+          "value": "英語、スペイン語、日本語、簡体字中国語"
+        }
+      ],
+      "pages": [
+        {
+          "name": "ProductTallyホーム",
+          "url": "https://producttally.com/ja/"
+        },
+        {
+          "name": "製品一覧",
+          "url": "https://producttally.com/ja/products/"
+        },
+        {
+          "name": "実用ガイドとブログ",
+          "url": "https://producttally.com/ja/blog/"
+        },
+        {
+          "name": "SaaSニュース",
+          "url": "https://producttally.com/ja/news/"
+        },
+        {
+          "name": "記事制作サービスと料金",
+          "url": "https://producttally.com/ja/pricing/"
+        },
+        {
+          "name": "編集者について",
+          "url": "https://producttally.com/ja/about/"
+        }
+      ],
+      "examples": [
+        {
+          "title": "Payhipでテンプレートを売るなら、無料版に何を入れる？",
+          "description": "無料の見積表で一件の見積もりを仕上げ、有料版で着手金や残金、変更依頼まで管理できるようにします。",
+          "url": "https://producttally.com/ja/blog/payhip/free-template-paid-bundle/"
+        },
+        {
+          "title": "CapCutで縦動画を横動画に：編集を残して構図を調整",
+          "description": "タイムラインを残し、元の広い素材や字幕の配置が必要なカットだけ編集し直します。",
+          "url": "https://producttally.com/ja/blog/capcut/reuse-vertical-edits-for-a-horizontal-cut/"
+        },
+        {
+          "title": "NotebookLMの引用をPDF原文で確認する方法",
+          "description": "Gemini Notebook（旧NotebookLM）で食い違う資料を比較。FCCの公開報告書2件を例に、引用元の日付・単位・対象範囲を確かめます。",
+          "url": "https://producttally.com/ja/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"
+        }
+      ],
+      "reference": "https://producttally.com/ja/for-agents/"
+    }
+  ]
+}

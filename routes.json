@@ -18,8 +18,13 @@
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-23",
-      "canonicalRoute": ""
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "for-agents",
+      "url": "/for-agents/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
@@ -46,169 +51,163 @@
       "lang": "en",
       "route": "products/anydo",
       "url": "/products/anydo/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/submagic",
       "url": "/products/submagic/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/nifty",
       "url": "/products/nifty/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/oh-dear",
       "url": "/products/oh-dear/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/castos",
       "url": "/products/castos/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/frase",
       "url": "/products/frase/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/publer",
       "url": "/products/publer/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/mangools",
       "url": "/products/mangools/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/systeme-io",
       "url": "/products/systeme-io/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/capcut",
       "url": "/products/capcut/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/gemini-notebook",
       "url": "/products/gemini-notebook/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/deepl",
       "url": "/products/deepl/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/n8n",
       "url": "/products/n8n/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/quso-ai",
       "url": "/products/quso-ai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/elevenlabs",
       "url": "/products/elevenlabs/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/gamma",
       "url": "/products/gamma/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/signaturely",
       "url": "/products/signaturely/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/pombo",
       "url": "/products/pombo/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/flowlu",
       "url": "/products/flowlu/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/windsor-ai",
       "url": "/products/windsor-ai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/social-intents",
       "url": "/products/social-intents/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/answerthis",
       "url": "/products/answerthis/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/sked-social",
       "url": "/products/sked-social/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "en",
-      "route": "products/coupler-io",
-      "url": "/products/coupler-io/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/videogen",
       "url": "/products/videogen/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/cal-com",
       "url": "/products/cal-com/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/pdf2go",
       "url": "/products/pdf2go/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/seopress",
       "url": "/products/seopress/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
@@ -220,97 +219,91 @@
       "lang": "en",
       "route": "products/magnific",
       "url": "/products/magnific/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/udemy",
       "url": "/products/udemy/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/joggai",
       "url": "/products/joggai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/pcloud",
       "url": "/products/pcloud/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "en",
-      "route": "products/mailbluster",
-      "url": "/products/mailbluster/",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/movavi-video-editor",
       "url": "/products/movavi-video-editor/",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/teachable",
       "url": "/products/teachable/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/adguard",
       "url": "/products/adguard/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/predis-ai",
       "url": "/products/predis-ai/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/printful",
       "url": "/products/printful/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/streamyard",
       "url": "/products/streamyard/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/restream",
       "url": "/products/restream/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/printify",
       "url": "/products/printify/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/higgsfield",
       "url": "/products/higgsfield/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/vizard",
       "url": "/products/vizard/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/gravity-forms",
       "url": "/products/gravity-forms/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
@@ -322,13 +315,13 @@
       "lang": "en",
       "route": "products/sembly-ai",
       "url": "/products/sembly-ai/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products/helpcrunch",
       "url": "/products/helpcrunch/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
@@ -1294,8 +1287,13 @@
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-23",
-      "canonicalRoute": ""
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "for-agents",
+      "url": "/zh/for-agents/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -1322,169 +1320,163 @@
       "lang": "zh",
       "route": "products/anydo",
       "url": "/zh/products/anydo/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/submagic",
       "url": "/zh/products/submagic/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/nifty",
       "url": "/zh/products/nifty/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/oh-dear",
       "url": "/zh/products/oh-dear/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/castos",
       "url": "/zh/products/castos/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/frase",
       "url": "/zh/products/frase/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/publer",
       "url": "/zh/products/publer/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/mangools",
       "url": "/zh/products/mangools/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/systeme-io",
       "url": "/zh/products/systeme-io/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/capcut",
       "url": "/zh/products/capcut/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/gemini-notebook",
       "url": "/zh/products/gemini-notebook/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/deepl",
       "url": "/zh/products/deepl/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/n8n",
       "url": "/zh/products/n8n/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/quso-ai",
       "url": "/zh/products/quso-ai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/elevenlabs",
       "url": "/zh/products/elevenlabs/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/gamma",
       "url": "/zh/products/gamma/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/signaturely",
       "url": "/zh/products/signaturely/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/pombo",
       "url": "/zh/products/pombo/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/flowlu",
       "url": "/zh/products/flowlu/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/windsor-ai",
       "url": "/zh/products/windsor-ai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/social-intents",
       "url": "/zh/products/social-intents/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/answerthis",
       "url": "/zh/products/answerthis/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/sked-social",
       "url": "/zh/products/sked-social/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "zh",
-      "route": "products/coupler-io",
-      "url": "/zh/products/coupler-io/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/videogen",
       "url": "/zh/products/videogen/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/cal-com",
       "url": "/zh/products/cal-com/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/pdf2go",
       "url": "/zh/products/pdf2go/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/seopress",
       "url": "/zh/products/seopress/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -1496,97 +1488,91 @@
       "lang": "zh",
       "route": "products/magnific",
       "url": "/zh/products/magnific/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/udemy",
       "url": "/zh/products/udemy/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/joggai",
       "url": "/zh/products/joggai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/pcloud",
       "url": "/zh/products/pcloud/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "zh",
-      "route": "products/mailbluster",
-      "url": "/zh/products/mailbluster/",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/movavi-video-editor",
       "url": "/zh/products/movavi-video-editor/",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/teachable",
       "url": "/zh/products/teachable/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/adguard",
       "url": "/zh/products/adguard/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/predis-ai",
       "url": "/zh/products/predis-ai/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/printful",
       "url": "/zh/products/printful/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/streamyard",
       "url": "/zh/products/streamyard/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/restream",
       "url": "/zh/products/restream/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/printify",
       "url": "/zh/products/printify/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/higgsfield",
       "url": "/zh/products/higgsfield/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/vizard",
       "url": "/zh/products/vizard/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/gravity-forms",
       "url": "/zh/products/gravity-forms/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -1598,13 +1584,13 @@
       "lang": "zh",
       "route": "products/sembly-ai",
       "url": "/zh/products/sembly-ai/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products/helpcrunch",
       "url": "/zh/products/helpcrunch/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -2570,8 +2556,13 @@
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-23",
-      "canonicalRoute": ""
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "for-agents",
+      "url": "/es/for-agents/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
@@ -2598,169 +2589,163 @@
       "lang": "es",
       "route": "products/anydo",
       "url": "/es/products/anydo/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/submagic",
       "url": "/es/products/submagic/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/nifty",
       "url": "/es/products/nifty/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/oh-dear",
       "url": "/es/products/oh-dear/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/castos",
       "url": "/es/products/castos/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/frase",
       "url": "/es/products/frase/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/publer",
       "url": "/es/products/publer/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/mangools",
       "url": "/es/products/mangools/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/systeme-io",
       "url": "/es/products/systeme-io/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/capcut",
       "url": "/es/products/capcut/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/gemini-notebook",
       "url": "/es/products/gemini-notebook/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/deepl",
       "url": "/es/products/deepl/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/n8n",
       "url": "/es/products/n8n/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/quso-ai",
       "url": "/es/products/quso-ai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/elevenlabs",
       "url": "/es/products/elevenlabs/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/gamma",
       "url": "/es/products/gamma/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/signaturely",
       "url": "/es/products/signaturely/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/pombo",
       "url": "/es/products/pombo/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/flowlu",
       "url": "/es/products/flowlu/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/windsor-ai",
       "url": "/es/products/windsor-ai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/social-intents",
       "url": "/es/products/social-intents/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/answerthis",
       "url": "/es/products/answerthis/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/sked-social",
       "url": "/es/products/sked-social/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "es",
-      "route": "products/coupler-io",
-      "url": "/es/products/coupler-io/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/videogen",
       "url": "/es/products/videogen/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/cal-com",
       "url": "/es/products/cal-com/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/pdf2go",
       "url": "/es/products/pdf2go/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/seopress",
       "url": "/es/products/seopress/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
@@ -2772,97 +2757,91 @@
       "lang": "es",
       "route": "products/magnific",
       "url": "/es/products/magnific/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/udemy",
       "url": "/es/products/udemy/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/joggai",
       "url": "/es/products/joggai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/pcloud",
       "url": "/es/products/pcloud/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "es",
-      "route": "products/mailbluster",
-      "url": "/es/products/mailbluster/",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/movavi-video-editor",
       "url": "/es/products/movavi-video-editor/",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/teachable",
       "url": "/es/products/teachable/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/adguard",
       "url": "/es/products/adguard/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/predis-ai",
       "url": "/es/products/predis-ai/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/printful",
       "url": "/es/products/printful/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/streamyard",
       "url": "/es/products/streamyard/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/restream",
       "url": "/es/products/restream/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/printify",
       "url": "/es/products/printify/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/higgsfield",
       "url": "/es/products/higgsfield/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/vizard",
       "url": "/es/products/vizard/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/gravity-forms",
       "url": "/es/products/gravity-forms/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
@@ -2874,13 +2853,13 @@
       "lang": "es",
       "route": "products/sembly-ai",
       "url": "/es/products/sembly-ai/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products/helpcrunch",
       "url": "/es/products/helpcrunch/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
@@ -3846,8 +3825,13 @@
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-23",
-      "canonicalRoute": ""
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "for-agents",
+      "url": "/ja/for-agents/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
@@ -3874,169 +3858,163 @@
       "lang": "ja",
       "route": "products/anydo",
       "url": "/ja/products/anydo/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/submagic",
       "url": "/ja/products/submagic/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/nifty",
       "url": "/ja/products/nifty/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/oh-dear",
       "url": "/ja/products/oh-dear/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/castos",
       "url": "/ja/products/castos/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/frase",
       "url": "/ja/products/frase/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/publer",
       "url": "/ja/products/publer/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/mangools",
       "url": "/ja/products/mangools/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/systeme-io",
       "url": "/ja/products/systeme-io/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/capcut",
       "url": "/ja/products/capcut/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/gemini-notebook",
       "url": "/ja/products/gemini-notebook/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/deepl",
       "url": "/ja/products/deepl/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/n8n",
       "url": "/ja/products/n8n/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/quso-ai",
       "url": "/ja/products/quso-ai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/elevenlabs",
       "url": "/ja/products/elevenlabs/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/gamma",
       "url": "/ja/products/gamma/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/signaturely",
       "url": "/ja/products/signaturely/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/pombo",
       "url": "/ja/products/pombo/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/flowlu",
       "url": "/ja/products/flowlu/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/windsor-ai",
       "url": "/ja/products/windsor-ai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/social-intents",
       "url": "/ja/products/social-intents/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/answerthis",
       "url": "/ja/products/answerthis/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/sked-social",
       "url": "/ja/products/sked-social/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "ja",
-      "route": "products/coupler-io",
-      "url": "/ja/products/coupler-io/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/videogen",
       "url": "/ja/products/videogen/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/cal-com",
       "url": "/ja/products/cal-com/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/pdf2go",
       "url": "/ja/products/pdf2go/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/seopress",
       "url": "/ja/products/seopress/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
@@ -4048,97 +4026,91 @@
       "lang": "ja",
       "route": "products/magnific",
       "url": "/ja/products/magnific/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/udemy",
       "url": "/ja/products/udemy/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/joggai",
       "url": "/ja/products/joggai/",
-      "lastmod": "2026-11-12"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/pcloud",
       "url": "/ja/products/pcloud/",
-      "lastmod": "2026-11-12"
-    },
-    {
-      "lang": "ja",
-      "route": "products/mailbluster",
-      "url": "/ja/products/mailbluster/",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/movavi-video-editor",
       "url": "/ja/products/movavi-video-editor/",
-      "lastmod": "2026-11-13"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/teachable",
       "url": "/ja/products/teachable/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/adguard",
       "url": "/ja/products/adguard/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/predis-ai",
       "url": "/ja/products/predis-ai/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/printful",
       "url": "/ja/products/printful/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/streamyard",
       "url": "/ja/products/streamyard/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/restream",
       "url": "/ja/products/restream/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/printify",
       "url": "/ja/products/printify/",
-      "lastmod": "2026-11-16"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/higgsfield",
       "url": "/ja/products/higgsfield/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/vizard",
       "url": "/ja/products/vizard/",
-      "lastmod": "2026-11-18"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/gravity-forms",
       "url": "/ja/products/gravity-forms/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
@@ -4150,13 +4122,13 @@
       "lang": "ja",
       "route": "products/sembly-ai",
       "url": "/ja/products/sembly-ai/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products/helpcrunch",
       "url": "/ja/products/helpcrunch/",
-      "lastmod": "2026-11-17"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
@@ -5975,14 +5947,6 @@
       "target": "/blog/sked-social/client-instagram-post-approval/"
     },
     {
-      "url": "/guides/coupler-io/sync-ga4-weekly-report/",
-      "target": "/products/coupler-io/"
-    },
-    {
-      "url": "/blog/coupler-io/sync-ga4-weekly-report/",
-      "target": "/products/coupler-io/"
-    },
-    {
       "url": "/guides/videogen/script-to-narrated-short/",
       "target": "/products/videogen/"
     },
@@ -6069,14 +6033,6 @@
     {
       "url": "/blog/joggai/url-to-video-15-second-product-ad/",
       "target": "/products/joggai/"
-    },
-    {
-      "url": "/guides/mailbluster/amazon-ses-first-newsletter/",
-      "target": "/products/mailbluster/"
-    },
-    {
-      "url": "/blog/mailbluster/amazon-ses-first-newsletter/",
-      "target": "/products/mailbluster/"
     },
     {
       "url": "/guides/payhip/one-time-digital-product-bundle/",
@@ -7011,14 +6967,6 @@
       "target": "/zh/blog/sked-social/client-instagram-post-approval/"
     },
     {
-      "url": "/zh/guides/coupler-io/sync-ga4-weekly-report/",
-      "target": "/zh/products/coupler-io/"
-    },
-    {
-      "url": "/zh/blog/coupler-io/sync-ga4-weekly-report/",
-      "target": "/zh/products/coupler-io/"
-    },
-    {
       "url": "/zh/guides/videogen/script-to-narrated-short/",
       "target": "/zh/products/videogen/"
     },
@@ -7105,14 +7053,6 @@
     {
       "url": "/zh/blog/joggai/url-to-video-15-second-product-ad/",
       "target": "/zh/products/joggai/"
-    },
-    {
-      "url": "/zh/guides/mailbluster/amazon-ses-first-newsletter/",
-      "target": "/zh/products/mailbluster/"
-    },
-    {
-      "url": "/zh/blog/mailbluster/amazon-ses-first-newsletter/",
-      "target": "/zh/products/mailbluster/"
     },
     {
       "url": "/zh/guides/payhip/one-time-digital-product-bundle/",
@@ -8047,14 +7987,6 @@
       "target": "/es/blog/sked-social/client-instagram-post-approval/"
     },
     {
-      "url": "/es/guides/coupler-io/sync-ga4-weekly-report/",
-      "target": "/es/products/coupler-io/"
-    },
-    {
-      "url": "/es/blog/coupler-io/sync-ga4-weekly-report/",
-      "target": "/es/products/coupler-io/"
-    },
-    {
       "url": "/es/guides/videogen/script-to-narrated-short/",
       "target": "/es/products/videogen/"
     },
@@ -8141,14 +8073,6 @@
     {
       "url": "/es/blog/joggai/url-to-video-15-second-product-ad/",
       "target": "/es/products/joggai/"
-    },
-    {
-      "url": "/es/guides/mailbluster/amazon-ses-first-newsletter/",
-      "target": "/es/products/mailbluster/"
-    },
-    {
-      "url": "/es/blog/mailbluster/amazon-ses-first-newsletter/",
-      "target": "/es/products/mailbluster/"
     },
     {
       "url": "/es/guides/payhip/one-time-digital-product-bundle/",
@@ -9083,14 +9007,6 @@
       "target": "/ja/blog/sked-social/client-instagram-post-approval/"
     },
     {
-      "url": "/ja/guides/coupler-io/sync-ga4-weekly-report/",
-      "target": "/ja/products/coupler-io/"
-    },
-    {
-      "url": "/ja/blog/coupler-io/sync-ga4-weekly-report/",
-      "target": "/ja/products/coupler-io/"
-    },
-    {
       "url": "/ja/guides/videogen/script-to-narrated-short/",
       "target": "/ja/products/videogen/"
     },
@@ -9177,14 +9093,6 @@
     {
       "url": "/ja/blog/joggai/url-to-video-15-second-product-ad/",
       "target": "/ja/products/joggai/"
-    },
-    {
-      "url": "/ja/guides/mailbluster/amazon-ses-first-newsletter/",
-      "target": "/ja/products/mailbluster/"
-    },
-    {
-      "url": "/ja/blog/mailbluster/amazon-ses-first-newsletter/",
-      "target": "/ja/products/mailbluster/"
     },
     {
       "url": "/ja/guides/payhip/one-time-digital-product-bundle/",
