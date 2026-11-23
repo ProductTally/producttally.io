@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#webpage","name":"播客音量怎么统一？用 LUFS 与真峰值检查同一段录音","description":"先平衡各位说话人的音量，再按 Apple Podcasts 官方响度与真峰值要求检查导出。","url":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#article","headline":"播客音量怎么统一？用 LUFS 与真峰值检查同一段录音","description":"先平衡各位说话人的音量，再按 Apple Podcasts 官方响度与真峰值要求检查导出。","url":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#article-image","url":"https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp","contentUrl":"https://producttally.com/assets/articles/check-podcast-loudness-before-export/cover.webp","width":1180,"height":520,"caption":"Apple Podcasts 官方编码前综合响度和真峰值建议。"},"dateModified":"2026-11-18","citation":["https://ffmpeg.org/ffmpeg-filters.html#loudnorm","https://podcasters.apple.com/support/893-audio-requirements"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"播客制作","item":"https://producttally.com/zh/blog/podcast-production/"},{"@type":"ListItem","position":4,"name":"每期播客音量都不一样，剪辑前怎么统一检查？","item":"https://producttally.com/zh/blog/podcast-production/check-podcast-loudness-before-export/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="check-podcast-loudness-before-export" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">先平衡各位说话人的音量，再按 Apple Podcasts 官方响度与真峰值要求检查导出。</p>
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
           · 更新于 <time datetime="2026-11-18">2026年11月18日</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>先把同一集里的人声调得相对均衡，再测整集导出文件的综合响度和真峰值。前者帮你听清不同人说话，后者帮你看每集的总体音量和峰值余量。两段录音峰值一样，听起来也可能一大一小。做完单轨调整后，以同一个播放音量回听各人开头、结尾和换人处。</p>
-        </div>
+    <p>先把同一集里的人声调得相对均衡，再测整集导出文件的综合响度和真峰值。前者帮你听清不同人说话，后者帮你看每集的总体音量和峰值余量。两段录音峰值一样，听起来也可能一大一小。做完单轨调整后，以同一个播放音量回听各人开头、结尾和换人处。</p>
+  </div>
         <section id="section-0">
           <h2>先平衡人声，再核对导出的混音</h2><p>FFmpeg 官方文档介绍了可指定综合响度和真峰值的 loudnorm。先确定交付平台目标，再用同一个播放音量听说话人之间的衔接，调整到清楚自然。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">FFmpeg loudnorm 滤镜</a></li></ul>
         </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/check-podcast-loudness-before-export/details.webp" width="1180" height="520"
@@ -118,7 +119,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
       </div>
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>

@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/#webpage","name":"MerchantReturnPolicy en Google: política general y excepción para un producto","description":"Define la política habitual en Organization y añade la excepción en el Offer correspondiente.","url":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/","inLanguage":"es","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/#article-image"},"breadcrumb":{"@id":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/#article","headline":"MerchantReturnPolicy en Google: política general y excepción para un producto","description":"Define la política habitual en Organization y añade la excepción en el Offer correspondiente.","url":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/","inLanguage":"es","mainEntityOfPage":{"@id":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/#article-image","url":"https://producttally.com/assets/articles/merchant-return-policy-product-exception/cover.webp","contentUrl":"https://producttally.com/assets/articles/merchant-return-policy-product-exception/cover.webp","width":1200,"height":675,"caption":"Ejemplo: la regla de la tienda queda en Organization y la excepción de la taza, en su Offer."},"dateModified":"2026-11-23","citation":["https://developers.google.com/search/docs/appearance/structured-data/return-policy","https://developers.google.com/search/docs/appearance/structured-data/merchant-listing#return-details"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://producttally.com/es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://producttally.com/es/blog/"},{"@type":"ListItem","position":3,"name":"Google Shopping","item":"https://producttally.com/es/blog/google-shopping/"},{"@type":"ListItem","position":4,"name":"MerchantReturnPolicy en Google: política general y excepción para un producto","item":"https://producttally.com/es/blog/google-shopping/merchant-return-policy-product-exception/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="es" data-article-id="merchant-return-policy-product-exception" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">Define la política habitual en Organization y añade la excepción en el Offer correspondiente.</p>
         <p class="byline">Por <a href="/es/about/">Evan</a>
           · Actualizado <time datetime="2026-11-23">23 nov 2026</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>Añade la política general mediante hasMerchantReturnPolicy dentro de Organization. Para un producto con condiciones distintas, añade la política en el Offer correspondiente. El marcado debe coincidir con lo que ve el comprador en su mercado.</p>
-        </div>
+    <p>Añade la política general mediante hasMerchantReturnPolicy dentro de Organization. Para un producto con condiciones distintas, añade la política en el Offer correspondiente. El marcado debe coincidir con lo que ve el comprador en su mercado.</p>
+  </div>
         <section id="section-0">
           <h2>Parte de la política que ya publica tu tienda</h2><p>Imagina una tienda de hogar que acepta devoluciones durante 30 días en Estados Unidos. Casi todos los productos siguen esa regla. Una taza personalizada tiene otras condiciones que ya aparecen en su ficha. Los datos estructurados deben representar ambos textos.</p><p>Usa hasMerchantReturnPolicy dentro de Organization para indicar la regla habitual. Consulta en Google las propiedades applicableCountry y returnPolicyCategory, junto con el número de días cuando exista un plazo limitado. Elige los valores según la política vigente.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.google.com/search/docs/appearance/structured-data/return-policy">Google Search Central · MerchantReturnPolicy</a></li></ul>
         </section><section id="section-1">
@@ -127,7 +128,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>Un rincón tranquilo de internet para encontrar mejores productos.</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Escribir a Evan</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Escribir a Evan</a>
       </div>
       <nav aria-label="Navegación del pie de página">
         <a href="/es/">Productos</a>

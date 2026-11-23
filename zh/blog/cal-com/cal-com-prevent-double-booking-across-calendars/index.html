@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#webpage","name":"Cal.com 怎么用两张日历避免重复预约？","description":"区分冲突检查和写入位置，用两条预约链接核对忙碌、空闲和私密事件。","url":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#article","headline":"Cal.com 怎么用两张日历避免重复预约？","description":"区分冲突检查和写入位置，用两条预约链接核对忙碌、空闲和私密事件。","url":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#article-image","url":"https://producttally.com/assets/articles/cal-com-prevent-double-booking-across-calendars/cover.webp","contentUrl":"https://producttally.com/assets/articles/cal-com-prevent-double-booking-across-calendars/cover.webp","width":1180,"height":520,"caption":"两条预约链接读取同一组忙闲状态。"},"about":[{"@id":"https://producttally.com/products/cal-com/#software"}],"dateModified":"2026-11-18","citation":["https://github.com/calcom/help/blob/5ae07a6d29140179eafbea8a70e77cd90f532735/my-account/calendars-and-conferencing.mdx","https://github.com/calcom/help/blob/5ae07a6d29140179eafbea8a70e77cd90f532735/event-types/eventtype-specific-checking-for-conflicts.mdx","https://developers.google.com/workspace/calendar/api/v3/reference/events"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/cal-com/#software","name":"Cal.com","url":"https://cal.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"Cal.com","item":"https://producttally.com/zh/products/cal-com/"},{"@type":"ListItem","position":4,"name":"两个客户用不同链接预约，怎么避免抢到你的同一段时间？","item":"https://producttally.com/zh/blog/cal-com/cal-com-prevent-double-booking-across-calendars/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="cal-com-prevent-double-booking-across-calendars" data-product-id="cal-com"></script>
@@ -83,6 +83,7 @@
         <p class="lead">区分冲突检查和写入位置，用两条预约链接核对忙碌、空闲和私密事件。</p>
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
           · 更新于 <time datetime="2026-11-18">2026年11月18日</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,9 +97,9 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>要分别设置 Cal.com 「从哪些日历读冲突」和「把新预约写到哪张日历」。假设你用客户 A 和客户 B 的两条预约链接接单，想把新预约分别记到两张日历上。只给每条链接选一个写入位置，无法确认另一条链接也会读取这个忙碌时段。使用 Google Calendar 时，在 Cal.com 的 Settings → Calendars 核对 Check for conflicts，并单独核对 Add events to。官方帮助也列出了按单个活动类型覆盖写入日历的设置。 这个例子用两条个人预约链接。如果某条链接覆盖了账号的冲突设置，也要打开那条链接自己的日历清单核对。</p>
-          <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/cal-com/">Cal.com · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
-        </div>
+    <p>要分别设置 Cal.com 「从哪些日历读冲突」和「把新预约写到哪张日历」。假设你用客户 A 和客户 B 的两条预约链接接单，想把新预约分别记到两张日历上。只给每条链接选一个写入位置，无法确认另一条链接也会读取这个忙碌时段。使用 Google Calendar 时，在 Cal.com 的 Settings → Calendars 核对 Check for conflicts，并单独核对 Add events to。官方帮助也列出了按单个活动类型覆盖写入日历的设置。 这个例子用两条个人预约链接。如果某条链接覆盖了账号的冲突设置，也要打开那条链接自己的日历清单核对。</p>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/cal-com/">Cal.com · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
         <section id="section-0">
           <h2>用三种日历事件找出漏查的位置</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://github.com/calcom/help/blob/5ae07a6d29140179eafbea8a70e77cd90f532735/my-account/calendars-and-conferencing.mdx">Cal.com 冲突检查和写入位置设置</a></li><li><a data-source-citation="true" href="https://github.com/calcom/help/blob/5ae07a6d29140179eafbea8a70e77cd90f532735/event-types/eventtype-specific-checking-for-conflicts.mdx">Cal.com 官方单链接冲突设置</a></li></ul><p>预演中让两条链接读取同样的三张冲突日历，测试事件各占 30 分钟。私密忙碌事件的详情应对访客隐藏，但忙碌时段仍影响可约时间。标为空闲的事件本身不应占掉时段。用退出登录的窗口查看，测试时先排除缓冲等其他规则。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.google.com/workspace/calendar/api/v3/reference/events">Google 日历事件的忙闲规则</a></li></ul><p>挑一天有多个空档，先让两个访客链接显示同样的可用时间。用下面的假数据核对：</p><div class="article-table"><table>
     <caption>用三种日历事件找出漏查的位置</caption>
@@ -131,7 +132,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
       </div>
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>

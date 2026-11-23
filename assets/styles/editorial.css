@@ -390,3 +390,5 @@
   .guide-hero-art::after { background: linear-gradient(90deg, color-mix(in srgb, var(--surface) 95%, transparent), color-mix(in srgb, var(--surface) 65%, transparent) 60%, color-mix(in srgb, var(--surface) 20%, transparent)); }
   .guide-library-heading h1 { font-size: clamp(2rem, 7vw, 3rem); line-height: 1.15; word-break: normal; }
 }
+.article-intro-sources { margin-block: .75rem; font-size: .8125rem; line-height: 1.6; overflow-wrap: anywhere; }
+.article-intro .article-opening { margin-block-end: 0; font-size: 1rem; line-height: 1.7; }

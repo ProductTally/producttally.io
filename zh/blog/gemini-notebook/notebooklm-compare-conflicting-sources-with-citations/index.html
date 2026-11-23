@@ -4,7 +4,7 @@
   <meta charset="utf-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NotebookLM 引用核查：用 Gemini Notebook 对比矛盾资料 — ProductTally</title>
+  <title>NotebookLM 引用核查：回查 PDF 原文、比较矛盾资料 — ProductTally</title>
   <meta name="description" content="用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。">
   <meta name="theme-color" content="#FBF8F3">
 
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="ProductTally">
-  <meta property="og:title" content="NotebookLM 引用核查：用 Gemini Notebook 对比矛盾资料 — ProductTally">
+  <meta property="og:title" content="NotebookLM 引用核查：回查 PDF 原文、比较矛盾资料 — ProductTally">
   <meta property="og:description" content="用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。">
   <meta property="og:url" content="https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/">
   <meta property="og:image" content="https://producttally.com/assets/articles/notebooklm-compare-conflicting-sources-with-citations/cover.webp">
@@ -29,14 +29,14 @@
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:locale:alternate" content="ja_JP">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="NotebookLM 引用核查：用 Gemini Notebook 对比矛盾资料 — ProductTally">
+  <meta name="twitter:title" content="NotebookLM 引用核查：回查 PDF 原文、比较矛盾资料 — ProductTally">
   <meta name="twitter:description" content="用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。">
   <meta name="twitter:image" content="https://producttally.com/assets/articles/notebooklm-compare-conflicting-sources-with-citations/cover.webp">
   <meta name="twitter:image:alt" content="FCC 在 2015 年和 2024 年采用的固定宽带基准。">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#webpage","name":"NotebookLM 引用核查：用 Gemini Notebook 对比矛盾资料","description":"用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。","url":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#article","headline":"NotebookLM 引用核查：用 Gemini Notebook 对比矛盾资料","description":"用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。","url":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#article-image","url":"https://producttally.com/assets/articles/notebooklm-compare-conflicting-sources-with-citations/cover.webp","contentUrl":"https://producttally.com/assets/articles/notebooklm-compare-conflicting-sources-with-citations/cover.webp","width":1180,"height":520,"caption":"FCC 在 2015 年和 2024 年采用的固定宽带基准。"},"about":[{"@id":"https://producttally.com/products/gemini-notebook/#software"}],"dateModified":"2026-11-19","citation":["https://www.gao.gov/assets/gao-23-105655.pdf","https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No4/pdf/GPO-FCC-Rcd-V39No4.pdf","https://support.google.com/gemininotebook/answer/16179559","https://support.google.com/gemininotebook/answer/16269187"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/gemini-notebook/#software","name":"Gemini Notebook","url":"https://notebook.google/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"Gemini Notebook","item":"https://producttally.com/zh/products/gemini-notebook/"},{"@type":"ListItem","position":4,"name":"Gemini Notebook（原 NotebookLM）如何对比矛盾资料、核查引用？","item":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"}]}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#webpage","name":"NotebookLM 引用核查：回查 PDF 原文、比较矛盾资料","description":"用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。","url":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#article","headline":"NotebookLM 引用核查：回查 PDF 原文、比较矛盾资料","description":"用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。","url":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#article-image","url":"https://producttally.com/assets/articles/notebooklm-compare-conflicting-sources-with-citations/cover.webp","contentUrl":"https://producttally.com/assets/articles/notebooklm-compare-conflicting-sources-with-citations/cover.webp","width":1180,"height":520,"caption":"FCC 在 2015 年和 2024 年采用的固定宽带基准。"},"about":[{"@id":"https://producttally.com/products/gemini-notebook/#software"}],"dateModified":"2026-11-23","citation":["https://www.gao.gov/assets/gao-23-105655.pdf","https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No4/pdf/GPO-FCC-Rcd-V39No4.pdf","https://support.google.com/gemininotebook/answer/16179559","https://support.google.com/gemininotebook/answer/16269187"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/gemini-notebook/#software","name":"Gemini Notebook","url":"https://notebook.google/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"Gemini Notebook","item":"https://producttally.com/zh/products/gemini-notebook/"},{"@type":"ListItem","position":4,"name":"如何回到 PDF 原文核对 NotebookLM 的引用？","item":"https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="notebooklm-compare-conflicting-sources-with-citations" data-product-id="gemini-notebook"></script>
@@ -74,15 +74,20 @@
       </div>
     </header>
   <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
-    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">博客</a></li><li><a href="/zh/products/gemini-notebook/">Gemini Notebook</a></li><li><span aria-current="page">Gemini Notebook（原 NotebookLM）如何对比矛盾资料、核查引用？</span></li></ol>
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">博客</a></li><li><a href="/zh/products/gemini-notebook/">Gemini Notebook</a></li><li><span aria-current="page">如何回到 PDF 原文核对 NotebookLM 的引用？</span></li></ol>
   </nav><article class="wrap detail guide-article">
     <header class="detail-header article-header">
       <div class="article-intro">
         <p class="eyebrow">写作与研究 · 4 分钟阅读</p>
-        <h1>Gemini Notebook（原 NotebookLM）如何对比矛盾资料、核查引用？</h1>
-        <p class="lead">用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。</p>
+        <h1>如何回到 PDF 原文核对 NotebookLM 的引用？</h1>
+
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
-          · 更新于 <time datetime="2026-11-19">2026年11月19日</time></p>
+          · 更新于 <time datetime="2026-11-23">2026年11月23日</time></p>
+        <div class="article-opening prose" id="quick-answer">
+    <p>核对 NotebookLM 的引用，先点击引用回到 PDF 原文，检查对应段落是否支持答案。在 Gemini Notebook（原 NotebookLM）中，要求每份资料分别给出来源，再对照日期、单位和适用范围。下文用 FCC 的历史报告举例，说明为什么不同年份的数字可能各自成立。</p>
+    <div class="article-intro-sources"><a data-source-citation="true" href="https://support.google.com/gemininotebook/answer/16179559">Google 对话与引用</a></div>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/gemini-notebook/#product-features">Gemini Notebook · 查看引用能力与使用限制 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image article-image-contain"
@@ -98,10 +103,7 @@
         <ol><li><a href="#section-0">给两个来源各一次回答机会</a></li><li><a href="#section-1">打开引用，回到上下文</a></li><li><a href="#section-2">对照日期、范围和定义</a></li><li><a href="#section-3">写出有来源支撑的结论</a></li></ol>
       </nav>
       <div class="prose">
-        <div class="article-opening" id="quick-answer">
-          <p>先让 Gemini Notebook 分别引用两份文件，再回原文看每个数字对应的年份、范围与定义。以美国 FCC 的固定宽带评估为例，2015 年报告采用 25 Mbps 下载、3 Mbps 上传；2024 年 3 月发布的 FCC 报告说明，采用 100 Mbps 下载、20 Mbps 上传作为新的固定宽带基准。数字差异来自评估基准在不同年份变更。这些报告没有告诉你某个住户当时实际跑出了多少速度。</p>
-          <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/gemini-notebook/">Gemini Notebook · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
-        </div>
+
         <section id="section-0">
           <h2>给两个来源各一次回答机会</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.gao.gov/assets/gao-23-105655.pdf">美国政府问责局宽带速度报告（2023 年，第 5 页）</a></li><li><a data-source-citation="true" href="https://www.govinfo.gov/content/pkg/GPO-FCC-Rcd-V39No4/pdf/GPO-FCC-Rcd-V39No4.pdf">美国政府出版局收录的 FCC 2024 年 Section 706 报告（第 22–23 段）</a></li></ul><p>先给文件名加发布单位和年份，比如 GAO 2023、FCC 2024。选择第一份，问「下载和上传的基准是什么？谁发布？标明原文的位置和适用对象。」切换第二份，重复同一问题。最后同时选两份，问「用表格分别列出文件日期、适用对象、单位和数值。指出 2024 文件有没有交代与原有标准的关系。」</p>
         </section><section id="section-1">
@@ -110,7 +112,7 @@
           <h2>对照日期、范围和定义</h2><p>在美国政府问责局的 2023 年报告第 5 页，搜索 “Since 2015, FCC has set this speed benchmark at 25/3 Mbps”。FCC 2024 年报告第 22–23 段解释了调整。即便引用跳到了正确的页面，也要确认同一段能支持数字、年份和固定宽带这个适用范围。</p>
         </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/notebooklm-compare-conflicting-sources-with-citations/details.webp" width="1180" height="520"
           alt="FCC 的历史固定宽带基准。2015 年为下载 25 Mbps、上传 3 Mbps。2024 年为下载 100 Mbps、上传 20 Mbps。" loading="lazy" decoding="async"><figcaption>FCC 的历史固定宽带基准。2015 年为下载 25 Mbps、上传 3 Mbps。2024 年为下载 100 Mbps、上传 20 Mbps。</figcaption></figure><section id="section-3">
-          <h2>写出有来源支撑的结论</h2><p>交付时，把两条数值分两行，并在每行留下对应原文件。给结论加上「美国 FCC 历史评估基准」这个范围。如果要据此回答今天采用什么标准，还要另查现在有效的文件。这里的对照来自公开文件人工复核，提问顺序可在产品里复现。</p>
+          <h2>写出有来源支撑的结论</h2><p>交付时，把两条数值分两行，并在每行留下对应原文件。给结论加上「美国 FCC 历史评估基准」这个范围。如果要据此回答今天采用什么标准，还要另查现在有效的文件。可以沿用上面的提问顺序，逐份阅读和对照来源。</p>
         </section>
         <section class="article-next"><h2>访问官方网站</h2>
           <ul><li><a class="text-link" href="https://notebook.google/" data-editorial-product="gemini-notebook">
@@ -134,7 +136,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
       </div>
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>

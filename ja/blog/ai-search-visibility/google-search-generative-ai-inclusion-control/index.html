@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#webpage","name":"Google検索の生成AI設定とnosnippet・noindexの使い分け","description":"プロパティ全体、本文の一部、公開ページ1件のどれが対象かで設定を選びます。","url":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#article","headline":"Google検索の生成AI設定とnosnippet・noindexの使い分け","description":"プロパティ全体、本文の一部、公開ページ1件のどれが対象かで設定を選びます。","url":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#article-image","url":"https://producttally.com/assets/articles/google-search-generative-ai-inclusion-control/cover.webp","contentUrl":"https://producttally.com/assets/articles/google-search-generative-ai-inclusion-control/cover.webp","width":1180,"height":660,"caption":"設定範囲の3例。プロパティ、文章の一部、個別ページ。"},"dateModified":"2026-11-19","citation":["https://support.google.com/webmasters/answer/16908024?hl=en","https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"AI検索での可視性","item":"https://producttally.com/ja/blog/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"Google検索には残しながら、生成AIでの表示を調整する","item":"https://producttally.com/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="google-search-generative-ai-inclusion-control" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">プロパティ全体、本文の一部、公開ページ1件のどれが対象かで設定を選びます。</p>
         <p class="byline">によって <a href="/ja/about/">Evan</a>
           · 更新日 <time datetime="2026-11-19">2026/11/19</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>Google検索の生成AI設定はSearch Consoleのプロパティに適用されます。GoogleはAIによる概要、AIモード、Discoverの生成AI機能を対象に挙げています。ほかの検索面には表示対象として残し、プロパティ全体に共通の方針を適用する場合に使います。特定の箇所にはスニペット設定を、公開ページ全体を検索から除外する場合はnoindexを確認します。</p>
-        </div>
+    <p>Google検索の生成AI設定はSearch Consoleのプロパティに適用されます。GoogleはAIによる概要、AIモード、Discoverの生成AI機能を対象に挙げています。ほかの検索面には表示対象として残し、プロパティ全体に共通の方針を適用する場合に使います。特定の箇所にはスニペット設定を、公開ページ全体を検索から除外する場合はnoindexを確認します。</p>
+  </div>
         <section id="section-0">
           <h2>プロパティの範囲と継承を確かめる</h2><p>Search Consoleの設定から検索の生成AIの項目を開きます。ドメインかURLプレフィックスか、親プロパティの設定を引き継いでいるかを確認します。ヘルプセンターとブログを運営しているなら、ドメイン設定を変える前に、どのプロパティがヘルプを含むかを調べます。選択値と範囲を記録します。Googleはキャッシュの影響で反映が遅れる場合があると説明しています。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/16908024?hl=en">検索の生成AI設定</a></li></ul>
         </section><section id="section-1">
@@ -123,7 +124,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>より良い製品を提供するインターネットの静かな一角。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
       </div>
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>

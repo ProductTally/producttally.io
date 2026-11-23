@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#webpage","name":"Search Console一括エクスポートで重複するURL行をBigQueryで集計","description":"集計単位を決めてクリック数と表示回数を合計し、CTRとデータ欠損を区別します。","url":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#article","headline":"Search Console一括エクスポートで重複するURL行をBigQueryで集計","description":"集計単位を決めてクリック数と表示回数を合計し、CTRとデータ欠損を区別します。","url":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#article-image","url":"https://producttally.com/assets/articles/search-console-bigquery-aggregate-url-rows/cover.webp","contentUrl":"https://producttally.com/assets/articles/search-console-bigquery-aggregate-url-rows/cover.webp","width":1180,"height":660,"caption":"架空の数値。4クリック・20表示と6クリック・80表示は、合計10クリック・100表示。"},"dateModified":"2026-11-19","citation":["https://support.google.com/webmasters/answer/12917991","https://support.google.com/webmasters/answer/12917174"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"検索データ","item":"https://producttally.com/ja/blog/search-data/"},{"@type":"ListItem","position":4,"name":"Search ConsoleのBigQueryエクスポートで同じURLが複数行あるのはなぜ？","item":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="search-console-bigquery-aggregate-url-rows" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">集計単位を決めてクリック数と表示回数を合計し、CTRとデータ欠損を区別します。</p>
         <p class="byline">によって <a href="/ja/about/">Evan</a>
           · 更新日 <time datetime="2026-11-19">2026/11/19</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>Search Consoleの一括エクスポートには、同じキーの行が複数入ることがあります。日別のページ集計では、検索タイプを固定し、日付とURLでまとめてクリック数と表示回数を合計します。CTRには両方の合計を用います。Googleも各キーに属する数値を集計する方法を案内しています。</p>
-        </div>
+    <p>Search Consoleの一括エクスポートには、同じキーの行が複数入ることがあります。日別のページ集計では、検索タイプを固定し、日付とURLでまとめてクリック数と表示回数を合計します。CTRには両方の合計を用います。Googleも各キーに属する数値を集計する方法を案内しています。</p>
+  </div>
         <section id="section-0">
           <h2>レポートの1行が何を指すかを決める</h2><p>日別のページ集計にはsearchdata_url_impressionを使います。検索タイプと期間をそろえ、国別に見る場合はcountryをグループに加えます。プロパティ全体を集計する場合は、Googleが別のルールで集計するプロパティ用テーブルも検討します。データセット名とdata_dateの日付範囲を確認し、太平洋時間を基準にします。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12917991">一括エクスポートのテーブル</a></li><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12917174">Googleのクエリ例</a></li></ul>
         </section><section id="section-1">
@@ -128,7 +129,7 @@ ORDER BY data_date, clicks DESC</code></pre><ul class="article-section-sources">
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>より良い製品を提供するインターネットの静かな一角。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
       </div>
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>

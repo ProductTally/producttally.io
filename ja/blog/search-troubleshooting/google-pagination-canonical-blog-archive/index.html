@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/#webpage","name":"ブログ一覧の2ページ目のcanonicalは1ページ目に向ける？","description":"ページごとにクロール可能なURLを用意し、並べ替えと記事のURLを区別します。","url":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/#article","headline":"ブログ一覧の2ページ目のcanonicalは1ページ目に向ける？","description":"ページごとにクロール可能なURLを用意し、並べ替えと記事のURLを区別します。","url":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/#article-image","url":"https://producttally.com/assets/articles/google-pagination-canonical-blog-archive/cover.webp","contentUrl":"https://producttally.com/assets/articles/google-pagination-canonical-blog-archive/cover.webp","width":1180,"height":660,"caption":"54本の記事を24、24、6本の3ページに分けた例。"},"dateModified":"2026-11-20","citation":["https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"検索トラブルの診断","item":"https://producttally.com/ja/blog/search-troubleshooting/"},{"@type":"ListItem","position":4,"name":"ブログ一覧の2ページ目のcanonicalは1ページ目に向ける？","item":"https://producttally.com/ja/blog/search-troubleshooting/google-pagination-canonical-blog-archive/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="google-pagination-canonical-blog-archive" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">ページごとにクロール可能なURLを用意し、並べ替えと記事のURLを区別します。</p>
         <p class="byline">によって <a href="/ja/about/">Evan</a>
           · 更新日 <time datetime="2026-11-20">2026/11/20</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>Googleは、ページ分割した一覧では各ページに固有のURLと自己参照canonicalを付けるよう案内しています。2ページ目は別の記事を表示するため、canonicalは2ページ目自身を指します。「もっと見る」を設ける場合も、次のページに進めるhref付きのHTMLリンクを残します。</p>
-        </div>
+    <p>Googleは、ページ分割した一覧では各ページに固有のURLと自己参照canonicalを付けるよう案内しています。2ページ目は別の記事を表示するため、canonicalは2ページ目自身を指します。「もっと見る」を設ける場合も、次のページに進めるhref付きのHTMLリンクを残します。</p>
+  </div>
         <section id="section-0">
           <h2>3ページ目を直接開けるようにする</h2><p>54本の記事を1ページ24本で並べる例では、3ページ目に6本が残ります。3つの安定したアドレスを設け、個別記事もそれぞれの正規URLを持ちます。新しいタブで直接3ページ目を開き、ボタンを2回押さなくても6本のリンクが出るか確認します。Googleの案内では、フラグメントだけでページ番号を変えても独立したページとして扱われません。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading">Pagination guidance</a></li></ul>
         </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/google-pagination-canonical-blog-archive/details.webp" width="1180" height="580"
@@ -121,7 +122,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>より良い製品を提供するインターネットの静かな一角。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
       </div>
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>

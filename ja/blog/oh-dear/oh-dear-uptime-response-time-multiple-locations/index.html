@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#webpage","name":"Oh Dearで稼働中でも特定地域だけ遅いときの調べ方","description":"監視地点、リクエストの内訳、利用者の描画時間を同じUTCの時間帯で比べます。","url":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#article","headline":"Oh Dearで稼働中でも特定地域だけ遅いときの調べ方","description":"監視地点、リクエストの内訳、利用者の描画時間を同じUTCの時間帯で比べます。","url":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#article-image","url":"https://producttally.com/assets/articles/oh-dear-uptime-response-time-multiple-locations/cover.webp","contentUrl":"https://producttally.com/assets/articles/oh-dear-uptime-response-time-multiple-locations/cover.webp","width":1180,"height":520,"caption":"架空の事例です。UTC+08:00の09:10は01:10 UTCです。最初の1バイトとブラウザー描画は異なる段階の時間です。"},"about":[{"@id":"https://producttally.com/products/oh-dear/#software"}],"dateModified":"2026-11-18","citation":["https://ohdear.app/docs/features/uptime-and-performance-monitoring","https://ohdear.app/features/performance-monitoring"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/oh-dear/#software","name":"Oh Dear","url":"https://ohdear.app/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"Oh Dear","item":"https://producttally.com/ja/products/oh-dear/"},{"@type":"ListItem","position":4,"name":"Oh Dearでは稼働中。ある地域の利用者だけ遅いのはなぜ？","item":"https://producttally.com/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="oh-dear-uptime-response-time-multiple-locations" data-product-id="oh-dear"></script>
@@ -83,6 +83,7 @@
         <p class="lead">監視地点、リクエストの内訳、利用者の描画時間を同じUTCの時間帯で比べます。</p>
         <p class="byline">によって <a href="/ja/about/">Evan</a>
           · 更新日 <time datetime="2026-11-18">2026/11/18</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,9 +97,9 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>どこから何を計測したかを確認します。Oh Dearは主地点から監視し、問題が出ると別地点で確認します。プローブではDNS、接続、TLS、応答の時間を分けて見られます。利用者の画面には端末、回線、スクリプト、描画も影響します。</p>
-          <p><a class="text-link" data-product-link-location="article-intro" href="/ja/products/oh-dear/">Oh Dear · 製品の詳細を見る <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
-        </div>
+    <p>どこから何を計測したかを確認します。Oh Dearは主地点から監視し、問題が出ると別地点で確認します。プローブではDNS、接続、TLS、応答の時間を分けて見られます。利用者の画面には端末、回線、スクリプト、描画も影響します。</p>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/ja/products/oh-dear/">Oh Dear · 製品の詳細を見る <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
         <section id="section-0">
           <h2>3つの観測を同じ時系列に並べる</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/uptime-and-performance-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">Oh Dearの稼働率と性能のガイド</a></li></ul><p>実行詳細で、監視したURLと確認に使った地点を記録します。一部の地点だけ到達できない場合はPartially unreachableと表示されます。両地点で失敗した場合、通知までの条件は設定された連続失敗回数です。</p><p>この例では、UTC+08:00の09:10が01:10 UTCに当たります。</p><div class="article-table"><table>
     <caption>3つの観測を同じ時系列に並べる</caption>
@@ -131,7 +132,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>より良い製品を提供するインターネットの静かな一角。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
       </div>
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>

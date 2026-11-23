@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#webpage","name":"Google 搜索结果还显示旧标题？按三层检查","description":"对照页面 HTML、Search Console 的已索引与实时状态，以及 Google 实际生成的标题链接。","url":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#article","headline":"Google 搜索结果还显示旧标题？按三层检查","description":"对照页面 HTML、Search Console 的已索引与实时状态，以及 Google 实际生成的标题链接。","url":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#article-image","url":"https://producttally.com/assets/articles/google-search-shows-old-page-title/cover.webp","contentUrl":"https://producttally.com/assets/articles/google-search-shows-old-page-title/cover.webp","width":1180,"height":520,"caption":"虚构标题变更示例。分别记录当前 HTML 标题、上次抓取时间和实际展示的搜索结果标题。"},"dateModified":"2026-11-18","citation":["https://developers.google.com/search/docs/appearance/title-link","https://support.google.com/webmasters/answer/12482179","https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"搜索排查","item":"https://producttally.com/zh/blog/search-troubleshooting/"},{"@type":"ListItem","position":4,"name":"网页标题已经改了，Google 怎么还显示旧的？","item":"https://producttally.com/zh/blog/search-troubleshooting/google-search-shows-old-page-title/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="google-search-shows-old-page-title" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">对照页面 HTML、Search Console 的已索引与实时状态，以及 Google 实际生成的标题链接。</p>
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
           · 更新于 <time datetime="2026-11-18">2026年11月18日</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>先确定旧字样在哪出现。还在网页 HTML 里，检查部署和模板。Search Console 的上次抓取早于改版，可能需要等待重新处理。已经抓到新页面却显示不同标题时，再检查可见主标题、其他醒目文字和链接文字。Google 会从多个来源自动生成标题链接。</p>
-        </div>
+    <p>先确定旧字样在哪出现。还在网页 HTML 里，检查部署和模板。Search Console 的上次抓取早于改版，可能需要等待重新处理。已经抓到新页面却显示不同标题时，再检查可见主标题、其他醒目文字和链接文字。Google 会从多个来源自动生成标题链接。</p>
+  </div>
         <section id="section-0">
           <h2>依次核对实际 HTML、网址检查和结果标题</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.google.com/search/docs/appearance/title-link">Google 搜索标题链接说明</a></li></ul><p>假设 /blog/workshop-guide/ 周一从「活动发布指南」改为「小团队工作坊排期指南」，到周三搜索结果仍显示旧标题。</p><ol><li>实际 HTML：用无登录设备打开正确的网址，核对返回的 &lt;title&gt;、第一个醒目标题和 canonical。再查手机页面和站内卡片有没有还用旧称呼。若页面本身还旧，解决构建或缓存后再继续。</li><li>已索引与实时检查：在 Search Console 打开 URL Inspection。看已索引版本的最近抓取，再单独跑实时测试。实时测试能看到变更，不等于已索引版本或显示已更新。有权限且确有变化，可以请求重新编入索引。重复提交不会保证更快处理。</li><li>实际结果：记录同一语言、地区和查询出现的标题。已经重抓仍不同，就比较页面主标题、站内锚文本和近似页面的 canonical，看 Google 是否展示了别的地址或选了另一行文字。</li></ol><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12482179">Search Console 的已索引与实时视图</a></li><li><a data-source-citation="true" href="https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl">请求重新抓取</a></li></ul>
         </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/google-search-shows-old-page-title/details.webp" width="1180" height="520"
@@ -121,7 +122,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
       </div>
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>

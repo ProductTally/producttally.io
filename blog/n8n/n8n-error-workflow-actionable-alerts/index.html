@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/#webpage","name":"Build one n8n error workflow your team can act on","description":"Send a concise alert even when an execution link is missing, and let responders decide whether a retry is safe.","url":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/","inLanguage":"en","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/#article-image"},"breadcrumb":{"@id":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/#article","headline":"Build one n8n error workflow your team can act on","description":"Send a concise alert even when an execution link is missing, and let responders decide whether a retry is safe.","url":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/","inLanguage":"en","mainEntityOfPage":{"@id":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/#article-image","url":"https://producttally.com/assets/articles/n8n-error-workflow-actionable-alerts/cover.webp","contentUrl":"https://producttally.com/assets/articles/n8n-error-workflow-actionable-alerts/cover.webp","width":1180,"height":660,"caption":"An execution alert with a link and a trigger alert that names the workflow."},"about":[{"@id":"https://producttally.com/products/n8n/#software"}],"dateModified":"2026-11-20","citation":["https://docs.n8n.io/flow-logic/error-handling/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/n8n/#software","name":"n8n","url":"https://n8n.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://producttally.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://producttally.com/blog/"},{"@type":"ListItem","position":3,"name":"n8n","item":"https://producttally.com/products/n8n/"},{"@type":"ListItem","position":4,"name":"Build one n8n error workflow your team can act on","item":"https://producttally.com/blog/n8n/n8n-error-workflow-actionable-alerts/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="en" data-article-id="n8n-error-workflow-actionable-alerts" data-product-id="n8n"></script>
@@ -83,6 +83,7 @@
         <p class="lead">Send a concise alert even when an execution link is missing, and let responders decide whether a retry is safe.</p>
         <p class="byline">By <a href="/about/">Evan</a>
           · Updated <time datetime="2026-11-20">Nov 20, 2026</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,9 +97,9 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>Start the shared workflow with Error Trigger. Then select it as Error Workflow in the settings of each production workflow you want it to cover. n8n’s official payload examples distinguish a run that started and stopped from an error in the main workflow’s trigger. Include the workflow name and a short summary in both messages. Add an execution link only when the payload contains one.</p>
-          <p><a class="text-link" data-product-link-location="article-intro" href="/products/n8n/">n8n · View product details <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
-        </div>
+    <p>Start the shared workflow with Error Trigger. Then select it as Error Workflow in the settings of each production workflow you want it to cover. n8n’s official payload examples distinguish a run that started and stopped from an error in the main workflow’s trigger. Include the workflow name and a short summary in both messages. Add an execution link only when the payload contains one.</p>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/products/n8n/">n8n · View product details <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
         <section id="section-0">
           <h2>Include the context that changes what to do</h2><p>For example, if a scheduled invoice reminder fails after starting, the alert can point the operator to the saved execution. If it never starts and the trigger reports an error, give the operator the workflow name and ask them to check the trigger configuration first. Keep customer records and credentials out of the notification. Recipients should use the authorized workspace to see any deeper context.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.n8n.io/flow-logic/error-handling/">Error workflows</a></li></ul>
         </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/n8n-error-workflow-actionable-alerts/details.webp" width="1180" height="580"
@@ -127,7 +128,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>A quieter corner of the internet for better products.</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
       </div>
       <nav aria-label="Footer navigation">
         <a href="/">Products</a>

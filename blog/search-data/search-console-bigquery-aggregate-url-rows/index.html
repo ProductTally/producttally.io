@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/#webpage","name":"Search Console Bulk Export in BigQuery: Aggregate Repeated URL Rows","description":"Sum clicks and impressions at the report's grain before calculating CTR, and keep export gaps visible.","url":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/","inLanguage":"en","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/#article-image"},"breadcrumb":{"@id":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/#article","headline":"Search Console Bulk Export in BigQuery: Aggregate Repeated URL Rows","description":"Sum clicks and impressions at the report's grain before calculating CTR, and keep export gaps visible.","url":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/","inLanguage":"en","mainEntityOfPage":{"@id":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/#article-image","url":"https://producttally.com/assets/articles/search-console-bigquery-aggregate-url-rows/cover.webp","contentUrl":"https://producttally.com/assets/articles/search-console-bigquery-aggregate-url-rows/cover.webp","width":1180,"height":660,"caption":"Fictional figures: 4 and 6 clicks over 20 and 80 impressions produce 10 clicks per 100 impressions."},"dateModified":"2026-11-19","citation":["https://support.google.com/webmasters/answer/12917991","https://support.google.com/webmasters/answer/12917174"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://producttally.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://producttally.com/blog/"},{"@type":"ListItem","position":3,"name":"Search data","item":"https://producttally.com/blog/search-data/"},{"@type":"ListItem","position":4,"name":"Why does the Search Console BigQuery export repeat URL rows?","item":"https://producttally.com/blog/search-data/search-console-bigquery-aggregate-url-rows/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="en" data-article-id="search-console-bigquery-aggregate-url-rows" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">Sum clicks and impressions at the report&#39;s grain before calculating CTR, and keep export gaps visible.</p>
         <p class="byline">By <a href="/about/">Evan</a>
           · Updated <time datetime="2026-11-19">Nov 19, 2026</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>Google Search Console’s bulk export can contain more than one row for the same key. For a daily page report, filter to the intended search type, then group by date and URL and sum clicks and impressions. Divide the sums for CTR. Google recommends aggregating rather than keeping a single row per key.</p>
-        </div>
+    <p>Google Search Console’s bulk export can contain more than one row for the same key. For a daily page report, filter to the intended search type, then group by date and URL and sum clicks and impressions. Divide the sums for CTR. Google recommends aggregating rather than keeping a single row per key.</p>
+  </div>
         <section id="section-0">
           <h2>Decide what one row in your report means</h2><p>For a daily report by page, use searchdata_url_impression. Keep search type fixed for the report window. If you need a country breakdown, add country to the grouping. For a property-wide report, consider the property table instead, since Google defines different aggregation rules. Check the dataset name and bound data_date to the intended period in Pacific time.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12917991">Bulk export table reference</a></li><li><a data-source-citation="true" href="https://support.google.com/webmasters/answer/12917174">Sample queries from Google</a></li></ul>
         </section><section id="section-1">
@@ -128,7 +129,7 @@ ORDER BY data_date, clicks DESC</code></pre><ul class="article-section-sources">
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>A quieter corner of the internet for better products.</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
       </div>
       <nav aria-label="Footer navigation">
         <a href="/">Products</a>

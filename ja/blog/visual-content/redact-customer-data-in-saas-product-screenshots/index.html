@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/#webpage","name":"製品スクリーンショットから顧客情報を取り除く","description":"操作に必要な箇所を残し、実際に公開する画像のピクセルとメタデータを確認します。","url":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/#article","headline":"製品スクリーンショットから顧客情報を取り除く","description":"操作に必要な箇所を残し、実際に公開する画像のピクセルとメタデータを確認します。","url":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/#article-image","url":"https://producttally.com/assets/articles/redact-customer-data-in-saas-product-screenshots/cover.webp","contentUrl":"https://producttally.com/assets/articles/redact-customer-data-in-saas-product-screenshots/cover.webp","width":1180,"height":520,"caption":"顧客メールだけを隠し、注文ステータスを残す例。"},"dateModified":"2026-11-18","citation":["https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/disclosing-documents-to-the-public-securely/","https://www.nationalarchives.gov.uk/terms-and-conditions/takedown-and-reclosure-policies/reclosure-policy/redaction-toolkit/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"ビジュアルコンテンツ","item":"https://producttally.com/ja/blog/visual-content/"},{"@type":"ListItem","position":4,"name":"操作の証拠を残したい。スクリーンショットの顧客情報はどう消す？","item":"https://producttally.com/ja/blog/visual-content/redact-customer-data-in-saas-product-screenshots/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="redact-customer-data-in-saas-product-screenshots" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">操作に必要な箇所を残し、実際に公開する画像のピクセルとメタデータを確認します。</p>
         <p class="byline">によって <a href="/ja/about/">Evan</a>
           · 更新日 <time datetime="2026-11-18">2026/11/18</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>テストデータで再現できるなら撮り直します。既存画像を使う場合は、必要な操作部分と前後の情報を残し、顧客情報のピクセルを不透明な色で置き換え、レイヤーを持たない新しい画像に書き出します。公開するファイルを開き、端の画素、注釈、メタデータも確認します。</p>
-        </div>
+    <p>テストデータで再現できるなら撮り直します。既存画像を使う場合は、必要な操作部分と前後の情報を残し、顧客情報のピクセルを不透明な色で置き換え、レイヤーを持たない新しい画像に書き出します。公開するファイルを開き、端の画素、注釈、メタデータも確認します。</p>
+  </div>
         <section id="section-0">
           <h2>注文の状態は残す</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/disclosing-documents-to-the-public-securely/">ICOの公開文書に残る情報に関するガイド</a></li><li><a data-source-citation="true" href="https://www.nationalarchives.gov.uk/terms-and-conditions/takedown-and-reclosure-policies/reclosure-policy/redaction-toolkit/">英国国立公文書館の墨消しガイド</a></li></ul><p>保留中の注文を探す手順なら、Orders、Status 列、Awaiting review を残します。操作に不要なメールアドレスは覆い、列の意味が必要なら見出しだけ残します。</p>
         </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/redact-customer-data-in-saas-product-screenshots/details.webp" width="900" height="265"
@@ -118,7 +119,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>より良い製品を提供するインターネットの静かな一角。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
       </div>
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>

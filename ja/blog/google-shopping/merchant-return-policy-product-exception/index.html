@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/#webpage","name":"MerchantReturnPolicyの書き方｜店の返品ポリシーと商品の例外","description":"全店の返品ルールをOrganization、商品別の例外をOfferに記述する方法です。","url":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/#article","headline":"MerchantReturnPolicyの書き方｜店の返品ポリシーと商品の例外","description":"全店の返品ルールをOrganization、商品別の例外をOfferに記述する方法です。","url":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/#article-image","url":"https://producttally.com/assets/articles/merchant-return-policy-product-exception/cover.webp","contentUrl":"https://producttally.com/assets/articles/merchant-return-policy-product-exception/cover.webp","width":1200,"height":675,"caption":"例。店舗の基本ルールはOrganization、名入れマグの例外は該当するOfferに置きます。"},"dateModified":"2026-11-23","citation":["https://developers.google.com/search/docs/appearance/structured-data/return-policy","https://developers.google.com/search/docs/appearance/structured-data/merchant-listing#return-details"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"Google ショッピング","item":"https://producttally.com/ja/blog/google-shopping/"},{"@type":"ListItem","position":4,"name":"MerchantReturnPolicyの書き方｜店の返品ポリシーと商品の例外","item":"https://producttally.com/ja/blog/google-shopping/merchant-return-policy-product-exception/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="merchant-return-policy-product-exception" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">全店の返品ルールをOrganization、商品別の例外をOfferに記述する方法です。</p>
         <p class="byline">によって <a href="/ja/about/">Evan</a>
           · 更新日 <time datetime="2026-11-23">2026/11/23</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>店舗全体の返品ポリシーはOrganizationのhasMerchantReturnPolicyで記述します。特定商品だけ条件が異なる場合は、該当するOfferに記述します。購入者が対象の国で読む条件と揃えてください。</p>
-        </div>
+    <p>店舗全体の返品ポリシーはOrganizationのhasMerchantReturnPolicyで記述します。特定商品だけ条件が異なる場合は、該当するOfferに記述します。購入者が対象の国で読む条件と揃えてください。</p>
+  </div>
         <section id="section-0">
           <h2>ショップが公開している基本条件を確認する</h2><p>米国向けに30日以内の返品を受け付ける生活雑貨店を例にします。多くの商品に同じ条件が適用されますが、名入れマグには別の条件があり、商品ページにも記載されています。構造化データにも、この2つの条件を反映します。</p><p>標準のルールはOrganizationのhasMerchantReturnPolicyに記述します。Googleの資料でapplicableCountryやreturnPolicyCategory、期限付きポリシーの日数に対応するプロパティを確認し、実際の条件に合う値を選びます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.google.com/search/docs/appearance/structured-data/return-policy">Google Search Central：MerchantReturnPolicy</a></li></ul>
         </section><section id="section-1">
@@ -127,7 +128,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>より良い製品を提供するインターネットの静かな一角。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Evan にメールする</a>
       </div>
       <nav aria-label="フッターナビゲーション">
         <a href="/ja/">製品</a>

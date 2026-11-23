@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/#webpage","name":"SEOPress 站点地图多了不想收录的网址，怎么排查？","description":"区分作者归档、附件页和私人页面，查清入口、抓取与索引，再验证子站点地图。","url":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/#article","headline":"SEOPress 站点地图多了不想收录的网址，怎么排查？","description":"区分作者归档、附件页和私人页面，查清入口、抓取与索引，再验证子站点地图。","url":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/#article-image","url":"https://producttally.com/assets/articles/seopress-exclude-wordpress-urls-from-xml-sitemap/cover.webp","contentUrl":"https://producttally.com/assets/articles/seopress-exclude-wordpress-urls-from-xml-sitemap/cover.webp","width":1180,"height":520,"caption":"站点地图条目与文件的独立 HTTP 响应。"},"about":[{"@id":"https://producttally.com/products/seopress/#software"}],"dateModified":"2026-11-18","citation":["https://www.seopress.org/support/guides/enable-xml-sitemaps/","https://www.seopress.org/support/guides/how-to-exclude-a-post-page-or-single-post-type-from-xml-sitemaps/","https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/seopress/#software","name":"SEOPress","url":"https://www.seopress.org/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"SEOPress","item":"https://producttally.com/zh/products/seopress/"},{"@type":"ListItem","position":4,"name":"SEOPress 的 sitemap 里出现作者、附件或私人页面，应该怎么处理？","item":"https://producttally.com/zh/blog/seopress/seopress-exclude-wordpress-urls-from-xml-sitemap/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="seopress-exclude-wordpress-urls-from-xml-sitemap" data-product-id="seopress"></script>
@@ -83,6 +83,7 @@
         <p class="lead">区分作者归档、附件页和私人页面，查清入口、抓取与索引，再验证子站点地图。</p>
         <p class="byline">作者 <a href="/zh/about/">Evan</a>
           · 更新于 <time datetime="2026-11-18">2026年11月18日</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,9 +97,9 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>先打开 sitemap 索引，再到列出该 URL 的子 sitemap，确认它究竟是作者归档、WordPress 附件页、直接媒体文件还是普通页面。不同入口需要在不同位置处理。SEOPress 文档说明，通过插件标记为 noindex 的文章或页面会自动排除在 XML 站点地图之外。已存在或可被外链找到的 URL 仍需单独核对状态。</p>
-          <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/seopress/">SEOPress · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
-        </div>
+    <p>先打开 sitemap 索引，再到列出该 URL 的子 sitemap，确认它究竟是作者归档、WordPress 附件页、直接媒体文件还是普通页面。不同入口需要在不同位置处理。SEOPress 文档说明，通过插件标记为 noindex 的文章或页面会自动排除在 XML 站点地图之外。已存在或可被外链找到的 URL 仍需单独核对状态。</p>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/seopress/">SEOPress · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
         <section id="section-0">
           <h2>先辨认站点地图里的地址类型</h2><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.seopress.org/support/guides/enable-xml-sitemaps/?ref=2317" data-affiliate-click="seopress" data-affiliate-link-type="citation" target="_blank" rel="noopener">SEOPress XML 站点地图</a></li><li><a data-source-citation="true" href="https://www.seopress.org/support/guides/how-to-exclude-a-post-page-or-single-post-type-from-xml-sitemaps/?ref=2317" data-affiliate-click="seopress" data-affiliate-link-type="citation" target="_blank" rel="noopener">SEOPress 排除单篇与内容类型</a></li></ul><div class="article-table"><table>
     <caption>先辨认站点地图里的地址类型</caption>
@@ -131,7 +132,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
       </div>
       <nav aria-label="页脚导航">
         <a href="/zh/">产品广场</a>

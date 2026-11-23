@@ -36,7 +36,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/#webpage","name":"Sitemap Lastmod: Use the Date of the Last Meaningful Edit","description":"Set lastmod from the revision of each canonical page and keep it consistent with visible dates and structured data.","url":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/","inLanguage":"en","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/#article-image"},"breadcrumb":{"@id":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/#article","headline":"Sitemap Lastmod: Use the Date of the Last Meaningful Edit","description":"Set lastmod from the revision of each canonical page and keep it consistent with visible dates and structured data.","url":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/","inLanguage":"en","mainEntityOfPage":{"@id":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/#article-image","url":"https://producttally.com/assets/articles/sitemap-lastmod-content-updates/cover.webp","contentUrl":"https://producttally.com/assets/articles/sitemap-lastmod-content-updates/cover.webp","width":1180,"height":660,"caption":"Illustration: retain the publication date and align the material revision across lastmod, dateModified and the visible update date."},"dateModified":"2026-11-19","citation":["https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap","https://developers.google.com/search/docs/appearance/structured-data/article"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://producttally.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://producttally.com/blog/"},{"@type":"ListItem","position":3,"name":"Content maintenance","item":"https://producttally.com/blog/content-maintenance/"},{"@type":"ListItem","position":4,"name":"When should a sitemap’s lastmod date change?","item":"https://producttally.com/blog/content-maintenance/sitemap-lastmod-content-updates/"}]}]}</script>
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
   <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
-  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <link rel="stylesheet" href="/assets/style-2e5bf640a323.css">
   <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
   <script type="module" src="/assets/app.js"></script>
   <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="en" data-article-id="sitemap-lastmod-content-updates" data-product-id=""></script>
@@ -83,6 +83,7 @@
         <p class="lead">Set lastmod from the revision of each canonical page and keep it consistent with visible dates and structured data.</p>
         <p class="byline">By <a href="/about/">Evan</a>
           · Updated <time datetime="2026-11-19">Nov 19, 2026</time></p>
+
       </div>
       <figure class="article-hero-media">
     <div class="article-cover"><img class="article-image"
@@ -96,8 +97,8 @@
 
       <div class="prose">
         <div class="article-opening" id="quick-answer">
-          <p>Update lastmod when a canonical page receives a significant change. Google names main content, structured data and links as potential examples. It also says an updated copyright year is insufficient. On a static site, read the revision date from the content record rather than the deployment clock.</p>
-        </div>
+    <p>Update lastmod when a canonical page receives a significant change. Google names main content, structured data and links as potential examples. It also says an updated copyright year is insufficient. On a static site, read the revision date from the content record rather than the deployment clock.</p>
+  </div>
         <section id="section-0">
           <h2>Use an actual revision in the source data</h2><p>Imagine an editor adds current limits to a guide and updates the reference link on November 19. The guide now answers a materially different question about eligibility, so record November 19 as its revision date. The same build may change the footer across the site. For the pages where only the copyright year changes, keep the previous dates. If a legacy record lacks a reliable date, leave lastmod out until you have one.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap">Build and submit a sitemap</a></li></ul>
         </section><section id="section-1">
@@ -123,7 +124,7 @@
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
   </a><p>A quieter corner of the internet for better products.</p>
-        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:fishcshhhw@gmail.com">Email Evan</a>
       </div>
       <nav aria-label="Footer navigation">
         <a href="/">Products</a>
