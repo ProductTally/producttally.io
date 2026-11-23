@@ -330,6 +330,12 @@
     },
     {
       "lang": "en",
+      "route": "products/fastpixel",
+      "url": "/products/fastpixel/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
       "route": "products/sembly-ai",
       "url": "/products/sembly-ai/",
       "lastmod": "2026-11-23"
@@ -1612,6 +1618,12 @@
       "lang": "zh",
       "route": "products/shortpixel",
       "url": "/zh/products/shortpixel/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "products/fastpixel",
+      "url": "/zh/products/fastpixel/",
       "lastmod": "2026-11-23"
     },
     {
@@ -2902,6 +2914,12 @@
     },
     {
       "lang": "es",
+      "route": "products/fastpixel",
+      "url": "/es/products/fastpixel/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
       "route": "products/sembly-ai",
       "url": "/es/products/sembly-ai/",
       "lastmod": "2026-11-23"
@@ -4184,6 +4202,12 @@
       "lang": "ja",
       "route": "products/shortpixel",
       "url": "/ja/products/shortpixel/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "products/fastpixel",
+      "url": "/ja/products/fastpixel/",
       "lastmod": "2026-11-23"
     },
     {
