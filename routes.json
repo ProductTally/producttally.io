@@ -12,13 +12,13 @@
       "lang": "en",
       "route": "",
       "url": "/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-20",
+      "lastmod": "2026-11-23",
       "canonicalRoute": ""
     },
     {
@@ -30,7 +30,7 @@
       "lang": "en",
       "route": "news",
       "url": "/news/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "en",
@@ -314,6 +314,12 @@
     },
     {
       "lang": "en",
+      "route": "products/shortpixel",
+      "url": "/products/shortpixel/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
       "route": "products/sembly-ai",
       "url": "/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -328,7 +334,7 @@
       "lang": "en",
       "route": "blog",
       "url": "/blog/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
@@ -1130,6 +1136,12 @@
     },
     {
       "lang": "en",
+      "route": "news/canva-ai-controls",
+      "url": "/news/canva-ai-controls/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "en",
       "route": "news/figma-ai-multiple-image-options",
       "url": "/news/figma-ai-multiple-image-options/",
       "lastmod": "2026-11-19"
@@ -1139,6 +1151,12 @@
       "route": "news/google-docs-inline-captions-cross-references",
       "url": "/news/google-docs-inline-captions-cross-references/",
       "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "en",
+      "route": "news/vercel-board-agent-coordination",
+      "url": "/news/vercel-board-agent-coordination/",
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "en",
@@ -1168,13 +1186,13 @@
       "lang": "zh",
       "route": "",
       "url": "/zh/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-20",
+      "lastmod": "2026-11-23",
       "canonicalRoute": ""
     },
     {
@@ -1186,7 +1204,7 @@
       "lang": "zh",
       "route": "news",
       "url": "/zh/news/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "zh",
@@ -1470,6 +1488,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/shortpixel",
+      "url": "/zh/products/shortpixel/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
       "route": "products/sembly-ai",
       "url": "/zh/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -1484,7 +1508,7 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -2286,6 +2310,12 @@
     },
     {
       "lang": "zh",
+      "route": "news/canva-ai-controls",
+      "url": "/zh/news/canva-ai-controls/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "zh",
       "route": "news/figma-ai-multiple-image-options",
       "url": "/zh/news/figma-ai-multiple-image-options/",
       "lastmod": "2026-11-19"
@@ -2295,6 +2325,12 @@
       "route": "news/google-docs-inline-captions-cross-references",
       "url": "/zh/news/google-docs-inline-captions-cross-references/",
       "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "zh",
+      "route": "news/vercel-board-agent-coordination",
+      "url": "/zh/news/vercel-board-agent-coordination/",
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "zh",
@@ -2324,13 +2360,13 @@
       "lang": "es",
       "route": "",
       "url": "/es/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-20",
+      "lastmod": "2026-11-23",
       "canonicalRoute": ""
     },
     {
@@ -2342,7 +2378,7 @@
       "lang": "es",
       "route": "news",
       "url": "/es/news/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "es",
@@ -2626,6 +2662,12 @@
     },
     {
       "lang": "es",
+      "route": "products/shortpixel",
+      "url": "/es/products/shortpixel/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
       "route": "products/sembly-ai",
       "url": "/es/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -2640,7 +2682,7 @@
       "lang": "es",
       "route": "blog",
       "url": "/es/blog/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
@@ -3442,6 +3484,12 @@
     },
     {
       "lang": "es",
+      "route": "news/canva-ai-controls",
+      "url": "/es/news/canva-ai-controls/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "es",
       "route": "news/figma-ai-multiple-image-options",
       "url": "/es/news/figma-ai-multiple-image-options/",
       "lastmod": "2026-11-19"
@@ -3451,6 +3499,12 @@
       "route": "news/google-docs-inline-captions-cross-references",
       "url": "/es/news/google-docs-inline-captions-cross-references/",
       "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "es",
+      "route": "news/vercel-board-agent-coordination",
+      "url": "/es/news/vercel-board-agent-coordination/",
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "es",
@@ -3480,13 +3534,13 @@
       "lang": "ja",
       "route": "",
       "url": "/ja/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-20",
+      "lastmod": "2026-11-23",
       "canonicalRoute": ""
     },
     {
@@ -3498,7 +3552,7 @@
       "lang": "ja",
       "route": "news",
       "url": "/ja/news/",
-      "lastmod": "2026-11-19"
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "ja",
@@ -3782,6 +3836,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/shortpixel",
+      "url": "/ja/products/shortpixel/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
       "route": "products/sembly-ai",
       "url": "/ja/products/sembly-ai/",
       "lastmod": "2026-11-17"
@@ -3796,7 +3856,7 @@
       "lang": "ja",
       "route": "blog",
       "url": "/ja/blog/",
-      "lastmod": "2026-11-20"
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
@@ -4598,6 +4658,12 @@
     },
     {
       "lang": "ja",
+      "route": "news/canva-ai-controls",
+      "url": "/ja/news/canva-ai-controls/",
+      "lastmod": "2026-11-20"
+    },
+    {
+      "lang": "ja",
       "route": "news/figma-ai-multiple-image-options",
       "url": "/ja/news/figma-ai-multiple-image-options/",
       "lastmod": "2026-11-19"
@@ -4607,6 +4673,12 @@
       "route": "news/google-docs-inline-captions-cross-references",
       "url": "/ja/news/google-docs-inline-captions-cross-references/",
       "lastmod": "2026-11-19"
+    },
+    {
+      "lang": "ja",
+      "route": "news/vercel-board-agent-coordination",
+      "url": "/ja/news/vercel-board-agent-coordination/",
+      "lastmod": "2026-11-20"
     },
     {
       "lang": "ja",
