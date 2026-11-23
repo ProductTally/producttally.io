@@ -111,7 +111,7 @@
   .pricing-review-actions { grid-template-columns: minmax(0, 1fr) auto; }
   .pricing-review-actions .pricing-email { align-self: center; }
 }
-.pricing-payment h3 {
+.pricing-payment :is(h3, h4) {
   font: 600 1rem/1.5 var(--body);
 }
 .pricing-payment p {
@@ -128,3 +128,5 @@
   inline-size: auto;
   block-size: 1.35rem;
 }
+.pricing-card-actions { display: grid; gap: .85rem; padding-block-start: .85rem; border-block-start: 1px solid var(--line); }
+.pricing-card-actions .pricing-email { justify-self: start; margin-block-start: 0; }
