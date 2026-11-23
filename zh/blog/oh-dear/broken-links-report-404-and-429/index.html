@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oh Dear 断链报告怎么看？网站改版后分清站内 404 和站外 429 — ProductTally</title>
+  <meta name="description" content="用来源页面找到仍指向旧地址的链接，并判断哪些外链告警可以单独排除。">
+  <meta name="theme-color" content="#FBF8F3">
+
+  <link rel="canonical" href="https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/oh-dear/broken-links-report-404-and-429/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/oh-dear/broken-links-report-404-and-429/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/oh-dear/broken-links-report-404-and-429/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/oh-dear/broken-links-report-404-and-429/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Oh Dear 断链报告怎么看？网站改版后分清站内 404 和站外 429 — ProductTally">
+  <meta property="og:description" content="用来源页面找到仍指向旧地址的链接，并判断哪些外链告警可以单独排除。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/broken-links-report-404-and-429/cover.webp">
+  <meta property="og:image:alt" content="报告示例：修改站内指向 /plans/ 的链接，同时单独确认返回 429 的第三方地址。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Oh Dear 断链报告怎么看？网站改版后分清站内 404 和站外 429 — ProductTally">
+  <meta name="twitter:description" content="用来源页面找到仍指向旧地址的链接，并判断哪些外链告警可以单独排除。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/broken-links-report-404-and-429/cover.webp">
+  <meta name="twitter:image:alt" content="报告示例：修改站内指向 /plans/ 的链接，同时单独确认返回 429 的第三方地址。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/#webpage","name":"Oh Dear 断链报告怎么看？网站改版后分清站内 404 和站外 429","description":"用来源页面找到仍指向旧地址的链接，并判断哪些外链告警可以单独排除。","url":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/#article","headline":"Oh Dear 断链报告怎么看？网站改版后分清站内 404 和站外 429","description":"用来源页面找到仍指向旧地址的链接，并判断哪些外链告警可以单独排除。","url":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/#article-image","url":"https://producttally.com/assets/articles/broken-links-report-404-and-429/cover.webp","contentUrl":"https://producttally.com/assets/articles/broken-links-report-404-and-429/cover.webp","width":1200,"height":675,"caption":"报告示例：修改站内指向 /plans/ 的链接，同时单独确认返回 429 的第三方地址。"},"about":[{"@id":"https://producttally.com/products/oh-dear/#software"}],"dateModified":"2026-11-23","citation":["https://ohdear.app/docs/features/broken-links-detection","https://ohdear.app/docs/faq/can-i-exclude-urls-from-broken-links-checks"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/oh-dear/#software","name":"Oh Dear","url":"https://ohdear.app/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"Oh Dear","item":"https://producttally.com/zh/products/oh-dear/"},{"@type":"ListItem","position":4,"name":"Oh Dear 断链报告怎么看？网站改版后分清站内 404 和站外 429","item":"https://producttally.com/zh/blog/oh-dear/broken-links-report-404-and-429/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="broken-links-report-404-and-429" data-product-id="oh-dear"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/oh-dear/broken-links-report-404-and-429/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/oh-dear/broken-links-report-404-and-429/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/oh-dear/broken-links-report-404-and-429/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/oh-dear/broken-links-report-404-and-429/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/oh-dear/broken-links-report-404-and-429/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/oh-dear/broken-links-report-404-and-429/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/oh-dear/broken-links-report-404-and-429/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/oh-dear/broken-links-report-404-and-429/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">博客</a></li><li><a href="/zh/products/oh-dear/">Oh Dear</a></li><li><span aria-current="page">Oh Dear 断链报告怎么看？网站改版后分清站内 404 和站外 429</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">网站监控 · 3 分钟阅读</p>
+        <h1>Oh Dear 断链报告怎么看？网站改版后分清站内 404 和站外 429</h1>
+        <p class="lead">用来源页面找到仍指向旧地址的链接，并判断哪些外链告警可以单独排除。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-23">2026年11月23日</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/broken-links-report-404-and-429/cover.webp" srcset="/assets/articles/broken-links-report-404-and-429/cover-small.webp 640w, /assets/articles/broken-links-report-404-and-429/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="报告示例：修改站内指向 /plans/ 的链接，同时单独确认返回 429 的第三方地址。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>Oh Dear 报出站内 404 时，先找报告里的来源页面，改掉仍指向旧地址的链接。第三方返回 429 可能是对自动请求限流。先确认访客能正常访问，再考虑对该地址单独排除告警。</p>
+          <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/oh-dear/">Oh Dear · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+        </div>
+        <section id="section-0">
+          <h2>先修还在指向旧页面的链接</h2><p>假设定价页从 /plans/ 搬到 /pricing/。首页已经更新，但旧的入门文章还指向 /plans/。从 Oh Dear 报告找到来源页面，把链接改到 /pricing/。如果几篇文章用了同一个页脚或模板，也看看是否共用了这一条旧地址。</p><p>旧地址曾经公开时，还要考虑外站链接和书签是否需要重定向。站内导航可以直接改成新地址，读者少经过一次跳转。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/broken-links-detection?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">Oh Dear · 如何查看断链报告</a></li></ul>
+        </section><section id="section-1">
+          <h2>站外 429 先确认对访客是否可用</h2><p>合作方的社交站点可能对爬虫限流，但访客仍能打开。用正常浏览器确认报错地址能到达预期页面。如果 Oh Dear 反复遇到限流，而访客能访问，可以记录原因，在 Settings → Broken Links → Ignored URLs 加一条范围较小的规则。</p><p>官方文档区分了两个设置：Ignored URLs 只屏蔽报告，爬虫仍会访问；Do not crawl 才是不发出请求。优先排除具体网址，方便以后查清哪些告警因什么原因被忽略。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/broken-links-detection?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">Oh Dear · 如何查看断链报告</a></li><li><a data-source-citation="true" href="https://ohdear.app/docs/faq/can-i-exclude-urls-from-broken-links-checks?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">Oh Dear · 忽略报告和停止爬取的区别</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/broken-links-report-404-and-429/details.webp" width="1200" height="640"
+          alt="报告示例：修改站内指向 /plans/ 的链接，同时单独确认返回 429 的第三方地址。" loading="lazy" decoding="async"><figcaption>报告示例：修改站内指向 /plans/ 的链接，同时单独确认返回 429 的第三方地址。</figcaption></figure><section id="section-2">
+          <h2>下一轮查看原来的来源页面</h2><p>复查时看同一个来源页还会不会指到旧地址。如果多条报告都源于同一个模板，修了模板后就一起核对。站外例外单独保留，方便之后知道哪些是自己改掉的链接，哪些是第三方访问条件造成的告警。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/broken-links-detection?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">Oh Dear · 如何查看断链报告</a></li></ul>
+        </section>
+        <section class="article-next" aria-label="打开 Oh Dear 查看断链监控">
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p>
+          <div class="article-next-links"><a class="action" href="https://ohdear.app/docs/features/broken-links-detection?via=evan" data-product-destination="oh-dear" data-affiliate-click="oh-dear" data-affiliate-link-type="deep_link" target="_blank" rel="noopener">
+    <span>Oh Dear · 打开 Oh Dear 查看断链监控</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a><a class="text-link" data-product-link-location="article-footer" href="/zh/products/oh-dear/">查看产品详情</a></div>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/blog/oh-dear/oh-dear-monitor-checkout-application-health/">商店首页是绿色的，用户为什么还是不能结账？</a></li><li><a href="/zh/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/">Oh Dear 显示在线，为什么有一个地区的用户觉得特别慢？</a></li><li><a href="/zh/blog/oh-dear/oh-dear-maintenance-window-status-notifications/">周日要维护，该让 Oh Dear 静默到什么时候？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><ul><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/features/broken-links-detection?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">Oh Dear · 如何查看断链报告</a></cite></li><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/faq/can-i-exclude-urls-from-broken-links-checks?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">Oh Dear · 忽略报告和停止爬取的区别</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

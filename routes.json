@@ -338,6 +338,18 @@
     },
     {
       "lang": "en",
+      "route": "blog/google-shopping",
+      "url": "/blog/google-shopping/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/creator-partnerships",
+      "url": "/blog/creator-partnerships/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
       "route": "blog/search-troubleshooting",
       "url": "/blog/search-troubleshooting/",
       "lastmod": "2026-11-20"
@@ -413,6 +425,60 @@
       "route": "blog/ai-search-measurement",
       "url": "/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/payhip/black-friday-coupon-usage-expiry",
+      "url": "/blog/payhip/black-friday-coupon-usage-expiry/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/google-shopping/google-shopping-sale-price-effective-date",
+      "url": "/blog/google-shopping/google-shopping-sale-price-effective-date/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/higgsfield/short-drama-studio-reuse-character",
+      "url": "/blog/higgsfield/short-drama-studio-reuse-character/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/creator-partnerships/youtube-demand-gen-creator-video-access",
+      "url": "/blog/creator-partnerships/youtube-demand-gen-creator-video-access/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/vizard/remove-silence-from-talking-head-video",
+      "url": "/blog/vizard/remove-silence-from-talking-head-video/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/deepl/translate-word-document-with-screenshots",
+      "url": "/blog/deepl/translate-word-document-with-screenshots/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/n8n/pin-data-editor-versus-production",
+      "url": "/blog/n8n/pin-data-editor-versus-production/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/oh-dear/broken-links-report-404-and-429",
+      "url": "/blog/oh-dear/broken-links-report-404-and-429/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/google-shopping/merchant-return-policy-product-exception",
+      "url": "/blog/google-shopping/merchant-return-policy-product-exception/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "en",
@@ -1512,6 +1578,18 @@
     },
     {
       "lang": "zh",
+      "route": "blog/google-shopping",
+      "url": "/zh/blog/google-shopping/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/creator-partnerships",
+      "url": "/zh/blog/creator-partnerships/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
       "route": "blog/search-troubleshooting",
       "url": "/zh/blog/search-troubleshooting/",
       "lastmod": "2026-11-20"
@@ -1587,6 +1665,60 @@
       "route": "blog/ai-search-measurement",
       "url": "/zh/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/payhip/black-friday-coupon-usage-expiry",
+      "url": "/zh/blog/payhip/black-friday-coupon-usage-expiry/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/google-shopping/google-shopping-sale-price-effective-date",
+      "url": "/zh/blog/google-shopping/google-shopping-sale-price-effective-date/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/higgsfield/short-drama-studio-reuse-character",
+      "url": "/zh/blog/higgsfield/short-drama-studio-reuse-character/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/creator-partnerships/youtube-demand-gen-creator-video-access",
+      "url": "/zh/blog/creator-partnerships/youtube-demand-gen-creator-video-access/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/vizard/remove-silence-from-talking-head-video",
+      "url": "/zh/blog/vizard/remove-silence-from-talking-head-video/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/deepl/translate-word-document-with-screenshots",
+      "url": "/zh/blog/deepl/translate-word-document-with-screenshots/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/n8n/pin-data-editor-versus-production",
+      "url": "/zh/blog/n8n/pin-data-editor-versus-production/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/oh-dear/broken-links-report-404-and-429",
+      "url": "/zh/blog/oh-dear/broken-links-report-404-and-429/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/google-shopping/merchant-return-policy-product-exception",
+      "url": "/zh/blog/google-shopping/merchant-return-policy-product-exception/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "zh",
@@ -2686,6 +2818,18 @@
     },
     {
       "lang": "es",
+      "route": "blog/google-shopping",
+      "url": "/es/blog/google-shopping/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/creator-partnerships",
+      "url": "/es/blog/creator-partnerships/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
       "route": "blog/search-troubleshooting",
       "url": "/es/blog/search-troubleshooting/",
       "lastmod": "2026-11-20"
@@ -2761,6 +2905,60 @@
       "route": "blog/ai-search-measurement",
       "url": "/es/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/payhip/black-friday-coupon-usage-expiry",
+      "url": "/es/blog/payhip/black-friday-coupon-usage-expiry/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/google-shopping/google-shopping-sale-price-effective-date",
+      "url": "/es/blog/google-shopping/google-shopping-sale-price-effective-date/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/higgsfield/short-drama-studio-reuse-character",
+      "url": "/es/blog/higgsfield/short-drama-studio-reuse-character/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/creator-partnerships/youtube-demand-gen-creator-video-access",
+      "url": "/es/blog/creator-partnerships/youtube-demand-gen-creator-video-access/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/vizard/remove-silence-from-talking-head-video",
+      "url": "/es/blog/vizard/remove-silence-from-talking-head-video/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/deepl/translate-word-document-with-screenshots",
+      "url": "/es/blog/deepl/translate-word-document-with-screenshots/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/n8n/pin-data-editor-versus-production",
+      "url": "/es/blog/n8n/pin-data-editor-versus-production/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/oh-dear/broken-links-report-404-and-429",
+      "url": "/es/blog/oh-dear/broken-links-report-404-and-429/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/google-shopping/merchant-return-policy-product-exception",
+      "url": "/es/blog/google-shopping/merchant-return-policy-product-exception/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "es",
@@ -3860,6 +4058,18 @@
     },
     {
       "lang": "ja",
+      "route": "blog/google-shopping",
+      "url": "/ja/blog/google-shopping/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/creator-partnerships",
+      "url": "/ja/blog/creator-partnerships/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
       "route": "blog/search-troubleshooting",
       "url": "/ja/blog/search-troubleshooting/",
       "lastmod": "2026-11-20"
@@ -3935,6 +4145,60 @@
       "route": "blog/ai-search-measurement",
       "url": "/ja/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/payhip/black-friday-coupon-usage-expiry",
+      "url": "/ja/blog/payhip/black-friday-coupon-usage-expiry/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/google-shopping/google-shopping-sale-price-effective-date",
+      "url": "/ja/blog/google-shopping/google-shopping-sale-price-effective-date/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/higgsfield/short-drama-studio-reuse-character",
+      "url": "/ja/blog/higgsfield/short-drama-studio-reuse-character/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/creator-partnerships/youtube-demand-gen-creator-video-access",
+      "url": "/ja/blog/creator-partnerships/youtube-demand-gen-creator-video-access/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/vizard/remove-silence-from-talking-head-video",
+      "url": "/ja/blog/vizard/remove-silence-from-talking-head-video/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/deepl/translate-word-document-with-screenshots",
+      "url": "/ja/blog/deepl/translate-word-document-with-screenshots/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/n8n/pin-data-editor-versus-production",
+      "url": "/ja/blog/n8n/pin-data-editor-versus-production/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/oh-dear/broken-links-report-404-and-429",
+      "url": "/ja/blog/oh-dear/broken-links-report-404-and-429/",
+      "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/google-shopping/merchant-return-policy-product-exception",
+      "url": "/ja/blog/google-shopping/merchant-return-policy-product-exception/",
+      "lastmod": "2026-11-23"
     },
     {
       "lang": "ja",
@@ -4711,6 +4975,14 @@
       "target": "/blog/"
     },
     {
+      "url": "/guides/google-shopping/",
+      "target": "/blog/google-shopping/"
+    },
+    {
+      "url": "/guides/creator-partnerships/",
+      "target": "/blog/creator-partnerships/"
+    },
+    {
       "url": "/guides/search-troubleshooting/",
       "target": "/blog/search-troubleshooting/"
     },
@@ -4761,6 +5033,42 @@
     {
       "url": "/guides/ai-search-measurement/",
       "target": "/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/guides/payhip/black-friday-coupon-usage-expiry/",
+      "target": "/blog/payhip/black-friday-coupon-usage-expiry/"
+    },
+    {
+      "url": "/guides/google-shopping/google-shopping-sale-price-effective-date/",
+      "target": "/blog/google-shopping/google-shopping-sale-price-effective-date/"
+    },
+    {
+      "url": "/guides/higgsfield/short-drama-studio-reuse-character/",
+      "target": "/blog/higgsfield/short-drama-studio-reuse-character/"
+    },
+    {
+      "url": "/guides/creator-partnerships/youtube-demand-gen-creator-video-access/",
+      "target": "/blog/creator-partnerships/youtube-demand-gen-creator-video-access/"
+    },
+    {
+      "url": "/guides/vizard/remove-silence-from-talking-head-video/",
+      "target": "/blog/vizard/remove-silence-from-talking-head-video/"
+    },
+    {
+      "url": "/guides/deepl/translate-word-document-with-screenshots/",
+      "target": "/blog/deepl/translate-word-document-with-screenshots/"
+    },
+    {
+      "url": "/guides/n8n/pin-data-editor-versus-production/",
+      "target": "/blog/n8n/pin-data-editor-versus-production/"
+    },
+    {
+      "url": "/guides/oh-dear/broken-links-report-404-and-429/",
+      "target": "/blog/oh-dear/broken-links-report-404-and-429/"
+    },
+    {
+      "url": "/guides/google-shopping/merchant-return-policy-product-exception/",
+      "target": "/blog/google-shopping/merchant-return-policy-product-exception/"
     },
     {
       "url": "/guides/n8n/n8n-error-workflow-actionable-alerts/",
@@ -5683,6 +5991,14 @@
       "target": "/zh/blog/"
     },
     {
+      "url": "/zh/guides/google-shopping/",
+      "target": "/zh/blog/google-shopping/"
+    },
+    {
+      "url": "/zh/guides/creator-partnerships/",
+      "target": "/zh/blog/creator-partnerships/"
+    },
+    {
       "url": "/zh/guides/search-troubleshooting/",
       "target": "/zh/blog/search-troubleshooting/"
     },
@@ -5733,6 +6049,42 @@
     {
       "url": "/zh/guides/ai-search-measurement/",
       "target": "/zh/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/zh/guides/payhip/black-friday-coupon-usage-expiry/",
+      "target": "/zh/blog/payhip/black-friday-coupon-usage-expiry/"
+    },
+    {
+      "url": "/zh/guides/google-shopping/google-shopping-sale-price-effective-date/",
+      "target": "/zh/blog/google-shopping/google-shopping-sale-price-effective-date/"
+    },
+    {
+      "url": "/zh/guides/higgsfield/short-drama-studio-reuse-character/",
+      "target": "/zh/blog/higgsfield/short-drama-studio-reuse-character/"
+    },
+    {
+      "url": "/zh/guides/creator-partnerships/youtube-demand-gen-creator-video-access/",
+      "target": "/zh/blog/creator-partnerships/youtube-demand-gen-creator-video-access/"
+    },
+    {
+      "url": "/zh/guides/vizard/remove-silence-from-talking-head-video/",
+      "target": "/zh/blog/vizard/remove-silence-from-talking-head-video/"
+    },
+    {
+      "url": "/zh/guides/deepl/translate-word-document-with-screenshots/",
+      "target": "/zh/blog/deepl/translate-word-document-with-screenshots/"
+    },
+    {
+      "url": "/zh/guides/n8n/pin-data-editor-versus-production/",
+      "target": "/zh/blog/n8n/pin-data-editor-versus-production/"
+    },
+    {
+      "url": "/zh/guides/oh-dear/broken-links-report-404-and-429/",
+      "target": "/zh/blog/oh-dear/broken-links-report-404-and-429/"
+    },
+    {
+      "url": "/zh/guides/google-shopping/merchant-return-policy-product-exception/",
+      "target": "/zh/blog/google-shopping/merchant-return-policy-product-exception/"
     },
     {
       "url": "/zh/guides/n8n/n8n-error-workflow-actionable-alerts/",
@@ -6655,6 +7007,14 @@
       "target": "/es/blog/"
     },
     {
+      "url": "/es/guides/google-shopping/",
+      "target": "/es/blog/google-shopping/"
+    },
+    {
+      "url": "/es/guides/creator-partnerships/",
+      "target": "/es/blog/creator-partnerships/"
+    },
+    {
       "url": "/es/guides/search-troubleshooting/",
       "target": "/es/blog/search-troubleshooting/"
     },
@@ -6705,6 +7065,42 @@
     {
       "url": "/es/guides/ai-search-measurement/",
       "target": "/es/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/es/guides/payhip/black-friday-coupon-usage-expiry/",
+      "target": "/es/blog/payhip/black-friday-coupon-usage-expiry/"
+    },
+    {
+      "url": "/es/guides/google-shopping/google-shopping-sale-price-effective-date/",
+      "target": "/es/blog/google-shopping/google-shopping-sale-price-effective-date/"
+    },
+    {
+      "url": "/es/guides/higgsfield/short-drama-studio-reuse-character/",
+      "target": "/es/blog/higgsfield/short-drama-studio-reuse-character/"
+    },
+    {
+      "url": "/es/guides/creator-partnerships/youtube-demand-gen-creator-video-access/",
+      "target": "/es/blog/creator-partnerships/youtube-demand-gen-creator-video-access/"
+    },
+    {
+      "url": "/es/guides/vizard/remove-silence-from-talking-head-video/",
+      "target": "/es/blog/vizard/remove-silence-from-talking-head-video/"
+    },
+    {
+      "url": "/es/guides/deepl/translate-word-document-with-screenshots/",
+      "target": "/es/blog/deepl/translate-word-document-with-screenshots/"
+    },
+    {
+      "url": "/es/guides/n8n/pin-data-editor-versus-production/",
+      "target": "/es/blog/n8n/pin-data-editor-versus-production/"
+    },
+    {
+      "url": "/es/guides/oh-dear/broken-links-report-404-and-429/",
+      "target": "/es/blog/oh-dear/broken-links-report-404-and-429/"
+    },
+    {
+      "url": "/es/guides/google-shopping/merchant-return-policy-product-exception/",
+      "target": "/es/blog/google-shopping/merchant-return-policy-product-exception/"
     },
     {
       "url": "/es/guides/n8n/n8n-error-workflow-actionable-alerts/",
@@ -7627,6 +8023,14 @@
       "target": "/ja/blog/"
     },
     {
+      "url": "/ja/guides/google-shopping/",
+      "target": "/ja/blog/google-shopping/"
+    },
+    {
+      "url": "/ja/guides/creator-partnerships/",
+      "target": "/ja/blog/creator-partnerships/"
+    },
+    {
       "url": "/ja/guides/search-troubleshooting/",
       "target": "/ja/blog/search-troubleshooting/"
     },
@@ -7677,6 +8081,42 @@
     {
       "url": "/ja/guides/ai-search-measurement/",
       "target": "/ja/blog/ai-search-measurement/"
+    },
+    {
+      "url": "/ja/guides/payhip/black-friday-coupon-usage-expiry/",
+      "target": "/ja/blog/payhip/black-friday-coupon-usage-expiry/"
+    },
+    {
+      "url": "/ja/guides/google-shopping/google-shopping-sale-price-effective-date/",
+      "target": "/ja/blog/google-shopping/google-shopping-sale-price-effective-date/"
+    },
+    {
+      "url": "/ja/guides/higgsfield/short-drama-studio-reuse-character/",
+      "target": "/ja/blog/higgsfield/short-drama-studio-reuse-character/"
+    },
+    {
+      "url": "/ja/guides/creator-partnerships/youtube-demand-gen-creator-video-access/",
+      "target": "/ja/blog/creator-partnerships/youtube-demand-gen-creator-video-access/"
+    },
+    {
+      "url": "/ja/guides/vizard/remove-silence-from-talking-head-video/",
+      "target": "/ja/blog/vizard/remove-silence-from-talking-head-video/"
+    },
+    {
+      "url": "/ja/guides/deepl/translate-word-document-with-screenshots/",
+      "target": "/ja/blog/deepl/translate-word-document-with-screenshots/"
+    },
+    {
+      "url": "/ja/guides/n8n/pin-data-editor-versus-production/",
+      "target": "/ja/blog/n8n/pin-data-editor-versus-production/"
+    },
+    {
+      "url": "/ja/guides/oh-dear/broken-links-report-404-and-429/",
+      "target": "/ja/blog/oh-dear/broken-links-report-404-and-429/"
+    },
+    {
+      "url": "/ja/guides/google-shopping/merchant-return-policy-product-exception/",
+      "target": "/ja/blog/google-shopping/merchant-return-policy-product-exception/"
     },
     {
       "url": "/ja/guides/n8n/n8n-error-workflow-actionable-alerts/",

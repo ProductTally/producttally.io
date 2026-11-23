@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>用 Vizard 剪口播，哪些停顿值得留？ — ProductTally</title>
+  <meta name="description" content="在转录稿里找到空白和重复说法，再判断哪些停顿能让教程更好懂。">
+  <meta name="theme-color" content="#FBF8F3">
+
+  <link rel="canonical" href="https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/vizard/remove-silence-from-talking-head-video/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/vizard/remove-silence-from-talking-head-video/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/vizard/remove-silence-from-talking-head-video/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/vizard/remove-silence-from-talking-head-video/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="用 Vizard 剪口播，哪些停顿值得留？ — ProductTally">
+  <meta property="og:description" content="在转录稿里找到空白和重复说法，再判断哪些停顿能让教程更好懂。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/">
+  <meta property="og:image" content="https://producttally.com/assets/articles/remove-silence-from-talking-head-video/cover.webp">
+  <meta property="og:image:alt" content="时间轴示意：压短第一次空白，并给后面显示金额的画面留出阅读时间。">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="用 Vizard 剪口播，哪些停顿值得留？ — ProductTally">
+  <meta name="twitter:description" content="在转录稿里找到空白和重复说法，再判断哪些停顿能让教程更好懂。">
+  <meta name="twitter:image" content="https://producttally.com/assets/articles/remove-silence-from-talking-head-video/cover.webp">
+  <meta name="twitter:image:alt" content="时间轴示意：压短第一次空白，并给后面显示金额的画面留出阅读时间。">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/#webpage","name":"用 Vizard 剪口播，哪些停顿值得留？","description":"在转录稿里找到空白和重复说法，再判断哪些停顿能让教程更好懂。","url":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"mainEntity":{"@id":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/#article","headline":"用 Vizard 剪口播，哪些停顿值得留？","description":"在转录稿里找到空白和重复说法，再判断哪些停顿能让教程更好懂。","url":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/#article-image","url":"https://producttally.com/assets/articles/remove-silence-from-talking-head-video/cover.webp","contentUrl":"https://producttally.com/assets/articles/remove-silence-from-talking-head-video/cover.webp","width":1200,"height":675,"caption":"时间轴示意：压短第一次空白，并给后面显示金额的画面留出阅读时间。"},"about":[{"@id":"https://producttally.com/products/vizard/#software"}],"dateModified":"2026-11-23","citation":["https://vizard.ai/tools/transcript-based-video-editing","https://docs.vizard.ai/docs/advanced","https://docs.vizard.ai/docs/submit-a-short-video-for-editing"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/vizard/#software","name":"Vizard","url":"https://vizard.ai/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"Vizard","item":"https://producttally.com/zh/products/vizard/"},{"@type":"ListItem","position":4,"name":"用 Vizard 剪口播，哪些停顿值得留？","item":"https://producttally.com/zh/blog/vizard/remove-silence-from-talking-head-video/"}]}]}</script>
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-4f17f8c07d91.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="remove-silence-from-talking-head-video" data-product-id="vizard"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">评测合作</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/vizard/remove-silence-from-talking-head-video/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/vizard/remove-silence-from-talking-head-video/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/vizard/remove-silence-from-talking-head-video/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/vizard/remove-silence-from-talking-head-video/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/vizard/remove-silence-from-talking-head-video/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/vizard/remove-silence-from-talking-head-video/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/vizard/remove-silence-from-talking-head-video/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/vizard/remove-silence-from-talking-head-video/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">博客</a></li><li><a href="/zh/products/vizard/">Vizard</a></li><li><span aria-current="page">用 Vizard 剪口播，哪些停顿值得留？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">视频 · 3 分钟阅读</p>
+        <h1>用 Vizard 剪口播，哪些停顿值得留？</h1>
+        <p class="lead">在转录稿里找到空白和重复说法，再判断哪些停顿能让教程更好懂。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 更新于 <time datetime="2026-11-23">2026年11月23日</time></p>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/remove-silence-from-talking-head-video/cover.webp" srcset="/assets/articles/remove-silence-from-talking-head-video/cover-small.webp 640w, /assets/articles/remove-silence-from-talking-head-video/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="时间轴示意：压短第一次空白，并给后面显示金额的画面留出阅读时间。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+          <p>Vizard 可以缩短静音、处理口头填充词。可以用自动处理做初剪，再复核留给读屏、理解指令或听清笑点的停顿。要精确删改时，也可以在 Vizard 里选中转录稿文字来调整相应视频。</p>
+          <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/vizard/">Vizard · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+        </div>
+        <section id="section-0">
+          <h2>有些停顿本来就是教程的一部分</h2><p>假设你录了一段后台演示。讲到「打开账单」后，你停下来想了一会儿，才说出下一个菜单名。稍后，你说「这就是将要扣除的金额」，画面停在数字上。如果第一个停顿没有画面信息，可以压短。第二个停顿要留给观众读完数字。</p><p>打开编辑器前，先标出两三个必须让观众看清的画面。处理完一整段视频后，回到这些地方复看，效率更高。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://vizard.ai/tools/transcript-based-video-editing?via=evan-huang" data-affiliate-click="vizard" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Vizard · 按转录稿编辑视频</a></li></ul>
+        </section><section id="section-1">
+          <h2>从转录稿开始剪</h2><p>Vizard 的官方功能页演示了选中文字如何改变对应视频。两次说了同一个操作，或临时加的一句旁白已经用不上，就从转录稿入手。剪完每一处，连着放一下前后两句，听听转折是否自然。</p><p>短视频编辑 API 文档还介绍了 Remove Silence 与填充词设置。这些是自动处理选项，具体名称和入口以你使用的编辑界面为准。改完先看预览。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://vizard.ai/tools/transcript-based-video-editing?via=evan-huang" data-affiliate-click="vizard" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Vizard · 按转录稿编辑视频</a></li><li><a data-source-citation="true" href="https://docs.vizard.ai/docs/advanced?via=evan-huang" data-affiliate-click="vizard" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Vizard 文档 · 静音及填充词设置</a></li><li><a data-source-citation="true" href="https://docs.vizard.ai/docs/submit-a-short-video-for-editing?via=evan-huang" data-affiliate-click="vizard" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Vizard 文档 · 短视频编辑</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/remove-silence-from-talking-head-video/details.webp" width="1200" height="640"
+          alt="时间轴示意：压短第一次空白，并给后面显示金额的画面留出阅读时间。" loading="lazy" decoding="async"><figcaption>时间轴示意：压短第一次空白，并给后面显示金额的画面留出阅读时间。</figcaption></figure><section id="section-2">
+          <h2>最后一遍，把眼睛放回画面上</h2><p>用第一次学这套操作的观众视角看成片。如果当前菜单还没看清就听到了下一条指令，就给相应画面多留一点时间。如果画面和旁白衔接得上，可以保留较紧凑的节奏。翻译成多语字幕时，再核对最长的一行有没有足够的阅读时间。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://vizard.ai/tools/transcript-based-video-editing?via=evan-huang" data-affiliate-click="vizard" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Vizard · 按转录稿编辑视频</a></li></ul>
+        </section>
+        <section class="article-next" aria-label="打开 Vizard 的转录稿编辑功能">
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p>
+          <div class="article-next-links"><a class="action" href="https://vizard.ai/tools/transcript-based-video-editing?via=evan-huang" data-product-destination="vizard" data-affiliate-click="vizard" data-affiliate-link-type="deep_link" target="_blank" rel="noopener nofollow">
+    <span>Vizard · 打开 Vizard 的转录稿编辑功能</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a><a class="text-link" data-product-link-location="article-footer" href="/zh/products/vizard/">查看产品详情</a></div>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/blog/vizard/vizard-import-approved-srt/">Vizard 怎么导入已经审好的 SRT 字幕？</a></li><li><a href="/zh/blog/vizard/vizard-ai-clipping-credit-budget/">一小时播客用 Vizard 剪短片，需要多少额度？</a></li><li><a href="/zh/blog/vizard/vizard-webinar-screen-share-clips/">用 Vizard 剪研讨会短片，怎么让观众看清共享屏幕？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><ul><li><cite><a data-source-citation="true" href="https://vizard.ai/tools/transcript-based-video-editing?via=evan-huang" data-affiliate-click="vizard" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Vizard · 按转录稿编辑视频</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.vizard.ai/docs/advanced?via=evan-huang" data-affiliate-click="vizard" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Vizard 文档 · 静音及填充词设置</a></cite></li><li><cite><a data-source-citation="true" href="https://docs.vizard.ai/docs/submit-a-short-video-for-editing?via=evan-huang" data-affiliate-click="vizard" data-affiliate-link-type="citation" target="_blank" rel="noopener nofollow">Vizard 文档 · 短视频编辑</a></cite></li></ul>
+        </section>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>在喧闹的互联网里，留一处认真选产品的角落。</p>
+        <a class="footer-contact" href="mailto:fishcshhhw@gmail.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">评测合作</a>
+        <a href="/zh/privacy/">隐私说明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan 的独立产品手记。</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>
