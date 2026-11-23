@@ -14,6 +14,7 @@
   gap: .75rem;
 }
 .pricing-card h2 { font-size: clamp(1.3rem, 2vw, 1.8rem); }
+.pricing-card h3 { font-size: clamp(1.2rem, 2vw, 1.55rem); }
 .pricing-icon {
   display: grid;
   place-items: center;
@@ -39,8 +40,8 @@
 .pricing-card .pricing-quote { padding-block: .5rem; color: var(--ink); font-size: 1.35rem; font-weight: 600; }
 .pricing-email { align-self: flex-start; margin-block-start: auto; max-inline-size: 100%; text-align: center; white-space: normal; }
 .pricing-email .icon { flex: none; }
-.pricing-process, .pricing-faq, .pricing-review { max-inline-size: 54rem; margin-block-start: 1.75rem; }
-.pricing-process h2, .pricing-faq h2 { font: 600 clamp(1.2rem, 2vw, 1.5rem)/1.4 var(--body); }
+.pricing-process, .pricing-faq { max-inline-size: 54rem; margin-block-start: 1.75rem; }
+.pricing-process h2, .pricing-faq h2, .pricing-additional h2 { font: 600 clamp(1.2rem, 2vw, 1.55rem)/1.4 var(--body); }
 .pricing-faq > div { margin-block-start: .9rem; }
 .pricing-faq h3 { font: 600 1.05rem/1.5 var(--body); }
 .pricing-faq p { margin-block-start: .25rem; color: var(--muted); }
@@ -64,44 +65,56 @@
 .pricing-contact a { color: var(--accent-dark); }
 .pricing-policy { margin-block-start: .75rem; max-inline-size: 76ch; font-size: .9rem; }
 
+.pricing-additional { margin-block-start: clamp(2.25rem, 5vw, 3.5rem); }
+.pricing-additional h2 { margin-block-end: 1rem; }
 .pricing-layout {
   display: grid;
   gap: clamp(1rem, 2vw, 1.5rem);
 }
+
+.pricing-review-main {
+  display: grid;
+  gap: clamp(1rem, 3vw, 2rem);
+  align-items: start;
+}
+.pricing-review-overview > p { margin-block-start: .5rem; color: var(--muted); }
 @media (min-width: 52rem) {
   .pricing-layout { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pricing-review-main { grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); }
+  .pricing-review-main > ul {
+    border: 0;
+    border-inline-start: 1px solid var(--line);
+    padding: 0 0 0 clamp(1rem, 3vw, 2rem);
+  }
 }
 
-.pricing-payment {
+.pricing-review-actions {
   display: grid;
-  gap: .5rem;
-  padding-block-start: .85rem;
+  align-items: center;
+  gap: 1rem;
+  margin-block-start: .5rem;
+  padding-block-start: 1rem;
   border-block-start: 1px solid var(--line);
+}
+.pricing-review-actions .pricing-email { margin-block-start: 0; }
+@media (min-width: 40rem) {
+  .pricing-review-actions { grid-template-columns: minmax(0, 1fr) auto; }
+  .pricing-review-actions .pricing-email { align-self: center; }
 }
 .pricing-payment h3 {
   font: 600 1rem/1.5 var(--body);
 }
-.pricing-payment-options {
+.pricing-payment p {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: .5rem .75rem;
+  gap: .55rem;
+  margin-block-start: .4rem;
+  color: var(--muted);
+  font-size: .95rem;
 }
-.pricing-payment-brand {
-  display: inline-flex;
-  align-items: center;
-  gap: .45rem;
-  padding: .35rem .6rem;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  font-weight: 600;
-}
-.pricing-payment-brand img {
+.pricing-payment img {
   display: block;
+  flex: none;
   inline-size: auto;
   block-size: 1.35rem;
-}
-.pricing-payment-options p {
-  color: var(--muted);
-  font-size: .9rem;
 }
