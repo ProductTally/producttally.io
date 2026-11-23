@@ -37,7 +37,7 @@
   border-radius: var(--radius);
   font-weight: 600;
 }
-.pricing-card .pricing-quote { padding-block: .5rem; color: var(--ink); font-size: 1.35rem; font-weight: 600; }
+.pricing-card .pricing-quote { color: var(--ink); font: 600 clamp(1.55rem, 3vw, 2rem)/1.25 var(--body); }
 .pricing-email { align-self: flex-start; margin-block-start: auto; max-inline-size: 100%; text-align: center; white-space: normal; }
 .pricing-email .icon { flex: none; }
 .pricing-process, .pricing-faq { max-inline-size: 54rem; margin-block-start: 1.75rem; }
@@ -85,6 +85,16 @@
     border: 0;
     border-inline-start: 1px solid var(--line);
     padding: 0 0 0 clamp(1rem, 3vw, 2rem);
+  }
+}
+
+@supports (grid-template-rows: subgrid) {
+  @media (min-width: 52rem) {
+    .pricing-layout { grid-template-rows: repeat(6, auto); row-gap: .75rem; }
+    .pricing-layout > .pricing-card { display: grid; grid-template-rows: subgrid; grid-row: span 6; }
+    .pricing-layout .pricing-offer { display: grid; grid-template-rows: 1fr auto; }
+    .pricing-layout .pricing-amount { align-self: end; }
+    .pricing-layout .pricing-email { justify-self: start; margin-block-start: 0; }
   }
 }
 

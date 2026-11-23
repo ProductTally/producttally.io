@@ -28,14 +28,15 @@
   },
   "customService": {
     "name": "Custom web and content services",
-    "description": "Work directly with ProductTally to get a custom web page or content asset for your product.",
+    "description": "Commission pages, visuals, content and online tools for product launches, campaigns and everyday operations. These are examples; other requests are welcome.",
     "deliverables": [
-      "HTML pages or sections for your site",
-      "Product visuals and other web images",
-      "Page copy, product descriptions or marketing text"
+      "Marketing landing page design and production: product launches, campaigns and lead generation.",
+      "Product visuals and marketing images: product presentations, scene imagery and social assets.",
+      "Marketing copy and product content: landing pages, product descriptions and campaign copy.",
+      "Online tools and interactive features: calculators, generators and interactive forms."
     ],
     "pricing": "Request a quote",
-    "contact": "Email us what you need, any reference materials and your desired deadline. We’ll confirm the deliverables, price and schedule by email.",
+    "contact": "Email your goals, references and target date. We’ll confirm the scope, quote and delivery plan.",
     "url": "https://producttally.com/pricing/#custom-service"
   },
   "locales": [
