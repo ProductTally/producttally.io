@@ -387,7 +387,18 @@
 .article-toc a:hover { color: var(--accent); text-decoration: underline; }
 .comparison-overview { border-inline-start: .2rem solid var(--accent); }
 
-@media (min-width: 51.01rem) { .guide-article .article-toc { position: sticky; inset-block-start: 1rem; } }
+@media (min-width: 51.01rem) {
+  .guide-library > #browse-products {
+    position: sticky;
+    inset-block-start: 1rem;
+    max-block-size: calc(100vh - 2rem);
+    max-block-size: calc(100dvh - 2rem);
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scrollbar-width: thin;
+  }
+  .guide-article .article-toc { position: sticky; inset-block-start: 1rem; }
+}
 @media (max-width: 51rem) {
   .guide-library, .guide-article .article-grid.has-contents, .guide-article .article-header { grid-template-columns: minmax(0, 1fr); }
   .guide-products ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); }
