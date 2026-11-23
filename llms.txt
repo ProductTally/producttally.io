@@ -1,6 +1,6 @@
 # ProductTally
 
-> ProductTally is an independent product journal for creators and small teams. Explore SaaS and digital products through practical guides, clear pricing conditions and official sources.
+> ProductTally is an independent product journal edited by Evan for creators and small teams. Find SaaS reviews, digital product profiles and practical software guides based on official sources.
 
 Edited by Evan. Official website: https://producttally.com/. Updated: 2026-11-23.
 
@@ -8,7 +8,7 @@ Edited by Evan. Official website: https://producttally.com/. Updated: 2026-11-23
 Product research and review: USD 99, one-time per product. Scope includes a product detail page and a practical guide adapted for the four published languages. Confirm scope and payment details by email; a payment link is provided by email. Commissioned coverage is identified and editorial conclusions remain independent. [Current scope and pricing](https://producttally.com/pricing/). Contact: support@producttally.com.
 
 ## English
-ProductTally is an independent product journal for creators and small teams. Explore SaaS and digital products through practical guides, clear pricing conditions and official sources.
+ProductTally is an independent product journal edited by Evan for creators and small teams. Find SaaS reviews, digital product profiles and practical software guides based on official sources.
 
 - [About ProductTally](https://producttally.com/)
 - [Product directory](https://producttally.com/products/)
@@ -24,7 +24,7 @@ ProductTally is an independent product journal for creators and small teams. Exp
 - [How to check NotebookLM citations against the original PDF](https://producttally.com/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/): Compare conflicting sources in Gemini Notebook, formerly NotebookLM. Follow citations and check dates, units and scope using two public FCC reports.
 
 ## 简体中文
-ProductTally 是面向创作者和小团队的独立产品刊物。通过实用指南、清晰的套餐条件和官方资料，帮你选择适合工作的 SaaS 与数字产品。
+ProductTally 是由 Evan 编辑、面向创作者和小团队的独立产品刊物。我们依据官方资料，提供 SaaS 评测、数字产品介绍与软件实用指南。
 
 - [ProductTally 首页](https://producttally.com/zh/)
 - [产品广场](https://producttally.com/zh/products/)
@@ -40,7 +40,7 @@ ProductTally 是面向创作者和小团队的独立产品刊物。通过实用�
 - [如何回到 PDF 原文核对 NotebookLM 的引用？](https://producttally.com/zh/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/): 用 Gemini Notebook（原 NotebookLM）对照两份 FCC 公开报告，回查引用原文、日期、单位和适用范围，解释数字为什么不同。
 
 ## Español
-ProductTally es una publicación independiente para creadores y equipos pequeños. Descubre SaaS y productos digitales con guías prácticas, condiciones de los planes y fuentes oficiales.
+ProductTally es una publicación independiente editada por Evan para creadores y equipos pequeños. Ofrece reseñas SaaS, perfiles de productos digitales y guías prácticas de software basadas en fuentes oficiales.
 
 - [Inicio de ProductTally](https://producttally.com/es/)
 - [Directorio de productos](https://producttally.com/es/products/)
@@ -56,7 +56,7 @@ ProductTally es una publicación independiente para creadores y equipos pequeño
 - [Cómo verificar las citas de NotebookLM en el PDF original](https://producttally.com/es/blog/gemini-notebook/notebooklm-compare-conflicting-sources-with-citations/): Compara fuentes contradictorias en Gemini Notebook, antes NotebookLM. Revisa citas, fechas y unidades con dos informes públicos de la FCC.
 
 ## 日本語
-ProductTally は、クリエイターと小規模チームのための独立した製品メディアです。実用ガイド、プランの条件、公式情報を通じて SaaS やデジタル製品選びを支えます。
+ProductTally は、Evan が編集するクリエイターと小規模チーム向けの独立した製品メディアです。公式情報に基づき、SaaSレビュー、デジタル製品紹介、ソフトウェア実用ガイドを掲載します。
 
 - [ProductTallyホーム](https://producttally.com/ja/)
 - [製品一覧](https://producttally.com/ja/products/)
