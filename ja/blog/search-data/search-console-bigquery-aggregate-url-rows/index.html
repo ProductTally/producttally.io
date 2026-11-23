@@ -20,11 +20,11 @@
   <meta property="og:title" content="Search Console一括エクスポートで重複するURL行をBigQueryで集計 — ProductTally">
   <meta property="og:description" content="集計単位を決めてクリック数と表示回数を合計し、CTRとデータ欠損を区別します。">
   <meta property="og:url" content="https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/">
-  <meta property="og:image" content="https://producttally.com/assets/articles/search-console-bigquery-aggregate-url-rows/cover.webp">
-  <meta property="og:image:alt" content="架空の数値。4クリック・20表示と6クリック・80表示は、合計10クリック・100表示。">
-  <meta property="og:image:width" content="1180">
-  <meta property="og:image:height" content="660">
-  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/search-console-bigquery-aggregate-url-rows-ja.jpg">
+  <meta property="og:image:alt" content="Search Console一括エクスポートで重複するURL行をBigQueryで集計 — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
@@ -32,8 +32,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Search Console一括エクスポートで重複するURL行をBigQueryで集計 — ProductTally">
   <meta name="twitter:description" content="集計単位を決めてクリック数と表示回数を合計し、CTRとデータ欠損を区別します。">
-  <meta name="twitter:image" content="https://producttally.com/assets/articles/search-console-bigquery-aggregate-url-rows/cover.webp">
-  <meta name="twitter:image:alt" content="架空の数値。4クリック・20表示と6クリック・80表示は、合計10クリック・100表示。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/search-console-bigquery-aggregate-url-rows-ja.jpg">
+  <meta name="twitter:image:alt" content="Search Console一括エクスポートで重複するURL行をBigQueryで集計 — ProductTally">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#webpage","name":"Search Console一括エクスポートで重複するURL行をBigQueryで集計","description":"集計単位を決めてクリック数と表示回数を合計し、CTRとデータ欠損を区別します。","url":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#article","headline":"Search Console一括エクスポートで重複するURL行をBigQueryで集計","description":"集計単位を決めてクリック数と表示回数を合計し、CTRとデータ欠損を区別します。","url":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#article-image","url":"https://producttally.com/assets/articles/search-console-bigquery-aggregate-url-rows/cover.webp","contentUrl":"https://producttally.com/assets/articles/search-console-bigquery-aggregate-url-rows/cover.webp","width":1180,"height":660,"caption":"架空の数値。4クリック・20表示と6クリック・80表示は、合計10クリック・100表示。"},"dateModified":"2026-11-19","citation":["https://support.google.com/webmasters/answer/12917991","https://support.google.com/webmasters/answer/12917174"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"検索データ","item":"https://producttally.com/ja/blog/search-data/"},{"@type":"ListItem","position":4,"name":"Search ConsoleのBigQueryエクスポートで同じURLが複数行あるのはなぜ？","item":"https://producttally.com/ja/blog/search-data/search-console-bigquery-aggregate-url-rows/"}]}]}</script>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
@@ -131,7 +131,7 @@ ORDER BY data_date, clicks DESC</code></pre><ul class="article-section-sources">
       <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
-  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+  </a><p>クリエイターと小規模チームのためのデジタル製品ガイド。</p>
         <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">Evan にメールする</a>
       </div>
       <nav aria-label="フッターナビゲーション">
@@ -144,7 +144,7 @@ ORDER BY data_date, clicks DESC</code></pre><ul class="article-section-sources">
         <a href="/ja/privacy/">プライバシー</a>
       </nav>
     </div>
-    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立系製品メディア · 編集 Evan</span></div>
   </footer>
   <wa-toast data-action-toast placement="bottom-end"></wa-toast>
 </body>

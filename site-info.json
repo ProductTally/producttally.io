@@ -19,7 +19,7 @@
   "locales": [
     {
       "language": "en",
-      "description": "ProductTally helps creators and small teams choose SaaS and digital products through sourced product profiles and practical guides. We also help product makers explain what they have built through commissioned editorial coverage.",
+      "description": "ProductTally is an independent product journal for creators and small teams. Explore SaaS and digital products through practical guides, clear pricing conditions and official sources.",
       "facts": [
         {
           "label": "Publisher",
@@ -85,7 +85,7 @@
     },
     {
       "language": "zh-CN",
-      "description": "ProductTally 通过有来源的产品介绍和实用指南，帮助创作者与小团队选择 SaaS 和数字产品；也通过受委托的专题内容，帮助产品创作者讲清产品价值与使用场景。",
+      "description": "ProductTally 是面向创作者和小团队的独立产品刊物。通过实用指南、清晰的套餐条件和官方资料，帮你选择适合工作的 SaaS 与数字产品。",
       "facts": [
         {
           "label": "编辑与发布",
@@ -151,7 +151,7 @@
     },
     {
       "language": "es",
-      "description": "ProductTally ayuda a creadores y equipos pequeños a elegir SaaS y productos digitales con perfiles documentados y guías prácticas. También presenta productos mediante contenido editorial por encargo.",
+      "description": "ProductTally es una publicación independiente para creadores y equipos pequeños. Descubre SaaS y productos digitales con guías prácticas, condiciones de los planes y fuentes oficiales.",
       "facts": [
         {
           "label": "Editor",
@@ -217,7 +217,7 @@
     },
     {
       "language": "ja",
-      "description": "ProductTallyは、出典のある製品紹介と実用ガイドでクリエイターや小規模チームのSaaS・デジタル製品選びを支援します。製品開発者向けに、依頼に基づく紹介記事も制作します。",
+      "description": "ProductTally は、クリエイターと小規模チームのための独立した製品メディアです。実用ガイド、プランの条件、公式情報を通じて SaaS やデジタル製品選びを支えます。",
       "facts": [
         {
           "label": "編集・公開",

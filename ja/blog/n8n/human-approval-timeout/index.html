@@ -20,11 +20,11 @@
   <meta property="og:title" content="n8nのWaitノードで承認の期限切れを処理する方法 — ProductTally">
   <meta property="og:description" content="架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。">
   <meta property="og:url" content="https://producttally.com/ja/blog/n8n/human-approval-timeout/">
-  <meta property="og:image" content="https://producttally.com/assets/articles/human-approval-timeout/cover.webp">
-  <meta property="og:image:alt" content="見積もりが承認、修正、期限切れに分かれる例。">
-  <meta property="og:image:width" content="1100">
-  <meta property="og:image:height" content="560">
-  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/human-approval-timeout-ja.jpg">
+  <meta property="og:image:alt" content="n8nのWaitノードで承認の期限切れを処理する方法 — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
@@ -32,8 +32,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="n8nのWaitノードで承認の期限切れを処理する方法 — ProductTally">
   <meta name="twitter:description" content="架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。">
-  <meta name="twitter:image" content="https://producttally.com/assets/articles/human-approval-timeout/cover.webp">
-  <meta name="twitter:image:alt" content="見積もりが承認、修正、期限切れに分かれる例。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/human-approval-timeout-ja.jpg">
+  <meta name="twitter:image:alt" content="n8nのWaitノードで承認の期限切れを処理する方法 — ProductTally">
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#webpage","name":"n8nのWaitノードで承認の期限切れを処理する方法","description":"架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。","url":"https://producttally.com/ja/blog/n8n/human-approval-timeout/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/"},{"@type":"Article","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article","headline":"n8nのWaitノードで承認の期限切れを処理する方法","description":"架空の見積もりを使って承認、差し戻し、期限切れを分け、どの版に対する判断か追跡できるようにします。","url":"https://producttally.com/ja/blog/n8n/human-approval-timeout/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#article-image","url":"https://producttally.com/assets/articles/human-approval-timeout/cover.webp","contentUrl":"https://producttally.com/assets/articles/human-approval-timeout/cover.webp","width":1100,"height":560,"caption":"見積もりが承認、修正、期限切れに分かれる例。"},"about":[{"@id":"https://producttally.com/products/n8n/#software"}],"dateModified":"2026-11-18","citation":["https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.wait/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/n8n/#software","name":"n8n","url":"https://n8n.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/n8n/human-approval-timeout/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"n8n","item":"https://producttally.com/ja/products/n8n/"},{"@type":"ListItem","position":4,"name":"n8nで担当者の承認が期限切れになったら、次に何をする？","item":"https://producttally.com/ja/blog/n8n/human-approval-timeout/"}]}]}</script>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
@@ -136,7 +136,7 @@
       <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
     <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
     <span>Product<span class="brand-light">Tally</span></span>
-  </a><p>より良い製品を提供するインターネットの静かな一角。</p>
+  </a><p>クリエイターと小規模チームのためのデジタル製品ガイド。</p>
         <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">Evan にメールする</a>
       </div>
       <nav aria-label="フッターナビゲーション">
@@ -149,7 +149,7 @@
         <a href="/ja/privacy/">プライバシー</a>
       </nav>
     </div>
-    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Evan による独立したノートブック。</span></div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立系製品メディア · 編集 Evan</span></div>
   </footer>
   <wa-toast data-action-toast placement="bottom-end"></wa-toast>
 </body>
