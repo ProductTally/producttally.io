@@ -583,6 +583,12 @@
     },
     {
       "lang": "en",
+      "route": "blog/publer/publer-rss-social-post-queue",
+      "url": "/blog/publer/publer-rss-social-post-queue/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
       "route": "blog/payhip/black-friday-coupon-usage-expiry",
       "url": "/blog/payhip/black-friday-coupon-usage-expiry/",
       "lastmod": "2026-11-23"
@@ -1980,6 +1986,12 @@
       "lang": "zh",
       "route": "blog/pdf2go/pdf2go-pdf-open-password-and-permissions",
       "url": "/zh/blog/pdf2go/pdf2go-pdf-open-password-and-permissions/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/publer/publer-rss-social-post-queue",
+      "url": "/zh/blog/publer/publer-rss-social-post-queue/",
       "lastmod": "2026-11-24"
     },
     {
@@ -3385,6 +3397,12 @@
     },
     {
       "lang": "es",
+      "route": "blog/publer/publer-rss-social-post-queue",
+      "url": "/es/blog/publer/publer-rss-social-post-queue/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
       "route": "blog/payhip/black-friday-coupon-usage-expiry",
       "url": "/es/blog/payhip/black-friday-coupon-usage-expiry/",
       "lastmod": "2026-11-23"
@@ -4782,6 +4800,12 @@
       "lang": "ja",
       "route": "blog/pdf2go/pdf2go-pdf-open-password-and-permissions",
       "url": "/ja/blog/pdf2go/pdf2go-pdf-open-password-and-permissions/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/publer/publer-rss-social-post-queue",
+      "url": "/ja/blog/publer/publer-rss-social-post-queue/",
       "lastmod": "2026-11-24"
     },
     {
