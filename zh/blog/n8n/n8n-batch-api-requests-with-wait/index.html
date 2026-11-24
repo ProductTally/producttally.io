@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？ — ProductTally</title>
+  <meta name="description" content="把表格记录导入业务系统，同时按接收方的限额控制请求节奏。">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？ — ProductTally">
+  <meta property="og:description" content="把表格记录导入业务系统，同时按接收方的限额控制请求节奏。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/n8n-batch-api-requests-with-wait-zh.jpg">
+  <meta property="og:image:alt" content="n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？ — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？ — ProductTally">
+  <meta name="twitter:description" content="把表格记录导入业务系统，同时按接收方的限额控制请求节奏。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/n8n-batch-api-requests-with-wait-zh.jpg">
+  <meta name="twitter:image:alt" content="n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？ — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/#webpage","name":"n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？","description":"把表格记录导入业务系统，同时按接收方的限额控制请求节奏。","url":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/#article","headline":"n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？","description":"把表格记录导入业务系统，同时按接收方的限额控制请求节奏。","url":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/#article-image","url":"https://producttally.com/assets/articles/n8n-batch-api-requests-with-wait/cover.webp","contentUrl":"https://producttally.com/assets/articles/n8n-batch-api-requests-with-wait/cover.webp","width":1200,"height":675,"caption":"示意图显示，表格记录按每批十次请求分组，批次之间留有间隔。"},"about":[{"@id":"https://producttally.com/products/n8n/#software"}],"dateModified":"2026-11-24","citation":["https://docs.n8n.io/integrations/builtin/handle-rate-limits/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/n8n/#software","name":"n8n","url":"https://n8n.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"SaaS 使用指南与软件选型","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"n8n","item":"https://producttally.com/zh/products/n8n/"},{"@type":"ListItem","position":4,"name":"n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？","item":"https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="n8n-batch-api-requests-with-wait" data-product-id="n8n"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">首页</a><a href="/zh/products/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">增长服务</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/n8n/n8n-batch-api-requests-with-wait/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/n8n/n8n-batch-api-requests-with-wait/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/n8n/n8n-batch-api-requests-with-wait/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/n8n/n8n-batch-api-requests-with-wait/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/n8n/n8n-batch-api-requests-with-wait/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/n8n/n8n-batch-api-requests-with-wait/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/n8n/n8n-batch-api-requests-with-wait/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/n8n/n8n-batch-api-requests-with-wait/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">SaaS 使用指南与软件选型</a></li><li><a href="/zh/products/n8n/">n8n</a></li><li><span aria-current="page">n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">工作流自动化 · 3 分钟阅读</p>
+        <h1>n8n 怎么用 Loop Over Items 和 Wait 分批调用 API？</h1>
+        <p class="lead">把表格记录导入业务系统，同时按接收方的限额控制请求节奏。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+
+          · 更新于 <time datetime="2026-11-24">2026年11月24日</time></p>
+
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/n8n-batch-api-requests-with-wait/cover.webp" srcset="/assets/articles/n8n-batch-api-requests-with-wait/cover-small.webp 640w, /assets/articles/n8n-batch-api-requests-with-wait/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="示意图显示，表格记录按每批十次请求分组，批次之间留有间隔。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>接收方有请求限额时，可以用 n8n 的 Loop Over Items 和 Wait 给批次留出间隔，短时中断则可考虑 Retry On Fail。设置之前，先看接收方限额，再算一行数据会产生多少次请求。</p>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/n8n/">n8n · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
+        <section id="section-0">
+          <h2>先数请求次数，再数表格行数</h2><p>假设团队要把 100 条已审核商品记录导入自己的目录，每条需要一次写入，API 每分钟允许写入 60 次。示例可以设每批 10 条、批次间等 15 秒，节奏大约是每分钟 40 次写入，还没算其他工作流。如果每行还要先查询一次，而查询和写入共用额度，请求量就会增加。</p><p>按目标 API 的文档确认额度按凭证、滚动窗口还是其他方式计算。给同凭证的定时流程留出空间。遇到 429，先查限额和自家流程的请求分布。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/handle-rate-limits/">n8n 文档 · 分批与 API 请求限额</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/n8n-batch-api-requests-with-wait/details.webp" width="1200" height="640"
+          alt="示意图显示，表格记录按每批十次请求分组，批次之间留有间隔。" loading="lazy" decoding="async"><figcaption>示意图显示，表格记录按每批十次请求分组，批次之间留有间隔。</figcaption></figure><section id="section-1">
+          <h2>提前想好导到一半怎么接着跑</h2><p>用 Loop Over Items 取一批，接发送请求的节点，经 Wait 返回循环。短时中断并且确认可以安全重复时，再用 Retry On Fail。新增记录时，如果目标支持 upsert 或稳定记录键，可以让重跑更新已有条目，避免重复创建。</p><p>每条记录单独保存一个结果，只补跑未决条目。请求超时但服务端可能已经收到时，先从目录的当前状态继续。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/handle-rate-limits/">n8n 文档 · 分批与 API 请求限额</a></li></ul>
+        </section>
+        <section class="article-next" aria-label="打开官方操作文档">
+
+          <div class="article-next-links"><a class="action" href="https://docs.n8n.io/integrations/builtin/handle-rate-limits/" data-product-destination="n8n">
+    <span>n8n · 打开官方操作文档</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a><a class="text-link" data-product-link-location="article-footer" href="/zh/products/n8n/">查看产品详情</a></div>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/blog/n8n/n8n-error-workflow-actionable-alerts/">n8n 失败通知怎么写，值班人接到就知道查哪里？</a></li><li><a href="/zh/blog/n8n/n8n-schedule-trigger-timezone/">n8n 定时任务怎么按团队所在地的时间运行？</a></li><li><a href="/zh/blog/n8n/prevent-duplicate-form-submissions-with-n8n/">同一个表单发了两次，怎样让 n8n 只建一条记录？</a></li><li><a href="/zh/blog/n8n/n8n-sub-workflow-address-input-output-example/">两个 n8n 流程都在整理地址，哪一段值得拆出去？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/handle-rate-limits/">n8n 文档 · 分批与 API 请求限额</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="文章导航">
+    <div class="article-sequence-items"><a class="article-sequence-card article-sequence-previous" rel="prev" href="/zh/blog/n8n/human-approval-timeout/">
+    <span class="article-sequence-direction"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>上一篇文章</span></span>
+    <span class="article-sequence-title">n8n 等人工审批超时，工作流接下来该做什么？</span>
+  </a><a class="article-sequence-card article-sequence-next" rel="next" href="/zh/blog/n8n/pin-data-editor-versus-production/">
+    <span class="article-sequence-direction"><span>下一篇文章</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+    <span class="article-sequence-title">n8n 固定数据怎么用？编辑器里的样例和生产运行的区别</span>
+  </a></div>
+    <a class="article-sequence-back" href="/zh/products/n8n/#product-guides"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>n8n 的全部文章</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>为创作者和小团队提供产品发现与增长支持。</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/products/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">增长服务</a>
+        <a href="/zh/for-agents/">站点资料</a>
+        <a href="/zh/privacy/">隐私说明</a>
+        <a href="/zh/disclaimer/">免责声明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立产品刊物 · Evan 编辑</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

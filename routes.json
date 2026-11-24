@@ -363,7 +363,19 @@
       "lang": "en",
       "route": "blog/google-shopping",
       "url": "/blog/google-shopping/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-image-creation",
+      "url": "/blog/ai-image-creation/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/youtube-search-discovery",
+      "url": "/blog/youtube-search-discovery/",
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "en",
@@ -514,6 +526,60 @@
       "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
       "url": "/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
       "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/google-shopping/merchant-center-black-friday-promo-code",
+      "url": "/blog/google-shopping/merchant-center-black-friday-promo-code/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/google-shopping/merchant-center-holiday-delivery-estimates",
+      "url": "/blog/google-shopping/merchant-center-holiday-delivery-estimates/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/payhip/payhip-digital-product-cross-sell",
+      "url": "/blog/payhip/payhip-digital-product-cross-sell/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-image-creation/photoshop-ai-assistant-product-photo",
+      "url": "/blog/ai-image-creation/photoshop-ai-assistant-product-photo/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/youtube-search-discovery/youtube-studio-title-thumbnail-watch-time",
+      "url": "/blog/youtube-search-discovery/youtube-studio-title-thumbnail-watch-time/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/vizard/vizard-spanish-subtitles-srt-export",
+      "url": "/blog/vizard/vizard-spanish-subtitles-srt-export/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/oh-dear/oh-dear-find-stale-sitemap-urls",
+      "url": "/blog/oh-dear/oh-dear-find-stale-sitemap-urls/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/n8n/n8n-batch-api-requests-with-wait",
+      "url": "/blog/n8n/n8n-batch-api-requests-with-wait/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "blog/pdf2go/pdf2go-pdf-open-password-and-permissions",
+      "url": "/blog/pdf2go/pdf2go-pdf-open-password-and-permissions/",
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "en",
@@ -1698,7 +1764,19 @@
       "lang": "zh",
       "route": "blog/google-shopping",
       "url": "/zh/blog/google-shopping/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-image-creation",
+      "url": "/zh/blog/ai-image-creation/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/youtube-search-discovery",
+      "url": "/zh/blog/youtube-search-discovery/",
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "zh",
@@ -1849,6 +1927,60 @@
       "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
       "url": "/zh/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
       "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/google-shopping/merchant-center-black-friday-promo-code",
+      "url": "/zh/blog/google-shopping/merchant-center-black-friday-promo-code/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/google-shopping/merchant-center-holiday-delivery-estimates",
+      "url": "/zh/blog/google-shopping/merchant-center-holiday-delivery-estimates/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/payhip/payhip-digital-product-cross-sell",
+      "url": "/zh/blog/payhip/payhip-digital-product-cross-sell/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-image-creation/photoshop-ai-assistant-product-photo",
+      "url": "/zh/blog/ai-image-creation/photoshop-ai-assistant-product-photo/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/youtube-search-discovery/youtube-studio-title-thumbnail-watch-time",
+      "url": "/zh/blog/youtube-search-discovery/youtube-studio-title-thumbnail-watch-time/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/vizard/vizard-spanish-subtitles-srt-export",
+      "url": "/zh/blog/vizard/vizard-spanish-subtitles-srt-export/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/oh-dear/oh-dear-find-stale-sitemap-urls",
+      "url": "/zh/blog/oh-dear/oh-dear-find-stale-sitemap-urls/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/n8n/n8n-batch-api-requests-with-wait",
+      "url": "/zh/blog/n8n/n8n-batch-api-requests-with-wait/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/pdf2go/pdf2go-pdf-open-password-and-permissions",
+      "url": "/zh/blog/pdf2go/pdf2go-pdf-open-password-and-permissions/",
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "zh",
@@ -3033,7 +3165,19 @@
       "lang": "es",
       "route": "blog/google-shopping",
       "url": "/es/blog/google-shopping/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-image-creation",
+      "url": "/es/blog/ai-image-creation/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/youtube-search-discovery",
+      "url": "/es/blog/youtube-search-discovery/",
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "es",
@@ -3184,6 +3328,60 @@
       "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
       "url": "/es/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
       "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/google-shopping/merchant-center-black-friday-promo-code",
+      "url": "/es/blog/google-shopping/merchant-center-black-friday-promo-code/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/google-shopping/merchant-center-holiday-delivery-estimates",
+      "url": "/es/blog/google-shopping/merchant-center-holiday-delivery-estimates/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/payhip/payhip-digital-product-cross-sell",
+      "url": "/es/blog/payhip/payhip-digital-product-cross-sell/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-image-creation/photoshop-ai-assistant-product-photo",
+      "url": "/es/blog/ai-image-creation/photoshop-ai-assistant-product-photo/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/youtube-search-discovery/youtube-studio-title-thumbnail-watch-time",
+      "url": "/es/blog/youtube-search-discovery/youtube-studio-title-thumbnail-watch-time/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/vizard/vizard-spanish-subtitles-srt-export",
+      "url": "/es/blog/vizard/vizard-spanish-subtitles-srt-export/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/oh-dear/oh-dear-find-stale-sitemap-urls",
+      "url": "/es/blog/oh-dear/oh-dear-find-stale-sitemap-urls/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/n8n/n8n-batch-api-requests-with-wait",
+      "url": "/es/blog/n8n/n8n-batch-api-requests-with-wait/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "blog/pdf2go/pdf2go-pdf-open-password-and-permissions",
+      "url": "/es/blog/pdf2go/pdf2go-pdf-open-password-and-permissions/",
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "es",
@@ -4368,7 +4566,19 @@
       "lang": "ja",
       "route": "blog/google-shopping",
       "url": "/ja/blog/google-shopping/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-image-creation",
+      "url": "/ja/blog/ai-image-creation/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/youtube-search-discovery",
+      "url": "/ja/blog/youtube-search-discovery/",
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "ja",
@@ -4519,6 +4729,60 @@
       "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
       "url": "/ja/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
       "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/google-shopping/merchant-center-black-friday-promo-code",
+      "url": "/ja/blog/google-shopping/merchant-center-black-friday-promo-code/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/google-shopping/merchant-center-holiday-delivery-estimates",
+      "url": "/ja/blog/google-shopping/merchant-center-holiday-delivery-estimates/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/payhip/payhip-digital-product-cross-sell",
+      "url": "/ja/blog/payhip/payhip-digital-product-cross-sell/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-image-creation/photoshop-ai-assistant-product-photo",
+      "url": "/ja/blog/ai-image-creation/photoshop-ai-assistant-product-photo/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/youtube-search-discovery/youtube-studio-title-thumbnail-watch-time",
+      "url": "/ja/blog/youtube-search-discovery/youtube-studio-title-thumbnail-watch-time/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/vizard/vizard-spanish-subtitles-srt-export",
+      "url": "/ja/blog/vizard/vizard-spanish-subtitles-srt-export/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/oh-dear/oh-dear-find-stale-sitemap-urls",
+      "url": "/ja/blog/oh-dear/oh-dear-find-stale-sitemap-urls/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/n8n/n8n-batch-api-requests-with-wait",
+      "url": "/ja/blog/n8n/n8n-batch-api-requests-with-wait/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/pdf2go/pdf2go-pdf-open-password-and-permissions",
+      "url": "/ja/blog/pdf2go/pdf2go-pdf-open-password-and-permissions/",
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "ja",

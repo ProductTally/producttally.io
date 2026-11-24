@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Procesa peticiones por lotes en n8n con Loop Over Items y Wait — ProductTally</title>
+  <meta name="description" content="Importa una hoja de cálculo al ritmo que permite la API de destino.">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Procesa peticiones por lotes en n8n con Loop Over Items y Wait — ProductTally">
+  <meta property="og:description" content="Importa una hoja de cálculo al ritmo que permite la API de destino.">
+  <meta property="og:url" content="https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/n8n-batch-api-requests-with-wait-es.jpg">
+  <meta property="og:image:alt" content="Procesa peticiones por lotes en n8n con Loop Over Items y Wait — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Procesa peticiones por lotes en n8n con Loop Over Items y Wait — ProductTally">
+  <meta name="twitter:description" content="Importa una hoja de cálculo al ritmo que permite la API de destino.">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/n8n-batch-api-requests-with-wait-es.jpg">
+  <meta name="twitter:image:alt" content="Procesa peticiones por lotes en n8n con Loop Over Items y Wait — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/#webpage","name":"Procesa peticiones por lotes en n8n con Loop Over Items y Wait","description":"Importa una hoja de cálculo al ritmo que permite la API de destino.","url":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/","inLanguage":"es","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/#article-image"},"breadcrumb":{"@id":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/#article","headline":"Procesa peticiones por lotes en n8n con Loop Over Items y Wait","description":"Importa una hoja de cálculo al ritmo que permite la API de destino.","url":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/","inLanguage":"es","mainEntityOfPage":{"@id":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/#article-image","url":"https://producttally.com/assets/articles/n8n-batch-api-requests-with-wait/cover.webp","contentUrl":"https://producttally.com/assets/articles/n8n-batch-api-requests-with-wait/cover.webp","width":1200,"height":675,"caption":"Ilustración de una hoja repartida en lotes de diez peticiones con pausas."},"about":[{"@id":"https://producttally.com/products/n8n/#software"}],"dateModified":"2026-11-24","citation":["https://docs.n8n.io/integrations/builtin/handle-rate-limits/"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/n8n/#software","name":"n8n","url":"https://n8n.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://producttally.com/es/"},{"@type":"ListItem","position":2,"name":"Guías de uso y selección de software","item":"https://producttally.com/es/blog/"},{"@type":"ListItem","position":3,"name":"n8n","item":"https://producttally.com/es/products/n8n/"},{"@type":"ListItem","position":4,"name":"Procesa peticiones por lotes en n8n con Loop Over Items y Wait","item":"https://producttally.com/es/blog/n8n/n8n-batch-api-requests-with-wait/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="es" data-article-id="n8n-batch-api-requests-with-wait" data-product-id="n8n"></script>
+</head>
+<body data-lang="es" data-save-label="Guardar producto" data-unsave-label="Quitar de guardados" data-save-toast="Añadido a la selección" data-unsave-toast="Eliminado de la selección" data-storage-error="Tu navegador no pudo guardar el cambio.">
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/es/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="Navegación principal">
+          <div class="primary-links"><a href="/es/">Inicio</a><a href="/es/products/">Productos</a><a href="/es/blog/" aria-current="location">Blog</a><a href="/es/news/">Novedades SaaS</a><a href="/es/pricing/">Servicios</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Idioma <span translate="no">Español</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">Español</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/n8n/n8n-batch-api-requests-with-wait/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/n8n/n8n-batch-api-requests-with-wait/" lang="es" translate="no" aria-current="page">
+      Español
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/n8n/n8n-batch-api-requests-with-wait/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/n8n/n8n-batch-api-requests-with-wait/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="Idioma"><a href="/blog/n8n/n8n-batch-api-requests-with-wait/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/n8n/n8n-batch-api-requests-with-wait/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/n8n/n8n-batch-api-requests-with-wait/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/n8n/n8n-batch-api-requests-with-wait/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="Ruta de navegación">
+    <ol><li><a href="/es/">Inicio</a></li><li><a href="/es/blog/">Guías de uso y selección de software</a></li><li><a href="/es/products/n8n/">n8n</a></li><li><span aria-current="page">Procesa peticiones por lotes en n8n con Loop Over Items y Wait</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">Automatización de flujos de trabajo · 3 min de lectura</p>
+        <h1>Procesa peticiones por lotes en n8n con Loop Over Items y Wait</h1>
+        <p class="lead">Importa una hoja de cálculo al ritmo que permite la API de destino.</p>
+        <p class="byline">Por <a href="/es/about/">Evan</a>
+
+          · Actualizado <time datetime="2026-11-24">24 nov 2026</time></p>
+
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/n8n-batch-api-requests-with-wait/cover.webp" srcset="/assets/articles/n8n-batch-api-requests-with-wait/cover-small.webp 640w, /assets/articles/n8n-batch-api-requests-with-wait/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="Ilustración de una hoja repartida en lotes de diez peticiones con pausas."
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>Usa Loop Over Items y Wait para repartir lotes cuando la API tiene una cuota de peticiones. Retry On Fail sirve para interrupciones breves. Calcula el límite del servicio y cuántas peticiones genera cada fila.</p>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/es/products/n8n/">n8n · Ver detalles del producto <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
+        <section id="section-0">
+          <h2>Cuenta las peticiones de cada fila</h2><p>Imagina que importas 100 productos aprobados a un catálogo. Si cada fila requiere una escritura y la API permite 60 por minuto, un lote de 10 cada 15 segundos equivale a unas 40 escrituras por minuto, antes de contar otros flujos. Una consulta previa por fila consume más si comparte la cuota.</p><p>Consulta la documentación del destino. La cuota puede ser por credencial o por ventana móvil. Deja margen para otros flujos. Si aparece un 429, revisa el límite y cómo se concentran las peticiones.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/handle-rate-limits/">Documentación de n8n · lotes y límites de la API</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/n8n-batch-api-requests-with-wait/details.webp" width="1200" height="640"
+          alt="Ilustración de una hoja repartida en lotes de diez peticiones con pausas." loading="lazy" decoding="async"><figcaption>Ilustración de una hoja repartida en lotes de diez peticiones con pausas.</figcaption></figure><section id="section-1">
+          <h2>Deja preparada la reanudación</h2><p>Conecta el lote a la petición y vuelve al bucle pasando por Wait. Reserva Retry On Fail para interrupciones breves cuando repetir sea seguro. Para operaciones de alta, usa una clave estable o un upsert si el destino lo admite.</p><p>Guarda el resultado por registro y reintenta solo los pendientes. Si una respuesta agotó su tiempo, comprueba el estado del catálogo antes de volver a crear el registro.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/handle-rate-limits/">Documentación de n8n · lotes y límites de la API</a></li></ul>
+        </section>
+        <section class="article-next" aria-label="Abrir la documentación oficial">
+
+          <div class="article-next-links"><a class="action" href="https://docs.n8n.io/integrations/builtin/handle-rate-limits/" data-product-destination="n8n">
+    <span>n8n · Abrir la documentación oficial</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a><a class="text-link" data-product-link-location="article-footer" href="/es/products/n8n/">Ver detalles del producto</a></div>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">Guías relacionadas</h2>
+          <ul><li><a href="/es/blog/n8n/n8n-error-workflow-actionable-alerts/">Crea avisos de error de n8n que tu equipo pueda resolver</a></li><li><a href="/es/blog/n8n/n8n-schedule-trigger-timezone/">Cómo programar n8n con el horario local de tu equipo</a></li><li><a href="/es/blog/n8n/prevent-duplicate-form-submissions-with-n8n/">Cómo impedir que un reintento del formulario cree dos filas en n8n</a></li><li><a href="/es/blog/n8n/n8n-sub-workflow-address-input-output-example/">¿Cuándo conviene compartir una comprobación de direcciones entre dos flujos de n8n?</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>Referencias oficiales</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://docs.n8n.io/integrations/builtin/handle-rate-limits/">Documentación de n8n · lotes y límites de la API</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="Navegación de artículos">
+    <div class="article-sequence-items"><a class="article-sequence-card article-sequence-previous" rel="prev" href="/es/blog/n8n/human-approval-timeout/">
+    <span class="article-sequence-direction"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>Artículo anterior</span></span>
+    <span class="article-sequence-title">¿Qué debe hacer un flujo de n8n cuando vence una aprobación?</span>
+  </a><a class="article-sequence-card article-sequence-next" rel="next" href="/es/blog/n8n/pin-data-editor-versus-production/">
+    <span class="article-sequence-direction"><span>Artículo siguiente</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+    <span class="article-sequence-title">Datos fijados en n8n: cómo usar una muestra sin cambiar la ejecución real</span>
+  </a></div>
+    <a class="article-sequence-back" href="/es/products/n8n/#product-guides"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>Todos los artículos sobre n8n</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/es/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>Descubrimiento de productos y apoyo al crecimiento para creadores y equipos pequeños.</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">Escribir a Evan</a>
+      </div>
+      <nav aria-label="Navegación del pie de página">
+        <a href="/es/products/">Productos</a>
+        <a href="/es/blog/">Blog</a>
+        <a href="/es/news/">Novedades SaaS</a>
+        <a href="/es/about/">Sobre el proyecto</a>
+        <a href="/es/pricing/">Servicios</a>
+        <a href="/es/for-agents/">Sobre el sitio</a>
+        <a href="/es/privacy/">Privacidad</a>
+        <a href="/es/disclaimer/">Aviso legal</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Una publicación independiente · Editada por Evan</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>
