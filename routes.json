@@ -343,6 +343,12 @@
     },
     {
       "lang": "en",
+      "route": "products/paperpal",
+      "url": "/products/paperpal/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
       "route": "products/sembly-ai",
       "url": "/products/sembly-ai/",
       "lastmod": "2026-11-23"
@@ -1758,6 +1764,12 @@
       "lang": "zh",
       "route": "products/quetext",
       "url": "/zh/products/quetext/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "products/paperpal",
+      "url": "/zh/products/paperpal/",
       "lastmod": "2026-11-24"
     },
     {
@@ -3181,6 +3193,12 @@
     },
     {
       "lang": "es",
+      "route": "products/paperpal",
+      "url": "/es/products/paperpal/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
       "route": "products/sembly-ai",
       "url": "/es/products/sembly-ai/",
       "lastmod": "2026-11-23"
@@ -4596,6 +4614,12 @@
       "lang": "ja",
       "route": "products/quetext",
       "url": "/ja/products/quetext/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "products/paperpal",
+      "url": "/ja/products/paperpal/",
       "lastmod": "2026-11-24"
     },
     {
