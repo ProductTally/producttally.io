@@ -18,7 +18,7 @@
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "en",
@@ -337,6 +337,12 @@
     },
     {
       "lang": "en",
+      "route": "products/quetext",
+      "url": "/products/quetext/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
       "route": "products/sembly-ai",
       "url": "/products/sembly-ai/",
       "lastmod": "2026-11-23"
@@ -351,7 +357,7 @@
       "lang": "en",
       "route": "blog",
       "url": "/blog/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "en",
@@ -1347,7 +1353,7 @@
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "zh",
@@ -1666,6 +1672,12 @@
     },
     {
       "lang": "zh",
+      "route": "products/quetext",
+      "url": "/zh/products/quetext/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
       "route": "products/sembly-ai",
       "url": "/zh/products/sembly-ai/",
       "lastmod": "2026-11-23"
@@ -1680,7 +1692,7 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "zh",
@@ -2676,7 +2688,7 @@
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "es",
@@ -2995,6 +3007,12 @@
     },
     {
       "lang": "es",
+      "route": "products/quetext",
+      "url": "/es/products/quetext/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
       "route": "products/sembly-ai",
       "url": "/es/products/sembly-ai/",
       "lastmod": "2026-11-23"
@@ -3009,7 +3027,7 @@
       "lang": "es",
       "route": "blog",
       "url": "/es/blog/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "es",
@@ -4005,7 +4023,7 @@
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "ja",
@@ -4324,6 +4342,12 @@
     },
     {
       "lang": "ja",
+      "route": "products/quetext",
+      "url": "/ja/products/quetext/",
+      "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
       "route": "products/sembly-ai",
       "url": "/ja/products/sembly-ai/",
       "lastmod": "2026-11-23"
@@ -4338,7 +4362,7 @@
       "lang": "ja",
       "route": "blog",
       "url": "/ja/blog/",
-      "lastmod": "2026-11-23"
+      "lastmod": "2026-11-24"
     },
     {
       "lang": "ja",
