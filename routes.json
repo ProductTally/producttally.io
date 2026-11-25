@@ -18,7 +18,7 @@
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "en",
@@ -36,7 +36,7 @@
       "lang": "en",
       "route": "news",
       "url": "/news/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "en",
@@ -363,13 +363,19 @@
       "lang": "en",
       "route": "blog",
       "url": "/blog/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ecommerce",
+      "url": "/blog/ecommerce/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "en",
       "route": "blog/google-shopping",
       "url": "/blog/google-shopping/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "en",
@@ -532,6 +538,36 @@
       "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
       "url": "/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
       "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ecommerce/shopify-discount-combinations",
+      "url": "/blog/ecommerce/shopify-discount-combinations/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "en",
+      "route": "blog/google-shopping/merchant-center-preorder-availability-date",
+      "url": "/blog/google-shopping/merchant-center-preorder-availability-date/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "en",
+      "route": "blog/payhip/payhip-customer-referral-discount",
+      "url": "/blog/payhip/payhip-customer-referral-discount/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "en",
+      "route": "blog/paperpal/paperpal-manuscript-submission-check",
+      "url": "/blog/paperpal/paperpal-manuscript-submission-check/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "en",
+      "route": "blog/quetext/quetext-apa-webpage-citation",
+      "url": "/blog/quetext/quetext-apa-webpage-citation/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "en",
@@ -1381,6 +1417,12 @@
     },
     {
       "lang": "en",
+      "route": "news/google-connected-apps-holiday-groceries",
+      "url": "/news/google-connected-apps-holiday-groceries/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "en",
       "route": "news/canva-ai-controls",
       "url": "/news/canva-ai-controls/",
       "lastmod": "2026-11-24"
@@ -1443,7 +1485,7 @@
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "zh",
@@ -1461,7 +1503,7 @@
       "lang": "zh",
       "route": "news",
       "url": "/zh/news/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "zh",
@@ -1788,13 +1830,19 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ecommerce",
+      "url": "/zh/blog/ecommerce/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "zh",
       "route": "blog/google-shopping",
       "url": "/zh/blog/google-shopping/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "zh",
@@ -1957,6 +2005,36 @@
       "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
       "url": "/zh/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
       "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ecommerce/shopify-discount-combinations",
+      "url": "/zh/blog/ecommerce/shopify-discount-combinations/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/google-shopping/merchant-center-preorder-availability-date",
+      "url": "/zh/blog/google-shopping/merchant-center-preorder-availability-date/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/payhip/payhip-customer-referral-discount",
+      "url": "/zh/blog/payhip/payhip-customer-referral-discount/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/paperpal/paperpal-manuscript-submission-check",
+      "url": "/zh/blog/paperpal/paperpal-manuscript-submission-check/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/quetext/quetext-apa-webpage-citation",
+      "url": "/zh/blog/quetext/quetext-apa-webpage-citation/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "zh",
@@ -2806,6 +2884,12 @@
     },
     {
       "lang": "zh",
+      "route": "news/google-connected-apps-holiday-groceries",
+      "url": "/zh/news/google-connected-apps-holiday-groceries/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "zh",
       "route": "news/canva-ai-controls",
       "url": "/zh/news/canva-ai-controls/",
       "lastmod": "2026-11-24"
@@ -2868,7 +2952,7 @@
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "es",
@@ -2886,7 +2970,7 @@
       "lang": "es",
       "route": "news",
       "url": "/es/news/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "es",
@@ -3213,13 +3297,19 @@
       "lang": "es",
       "route": "blog",
       "url": "/es/blog/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ecommerce",
+      "url": "/es/blog/ecommerce/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "es",
       "route": "blog/google-shopping",
       "url": "/es/blog/google-shopping/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "es",
@@ -3382,6 +3472,36 @@
       "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
       "url": "/es/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
       "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ecommerce/shopify-discount-combinations",
+      "url": "/es/blog/ecommerce/shopify-discount-combinations/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "es",
+      "route": "blog/google-shopping/merchant-center-preorder-availability-date",
+      "url": "/es/blog/google-shopping/merchant-center-preorder-availability-date/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "es",
+      "route": "blog/payhip/payhip-customer-referral-discount",
+      "url": "/es/blog/payhip/payhip-customer-referral-discount/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "es",
+      "route": "blog/paperpal/paperpal-manuscript-submission-check",
+      "url": "/es/blog/paperpal/paperpal-manuscript-submission-check/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "es",
+      "route": "blog/quetext/quetext-apa-webpage-citation",
+      "url": "/es/blog/quetext/quetext-apa-webpage-citation/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "es",
@@ -4231,6 +4351,12 @@
     },
     {
       "lang": "es",
+      "route": "news/google-connected-apps-holiday-groceries",
+      "url": "/es/news/google-connected-apps-holiday-groceries/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "es",
       "route": "news/canva-ai-controls",
       "url": "/es/news/canva-ai-controls/",
       "lastmod": "2026-11-24"
@@ -4293,7 +4419,7 @@
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "ja",
@@ -4311,7 +4437,7 @@
       "lang": "ja",
       "route": "news",
       "url": "/ja/news/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "ja",
@@ -4638,13 +4764,19 @@
       "lang": "ja",
       "route": "blog",
       "url": "/ja/blog/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ecommerce",
+      "url": "/ja/blog/ecommerce/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "ja",
       "route": "blog/google-shopping",
       "url": "/ja/blog/google-shopping/",
-      "lastmod": "2026-11-24"
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "ja",
@@ -4807,6 +4939,36 @@
       "route": "blog/udemy/sql-bootcamp-monthly-repeat-buyers",
       "url": "/ja/blog/udemy/sql-bootcamp-monthly-repeat-buyers/",
       "lastmod": "2026-11-23"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ecommerce/shopify-discount-combinations",
+      "url": "/ja/blog/ecommerce/shopify-discount-combinations/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/google-shopping/merchant-center-preorder-availability-date",
+      "url": "/ja/blog/google-shopping/merchant-center-preorder-availability-date/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/payhip/payhip-customer-referral-discount",
+      "url": "/ja/blog/payhip/payhip-customer-referral-discount/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/paperpal/paperpal-manuscript-submission-check",
+      "url": "/ja/blog/paperpal/paperpal-manuscript-submission-check/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/quetext/quetext-apa-webpage-citation",
+      "url": "/ja/blog/quetext/quetext-apa-webpage-citation/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "ja",
@@ -5653,6 +5815,12 @@
       "route": "news/chatgpt-space-plus-collaboration",
       "url": "/ja/news/chatgpt-space-plus-collaboration/",
       "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "news/google-connected-apps-holiday-groceries",
+      "url": "/ja/news/google-connected-apps-holiday-groceries/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "ja",
