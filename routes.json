@@ -475,6 +475,12 @@
     },
     {
       "lang": "en",
+      "route": "blog/udemy/black-friday-exam-voucher",
+      "url": "/blog/udemy/black-friday-exam-voucher/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "en",
       "route": "blog/udemy/docker-compose-course-app-postgres",
       "url": "/blog/udemy/docker-compose-course-app-postgres/",
       "lastmod": "2026-11-23"
@@ -1939,6 +1945,12 @@
       "route": "blog/ai-search-measurement",
       "url": "/zh/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/udemy/black-friday-exam-voucher",
+      "url": "/zh/blog/udemy/black-friday-exam-voucher/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "zh",
@@ -3409,6 +3421,12 @@
     },
     {
       "lang": "es",
+      "route": "blog/udemy/black-friday-exam-voucher",
+      "url": "/es/blog/udemy/black-friday-exam-voucher/",
+      "lastmod": "2026-11-25"
+    },
+    {
+      "lang": "es",
       "route": "blog/udemy/docker-compose-course-app-postgres",
       "url": "/es/blog/udemy/docker-compose-course-app-postgres/",
       "lastmod": "2026-11-23"
@@ -4873,6 +4891,12 @@
       "route": "blog/ai-search-measurement",
       "url": "/ja/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/udemy/black-friday-exam-voucher",
+      "url": "/ja/blog/udemy/black-friday-exam-voucher/",
+      "lastmod": "2026-11-25"
     },
     {
       "lang": "ja",
