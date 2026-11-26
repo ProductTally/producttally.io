@@ -18,7 +18,7 @@
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "en",
@@ -36,7 +36,7 @@
       "lang": "en",
       "route": "news",
       "url": "/news/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "en",
@@ -363,19 +363,25 @@
       "lang": "en",
       "route": "blog",
       "url": "/blog/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "en",
       "route": "blog/ecommerce",
       "url": "/blog/ecommerce/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "en",
       "route": "blog/google-shopping",
       "url": "/blog/google-shopping/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-search-visibility",
+      "url": "/blog/ai-search-visibility/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "en",
@@ -417,12 +423,6 @@
       "lang": "en",
       "route": "blog/search-data",
       "url": "/blog/search-data/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "en",
-      "route": "blog/ai-search-visibility",
-      "url": "/blog/ai-search-visibility/",
       "lastmod": "2026-11-19"
     },
     {
@@ -472,6 +472,54 @@
       "route": "blog/ai-search-measurement",
       "url": "/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/seopress/seopress-black-friday-unlimited",
+      "url": "/blog/seopress/seopress-black-friday-unlimited/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "blog/adguard/adguard-black-friday-family-license",
+      "url": "/blog/adguard/adguard-black-friday-family-license/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ecommerce/shopify-buy-two-get-one-gift-cart",
+      "url": "/blog/ecommerce/shopify-buy-two-get-one-gift-cart/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "blog/google-shopping/merchant-center-black-friday-price-mismatch",
+      "url": "/blog/google-shopping/merchant-center-black-friday-price-mismatch/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing",
+      "url": "/blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "blog/windsor-ai/windsor-ai-looker-studio-weekly-data-mismatch",
+      "url": "/blog/windsor-ai/windsor-ai-looker-studio-weekly-data-mismatch/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "blog/sembly-ai/sembly-studio-client-proposal-from-meeting",
+      "url": "/blog/sembly-ai/sembly-studio-client-proposal-from-meeting/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "blog/gamma/gamma-presenter-view-speaker-notes-rehearsal",
+      "url": "/blog/gamma/gamma-presenter-view-speaker-notes-rehearsal/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "en",
@@ -1405,6 +1453,12 @@
     },
     {
       "lang": "en",
+      "route": "news/google-workspace-mcp-cli",
+      "url": "/news/google-workspace-mcp-cli/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
       "route": "news/gpt-6-2-chatgpt-chat",
       "url": "/news/gpt-6-2-chatgpt-chat/",
       "lastmod": "2026-11-24"
@@ -1414,6 +1468,12 @@
       "route": "news/figma-agent-figjam-slides",
       "url": "/news/figma-agent-figjam-slides/",
       "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "en",
+      "route": "news/canva-mcp-video-generation",
+      "url": "/news/canva-mcp-video-generation/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "en",
@@ -1491,7 +1551,7 @@
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "zh",
@@ -1509,7 +1569,7 @@
       "lang": "zh",
       "route": "news",
       "url": "/zh/news/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "zh",
@@ -1836,19 +1896,25 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "zh",
       "route": "blog/ecommerce",
       "url": "/zh/blog/ecommerce/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "zh",
       "route": "blog/google-shopping",
       "url": "/zh/blog/google-shopping/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-search-visibility",
+      "url": "/zh/blog/ai-search-visibility/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "zh",
@@ -1890,12 +1956,6 @@
       "lang": "zh",
       "route": "blog/search-data",
       "url": "/zh/blog/search-data/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "zh",
-      "route": "blog/ai-search-visibility",
-      "url": "/zh/blog/ai-search-visibility/",
       "lastmod": "2026-11-19"
     },
     {
@@ -1945,6 +2005,54 @@
       "route": "blog/ai-search-measurement",
       "url": "/zh/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/seopress/seopress-black-friday-unlimited",
+      "url": "/zh/blog/seopress/seopress-black-friday-unlimited/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/adguard/adguard-black-friday-family-license",
+      "url": "/zh/blog/adguard/adguard-black-friday-family-license/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ecommerce/shopify-buy-two-get-one-gift-cart",
+      "url": "/zh/blog/ecommerce/shopify-buy-two-get-one-gift-cart/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/google-shopping/merchant-center-black-friday-price-mismatch",
+      "url": "/zh/blog/google-shopping/merchant-center-black-friday-price-mismatch/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing",
+      "url": "/zh/blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/windsor-ai/windsor-ai-looker-studio-weekly-data-mismatch",
+      "url": "/zh/blog/windsor-ai/windsor-ai-looker-studio-weekly-data-mismatch/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/sembly-ai/sembly-studio-client-proposal-from-meeting",
+      "url": "/zh/blog/sembly-ai/sembly-studio-client-proposal-from-meeting/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/gamma/gamma-presenter-view-speaker-notes-rehearsal",
+      "url": "/zh/blog/gamma/gamma-presenter-view-speaker-notes-rehearsal/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "zh",
@@ -2878,6 +2986,12 @@
     },
     {
       "lang": "zh",
+      "route": "news/google-workspace-mcp-cli",
+      "url": "/zh/news/google-workspace-mcp-cli/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
       "route": "news/gpt-6-2-chatgpt-chat",
       "url": "/zh/news/gpt-6-2-chatgpt-chat/",
       "lastmod": "2026-11-24"
@@ -2887,6 +3001,12 @@
       "route": "news/figma-agent-figjam-slides",
       "url": "/zh/news/figma-agent-figjam-slides/",
       "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "zh",
+      "route": "news/canva-mcp-video-generation",
+      "url": "/zh/news/canva-mcp-video-generation/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "zh",
@@ -2964,7 +3084,7 @@
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "es",
@@ -2982,7 +3102,7 @@
       "lang": "es",
       "route": "news",
       "url": "/es/news/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "es",
@@ -3309,19 +3429,25 @@
       "lang": "es",
       "route": "blog",
       "url": "/es/blog/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "es",
       "route": "blog/ecommerce",
       "url": "/es/blog/ecommerce/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "es",
       "route": "blog/google-shopping",
       "url": "/es/blog/google-shopping/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-search-visibility",
+      "url": "/es/blog/ai-search-visibility/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "es",
@@ -3363,12 +3489,6 @@
       "lang": "es",
       "route": "blog/search-data",
       "url": "/es/blog/search-data/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "es",
-      "route": "blog/ai-search-visibility",
-      "url": "/es/blog/ai-search-visibility/",
       "lastmod": "2026-11-19"
     },
     {
@@ -3418,6 +3538,54 @@
       "route": "blog/ai-search-measurement",
       "url": "/es/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/seopress/seopress-black-friday-unlimited",
+      "url": "/es/blog/seopress/seopress-black-friday-unlimited/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "blog/adguard/adguard-black-friday-family-license",
+      "url": "/es/blog/adguard/adguard-black-friday-family-license/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ecommerce/shopify-buy-two-get-one-gift-cart",
+      "url": "/es/blog/ecommerce/shopify-buy-two-get-one-gift-cart/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "blog/google-shopping/merchant-center-black-friday-price-mismatch",
+      "url": "/es/blog/google-shopping/merchant-center-black-friday-price-mismatch/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing",
+      "url": "/es/blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "blog/windsor-ai/windsor-ai-looker-studio-weekly-data-mismatch",
+      "url": "/es/blog/windsor-ai/windsor-ai-looker-studio-weekly-data-mismatch/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "blog/sembly-ai/sembly-studio-client-proposal-from-meeting",
+      "url": "/es/blog/sembly-ai/sembly-studio-client-proposal-from-meeting/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "blog/gamma/gamma-presenter-view-speaker-notes-rehearsal",
+      "url": "/es/blog/gamma/gamma-presenter-view-speaker-notes-rehearsal/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "es",
@@ -4351,6 +4519,12 @@
     },
     {
       "lang": "es",
+      "route": "news/google-workspace-mcp-cli",
+      "url": "/es/news/google-workspace-mcp-cli/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
       "route": "news/gpt-6-2-chatgpt-chat",
       "url": "/es/news/gpt-6-2-chatgpt-chat/",
       "lastmod": "2026-11-24"
@@ -4360,6 +4534,12 @@
       "route": "news/figma-agent-figjam-slides",
       "url": "/es/news/figma-agent-figjam-slides/",
       "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "es",
+      "route": "news/canva-mcp-video-generation",
+      "url": "/es/news/canva-mcp-video-generation/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "es",
@@ -4437,7 +4617,7 @@
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "ja",
@@ -4455,7 +4635,7 @@
       "lang": "ja",
       "route": "news",
       "url": "/ja/news/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "ja",
@@ -4782,19 +4962,25 @@
       "lang": "ja",
       "route": "blog",
       "url": "/ja/blog/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "ja",
       "route": "blog/ecommerce",
       "url": "/ja/blog/ecommerce/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "ja",
       "route": "blog/google-shopping",
       "url": "/ja/blog/google-shopping/",
-      "lastmod": "2026-11-25"
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-search-visibility",
+      "url": "/ja/blog/ai-search-visibility/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "ja",
@@ -4836,12 +5022,6 @@
       "lang": "ja",
       "route": "blog/search-data",
       "url": "/ja/blog/search-data/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "ja",
-      "route": "blog/ai-search-visibility",
-      "url": "/ja/blog/ai-search-visibility/",
       "lastmod": "2026-11-19"
     },
     {
@@ -4891,6 +5071,54 @@
       "route": "blog/ai-search-measurement",
       "url": "/ja/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/seopress/seopress-black-friday-unlimited",
+      "url": "/ja/blog/seopress/seopress-black-friday-unlimited/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/adguard/adguard-black-friday-family-license",
+      "url": "/ja/blog/adguard/adguard-black-friday-family-license/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ecommerce/shopify-buy-two-get-one-gift-cart",
+      "url": "/ja/blog/ecommerce/shopify-buy-two-get-one-gift-cart/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/google-shopping/merchant-center-black-friday-price-mismatch",
+      "url": "/ja/blog/google-shopping/merchant-center-black-friday-price-mismatch/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing",
+      "url": "/ja/blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/windsor-ai/windsor-ai-looker-studio-weekly-data-mismatch",
+      "url": "/ja/blog/windsor-ai/windsor-ai-looker-studio-weekly-data-mismatch/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/sembly-ai/sembly-studio-client-proposal-from-meeting",
+      "url": "/ja/blog/sembly-ai/sembly-studio-client-proposal-from-meeting/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/gamma/gamma-presenter-view-speaker-notes-rehearsal",
+      "url": "/ja/blog/gamma/gamma-presenter-view-speaker-notes-rehearsal/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "ja",
@@ -5824,6 +6052,12 @@
     },
     {
       "lang": "ja",
+      "route": "news/google-workspace-mcp-cli",
+      "url": "/ja/news/google-workspace-mcp-cli/",
+      "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
       "route": "news/gpt-6-2-chatgpt-chat",
       "url": "/ja/news/gpt-6-2-chatgpt-chat/",
       "lastmod": "2026-11-24"
@@ -5833,6 +6067,12 @@
       "route": "news/figma-agent-figjam-slides",
       "url": "/ja/news/figma-agent-figjam-slides/",
       "lastmod": "2026-11-24"
+    },
+    {
+      "lang": "ja",
+      "route": "news/canva-mcp-video-generation",
+      "url": "/ja/news/canva-mcp-video-generation/",
+      "lastmod": "2026-11-26"
     },
     {
       "lang": "ja",
