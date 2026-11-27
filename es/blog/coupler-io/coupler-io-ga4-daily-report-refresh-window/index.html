@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuándo refrescar un informe diario de GA4 con Coupler.io — ProductTally</title>
+  <meta name="description" content="Programa la entrega y decide qué fechas volverás a consultar cuando aparezcan datos tardíos.">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Cuándo refrescar un informe diario de GA4 con Coupler.io — ProductTally">
+  <meta property="og:description" content="Programa la entrega y decide qué fechas volverás a consultar cuando aparezcan datos tardíos.">
+  <meta property="og:url" content="https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/coupler-io-ga4-daily-report-refresh-window-es.jpg">
+  <meta property="og:image:alt" content="Cuándo refrescar un informe diario de GA4 con Coupler.io — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cuándo refrescar un informe diario de GA4 con Coupler.io — ProductTally">
+  <meta name="twitter:description" content="Programa la entrega y decide qué fechas volverás a consultar cuando aparezcan datos tardíos.">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/coupler-io-ga4-daily-report-refresh-window-es.jpg">
+  <meta name="twitter:image:alt" content="Cuándo refrescar un informe diario de GA4 con Coupler.io — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/#webpage","name":"Cuándo refrescar un informe diario de GA4 con Coupler.io","description":"Programa la entrega y decide qué fechas volverás a consultar cuando aparezcan datos tardíos.","url":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/","inLanguage":"es","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/#article-image"},"breadcrumb":{"@id":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/#article","headline":"Cuándo refrescar un informe diario de GA4 con Coupler.io","description":"Programa la entrega y decide qué fechas volverás a consultar cuando aparezcan datos tardíos.","url":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/","inLanguage":"es","mainEntityOfPage":{"@id":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/#article-image","url":"https://producttally.com/assets/articles/coupler-io-ga4-daily-report-refresh-window/cover.webp","contentUrl":"https://producttally.com/assets/articles/coupler-io-ga4-daily-report-refresh-window/cover.webp","width":1200,"height":675,"caption":"Ejemplo de actualización del informe"},"about":[{"@id":"https://producttally.com/products/coupler-io/#software"}],"datePublished":"2026-11-27","dateModified":"2026-11-27","citation":["https://docs.coupler.io/functionality/flow-settings/how-to-set-up-automatic-data-refresh.md","https://support.google.com/analytics/answer/11198161"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/coupler-io/#software","name":"Coupler.io","url":"https://www.coupler.io/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://producttally.com/es/"},{"@type":"ListItem","position":2,"name":"Guías de uso y selección de software","item":"https://producttally.com/es/blog/"},{"@type":"ListItem","position":3,"name":"Coupler.io","item":"https://producttally.com/es/products/coupler-io/"},{"@type":"ListItem","position":4,"name":"Cuándo refrescar un informe diario de GA4 con Coupler.io","item":"https://producttally.com/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="es" data-article-id="coupler-io-ga4-daily-report-refresh-window" data-product-id="coupler-io"></script>
+</head>
+<body data-lang="es" data-save-label="Guardar producto" data-unsave-label="Quitar de guardados" data-save-toast="Añadido a la selección" data-unsave-toast="Eliminado de la selección" data-storage-error="Tu navegador no pudo guardar el cambio.">
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/es/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="Navegación principal">
+          <div class="primary-links"><a href="/es/">Inicio</a><a href="/es/products/">Productos</a><a href="/es/blog/" aria-current="location">Blog</a><a href="/es/news/">Novedades SaaS</a><a href="/es/pricing/">Servicios</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">Idioma <span translate="no">Español</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">Español</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/" lang="es" translate="no" aria-current="page">
+      Español
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="Idioma"><a href="/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="Ruta de navegación">
+    <ol><li><a href="/es/">Inicio</a></li><li><a href="/es/blog/">Guías de uso y selección de software</a></li><li><a href="/es/products/coupler-io/">Coupler.io</a></li><li><span aria-current="page">Cuándo refrescar un informe diario de GA4 con Coupler.io</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">Datos y análisis · 3 min de lectura</p>
+        <h1>Cuándo refrescar un informe diario de GA4 con Coupler.io</h1>
+        <p class="lead">Programa la entrega y decide qué fechas volverás a consultar cuando aparezcan datos tardíos.</p>
+        <p class="byline">Por <a href="/es/about/">Evan</a>
+          · Publicado <time datetime="2026-11-27">27 nov 2026</time>
+          · Actualizado <time datetime="2026-11-27">27 nov 2026</time></p>
+
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/coupler-io-ga4-daily-report-refresh-window/cover.webp" srcset="/assets/articles/coupler-io-ga4-daily-report-refresh-window/cover-small.webp 640w, /assets/articles/coupler-io-ga4-daily-report-refresh-window/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="Ejemplo de actualización del informe"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>Coupler.io actualiza un destino por horario. GA4 procesa los datos con otro calendario, por lo que una importación correcta puede contener cifras provisionales. Define una hora de entrega y un intervalo para revisar fechas recientes.</p>
+    <p class="affiliate-disclosure">ProductTally puede recibir una comisión si compras a través de estos enlaces.</p><div class="article-intro-sources"><a data-source-citation="true" href="https://docs.coupler.io/functionality/flow-settings/how-to-set-up-automatic-data-refresh.md?ref=evan-32a109" data-affiliate-click="coupler-io" data-affiliate-link-type="citation" target="_blank" rel="noopener">Documentación oficial · docs.coupler.io 1</a> · <a data-source-citation="true" href="https://support.google.com/analytics/answer/11198161">Documentación oficial · support.google.com 2</a></div>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/es/products/coupler-io/">Coupler.io · Ver detalles del producto <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
+        <section id="section-0">
+          <h2>Registra dos horas</h2><p>Si el equipo abre el informe a las 09:00, usa la zona de la propiedad GA4. Programa una actualización anterior si tu plan lo permite. Anota el corte del informe y el último refresco correcto. Marca ayer como provisional y compara con un día ya cerrado.</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://docs.coupler.io/functionality/flow-settings/how-to-set-up-automatic-data-refresh.md?ref=evan-32a109" data-affiliate-click="coupler-io" data-affiliate-link-type="citation" target="_blank" rel="noopener">Documentación oficial · docs.coupler.io 1</a></li><li><a data-source-citation="true" href="https://support.google.com/analytics/answer/11198161">Documentación oficial · support.google.com 2</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/coupler-io-ga4-daily-report-refresh-window/example.webp" width="1200" height="675"
+          alt="Ejemplo de actualización del informe · 08:00 → 09:00 / T − 1 / T − 2" loading="lazy" decoding="async"><figcaption>Ejemplo de actualización del informe · 08:00 → 09:00 / T − 1 / T − 2</figcaption></figure><section id="section-1">
+          <h2>Revisa un pedido que llega tarde</h2><p>Si el martes ves cuatro compras del lunes y el miércoles aparece una quinta, vuelve a leer el lunes con las mismas dimensiones. Sustituye el subtotal anterior o deduplica antes de calcular la semana. Comprueba primero ese periodo en GA4 si aparecen diferencias.</p>
+        </section>
+        <section class="article-next" aria-label="Visitar la web oficial">
+          <p class="affiliate-disclosure">ProductTally puede recibir una comisión si compras a través de estos enlaces.</p>
+          <div class="article-next-links"><a class="action" href="https://www.coupler.io/?ref=evan-32a109" data-product-destination="coupler-io" data-affiliate-click="coupler-io" data-affiliate-link-type="deep_link" target="_blank" rel="noopener">
+    <span>Coupler.io · Visitar la web oficial</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a><a class="text-link" data-product-link-location="article-footer" href="/es/products/coupler-io/">Ver detalles del producto</a></div>
+        </section>
+
+        <section class="article-resources"><h2>Referencias oficiales</h2>
+          <p class="affiliate-disclosure">ProductTally puede recibir una comisión si compras a través de estos enlaces.</p><ul><li><cite><a data-source-citation="true" href="https://docs.coupler.io/functionality/flow-settings/how-to-set-up-automatic-data-refresh.md?ref=evan-32a109" data-affiliate-click="coupler-io" data-affiliate-link-type="citation" target="_blank" rel="noopener">Documentación oficial · docs.coupler.io 1</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/analytics/answer/11198161">Documentación oficial · support.google.com 2</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="Navegación de artículos">
+
+    <a class="article-sequence-back" href="/es/products/coupler-io/#product-guides"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>Todos los artículos sobre Coupler.io</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/es/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>Descubrimiento de productos y apoyo al crecimiento para creadores y equipos pequeños.</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">Escribir a Evan</a>
+      </div>
+      <nav aria-label="Navegación del pie de página">
+        <a href="/es/products/">Productos</a>
+        <a href="/es/blog/">Blog</a>
+        <a href="/es/news/">Novedades SaaS</a>
+        <a href="/es/about/">Sobre el proyecto</a>
+        <a href="/es/pricing/">Servicios</a>
+        <a href="/es/for-agents/">Sobre el sitio</a>
+        <a href="/es/privacy/">Privacidad</a>
+        <a href="/es/disclaimer/">Aviso legal</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>Una publicación independiente · Editada por Evan</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

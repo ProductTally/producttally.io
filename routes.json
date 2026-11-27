@@ -369,7 +369,13 @@
       "lang": "en",
       "route": "blog/ecommerce",
       "url": "/blog/ecommerce/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-troubleshooting",
+      "url": "/blog/search-troubleshooting/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "en",
@@ -400,12 +406,6 @@
       "route": "blog/creator-partnerships",
       "url": "/blog/creator-partnerships/",
       "lastmod": "2026-11-23"
-    },
-    {
-      "lang": "en",
-      "route": "blog/search-troubleshooting",
-      "url": "/blog/search-troubleshooting/",
-      "lastmod": "2026-11-20"
     },
     {
       "lang": "en",
@@ -472,6 +472,78 @@
       "route": "blog/ai-search-measurement",
       "url": "/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ecommerce/shopify-partial-refund-net-sales-reconciliation",
+      "url": "/blog/ecommerce/shopify-partial-refund-net-sales-reconciliation/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ecommerce/seasonal-sale-landing-page-after-expiry",
+      "url": "/blog/ecommerce/seasonal-sale-landing-page-after-expiry/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/payhip/payhip-bundle-unlisted-worksheet-access",
+      "url": "/blog/payhip/payhip-bundle-unlisted-worksheet-access/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ecommerce/shopify-gift-card-card-split-refund",
+      "url": "/blog/ecommerce/shopify-gift-card-card-split-refund/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/coupler-io/coupler-io-ga4-daily-report-refresh-window",
+      "url": "/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/flowlu/flowlu-partial-invoice-payments-balance",
+      "url": "/blog/flowlu/flowlu-partial-invoice-payments-balance/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/answerthis/answerthis-bibtex-clean-research-library",
+      "url": "/blog/answerthis/answerthis-bibtex-clean-research-library/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/submagic/submagic-burned-captions-or-srt-delivery",
+      "url": "/blog/submagic/submagic-burned-captions-or-srt-delivery/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/streamyard/streamyard-prerecorded-demo-schedule",
+      "url": "/blog/streamyard/streamyard-prerecorded-demo-schedule/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/nifty/nifty-recurring-milestone-weekly-review",
+      "url": "/blog/nifty/nifty-recurring-milestone-weekly-review/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/frase/frase-buyer-questions-product-page-or-guide",
+      "url": "/blog/frase/frase-buyer-questions-product-page-or-guide/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-troubleshooting/ecommerce-faceted-navigation-color-size-crawl",
+      "url": "/blog/search-troubleshooting/ecommerce-faceted-navigation-color-size-crawl/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "en",
@@ -1920,7 +1992,13 @@
       "lang": "zh",
       "route": "blog/ecommerce",
       "url": "/zh/blog/ecommerce/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-troubleshooting",
+      "url": "/zh/blog/search-troubleshooting/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "zh",
@@ -1951,12 +2029,6 @@
       "route": "blog/creator-partnerships",
       "url": "/zh/blog/creator-partnerships/",
       "lastmod": "2026-11-23"
-    },
-    {
-      "lang": "zh",
-      "route": "blog/search-troubleshooting",
-      "url": "/zh/blog/search-troubleshooting/",
-      "lastmod": "2026-11-20"
     },
     {
       "lang": "zh",
@@ -2023,6 +2095,78 @@
       "route": "blog/ai-search-measurement",
       "url": "/zh/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ecommerce/shopify-partial-refund-net-sales-reconciliation",
+      "url": "/zh/blog/ecommerce/shopify-partial-refund-net-sales-reconciliation/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ecommerce/seasonal-sale-landing-page-after-expiry",
+      "url": "/zh/blog/ecommerce/seasonal-sale-landing-page-after-expiry/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/payhip/payhip-bundle-unlisted-worksheet-access",
+      "url": "/zh/blog/payhip/payhip-bundle-unlisted-worksheet-access/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ecommerce/shopify-gift-card-card-split-refund",
+      "url": "/zh/blog/ecommerce/shopify-gift-card-card-split-refund/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/coupler-io/coupler-io-ga4-daily-report-refresh-window",
+      "url": "/zh/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/flowlu/flowlu-partial-invoice-payments-balance",
+      "url": "/zh/blog/flowlu/flowlu-partial-invoice-payments-balance/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/answerthis/answerthis-bibtex-clean-research-library",
+      "url": "/zh/blog/answerthis/answerthis-bibtex-clean-research-library/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/submagic/submagic-burned-captions-or-srt-delivery",
+      "url": "/zh/blog/submagic/submagic-burned-captions-or-srt-delivery/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/streamyard/streamyard-prerecorded-demo-schedule",
+      "url": "/zh/blog/streamyard/streamyard-prerecorded-demo-schedule/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/nifty/nifty-recurring-milestone-weekly-review",
+      "url": "/zh/blog/nifty/nifty-recurring-milestone-weekly-review/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/frase/frase-buyer-questions-product-page-or-guide",
+      "url": "/zh/blog/frase/frase-buyer-questions-product-page-or-guide/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-troubleshooting/ecommerce-faceted-navigation-color-size-crawl",
+      "url": "/zh/blog/search-troubleshooting/ecommerce-faceted-navigation-color-size-crawl/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "zh",
@@ -3471,7 +3615,13 @@
       "lang": "es",
       "route": "blog/ecommerce",
       "url": "/es/blog/ecommerce/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-troubleshooting",
+      "url": "/es/blog/search-troubleshooting/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "es",
@@ -3502,12 +3652,6 @@
       "route": "blog/creator-partnerships",
       "url": "/es/blog/creator-partnerships/",
       "lastmod": "2026-11-23"
-    },
-    {
-      "lang": "es",
-      "route": "blog/search-troubleshooting",
-      "url": "/es/blog/search-troubleshooting/",
-      "lastmod": "2026-11-20"
     },
     {
       "lang": "es",
@@ -3574,6 +3718,78 @@
       "route": "blog/ai-search-measurement",
       "url": "/es/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ecommerce/shopify-partial-refund-net-sales-reconciliation",
+      "url": "/es/blog/ecommerce/shopify-partial-refund-net-sales-reconciliation/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ecommerce/seasonal-sale-landing-page-after-expiry",
+      "url": "/es/blog/ecommerce/seasonal-sale-landing-page-after-expiry/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/payhip/payhip-bundle-unlisted-worksheet-access",
+      "url": "/es/blog/payhip/payhip-bundle-unlisted-worksheet-access/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ecommerce/shopify-gift-card-card-split-refund",
+      "url": "/es/blog/ecommerce/shopify-gift-card-card-split-refund/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/coupler-io/coupler-io-ga4-daily-report-refresh-window",
+      "url": "/es/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/flowlu/flowlu-partial-invoice-payments-balance",
+      "url": "/es/blog/flowlu/flowlu-partial-invoice-payments-balance/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/answerthis/answerthis-bibtex-clean-research-library",
+      "url": "/es/blog/answerthis/answerthis-bibtex-clean-research-library/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/submagic/submagic-burned-captions-or-srt-delivery",
+      "url": "/es/blog/submagic/submagic-burned-captions-or-srt-delivery/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/streamyard/streamyard-prerecorded-demo-schedule",
+      "url": "/es/blog/streamyard/streamyard-prerecorded-demo-schedule/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/nifty/nifty-recurring-milestone-weekly-review",
+      "url": "/es/blog/nifty/nifty-recurring-milestone-weekly-review/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/frase/frase-buyer-questions-product-page-or-guide",
+      "url": "/es/blog/frase/frase-buyer-questions-product-page-or-guide/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-troubleshooting/ecommerce-faceted-navigation-color-size-crawl",
+      "url": "/es/blog/search-troubleshooting/ecommerce-faceted-navigation-color-size-crawl/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "es",
@@ -5022,7 +5238,13 @@
       "lang": "ja",
       "route": "blog/ecommerce",
       "url": "/ja/blog/ecommerce/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-troubleshooting",
+      "url": "/ja/blog/search-troubleshooting/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "ja",
@@ -5053,12 +5275,6 @@
       "route": "blog/creator-partnerships",
       "url": "/ja/blog/creator-partnerships/",
       "lastmod": "2026-11-23"
-    },
-    {
-      "lang": "ja",
-      "route": "blog/search-troubleshooting",
-      "url": "/ja/blog/search-troubleshooting/",
-      "lastmod": "2026-11-20"
     },
     {
       "lang": "ja",
@@ -5125,6 +5341,78 @@
       "route": "blog/ai-search-measurement",
       "url": "/ja/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ecommerce/shopify-partial-refund-net-sales-reconciliation",
+      "url": "/ja/blog/ecommerce/shopify-partial-refund-net-sales-reconciliation/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ecommerce/seasonal-sale-landing-page-after-expiry",
+      "url": "/ja/blog/ecommerce/seasonal-sale-landing-page-after-expiry/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/payhip/payhip-bundle-unlisted-worksheet-access",
+      "url": "/ja/blog/payhip/payhip-bundle-unlisted-worksheet-access/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ecommerce/shopify-gift-card-card-split-refund",
+      "url": "/ja/blog/ecommerce/shopify-gift-card-card-split-refund/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/coupler-io/coupler-io-ga4-daily-report-refresh-window",
+      "url": "/ja/blog/coupler-io/coupler-io-ga4-daily-report-refresh-window/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/flowlu/flowlu-partial-invoice-payments-balance",
+      "url": "/ja/blog/flowlu/flowlu-partial-invoice-payments-balance/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/answerthis/answerthis-bibtex-clean-research-library",
+      "url": "/ja/blog/answerthis/answerthis-bibtex-clean-research-library/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/submagic/submagic-burned-captions-or-srt-delivery",
+      "url": "/ja/blog/submagic/submagic-burned-captions-or-srt-delivery/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/streamyard/streamyard-prerecorded-demo-schedule",
+      "url": "/ja/blog/streamyard/streamyard-prerecorded-demo-schedule/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/nifty/nifty-recurring-milestone-weekly-review",
+      "url": "/ja/blog/nifty/nifty-recurring-milestone-weekly-review/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/frase/frase-buyer-questions-product-page-or-guide",
+      "url": "/ja/blog/frase/frase-buyer-questions-product-page-or-guide/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-troubleshooting/ecommerce-faceted-navigation-color-size-crawl",
+      "url": "/ja/blog/search-troubleshooting/ecommerce-faceted-navigation-color-size-crawl/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "ja",
