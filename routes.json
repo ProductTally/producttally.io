@@ -18,7 +18,7 @@
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "en",
@@ -36,7 +36,7 @@
       "lang": "en",
       "route": "news",
       "url": "/news/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "en",
@@ -363,7 +363,7 @@
       "lang": "en",
       "route": "blog",
       "url": "/blog/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "en",
@@ -1453,9 +1453,21 @@
     },
     {
       "lang": "en",
+      "route": "news/cloudflare-search-for-agents",
+      "url": "/news/cloudflare-search-for-agents/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "en",
       "route": "news/google-workspace-mcp-cli",
       "url": "/news/google-workspace-mcp-cli/",
       "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "news/framer-automations-slack-publish",
+      "url": "/news/framer-automations-slack-publish/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "en",
@@ -1474,6 +1486,12 @@
       "route": "news/canva-mcp-video-generation",
       "url": "/news/canva-mcp-video-generation/",
       "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "en",
+      "route": "news/shopify-chatgpt-agentic-checkout",
+      "url": "/news/shopify-chatgpt-agentic-checkout/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "en",
@@ -1551,7 +1569,7 @@
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "zh",
@@ -1569,7 +1587,7 @@
       "lang": "zh",
       "route": "news",
       "url": "/zh/news/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "zh",
@@ -1896,7 +1914,7 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "zh",
@@ -2986,9 +3004,21 @@
     },
     {
       "lang": "zh",
+      "route": "news/cloudflare-search-for-agents",
+      "url": "/zh/news/cloudflare-search-for-agents/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "zh",
       "route": "news/google-workspace-mcp-cli",
       "url": "/zh/news/google-workspace-mcp-cli/",
       "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "news/framer-automations-slack-publish",
+      "url": "/zh/news/framer-automations-slack-publish/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "zh",
@@ -3007,6 +3037,12 @@
       "route": "news/canva-mcp-video-generation",
       "url": "/zh/news/canva-mcp-video-generation/",
       "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "zh",
+      "route": "news/shopify-chatgpt-agentic-checkout",
+      "url": "/zh/news/shopify-chatgpt-agentic-checkout/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "zh",
@@ -3084,7 +3120,7 @@
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "es",
@@ -3102,7 +3138,7 @@
       "lang": "es",
       "route": "news",
       "url": "/es/news/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "es",
@@ -3429,7 +3465,7 @@
       "lang": "es",
       "route": "blog",
       "url": "/es/blog/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "es",
@@ -4519,9 +4555,21 @@
     },
     {
       "lang": "es",
+      "route": "news/cloudflare-search-for-agents",
+      "url": "/es/news/cloudflare-search-for-agents/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "es",
       "route": "news/google-workspace-mcp-cli",
       "url": "/es/news/google-workspace-mcp-cli/",
       "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "news/framer-automations-slack-publish",
+      "url": "/es/news/framer-automations-slack-publish/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "es",
@@ -4540,6 +4588,12 @@
       "route": "news/canva-mcp-video-generation",
       "url": "/es/news/canva-mcp-video-generation/",
       "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "es",
+      "route": "news/shopify-chatgpt-agentic-checkout",
+      "url": "/es/news/shopify-chatgpt-agentic-checkout/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "es",
@@ -4617,7 +4671,7 @@
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "ja",
@@ -4635,7 +4689,7 @@
       "lang": "ja",
       "route": "news",
       "url": "/ja/news/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "ja",
@@ -4962,7 +5016,7 @@
       "lang": "ja",
       "route": "blog",
       "url": "/ja/blog/",
-      "lastmod": "2026-11-26"
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "ja",
@@ -6052,9 +6106,21 @@
     },
     {
       "lang": "ja",
+      "route": "news/cloudflare-search-for-agents",
+      "url": "/ja/news/cloudflare-search-for-agents/",
+      "lastmod": "2026-11-27"
+    },
+    {
+      "lang": "ja",
       "route": "news/google-workspace-mcp-cli",
       "url": "/ja/news/google-workspace-mcp-cli/",
       "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "news/framer-automations-slack-publish",
+      "url": "/ja/news/framer-automations-slack-publish/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "ja",
@@ -6073,6 +6139,12 @@
       "route": "news/canva-mcp-video-generation",
       "url": "/ja/news/canva-mcp-video-generation/",
       "lastmod": "2026-11-26"
+    },
+    {
+      "lang": "ja",
+      "route": "news/shopify-chatgpt-agentic-checkout",
+      "url": "/ja/news/shopify-chatgpt-agentic-checkout/",
+      "lastmod": "2026-11-27"
     },
     {
       "lang": "ja",

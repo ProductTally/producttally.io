@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Framer AutomationsでSlackに公開通知を送る方法 — ProductTally</title>
+  <meta name="description" content="Deploy Notificationで公開URLと公開した人をSlackに通知する手順。トリガー、権限、AIクレジットも確認できます。">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/ja/news/framer-automations-slack-publish/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/news/framer-automations-slack-publish/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/news/framer-automations-slack-publish/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/news/framer-automations-slack-publish/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/news/framer-automations-slack-publish/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/news/framer-automations-slack-publish/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Framer AutomationsでSlackに公開通知を送る方法 — ProductTally">
+  <meta property="og:description" content="Deploy Notificationで公開URLと公開した人をSlackに通知する手順。トリガー、権限、AIクレジットも確認できます。">
+  <meta property="og:url" content="https://producttally.com/ja/news/framer-automations-slack-publish/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/framer-automations-slack-publish-ja.jpg">
+  <meta property="og:image:alt" content="Framer AutomationsでSlackに公開通知を送る方法 — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Framer AutomationsでSlackに公開通知を送る方法 — ProductTally">
+  <meta name="twitter:description" content="Deploy Notificationで公開URLと公開した人をSlackに通知する手順。トリガー、権限、AIクレジットも確認できます。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/framer-automations-slack-publish-ja.jpg">
+  <meta name="twitter:image:alt" content="Framer AutomationsでSlackに公開通知を送る方法 — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/news/framer-automations-slack-publish/#webpage","name":"Framer AutomationsでSlackに公開通知を送る方法","description":"Deploy Notificationで公開URLと公開した人をSlackに通知する手順。トリガー、権限、AIクレジットも確認できます。","url":"https://producttally.com/ja/news/framer-automations-slack-publish/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/ja/news/framer-automations-slack-publish/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/news/framer-automations-slack-publish/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/news/framer-automations-slack-publish/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"NewsArticle","@id":"https://producttally.com/ja/news/framer-automations-slack-publish/#article","headline":"FramerのAutomationsが登場。サイト公開をSlackに自動で知らせるには","description":"Deploy Notificationで公開URLと公開した人をSlackに通知する手順。トリガー、権限、AIクレジットも確認できます。","url":"https://producttally.com/ja/news/framer-automations-slack-publish/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/news/framer-automations-slack-publish/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/news/framer-automations-slack-publish/#article-image","url":"https://producttally.com/assets/articles/framer-automations-slack-publish/cover.webp","contentUrl":"https://producttally.com/assets/articles/framer-automations-slack-publish/cover.webp","width":1600,"height":900,"caption":"Deploy Notificationテンプレートが表示されたFramerのAutomations画面。"},"datePublished":"2026-11-27","dateModified":"2026-11-27","citation":["https://www.framer.com/updates/automations-connectors-slack","https://www.framer.com/help/articles/how-to-use-framer-automations/","https://www.framer.com/academy/lessons/automations-connectors-slack","https://www.framer.com/help/articles/framer-slack-agent/","https://www.framer.com/pricing","https://www.framer.com/automations"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/news/framer-automations-slack-publish/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"SaaS製品ニュース","item":"https://producttally.com/ja/news/"},{"@type":"ListItem","position":3,"name":"FramerのAutomationsが登場。サイト公開をSlackに自動で知らせるには","item":"https://producttally.com/ja/news/framer-automations-slack-publish/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="framer-automations-slack-publish" data-product-id=""></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">ホーム</a><a href="/ja/products/">製品</a><a href="/ja/blog/">ブログ</a><a href="/ja/news/" aria-current="location">SaaS製品ニュース</a><a href="/ja/pricing/">成長支援</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/news/framer-automations-slack-publish/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/news/framer-automations-slack-publish/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/news/framer-automations-slack-publish/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/news/framer-automations-slack-publish/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/news/framer-automations-slack-publish/" lang="en" hreflang="en" translate="no">English</a><a href="/es/news/framer-automations-slack-publish/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/news/framer-automations-slack-publish/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/news/framer-automations-slack-publish/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/news/">SaaS製品ニュース</a></li><li><span aria-current="page">FramerのAutomationsが登場。サイト公開をSlackに自動で知らせるには</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">SaaS製品ニュース · 3 最小読み取り</p>
+        <h1>FramerのAutomationsが登場。サイト公開をSlackに自動で知らせるには</h1>
+
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 公開日 <time datetime="2026-11-27">2026/11/27</time>
+          · 更新日 <time datetime="2026-11-27">2026/11/27</time></p>
+        <p class="byline">提供元の発表日 <time datetime="2026-11-24">2026/11/24</time></p>
+        <div class="article-opening prose" id="quick-answer">
+    <p>Framerは2026年11月24日、Automations、Connectors、Slack Agentを公開しました。Deploy Notificationテンプレートを使うと、サイト公開後にURLと公開した人の名前をSlackに送れます。通知先を選び、プロジェクトの読み取り権限だけを与えて、一度手動で実行します。</p>
+    <div class="article-intro-sources"><a data-source-citation="true" href="https://www.framer.com/updates/automations-connectors-slack">Framer公式発表：Automations、Connectors、Slack Agent</a> · <a data-source-citation="true" href="https://www.framer.com/academy/lessons/automations-connectors-slack">Framer Academy：公開通知とSlackのデモ</a></div>
+  </div>
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image article-image-contain"
+    src="/assets/articles/framer-automations-slack-publish/cover.webp" srcset="/assets/articles/framer-automations-slack-publish/cover-small.webp 640w, /assets/articles/framer-automations-slack-publish/cover.webp 1600w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1600" height="900" alt="Deploy Notificationテンプレートが表示されたFramerのAutomations画面。"
+    loading="eager" decoding="async"></div>
+    <figcaption>Framer公式の自動化テンプレートの画面例（英語）。</figcaption>
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+
+        <section id="section-0">
+          <h2>サイト公開をきっかけにSlackへ通知する</h2><p>サイト設定のAutomationsを開き、Deploy Notificationを選びます。トリガーをPublishにし、指示にサイトURLと公開者の項目を挿入します。Slackを接続し、チームが公開連絡に使うチャンネルを指定します。キャンペーンページなら、リンクと公開者が分かれば、担当者はすぐに公開ページを確認できます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.framer.com/help/articles/how-to-use-framer-automations/">Framerヘルプ：自動化を設定して実行結果を確認する</a></li><li><a data-source-citation="true" href="https://www.framer.com/academy/lessons/automations-connectors-slack">Framer Academy：公開通知とSlackのデモ</a></li></ul>
+        </section><section id="section-1">
+          <h2>プロジェクトの権限を絞り、最初の通知を確認する</h2><p>通知だけが目的なら、CapabilitiesのEdit、Publish、Codeをオフにします。手動で実行してSlackのチャンネルとメッセージを確認し、次にサイトを公開したらRunsの履歴も見ます。実行ごとにワークスペースのAIクレジットを使います。Framerの料金ページに記載の自動化数はFreeが1件、Basicが3件、Proが10件です。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.framer.com/help/articles/how-to-use-framer-automations/">Framerヘルプ：自動化を設定して実行結果を確認する</a></li><li><a data-source-citation="true" href="https://www.framer.com/pricing">Framer料金：プランごとの自動化数</a></li><li><a data-source-citation="true" href="https://www.framer.com/automations">Framer公式：Automationsの画面デモ</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/framer-automations-slack-publish/automation-runs.webp" width="1170" height="1200"
+          alt="FramerのRunsタブの公式画面例（英語）。実行時刻、所要時間、ステータスが表示されています。" loading="lazy" decoding="async"><figcaption>FramerのRunsタブの公式画面例（英語）。実行時刻、所要時間、ステータスが表示されています。</figcaption></figure><section id="section-2">
+          <h2>Slackで質問したいときは@Framerを使う</h2><p>定期的な連絡には自動化の出力やSlackコネクターを使います。ページの最近の実績を調べたり、CMSの画像変更をブランチに用意したりするには、Slack Agentに依頼できます。サイトを変更する場合は、チームでブランチのプレビューを確認してからマージして公開しましょう。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://www.framer.com/updates/automations-connectors-slack">Framer公式発表：Automations、Connectors、Slack Agent</a></li><li><a data-source-citation="true" href="https://www.framer.com/academy/lessons/automations-connectors-slack">Framer Academy：公開通知とSlackのデモ</a></li><li><a data-source-citation="true" href="https://www.framer.com/help/articles/framer-slack-agent/">Framerヘルプ：Slack Agentの使い方</a></li></ul>
+        </section>
+
+
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://www.framer.com/updates/automations-connectors-slack">Framer公式発表：Automations、Connectors、Slack Agent</a></cite></li><li><cite><a data-source-citation="true" href="https://www.framer.com/help/articles/how-to-use-framer-automations/">Framerヘルプ：自動化を設定して実行結果を確認する</a></cite></li><li><cite><a data-source-citation="true" href="https://www.framer.com/academy/lessons/automations-connectors-slack">Framer Academy：公開通知とSlackのデモ</a></cite></li><li><cite><a data-source-citation="true" href="https://www.framer.com/help/articles/framer-slack-agent/">Framerヘルプ：Slack Agentの使い方</a></cite></li><li><cite><a data-source-citation="true" href="https://www.framer.com/pricing">Framer料金：プランごとの自動化数</a></cite></li><li><cite><a data-source-citation="true" href="https://www.framer.com/automations">Framer公式：Automationsの画面デモ</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="記事ナビゲーション">
+    <div class="article-sequence-items"><a class="article-sequence-card article-sequence-previous" rel="prev" href="/ja/news/google-workspace-mcp-cli/">
+    <span class="article-sequence-direction"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>前の記事</span></span>
+    <span class="article-sequence-title">Google Workspace MCPが一般提供に。チームで接続する前に確認すること</span>
+  </a><a class="article-sequence-card article-sequence-next" rel="next" href="/ja/news/gpt-6-2-chatgpt-chat/">
+    <span class="article-sequence-direction"><span>次の記事</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+    <span class="article-sequence-title">GPT‑6.2がChatGPTのチャットに登場。対象プランと変更点</span>
+  </a></div>
+    <a class="article-sequence-back" href="/ja/news/"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>すべてのニュース</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>クリエイターと小規模チームの製品選びと成長を支援。</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/products/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/news/">SaaS製品ニュース</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">成長支援</a>
+        <a href="/ja/for-agents/">サイト情報</a>
+        <a href="/ja/privacy/">プライバシー</a>
+        <a href="/ja/disclaimer/">免責事項</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立系製品メディア · 編集 Evan</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>
