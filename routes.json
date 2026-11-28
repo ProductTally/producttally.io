@@ -18,7 +18,7 @@
       "lang": "en",
       "route": "products",
       "url": "/products/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "en",
@@ -36,7 +36,7 @@
       "lang": "en",
       "route": "news",
       "url": "/news/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "en",
@@ -363,7 +363,7 @@
       "lang": "en",
       "route": "blog",
       "url": "/blog/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "en",
@@ -1525,6 +1525,24 @@
     },
     {
       "lang": "en",
+      "route": "news/meshy-7-5-add-low-poly",
+      "url": "/news/meshy-7-5-add-low-poly/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "news/make-claude-plugin-workflows",
+      "url": "/news/make-claude-plugin-workflows/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "news/raycast-ios-dictation-mode",
+      "url": "/news/raycast-ios-dictation-mode/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
       "route": "news/cloudflare-search-for-agents",
       "url": "/news/cloudflare-search-for-agents/",
       "lastmod": "2026-11-27"
@@ -1641,7 +1659,7 @@
       "lang": "zh",
       "route": "products",
       "url": "/zh/products/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "zh",
@@ -1659,7 +1677,7 @@
       "lang": "zh",
       "route": "news",
       "url": "/zh/news/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "zh",
@@ -1986,7 +2004,7 @@
       "lang": "zh",
       "route": "blog",
       "url": "/zh/blog/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "zh",
@@ -3148,6 +3166,24 @@
     },
     {
       "lang": "zh",
+      "route": "news/meshy-7-5-add-low-poly",
+      "url": "/zh/news/meshy-7-5-add-low-poly/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "news/make-claude-plugin-workflows",
+      "url": "/zh/news/make-claude-plugin-workflows/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "news/raycast-ios-dictation-mode",
+      "url": "/zh/news/raycast-ios-dictation-mode/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
       "route": "news/cloudflare-search-for-agents",
       "url": "/zh/news/cloudflare-search-for-agents/",
       "lastmod": "2026-11-27"
@@ -3264,7 +3300,7 @@
       "lang": "es",
       "route": "products",
       "url": "/es/products/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "es",
@@ -3282,7 +3318,7 @@
       "lang": "es",
       "route": "news",
       "url": "/es/news/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "es",
@@ -3609,7 +3645,7 @@
       "lang": "es",
       "route": "blog",
       "url": "/es/blog/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "es",
@@ -4771,6 +4807,24 @@
     },
     {
       "lang": "es",
+      "route": "news/meshy-7-5-add-low-poly",
+      "url": "/es/news/meshy-7-5-add-low-poly/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "news/make-claude-plugin-workflows",
+      "url": "/es/news/make-claude-plugin-workflows/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "news/raycast-ios-dictation-mode",
+      "url": "/es/news/raycast-ios-dictation-mode/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
       "route": "news/cloudflare-search-for-agents",
       "url": "/es/news/cloudflare-search-for-agents/",
       "lastmod": "2026-11-27"
@@ -4887,7 +4941,7 @@
       "lang": "ja",
       "route": "products",
       "url": "/ja/products/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "ja",
@@ -4905,7 +4959,7 @@
       "lang": "ja",
       "route": "news",
       "url": "/ja/news/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "ja",
@@ -5232,7 +5286,7 @@
       "lang": "ja",
       "route": "blog",
       "url": "/ja/blog/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "ja",
@@ -6391,6 +6445,24 @@
       "route": "blog/printful/printful-first-sample-order",
       "url": "/ja/blog/printful/printful-first-sample-order/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "news/meshy-7-5-add-low-poly",
+      "url": "/ja/news/meshy-7-5-add-low-poly/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "news/make-claude-plugin-workflows",
+      "url": "/ja/news/make-claude-plugin-workflows/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "news/raycast-ios-dictation-mode",
+      "url": "/ja/news/raycast-ios-dictation-mode/",
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "ja",
