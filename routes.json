@@ -367,27 +367,33 @@
     },
     {
       "lang": "en",
+      "route": "blog/ai-search-visibility",
+      "url": "/blog/ai-search-visibility/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/google-shopping",
+      "url": "/blog/google-shopping/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
       "route": "blog/ecommerce",
       "url": "/blog/ecommerce/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-data",
+      "url": "/blog/search-data/",
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "en",
       "route": "blog/search-troubleshooting",
       "url": "/blog/search-troubleshooting/",
       "lastmod": "2026-11-27"
-    },
-    {
-      "lang": "en",
-      "route": "blog/google-shopping",
-      "url": "/blog/google-shopping/",
-      "lastmod": "2026-11-26"
-    },
-    {
-      "lang": "en",
-      "route": "blog/ai-search-visibility",
-      "url": "/blog/ai-search-visibility/",
-      "lastmod": "2026-11-26"
     },
     {
       "lang": "en",
@@ -417,12 +423,6 @@
       "lang": "en",
       "route": "blog/content-maintenance",
       "url": "/blog/content-maintenance/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "en",
-      "route": "blog/search-data",
-      "url": "/blog/search-data/",
       "lastmod": "2026-11-19"
     },
     {
@@ -472,6 +472,78 @@
       "route": "blog/ai-search-measurement",
       "url": "/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ai-search-visibility/cloudflare-ai-search-stale-document-results",
+      "url": "/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/google-shopping/merchant-center-pause-in-stock-product-ads",
+      "url": "/blog/google-shopping/merchant-center-pause-in-stock-product-ads/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/ecommerce/shopify-combined-shipping-rates-mixed-cart",
+      "url": "/blog/ecommerce/shopify-combined-shipping-rates-mixed-cart/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/seopress/seopress-woocommerce-productgroup-color-variants",
+      "url": "/blog/seopress/seopress-woocommerce-productgroup-color-variants/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/search-data/ga4-newsletter-session-source-vs-first-user-source",
+      "url": "/blog/search-data/ga4-newsletter-session-source-vs-first-user-source/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/castos/castos-campaigns-scheduled-back-catalog-promo",
+      "url": "/blog/castos/castos-campaigns-scheduled-back-catalog-promo/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames",
+      "url": "/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/nifty/nifty-client-approval-cascading-task-dates",
+      "url": "/blog/nifty/nifty-client-approval-cascading-task-dates/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/signaturely/signaturely-client-first-custom-signing-order",
+      "url": "/blog/signaturely/signaturely-client-first-custom-signing-order/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/submagic/submagic-brand-kit-reuse-caption-style",
+      "url": "/blog/submagic/submagic-brand-kit-reuse-caption-style/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/pdf2go/pdf2go-merge-mixed-page-size-attachments",
+      "url": "/blog/pdf2go/pdf2go-merge-mixed-page-size-attachments/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "en",
+      "route": "blog/helpcrunch/helpcrunch-publish-first-spanish-knowledge-base-article",
+      "url": "/blog/helpcrunch/helpcrunch-publish-first-spanish-knowledge-base-article/",
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "en",
@@ -2008,27 +2080,33 @@
     },
     {
       "lang": "zh",
+      "route": "blog/ai-search-visibility",
+      "url": "/zh/blog/ai-search-visibility/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/google-shopping",
+      "url": "/zh/blog/google-shopping/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
       "route": "blog/ecommerce",
       "url": "/zh/blog/ecommerce/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-data",
+      "url": "/zh/blog/search-data/",
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "zh",
       "route": "blog/search-troubleshooting",
       "url": "/zh/blog/search-troubleshooting/",
       "lastmod": "2026-11-27"
-    },
-    {
-      "lang": "zh",
-      "route": "blog/google-shopping",
-      "url": "/zh/blog/google-shopping/",
-      "lastmod": "2026-11-26"
-    },
-    {
-      "lang": "zh",
-      "route": "blog/ai-search-visibility",
-      "url": "/zh/blog/ai-search-visibility/",
-      "lastmod": "2026-11-26"
     },
     {
       "lang": "zh",
@@ -2058,12 +2136,6 @@
       "lang": "zh",
       "route": "blog/content-maintenance",
       "url": "/zh/blog/content-maintenance/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "zh",
-      "route": "blog/search-data",
-      "url": "/zh/blog/search-data/",
       "lastmod": "2026-11-19"
     },
     {
@@ -2113,6 +2185,78 @@
       "route": "blog/ai-search-measurement",
       "url": "/zh/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ai-search-visibility/cloudflare-ai-search-stale-document-results",
+      "url": "/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/google-shopping/merchant-center-pause-in-stock-product-ads",
+      "url": "/zh/blog/google-shopping/merchant-center-pause-in-stock-product-ads/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/ecommerce/shopify-combined-shipping-rates-mixed-cart",
+      "url": "/zh/blog/ecommerce/shopify-combined-shipping-rates-mixed-cart/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/seopress/seopress-woocommerce-productgroup-color-variants",
+      "url": "/zh/blog/seopress/seopress-woocommerce-productgroup-color-variants/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/search-data/ga4-newsletter-session-source-vs-first-user-source",
+      "url": "/zh/blog/search-data/ga4-newsletter-session-source-vs-first-user-source/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/castos/castos-campaigns-scheduled-back-catalog-promo",
+      "url": "/zh/blog/castos/castos-campaigns-scheduled-back-catalog-promo/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames",
+      "url": "/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/nifty/nifty-client-approval-cascading-task-dates",
+      "url": "/zh/blog/nifty/nifty-client-approval-cascading-task-dates/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/signaturely/signaturely-client-first-custom-signing-order",
+      "url": "/zh/blog/signaturely/signaturely-client-first-custom-signing-order/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/submagic/submagic-brand-kit-reuse-caption-style",
+      "url": "/zh/blog/submagic/submagic-brand-kit-reuse-caption-style/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/pdf2go/pdf2go-merge-mixed-page-size-attachments",
+      "url": "/zh/blog/pdf2go/pdf2go-merge-mixed-page-size-attachments/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "zh",
+      "route": "blog/helpcrunch/helpcrunch-publish-first-spanish-knowledge-base-article",
+      "url": "/zh/blog/helpcrunch/helpcrunch-publish-first-spanish-knowledge-base-article/",
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "zh",
@@ -3649,27 +3793,33 @@
     },
     {
       "lang": "es",
+      "route": "blog/ai-search-visibility",
+      "url": "/es/blog/ai-search-visibility/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/google-shopping",
+      "url": "/es/blog/google-shopping/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
       "route": "blog/ecommerce",
       "url": "/es/blog/ecommerce/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-data",
+      "url": "/es/blog/search-data/",
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "es",
       "route": "blog/search-troubleshooting",
       "url": "/es/blog/search-troubleshooting/",
       "lastmod": "2026-11-27"
-    },
-    {
-      "lang": "es",
-      "route": "blog/google-shopping",
-      "url": "/es/blog/google-shopping/",
-      "lastmod": "2026-11-26"
-    },
-    {
-      "lang": "es",
-      "route": "blog/ai-search-visibility",
-      "url": "/es/blog/ai-search-visibility/",
-      "lastmod": "2026-11-26"
     },
     {
       "lang": "es",
@@ -3699,12 +3849,6 @@
       "lang": "es",
       "route": "blog/content-maintenance",
       "url": "/es/blog/content-maintenance/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "es",
-      "route": "blog/search-data",
-      "url": "/es/blog/search-data/",
       "lastmod": "2026-11-19"
     },
     {
@@ -3754,6 +3898,78 @@
       "route": "blog/ai-search-measurement",
       "url": "/es/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ai-search-visibility/cloudflare-ai-search-stale-document-results",
+      "url": "/es/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/google-shopping/merchant-center-pause-in-stock-product-ads",
+      "url": "/es/blog/google-shopping/merchant-center-pause-in-stock-product-ads/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/ecommerce/shopify-combined-shipping-rates-mixed-cart",
+      "url": "/es/blog/ecommerce/shopify-combined-shipping-rates-mixed-cart/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/seopress/seopress-woocommerce-productgroup-color-variants",
+      "url": "/es/blog/seopress/seopress-woocommerce-productgroup-color-variants/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/search-data/ga4-newsletter-session-source-vs-first-user-source",
+      "url": "/es/blog/search-data/ga4-newsletter-session-source-vs-first-user-source/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/castos/castos-campaigns-scheduled-back-catalog-promo",
+      "url": "/es/blog/castos/castos-campaigns-scheduled-back-catalog-promo/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames",
+      "url": "/es/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/nifty/nifty-client-approval-cascading-task-dates",
+      "url": "/es/blog/nifty/nifty-client-approval-cascading-task-dates/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/signaturely/signaturely-client-first-custom-signing-order",
+      "url": "/es/blog/signaturely/signaturely-client-first-custom-signing-order/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/submagic/submagic-brand-kit-reuse-caption-style",
+      "url": "/es/blog/submagic/submagic-brand-kit-reuse-caption-style/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/pdf2go/pdf2go-merge-mixed-page-size-attachments",
+      "url": "/es/blog/pdf2go/pdf2go-merge-mixed-page-size-attachments/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "es",
+      "route": "blog/helpcrunch/helpcrunch-publish-first-spanish-knowledge-base-article",
+      "url": "/es/blog/helpcrunch/helpcrunch-publish-first-spanish-knowledge-base-article/",
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "es",
@@ -5290,27 +5506,33 @@
     },
     {
       "lang": "ja",
+      "route": "blog/ai-search-visibility",
+      "url": "/ja/blog/ai-search-visibility/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/google-shopping",
+      "url": "/ja/blog/google-shopping/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
       "route": "blog/ecommerce",
       "url": "/ja/blog/ecommerce/",
-      "lastmod": "2026-11-27"
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-data",
+      "url": "/ja/blog/search-data/",
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "ja",
       "route": "blog/search-troubleshooting",
       "url": "/ja/blog/search-troubleshooting/",
       "lastmod": "2026-11-27"
-    },
-    {
-      "lang": "ja",
-      "route": "blog/google-shopping",
-      "url": "/ja/blog/google-shopping/",
-      "lastmod": "2026-11-26"
-    },
-    {
-      "lang": "ja",
-      "route": "blog/ai-search-visibility",
-      "url": "/ja/blog/ai-search-visibility/",
-      "lastmod": "2026-11-26"
     },
     {
       "lang": "ja",
@@ -5340,12 +5562,6 @@
       "lang": "ja",
       "route": "blog/content-maintenance",
       "url": "/ja/blog/content-maintenance/",
-      "lastmod": "2026-11-19"
-    },
-    {
-      "lang": "ja",
-      "route": "blog/search-data",
-      "url": "/ja/blog/search-data/",
       "lastmod": "2026-11-19"
     },
     {
@@ -5395,6 +5611,78 @@
       "route": "blog/ai-search-measurement",
       "url": "/ja/blog/ai-search-measurement/",
       "lastmod": "2026-11-17"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ai-search-visibility/cloudflare-ai-search-stale-document-results",
+      "url": "/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/google-shopping/merchant-center-pause-in-stock-product-ads",
+      "url": "/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/ecommerce/shopify-combined-shipping-rates-mixed-cart",
+      "url": "/ja/blog/ecommerce/shopify-combined-shipping-rates-mixed-cart/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/seopress/seopress-woocommerce-productgroup-color-variants",
+      "url": "/ja/blog/seopress/seopress-woocommerce-productgroup-color-variants/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/search-data/ga4-newsletter-session-source-vs-first-user-source",
+      "url": "/ja/blog/search-data/ga4-newsletter-session-source-vs-first-user-source/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/castos/castos-campaigns-scheduled-back-catalog-promo",
+      "url": "/ja/blog/castos/castos-campaigns-scheduled-back-catalog-promo/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames",
+      "url": "/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/nifty/nifty-client-approval-cascading-task-dates",
+      "url": "/ja/blog/nifty/nifty-client-approval-cascading-task-dates/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/signaturely/signaturely-client-first-custom-signing-order",
+      "url": "/ja/blog/signaturely/signaturely-client-first-custom-signing-order/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/submagic/submagic-brand-kit-reuse-caption-style",
+      "url": "/ja/blog/submagic/submagic-brand-kit-reuse-caption-style/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/pdf2go/pdf2go-merge-mixed-page-size-attachments",
+      "url": "/ja/blog/pdf2go/pdf2go-merge-mixed-page-size-attachments/",
+      "lastmod": "2026-11-28"
+    },
+    {
+      "lang": "ja",
+      "route": "blog/helpcrunch/helpcrunch-publish-first-spanish-knowledge-base-article",
+      "url": "/ja/blog/helpcrunch/helpcrunch-publish-first-spanish-knowledge-base-article/",
+      "lastmod": "2026-11-28"
     },
     {
       "lang": "ja",

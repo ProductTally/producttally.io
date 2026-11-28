@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>在庫がある商品だけ Google ショッピング広告を一時停止する方法 — ProductTally</title>
+  <meta name="description" content="Merchant Center で期間と掲載先に応じて属性を選び、商品の在庫表示を正確に保ちます。">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/google-shopping/merchant-center-pause-in-stock-product-ads/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/google-shopping/merchant-center-pause-in-stock-product-ads/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/google-shopping/merchant-center-pause-in-stock-product-ads/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/google-shopping/merchant-center-pause-in-stock-product-ads/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="在庫がある商品だけ Google ショッピング広告を一時停止する方法 — ProductTally">
+  <meta property="og:description" content="Merchant Center で期間と掲載先に応じて属性を選び、商品の在庫表示を正確に保ちます。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/merchant-center-pause-in-stock-product-ads-ja.jpg">
+  <meta property="og:image:alt" content="在庫がある商品だけ Google ショッピング広告を一時停止する方法 — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="在庫がある商品だけ Google ショッピング広告を一時停止する方法 — ProductTally">
+  <meta name="twitter:description" content="Merchant Center で期間と掲載先に応じて属性を選び、商品の在庫表示を正確に保ちます。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/merchant-center-pause-in-stock-product-ads-ja.jpg">
+  <meta name="twitter:image:alt" content="在庫がある商品だけ Google ショッピング広告を一時停止する方法 — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/#webpage","name":"在庫がある商品だけ Google ショッピング広告を一時停止する方法","description":"Merchant Center で期間と掲載先に応じて属性を選び、商品の在庫表示を正確に保ちます。","url":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/#article","headline":"在庫がある商品だけ Google ショッピング広告を一時停止する方法","description":"Merchant Center で期間と掲載先に応じて属性を選び、商品の在庫表示を正確に保ちます。","url":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/#article-image","url":"https://producttally.com/assets/articles/merchant-center-pause-in-stock-product-ads/cover.webp","contentUrl":"https://producttally.com/assets/articles/merchant-center-pause-in-stock-product-ads/cover.webp","width":1200,"height":675,"caption":"例：広告を6日間止め、無料リスティングの掲載資格は維持します。"},"datePublished":"2026-11-28","dateModified":"2026-11-28","citation":["https://support.google.com/merchants/answer/11909930?hl=en","https://support.google.com/merchants/answer/6324486?hl=en"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"SaaSの選び方と実用ガイド","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"Google ショッピング","item":"https://producttally.com/ja/blog/google-shopping/"},{"@type":"ListItem","position":4,"name":"在庫がある商品だけ Google ショッピング広告を一時停止する方法","item":"https://producttally.com/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="merchant-center-pause-in-stock-product-ads" data-product-id=""></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">ホーム</a><a href="/ja/products/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/news/">SaaS製品ニュース</a><a href="/ja/pricing/">成長支援</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/google-shopping/merchant-center-pause-in-stock-product-ads/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/google-shopping/merchant-center-pause-in-stock-product-ads/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/google-shopping/merchant-center-pause-in-stock-product-ads/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/google-shopping/merchant-center-pause-in-stock-product-ads/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/google-shopping/merchant-center-pause-in-stock-product-ads/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/google-shopping/merchant-center-pause-in-stock-product-ads/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/google-shopping/merchant-center-pause-in-stock-product-ads/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">SaaSの選び方と実用ガイド</a></li><li><a href="/ja/blog/google-shopping/">Google ショッピング</a></li><li><span aria-current="page">在庫がある商品だけ Google ショッピング広告を一時停止する方法</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">電子商取引 · 3 最小読み取り</p>
+        <h1>在庫がある商品だけ Google ショッピング広告を一時停止する方法</h1>
+        <p class="lead">Merchant Center で期間と掲載先に応じて属性を選び、商品の在庫表示を正確に保ちます。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 公開日 <time datetime="2026-11-28">2026/11/28</time>
+          · 更新日 <time datetime="2026-11-28">2026/11/28</time></p>
+
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/merchant-center-pause-in-stock-product-ads/cover.webp" srcset="/assets/articles/merchant-center-pause-in-stock-product-ads/cover-small.webp 640w, /assets/articles/merchant-center-pause-in-stock-product-ads/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="例：広告を6日間止め、無料リスティングの掲載資格は維持します。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>商品を引き続き販売する場合は、pause=ads で広告を一時停止し、無料リスティングの掲載資格を維持できます。Google が定める pause の期間は最長14日です。それより長い停止や、無料リスティングだけを外す場合は excluded_destination を使います。</p>
+    <div class="article-intro-sources"><a data-source-citation="true" href="https://support.google.com/merchants/answer/11909930?hl=en">商品の一時停止</a> · <a data-source-citation="true" href="https://support.google.com/merchants/answer/6324486?hl=en">除外する掲載先</a></div>
+  </div>
+        <section id="section-0">
+          <h2>残したい掲載先から考える</h2><p>青いマグカップは通常どおり発送でき、広告だけを6日間止めたいとします。在庫の値は維持し、対象商品の pause に ads を設定します。この値はショッピング広告、ディスプレイ広告、ローカル在庫広告などの対象広告枠に適用されます。無料リスティングも止める場合は all を選びます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/merchants/answer/11909930?hl=en">商品の一時停止</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/merchant-center-pause-in-stock-product-ads/example.webp" width="1200" height="675"
+          alt="編集部による図解。例：広告を6日間止め、無料リスティングの掲載資格は維持します。" loading="lazy" decoding="async"><figcaption>編集部による図解。例：広告を6日間止め、無料リスティングの掲載資格は維持します。</figcaption></figure><section id="section-1">
+          <h2>3週間の掲載停止と品切れを分けて扱う</h2><p>特定の掲載先から3週間外すときや、無料リスティングだけを外すときは excluded_destination を使います。実際に品切れし、受注を一時停止した場合は availability を out_of_stock に更新します。商品 ID、残す掲載先、再確認日を控えておくと復旧時に迷いません。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/merchants/answer/11909930?hl=en">商品の一時停止</a></li><li><a data-source-citation="true" href="https://support.google.com/merchants/answer/6324486?hl=en">除外する掲載先</a></li></ul>
+        </section><section id="section-2">
+          <h2>同じ商品データで掲載状態を確認する</h2><p>広告を再開する際は、設定したデータソースから一時停止属性を削除します。データの処理後、Merchant Center の商品画面で在庫表示と各掲載先の資格が意図どおりか確認します。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://support.google.com/merchants/answer/11909930?hl=en">商品の一時停止</a></li></ul>
+        </section>
+
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/blog/google-shopping/merchant-center-preorder-availability-date/">Google Merchant Centerで予約商品の発送可能日を設定する</a></li><li><a href="/ja/blog/google-shopping/merchant-center-black-friday-promo-code/">Googleショッピングにブラックフライデーのクーポンを表示する方法</a></li><li><a href="/ja/blog/google-shopping/merchant-center-holiday-delivery-estimates/">Google Merchant Centerで年末の配送予定日を設定する方法</a></li><li><a href="/ja/blog/google-shopping/google-shopping-sale-price-effective-date/">Google ショッピングのブラックフライデー特価｜フィードから決済まで</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://support.google.com/merchants/answer/11909930?hl=en">商品の一時停止</a></cite></li><li><cite><a data-source-citation="true" href="https://support.google.com/merchants/answer/6324486?hl=en">除外する掲載先</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="記事ナビゲーション">
+    <div class="article-sequence-items"><a class="article-sequence-card article-sequence-previous" rel="prev" href="/ja/blog/google-shopping/merchant-return-policy-product-exception/">
+    <span class="article-sequence-direction"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>前の記事</span></span>
+    <span class="article-sequence-title">MerchantReturnPolicyの書き方｜店の返品ポリシーと商品の例外</span>
+  </a><a class="article-sequence-card article-sequence-next" rel="next" href="/ja/blog/google-shopping/merchant-center-black-friday-price-mismatch/">
+    <span class="article-sequence-direction"><span>次の記事</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+    <span class="article-sequence-title">Merchant Centerのブラックフライデー価格不一致｜対象SKUを1件ずつ確認</span>
+  </a></div>
+    <a class="article-sequence-back" href="/ja/blog/google-shopping/"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>「Google ショッピング」の記事一覧</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>クリエイターと小規模チームの製品選びと成長を支援。</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/products/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/news/">SaaS製品ニュース</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">成長支援</a>
+        <a href="/ja/for-agents/">サイト情報</a>
+        <a href="/ja/privacy/">プライバシー</a>
+        <a href="/ja/disclaimer/">免責事項</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立系製品メディア · 編集 Evan</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

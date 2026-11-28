@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する — ProductTally</title>
+  <meta name="description" content="ホスト名ごとに更新通知を設定し、有効期限、名前の不一致、証明書チェーンの警告を見分けます。">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する — ProductTally">
+  <meta property="og:description" content="ホスト名ごとに更新通知を設定し、有効期限、名前の不一致、証明書チェーンの警告を見分けます。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/oh-dear-monitor-certificate-expiry-two-hostnames-ja.jpg">
+  <meta property="og:image:alt" content="Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する — ProductTally">
+  <meta name="twitter:description" content="ホスト名ごとに更新通知を設定し、有効期限、名前の不一致、証明書チェーンの警告を見分けます。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/oh-dear-monitor-certificate-expiry-two-hostnames-ja.jpg">
+  <meta name="twitter:image:alt" content="Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#webpage","name":"Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する","description":"ホスト名ごとに更新通知を設定し、有効期限、名前の不一致、証明書チェーンの警告を見分けます。","url":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#article","headline":"Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する","description":"ホスト名ごとに更新通知を設定し、有効期限、名前の不一致、証明書チェーンの警告を見分けます。","url":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#article-image","url":"https://producttally.com/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover.webp","contentUrl":"https://producttally.com/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover.webp","width":1200,"height":675,"caption":"ホストごとに監視し、更新手順に合わせて通知の猶予を変えます。"},"about":[{"@id":"https://producttally.com/products/oh-dear/#software"}],"datePublished":"2026-11-28","dateModified":"2026-11-28","citation":["https://ohdear.app/docs/features/certificate-health-monitoring","https://ohdear.app/docs/notifications/notifications"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/oh-dear/#software","name":"Oh Dear","url":"https://ohdear.app/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"SaaSの選び方と実用ガイド","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"Oh Dear","item":"https://producttally.com/ja/products/oh-dear/"},{"@type":"ListItem","position":4,"name":"Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する","item":"https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="oh-dear-monitor-certificate-expiry-two-hostnames" data-product-id="oh-dear"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">ホーム</a><a href="/ja/products/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/news/">SaaS製品ニュース</a><a href="/ja/pricing/">成長支援</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">SaaSの選び方と実用ガイド</a></li><li><a href="/ja/products/oh-dear/">Oh Dear</a></li><li><span aria-current="page">Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">サイト監視 · 3 最小読み取り</p>
+        <h1>Oh Dear で本サイトとヘルプセンターの SSL 証明書を別々に監視する</h1>
+        <p class="lead">ホスト名ごとに更新通知を設定し、有効期限、名前の不一致、証明書チェーンの警告を見分けます。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 公開日 <time datetime="2026-11-28">2026/11/28</time>
+          · 更新日 <time datetime="2026-11-28">2026/11/28</time></p>
+
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover.webp" srcset="/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover-small.webp 640w, /assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="ホストごとに監視し、更新手順に合わせて通知の猶予を変えます。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>証明書を管理したい公開ホスト名ごとに Oh Dear のモニターを作ります。本サイトとヘルプセンターに別々のチェックを設定すると、更新に必要な猶予を個別に決められ、警告がどちらのアドレスを指すかも分かります。</p>
+    <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><div class="article-intro-sources"><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">証明書の健全性</a> · <a data-source-citation="true" href="https://ohdear.app/docs/notifications/notifications?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">通知先</a></div>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/ja/products/oh-dear/">Oh Dear · 製品の詳細を見る <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
+        <section id="section-0">
+          <h2>本サイトとサブドメインで担当者が違う場合</h2><p>ストアが example.com、ヘルプセンターが support.example.com にあり、別々のサービスで運用しているとします。証明書を更新する担当者、DNS の権限、手続きに必要な日数を控えます。同じ証明書を使う場合も、両方の公開ホストが利用者に何を提示しているか確認できます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">証明書の健全性</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/example.webp" width="1200" height="675"
+          alt="編集部による図解。ホストごとに監視し、更新手順に合わせて通知の猶予を変えます。" loading="lazy" decoding="async"><figcaption>編集部による図解。ホストごとに監視し、更新手順に合わせて通知の猶予を変えます。</figcaption></figure><section id="section-1">
+          <h2>更新に必要な日数から通知を決める</h2><p>各モニターの Certificate Health を開きます。Oh Dear の既定は Let&#39;s Encrypt が7日前、その他が14日前で、モニターごとに1〜100日を設定できます。自動更新の本サイトでは既定値から始め、社内承認が必要なヘルプセンターには余裕を持たせます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">証明書の健全性</a></li></ul>
+        </section><section id="section-2">
+          <h2>警告の種類で対応を振り分ける</h2><p>有効期限は更新日程を確認します。ホスト名の不一致なら、証明書が想定の名前をカバーしているか調べます。チェーンの警告は、サーバーが渡す中間証明書などを確認します。対象サービスにアクセスできる人に通知を届け、更新後に公開ホストをもう一度確認します。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">証明書の健全性</a></li><li><a data-source-citation="true" href="https://ohdear.app/docs/notifications/notifications?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">通知先</a></li></ul>
+        </section>
+        <section class="article-next" aria-label="証明書監視の機能を見る">
+          <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p>
+          <div class="article-next-links"><a class="action" href="https://ohdear.app/features/continuous-certificate-monitoring?via=evan" data-product-destination="oh-dear" data-affiliate-click="oh-dear" data-affiliate-link-type="deep_link" target="_blank" rel="noopener">
+    <span>Oh Dear · 証明書監視の機能を見る</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a><a class="text-link" data-product-link-location="article-footer" href="/ja/products/oh-dear/">製品の詳細を見る</a></div>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/blog/oh-dear/broken-links-report-404-and-429/">Oh Dearのリンク切れレポート｜サイト内の404と外部の429の見分け方</a></li><li><a href="/ja/blog/oh-dear/oh-dear-monitor-checkout-application-health/">トップページは正常なのに、なぜ購入できない？</a></li><li><a href="/ja/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/">Oh Dearでは稼働中。ある地域の利用者だけ遅いのはなぜ？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><ul><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">証明書の健全性</a></cite></li><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/notifications/notifications?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">通知先</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="記事ナビゲーション">
+    <div class="article-sequence-items"><a class="article-sequence-card article-sequence-previous" rel="prev" href="/ja/blog/oh-dear/oh-dear-maintenance-window-status-notifications/">
+    <span class="article-sequence-direction"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>前の記事</span></span>
+    <span class="article-sequence-title">日曜のメンテナンスで、Oh Dearの通知をいつまで止める？</span>
+  </a><a class="article-sequence-card article-sequence-next" rel="next" href="/ja/blog/oh-dear/oh-dear-find-stale-sitemap-urls/">
+    <span class="article-sequence-direction"><span>次の記事</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+    <span class="article-sequence-title">サイト改修後にOh Dearでサイトマップの古いURLを見つける</span>
+  </a></div>
+    <a class="article-sequence-back" href="/ja/products/oh-dear/#product-guides"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>Oh Dearの記事一覧</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>クリエイターと小規模チームの製品選びと成長を支援。</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/products/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/news/">SaaS製品ニュース</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">成長支援</a>
+        <a href="/ja/for-agents/">サイト情報</a>
+        <a href="/ja/privacy/">プライバシー</a>
+        <a href="/ja/disclaimer/">免責事項</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立系製品メディア · 編集 Evan</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

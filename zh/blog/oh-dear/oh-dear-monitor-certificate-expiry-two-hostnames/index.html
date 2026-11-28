@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？ — ProductTally</title>
+  <meta name="description" content="为两个公开主机名安排合适的证书续期提醒，并读懂到期、域名不匹配和证书链告警。">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？ — ProductTally">
+  <meta property="og:description" content="为两个公开主机名安排合适的证书续期提醒，并读懂到期、域名不匹配和证书链告警。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/oh-dear-monitor-certificate-expiry-two-hostnames-zh.jpg">
+  <meta property="og:image:alt" content="主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？ — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？ — ProductTally">
+  <meta name="twitter:description" content="为两个公开主机名安排合适的证书续期提醒，并读懂到期、域名不匹配和证书链告警。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/oh-dear-monitor-certificate-expiry-two-hostnames-zh.jpg">
+  <meta name="twitter:image:alt" content="主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？ — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#webpage","name":"主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？","description":"为两个公开主机名安排合适的证书续期提醒，并读懂到期、域名不匹配和证书链告警。","url":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#article","headline":"主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？","description":"为两个公开主机名安排合适的证书续期提醒，并读懂到期、域名不匹配和证书链告警。","url":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#article-image","url":"https://producttally.com/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover.webp","contentUrl":"https://producttally.com/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover.webp","width":1200,"height":675,"caption":"主站和帮助中心分别监控，可按续期方式设置不同的提醒阈值。"},"about":[{"@id":"https://producttally.com/products/oh-dear/#software"}],"datePublished":"2026-11-28","dateModified":"2026-11-28","citation":["https://ohdear.app/docs/features/certificate-health-monitoring","https://ohdear.app/docs/notifications/notifications"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/oh-dear/#software","name":"Oh Dear","url":"https://ohdear.app/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"SaaS 使用指南与软件选型","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"Oh Dear","item":"https://producttally.com/zh/products/oh-dear/"},{"@type":"ListItem","position":4,"name":"主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？","item":"https://producttally.com/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="oh-dear-monitor-certificate-expiry-two-hostnames" data-product-id="oh-dear"></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">首页</a><a href="/zh/products/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">增长服务</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/oh-dear/oh-dear-monitor-certificate-expiry-two-hostnames/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">SaaS 使用指南与软件选型</a></li><li><a href="/zh/products/oh-dear/">Oh Dear</a></li><li><span aria-current="page">主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">网站监控 · 3 分钟阅读</p>
+        <h1>主站和帮助中心用不同证书，怎么用 Oh Dear 提前发现续期问题？</h1>
+        <p class="lead">为两个公开主机名安排合适的证书续期提醒，并读懂到期、域名不匹配和证书链告警。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 发布于 <time datetime="2026-11-28">2026年11月28日</time>
+          · 更新于 <time datetime="2026-11-28">2026年11月28日</time></p>
+
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover.webp" srcset="/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover-small.webp 640w, /assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="主站和帮助中心分别监控，可按续期方式设置不同的提醒阈值。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>把主站和帮助中心的完整主机名分别加入 Oh Dear 监控，再按各自的续期流程设置证书健康检查。收到告警时，就能先确定要处理的是哪一个公开地址。</p>
+    <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><div class="article-intro-sources"><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">证书健康检查</a> · <a data-source-citation="true" href="https://ohdear.app/docs/notifications/notifications?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">通知渠道</a></div>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/zh/products/oh-dear/">Oh Dear · 查看产品详情 <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
+        <section id="section-0">
+          <h2>主站能打开，帮助子域名也要单独看</h2><p>假设商店在 example.com，帮助中心在 support.example.com，由不同服务商托管。先写清谁能续期、谁能改 DNS、各自需要多少准备时间。即使两个站共用一张证书，分别监控也能检查每个公开地址实际向访客提供的证书是否覆盖该名称。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">证书健康检查</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/oh-dear-monitor-certificate-expiry-two-hostnames/example.webp" width="1200" height="675"
+          alt="编辑示意图。主站和帮助中心分别监控，可按续期方式设置不同的提醒阈值。" loading="lazy" decoding="async"><figcaption>编辑示意图。主站和帮助中心分别监控，可按续期方式设置不同的提醒阈值。</figcaption></figure><section id="section-1">
+          <h2>用续期所需时间确定提前量</h2><p>在监控的 Certificate Health 设置中调整提醒阈值。Oh Dear 文档给出的默认值是 Let&#39;s Encrypt 提前 7 天、其他证书提前 14 天，每个监控可自设 1 至 100 天。自动续期的站点可从默认值开始，需人工审批的帮助站可适当提前。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">证书健康检查</a></li></ul>
+        </section><section id="section-2">
+          <h2>按告警内容决定找谁</h2><p>到期提醒对应续期时间。主机名不匹配时，核对线上证书覆盖的名称；证书链告警则检查服务器提供的中间证书等链条信息。让告警到达能处理相应托管服务的人，续期后再从公开地址确认。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">证书健康检查</a></li><li><a data-source-citation="true" href="https://ohdear.app/docs/notifications/notifications?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">通知渠道</a></li></ul>
+        </section>
+        <section class="article-next" aria-label="查看证书监控功能">
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p>
+          <div class="article-next-links"><a class="action" href="https://ohdear.app/features/continuous-certificate-monitoring?via=evan" data-product-destination="oh-dear" data-affiliate-click="oh-dear" data-affiliate-link-type="deep_link" target="_blank" rel="noopener">
+    <span>Oh Dear · 查看证书监控功能</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a><a class="text-link" data-product-link-location="article-footer" href="/zh/products/oh-dear/">查看产品详情</a></div>
+        </section>
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/blog/oh-dear/broken-links-report-404-and-429/">Oh Dear 断链报告怎么看？网站改版后分清站内 404 和站外 429</a></li><li><a href="/zh/blog/oh-dear/oh-dear-monitor-checkout-application-health/">商店首页是绿色的，用户为什么还是不能结账？</a></li><li><a href="/zh/blog/oh-dear/oh-dear-uptime-response-time-multiple-locations/">Oh Dear 显示在线，为什么有一个地区的用户觉得特别慢？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <p class="affiliate-disclosure">如果你通过这些链接购买，ProductTally 可能获得佣金。</p><ul><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/features/certificate-health-monitoring?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">证书健康检查</a></cite></li><li><cite><a data-source-citation="true" href="https://ohdear.app/docs/notifications/notifications?via=evan" data-affiliate-click="oh-dear" data-affiliate-link-type="citation" target="_blank" rel="noopener">通知渠道</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="文章导航">
+    <div class="article-sequence-items"><a class="article-sequence-card article-sequence-previous" rel="prev" href="/zh/blog/oh-dear/oh-dear-maintenance-window-status-notifications/">
+    <span class="article-sequence-direction"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>上一篇文章</span></span>
+    <span class="article-sequence-title">周日要维护，该让 Oh Dear 静默到什么时候？</span>
+  </a><a class="article-sequence-card article-sequence-next" rel="next" href="/zh/blog/oh-dear/oh-dear-find-stale-sitemap-urls/">
+    <span class="article-sequence-direction"><span>下一篇文章</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+    <span class="article-sequence-title">改版后怎么用 Oh Dear 找出 sitemap 里的旧网址？</span>
+  </a></div>
+    <a class="article-sequence-back" href="/zh/products/oh-dear/#product-guides"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>Oh Dear 的全部文章</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>为创作者和小团队提供产品发现与增长支持。</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/products/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">增长服务</a>
+        <a href="/zh/for-agents/">站点资料</a>
+        <a href="/zh/privacy/">隐私说明</a>
+        <a href="/zh/disclaimer/">免责声明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立产品刊物 · Evan 编辑</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

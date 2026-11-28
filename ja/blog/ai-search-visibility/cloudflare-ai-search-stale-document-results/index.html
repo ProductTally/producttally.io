@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cloudflare Search for Agents が古い文書を返すときの調べ方 — ProductTally</title>
+  <meta name="description" content="公開ページからクロール、同期、検索キャッシュまで、古い検索結果の出どころをたどります。">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Cloudflare Search for Agents が古い文書を返すときの調べ方 — ProductTally">
+  <meta property="og:description" content="公開ページからクロール、同期、検索キャッシュまで、古い検索結果の出どころをたどります。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/cloudflare-ai-search-stale-document-results-ja.jpg">
+  <meta property="og:image:alt" content="Cloudflare Search for Agents が古い文書を返すときの調べ方 — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cloudflare Search for Agents が古い文書を返すときの調べ方 — ProductTally">
+  <meta name="twitter:description" content="公開ページからクロール、同期、検索キャッシュまで、古い検索結果の出どころをたどります。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/cloudflare-ai-search-stale-document-results-ja.jpg">
+  <meta name="twitter:image:alt" content="Cloudflare Search for Agents が古い文書を返すときの調べ方 — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#webpage","name":"Cloudflare Search for Agents が古い文書を返すときの調べ方","description":"公開ページからクロール、同期、検索キャッシュまで、古い検索結果の出どころをたどります。","url":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#article","headline":"Cloudflare Search for Agents が古い文書を返すときの調べ方","description":"公開ページからクロール、同期、検索キャッシュまで、古い検索結果の出どころをたどります。","url":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#article-image","url":"https://producttally.com/assets/articles/cloudflare-ai-search-stale-document-results/cover.webp","contentUrl":"https://producttally.com/assets/articles/cloudflare-ai-search-stale-document-results/cover.webp","width":1200,"height":675,"caption":"公開本文・クロールジョブ・検索結果の時刻を照合します。"},"datePublished":"2026-11-28","dateModified":"2026-11-28","citation":["https://developers.cloudflare.com/ai-search/how-to/search-for-agents/","https://developers.cloudflare.com/ai-search/configuration/data-source/website/parse-types/","https://developers.cloudflare.com/ai-search/configuration/indexing/syncing/","https://developers.cloudflare.com/ai-search/configuration/retrieval/cache/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"SaaSの選び方と実用ガイド","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"AI検索での可視性","item":"https://producttally.com/ja/blog/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"Cloudflare Search for Agents が古い文書を返すときの調べ方","item":"https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="cloudflare-ai-search-stale-document-results" data-product-id=""></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">ホーム</a><a href="/ja/products/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/news/">SaaS製品ニュース</a><a href="/ja/pricing/">成長支援</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">SaaSの選び方と実用ガイド</a></li><li><a href="/ja/blog/ai-search-visibility/">AI検索での可視性</a></li><li><span aria-current="page">Cloudflare Search for Agents が古い文書を返すときの調べ方</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">SEO · 3 最小読み取り</p>
+        <h1>Cloudflare Search for Agents が古い文書を返すときの調べ方</h1>
+        <p class="lead">公開ページからクロール、同期、検索キャッシュまで、古い検索結果の出どころをたどります。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 公開日 <time datetime="2026-11-28">2026/11/28</time>
+          · 更新日 <time datetime="2026-11-28">2026/11/28</time></p>
+
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/cloudflare-ai-search-stale-document-results/cover.webp" srcset="/assets/articles/cloudflare-ai-search-stale-document-results/cover-small.webp 640w, /assets/articles/cloudflare-ai-search-stale-document-results/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="公開本文・クロールジョブ・検索結果の時刻を照合します。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>Cloudflare Search for Agents が古い案内を返したら、結果の引用先を開き、現在の本文と抜粋を照合します。そのうえでクロールと同期の履歴を確認し、必要に応じてキャッシュを調べます。機能のベータ公開は2026年11月25日です。</p>
+    <div class="article-intro-sources"><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/how-to/search-for-agents/">Search for Agents</a></div>
+  </div>
+        <section id="section-0">
+          <h2>まず引用先の URL を開く</h2><p>デスクトップアプリの手順をバージョン2から3に改訂したとします。/.well-known/search に利用者の質問を入力し、時刻、引用先、バージョン2と書かれた一文を控えます。旧版のアーカイブが引用されているなら、バージョン3を明記して再検索します。現行ページの索引が古い場合と、別の旧版ページが見つかった場合を切り分けられます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/how-to/search-for-agents/">Search for Agents</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/cloudflare-ai-search-stale-document-results/example.webp" width="1200" height="675"
+          alt="編集部による図解。公開本文・クロールジョブ・検索結果の時刻を照合します。" loading="lazy" decoding="async"><figcaption>編集部による図解。公開本文・クロールジョブ・検索結果の時刻を照合します。</figcaption></figure><section id="section-1">
+          <h2>同期完了の時刻と公開時刻を見比べる</h2><p>Search for Agents の既定は Discover 方式で、クロールキャッシュの期限は24時間です。Discover は再取得の判断にサイトマップの lastmod を使いません。インスタンスの設定と Jobs の履歴を開き、デプロイ時刻と照らし合わせます。手動同期でも再クロールの条件は同じです。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/data-source/website/parse-types/">クロール方式</a></li><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/indexing/syncing/">同期ジョブ</a></li></ul>
+        </section><section id="section-2">
+          <h2>同じ質問で新しい抜粋を確認する</h2><p>索引に更新が反映されたら、元の質問を使って引用先と文面を確認します。AI Search の公式資料では、cf-aig-cache-status の HIT と MISS でキャッシュを判別でき、索引内の該当チャンクが変更・削除されると関連するキャッシュが消去されると説明しています。返るのは検索で取り出した抜粋なので、掲載文と直接照合できます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/how-to/search-for-agents/">Search for Agents</a></li><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/retrieval/cache/">類似検索キャッシュ</a></li></ul>
+        </section>
+
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">関連ガイド</h2>
+          <ul><li><a href="/ja/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/">AIの回答は19ドル、決済は24ドル。最初にどこを見る？</a></li><li><a href="/ja/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/">Google検索には残しながら、生成AIでの表示を調整する</a></li><li><a href="/ja/blog/ai-search-visibility/bing-ai-performance-topic-gaps/">Bing AIの同じトピックに2本の記事が出たら、統合するべき？</a></li><li><a href="/ja/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/">BingのAI引用は倍になった。サイト訪問が増えないのはなぜ？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/how-to/search-for-agents/">Search for Agents</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/data-source/website/parse-types/">クロール方式</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/indexing/syncing/">同期ジョブ</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/retrieval/cache/">類似検索キャッシュ</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="記事ナビゲーション">
+    <div class="article-sequence-items"><a class="article-sequence-card article-sequence-previous" rel="prev" href="/ja/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/">
+    <span class="article-sequence-direction"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>前の記事</span></span>
+    <span class="article-sequence-title">AIはどの記事を引用する？ 同じ質問を毎月試す</span>
+  </a><a class="article-sequence-card article-sequence-next" rel="next" href="/ja/blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing/">
+    <span class="article-sequence-direction"><span>次の記事</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+    <span class="article-sequence-title">Googleの生成AIコントロール｜通常の検索掲載を維持しながら利用を制限する</span>
+  </a></div>
+    <a class="article-sequence-back" href="/ja/blog/ai-search-visibility/"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>「AI検索での可視性」の記事一覧</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>クリエイターと小規模チームの製品選びと成長を支援。</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/products/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/news/">SaaS製品ニュース</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">成長支援</a>
+        <a href="/ja/for-agents/">サイト情報</a>
+        <a href="/ja/privacy/">プライバシー</a>
+        <a href="/ja/disclaimer/">免責事項</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立系製品メディア · 編集 Evan</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

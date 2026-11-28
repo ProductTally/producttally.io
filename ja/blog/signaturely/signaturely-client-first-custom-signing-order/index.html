@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ja" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signaturely で顧客を先、社内の署名者を後に設定する — ProductTally</title>
+  <meta name="description" content="書類を送る前に署名順と、各署名欄を記入する人を確認します。">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/signaturely/signaturely-client-first-custom-signing-order/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/signaturely/signaturely-client-first-custom-signing-order/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/signaturely/signaturely-client-first-custom-signing-order/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/signaturely/signaturely-client-first-custom-signing-order/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Signaturely で顧客を先、社内の署名者を後に設定する — ProductTally">
+  <meta property="og:description" content="書類を送る前に署名順と、各署名欄を記入する人を確認します。">
+  <meta property="og:url" content="https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/signaturely-client-first-custom-signing-order-ja.jpg">
+  <meta property="og:image:alt" content="Signaturely で顧客を先、社内の署名者を後に設定する — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Signaturely で顧客を先、社内の署名者を後に設定する — ProductTally">
+  <meta name="twitter:description" content="書類を送る前に署名順と、各署名欄を記入する人を確認します。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/signaturely-client-first-custom-signing-order-ja.jpg">
+  <meta name="twitter:image:alt" content="Signaturely で顧客を先、社内の署名者を後に設定する — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/#webpage","name":"Signaturely で顧客を先、社内の署名者を後に設定する","description":"書類を送る前に署名順と、各署名欄を記入する人を確認します。","url":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/","inLanguage":"ja","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/#article-image"},"breadcrumb":{"@id":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/#article","headline":"Signaturely で顧客を先、社内の署名者を後に設定する","description":"書類を送る前に署名順と、各署名欄を記入する人を確認します。","url":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/","inLanguage":"ja","mainEntityOfPage":{"@id":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/#article-image","url":"https://producttally.com/assets/articles/signaturely-client-first-custom-signing-order/cover.webp","contentUrl":"https://producttally.com/assets/articles/signaturely-client-first-custom-signing-order/cover.webp","width":1200,"height":675,"caption":"順番を設定し、署名・日付欄は対応する署名者に割り当てます。"},"about":[{"@id":"https://producttally.com/products/signaturely/#software"}],"datePublished":"2026-11-28","dateModified":"2026-11-28","citation":["https://help.signaturely.com/article/81-how-to-add-a-custom-signing-order-new"]},{"@type":"SoftwareApplication","@id":"https://producttally.com/products/signaturely/#software","name":"Signaturely","url":"https://signaturely.com/"},{"@type":"BreadcrumbList","@id":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"ホーム","item":"https://producttally.com/ja/"},{"@type":"ListItem","position":2,"name":"SaaSの選び方と実用ガイド","item":"https://producttally.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"Signaturely","item":"https://producttally.com/ja/products/signaturely/"},{"@type":"ListItem","position":4,"name":"Signaturely で顧客を先、社内の署名者を後に設定する","item":"https://producttally.com/ja/blog/signaturely/signaturely-client-first-custom-signing-order/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="ja" data-article-id="signaturely-client-first-custom-signing-order" data-product-id="signaturely"></script>
+</head>
+<body data-lang="ja" data-save-label="製品の保存" data-unsave-label="製品を保存しない" data-save-toast="候補リストに保存されました" data-unsave-toast="候補リストから削除されました" data-storage-error="お使いのブラウザではこの変更を保存できませんでした。">
+  <a class="skip-link" href="#main">コンテンツにスキップ</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="プライマリナビゲーション">
+          <div class="primary-links"><a href="/ja/">ホーム</a><a href="/ja/products/">製品</a><a href="/ja/blog/" aria-current="location">ブログ</a><a href="/ja/news/">SaaS製品ニュース</a><a href="/ja/pricing/">成長支援</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">言語 <span translate="no">日本語</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">日本語</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/signaturely/signaturely-client-first-custom-signing-order/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/signaturely/signaturely-client-first-custom-signing-order/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/signaturely/signaturely-client-first-custom-signing-order/" lang="ja" translate="no" aria-current="page">
+      日本語
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/signaturely/signaturely-client-first-custom-signing-order/" lang="zh-CN" translate="no">
+      简体中文
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="言語"><a href="/blog/signaturely/signaturely-client-first-custom-signing-order/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/signaturely/signaturely-client-first-custom-signing-order/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/signaturely/signaturely-client-first-custom-signing-order/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/signaturely/signaturely-client-first-custom-signing-order/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="パンくずリスト">
+    <ol><li><a href="/ja/">ホーム</a></li><li><a href="/ja/blog/">SaaSの選び方と実用ガイド</a></li><li><a href="/ja/products/signaturely/">Signaturely</a></li><li><span aria-current="page">Signaturely で顧客を先、社内の署名者を後に設定する</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">ファイルと文書 · 3 最小読み取り</p>
+        <h1>Signaturely で顧客を先、社内の署名者を後に設定する</h1>
+        <p class="lead">書類を送る前に署名順と、各署名欄を記入する人を確認します。</p>
+        <p class="byline">によって <a href="/ja/about/">Evan</a>
+          · 公開日 <time datetime="2026-11-28">2026/11/28</time>
+          · 更新日 <time datetime="2026-11-28">2026/11/28</time></p>
+
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/signaturely-client-first-custom-signing-order/cover.webp" srcset="/assets/articles/signaturely-client-first-custom-signing-order/cover-small.webp 640w, /assets/articles/signaturely-client-first-custom-signing-order/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="順番を設定し、署名・日付欄は対応する署名者に割り当てます。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>Signaturely でカスタム署名順を有効にし、顧客を社内の署名者より先に配置します。個別の書類では実際の署名者を、繰り返し使うテンプレートでは役割を並べ、送るときに各役割を担当者に割り当てます。</p>
+    <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><div class="article-intro-sources"><a data-source-citation="true" href="https://help.signaturely.com/article/81-how-to-add-a-custom-signing-order-new?fpr=evan-8c57ef" data-affiliate-click="signaturely" data-affiliate-link-type="citation" target="_blank" rel="noopener">カスタム署名順</a></div>
+    <p><a class="text-link" data-product-link-location="article-intro" href="/ja/products/signaturely/">Signaturely · 製品の詳細を見る <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></a></p>
+  </div>
+        <section id="section-0">
+          <h2>署名する人と、完成版だけ必要な人を確認する</h2><p>制作会社が業務範囲の書類を送るとします。顧客の責任者が先に署名し、制作会社の運営担当が後から署名します。プロジェクトマネージャーは完成版を受け取るだけです。アップロード前に署名者2人と役割を整理しておくと、閲覧だけの人に署名を割り当てずに済みます。</p>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/signaturely-client-first-custom-signing-order/example.webp" width="1200" height="675"
+          alt="編集部による図解。順番を設定し、署名・日付欄は対応する署名者に割り当てます。" loading="lazy" decoding="async"><figcaption>編集部による図解。順番を設定し、署名・日付欄は対応する署名者に割り当てます。</figcaption></figure><section id="section-1">
+          <h2>プレビューで順番と記入欄を確認する</h2><p>単発の書類は Sign、よく使う書類は Templates を開きます。書類をアップロードし、署名者または役割を追加してカスタム順を有効にし、ドラッグして並べます。プレビューでは顧客と社内担当の署名・日付欄をそれぞれ確認します。順番は誰が先か、フィールドの割り当ては誰が各欄に記入するかを決めます。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://help.signaturely.com/article/81-how-to-add-a-custom-signing-order-new?fpr=evan-8c57ef" data-affiliate-click="signaturely" data-affiliate-link-type="citation" target="_blank" rel="noopener">カスタム署名順</a></li></ul>
+        </section><section id="section-2">
+          <h2>次回も使う役割名にする</h2><p>同じ書類を使い回すなら、テンプレートで「顧客署名者」「社内署名者」などの役割名を使います。送信前にメールアドレスを見直し、同じページに署名欄が並ぶ場合も顧客が先かを確認します。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://help.signaturely.com/article/81-how-to-add-a-custom-signing-order-new?fpr=evan-8c57ef" data-affiliate-click="signaturely" data-affiliate-link-type="citation" target="_blank" rel="noopener">カスタム署名順</a></li></ul>
+        </section>
+        <section class="article-next" aria-label="Signaturely の署名順の手順を見る">
+          <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p>
+          <div class="article-next-links"><a class="action" href="https://help.signaturely.com/article/81-how-to-add-a-custom-signing-order-new?fpr=evan-8c57ef" data-product-destination="signaturely" data-affiliate-click="signaturely" data-affiliate-link-type="deep_link" target="_blank" rel="noopener">
+    <span>Signaturely · Signaturely の署名順の手順を見る</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M6 7h11v11"/></svg>
+  </a><a class="text-link" data-product-link-location="article-footer" href="/ja/products/signaturely/">製品の詳細を見る</a></div>
+        </section>
+
+        <section class="article-resources"><h2>公式参考資料</h2>
+          <p class="affiliate-disclosure">これらのリンクから購入すると、ProductTally が紹介手数料を受け取る場合があります。</p><ul><li><cite><a data-source-citation="true" href="https://help.signaturely.com/article/81-how-to-add-a-custom-signing-order-new?fpr=evan-8c57ef" data-affiliate-click="signaturely" data-affiliate-link-type="citation" target="_blank" rel="noopener">カスタム署名順</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="記事ナビゲーション">
+    <div class="article-sequence-items"><a class="article-sequence-card article-sequence-previous" rel="prev" href="/ja/blog/signaturely/signaturely-reusable-signing-template-fields/">
+    <span class="article-sequence-direction"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>前の記事</span></span>
+    <span class="article-sequence-title">毎週出す見積書。Signaturelyで何をテンプレートに残す？</span>
+  </a><a class="article-sequence-card article-sequence-next" rel="next" href="/ja/blog/signaturely/signaturely-signing-invitation-not-received/">
+    <span class="article-sequence-direction"><span>次の記事</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+    <span class="article-sequence-title">Signaturelyの署名依頼が届かない。次に署名するのは誰？</span>
+  </a></div>
+    <a class="article-sequence-back" href="/ja/products/signaturely/#product-guides"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>Signaturelyの記事一覧</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/ja/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>クリエイターと小規模チームの製品選びと成長を支援。</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">Evan にメールする</a>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <a href="/ja/products/">製品</a>
+        <a href="/ja/blog/">ブログ</a>
+        <a href="/ja/news/">SaaS製品ニュース</a>
+        <a href="/ja/about/">プロジェクトについて</a>
+        <a href="/ja/pricing/">成長支援</a>
+        <a href="/ja/for-agents/">サイト情報</a>
+        <a href="/ja/privacy/">プライバシー</a>
+        <a href="/ja/disclaimer/">免責事項</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立系製品メディア · 編集 Evan</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>

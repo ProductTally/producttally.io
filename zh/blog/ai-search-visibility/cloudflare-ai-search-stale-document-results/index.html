@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN" dir="ltr" class="wa-theme-default wa-palette-default wa-light">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cloudflare Search for Agents 还在返回旧文档？这样排查 — ProductTally</title>
+  <meta name="description" content="沿着一条过时的检索结果，核对源网页、抓取与同步记录，再检查检索缓存。">
+  <meta name="theme-color" content="#FBF8F3">
+
+
+  <link rel="canonical" href="https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="en" href="https://producttally.com/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="zh-CN" href="https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="es" href="https://producttally.com/es/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="ja" href="https://producttally.com/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <link rel="alternate" hreflang="x-default" href="https://producttally.com/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ProductTally">
+  <meta property="og:title" content="Cloudflare Search for Agents 还在返回旧文档？这样排查 — ProductTally">
+  <meta property="og:description" content="沿着一条过时的检索结果，核对源网页、抓取与同步记录，再检查检索缓存。">
+  <meta property="og:url" content="https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/">
+  <meta property="og:image" content="https://producttally.com/assets/social/articles/cloudflare-ai-search-stale-document-results-zh.jpg">
+  <meta property="og:image:alt" content="Cloudflare Search for Agents 还在返回旧文档？这样排查 — ProductTally">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cloudflare Search for Agents 还在返回旧文档？这样排查 — ProductTally">
+  <meta name="twitter:description" content="沿着一条过时的检索结果，核对源网页、抓取与同步记录，再检查检索缓存。">
+  <meta name="twitter:image" content="https://producttally.com/assets/social/articles/cloudflare-ai-search-stale-document-results-zh.jpg">
+  <meta name="twitter:image:alt" content="Cloudflare Search for Agents 还在返回旧文档？这样排查 — ProductTally">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://producttally.com/#organization","name":"ProductTally","url":"https://producttally.com/","logo":"https://producttally.com/assets/producttally-icon.png"},{"@type":"WebSite","@id":"https://producttally.com/#website","name":"ProductTally","url":"https://producttally.com/","inLanguage":["en","zh-CN","es","ja"],"publisher":{"@id":"https://producttally.com/#organization"}},{"@type":"WebPage","@id":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#webpage","name":"Cloudflare Search for Agents 还在返回旧文档？这样排查","description":"沿着一条过时的检索结果，核对源网页、抓取与同步记录，再检查检索缓存。","url":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/","inLanguage":"zh-CN","isPartOf":{"@id":"https://producttally.com/#website"},"publisher":{"@id":"https://producttally.com/#organization"},"mainEntity":{"@id":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#article"},"primaryImageOfPage":{"@id":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#article-image"},"breadcrumb":{"@id":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#breadcrumbs"}},{"@type":"Person","@id":"https://producttally.com/about/#author","name":"Evan","url":"https://producttally.com/about/","worksFor":{"@id":"https://producttally.com/#organization"}},{"@type":"Article","@id":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#article","headline":"Cloudflare Search for Agents 还在返回旧文档？这样排查","description":"沿着一条过时的检索结果，核对源网页、抓取与同步记录，再检查检索缓存。","url":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#webpage"},"author":{"@id":"https://producttally.com/about/#author"},"publisher":{"@id":"https://producttally.com/#organization"},"image":{"@type":"ImageObject","@id":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#article-image","url":"https://producttally.com/assets/articles/cloudflare-ai-search-stale-document-results/cover.webp","contentUrl":"https://producttally.com/assets/articles/cloudflare-ai-search-stale-document-results/cover.webp","width":1200,"height":675,"caption":"网页原文、抓取任务和检索结果各记录一个时间点。"},"datePublished":"2026-11-28","dateModified":"2026-11-28","citation":["https://developers.cloudflare.com/ai-search/how-to/search-for-agents/","https://developers.cloudflare.com/ai-search/configuration/data-source/website/parse-types/","https://developers.cloudflare.com/ai-search/configuration/indexing/syncing/","https://developers.cloudflare.com/ai-search/configuration/retrieval/cache/"]},{"@type":"BreadcrumbList","@id":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/#breadcrumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://producttally.com/zh/"},{"@type":"ListItem","position":2,"name":"SaaS 使用指南与软件选型","item":"https://producttally.com/zh/blog/"},{"@type":"ListItem","position":3,"name":"AI 搜索可见度","item":"https://producttally.com/zh/blog/ai-search-visibility/"},{"@type":"ListItem","position":4,"name":"Cloudflare Search for Agents 还在返回旧文档？这样排查","item":"https://producttally.com/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/"}]}]}</script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/producttally-icon.png" type="image/png" sizes="192x192">
+  <link rel="stylesheet" href="/assets/vendor/webawesome/styles/webawesome.css">
+  <link rel="stylesheet" href="/assets/style-24d4cc5a2a1e.css">
+  <noscript><style>.language-control .language-fallback { display: flex; }</style></noscript>
+
+  <script type="module" src="/assets/app.js"></script>
+  <script defer src="/assets/analytics.js" data-measurement-id="G-CKVBE9XLGY" data-site-origin="https://producttally.com" data-page-type="article" data-page-language="zh" data-article-id="cloudflare-ai-search-stale-document-results" data-product-id=""></script>
+</head>
+<body data-lang="zh" data-save-label="收藏产品" data-unsave-label="取消收藏" data-save-toast="已加入收藏" data-unsave-toast="已取消收藏" data-storage-error="浏览器无法保存这次更改。">
+  <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a>
+        <nav class="primary-nav" aria-label="主导航">
+          <div class="primary-links"><a href="/zh/">首页</a><a href="/zh/products/">产品广场</a><a href="/zh/blog/" aria-current="location">博客</a><a href="/zh/news/">SaaS 产品动态</a><a href="/zh/pricing/">增长服务</a></div>
+        </nav>
+        <div class="language-control">
+          <wa-dropdown data-locale placement="bottom-end" distance="8" size="s">
+            <wa-button slot="trigger" class="language-trigger" appearance="plain" with-caret>
+              <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18M12 3c5 5 5 13 0 18"/></svg> <span class="visually-hidden">语言 <span translate="no">简体中文</span></span>
+              <span class="language-label" aria-hidden="true" translate="no">简体中文</span>
+            </wa-button>
+            <wa-dropdown-item href="/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="en" translate="no">
+      English
+    </wa-dropdown-item><wa-dropdown-item href="/es/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="es" translate="no">
+      Español
+    </wa-dropdown-item><wa-dropdown-item href="/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="ja" translate="no">
+      日本語
+    </wa-dropdown-item><wa-dropdown-item href="/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="zh-CN" translate="no" aria-current="page">
+      简体中文
+      <span slot="details"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></span>
+    </wa-dropdown-item>
+          </wa-dropdown>
+          <nav class="language-fallback" aria-label="语言"><a href="/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="en" hreflang="en" translate="no">English</a><a href="/es/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="es" hreflang="es" translate="no">Español</a><a href="/ja/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="ja" hreflang="ja" translate="no">日本語</a><a href="/zh/blog/ai-search-visibility/cloudflare-ai-search-stale-document-results/" lang="zh-CN" hreflang="zh-CN" translate="no">简体中文</a></nav>
+        </div>
+      </div>
+    </header>
+  <main id="main" tabindex="-1"><nav class="wrap breadcrumbs" aria-label="当前位置">
+    <ol><li><a href="/zh/">首页</a></li><li><a href="/zh/blog/">SaaS 使用指南与软件选型</a></li><li><a href="/zh/blog/ai-search-visibility/">AI 搜索可见度</a></li><li><span aria-current="page">Cloudflare Search for Agents 还在返回旧文档？这样排查</span></li></ol>
+  </nav><article class="wrap detail guide-article guide-article-linear">
+    <header class="detail-header article-header">
+      <div class="article-intro">
+        <p class="eyebrow">搜索优化 · 3 分钟阅读</p>
+        <h1>Cloudflare Search for Agents 还在返回旧文档？这样排查</h1>
+        <p class="lead">沿着一条过时的检索结果，核对源网页、抓取与同步记录，再检查检索缓存。</p>
+        <p class="byline">作者 <a href="/zh/about/">Evan</a>
+          · 发布于 <time datetime="2026-11-28">2026年11月28日</time>
+          · 更新于 <time datetime="2026-11-28">2026年11月28日</time></p>
+
+
+      </div>
+      <figure class="article-hero-media">
+    <div class="article-cover"><img class="article-image"
+    src="/assets/articles/cloudflare-ai-search-stale-document-results/cover.webp" srcset="/assets/articles/cloudflare-ai-search-stale-document-results/cover-small.webp 640w, /assets/articles/cloudflare-ai-search-stale-document-results/cover.webp 1200w" sizes="(max-width: 51rem) 100vw, 49rem"
+    width="1200" height="675" alt="网页原文、抓取任务和检索结果各记录一个时间点。"
+    loading="eager" decoding="async"></div>
+
+  </figure>
+    </header>
+    <div class="article-grid">
+
+      <div class="prose">
+        <div class="article-opening" id="quick-answer">
+    <p>Cloudflare Search for Agents 返回旧内容时，先打开结果引用的原网页，核对当前网页和返回段落，再查最近的抓取与同步。该功能于 2026 年 11 月 25 日发布 Beta 版。</p>
+    <div class="article-intro-sources"><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/how-to/search-for-agents/">Search for Agents 文档</a></div>
+  </div>
+        <section id="section-0">
+          <h2>先看它引用的是哪一页</h2><p>假设桌面软件的安装说明从第 2 版更新到第 3 版。在站点的 /.well-known/search 端点输入客户会问的原话，记下查询时间、来源地址和提到第 2 版的句子。若它指向单独保留的旧版文档，再问一遍明确带有「第 3 版」的问题。这样可以分清是新版网页的索引仍旧，还是搜索找到了另一篇存档。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/how-to/search-for-agents/">Search for Agents 文档</a></li></ul>
+        </section><figure class="article-figure article-figure-natural"><img src="/assets/articles/cloudflare-ai-search-stale-document-results/example.webp" width="1200" height="675"
+          alt="编辑示意图。网页原文、抓取任务和检索结果各记录一个时间点。" loading="lazy" decoding="async"><figcaption>编辑示意图。网页原文、抓取任务和检索结果各记录一个时间点。</figcaption></figure><section id="section-1">
+          <h2>同步成功后，网页也可能还没重抓</h2><p>Search for Agents 默认采用 Discover 抓取，抓取缓存期限为 24 小时。Discover 决定何时重抓时会忽略站点地图的 lastmod。打开实例设置和 Jobs 历史，把网页部署时间与同步任务时间放在一起看。手动同步也遵循实例的重抓规则。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/data-source/website/parse-types/">抓取方式</a></li><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/indexing/syncing/">索引同步任务</a></li></ul>
+        </section><section id="section-2">
+          <h2>用原来的问题复查</h2><p>确认网页内容进入索引后，再用同一个问题查询，对照来源地址和返回段落。若怀疑结果被复用，AI Search 文档说明可通过 cf-aig-cache-status 的 HIT 和 MISS 判断缓存，并指出索引片段变化或删除后，对应缓存会清除。这个端点返回检索到的段落，可以直接核对文字是否已更新。</p><ul class="article-section-sources"><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/how-to/search-for-agents/">Search for Agents 文档</a></li><li><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/retrieval/cache/">相似查询缓存</a></li></ul>
+        </section>
+
+        <section class="article-resources" aria-labelledby="related-guides">
+          <h2 id="related-guides">相关指南</h2>
+          <ul><li><a href="/zh/blog/content-maintenance/fix-outdated-pricing-in-ai-search-citations/">AI 回答说 19 美元，结账是 24 美元，先改哪里？</a></li><li><a href="/zh/blog/ai-search-visibility/google-search-generative-ai-inclusion-control/">保留 Google 普通搜索可见性，怎么调整 AI 展示？</a></li><li><a href="/zh/blog/ai-search-visibility/bing-ai-performance-topic-gaps/">同一个 Bing AI 主题出现两篇文章，需要合并吗？</a></li><li><a href="/zh/blog/ai-search-visibility/bing-ai-performance-citations-vs-referral-visits/">Bing 的 AI 引用翻倍，网站访问为什么没涨？</a></li></ul>
+        </section>
+        <section class="article-resources"><h2>官方参考资料</h2>
+          <ul><li><cite><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/how-to/search-for-agents/">Search for Agents 文档</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/data-source/website/parse-types/">抓取方式</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/indexing/syncing/">索引同步任务</a></cite></li><li><cite><a data-source-citation="true" href="https://developers.cloudflare.com/ai-search/configuration/retrieval/cache/">相似查询缓存</a></cite></li></ul>
+        </section>
+        <nav class="article-sequence" aria-label="文章导航">
+    <div class="article-sequence-items"><a class="article-sequence-card article-sequence-previous" rel="prev" href="/zh/blog/ai-search-visibility/track-ai-citations-monthly-test-protocol/">
+    <span class="article-sequence-direction"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>上一篇文章</span></span>
+    <span class="article-sequence-title">哪些文章被 AI 引用了？每月用同一组问题复测</span>
+  </a><a class="article-sequence-card article-sequence-next" rel="next" href="/zh/blog/ai-search-visibility/google-search-generative-ai-controls-keep-indexing/">
+    <span class="article-sequence-direction"><span>下一篇文章</span><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg></span>
+    <span class="article-sequence-title">Google 生成式 AI 控制怎么选？保留搜索收录时先看这三项</span>
+  </a></div>
+    <a class="article-sequence-back" href="/zh/blog/ai-search-visibility/"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M13 5l7 7-7 7"/></svg><span>AI 搜索可见度的全部文章</span></a>
+  </nav>
+      </div>
+    </div>
+  </article></main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="/zh/" aria-label="ProductTally" translate="no">
+    <img src="/assets/producttally-icon.png" alt="" width="38" height="38">
+    <span>Product<span class="brand-light">Tally</span></span>
+  </a><p>为创作者和小团队提供产品发现与增长支持。</p>
+        <a class="footer-contact" data-contact-click="general" data-product-link-location="footer-contact" href="mailto:support@producttally.com">邮件联系 Evan</a>
+      </div>
+      <nav aria-label="页脚导航">
+        <a href="/zh/products/">产品广场</a>
+        <a href="/zh/blog/">博客</a>
+        <a href="/zh/news/">SaaS 产品动态</a>
+        <a href="/zh/about/">关于这个项目</a>
+        <a href="/zh/pricing/">增长服务</a>
+        <a href="/zh/for-agents/">站点资料</a>
+        <a href="/zh/privacy/">隐私说明</a>
+        <a href="/zh/disclaimer/">免责声明</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom"><span>© 2026 ProductTally</span><span>独立产品刊物 · Evan 编辑</span></div>
+  </footer>
+  <wa-toast data-action-toast placement="bottom-end"></wa-toast>
+</body>
+</html>
